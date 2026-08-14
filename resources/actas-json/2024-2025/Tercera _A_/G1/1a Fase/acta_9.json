@@ -1,0 +1,971 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "3a \"A\"",
+  "grupo": 1,
+  "jornada": 9,
+  "fecha": "2024-12-01",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "ATT CASTELLAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT BARCELONA ''B''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
+      "B": {
+        "licencia": "2399",
+        "nombre": "CALBET Oriol"
+      },
+      "C": {
+        "licencia": "7654",
+        "nombre": "PUJANTE Javier"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      "X": {
+        "licencia": "7095",
+        "nombre": "PICAS Jordi"
+      },
+      "Z": {
+        "licencia": "16291",
+        "nombre": "CATALUÑA Jorge"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "2399",
+        "nombre": "CALBET Oriol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7095",
+        "nombre": "PICAS Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7654",
+        "nombre": "PUJANTE Javier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16291",
+        "nombre": "CATALUÑA Jorge"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7095",
+        "nombre": "PICAS Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7654",
+        "nombre": "PUJANTE Javier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "2399",
+        "nombre": "CALBET Oriol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16291",
+        "nombre": "CATALUÑA Jorge"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16812",
+        "nombre": "RIU Miquel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6687",
+        "nombre": "COLL David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 8,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15078",
+        "nombre": "BOLOIX Cesc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "607",
+        "nombre": "CASTILLO Carlos Jesús"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 6
+      }
+    },
+    {
+      "numero": 9,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10059",
+        "nombre": "SIBEAUX Florent"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 7
+      }
+    },
+    {
+      "numero": 10,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16812",
+        "nombre": "RIU Miquel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "607",
+        "nombre": "CASTILLO Carlos Jesús"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 8
+      }
+    },
+    {
+      "numero": 11,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6687",
+        "nombre": "COLL David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 9
+      }
+    },
+    {
+      "numero": 12,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15078",
+        "nombre": "BOLOIX Cesc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10059",
+        "nombre": "SIBEAUX Florent"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 10
+      }
+    },
+    {
+      "numero": 13,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16459",
+        "nombre": "MIESHCHERIAKOV Yaroslau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12159",
+        "nombre": "BAULENAS Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 10
+      }
+    },
+    {
+      "numero": 14,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "17727",
+        "nombre": "POOLE Miquel Norman"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 11
+      }
+    },
+    {
+      "numero": 15,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "19147",
+        "nombre": "GHOULLA Said"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 12
+      }
+    },
+    {
+      "numero": 16,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16459",
+        "nombre": "MIESHCHERIAKOV Yaroslau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 12
+      }
+    },
+    {
+      "numero": 17,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "19147",
+        "nombre": "GHOULLA Said"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12159",
+        "nombre": "BAULENAS Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 13
+      }
+    },
+    {
+      "numero": 18,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "17727",
+        "nombre": "POOLE Miquel Norman"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 14
+      }
+    },
+    {
+      "numero": 19,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "975",
+        "nombre": "HUGUET Ferran"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15431",
+        "nombre": "CODOLÀ Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 14
+      }
+    },
+    {
+      "numero": 20,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15071",
+        "nombre": "LLOVET Agnès"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15441",
+        "nombre": "PIMENTEL Luis Guillermo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 15
+      }
+    },
+    {
+      "numero": 21,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15429",
+        "nombre": "MUJICA Sergio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 16
+      }
+    },
+    {
+      "numero": 22,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "975",
+        "nombre": "HUGUET Ferran"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15441",
+        "nombre": "PIMENTEL Luis Guillermo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 16
+      }
+    },
+    {
+      "numero": 23,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15431",
+        "nombre": "CODOLÀ Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 17
+      }
+    },
+    {
+      "numero": 24,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15071",
+        "nombre": "LLOVET Agnès"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15429",
+        "nombre": "MUJICA Sergio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 18
+      }
+    },
+    {
+      "numero": 25,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16335",
+        "nombre": "CALVET Martí"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 19
+      }
+    },
+    {
+      "numero": 26,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7755",
+        "nombre": "LLOBET Arnau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 20
+      }
+    },
+    {
+      "numero": 27,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16331",
+        "nombre": "GARCIA Sergio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "376",
+        "nombre": "BOSCH Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 21
+      }
+    },
+    {
+      "numero": 28,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16335",
+        "nombre": "CALVET Martí"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 7,
+        "visitante": 21
+      }
+    },
+    {
+      "numero": 29,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16331",
+        "nombre": "GARCIA Sergio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 7,
+        "visitante": 22
+      }
+    },
+    {
+      "numero": 30,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7755",
+        "nombre": "LLOBET Arnau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "376",
+        "nombre": "BOSCH Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 7,
+        "visitante": 23
+      }
+    },
+    {
+      "numero": 31,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 7,
+        "visitante": 24
+      }
+    },
+    {
+      "numero": 32,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11240",
+        "nombre": "PONS Ignasi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18760",
+        "nombre": "MAJO Marti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 8,
+        "visitante": 24
+      }
+    },
+    {
+      "numero": 33,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "18941",
+        "nombre": "ABRIL Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 9,
+        "visitante": 24
+      }
+    },
+    {
+      "numero": 34,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18760",
+        "nombre": "MAJO Marti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 10,
+        "visitante": 24
+      }
+    },
+    {
+      "numero": 35,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 10,
+        "visitante": 25
+      }
+    },
+    {
+      "numero": 36,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11240",
+        "nombre": "PONS Ignasi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "18941",
+        "nombre": "ABRIL Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 11,
+        "visitante": 25
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ATT CASTELLAR",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

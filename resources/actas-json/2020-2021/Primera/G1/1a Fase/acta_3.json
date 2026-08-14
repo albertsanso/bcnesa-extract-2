@@ -1,0 +1,521 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "1a",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2021-03-27",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "UE SANT CUGAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8008",
+        "nombre": "VARGAS Neo"
+      },
+      "B": {
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      "C": {
+        "licencia": "3573",
+        "nombre": "PEREZ Marta"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "10145",
+        "nombre": "BETETA Miquel"
+      },
+      "X": {
+        "licencia": "8912",
+        "nombre": "PAREDES Marco"
+      },
+      "Z": {
+        "licencia": "10123",
+        "nombre": "FERRER Bernat"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8008",
+        "nombre": "VARGAS Neo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10145",
+        "nombre": "BETETA Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8912",
+        "nombre": "PAREDES Marco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "3573",
+        "nombre": "PEREZ Marta"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10123",
+        "nombre": "FERRER Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8008",
+        "nombre": "VARGAS Neo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8912",
+        "nombre": "PAREDES Marco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "3573",
+        "nombre": "PEREZ Marta"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10145",
+        "nombre": "BETETA Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10123",
+        "nombre": "FERRER Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6247",
+        "nombre": "LLORENS Victor"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 8,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "758",
+        "nombre": "CASTAÑE Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7399",
+        "nombre": "GUTIERREZ Judith"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 9,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11242",
+        "nombre": "SANCHEZ Ismael"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11062",
+        "nombre": "GANDULLO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 10,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7399",
+        "nombre": "GUTIERREZ Judith"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 11,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11242",
+        "nombre": "SANCHEZ Ismael"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6247",
+        "nombre": "LLORENS Victor"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 12,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "758",
+        "nombre": "CASTAÑE Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11062",
+        "nombre": "GANDULLO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 6
+      }
+    },
+    {
+      "numero": 13,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2030",
+        "nombre": "SANCHEZ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 7
+      }
+    },
+    {
+      "numero": 14,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6656",
+        "nombre": "ALVAREZ Antonio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 8
+      }
+    },
+    {
+      "numero": 15,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10908",
+        "nombre": "ARDERIU Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 7,
+        "visitante": 8
+      }
+    },
+    {
+      "numero": 16,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 7,
+        "visitante": 9
+      }
+    },
+    {
+      "numero": 17,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2030",
+        "nombre": "SANCHEZ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 8,
+        "visitante": 9
+      }
+    },
+    {
+      "numero": 18,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6656",
+        "nombre": "ALVAREZ Antonio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10908",
+        "nombre": "ARDERIU Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 8,
+        "visitante": 10
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "UE SANT CUGAT",
+    "marcador_partidos": {
+      "local": 8,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}
