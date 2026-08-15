@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "3a \"B\"",
+  "grupo": 4,
+  "jornada": 11,
+  "fecha": "2023-01-22",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CPP IGUALADA ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "582",
+        "nombre": "BERTRAN Joan"
+      },
+      "B": {
+        "licencia": "14953",
+        "nombre": "GARRETA Quim"
+      },
+      "C": {
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
+      "X": {
+        "licencia": "17211",
+        "nombre": "BARRETO Javier"
+      },
+      "Z": {
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "582",
+        "nombre": "BERTRAN Joan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14953",
+        "nombre": "GARRETA Quim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17211",
+        "nombre": "BARRETO Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "582",
+        "nombre": "BERTRAN Joan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17211",
+        "nombre": "BARRETO Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14953",
+        "nombre": "GARRETA Quim"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CPP IGUALADA ''A''",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

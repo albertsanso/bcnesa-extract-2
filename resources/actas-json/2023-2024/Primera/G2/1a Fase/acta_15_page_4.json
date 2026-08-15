@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "1a",
+  "grupo": 2,
+  "jornada": 15,
+  "fecha": "2024-02-10",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS D'HORTA TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA I LA GELTRU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      },
+      "B": {
+        "licencia": "7597",
+        "nombre": "SOLE Xavier"
+      },
+      "C": {
+        "licencia": "696",
+        "nombre": "BARTOLÍ David"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17643",
+        "nombre": "DEL RIO Joaquin"
+      },
+      "X": {
+        "licencia": "17644",
+        "nombre": "NICOLIN Fabrice"
+      },
+      "Z": {
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17643",
+        "nombre": "DEL RIO Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7597",
+        "nombre": "SOLE Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17644",
+        "nombre": "NICOLIN Fabrice"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "696",
+        "nombre": "BARTOLÍ David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17644",
+        "nombre": "NICOLIN Fabrice"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "696",
+        "nombre": "BARTOLÍ David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17643",
+        "nombre": "DEL RIO Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7597",
+        "nombre": "SOLE Xavier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "LLUÏSOS D'HORTA TT",
+    "marcador_partidos": {
+      "local": 17,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

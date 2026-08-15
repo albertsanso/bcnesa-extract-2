@@ -8,13 +8,19 @@ Se han encontrado algunos errores de parseo.
 
 - Corregir y modificar el script `convert_pdf_to_json.py` y genere un JSON válido.
 
+# Hard rules
+
+When processsing this document, you must follow these rules:
+- Use the information in the PDF to generate a JSON that matches the structure defined in `/resources/actas-json/model-definition.json`.
+- Only sections finished with `PENDING` should be considered as problems to be fixed. Sections marked as `FIXED` should be ignored.
+
 # Source of truth
 
 El formato JSON de salida debe cumplir con la estructura definida en el archivo `/resources/actas-json/model-definition.json`, que define los campos esperados y sus tipos.
 
 # Problemas conocidos
 
-## Informacion de partidos de dobles omitida - PENDING
+## Informacion de partidos de dobles omitida - FIXED - SKIP
 
 La informacion de los patidos de dobles se encuentra en el nodo "dobles" del JSON generado, pero no se captura correctamente.
 
@@ -69,3 +75,10 @@ TT L'HOSPITALET 'B' EL CENTRE Jocs 13 14
 Donde las lines que empiezan por `D1` y `D2` o valores diferentes a `A`, `B`, `C` y `X`, `Y`, `Z` son los partidos de dobles, y se debe capturar 
 correctamente la informacion de los jugadores de dobles, incluyendo su nombre y número de licencia.
 
+## PDF son multi-acta - PENDING
+
+Los ficheros PDF pueden contener varias actas, y el script actual no maneja correctamente este caso.
+
+### Descripcion del problema
+
+Cada página del PDF contiene exactamente una acta, por lo que el script debe procesar cada página por separado y generar un JSON para cada acta.

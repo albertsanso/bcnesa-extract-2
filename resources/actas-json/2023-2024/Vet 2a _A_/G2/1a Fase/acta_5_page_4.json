@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Veterans 2a \"A\"",
+  "grupo": 2,
+  "jornada": 5,
+  "fecha": "2023-11-07",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS D'HORTA TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "ATT PREMIÀ DE MAR",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "15125",
+        "nombre": "GOMEZ Lluis"
+      },
+      "B": {
+        "licencia": "696",
+        "nombre": "BARTOLÍ David"
+      },
+      "C": {
+        "licencia": "757",
+        "nombre": "LLORENTE Albert"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      "X": {
+        "licencia": "707",
+        "nombre": "GARCIA Xavier"
+      },
+      "Z": {
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "15125",
+        "nombre": "GOMEZ Lluis"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "696",
+        "nombre": "BARTOLÍ David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "707",
+        "nombre": "GARCIA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "757",
+        "nombre": "LLORENTE Albert"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "15125",
+        "nombre": "GOMEZ Lluis"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "707",
+        "nombre": "GARCIA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "757",
+        "nombre": "LLORENTE Albert"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "696",
+        "nombre": "BARTOLÍ David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ATT PREMIÀ DE MAR",
+    "marcador_partidos": {
+      "local": 11,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

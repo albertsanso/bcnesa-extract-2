@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 6,
+  "fecha": "2021-12-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "B": {
+        "licencia": "6639",
+        "nombre": "FELIU Jose"
+      },
+      "C": {
+        "licencia": "7213",
+        "nombre": "FELIU Javier"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "X": {
+        "licencia": "4911",
+        "nombre": "CATALAN Oriol"
+      },
+      "Z": {
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "7213",
+        "nombre": "FELIU Javier"
+      },
+      {
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "4911",
+        "nombre": "CATALAN Oriol"
+      },
+      {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6639",
+        "nombre": "FELIU Jose"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4911",
+        "nombre": "CATALAN Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7213",
+        "nombre": "FELIU Javier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4911",
+        "nombre": "CATALAN Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7213",
+        "nombre": "FELIU Javier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6639",
+        "nombre": "FELIU Jose"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7213",
+            "nombre": "FELIU Javier"
+          },
+          {
+            "licencia": "3548",
+            "nombre": "ALVAREZ Enrique Sotero"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "4911",
+            "nombre": "CATALAN Oriol"
+          },
+          {
+            "licencia": "851",
+            "nombre": "SERRES Jordi"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS DE TERRASSA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

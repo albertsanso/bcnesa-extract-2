@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Veterans 1a",
+  "grupo": 1,
+  "jornada": 9,
+  "fecha": "2022-12-13",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT PARETS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "755",
+        "nombre": "MOLINA Miguel"
+      },
+      "B": {
+        "licencia": "1996",
+        "nombre": "MONTAÑANA Hector"
+      },
+      "C": {
+        "licencia": "846",
+        "nombre": "MARTÍN Agustí"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "10320",
+        "nombre": "FERNANDEZ Francisco"
+      },
+      "X": {
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      "Z": {
+        "licencia": "1723",
+        "nombre": "DIAZ Juan"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "755",
+        "nombre": "MOLINA Miguel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10320",
+        "nombre": "FERNANDEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "1996",
+        "nombre": "MONTAÑANA Hector"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "846",
+        "nombre": "MARTÍN Agustí"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1723",
+        "nombre": "DIAZ Juan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "755",
+        "nombre": "MOLINA Miguel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "846",
+        "nombre": "MARTÍN Agustí"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10320",
+        "nombre": "FERNANDEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "1996",
+        "nombre": "MONTAÑANA Hector"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1723",
+        "nombre": "DIAZ Juan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT PARETS",
+    "marcador_partidos": {
+      "local": 17,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

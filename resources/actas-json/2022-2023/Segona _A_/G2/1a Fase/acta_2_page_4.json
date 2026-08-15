@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "2a \"A\"",
+  "grupo": 2,
+  "jornada": 2,
+  "fecha": "2022-10-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "PROTEC BADALONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT PRAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      },
+      "B": {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "C": {
+        "licencia": "4142",
+        "nombre": "SALGUERO Albert"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "X": {
+        "licencia": "5144",
+        "nombre": "TOST Daniel"
+      },
+      "Z": {
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      {
+        "licencia": "4142",
+        "nombre": "SALGUERO Albert"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      {
+        "licencia": "5144",
+        "nombre": "TOST Daniel"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5144",
+        "nombre": "TOST Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "4142",
+        "nombre": "SALGUERO Albert"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5144",
+        "nombre": "TOST Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "4142",
+        "nombre": "SALGUERO Albert"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8328",
+            "nombre": "GIMENEZ Angel"
+          },
+          {
+            "licencia": "4142",
+            "nombre": "SALGUERO Albert"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5638",
+            "nombre": "RABADAN Luis"
+          },
+          {
+            "licencia": "5144",
+            "nombre": "TOST Daniel"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "PROTEC BADALONA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

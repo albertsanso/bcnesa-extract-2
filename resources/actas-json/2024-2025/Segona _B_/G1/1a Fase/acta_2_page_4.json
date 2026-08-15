@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "2a \"B\"",
+  "grupo": 1,
+  "jornada": 2,
+  "fecha": "2024-10-06",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT L'HOSPITALET ''A''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
+      "B": {
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
+      "C": {
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8253",
+        "nombre": "MARRO Daniel"
+      },
+      "X": {
+        "licencia": "16001",
+        "nombre": "PUJOL Miquel"
+      },
+      "Z": {
+        "licencia": "15455",
+        "nombre": "MOGEDANO Eric"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8253",
+        "nombre": "MARRO Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16001",
+        "nombre": "PUJOL Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15455",
+        "nombre": "MOGEDANO Eric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16001",
+        "nombre": "PUJOL Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8253",
+        "nombre": "MARRO Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15455",
+        "nombre": "MOGEDANO Eric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CIERVO",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

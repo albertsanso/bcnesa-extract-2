@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "2a \"A\"",
+  "grupo": 2,
+  "jornada": 21,
+  "fecha": "2025-04-26",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CN MATARÓ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA ''B''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      },
+      "B": {
+        "licencia": "16791",
+        "nombre": "SÁEZ Hiram"
+      },
+      "C": {
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
+      "X": {
+        "licencia": "14441",
+        "nombre": "MASIP Alex"
+      },
+      "Z": {
+        "licencia": "16496",
+        "nombre": "DELRIU Jan"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      },
+      {
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16496",
+        "nombre": "DELRIU Jan"
+      },
+      {
+        "licencia": "14441",
+        "nombre": "MASIP Alex"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16791",
+        "nombre": "SÁEZ Hiram"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14441",
+        "nombre": "MASIP Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16496",
+        "nombre": "DELRIU Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14441",
+        "nombre": "MASIP Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16791",
+        "nombre": "SÁEZ Hiram"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16496",
+        "nombre": "DELRIU Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12566",
+            "nombre": "NUÑEZ Roc"
+          },
+          {
+            "licencia": "15599",
+            "nombre": "SÁNCHEZ Pau"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16496",
+            "nombre": "DELRIU Jan"
+          },
+          {
+            "licencia": "14441",
+            "nombre": "MASIP Alex"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CN MATARÓ",
+    "marcador_partidos": {
+      "local": 18,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

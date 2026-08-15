@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "3a \"B\"",
+  "grupo": 1,
+  "jornada": 11,
+  "fecha": "2021-05-08",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT BARCELONA ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT SANT ANDREU \"B\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8153",
+        "nombre": "CALVETE Nil"
+      },
+      "B": {
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
+      "C": {
+        "licencia": "5881",
+        "nombre": "GIL Eloi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13988",
+        "nombre": "GUILLÉN Lucía"
+      },
+      "X": {
+        "licencia": "13986",
+        "nombre": "CASTILLA Hugo"
+      },
+      "Z": {
+        "licencia": "13987",
+        "nombre": "CASTAÑO Cristina"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8153",
+        "nombre": "CALVETE Nil"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13988",
+        "nombre": "GUILLÉN Lucía"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13986",
+        "nombre": "CASTILLA Hugo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5881",
+        "nombre": "GIL Eloi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13987",
+        "nombre": "CASTAÑO Cristina"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8153",
+        "nombre": "CALVETE Nil"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13986",
+        "nombre": "CASTILLA Hugo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5881",
+        "nombre": "GIL Eloi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13988",
+        "nombre": "GUILLÉN Lucía"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13987",
+        "nombre": "CASTAÑO Cristina"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT BARCELONA ''A''",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

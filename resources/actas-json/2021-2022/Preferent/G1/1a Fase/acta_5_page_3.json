@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 5,
+  "fecha": "2021-11-28",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "UE SANT CUGAT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CLUB NATACIO SABADELL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "169",
+        "nombre": "PAREJA Joan"
+      },
+      "B": {
+        "licencia": "6203",
+        "nombre": "ORTIZ Francesc Xavier"
+      },
+      "C": {
+        "licencia": "10540",
+        "nombre": "FIGOLS Enric"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12466",
+        "nombre": "CLADELLAS Oriol"
+      },
+      "X": {
+        "licencia": "7752",
+        "nombre": "FONT Aniol"
+      },
+      "Z": {
+        "licencia": "11643",
+        "nombre": "BARBERÀ Quim"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "10540",
+        "nombre": "FIGOLS Enric"
+      },
+      {
+        "licencia": "169",
+        "nombre": "PAREJA Joan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12466",
+        "nombre": "CLADELLAS Oriol"
+      },
+      {
+        "licencia": "7752",
+        "nombre": "FONT Aniol"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "169",
+        "nombre": "PAREJA Joan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12466",
+        "nombre": "CLADELLAS Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6203",
+        "nombre": "ORTIZ Francesc Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7752",
+        "nombre": "FONT Aniol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10540",
+        "nombre": "FIGOLS Enric"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11643",
+        "nombre": "BARBERÀ Quim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "169",
+        "nombre": "PAREJA Joan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7752",
+        "nombre": "FONT Aniol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10540",
+        "nombre": "FIGOLS Enric"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12466",
+        "nombre": "CLADELLAS Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6203",
+        "nombre": "ORTIZ Francesc Xavier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11643",
+        "nombre": "BARBERÀ Quim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "10540",
+            "nombre": "FIGOLS Enric"
+          },
+          {
+            "licencia": "169",
+            "nombre": "PAREJA Joan"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12466",
+            "nombre": "CLADELLAS Oriol"
+          },
+          {
+            "licencia": "7752",
+            "nombre": "FONT Aniol"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "UE SANT CUGAT",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

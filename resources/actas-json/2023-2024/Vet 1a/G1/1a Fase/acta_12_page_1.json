@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Veterans 1a",
+  "grupo": 1,
+  "jornada": 12,
+  "fecha": "2024-01-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CIERVO ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT PRAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
+      "B": {
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "C": {
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "X": {
+        "licencia": "842",
+        "nombre": "RUIZ Amador"
+      },
+      "Z": {
+        "licencia": "850",
+        "nombre": "DURAN Roberto Carlos"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "842",
+        "nombre": "RUIZ Amador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "850",
+        "nombre": "DURAN Roberto Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "842",
+        "nombre": "RUIZ Amador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "850",
+        "nombre": "DURAN Roberto Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CIERVO ''A''",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "Preferent",
+  "grupo": 3,
+  "jornada": 11,
+  "fecha": "2021-05-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT L'HOSPITALET GRUPO PREVING",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14156",
+        "nombre": "GHASEMI Soheil"
+      },
+      "B": {
+        "licencia": "8114",
+        "nombre": "HERRERO Pau"
+      },
+      "C": {
+        "licencia": "7212",
+        "nombre": "JAMETT Witerman Boris"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "X": {
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
+      "Z": {
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14156",
+        "nombre": "GHASEMI Soheil"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8114",
+        "nombre": "HERRERO Pau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7212",
+        "nombre": "JAMETT Witerman Boris"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14156",
+        "nombre": "GHASEMI Soheil"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7212",
+        "nombre": "JAMETT Witerman Boris"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8114",
+        "nombre": "HERRERO Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT L'HOSPITALET GRUPO PREVING",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

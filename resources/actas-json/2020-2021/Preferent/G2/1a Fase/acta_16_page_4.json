@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "Preferent",
+  "grupo": 2,
+  "jornada": 16,
+  "fecha": "2021-05-30",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MASQUEFA TTC",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "ICELAND ELS 8 DE LA GARRIGA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "1994",
+        "nombre": "MENAL Manuel"
+      },
+      "B": {
+        "licencia": "4525",
+        "nombre": "CID Miquel"
+      },
+      "C": {
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8592",
+        "nombre": "LARRUBIA Raquel"
+      },
+      "X": {
+        "licencia": "7803",
+        "nombre": "MOLINS Cesc"
+      },
+      "Z": {
+        "licencia": "4624",
+        "nombre": "EDO Josep"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "1994",
+        "nombre": "MENAL Manuel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8592",
+        "nombre": "LARRUBIA Raquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "4525",
+        "nombre": "CID Miquel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7803",
+        "nombre": "MOLINS Cesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4624",
+        "nombre": "EDO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "1994",
+        "nombre": "MENAL Manuel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7803",
+        "nombre": "MOLINS Cesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8592",
+        "nombre": "LARRUBIA Raquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "4525",
+        "nombre": "CID Miquel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4624",
+        "nombre": "EDO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ICELAND ELS 8 DE LA GARRIGA",
+    "marcador_partidos": {
+      "local": 10,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

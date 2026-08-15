@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "4a",
+  "grupo": 4,
+  "jornada": 14,
+  "fecha": "2025-02-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT SANTA PERPETUA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CN SABADELL \"A\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
+      "B": {
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      },
+      "C": {
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "18029",
+        "nombre": "POYATOS Pau"
+      },
+      "X": {
+        "licencia": "15556",
+        "nombre": "LLONCH Roger"
+      },
+      "Z": {
+        "licencia": "18076",
+        "nombre": "SILVESTRE Marta"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "18029",
+        "nombre": "POYATOS Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15556",
+        "nombre": "LLONCH Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "18076",
+        "nombre": "SILVESTRE Marta"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15556",
+        "nombre": "LLONCH Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "18029",
+        "nombre": "POYATOS Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "18076",
+        "nombre": "SILVESTRE Marta"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT SANTA PERPETUA",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

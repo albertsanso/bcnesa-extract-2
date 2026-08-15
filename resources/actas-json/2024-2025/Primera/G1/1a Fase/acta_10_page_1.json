@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "1a",
+  "grupo": 1,
+  "jornada": 10,
+  "fecha": "2024-12-15",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILAFRANCA ''B''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "B": {
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "C": {
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17818",
+        "nombre": "FONT Gerard"
+      },
+      "X": {
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "Z": {
+        "licencia": "14949",
+        "nombre": "GALOFRÉ Guillem"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17818",
+        "nombre": "FONT Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14949",
+        "nombre": "GALOFRÉ Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17818",
+        "nombre": "FONT Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14949",
+        "nombre": "GALOFRÉ Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLDEFELS",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

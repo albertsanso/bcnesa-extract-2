@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "2a \"A\"",
+  "grupo": 2,
+  "jornada": 5,
+  "fecha": "2025-11-01",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "B": {
+        "licencia": "16386",
+        "nombre": "PUIG Quim"
+      },
+      "C": {
+        "licencia": "11298",
+        "nombre": "LUCO Guillem"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      },
+      "X": {
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "Z": {
+        "licencia": "5639",
+        "nombre": "SANCHEZ Oscar"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16386",
+        "nombre": "PUIG Quim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11298",
+        "nombre": "LUCO Guillem"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "5639",
+        "nombre": "SANCHEZ Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11298",
+        "nombre": "LUCO Guillem"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16386",
+        "nombre": "PUIG Quim"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "5639",
+        "nombre": "SANCHEZ Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CPP IGUALADA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

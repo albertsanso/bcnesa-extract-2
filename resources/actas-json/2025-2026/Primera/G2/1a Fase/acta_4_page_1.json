@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "1a",
+  "grupo": 2,
+  "jornada": 4,
+  "fecha": "2025-10-26",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT LA POBLA DE LILLET",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA I LA GELTRU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "4934",
+        "nombre": "QUESADA Miquel"
+      },
+      "B": {
+        "licencia": "1680",
+        "nombre": "PONS Lluis"
+      },
+      "C": {
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14418",
+        "nombre": "PANOSA Bernat"
+      },
+      "X": {
+        "licencia": "10777",
+        "nombre": "CERVELLÓ Marc"
+      },
+      "Z": {
+        "licencia": "123",
+        "nombre": "LOPEZ Santiago"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "4934",
+        "nombre": "QUESADA Miquel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14418",
+        "nombre": "PANOSA Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "1680",
+        "nombre": "PONS Lluis"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10777",
+        "nombre": "CERVELLÓ Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "123",
+        "nombre": "LOPEZ Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "4934",
+        "nombre": "QUESADA Miquel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10777",
+        "nombre": "CERVELLÓ Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14418",
+        "nombre": "PANOSA Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "1680",
+        "nombre": "PONS Lluis"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "123",
+        "nombre": "LOPEZ Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILANOVA I LA GELTRU",
+    "marcador_partidos": {
+      "local": 7,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

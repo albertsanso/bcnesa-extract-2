@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "3a \"A\"",
+  "grupo": 1,
+  "jornada": 12,
+  "fecha": "2025-01-18",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CLUB ARIEL \"A\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SENTMENAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6687",
+        "nombre": "COLL David"
+      },
+      "B": {
+        "licencia": "16407",
+        "nombre": "CARA Roger"
+      },
+      "C": {
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6622",
+        "nombre": "ARMENGOL David"
+      },
+      "X": {
+        "licencia": "13069",
+        "nombre": "CALVO Jaume"
+      },
+      "Z": {
+        "licencia": "14509",
+        "nombre": "PARULL Xavier"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6687",
+        "nombre": "COLL David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6622",
+        "nombre": "ARMENGOL David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16407",
+        "nombre": "CARA Roger"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13069",
+        "nombre": "CALVO Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14509",
+        "nombre": "PARULL Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6687",
+        "nombre": "COLL David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13069",
+        "nombre": "CALVO Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6622",
+        "nombre": "ARMENGOL David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16407",
+        "nombre": "CARA Roger"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14509",
+        "nombre": "PARULL Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB ARIEL \"A\"",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

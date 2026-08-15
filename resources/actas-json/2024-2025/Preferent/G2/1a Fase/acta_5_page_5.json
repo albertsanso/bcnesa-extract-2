@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Preferent",
+  "grupo": 2,
+  "jornada": 5,
+  "fecha": "2024-10-27",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MASQUEFA TTC",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA DEL CAMI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
+      },
+      "B": {
+        "licencia": "19172",
+        "nombre": "MURILLO Juan Emmanuel"
+      },
+      "C": {
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "5393",
+        "nombre": "SALA David"
+      },
+      "X": {
+        "licencia": "8346",
+        "nombre": "PEREZ Javier"
+      },
+      "Z": {
+        "licencia": "5392",
+        "nombre": "TENDERO Antonio"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5393",
+        "nombre": "SALA David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "19172",
+        "nombre": "MURILLO Juan Emmanuel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8346",
+        "nombre": "PEREZ Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "5392",
+        "nombre": "TENDERO Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8346",
+        "nombre": "PEREZ Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5393",
+        "nombre": "SALA David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "19172",
+        "nombre": "MURILLO Juan Emmanuel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "5392",
+        "nombre": "TENDERO Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "MASQUEFA TTC",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

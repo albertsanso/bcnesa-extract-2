@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "3a \"B\"",
+  "grupo": 1,
+  "jornada": 11,
+  "fecha": "2025-01-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT SANTA PERPETUA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12890",
+        "nombre": "PRUNES Alfred"
+      },
+      "B": {
+        "licencia": "693",
+        "nombre": "MATEO Daniel"
+      },
+      "C": {
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16789",
+        "nombre": "PERALS Vicenç"
+      },
+      "X": {
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
+      "Z": {
+        "licencia": "16786",
+        "nombre": "LLORENS Miguel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12890",
+        "nombre": "PRUNES Alfred"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16789",
+        "nombre": "PERALS Vicenç"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "693",
+        "nombre": "MATEO Daniel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16786",
+        "nombre": "LLORENS Miguel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12890",
+        "nombre": "PRUNES Alfred"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16789",
+        "nombre": "PERALS Vicenç"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "693",
+        "nombre": "MATEO Daniel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16786",
+        "nombre": "LLORENS Miguel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT SANTA PERPETUA",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

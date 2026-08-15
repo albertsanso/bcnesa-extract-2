@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "3a \"B\"",
+  "grupo": 2,
+  "jornada": 15,
+  "fecha": "2025-02-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TARINAS CALELLA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "19325",
+        "nombre": "MORA O. Jose Miguel"
+      },
+      "B": {
+        "licencia": "10220",
+        "nombre": "PLAZA Francisco José"
+      },
+      "C": {
+        "licencia": "19324",
+        "nombre": "MORA C. Jose Miguel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
+      "X": {
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "Z": {
+        "licencia": "6404",
+        "nombre": "ZIELINSKI Mariusz Jan"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "19325",
+        "nombre": "MORA O. Jose Miguel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "10220",
+        "nombre": "PLAZA Francisco José"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "19324",
+        "nombre": "MORA C. Jose Miguel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6404",
+        "nombre": "ZIELINSKI Mariusz Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "19325",
+        "nombre": "MORA O. Jose Miguel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "19324",
+        "nombre": "MORA C. Jose Miguel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "10220",
+        "nombre": "PLAZA Francisco José"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6404",
+        "nombre": "ZIELINSKI Mariusz Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS DE TERRASSA",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

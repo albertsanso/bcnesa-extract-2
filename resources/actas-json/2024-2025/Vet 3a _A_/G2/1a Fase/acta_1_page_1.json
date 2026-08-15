@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Veterans 3a \"A\"",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2024-10-01",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CC SANTS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "3592",
+        "nombre": "MARTI Lluis"
+      },
+      "B": {
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
+      },
+      "C": {
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "370",
+        "nombre": "PLA Joan"
+      },
+      "X": {
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
+      "Z": {
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3592",
+        "nombre": "MARTI Lluis"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "370",
+        "nombre": "PLA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3592",
+        "nombre": "MARTI Lluis"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "370",
+        "nombre": "PLA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CC SANTS",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

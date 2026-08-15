@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "grupo": 2,
+  "jornada": 14,
+  "fecha": "2024-02-03",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA \"D\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT LA UNIÓ ''A''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17966",
+        "nombre": "CASTELLÓ Joaquim"
+      },
+      "B": {
+        "licencia": "16820",
+        "nombre": "CASALS Toni"
+      },
+      "C": {
+        "licencia": "16482",
+        "nombre": "CORTÉS Alfred"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8899",
+        "nombre": "VILALTA Albert"
+      },
+      "X": {
+        "licencia": "13813",
+        "nombre": "MIRAS Pedro"
+      },
+      "Z": {
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "16482",
+        "nombre": "CORTÉS Alfred"
+      },
+      {
+        "licencia": "16820",
+        "nombre": "CASALS Toni"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13813",
+        "nombre": "MIRAS Pedro"
+      },
+      {
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17966",
+        "nombre": "CASTELLÓ Joaquim"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8899",
+        "nombre": "VILALTA Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16820",
+        "nombre": "CASALS Toni"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13813",
+        "nombre": "MIRAS Pedro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16482",
+        "nombre": "CORTÉS Alfred"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17966",
+        "nombre": "CASTELLÓ Joaquim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13813",
+        "nombre": "MIRAS Pedro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16482",
+        "nombre": "CORTÉS Alfred"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8899",
+        "nombre": "VILALTA Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16820",
+        "nombre": "CASALS Toni"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16482",
+            "nombre": "CORTÉS Alfred"
+          },
+          {
+            "licencia": "16820",
+            "nombre": "CASALS Toni"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13813",
+            "nombre": "MIRAS Pedro"
+          },
+          {
+            "licencia": "7854",
+            "nombre": "VILALTA Jaime"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT LA UNIÓ ''A''",
+    "marcador_partidos": {
+      "local": 9,
+      "visitante": 17
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

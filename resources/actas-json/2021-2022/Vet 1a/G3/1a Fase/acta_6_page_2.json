@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 1a",
+  "grupo": 3,
+  "jornada": 6,
+  "fecha": "2021-11-30",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CLUB NATACIO SABADELL ''B''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILAFRANCA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
+      "B": {
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
+      },
+      "C": {
+        "licencia": "8967",
+        "nombre": "WEISZ Montserrat"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "X": {
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "Z": {
+        "licencia": "12114",
+        "nombre": "MASSARD Franck"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8967",
+        "nombre": "WEISZ Montserrat"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12114",
+        "nombre": "MASSARD Franck"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8967",
+        "nombre": "WEISZ Montserrat"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12114",
+        "nombre": "MASSARD Franck"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB NATACIO SABADELL ''B''",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

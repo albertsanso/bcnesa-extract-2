@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Veterans 3a \"B\"",
+  "grupo": 1,
+  "jornada": 7,
+  "fecha": "2024-11-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CERCLE TT GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CN ST. ANDREU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "B": {
+        "licencia": "364",
+        "nombre": "MONERA Jesus"
+      },
+      "C": {
+        "licencia": "5428",
+        "nombre": "FRANQUESA Ricardo"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "614",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "X": {
+        "licencia": "14126",
+        "nombre": "ALLUE Vicens"
+      },
+      "Z": {
+        "licencia": "16616",
+        "nombre": "NUÑEZ Francisco"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "614",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "364",
+        "nombre": "MONERA Jesus"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14126",
+        "nombre": "ALLUE Vicens"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5428",
+        "nombre": "FRANQUESA Ricardo"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16616",
+        "nombre": "NUÑEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14126",
+        "nombre": "ALLUE Vicens"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5428",
+        "nombre": "FRANQUESA Ricardo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "614",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "364",
+        "nombre": "MONERA Jesus"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16616",
+        "nombre": "NUÑEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CERCLE TT GRÀCIA",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

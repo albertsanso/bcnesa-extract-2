@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Preferent",
+  "grupo": 2,
+  "jornada": 16,
+  "fecha": "2023-02-25",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CLUB NATACIO SABADELL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11643",
+        "nombre": "BARBERÀ Quim"
+      },
+      "B": {
+        "licencia": "11746",
+        "nombre": "YANG Owen"
+      },
+      "C": {
+        "licencia": "7099",
+        "nombre": "PONZ Antonio"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
+      "X": {
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "Z": {
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11643",
+        "nombre": "BARBERÀ Quim"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11746",
+        "nombre": "YANG Owen"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7099",
+        "nombre": "PONZ Antonio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11643",
+        "nombre": "BARBERÀ Quim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7099",
+        "nombre": "PONZ Antonio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11746",
+        "nombre": "YANG Owen"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATC MOLINS DE REI",
+    "marcador_partidos": {
+      "local": 7,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

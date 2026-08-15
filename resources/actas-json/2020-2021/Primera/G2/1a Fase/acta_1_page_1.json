@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "1a",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2021-03-21",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CLUB NATACIO SABADELL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "7725",
+        "nombre": "KHIDASHELI George"
+      },
+      "B": {
+        "licencia": "8908",
+        "nombre": "KHIDASHELI Luca"
+      },
+      "C": {
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "X": {
+        "licencia": "545",
+        "nombre": "PUIGGARÍ Albert"
+      },
+      "Z": {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "7725",
+        "nombre": "KHIDASHELI George"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8908",
+        "nombre": "KHIDASHELI Luca"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "545",
+        "nombre": "PUIGGARÍ Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "7725",
+        "nombre": "KHIDASHELI George"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "545",
+        "nombre": "PUIGGARÍ Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8908",
+        "nombre": "KHIDASHELI Luca"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB NATACIO SABADELL",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

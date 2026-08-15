@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"A\"",
+  "grupo": 2,
+  "jornada": 3,
+  "fecha": "2023-10-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT RODA DE TER",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
+      "B": {
+        "licencia": "12467",
+        "nombre": "BATET Pol"
+      },
+      "C": {
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "393",
+        "nombre": "BAUCELLS Xavier"
+      },
+      "X": {
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      },
+      "Z": {
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
+      {
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "393",
+        "nombre": "BAUCELLS Xavier"
+      },
+      {
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "393",
+        "nombre": "BAUCELLS Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12467",
+        "nombre": "BATET Pol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "393",
+        "nombre": "BAUCELLS Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12467",
+        "nombre": "BATET Pol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14411",
+            "nombre": "RIBA Marc"
+          },
+          {
+            "licencia": "5171",
+            "nombre": "RAMOS Carlos"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "393",
+            "nombre": "BAUCELLS Xavier"
+          },
+          {
+            "licencia": "7639",
+            "nombre": "OLIVA Alberto"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "LLUÏSOS DE GRÀCIA",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

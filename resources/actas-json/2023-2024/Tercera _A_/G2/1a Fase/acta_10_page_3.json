@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"A\"",
+  "grupo": 2,
+  "jornada": 10,
+  "fecha": "2023-12-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT BARCELONA ''B''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CLUB ARIEL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14817",
+        "nombre": "MARTIN Arnau"
+      },
+      "B": {
+        "licencia": "15749",
+        "nombre": "BARBARA Enrique"
+      },
+      "C": {
+        "licencia": "13403",
+        "nombre": "MURIEL Pau"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
+      "X": {
+        "licencia": "14980",
+        "nombre": "ALVAREZ Borja"
+      },
+      "Z": {
+        "licencia": "6687",
+        "nombre": "COLL David"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14817",
+        "nombre": "MARTIN Arnau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15749",
+        "nombre": "BARBARA Enrique"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14980",
+        "nombre": "ALVAREZ Borja"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13403",
+        "nombre": "MURIEL Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6687",
+        "nombre": "COLL David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14817",
+        "nombre": "MARTIN Arnau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14980",
+        "nombre": "ALVAREZ Borja"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13403",
+        "nombre": "MURIEL Pau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15749",
+        "nombre": "BARBARA Enrique"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6687",
+        "nombre": "COLL David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT BARCELONA ''B''",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

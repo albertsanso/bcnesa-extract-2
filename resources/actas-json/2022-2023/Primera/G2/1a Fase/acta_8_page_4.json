@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "1a",
+  "grupo": 2,
+  "jornada": 8,
+  "fecha": "2022-12-04",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "VIC TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "FALCONS DE SABADELL A.E.",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "B": {
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "C": {
+        "licencia": "6576",
+        "nombre": "NAVIO Biel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
+      "X": {
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      "Z": {
+        "licencia": "7970",
+        "nombre": "GIBERT Marc"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6576",
+        "nombre": "NAVIO Biel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7970",
+        "nombre": "GIBERT Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6576",
+        "nombre": "NAVIO Biel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7970",
+        "nombre": "GIBERT Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "VIC TT",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

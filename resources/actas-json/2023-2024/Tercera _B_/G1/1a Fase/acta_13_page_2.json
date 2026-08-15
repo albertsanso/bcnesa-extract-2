@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "grupo": 1,
+  "jornada": 13,
+  "fecha": "2024-01-28",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT RUBI",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CATT SANT CELONI ''A''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "2318",
+        "nombre": "VILLARES Ramon"
+      },
+      "B": {
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
+      "C": {
+        "licencia": "4227",
+        "nombre": "PARRA Antonio"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "3424",
+        "nombre": "SANAHUJA Jordi"
+      },
+      "X": {
+        "licencia": "10609",
+        "nombre": "GARRIDO Joel"
+      },
+      "Z": {
+        "licencia": "15266",
+        "nombre": "SUBIRANA Biel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "2318",
+        "nombre": "VILLARES Ramon"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "3424",
+        "nombre": "SANAHUJA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10609",
+        "nombre": "GARRIDO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "4227",
+        "nombre": "PARRA Antonio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15266",
+        "nombre": "SUBIRANA Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "2318",
+        "nombre": "VILLARES Ramon"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10609",
+        "nombre": "GARRIDO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "4227",
+        "nombre": "PARRA Antonio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "3424",
+        "nombre": "SANAHUJA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15266",
+        "nombre": "SUBIRANA Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CATT SANT CELONI ''A''",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

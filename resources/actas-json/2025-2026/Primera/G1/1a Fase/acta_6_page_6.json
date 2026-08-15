@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "1a",
+  "grupo": 1,
+  "jornada": 6,
+  "fecha": "2025-11-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      },
+      "B": {
+        "licencia": "16335",
+        "nombre": "CALVET Martí"
+      },
+      "C": {
+        "licencia": "17743",
+        "nombre": "OLIVELLA Aram"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
+      "X": {
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "Z": {
+        "licencia": "10195",
+        "nombre": "NAVARRO Marc"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "16335",
+        "nombre": "CALVET Martí"
+      },
+      {
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      {
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16335",
+        "nombre": "CALVET Martí"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "17743",
+        "nombre": "OLIVELLA Aram"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10195",
+        "nombre": "NAVARRO Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "17743",
+        "nombre": "OLIVELLA Aram"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16335",
+        "nombre": "CALVET Martí"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10195",
+        "nombre": "NAVARRO Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16335",
+            "nombre": "CALVET Martí"
+          },
+          {
+            "licencia": "6313",
+            "nombre": "MONTANER Josep"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7813",
+            "nombre": "DECOUD Marcelo"
+          },
+          {
+            "licencia": "918",
+            "nombre": "RECHES Ivan"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLGALÍ",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

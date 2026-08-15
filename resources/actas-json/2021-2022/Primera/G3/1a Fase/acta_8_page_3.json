@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "1a",
+  "grupo": 3,
+  "jornada": 8,
+  "fecha": "2022-01-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "FOMENT MARTINENC",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT LA TORRE DE CLARAMUNT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
+      "B": {
+        "licencia": "14902",
+        "nombre": "WANG Jing"
+      },
+      "C": {
+        "licencia": "326",
+        "nombre": "FORNES Lluis"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8346",
+        "nombre": "PEREZ Javier"
+      },
+      "X": {
+        "licencia": "5392",
+        "nombre": "TENDERO Antonio"
+      },
+      "Z": {
+        "licencia": "12050",
+        "nombre": "GARCIA Adrian"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8346",
+        "nombre": "PEREZ Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14902",
+        "nombre": "WANG Jing"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5392",
+        "nombre": "TENDERO Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "326",
+        "nombre": "FORNES Lluis"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12050",
+        "nombre": "GARCIA Adrian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5392",
+        "nombre": "TENDERO Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "326",
+        "nombre": "FORNES Lluis"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8346",
+        "nombre": "PEREZ Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14902",
+        "nombre": "WANG Jing"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12050",
+        "nombre": "GARCIA Adrian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FOMENT MARTINENC",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

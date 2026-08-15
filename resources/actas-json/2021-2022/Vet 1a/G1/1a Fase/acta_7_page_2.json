@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 1a",
+  "grupo": 1,
+  "jornada": 7,
+  "fecha": "2021-12-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CIERVO ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE ''A''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "B": {
+        "licencia": "7559",
+        "nombre": "GUASCH Josep"
+      },
+      "C": {
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "395",
+        "nombre": "EXPOSITO Juan Antonio"
+      },
+      "X": {
+        "licencia": "651",
+        "nombre": "CARBONELL Daniel"
+      },
+      "Z": {
+        "licencia": "292",
+        "nombre": "CHACON Alejandro"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "395",
+        "nombre": "EXPOSITO Juan Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7559",
+        "nombre": "GUASCH Josep"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "651",
+        "nombre": "CARBONELL Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "292",
+        "nombre": "CHACON Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "651",
+        "nombre": "CARBONELL Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "395",
+        "nombre": "EXPOSITO Juan Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7559",
+        "nombre": "GUASCH Josep"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "292",
+        "nombre": "CHACON Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CIERVO ''A''",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

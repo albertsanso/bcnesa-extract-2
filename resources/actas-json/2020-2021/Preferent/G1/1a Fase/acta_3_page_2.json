@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2021-03-21",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "BELLVITGE ALHEÑA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CERCLE TT GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "5737",
+        "nombre": "LOPEZ Guillem"
+      },
+      "B": {
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
+      "C": {
+        "licencia": "4597",
+        "nombre": "SANZ Julio"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
+      "X": {
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
+      "Z": {
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "5737",
+        "nombre": "LOPEZ Guillem"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "4597",
+        "nombre": "SANZ Julio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "5737",
+        "nombre": "LOPEZ Guillem"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "4597",
+        "nombre": "SANZ Julio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CERCLE TT GRÀCIA",
+    "marcador_partidos": {
+      "local": 10,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

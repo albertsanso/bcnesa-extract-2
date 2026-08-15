@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Veterans 3a \"A\"",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2024-10-15",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CETT ESPARREGUERA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CANET DE MAR",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
+      "B": {
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
+      "C": {
+        "licencia": "16903",
+        "nombre": "RAMENTOL David"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
+      "X": {
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "Z": {
+        "licencia": "738",
+        "nombre": "FONFRIA Carles"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
+      {
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
+      {
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16903",
+        "nombre": "RAMENTOL David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "738",
+        "nombre": "FONFRIA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16903",
+        "nombre": "RAMENTOL David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "738",
+        "nombre": "FONFRIA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "3492",
+            "nombre": "SEÑOR Eduard"
+          },
+          {
+            "licencia": "439",
+            "nombre": "PONS Felix"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "4055",
+            "nombre": "NOGUERES Joan"
+          },
+          {
+            "licencia": "3012",
+            "nombre": "RIFA Josep"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CANET DE MAR",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

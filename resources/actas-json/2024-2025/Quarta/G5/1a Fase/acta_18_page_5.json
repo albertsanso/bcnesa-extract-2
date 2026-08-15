@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "4a",
+  "grupo": 5,
+  "jornada": 18,
+  "fecha": "2025-03-23",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT CARDEDEU EIG ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EUROCLIMA BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16122",
+        "nombre": "CLAVERA Jaume"
+      },
+      "B": {
+        "licencia": "17339",
+        "nombre": "PARERA Pol"
+      },
+      "C": {
+        "licencia": "16747",
+        "nombre": "RUSIÑOL Guillem"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "18323",
+        "nombre": "GÓMEZ Fernando J."
+      },
+      "X": {
+        "licencia": "10061",
+        "nombre": "RULL Jordi"
+      },
+      "Z": {
+        "licencia": "17907",
+        "nombre": "PALAU Adrià"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16122",
+        "nombre": "CLAVERA Jaume"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "18323",
+        "nombre": "GÓMEZ Fernando J."
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "17339",
+        "nombre": "PARERA Pol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10061",
+        "nombre": "RULL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16747",
+        "nombre": "RUSIÑOL Guillem"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17907",
+        "nombre": "PALAU Adrià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16122",
+        "nombre": "CLAVERA Jaume"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10061",
+        "nombre": "RULL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16747",
+        "nombre": "RUSIÑOL Guillem"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "18323",
+        "nombre": "GÓMEZ Fernando J."
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "17339",
+        "nombre": "PARERA Pol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17907",
+        "nombre": "PALAU Adrià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CARDEDEU EIG ''A''",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

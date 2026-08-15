@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 10,
+  "fecha": "2025-12-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "B": {
+        "licencia": "10041",
+        "nombre": "PEÑA Dario Alfonso"
+      },
+      "C": {
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "X": {
+        "licencia": "15363",
+        "nombre": "LI Pinda"
+      },
+      "Z": {
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "10041",
+        "nombre": "PEÑA Dario Alfonso"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15363",
+        "nombre": "LI Pinda"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15363",
+        "nombre": "LI Pinda"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "10041",
+        "nombre": "PEÑA Dario Alfonso"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CENTRE",
+    "marcador_partidos": {
+      "local": 10,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

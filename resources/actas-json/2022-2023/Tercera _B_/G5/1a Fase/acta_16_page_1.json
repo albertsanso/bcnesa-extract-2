@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "3a \"B\"",
+  "grupo": 5,
+  "jornada": 16,
+  "fecha": "2023-02-26",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT PARETS ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CARDEDEU EIG",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11885",
+        "nombre": "FERNANDEZ Daniel"
+      },
+      "B": {
+        "licencia": "4367",
+        "nombre": "SANCHEZ Andreu"
+      },
+      "C": {
+        "licencia": "16247",
+        "nombre": "CASADO Cristian"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
+      "X": {
+        "licencia": "14301",
+        "nombre": "RENAU Sara"
+      },
+      "Z": {
+        "licencia": "1364",
+        "nombre": "ROMERO Marc"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11885",
+        "nombre": "FERNANDEZ Daniel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "4367",
+        "nombre": "SANCHEZ Andreu"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14301",
+        "nombre": "RENAU Sara"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16247",
+        "nombre": "CASADO Cristian"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1364",
+        "nombre": "ROMERO Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11885",
+        "nombre": "FERNANDEZ Daniel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14301",
+        "nombre": "RENAU Sara"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16247",
+        "nombre": "CASADO Cristian"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "4367",
+        "nombre": "SANCHEZ Andreu"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1364",
+        "nombre": "ROMERO Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT PARETS ''A''",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

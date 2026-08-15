@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"A\"",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2023-09-30",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "FOMENT MARTINENC-BARNY",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CN MATARÓ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12108",
+        "nombre": "SUBIRATS Jordi"
+      },
+      "B": {
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
+      "C": {
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      },
+      "X": {
+        "licencia": "17672",
+        "nombre": "CABRERA Manel"
+      },
+      "Z": {
+        "licencia": "456",
+        "nombre": "DVORAK Volodymir"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12108",
+        "nombre": "SUBIRATS Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17672",
+        "nombre": "CABRERA Manel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "456",
+        "nombre": "DVORAK Volodymir"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12108",
+        "nombre": "SUBIRATS Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17672",
+        "nombre": "CABRERA Manel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "456",
+        "nombre": "DVORAK Volodymir"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 6
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CN MATARÓ",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 18
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

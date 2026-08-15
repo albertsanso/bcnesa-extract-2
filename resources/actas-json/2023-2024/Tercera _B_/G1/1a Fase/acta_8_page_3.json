@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "grupo": 1,
+  "jornada": 8,
+  "fecha": "2023-11-26",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen C",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS TERRASSA \"C\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12904",
+        "nombre": "JIMENEZ Marti"
+      },
+      "B": {
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      },
+      "C": {
+        "licencia": "16835",
+        "nombre": "CANADELL Santiago"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
+      },
+      "X": {
+        "licencia": "16771",
+        "nombre": "MONTAÑÁ Miquel"
+      },
+      "Z": {
+        "licencia": "15624",
+        "nombre": "MONTAÑÁ Josep"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12904",
+        "nombre": "JIMENEZ Marti"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16771",
+        "nombre": "MONTAÑÁ Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16835",
+        "nombre": "CANADELL Santiago"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15624",
+        "nombre": "MONTAÑÁ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12904",
+        "nombre": "JIMENEZ Marti"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16771",
+        "nombre": "MONTAÑÁ Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16835",
+        "nombre": "CANADELL Santiago"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15624",
+        "nombre": "MONTAÑÁ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ST QUIRZE DEL VALLÈS - Sen C",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

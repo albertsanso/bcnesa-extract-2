@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"A\"",
+  "grupo": 1,
+  "jornada": 20,
+  "fecha": "2024-04-20",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT POBLENOU",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "LLUÏSOS D'HORTA TT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "10726",
+        "nombre": "SOPENA Mar"
+      },
+      "B": {
+        "licencia": "11389",
+        "nombre": "MORENO Raúl"
+      },
+      "C": {
+        "licencia": "14355",
+        "nombre": "MURILLO Pau"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11257",
+        "nombre": "CABELLO Gualberto"
+      },
+      "X": {
+        "licencia": "17677",
+        "nombre": "CABALLERO Yaiza"
+      },
+      "Z": {
+        "licencia": "15154",
+        "nombre": "ARIAS Lluc"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "10726",
+        "nombre": "SOPENA Mar"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11257",
+        "nombre": "CABELLO Gualberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11389",
+        "nombre": "MORENO Raúl"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17677",
+        "nombre": "CABALLERO Yaiza"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14355",
+        "nombre": "MURILLO Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15154",
+        "nombre": "ARIAS Lluc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "10726",
+        "nombre": "SOPENA Mar"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17677",
+        "nombre": "CABALLERO Yaiza"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14355",
+        "nombre": "MURILLO Pau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11257",
+        "nombre": "CABELLO Gualberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11389",
+        "nombre": "MORENO Raúl"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15154",
+        "nombre": "ARIAS Lluc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "LLUÏSOS D'HORTA TT",
+    "marcador_partidos": {
+      "local": 8,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

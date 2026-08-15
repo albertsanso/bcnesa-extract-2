@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "2a \"B\"",
+  "grupo": 2,
+  "jornada": 11,
+  "fecha": "2025-01-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "PROTEC BADALONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT MOIANES - JR PIZZES",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17389",
+        "nombre": "LEVY Alexandre"
+      },
+      "B": {
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
+      "C": {
+        "licencia": "15939",
+        "nombre": "COMÍN Mario"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13918",
+        "nombre": "ALDEA Pol"
+      },
+      "X": {
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
+      },
+      "Z": {
+        "licencia": "14160",
+        "nombre": "COMAS Jaime"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "17389",
+        "nombre": "LEVY Alexandre"
+      },
+      {
+        "licencia": "15939",
+        "nombre": "COMÍN Mario"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13918",
+        "nombre": "ALDEA Pol"
+      },
+      {
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17389",
+        "nombre": "LEVY Alexandre"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13918",
+        "nombre": "ALDEA Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "15939",
+        "nombre": "COMÍN Mario"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14160",
+        "nombre": "COMAS Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17389",
+        "nombre": "LEVY Alexandre"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "15939",
+        "nombre": "COMÍN Mario"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13918",
+        "nombre": "ALDEA Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14160",
+        "nombre": "COMAS Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17389",
+            "nombre": "LEVY Alexandre"
+          },
+          {
+            "licencia": "15939",
+            "nombre": "COMÍN Mario"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13918",
+            "nombre": "ALDEA Pol"
+          },
+          {
+            "licencia": "14158",
+            "nombre": "MARTIN Izan"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "PROTEC BADALONA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "2a \"B\"",
+  "grupo": 1,
+  "jornada": 7,
+  "fecha": "2021-12-19",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT VILANOVA DEL CAMI",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT TORELLÓ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "B": {
+        "licencia": "491",
+        "nombre": "NARANJO Diego"
+      },
+      "C": {
+        "licencia": "3914",
+        "nombre": "SANCHEZ Adrian"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
+      "X": {
+        "licencia": "5417",
+        "nombre": "KRZYSZTOF Slawomir"
+      },
+      "Z": {
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "491",
+        "nombre": "NARANJO Diego"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5417",
+        "nombre": "KRZYSZTOF Slawomir"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "3914",
+        "nombre": "SANCHEZ Adrian"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5417",
+        "nombre": "KRZYSZTOF Slawomir"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "3914",
+        "nombre": "SANCHEZ Adrian"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "491",
+        "nombre": "NARANJO Diego"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILANOVA DEL CAMI",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

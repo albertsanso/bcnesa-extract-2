@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "2a \"B\"",
+  "grupo": 2,
+  "jornada": 19,
+  "fecha": "2023-04-02",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "UE SANT CUGAT ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT L'AVENÇ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "10540",
+        "nombre": "FIGOLS Enric"
+      },
+      "B": {
+        "licencia": "12724",
+        "nombre": "ESTIVILL Cristina"
+      },
+      "C": {
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8409",
+        "nombre": "AMÉZQUITA Camilo"
+      },
+      "X": {
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "Z": {
+        "licencia": "16398",
+        "nombre": "PEREZ Jordi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "10540",
+        "nombre": "FIGOLS Enric"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8409",
+        "nombre": "AMÉZQUITA Camilo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12724",
+        "nombre": "ESTIVILL Cristina"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16398",
+        "nombre": "PEREZ Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "10540",
+        "nombre": "FIGOLS Enric"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8409",
+        "nombre": "AMÉZQUITA Camilo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12724",
+        "nombre": "ESTIVILL Cristina"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16398",
+        "nombre": "PEREZ Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "UE SANT CUGAT ''A''",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

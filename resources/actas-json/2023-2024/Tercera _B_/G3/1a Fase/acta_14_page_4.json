@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "grupo": 3,
+  "jornada": 14,
+  "fecha": "2024-02-04",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT CASTELLDEFELS \"A\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CASTELLGALÍ ''B''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "B": {
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
+      "C": {
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13080",
+        "nombre": "VAZQUEZ Gabriel"
+      },
+      "X": {
+        "licencia": "17615",
+        "nombre": "LAFOZ Robert"
+      },
+      "Z": {
+        "licencia": "13152",
+        "nombre": "COBELA Antonio"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13080",
+        "nombre": "VAZQUEZ Gabriel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17615",
+        "nombre": "LAFOZ Robert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13152",
+        "nombre": "COBELA Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17615",
+        "nombre": "LAFOZ Robert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13080",
+        "nombre": "VAZQUEZ Gabriel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13152",
+        "nombre": "COBELA Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLDEFELS \"A\"",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

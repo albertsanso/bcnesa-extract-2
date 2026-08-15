@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "3a \"B\"",
+  "grupo": 2,
+  "jornada": 20,
+  "fecha": "2023-04-15",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT TORELLÓ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "ALIANÇA LLIÇÀ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      "B": {
+        "licencia": "16459",
+        "nombre": "MIESHCHERIAKOV Yaroslau"
+      },
+      "C": {
+        "licencia": "13625",
+        "nombre": "GHOULA Said"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16725",
+        "nombre": "GIL Pau"
+      },
+      "X": {
+        "licencia": "11452",
+        "nombre": "CORTIT Jordi"
+      },
+      "Z": {
+        "licencia": "7634",
+        "nombre": "CANADELL Eloi"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      {
+        "licencia": "13625",
+        "nombre": "GHOULA Said"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7634",
+        "nombre": "CANADELL Eloi"
+      },
+      {
+        "licencia": "11452",
+        "nombre": "CORTIT Jordi"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16725",
+        "nombre": "GIL Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16459",
+        "nombre": "MIESHCHERIAKOV Yaroslau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11452",
+        "nombre": "CORTIT Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13625",
+        "nombre": "GHOULA Said"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7634",
+        "nombre": "CANADELL Eloi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11452",
+        "nombre": "CORTIT Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13625",
+        "nombre": "GHOULA Said"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16725",
+        "nombre": "GIL Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16459",
+        "nombre": "MIESHCHERIAKOV Yaroslau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7634",
+        "nombre": "CANADELL Eloi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12768",
+            "nombre": "BENHARI Ayoub"
+          },
+          {
+            "licencia": "13625",
+            "nombre": "GHOULA Said"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7634",
+            "nombre": "CANADELL Eloi"
+          },
+          {
+            "licencia": "11452",
+            "nombre": "CORTIT Jordi"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

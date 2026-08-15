@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "grupo": 3,
+  "jornada": 7,
+  "fecha": "2023-11-18",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT L'HOSPITALET",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "MASQUEFA TTC ''A''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17137",
+        "nombre": "CANOVAS Joan"
+      },
+      "B": {
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      },
+      "C": {
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      },
+      "X": {
+        "licencia": "17152",
+        "nombre": "PONS Antoni"
+      },
+      "Z": {
+        "licencia": "16997",
+        "nombre": "PUIG Anselm"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17137",
+        "nombre": "CANOVAS Joan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17152",
+        "nombre": "PONS Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16997",
+        "nombre": "PUIG Anselm"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17137",
+        "nombre": "CANOVAS Joan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17152",
+        "nombre": "PONS Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16997",
+        "nombre": "PUIG Anselm"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT L'HOSPITALET",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"B\"",
+  "grupo": 1,
+  "jornada": 20,
+  "fecha": "2024-04-21",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "UE SANT CUGAT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "13184",
+        "nombre": "GALLEGO David"
+      },
+      "B": {
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
+      "C": {
+        "licencia": "376",
+        "nombre": "BOSCH Miquel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11076",
+        "nombre": "SERRA Carles"
+      },
+      "X": {
+        "licencia": "7755",
+        "nombre": "LLOBET Arnau"
+      },
+      "Z": {
+        "licencia": "15058",
+        "nombre": "GUERRERO Eduard"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "376",
+        "nombre": "BOSCH Miquel"
+      },
+      {
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15058",
+        "nombre": "GUERRERO Eduard"
+      },
+      {
+        "licencia": "11076",
+        "nombre": "SERRA Carles"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "13184",
+        "nombre": "GALLEGO David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11076",
+        "nombre": "SERRA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7755",
+        "nombre": "LLOBET Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "376",
+        "nombre": "BOSCH Miquel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15058",
+        "nombre": "GUERRERO Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "13184",
+        "nombre": "GALLEGO David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7755",
+        "nombre": "LLOBET Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "376",
+        "nombre": "BOSCH Miquel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11076",
+        "nombre": "SERRA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15058",
+        "nombre": "GUERRERO Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "376",
+            "nombre": "BOSCH Miquel"
+          },
+          {
+            "licencia": "14325",
+            "nombre": "AGULLÓ Gerard"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15058",
+            "nombre": "GUERRERO Eduard"
+          },
+          {
+            "licencia": "11076",
+            "nombre": "SERRA Carles"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLGALÍ",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Veterans 4a \"A\"",
+  "grupo": 2,
+  "jornada": 8,
+  "fecha": "2024-11-19",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT BARCELONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT RIPOLLET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
+      },
+      "B": {
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
+      "C": {
+        "licencia": "18720",
+        "nombre": "DOMENECH Antoni"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "X": {
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
+      },
+      "Z": {
+        "licencia": "1699",
+        "nombre": "PORTA Jose Antonio"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "18720",
+        "nombre": "DOMENECH Antoni"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1699",
+        "nombre": "PORTA Jose Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "18720",
+        "nombre": "DOMENECH Antoni"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1699",
+        "nombre": "PORTA Jose Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT BARCELONA",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

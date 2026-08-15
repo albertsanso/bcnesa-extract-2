@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 7,
+  "fecha": "2023-11-19",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SALLENT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
+      "B": {
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "C": {
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
+      "X": {
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
+      },
+      "Z": {
+        "licencia": "527",
+        "nombre": "VILA Joan"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "527",
+        "nombre": "VILA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "527",
+        "nombre": "VILA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CENTRE",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

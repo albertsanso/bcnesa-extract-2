@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "3a \"B\"",
+  "grupo": 6,
+  "jornada": 2,
+  "fecha": "2021-10-24",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT VILAFRANCA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CLUB NATACIO SABADELL ''C''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "13785",
+        "nombre": "GIBERT Jaume"
+      },
+      "B": {
+        "licencia": "14950",
+        "nombre": "LENIS Pol"
+      },
+      "C": {
+        "licencia": "13779",
+        "nombre": "CONESA Pau"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13520",
+        "nombre": "VILA Josep"
+      },
+      "X": {
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      "Z": {
+        "licencia": "15366",
+        "nombre": "PEREZ Juan Francisco"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "13785",
+        "nombre": "GIBERT Jaume"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13520",
+        "nombre": "VILA Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14950",
+        "nombre": "LENIS Pol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13779",
+        "nombre": "CONESA Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15366",
+        "nombre": "PEREZ Juan Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "13785",
+        "nombre": "GIBERT Jaume"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13779",
+        "nombre": "CONESA Pau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13520",
+        "nombre": "VILA Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14950",
+        "nombre": "LENIS Pol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15366",
+        "nombre": "PEREZ Juan Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILAFRANCA",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

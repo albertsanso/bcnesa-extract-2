@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "3a \"A\"",
+  "grupo": 2,
+  "jornada": 8,
+  "fecha": "2021-04-18",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MOLLET 2002 TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "5029",
+        "nombre": "GIRALT Daniel"
+      },
+      "B": {
+        "licencia": "6710",
+        "nombre": "GRÜNEWALD Salvador Noël"
+      },
+      "C": {
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      },
+      "X": {
+        "licencia": "12232",
+        "nombre": "EXPOSITO Jordi"
+      },
+      "Z": {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "5029",
+        "nombre": "GIRALT Daniel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6710",
+        "nombre": "GRÜNEWALD Salvador Noël"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12232",
+        "nombre": "EXPOSITO Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "5029",
+        "nombre": "GIRALT Daniel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12232",
+        "nombre": "EXPOSITO Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6710",
+        "nombre": "GRÜNEWALD Salvador Noël"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATENEU 1882",
+    "marcador_partidos": {
+      "local": 11,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

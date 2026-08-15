@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Veterans 1a",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2024-10-01",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CIERVO ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "B": {
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      },
+      "C": {
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      "X": {
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "Z": {
+        "licencia": "922",
+        "nombre": "BURLO David"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CIERVO ''A''",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2021-11-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT VILANOVA I LA GELTRU",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6564",
+        "nombre": "ENCUENTRA Samuel"
+      },
+      "B": {
+        "licencia": "1752",
+        "nombre": "CONDE F. Xavier"
+      },
+      "C": {
+        "licencia": "7184",
+        "nombre": "MATARO Edgar"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "7213",
+        "nombre": "FELIU Javier"
+      },
+      "X": {
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
+      "Z": {
+        "licencia": "6639",
+        "nombre": "FELIU Jose"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6564",
+        "nombre": "ENCUENTRA Samuel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7213",
+        "nombre": "FELIU Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "1752",
+        "nombre": "CONDE F. Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7184",
+        "nombre": "MATARO Edgar"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6639",
+        "nombre": "FELIU Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6564",
+        "nombre": "ENCUENTRA Samuel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7184",
+        "nombre": "MATARO Edgar"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7213",
+        "nombre": "FELIU Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "1752",
+        "nombre": "CONDE F. Xavier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6639",
+        "nombre": "FELIU Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILANOVA I LA GELTRU",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

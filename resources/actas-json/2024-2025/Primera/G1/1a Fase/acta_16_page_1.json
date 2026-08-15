@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "1a",
+  "grupo": 1,
+  "jornada": 16,
+  "fecha": "2025-03-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT DELS HORTS 2000",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
+      "B": {
+        "licencia": "8288",
+        "nombre": "MARIO Nicola"
+      },
+      "C": {
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "X": {
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "Z": {
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
+      {
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      {
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8288",
+        "nombre": "MARIO Nicola"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8288",
+        "nombre": "MARIO Nicola"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "687",
+            "nombre": "BARCOJO Antonio"
+          },
+          {
+            "licencia": "11795",
+            "nombre": "BLANCA Juan"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7813",
+            "nombre": "DECOUD Marcelo"
+          },
+          {
+            "licencia": "16281",
+            "nombre": "ZHAO Ángel"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

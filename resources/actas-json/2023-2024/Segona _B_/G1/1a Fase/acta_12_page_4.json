@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"B\"",
+  "grupo": 1,
+  "jornada": 12,
+  "fecha": "2024-01-20",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "ATT PREMIÀ DE MAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen B",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6309",
+        "nombre": "PEREZ Miguel"
+      },
+      "B": {
+        "licencia": "11942",
+        "nombre": "CUMPLIDO Guadalupe"
+      },
+      "C": {
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
+      "X": {
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
+      "Z": {
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6309",
+        "nombre": "PEREZ Miguel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11942",
+        "nombre": "CUMPLIDO Guadalupe"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6309",
+        "nombre": "PEREZ Miguel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11942",
+        "nombre": "CUMPLIDO Guadalupe"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ATT PREMIÀ DE MAR",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

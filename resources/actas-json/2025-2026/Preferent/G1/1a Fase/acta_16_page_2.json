@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 16,
+  "fecha": "2026-03-01",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CN MATARÓ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CARDEDEU EIG",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11537",
+        "nombre": "MATARÓ Isaac"
+      },
+      "B": {
+        "licencia": "17676",
+        "nombre": "MARTÍNEZ Jordi"
+      },
+      "C": {
+        "licencia": "17672",
+        "nombre": "CABRERA Manel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "15266",
+        "nombre": "SUBIRANA Biel"
+      },
+      "X": {
+        "licencia": "17862",
+        "nombre": "AYATS Gerard"
+      },
+      "Z": {
+        "licencia": "242",
+        "nombre": "AZCON Joaquin"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11537",
+        "nombre": "MATARÓ Isaac"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15266",
+        "nombre": "SUBIRANA Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "17676",
+        "nombre": "MARTÍNEZ Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17862",
+        "nombre": "AYATS Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "17672",
+        "nombre": "CABRERA Manel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "242",
+        "nombre": "AZCON Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11537",
+        "nombre": "MATARÓ Isaac"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17862",
+        "nombre": "AYATS Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "17672",
+        "nombre": "CABRERA Manel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15266",
+        "nombre": "SUBIRANA Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "17676",
+        "nombre": "MARTÍNEZ Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "242",
+        "nombre": "AZCON Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "2a \"B\"",
+  "grupo": 2,
+  "jornada": 11,
+  "fecha": "2025-01-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA I LA GELTRU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "B": {
+        "licencia": "16243",
+        "nombre": "VALLS Kevin"
+      },
+      "C": {
+        "licencia": "19211",
+        "nombre": "NARANJO Diego Alexander"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "675",
+        "nombre": "MILA Salvador"
+      },
+      "X": {
+        "licencia": "10777",
+        "nombre": "CERVELLÓ Marc"
+      },
+      "Z": {
+        "licencia": "15090",
+        "nombre": "PALOU Alfred"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "16243",
+        "nombre": "VALLS Kevin"
+      },
+      {
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "675",
+        "nombre": "MILA Salvador"
+      },
+      {
+        "licencia": "10777",
+        "nombre": "CERVELLÓ Marc"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "675",
+        "nombre": "MILA Salvador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16243",
+        "nombre": "VALLS Kevin"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10777",
+        "nombre": "CERVELLÓ Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "19211",
+        "nombre": "NARANJO Diego Alexander"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15090",
+        "nombre": "PALOU Alfred"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10777",
+        "nombre": "CERVELLÓ Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "19211",
+        "nombre": "NARANJO Diego Alexander"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "675",
+        "nombre": "MILA Salvador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16243",
+        "nombre": "VALLS Kevin"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15090",
+        "nombre": "PALOU Alfred"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16243",
+            "nombre": "VALLS Kevin"
+          },
+          {
+            "licencia": "14197",
+            "nombre": "PIÑAR Ricard"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "675",
+            "nombre": "MILA Salvador"
+          },
+          {
+            "licencia": "10777",
+            "nombre": "CERVELLÓ Marc"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CPP IGUALADA",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

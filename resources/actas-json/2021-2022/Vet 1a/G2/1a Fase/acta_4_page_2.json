@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 1a",
+  "grupo": 2,
+  "jornada": 4,
+  "fecha": "2021-11-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CENTRE ''B''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT OLESA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      },
+      "B": {
+        "licencia": "507",
+        "nombre": "BERNABEU Ricardo"
+      },
+      "C": {
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
+      "X": {
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
+      "Z": {
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      {
+        "licencia": "507",
+        "nombre": "BERNABEU Ricardo"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
+      {
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "507",
+        "nombre": "BERNABEU Ricardo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "507",
+        "nombre": "BERNABEU Ricardo"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "740",
+            "nombre": "SERRANO Fabià"
+          },
+          {
+            "licencia": "507",
+            "nombre": "BERNABEU Ricardo"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "546",
+            "nombre": "SAIZ David"
+          },
+          {
+            "licencia": "645",
+            "nombre": "SUÑE Manel"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT OLESA",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

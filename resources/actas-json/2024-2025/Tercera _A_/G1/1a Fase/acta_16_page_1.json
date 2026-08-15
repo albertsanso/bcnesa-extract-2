@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "3a \"A\"",
+  "grupo": 1,
+  "jornada": 16,
+  "fecha": "2025-03-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CN SABADELL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA ''B''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
+      "B": {
+        "licencia": "14873",
+        "nombre": "YANG Karen"
+      },
+      "C": {
+        "licencia": "15071",
+        "nombre": "LLOVET Agnès"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16812",
+        "nombre": "RIU Miquel"
+      },
+      "X": {
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
+      "Z": {
+        "licencia": "10296",
+        "nombre": "FRAGO Teo"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16812",
+        "nombre": "RIU Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14873",
+        "nombre": "YANG Karen"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "15071",
+        "nombre": "LLOVET Agnès"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10296",
+        "nombre": "FRAGO Teo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "15071",
+        "nombre": "LLOVET Agnès"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16812",
+        "nombre": "RIU Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14873",
+        "nombre": "YANG Karen"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10296",
+        "nombre": "FRAGO Teo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CN SABADELL",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

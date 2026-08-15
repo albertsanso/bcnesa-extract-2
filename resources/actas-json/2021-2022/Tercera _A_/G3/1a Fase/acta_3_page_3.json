@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "3a \"A\"",
+  "grupo": 3,
+  "jornada": 3,
+  "fecha": "2021-11-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ELS AMICS DE TERRASSA ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CETT ESPARREGUERA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "9131",
+        "nombre": "ESTRADA Jordi"
+      },
+      "B": {
+        "licencia": "12848",
+        "nombre": "PASTOR Oscar"
+      },
+      "C": {
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
+      },
+      "X": {
+        "licencia": "12831",
+        "nombre": "HERNÁNDEZ Pol"
+      },
+      "Z": {
+        "licencia": "15053",
+        "nombre": "LOPEZ Diego"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "9131",
+        "nombre": "ESTRADA Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12848",
+        "nombre": "PASTOR Oscar"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12831",
+        "nombre": "HERNÁNDEZ Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15053",
+        "nombre": "LOPEZ Diego"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "9131",
+        "nombre": "ESTRADA Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12831",
+        "nombre": "HERNÁNDEZ Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12848",
+        "nombre": "PASTOR Oscar"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15053",
+        "nombre": "LOPEZ Diego"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS DE TERRASSA ''A''",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

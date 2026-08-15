@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "Preferent",
+  "grupo": 2,
+  "jornada": 11,
+  "fecha": "2021-05-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT SALLENT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "BLANXART XALOC OLESA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
+      "B": {
+        "licencia": "1076",
+        "nombre": "ALCALÁ Xavier"
+      },
+      "C": {
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
+      "X": {
+        "licencia": "7731",
+        "nombre": "MOSCOSO Camila Renat"
+      },
+      "Z": {
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "1076",
+        "nombre": "ALCALÁ Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7731",
+        "nombre": "MOSCOSO Camila Renat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7731",
+        "nombre": "MOSCOSO Camila Renat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "1076",
+        "nombre": "ALCALÁ Xavier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT SALLENT",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 2a \"A\"",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2021-10-19",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT SANT QUINTÍ DE MEDIONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT DELS HORTS 2000",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "668",
+        "nombre": "DOLS Daniel"
+      },
+      "B": {
+        "licencia": "81",
+        "nombre": "RAMÍREZ Angel"
+      },
+      "C": {
+        "licencia": "517",
+        "nombre": "MARTI Josep"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      "X": {
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
+      "Z": {
+        "licencia": "525",
+        "nombre": "FERNÁNDEZ Jose"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "668",
+        "nombre": "DOLS Daniel"
+      },
+      {
+        "licencia": "517",
+        "nombre": "MARTI Josep"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      {
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "668",
+        "nombre": "DOLS Daniel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "81",
+        "nombre": "RAMÍREZ Angel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "517",
+        "nombre": "MARTI Josep"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "525",
+        "nombre": "FERNÁNDEZ Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "668",
+        "nombre": "DOLS Daniel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "517",
+        "nombre": "MARTI Josep"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "81",
+        "nombre": "RAMÍREZ Angel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "525",
+        "nombre": "FERNÁNDEZ Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "668",
+            "nombre": "DOLS Daniel"
+          },
+          {
+            "licencia": "517",
+            "nombre": "MARTI Josep"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "227",
+            "nombre": "CREIXELL Josep"
+          },
+          {
+            "licencia": "4016",
+            "nombre": "OLAYA Joaquin"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT DELS HORTS 2000",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

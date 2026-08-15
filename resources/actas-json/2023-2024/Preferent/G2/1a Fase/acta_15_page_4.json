@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Preferent",
+  "grupo": 2,
+  "jornada": 15,
+  "fecha": "2024-02-11",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "GIRBAU VIC TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "B": {
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      },
+      "C": {
+        "licencia": "4052",
+        "nombre": "BOVER Carles"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "X": {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "Z": {
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "4052",
+        "nombre": "BOVER Carles"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "4052",
+        "nombre": "BOVER Carles"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "GIRBAU VIC TT",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Preferent",
+  "grupo": 2,
+  "jornada": 16,
+  "fecha": "2025-03-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CC SANTS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "FOMENT MARTINENC-BARNY",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      "B": {
+        "licencia": "619",
+        "nombre": "WEN Yang"
+      },
+      "C": {
+        "licencia": "15977",
+        "nombre": "LAURI Vili"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
+      "X": {
+        "licencia": "7775",
+        "nombre": "DOMINGUEZ Ian"
+      },
+      "Z": {
+        "licencia": "10393",
+        "nombre": "MILLAN Jan"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "619",
+        "nombre": "WEN Yang"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7775",
+        "nombre": "DOMINGUEZ Ian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "15977",
+        "nombre": "LAURI Vili"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10393",
+        "nombre": "MILLAN Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7775",
+        "nombre": "DOMINGUEZ Ian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "15977",
+        "nombre": "LAURI Vili"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "619",
+        "nombre": "WEN Yang"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10393",
+        "nombre": "MILLAN Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CC SANTS",
+    "marcador_partidos": {
+      "local": 17,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

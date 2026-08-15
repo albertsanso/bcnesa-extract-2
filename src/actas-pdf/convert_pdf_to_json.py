@@ -170,17 +170,51 @@ def make_doubles_game(number: int, local_players: list[dict[str, str]], visitor_
     return {"numero": number, "tipo": "dobles", "cruce": "Db vs Db", "local": {"letra": "Db", "jugadores": local_players}, "visitante": {"letra": "Db", "jugadores": visitor_players}, "sets": [], "resultado_juegos": {"local": left_score, "visitante": right_score} if played else None, "ganador": winner, "marcador_acumulado": {"local": 0, "visitante": 0}}
 
 
-def convert_file(pdf_path: Path, output_path: Path, validator: Draft202012Validator) -> None:
+def output_path_for_page(output_path: Path, page_number: int, page_count: int) -> Path:
+    """Return a stable output name without overwriting another page's acta."""
+    if page_count == 1:
+        return output_path
+    return output_path.with_name(f"{output_path.stem}_page_{page_number}{output_path.suffix}")
+
+
+def output_files_exist(pdf_path: Path, output_path: Path) -> bool:
+    """Check the complete set of outputs, including the PDF page count."""
     with pdfplumber.open(pdf_path) as pdf:
-        text = "\n".join(page.extract_text() or "" for page in pdf.pages)
-    data = parse_match(text, pdf_path.relative_to(INPUT_ROOT))
-    errors = sorted(validator.iter_errors(data), key=lambda error: list(error.path))
-    if errors:
-        raise ValueError("schema validation failed: " + "; ".join(error.message for error in errors[:3]))
+        page_count = len(pdf.pages)
+    return all(
+        output_path_for_page(output_path, page_number, page_count).exists()
+        for page_number in range(1, page_count + 1)
+    )
+
+
+def write_json(data: dict[str, Any], output_path: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     temporary = output_path.with_suffix(output_path.suffix + ".part")
     temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temporary.replace(output_path)
+
+
+def convert_file(pdf_path: Path, output_path: Path, validator: Draft202012Validator) -> int:
+    """Convert each PDF page independently and return the number of actas written."""
+    with pdfplumber.open(pdf_path) as pdf:
+        page_texts = [page.extract_text() or "" for page in pdf.pages]
+
+    if not page_texts:
+        raise ValueError("PDF contains no pages")
+
+    relative_path = pdf_path.relative_to(INPUT_ROOT)
+    parsed_pages = [parse_match(text, relative_path) for text in page_texts]
+    for data in parsed_pages:
+        errors = sorted(validator.iter_errors(data), key=lambda error: list(error.path))
+        if errors:
+            raise ValueError("schema validation failed: " + "; ".join(error.message for error in errors[:3]))
+
+    if len(parsed_pages) > 1 and output_path.exists():
+        output_path.unlink()
+    for page_number, data in enumerate(parsed_pages, 1):
+        page_output_path = output_path_for_page(output_path, page_number, len(parsed_pages))
+        write_json(data, page_output_path)
+    return len(parsed_pages)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -199,12 +233,11 @@ def main(argv: list[str] | None = None) -> int:
         output_path = OUTPUT_ROOT / pdf_path.relative_to(INPUT_ROOT).with_suffix(".json")
         if output_path.name == SCHEMA_PATH.name:
             continue
-        if output_path.exists() and not args.force:
+        if not args.force and output_files_exist(pdf_path, output_path):
             skipped += 1
             continue
         try:
-            convert_file(pdf_path, output_path, validator)
-            converted += 1
+            converted += convert_file(pdf_path, output_path, validator)
             LOGGER.info("converted %s", pdf_path)
         except Exception as exc:  # Continue with other reports.
             errors += 1

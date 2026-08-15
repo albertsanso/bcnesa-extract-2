@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "3a \"B\"",
+  "grupo": 3,
+  "jornada": 19,
+  "fecha": "2023-04-01",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ELS AMICS DE TERRASSA ''C''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "LLUÏSOS D'HORTA TT ''A''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11160",
+        "nombre": "SAS Jordi"
+      },
+      "B": {
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
+      },
+      "C": {
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
+      "X": {
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "Z": {
+        "licencia": "13121",
+        "nombre": "MÜLLER Bertram"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11160",
+        "nombre": "SAS Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13121",
+        "nombre": "MÜLLER Bertram"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11160",
+        "nombre": "SAS Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13121",
+        "nombre": "MÜLLER Bertram"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS DE TERRASSA ''C''",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "2a \"B\"",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2025-09-28",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT L'HOSPITALET 'A'",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16755",
+        "nombre": "CRUZ Mario"
+      },
+      "B": {
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      },
+      "C": {
+        "licencia": "10869",
+        "nombre": "MARANTE Fernando"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17161",
+        "nombre": "GAS Anna"
+      },
+      "X": {
+        "licencia": "11602",
+        "nombre": "ALONSO Alvar"
+      },
+      "Z": {
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "16755",
+        "nombre": "CRUZ Mario"
+      },
+      {
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "17161",
+        "nombre": "GAS Anna"
+      },
+      {
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16755",
+        "nombre": "CRUZ Mario"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17161",
+        "nombre": "GAS Anna"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11602",
+        "nombre": "ALONSO Alvar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10869",
+        "nombre": "MARANTE Fernando"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16755",
+        "nombre": "CRUZ Mario"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11602",
+        "nombre": "ALONSO Alvar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10869",
+        "nombre": "MARANTE Fernando"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17161",
+        "nombre": "GAS Anna"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16755",
+            "nombre": "CRUZ Mario"
+          },
+          {
+            "licencia": "15458",
+            "nombre": "JORGOSO Erik"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17161",
+            "nombre": "GAS Anna"
+          },
+          {
+            "licencia": "15079",
+            "nombre": "VALERO Marti"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "LLUÏSOS DE GRÀCIA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

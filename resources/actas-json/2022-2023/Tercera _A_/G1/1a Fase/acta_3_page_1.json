@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "3a \"A\"",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2022-10-23",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "BELLVITGE ALHEÑA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CLUB NATACIO SABADELL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "13181",
+        "nombre": "MORÓN Manuel"
+      },
+      "B": {
+        "licencia": "13182",
+        "nombre": "MORÓN Daniel"
+      },
+      "C": {
+        "licencia": "6375",
+        "nombre": "ALVAREZ Victor"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
+      "X": {
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      "Z": {
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "13181",
+        "nombre": "MORÓN Manuel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "13182",
+        "nombre": "MORÓN Daniel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6375",
+        "nombre": "ALVAREZ Victor"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "13181",
+        "nombre": "MORÓN Manuel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6375",
+        "nombre": "ALVAREZ Victor"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "13182",
+        "nombre": "MORÓN Daniel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB NATACIO SABADELL",
+    "marcador_partidos": {
+      "local": 11,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

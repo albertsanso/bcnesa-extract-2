@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2021-03-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT RIPOLLET",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "BELLVITGE ALHEÑA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "B": {
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "C": {
+        "licencia": "9026",
+        "nombre": "MORENO Pol"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "4597",
+        "nombre": "SANZ Julio"
+      },
+      "X": {
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
+      "Z": {
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4597",
+        "nombre": "SANZ Julio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "9026",
+        "nombre": "MORENO Pol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "9026",
+        "nombre": "MORENO Pol"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4597",
+        "nombre": "SANZ Julio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": {
+      "local": 11,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

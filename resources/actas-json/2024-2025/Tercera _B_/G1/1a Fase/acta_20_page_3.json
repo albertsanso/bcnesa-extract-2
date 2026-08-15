@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "3a \"B\"",
+  "grupo": 1,
+  "jornada": 20,
+  "fecha": "2025-04-06",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT TORELLÓ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
+      "B": {
+        "licencia": "13974",
+        "nombre": "MANRIQUE Pol"
+      },
+      "C": {
+        "licencia": "18148",
+        "nombre": "POOLE Albert Jeremy"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17418",
+        "nombre": "BONHORA Jordi"
+      },
+      "X": {
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
+      "Z": {
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17418",
+        "nombre": "BONHORA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "13974",
+        "nombre": "MANRIQUE Pol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "18148",
+        "nombre": "POOLE Albert Jeremy"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "18148",
+        "nombre": "POOLE Albert Jeremy"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17418",
+        "nombre": "BONHORA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "13974",
+        "nombre": "MANRIQUE Pol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATC MOLINS DE REI",
+    "marcador_partidos": {
+      "local": 8,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

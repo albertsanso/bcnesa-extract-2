@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "4a",
+  "grupo": 3,
+  "jornada": 6,
+  "fecha": "2024-11-10",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS TERRASSA \"A\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "B": {
+        "licencia": "14764",
+        "nombre": "HURTADO Eric"
+      },
+      "C": {
+        "licencia": "5501",
+        "nombre": "HURTADO Jordi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "X": {
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "Z": {
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14764",
+        "nombre": "HURTADO Eric"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5501",
+        "nombre": "HURTADO Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5501",
+        "nombre": "HURTADO Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14764",
+        "nombre": "HURTADO Eric"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATENEU 1882",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

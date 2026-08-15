@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "3a \"A\"",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2021-11-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "UE SANT CUGAT ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT POBLENOU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14328",
+        "nombre": "LOZANO Roger"
+      },
+      "B": {
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      },
+      "C": {
+        "licencia": "11617",
+        "nombre": "MORA Joel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "10730",
+        "nombre": "MONTAVEZ Alex"
+      },
+      "X": {
+        "licencia": "14355",
+        "nombre": "MURILLO Pau"
+      },
+      "Z": {
+        "licencia": "12487",
+        "nombre": "VICIEN Carlos"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14328",
+        "nombre": "LOZANO Roger"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10730",
+        "nombre": "MONTAVEZ Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14355",
+        "nombre": "MURILLO Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11617",
+        "nombre": "MORA Joel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12487",
+        "nombre": "VICIEN Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14328",
+        "nombre": "LOZANO Roger"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14355",
+        "nombre": "MURILLO Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11617",
+        "nombre": "MORA Joel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10730",
+        "nombre": "MONTAVEZ Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12487",
+        "nombre": "VICIEN Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "UE SANT CUGAT ''A''",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

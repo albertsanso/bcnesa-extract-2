@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "1a",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2025-09-28",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "JUMA RIPOLLET",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CARDEDEU EIG 'B'",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "15441",
+        "nombre": "PIMENTEL Luis Guillermo"
+      },
+      "B": {
+        "licencia": "15429",
+        "nombre": "MUJICA Sergio"
+      },
+      "C": {
+        "licencia": "16371",
+        "nombre": "LOPEZ Juan Francisco"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "200",
+        "nombre": "LUCEA Javier"
+      },
+      "X": {
+        "licencia": "203",
+        "nombre": "GUAL Jordi"
+      },
+      "Z": {
+        "licencia": "242",
+        "nombre": "AZCON Joaquin"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "15441",
+        "nombre": "PIMENTEL Luis Guillermo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "200",
+        "nombre": "LUCEA Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15429",
+        "nombre": "MUJICA Sergio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "203",
+        "nombre": "GUAL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16371",
+        "nombre": "LOPEZ Juan Francisco"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "242",
+        "nombre": "AZCON Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "15441",
+        "nombre": "PIMENTEL Luis Guillermo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "203",
+        "nombre": "GUAL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16371",
+        "nombre": "LOPEZ Juan Francisco"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "200",
+        "nombre": "LUCEA Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15429",
+        "nombre": "MUJICA Sergio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "242",
+        "nombre": "AZCON Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "JUMA RIPOLLET",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

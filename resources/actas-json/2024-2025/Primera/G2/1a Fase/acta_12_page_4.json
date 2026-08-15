@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "1a",
+  "grupo": 2,
+  "jornada": 12,
+  "fecha": "2025-01-19",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "GIRBAU VIC TT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
+      "B": {
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      "C": {
+        "licencia": "4434",
+        "nombre": "DIAZ Joan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      },
+      "X": {
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "Z": {
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      {
+        "licencia": "4434",
+        "nombre": "DIAZ Joan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
+      {
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "4434",
+        "nombre": "DIAZ Joan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "4434",
+        "nombre": "DIAZ Joan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "654",
+            "nombre": "OSUNA Fco. Jose"
+          },
+          {
+            "licencia": "4434",
+            "nombre": "DIAZ Joan"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "724",
+            "nombre": "BORRULL Jordi"
+          },
+          {
+            "licencia": "8615",
+            "nombre": "PORTET Joaquim"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATENEU 1882",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

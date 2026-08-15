@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 21,
+  "fecha": "2026-05-03",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "ATT PREMIÀ DE MAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "RIPOLLET MULTI ESPAI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "B": {
+        "licencia": "7674",
+        "nombre": "RIERA Oscar"
+      },
+      "C": {
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11640",
+        "nombre": "ROS Guillem"
+      },
+      "X": {
+        "licencia": "14724",
+        "nombre": "PARDO Lucas"
+      },
+      "Z": {
+        "licencia": "15431",
+        "nombre": "CODOLÀ Biel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11640",
+        "nombre": "ROS Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7674",
+        "nombre": "RIERA Oscar"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14724",
+        "nombre": "PARDO Lucas"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15431",
+        "nombre": "CODOLÀ Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14724",
+        "nombre": "PARDO Lucas"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11640",
+        "nombre": "ROS Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7674",
+        "nombre": "RIERA Oscar"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15431",
+        "nombre": "CODOLÀ Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "RIPOLLET MULTI ESPAI",
+    "marcador_partidos": {
+      "local": 8,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"A\"",
+  "grupo": 2,
+  "jornada": 5,
+  "fecha": "2023-10-29",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT SANT ANDREU -A-",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TERMOTUR CALELLA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "3635",
+        "nombre": "RODRIGUEZ Joaquim"
+      },
+      "B": {
+        "licencia": "12955",
+        "nombre": "TO Pere"
+      },
+      "C": {
+        "licencia": "5430",
+        "nombre": "OLIVES Miguel Anton"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "93",
+        "nombre": "PUIG Jaume"
+      },
+      "X": {
+        "licencia": "12196",
+        "nombre": "ROCA Julio"
+      },
+      "Z": {
+        "licencia": "15508",
+        "nombre": "TORRENT Pau"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "5430",
+        "nombre": "OLIVES Miguel Anton"
+      },
+      {
+        "licencia": "3635",
+        "nombre": "RODRIGUEZ Joaquim"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "93",
+        "nombre": "PUIG Jaume"
+      },
+      {
+        "licencia": "15508",
+        "nombre": "TORRENT Pau"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3635",
+        "nombre": "RODRIGUEZ Joaquim"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "93",
+        "nombre": "PUIG Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12955",
+        "nombre": "TO Pere"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12196",
+        "nombre": "ROCA Julio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5430",
+        "nombre": "OLIVES Miguel Anton"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15508",
+        "nombre": "TORRENT Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3635",
+        "nombre": "RODRIGUEZ Joaquim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12196",
+        "nombre": "ROCA Julio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5430",
+        "nombre": "OLIVES Miguel Anton"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "93",
+        "nombre": "PUIG Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12955",
+        "nombre": "TO Pere"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "15508",
+        "nombre": "TORRENT Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5430",
+            "nombre": "OLIVES Miguel Anton"
+          },
+          {
+            "licencia": "3635",
+            "nombre": "RODRIGUEZ Joaquim"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "93",
+            "nombre": "PUIG Jaume"
+          },
+          {
+            "licencia": "15508",
+            "nombre": "TORRENT Pau"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT SANT ANDREU -A-",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

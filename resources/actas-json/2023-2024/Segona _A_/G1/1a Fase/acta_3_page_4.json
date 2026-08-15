@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"A\"",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2023-10-15",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT DELS HORTS 2000",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA DEL CAMI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
+      "B": {
+        "licencia": "5390",
+        "nombre": "RUIZ-SARMIENTO Manuel"
+      },
+      "C": {
+        "licencia": "322",
+        "nombre": "GUARDIA Pedro"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "X": {
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "Z": {
+        "licencia": "1848",
+        "nombre": "BALADA Lluis"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5390",
+        "nombre": "RUIZ-SARMIENTO Manuel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "322",
+        "nombre": "GUARDIA Pedro"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1848",
+        "nombre": "BALADA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "322",
+        "nombre": "GUARDIA Pedro"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5390",
+        "nombre": "RUIZ-SARMIENTO Manuel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1848",
+        "nombre": "BALADA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT DELS HORTS 2000",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Veterans 3a \"C\"",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2023-10-03",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet C",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
+      "B": {
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      "C": {
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14941",
+        "nombre": "GUISADO Joan"
+      },
+      "X": {
+        "licencia": "16558",
+        "nombre": "MASSANA Marc"
+      },
+      "Z": {
+        "licencia": "16556",
+        "nombre": "SANCHEZ-RICO Josep"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14941",
+        "nombre": "GUISADO Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16558",
+        "nombre": "MASSANA Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16556",
+        "nombre": "SANCHEZ-RICO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16558",
+        "nombre": "MASSANA Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14941",
+        "nombre": "GUISADO Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16556",
+        "nombre": "SANCHEZ-RICO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ST QUIRZE DEL VALLÈS - Vet C",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

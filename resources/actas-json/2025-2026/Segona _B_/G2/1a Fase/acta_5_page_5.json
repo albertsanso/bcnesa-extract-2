@@ -1,0 +1,283 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "2a \"B\"",
+  "grupo": 2,
+  "jornada": 5,
+  "fecha": "2025-11-02",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CLUB ARIEL A",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT PRAT LISANT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "21392",
+        "nombre": "AKKERMANS Estéban"
+      },
+      "B": {
+        "licencia": "10059",
+        "nombre": "SIBEAUX Florent"
+      },
+      "C": {
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6118",
+        "nombre": "CAÑETE Antonio Jose"
+      },
+      "X": {
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "Z": {
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
+      },
+      {
+        "licencia": "21392",
+        "nombre": "AKKERMANS Estéban"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      {
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "21392",
+        "nombre": "AKKERMANS Estéban"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6118",
+        "nombre": "CAÑETE Antonio Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "10059",
+        "nombre": "SIBEAUX Florent"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "21392",
+        "nombre": "AKKERMANS Estéban"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6118",
+        "nombre": "CAÑETE Antonio Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "10059",
+        "nombre": "SIBEAUX Florent"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18645",
+            "nombre": "PHILIPPET Laurent"
+          },
+          {
+            "licencia": "21392",
+            "nombre": "AKKERMANS Estéban"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5638",
+            "nombre": "RABADAN Luis"
+          },
+          {
+            "licencia": "11233",
+            "nombre": "VARABIEV Adrian"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT PRAT LISANT",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

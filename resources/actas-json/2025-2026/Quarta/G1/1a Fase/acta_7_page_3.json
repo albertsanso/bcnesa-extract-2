@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "4a",
+  "grupo": 1,
+  "jornada": 7,
+  "fecha": "2025-11-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI 'B'",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA I LA GELTRU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "4832",
+        "nombre": "ALSINA Jorge"
+      },
+      "B": {
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
+      "C": {
+        "licencia": "17418",
+        "nombre": "BONHORA Jordi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
+      "X": {
+        "licencia": "14420",
+        "nombre": "LOPEZ Victor"
+      },
+      "Z": {
+        "licencia": "19074",
+        "nombre": "SAUMELL Mario"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "4832",
+        "nombre": "ALSINA Jorge"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14420",
+        "nombre": "LOPEZ Victor"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "17418",
+        "nombre": "BONHORA Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "19074",
+        "nombre": "SAUMELL Mario"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "4832",
+        "nombre": "ALSINA Jorge"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14420",
+        "nombre": "LOPEZ Victor"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "17418",
+        "nombre": "BONHORA Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "19074",
+        "nombre": "SAUMELL Mario"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATC MOLINS DE REI 'B'",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "4a",
+  "grupo": 6,
+  "jornada": 22,
+  "fecha": "2026-05-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MOLLET 2002 TT 'B'",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SALLENT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "B": {
+        "licencia": "19143",
+        "nombre": "GARCIA Iker"
+      },
+      "C": {
+        "licencia": "16801",
+        "nombre": "CARRETERO Carla"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16393",
+        "nombre": "CIURO Ramon"
+      },
+      "X": {
+        "licencia": "11240",
+        "nombre": "PONS Ignasi"
+      },
+      "Z": {
+        "licencia": "21184",
+        "nombre": "COLS Marçal"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16393",
+        "nombre": "CIURO Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "19143",
+        "nombre": "GARCIA Iker"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11240",
+        "nombre": "PONS Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16801",
+        "nombre": "CARRETERO Carla"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "21184",
+        "nombre": "COLS Marçal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11240",
+        "nombre": "PONS Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16801",
+        "nombre": "CARRETERO Carla"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16393",
+        "nombre": "CIURO Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "19143",
+        "nombre": "GARCIA Iker"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "21184",
+        "nombre": "COLS Marçal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT SALLENT",
+    "marcador_partidos": {
+      "local": 6,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

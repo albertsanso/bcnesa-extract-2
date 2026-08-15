@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 5,
+  "fecha": "2021-04-11",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "FALCONS DE SABADELL A.E.",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT RIPOLLET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
+      "B": {
+        "licencia": "5587",
+        "nombre": "FERNANDEZ Raul"
+      },
+      "C": {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "X": {
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "Z": {
+        "licencia": "9026",
+        "nombre": "MORENO Pol"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5587",
+        "nombre": "FERNANDEZ Raul"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "9026",
+        "nombre": "MORENO Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5587",
+        "nombre": "FERNANDEZ Raul"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "9026",
+        "nombre": "MORENO Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FALCONS DE SABADELL A.E.",
+    "marcador_partidos": {
+      "local": 17,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

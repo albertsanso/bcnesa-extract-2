@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 7,
+  "fecha": "2021-04-18",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "FALCONS DE SABADELL A.E.",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
+      "B": {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "C": {
+        "licencia": "5587",
+        "nombre": "FERNANDEZ Raul"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "4911",
+        "nombre": "CATALAN Oriol"
+      },
+      "X": {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "Z": {
+        "licencia": "2187",
+        "nombre": "TARRASO Jaume"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4911",
+        "nombre": "CATALAN Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5587",
+        "nombre": "FERNANDEZ Raul"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2187",
+        "nombre": "TARRASO Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5587",
+        "nombre": "FERNANDEZ Raul"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4911",
+        "nombre": "CATALAN Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2187",
+        "nombre": "TARRASO Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FALCONS DE SABADELL A.E.",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

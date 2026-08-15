@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "2a \"A\"",
+  "grupo": 2,
+  "jornada": 3,
+  "fecha": "2022-10-23",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT VILANOVA DEL CAMI",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT BARCELONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12048",
+        "nombre": "BATET Carlos"
+      },
+      "B": {
+        "licencia": "235",
+        "nombre": "BLANCO Matias"
+      },
+      "C": {
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      "X": {
+        "licencia": "7153",
+        "nombre": "MARTINEZ DE MORENTIN Jo"
+      },
+      "Z": {
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12048",
+        "nombre": "BATET Carlos"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "235",
+        "nombre": "BLANCO Matias"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7153",
+        "nombre": "MARTINEZ DE MORENTIN Jo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12048",
+        "nombre": "BATET Carlos"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7153",
+        "nombre": "MARTINEZ DE MORENTIN Jo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "235",
+        "nombre": "BLANCO Matias"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT BARCELONA",
+    "marcador_partidos": {
+      "local": 6,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

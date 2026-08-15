@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "2a \"B\"",
+  "grupo": 1,
+  "jornada": 10,
+  "fecha": "2023-01-15",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT C. JEMA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "MEXCLAT BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
+      },
+      "B": {
+        "licencia": "89",
+        "nombre": "GARCIA Angel"
+      },
+      "C": {
+        "licencia": "6001",
+        "nombre": "NAVARRETE Cristobal"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8128",
+        "nombre": "PINEDA Jordi"
+      },
+      "X": {
+        "licencia": "16118",
+        "nombre": "LI Fa Quan"
+      },
+      "Z": {
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8128",
+        "nombre": "PINEDA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "89",
+        "nombre": "GARCIA Angel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16118",
+        "nombre": "LI Fa Quan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6001",
+        "nombre": "NAVARRETE Cristobal"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16118",
+        "nombre": "LI Fa Quan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6001",
+        "nombre": "NAVARRETE Cristobal"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8128",
+        "nombre": "PINEDA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "89",
+        "nombre": "GARCIA Angel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "MEXCLAT BADALONA",
+    "marcador_partidos": {
+      "local": 9,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

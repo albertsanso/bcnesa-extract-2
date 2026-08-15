@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Preferent",
+  "grupo": 1,
+  "jornada": 11,
+  "fecha": "2024-01-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "UE SANT CUGAT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SALLENT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "1529",
+        "nombre": "ADINA Noel-rene"
+      },
+      "B": {
+        "licencia": "12682",
+        "nombre": "CARRO Sofia"
+      },
+      "C": {
+        "licencia": "12724",
+        "nombre": "ESTIVILL Cristina"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "527",
+        "nombre": "VILA Joan"
+      },
+      "X": {
+        "licencia": "14593",
+        "nombre": "HARO Josep"
+      },
+      "Z": {
+        "licencia": "12139",
+        "nombre": "SIBILA Joel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "1529",
+        "nombre": "ADINA Noel-rene"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "527",
+        "nombre": "VILA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12682",
+        "nombre": "CARRO Sofia"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14593",
+        "nombre": "HARO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "12724",
+        "nombre": "ESTIVILL Cristina"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12139",
+        "nombre": "SIBILA Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "1529",
+        "nombre": "ADINA Noel-rene"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14593",
+        "nombre": "HARO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "12724",
+        "nombre": "ESTIVILL Cristina"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "527",
+        "nombre": "VILA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12682",
+        "nombre": "CARRO Sofia"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12139",
+        "nombre": "SIBILA Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "UE SANT CUGAT",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

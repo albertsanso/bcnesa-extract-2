@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "1a",
+  "grupo": 1,
+  "jornada": 10,
+  "fecha": "2023-12-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MASQUEFA TTC",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILAFRANCA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
+      "B": {
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
+      "C": {
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12517",
+        "nombre": "WEN Yisong"
+      },
+      "X": {
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      },
+      "Z": {
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12517",
+        "nombre": "WEN Yisong"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12517",
+        "nombre": "WEN Yisong"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "MASQUEFA TTC",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

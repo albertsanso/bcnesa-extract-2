@@ -1,0 +1,221 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "1a",
+  "grupo": 3,
+  "jornada": 14,
+  "fecha": "2022-03-20",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT LA TORRE DE CLARAMUNT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT PRAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8346",
+        "nombre": "PEREZ Javier"
+      },
+      "B": {
+        "licencia": "5393",
+        "nombre": "SALA David"
+      },
+      "C": {
+        "licencia": "13058",
+        "nombre": "DE LA ROSA Dario"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      },
+      "X": {
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      },
+      "Z": {
+        "licencia": "1738",
+        "nombre": "MARTINEZ Eduard"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8346",
+        "nombre": "PEREZ Javier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5393",
+        "nombre": "SALA David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13058",
+        "nombre": "DE LA ROSA Dario"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1738",
+        "nombre": "MARTINEZ Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8346",
+        "nombre": "PEREZ Javier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13058",
+        "nombre": "DE LA ROSA Dario"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5393",
+        "nombre": "SALA David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1738",
+        "nombre": "MARTINEZ Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT LA TORRE DE CLARAMUNT",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}
