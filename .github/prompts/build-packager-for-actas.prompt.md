@@ -1,54 +1,76 @@
-# Summary
-Build a packager that creates a ZIP file containing JSON files with information about the actas.
+# Resumen
+Construir un empaquetador que cree un ZIP con los ficheros JSON de las actas.
 
-# Description
-Create a Python script that packages the contents of the `/resources/actas-json/` directory into a ZIP file named `actas-json.zip`. 
-The script should be saved in the `/src/packager/` directory with the filename `package_actas.py`.
+# Descripción
+Crear el script Python `src/packager/package_actas.py`, que empaquete el
+contenido de `resources/actas-json/` en `resources/actas-json.zip` por defecto.
+El directorio raíz del repositorio debe calcularse a partir de la ubicación del
+script, no depender del directorio de trabajo actual.
 
-The package zip file should contain:
-- All the JSON files present in the `/resources/actas-json/` directory, preserving the directory structure.
-- A manifest file named `manifest.json` that lists all the JSON files included in the ZIP file, along with their relative paths and sizes.
+# Goal
 
-## Manifest format
+El ZIP resultante debe conservar ambas estructuras y evitar colisiones de nombres usando estos prefijos obligatorios dentro del archivo:
 
-The archive must contain a UTF-8 encoded `manifest.json` at its root. Its top-level structure is:
+```text
+actas-json/<ruta-relativa-al-directorio-de-actas>
+manifest.json
+```
+
+## Formato de `manifest.json`
+
+El manifiesto debe tener exactamente esta estructura:
 
 ```json
 {
-  "source": "BCNESA",
-  "files": [
-	{
-	  "path": "2025-2026/Segona _B_/G2/1a Fase/acta_6_page_1.json",
-	  "size": 5847
-	},
-	{
-	  "path": "model-definition.json",
-	  "size": 14880
+	"source": "BCNESA",
+	"seasons": [
+		"2025-2026"
+	],
+	"assets": {
+		"ACTAS": {
+			"files": ["actas-json/...", "..."]
+		}
 	}
-  ]
 }
 ```
 
-Manifest requirements:
-- `source` is a string and must always be `"BCNESA"`.
-- `files` is an array containing one entry for every JSON file included in the ZIP, including `model-definition.json` when it is packaged.
-- Each `files` entry is an object with exactly these fields:
-  - `path`: the file path relative to `/resources/actas-json/`, using `/` as the separator, even on Windows. It must match the path stored in the ZIP.
-  - `size`: the uncompressed file size in bytes, represented as a non-negative integer.
-- Entries must be sorted lexicographically by their relative POSIX path.
-- The manifest itself must not appear as an item in `files`.
-- When `--season <season>` is used, `files` contains only JSON files below that season directory, while their paths remain relative to `/resources/actas-json/`.
-- Serialize the manifest with two-space indentation and a final newline.
+Reglas del formato:
 
-- # Usage and input parameters:
-The script should accept the following optional parameters:
-- `--input-dir`: The input directory containing the JSON files to be packaged. Default is `/resources/actas-json/`.
-- `--output-file`: The output ZIP file name.
-- `--force`: Optional flag to force re-creation of the ZIP file if it already exists.
-- `--season`: Optional flag to indicate the season to be packaged. 
-Default is all season. Season is the first level folder like `2021-2022`, `2025-2026`and so on.
-If season is specified, only the JSON files under that season folder will be included in the ZIP file, and the output file name will be `actas-json-<season>.zip`.
+- `source` es siempre la cadena `"FCTT"`.
+- `seasons` es una lista ordenada alfabéticamente de las temporadas `YYYY-YYYY`
+  presentes en las rutas de los JSON incluidos. Puede estar vacía si no hay
+  temporadas.
+- `assets` es un diccionario con una clave `"ACTAS"` que contiene otro diccionario
+  con la clave `"files"`, que es una lista de cadenas; contiene una ruta por cada JSON que se añade al ZIP incluidos sus prefijos `actas-json/` y puede estar vacía si no se encuentra ningún JSON.
+- Cada cadena de `files` es la ruta relativa al directorio de entrada, usando
+  `/` como separador incluso en Windows. Debe coincidir con el nombre del
+  fichero dentro del ZIP.
+- Las entradas de `files` se ordenan alfabéticamente por ruta.
+- El manifiesto se serializa como JSON UTF-8, con `ensure_ascii=False`, dos
+  espacios de indentación y un salto de línea final.
 
-```text
+## Parámetros de uso
+
+El script debe aceptar estos parámetros opcionales:
+
+- `--input-dir`: directorio que contiene los JSON. Por defecto,
+  `resources/actas-json/`.
+- `--output-file`: ruta del ZIP de salida. Si no se indica, se usa
+  `resources/actas-json.zip`, o `resources/actas-json-<seasons>.zip` cuando se
+  indica `--season`, usando las temporadas normalizadas y separadas por comas.
+- `--force`: permite reemplazar el ZIP si ya existe. Sin esta opción, la
+  existencia del fichero de salida debe producir un error.
+- `--season`: limita la búsqueda a los JSON cuya primera carpeta relativa bajo
+  `--input-dir` sea una de las temporadas indicadas. Acepta una temporada o
+  varias separadas por comas, por ejemplo `2023-2024,2024-2025`; se ignoran
+  espacios alrededor de cada valor, se eliminan duplicados y cada valor debe
+  tener formato `YYYY-YYYY`. Un `--output-file` explícito tiene prioridad
+  sobre el nombre automático.
+
+El script debe comprobar que el directorio de entrada existe, crear los
+directorios padre de la salida si es necesario y usar compresión
+`ZIP_DEFLATED`.
+
+```powershell
 python src/packager/package_actas.py [--input-dir <input_dir>] [--output-file <output_file>] [--force] [--season <season>]
 ```

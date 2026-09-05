@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-"""Package the actas JSON files and a manifest into a ZIP archive."""
+"""Package actas JSON files into a ZIP archive."""
 
 from __future__ import annotations
 
 import argparse
 import json
-import os
+import re
 import sys
-import tempfile
-from pathlib import Path
-from zipfile import ZIP_DEFLATED, ZipFile
+import zipfile
+from pathlib import Path, PurePosixPath
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_INPUT_DIR = PROJECT_ROOT / "resources" / "actas-json"
 DEFAULT_OUTPUT_FILE = PROJECT_ROOT / "resources" / "actas-json.zip"
-MANIFEST_NAME = "manifest.json"
+SEASON_PATTERN = re.compile(r"^\d{4}-\d{4}$")
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -23,123 +23,116 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--input-dir",
         type=Path,
-        default=DEFAULT_INPUT_DIR,
-        help=f"Directory containing JSON files (default: {DEFAULT_INPUT_DIR})",
+        help="Directory containing the JSON files (default: resources/actas-json)",
     )
     parser.add_argument(
         "--output-file",
         type=Path,
-        default=DEFAULT_OUTPUT_FILE,
-        help=f"ZIP file to create (default: {DEFAULT_OUTPUT_FILE})",
+        help="Output ZIP path (default: resources/actas-json.zip)",
     )
-    parser.add_argument(
-        "--force",
-        action="store_true",
-        help="Replace the output ZIP file if it already exists",
-    )
+    parser.add_argument("--force", action="store_true", help="Replace an existing ZIP")
     parser.add_argument(
         "--season",
-        help="Package only JSON files under this season directory (for example, 2025-2026)",
+        help="One or more seasons separated by commas, for example 2023-2024,2024-2025",
     )
     return parser.parse_args(argv)
 
 
-def json_files(input_dir: Path, season: str | None = None) -> list[Path]:
-    """Return regular JSON files below *input_dir*, optionally limited to a season."""
-    search_dir = input_dir / season if season is not None else input_dir
-    return sorted(
-        [
-            path
-            for path in search_dir.rglob("*.json")
-            if path.is_file() and not path.is_symlink()
-        ],
-        key=lambda path: path.relative_to(input_dir).as_posix(),
-    )
+def normalise_seasons(value: str | None) -> list[str] | None:
+    """Validate, trim, and de-duplicate the seasons supplied by the user."""
+    if value is None:
+        return None
+
+    seasons: list[str] = []
+    for item in value.split(","):
+        season = item.strip()
+        if not season or not SEASON_PATTERN.fullmatch(season):
+            raise ValueError(
+                "season must use the YYYY-YYYY format; multiple seasons are comma-separated"
+            )
+        if season not in seasons:
+            seasons.append(season)
+    return seasons
 
 
-def manifest_entries(files: list[Path], input_dir: Path) -> list[dict[str, int | str]]:
-    """Build manifest entries containing POSIX relative paths and byte sizes."""
-    return [
+def resolve_path(path: Path | None, default: Path) -> Path:
+    """Resolve an explicitly supplied path from the current directory."""
+    return (path if path is not None else default).expanduser().resolve()
+
+
+def find_json_files(input_dir: Path, seasons: list[str] | None = None) -> list[tuple[Path, PurePosixPath]]:
+    """Return JSON files and their POSIX paths relative to ``input_dir``."""
+    files: list[tuple[Path, PurePosixPath]] = []
+    for path in input_dir.rglob("*"):
+        if not path.is_file() or path.suffix.lower() != ".json":
+            continue
+        relative = path.relative_to(input_dir)
+        if seasons is not None and (not relative.parts or relative.parts[0] not in seasons):
+            continue
+        archive_path = PurePosixPath("actas-json", *relative.parts)
+        files.append((path, archive_path))
+    return sorted(files, key=lambda item: item[1].as_posix())
+
+
+def build_manifest(archive_paths: list[PurePosixPath]) -> dict[str, object]:
+    """Build the manifest for the selected archive paths."""
+    seasons = sorted(
         {
-            "path": path.relative_to(input_dir).as_posix(),
-            "size": path.stat().st_size,
+            path.parts[1]
+            for path in archive_paths
+            if len(path.parts) > 2 and SEASON_PATTERN.fullmatch(path.parts[1])
         }
-        for path in files
-    ]
+    )
+    return {
+        "source": "FCTT",
+        "seasons": seasons,
+        "assets": {"ACTAS": {"files": [path.as_posix() for path in archive_paths]}},
+    }
 
 
-def create_archive(
-    input_dir: Path,
-    output_file: Path,
-    force: bool = False,
-    season: str | None = None,
-) -> int:
-    """Create an archive and return the number of JSON files packaged."""
-    input_dir = input_dir.expanduser()
-    output_file = output_file.expanduser()
-
+def package_actas(input_dir: Path, output_file: Path, force: bool = False, seasons: list[str] | None = None) -> int:
+    """Create the actas ZIP archive and return its number of JSON files."""
     if not input_dir.is_dir():
         raise ValueError(f"input directory not found: {input_dir}")
-    if season is not None:
-        season_path = input_dir / season
-        if (
-            not season
-            or Path(season).name != season
-            or season in {".", ".."}
-            or not season_path.is_dir()
-        ):
-            raise ValueError(f"season directory not found: {season}")
     if output_file.exists() and not force:
-        raise FileExistsError(
-            f"output file already exists: {output_file}; use --force to replace it"
-        )
-    if output_file.exists() and output_file.is_dir():
-        raise IsADirectoryError(f"output path is a directory: {output_file}")
+        raise FileExistsError(f"output file already exists: {output_file} (use --force to replace it)")
 
-    files = json_files(input_dir, season)
-    entries = manifest_entries(files, input_dir)
-    manifest = {"source": "BCNESA","files": entries}
+    json_files = find_json_files(input_dir, seasons)
+    archive_paths = [archive_path for _, archive_path in json_files]
+    manifest = build_manifest(archive_paths)
     output_file.parent.mkdir(parents=True, exist_ok=True)
 
-    temporary_fd, temporary_name = tempfile.mkstemp(
-        prefix=f".{output_file.name}.", suffix=".tmp", dir=output_file.parent
-    )
-    os.close(temporary_fd)
-    temporary_path = Path(temporary_name)
-    try:
-        with ZipFile(temporary_path, "w", compression=ZIP_DEFLATED) as archive:
-            for path in files:
-                archive.write(path, path.relative_to(input_dir).as_posix())
-            archive.writestr(
-                MANIFEST_NAME,
-                json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
-            )
+    with zipfile.ZipFile(output_file, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        for source_path, archive_path in json_files:
+            archive.write(source_path, archive_path.as_posix())
+        manifest_json = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
+        archive.writestr("manifest.json", manifest_json.encode("utf-8"))
 
-        os.replace(temporary_path, output_file)
-    finally:
-        temporary_path.unlink(missing_ok=True)
-
-    return len(files)
+    return len(json_files)
 
 
 def main(argv: list[str] | None = None) -> int:
-    """Run the packager command."""
+    """Run the command-line interface."""
     args = parse_args(argv)
-    output_file = args.output_file
-    if args.season is not None and output_file == DEFAULT_OUTPUT_FILE:
-        output_file = DEFAULT_OUTPUT_FILE.with_name(f"actas-json-{args.season}.zip")
     try:
-        count = create_archive(args.input_dir, output_file, args.force, args.season)
-    except (FileExistsError, IsADirectoryError, OSError, ValueError) as error:
+        seasons = normalise_seasons(args.season)
+        input_dir = resolve_path(args.input_dir, DEFAULT_INPUT_DIR)
+        if args.output_file is not None:
+            output_file = resolve_path(args.output_file, DEFAULT_OUTPUT_FILE)
+        elif seasons is not None:
+            season_suffix = ",".join(seasons)
+            output_file = PROJECT_ROOT / "resources" / f"actas-json-{season_suffix}.zip"
+        else:
+            output_file = DEFAULT_OUTPUT_FILE
+        count = package_actas(input_dir, output_file, args.force, seasons)
+    except (FileExistsError, OSError, ValueError) as error:
         print(f"error: {error}", file=sys.stderr)
         return 1
 
-    print(f"Created {output_file} with {count} JSON file(s) and {MANIFEST_NAME}")
+    print(f"Created {output_file} with {count} JSON file(s).")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
-
 
