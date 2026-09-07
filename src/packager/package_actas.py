@@ -84,7 +84,7 @@ def build_manifest(archive_paths: list[PurePosixPath]) -> dict[str, object]:
         }
     )
     return {
-        "source": "FCTT",
+        "source": "BCNESA",
         "seasons": seasons,
         "assets": {"ACTAS": {"files": [path.as_posix() for path in archive_paths]}},
     }

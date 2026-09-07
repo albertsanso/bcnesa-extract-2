@@ -8,9 +8,10 @@ import logging
 import re
 import sys
 import time
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, cast
 from urllib.parse import unquote, urljoin, urlparse
 
 import requests
@@ -20,9 +21,10 @@ from urllib3.util.retry import Retry
 
 
 DEFAULT_BASE_URL = "http://rtbtt.com"
-DEFAULT_PHASE = "1a Fase"
+DEFAULT_PHASE = "all"
 OUTPUT_ROOT = Path(__file__).resolve().parents[2] / "resources" / "actas-pdf"
 USER_AGENT = "rtbtt-actas-downloader/1.0"
+PLAY_OFF_TITLE = "Play Off T" + chr(0xED) + "tol"
 
 
 @dataclass(frozen=True)
@@ -103,12 +105,12 @@ def fetch(session: requests.Session, url: str) -> BeautifulSoup:
 def link_target(anchor: Tag, base_url: str) -> str | None:
     href = anchor.get("href")
     if not href or href.lower().startswith(("javascript:", "mailto:", "#")):
-        javascript = anchor.get("href", "")
+        javascript = cast(str, anchor.get("href", ""))
         match = re.search(r"loadurl\(['\"]([^'\"]+)", javascript, re.I)
         if not match:
             return None
         href = match.group(1)
-    return normalise_url(href, base_url)
+    return normalise_url(cast(str, href), base_url)
 
 
 def report_index_links(
@@ -123,7 +125,7 @@ def report_index_links(
         if not target or not re.search(r"\.html(?:$|[?#])", target, re.I):
             continue
         path_parts = [part for part in unquote(urlparse(target).path).split("/") if part]
-        if not path_parts or not path_parts[0].casefold().startswith("actes"):
+        if not path_parts or not path_parts[0].casefold().startswith(("actes", "lligues")):
             continue
         slug = path_parts[-1].removesuffix(".html")
         category = category_from_slug(slug)
@@ -132,7 +134,9 @@ def report_index_links(
         label = anchor.get_text(" ", strip=True)
         group_match = re.search(r"(?:^|_)(G\s*\d+)(?:$|_)", slug, re.I)
         group = group_match.group(1).replace(" ", "").upper() if group_match else ""
-        phase = "1a Fase" if group else phase_name(label or slug)
+        phase = phase_from_slug(slug, category) or phase_name(label, category)
+        if phase not in known_phases():
+            phase = "1a Fase"
         entries.append((category, group, phase, target))
     time.sleep(max(0, delay))
     logger.info("Found %d report index links at %s", len(entries), page_url)
@@ -140,6 +144,9 @@ def report_index_links(
 
 
 def category_from_slug(slug: str) -> str | None:
+    prefix_slug = slug.split("_", 1)[0].casefold()
+    if prefix_slug in {"actes", "lligues"}:
+        slug = slug.split("_", 1)[1] if "_" in slug else ""
     upper_slug = slug.upper()
     prefix = slug.split("_", 1)[0].casefold()
     names = {
@@ -150,27 +157,69 @@ def category_from_slug(slug: str) -> str | None:
     }
     category = names.get(prefix)
     if category in {"Segona", "Tercera"}:
-        qualifier = re.search(r"(?:SEGONA|TERCERA)_(A|B)(?:_|$)", upper_slug)
-        if qualifier:
-            category += f' "{qualifier.group(1)}"'
+        segona_qualifier = re.search(r"(?:SEGONA|TERCERA)_([AB])(?:_|$)", upper_slug)
+        if segona_qualifier:
+            category += f' "{segona_qualifier.group(1)}"'
     elif category == "Veterans":
-        qualifier = re.search(r"VET_(\d+)(?:_(A|B))?", upper_slug)
-        if qualifier:
-            category = f"Vet {qualifier.group(1)}a"
-            if qualifier.group(2):
-                category += f' "{qualifier.group(2)}"'
+        veteran_qualifier = re.search(r"VET_(\d+)(?:_([AB]))?", upper_slug)
+        if veteran_qualifier:
+            category = f"Vet {veteran_qualifier.group(1)}a"
+            if veteran_qualifier.group(2):
+                category += f' "{veteran_qualifier.group(2)}"'
     return category
 
 
-def phase_name(label: str) -> str:
+def category_is_vet_1a(category: str | None) -> bool:
+    return bool(category and re.fullmatch(r"vet\s*1a(?:\s+\"[AB]\")?", category.strip(), re.I))
+
+
+def phase_name(label: str, category: str | None = None) -> str:
     folded = re.sub(r"\s+", " ", label).strip().casefold()
-    if folded in {"lliga", "lliga 1a fase", "lliga 1ª fase", "actes"}:
+    folded = "".join(
+        character
+        for character in unicodedata.normalize("NFD", folded)
+        if unicodedata.category(character) != "Mn"
+    )
+    folded = folded.replace("ª", "a")
+    folded = re.sub(r"[_-]+", " ", folded)
+    if folded in {"lliga", "lliga 1a fase", "actes", "1a fase", "1a fase lliga"}:
         return "1a Fase"
-    if "3a" in folded or "3ª" in folded:
+    if "play" in folded and "off" in folded or "poff" in folded:
+        return PLAY_OFF_TITLE if category_is_vet_1a(category) else "Play Off Ascens"
+    if "titol" in folded or "ttol" in folded:
+        return "TITOL"
+    if "ascens" in folded:
+        return "ASCENS"
+    if "descens" in folded:
+        return "DESCENS"
+    if re.search(r"\b3a?\s+fase\b", folded):
         return "3a Fase"
-    if "2a" in folded or "2ª" in folded or "play" in folded or "poff" in folded:
+    if re.search(r"\b2a?\s+fase\b", folded):
         return "2a Fase"
     return label.strip() or "Other"
+
+
+def phase_from_slug(slug: str, category: str | None = None) -> str | None:
+    """Extract an explicit phase from an index slug for any competition."""
+    category = category or category_from_slug(slug)
+    folded = re.sub(r"[_-]+", " ", slug).casefold()
+    folded = "".join(
+        character
+        for character in unicodedata.normalize("NFD", folded)
+        if unicodedata.category(character) != "Mn"
+    )
+    if re.search(r"\bplay\s*offs?\b|\bpoff\b", folded):
+        return PLAY_OFF_TITLE if category_is_vet_1a(category) else "Play Off Ascens"
+    for marker, phase in (("titol", "TITOL"), ("ttol", "TITOL"), ("ascens", "ASCENS"), ("descens", "DESCENS")):
+        if re.search(rf"\b{marker}\b", folded):
+            return phase
+    if re.search(r"\b(?:1a|1a fase|lliga)\b", folded):
+        return "1a Fase"
+    return None
+
+
+def known_phases() -> set[str]:
+    return {"1a Fase", "2a Fase", "3a Fase", "TITOL", "ASCENS", "DESCENS", "Play Off Títol", "Play Off Ascens"}
 
 
 def unique_entries(entries: Iterable[tuple[str, str, str, str]]) -> list[tuple[str, str, str, str]]:
@@ -181,6 +230,21 @@ def unique_entries(entries: Iterable[tuple[str, str, str, str]]) -> list[tuple[s
             seen.add(entry)
             result.append(entry)
     return result
+
+
+def select_index_links(
+    indexes: Iterable[tuple[str, str, str, str]],
+    category: str | None,
+    group: str | None,
+    phase: str,
+) -> list[tuple[str, str, str, str]]:
+    """Filter indexes, with ``all`` selecting every discovered phase."""
+    return [
+        entry for entry in indexes
+        if (not category or entry[0].casefold() == category.casefold())
+        and (not group or entry[1].casefold() == group.casefold())
+        and (phase.casefold() == "all" or entry[2].casefold() == phase.casefold())
+    ]
 
 
 def extract_reports(
@@ -195,7 +259,7 @@ def extract_reports(
     soup = fetch(session, index_url)
     reports: list[ReportLink] = []
     for anchor in soup.find_all("a"):
-        href = anchor.get("href", "")
+        href = cast(str, anchor.get("href", ""))
         if not re.search(r"\.pdf(?:$|[?#])", href, re.I):
             continue
         target = report_pdf_url(href, index_url, base_url)
@@ -258,12 +322,7 @@ def main(argv: list[str] | None = None) -> int:
         base_url = args.base_url.rstrip("/") + "/"
         session = make_session()
         indexes = report_index_links(session, args.season, base_url, args.delay, logger)
-        selected = [
-            entry for entry in indexes
-            if (not args.category or entry[0].casefold() == args.category.casefold())
-            and (not args.group or entry[1].casefold() == args.group.casefold())
-            and entry[2].casefold() == args.phase.casefold()
-        ]
+        selected = select_index_links(indexes, args.category, args.group, args.phase)
         if args.category and not any(entry[0].casefold() == args.category.casefold() for entry in indexes):
             raise ValueError(f"category not found: {args.category}")
         if not selected:
@@ -272,16 +331,23 @@ def main(argv: list[str] | None = None) -> int:
         for category, group, phase, index_url in selected:
             reports.extend(extract_reports(session, category, group, phase, index_url, base_url, args.delay))
         downloaded = skipped = errors = 0
+        phase_results: dict[str, dict[str, int]] = {}
         for report in reports:
             path = OUTPUT_ROOT / clean_name(args.season) / clean_name(report.category) / clean_name(report.group) / clean_name(report.phase) / f"acta_{report.match_id}.pdf"
             try:
                 status = download_report(session, report, path, args.force, args.delay)
                 downloaded += status == "downloaded"
                 skipped += status == "skipped"
+                phase_results.setdefault(report.phase, {"downloaded": 0, "skipped": 0, "errors": 0})[status] += 1
             except Exception as exc:  # Keep processing the remaining reports.
                 errors += 1
+                phase_results.setdefault(report.phase, {"downloaded": 0, "skipped": 0, "errors": 0})["errors"] += 1
                 logger.error("%s: %s", report.url, exc)
-        print(f"Summary: {downloaded} downloaded, {skipped} skipped, {errors} errors ({len(reports)} reports found).")
+        phase_summary = ", ".join(
+            f"{phase} ({result['downloaded']} downloaded, {result['skipped']} skipped, {result['errors']} errors)"
+            for phase, result in sorted(phase_results.items())
+        )
+        print(f"Summary: {downloaded} downloaded, {skipped} skipped, {errors} errors ({len(reports)} reports found; phases: {phase_summary or 'none'}).")
         return 1 if errors else 0
     except (requests.RequestException, ValueError) as exc:
         logger.error("Crawl failed: %s", exc)

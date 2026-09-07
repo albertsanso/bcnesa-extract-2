@@ -36,7 +36,7 @@ El manifiesto debe tener exactamente esta estructura:
 
 Reglas del formato:
 
-- `source` es siempre la cadena `"FCTT"`.
+- `source` es siempre la cadena `"BCNESA"`.
 - `seasons` es una lista ordenada alfabéticamente de las temporadas `YYYY-YYYY`
   presentes en las rutas de los JSON incluidos. Puede estar vacía si no hay
   temporadas.
