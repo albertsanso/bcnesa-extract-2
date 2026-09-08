@@ -1,0 +1,322 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Modelo de acta de partido de la RFETM",
+  "description": "Definición descriptiva y de validación para los ficheros resources/actas-json/**/*.json. Los campos opcionales o anulables reflejan variantes presentes entre temporadas y actas incompletas.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "federacion",
+    "temporada",
+    "competicion",
+    "grupo",
+    "jornada",
+    "fecha",
+    "hora",
+    "lugar",
+    "equipos",
+    "abc_es_local",
+    "arbitros",
+    "alineaciones",
+    "dobles",
+    "partidos",
+    "resultado_final",
+    "acta_protestada"
+  ],
+  "properties": {
+    "federacion": {
+      "type": "string",
+      "description": "Nombre de la federación emisora del acta.",
+      "examples": ["Real Federación Española de Tenis de Mesa"]
+    },
+    "temporada": {
+      "type": ["string", "null"],
+      "description": "Temporada deportiva a la que pertenece el encuentro. Puede no estar disponible en actas incompletas.",
+      "pattern": "^[0-9]{4}/[0-9]{4}$",
+      "examples": ["2025/2026", null]
+    },
+    "competicion": {
+      "type": ["string", "null"],
+      "description": "Nombre de la competición, categoría y, habitualmente, género.",
+      "examples": ["Superdivisión Masculina", "División de Honor Femenina", null]
+    },
+    "grupo": {
+      "type": "integer",
+      "description": "Número de grupo dentro de la competición.",
+      "minimum": 0,
+      "examples": [0, 1, 6]
+    },
+    "jornada": {
+      "type": "integer",
+      "description": "Número de jornada de liga.",
+      "minimum": 1,
+      "examples": [1, 22]
+    },
+    "fecha": {
+      "type": ["string", "null"],
+      "description": "Fecha programada o celebrada del encuentro, en formato ISO 8601.",
+      "format": "date",
+      "examples": ["2026-05-08", null]
+    },
+    "hora": {
+      "type": ["string", "null"],
+      "description": "Hora del encuentro en formato de 24 horas.",
+      "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$",
+      "examples": ["18:30", null]
+    },
+    "lugar": {
+      "description": "Ubicación del encuentro; puede faltar por completo en algunas actas.",
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "#/$defs/lugar" }
+      ],
+      "examples": [{ "ciudad": "Santiago de Compostela (A Coruña)", "recinto": "CAMPO DE FUTBOL SAN LÁZARO" }, null]
+    },
+    "equipos": {
+      "type": "object",
+      "description": "Equipos que actúan como local y visitante.",
+      "additionalProperties": false,
+      "required": ["local", "visitante"],
+      "properties": {
+        "local": { "$ref": "#/$defs/equipo" },
+        "visitante": { "$ref": "#/$defs/equipo" }
+      }
+    },
+    "abc_es_local": {
+      "type": "boolean",
+      "description": "Indica si las letras A, B y C de la alineación y los cruces corresponden al equipo local; si es false, las letras X, Y y Z corresponden al local.",
+      "examples": [true, false]
+    },
+    "arbitros": {
+      "type": "object",
+      "description": "Personal arbitral consignado en el acta.",
+      "additionalProperties": false,
+      "required": ["principal", "asistente"],
+      "properties": {
+        "principal": { "$ref": "#/$defs/arbitroNullable" },
+        "asistente": {
+          "type": "null",
+          "description": "Árbitro asistente. En el conjunto actual siempre es null.",
+          "examples": [null]
+        }
+      }
+    },
+    "alineaciones": {
+      "type": "object",
+      "description": "Jugadores alineados por equipo y letra de orden. Cada lado puede usar A/B/C o X/Y/Z según abc_es_local.",
+      "additionalProperties": false,
+      "required": ["local", "visitante"],
+      "properties": {
+        "local": { "$ref": "#/$defs/alineacion" },
+        "visitante": { "$ref": "#/$defs/alineacion" }
+      }
+    },
+    "dobles": {
+      "description": "Parejas del encuentro de dobles, cuando el formato de competición lo incluye.",
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "#/$defs/dobles" }
+      ],
+      "examples": [null, { "local": [{ "nombre": "JUGADOR LOCAL 1", "licencia": "12345" }, { "nombre": "JUGADOR LOCAL 2", "licencia": "12346" }], "visitante": [{ "nombre": "JUGADOR VISITANTE 1", "licencia": "12347" }, { "nombre": "JUGADOR VISITANTE 2", "licencia": "12348" }] }]
+    },
+    "partidos": {
+      "type": "array",
+      "description": "Partidos individuales y, si procede, de dobles que componen la eliminatoria, en orden de disputa programado.",
+      "items": { "$ref": "#/$defs/partido" },
+      "minItems": 1
+    },
+    "resultado_final": {
+      "type": "object",
+      "description": "Resultado global de la eliminatoria.",
+      "additionalProperties": false,
+      "required": ["ganador", "marcador_partidos", "marcador_juegos"],
+      "properties": {
+        "ganador": { "type": ["string", "null"], "description": "Nombre del equipo ganador; null cuando no se determina.", "examples": ["ARTEAL SANTIAGO", null] },
+        "marcador_partidos": { "$ref": "#/$defs/marcadorConValoresNulos" },
+        "marcador_juegos": { "$ref": "#/$defs/marcadorNullable" }
+      }
+    },
+    "acta_protestada": {
+      "type": "boolean",
+      "description": "Indica si el acta fue protestada.",
+      "examples": [false]
+    }
+  },
+  "$defs": {
+    "lugar": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ciudad", "recinto"],
+      "properties": {
+        "ciudad": { "type": ["string", "null"], "description": "Ciudad y, habitualmente, provincia del encuentro.", "examples": ["Santiago de Compostela (A Coruña)", null] },
+        "recinto": { "type": ["string", "null"], "description": "Nombre del pabellón, sala o recinto de juego.", "examples": ["CAMPO DE FUTBOL SAN LÁZARO", null] }
+      }
+    },
+    "persona": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nombre", "licencia"],
+      "properties": {
+        "nombre": { "type": "string", "description": "Nombre completo de la persona.", "examples": ["FERNANDEZ ALBORES, JOSE"] },
+        "licencia": { "type": "string", "description": "Número de licencia, representado como texto para preservar ceros o formatos de origen.", "pattern": "^[0-9]+$", "examples": ["324"] }
+      }
+    },
+    "personaNullable": {
+      "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/persona" }]
+    },
+    "arbitro": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nombre", "licencia"],
+      "properties": {
+        "nombre": { "type": "string", "description": "Nombre completo del árbitro.", "examples": ["CABALEIRO FERNANDEZ, JOSE LUIS"] },
+        "licencia": { "type": ["string", "null"], "description": "Número de licencia arbitral; puede no constar aunque se identifique al árbitro.", "pattern": "^[0-9]+$", "examples": ["1576", null] }
+      }
+    },
+    "arbitroNullable": {
+      "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/arbitro" }]
+    },
+    "equipo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nombre", "delegado", "entrenador"],
+      "properties": {
+        "id": { "type": ["string", "null"], "description": "Identificador de club/equipo disponible en actas enriquecidas.", "examples": ["10422", null] },
+        "nombre": { "type": ["string", "null"], "description": "Nombre del equipo tal como figura en el acta.", "examples": ["ARTEAL SANTIAGO", null] },
+        "delegado": { "$ref": "#/$defs/personaNullable", "description": "Delegado del equipo, si se consigna." },
+        "entrenador": { "$ref": "#/$defs/personaNullable", "description": "Entrenador del equipo, si se consigna." }
+      }
+    },
+    "jugador": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nombre", "licencia"],
+      "properties": {
+        "id": { "type": "string", "description": "Identificador del jugador disponible en actas enriquecidas.", "pattern": "^[0-9]+$", "examples": ["31328"] },
+        "nombre": { "type": "string", "description": "Nombre del jugador.", "examples": ["MANHANI JUNIOR, HUMBERTO"] },
+        "licencia": { "type": "string", "description": "Número de licencia del jugador.", "pattern": "^[0-9]+$", "examples": ["31328"] },
+        "ranking": { "type": "number", "description": "Puntuación o posición de ranking disponible en algunas actas enriquecidas.", "examples": [1777.0] }
+      }
+    },
+    "alineacion": {
+      "type": "object",
+      "description": "Mapa de letras de alineación a jugadores. Las letras permitidas son A, B, C, X, Y y Z; no todas aparecen en cada lado.",
+      "additionalProperties": false,
+      "properties": {
+        "A": { "$ref": "#/$defs/jugador" },
+        "B": { "$ref": "#/$defs/jugador" },
+        "C": { "$ref": "#/$defs/jugador" },
+        "X": { "$ref": "#/$defs/jugador" },
+        "Y": { "$ref": "#/$defs/jugador" },
+        "Z": { "$ref": "#/$defs/jugador" }
+      },
+      "minProperties": 3,
+      "maxProperties": 3
+    },
+    "dobles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["local", "visitante"],
+      "properties": {
+        "local": { "$ref": "#/$defs/pareja" },
+        "visitante": { "$ref": "#/$defs/pareja" }
+      }
+    },
+    "pareja": {
+      "type": "array",
+      "description": "Jugadores, con nombre y número de licencia, que integran una pareja de dobles.",
+      "items": { "$ref": "#/$defs/jugador" },
+      "minItems": 2,
+      "maxItems": 2,
+      "examples": [[{ "nombre": "CARMEN HENARES SÁNCHEZ", "licencia": "12345" }, { "nombre": "LORENA GIL GOMEZ", "licencia": "12346" }]]
+    },
+    "marcador": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["local", "visitante"],
+      "properties": {
+        "local": { "type": "integer", "minimum": 0, "description": "Tanteo del equipo o jugador local.", "examples": [4] },
+        "visitante": { "type": "integer", "minimum": 0, "description": "Tanteo del equipo o jugador visitante.", "examples": [0] }
+      }
+    },
+    "marcadorNullable": {
+      "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/marcador" }]
+    },
+    "marcadorConValoresNulos": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["local", "visitante"],
+          "properties": {
+            "local": { "type": ["integer", "null"], "minimum": 0, "description": "Tanteo global local; puede no estar disponible.", "examples": [4, null] },
+            "visitante": { "type": ["integer", "null"], "minimum": 0, "description": "Tanteo global visitante; puede no estar disponible.", "examples": [0, null] }
+          }
+        }
+      ]
+    },
+    "participantePartido": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["letra"],
+      "properties": {
+        "letra": { "type": "string", "description": "Letra de la alineación; para dobles se usa normalmente Db.", "pattern": "^(A|B|C|X|Y|Z|Db)$", "examples": ["A", "Db"] },
+        "nombre": { "type": ["string", "null"], "description": "Nombre del jugador individual; es null en encuentros no disputados.", "examples": ["MANHANI JUNIOR, HUMBERTO", null] },
+        "licencia": { "type": "string", "description": "Licencia del jugador individual, cuando está disponible.", "pattern": "^[0-9]+$", "examples": ["31328"] },
+        "id": { "type": "string", "description": "Identificador del jugador individual, cuando está disponible.", "pattern": "^[0-9]+$", "examples": ["31328"] },
+        "ranking": { "type": "number", "description": "Ranking del jugador individual, cuando está disponible.", "examples": [1777.0] },
+        "jugadores": { "$ref": "#/$defs/pareja", "description": "Integrantes de la pareja; se usa en partidos de tipo dobles." }
+      }
+    },
+    "set": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["set", "local", "visitante"],
+      "properties": {
+        "set": { "type": "integer", "minimum": 1, "description": "Ordinal del set dentro del partido.", "examples": [1] },
+        "local": { "type": "integer", "minimum": 0, "description": "Puntos logrados por el lado local en el set.", "examples": [11] },
+        "visitante": { "type": "integer", "minimum": 0, "description": "Puntos logrados por el lado visitante en el set.", "examples": [9] }
+      }
+    },
+    "partido": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["numero", "tipo", "cruce", "local", "visitante", "sets", "resultado_juegos", "ganador", "marcador_acumulado"],
+      "properties": {
+        "numero": { "type": "integer", "minimum": 1, "description": "Orden del partido en la eliminatoria.", "examples": [1, 7] },
+        "tipo": { "type": "string", "enum": ["individual", "dobles"], "description": "Modalidad del partido.", "examples": ["individual", "dobles"] },
+        "cruce": { "type": "string", "description": "Cruce de letras de alineación, por ejemplo A vs Y o D vs D.", "examples": ["A vs Y", "D vs D"] },
+        "local": { "$ref": "#/$defs/participantePartido" },
+        "visitante": { "$ref": "#/$defs/participantePartido" },
+        "sets": { "type": "array", "description": "Resultado de cada set; queda vacío si el partido no se disputa.", "items": { "$ref": "#/$defs/set" }, "examples": [[{"set": 1, "local": 11, "visitante": 8}]] },
+        "resultado_juegos": { "$ref": "#/$defs/marcadorNullable", "description": "Número de sets ganados por cada lado; null si no se disputa." },
+        "ganador": { "type": ["string", "null"], "enum": ["local", "visitante", null], "description": "Lado ganador del partido, o null cuando no se disputa.", "examples": ["local", "visitante", null] },
+        "marcador_acumulado": { "$ref": "#/$defs/marcador", "description": "Marcador de partidos de la eliminatoria tras este encuentro." },
+        "no_disputado": { "type": "boolean", "description": "Solo se incluye y vale true cuando el partido no se jugó.", "const": true, "examples": [true] },
+        "motivo": { "type": "string", "description": "Motivo por el que no se disputó el partido.", "examples": ["Victoria decidida (4-0)"] }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "tipo": { "const": "dobles" } }, "required": ["tipo"] },
+          "then": {
+            "properties": {
+              "local": { "required": ["letra", "jugadores"] },
+              "visitante": { "required": ["letra", "jugadores"] }
+            }
+          }
+        },
+        {
+          "if": { "required": ["no_disputado"] },
+          "then": {
+            "required": ["motivo"],
+            "properties": {
+              "sets": { "maxItems": 0 },
+              "resultado_juegos": { "type": "null" },
+              "ganador": { "type": "null" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
