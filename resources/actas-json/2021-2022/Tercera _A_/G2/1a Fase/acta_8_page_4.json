@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 8,
+  "fecha": "2022-01-08",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "NEW OLIVER BADALONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT BARCELONA ''B''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
+      "B": {
+        "licencia": "10817",
+        "nombre": "RATERA Domènec"
+      },
+      "C": {
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "15090",
+        "nombre": "PALOU Alfred"
+      },
+      "X": {
+        "licencia": "15092",
+        "nombre": "CAMPOS Carlos-antonio"
+      },
+      "Z": {
+        "licencia": "10423",
+        "nombre": "GARMENDIA Miquel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15090",
+        "nombre": "PALOU Alfred"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "10817",
+        "nombre": "RATERA Domènec"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15092",
+        "nombre": "CAMPOS Carlos-antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10423",
+        "nombre": "GARMENDIA Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15092",
+        "nombre": "CAMPOS Carlos-antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15090",
+        "nombre": "PALOU Alfred"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "10817",
+        "nombre": "RATERA Domènec"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10423",
+        "nombre": "GARMENDIA Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "NEW OLIVER BADALONA",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

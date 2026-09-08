@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Veterans 3a \"B\"",
+  "fase": "Play Off Ascens",
+  "grupo": null,
+  "jornada": 4,
+  "fecha": "2024-05-28",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
+      "B": {
+        "licencia": "6165",
+        "nombre": "SALCEDO Raul"
+      },
+      "C": {
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "15565",
+        "nombre": "TONCA Nicolae"
+      },
+      "X": {
+        "licencia": "14224",
+        "nombre": "DE AMORES Rafael"
+      },
+      "Z": {
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15565",
+        "nombre": "TONCA Nicolae"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6165",
+        "nombre": "SALCEDO Raul"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14224",
+        "nombre": "DE AMORES Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14224",
+        "nombre": "DE AMORES Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15565",
+        "nombre": "TONCA Nicolae"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6165",
+        "nombre": "SALCEDO Raul"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLDEFELS",
+    "marcador_partidos": {
+      "local": 9,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

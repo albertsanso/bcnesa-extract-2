@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 13,
+  "fecha": "2023-02-05",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "BADAGRES BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "1080",
+        "nombre": "ALCAÑIZ Bernat"
+      },
+      "B": {
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "C": {
+        "licencia": "5430",
+        "nombre": "OLIVES Miguel Anton"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
+      },
+      "X": {
+        "licencia": "7091",
+        "nombre": "TERUEL Alex"
+      },
+      "Z": {
+        "licencia": "14077",
+        "nombre": "NÚÑEZ Pol"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "1080",
+        "nombre": "ALCAÑIZ Bernat"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7091",
+        "nombre": "TERUEL Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5430",
+        "nombre": "OLIVES Miguel Anton"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14077",
+        "nombre": "NÚÑEZ Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "1080",
+        "nombre": "ALCAÑIZ Bernat"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7091",
+        "nombre": "TERUEL Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5430",
+        "nombre": "OLIVES Miguel Anton"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14077",
+        "nombre": "NÚÑEZ Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CENTRE",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

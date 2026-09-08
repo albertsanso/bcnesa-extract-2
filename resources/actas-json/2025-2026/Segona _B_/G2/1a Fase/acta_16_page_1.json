@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "2a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 16,
+  "fecha": "2026-03-01",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA I LA GELTRU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11476",
+        "nombre": "PEREZ Gerard"
+      },
+      "B": {
+        "licencia": "7942",
+        "nombre": "ESPIN Paula"
+      },
+      "C": {
+        "licencia": "13077",
+        "nombre": "ESCORZA Javier"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "15763",
+        "nombre": "VALLVERDÚ Pau"
+      },
+      "X": {
+        "licencia": "18638",
+        "nombre": "MARQUEZ Arnau"
+      },
+      "Z": {
+        "licencia": "123",
+        "nombre": "LOPEZ Santiago"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11476",
+        "nombre": "PEREZ Gerard"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15763",
+        "nombre": "VALLVERDÚ Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7942",
+        "nombre": "ESPIN Paula"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18638",
+        "nombre": "MARQUEZ Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13077",
+        "nombre": "ESCORZA Javier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "123",
+        "nombre": "LOPEZ Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11476",
+        "nombre": "PEREZ Gerard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18638",
+        "nombre": "MARQUEZ Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13077",
+        "nombre": "ESCORZA Javier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15763",
+        "nombre": "VALLVERDÚ Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7942",
+        "nombre": "ESPIN Paula"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "123",
+        "nombre": "LOPEZ Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 6
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILANOVA I LA GELTRU",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 18
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

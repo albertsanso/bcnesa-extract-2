@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 20,
+  "fecha": "2023-04-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "WBTRAVEL CTT RIPOLLET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "B": {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "C": {
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11775",
+        "nombre": "CUTILLAS Octavi"
+      },
+      "X": {
+        "licencia": "11774",
+        "nombre": "GARCÍA Alex"
+      },
+      "Z": {
+        "licencia": "12403",
+        "nombre": "ALTAS Pau"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11775",
+        "nombre": "CUTILLAS Octavi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11774",
+        "nombre": "GARCÍA Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12403",
+        "nombre": "ALTAS Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "470",
+        "nombre": "DURAN Ignasi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11774",
+        "nombre": "GARCÍA Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11775",
+        "nombre": "CUTILLAS Octavi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12403",
+        "nombre": "ALTAS Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "WBTRAVEL CTT RIPOLLET",
+    "marcador_partidos": {
+      "local": 8,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

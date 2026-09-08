@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 13,
+  "fecha": "2025-02-02",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT PARETS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CN SABADELL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8391",
+        "nombre": "CARDOZO Sacha Frank"
+      },
+      "B": {
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
+      "C": {
+        "licencia": "1161",
+        "nombre": "CORTES Jonathan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "X": {
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
+      "Z": {
+        "licencia": "16321",
+        "nombre": "PARRA Juan David"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8391",
+        "nombre": "CARDOZO Sacha Frank"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "1161",
+        "nombre": "CORTES Jonathan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16321",
+        "nombre": "PARRA Juan David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8391",
+        "nombre": "CARDOZO Sacha Frank"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "1161",
+        "nombre": "CORTES Jonathan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16321",
+        "nombre": "PARRA Juan David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT PARETS",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

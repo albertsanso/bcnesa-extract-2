@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 6,
+  "fecha": "2025-11-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MASQUEFA TTC",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA DEL CAMI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11198",
+        "nombre": "LANDETE Antonio"
+      },
+      "B": {
+        "licencia": "5678",
+        "nombre": "PARRA Renato Adriano"
+      },
+      "C": {
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "X": {
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "Z": {
+        "licencia": "1848",
+        "nombre": "BALADA Lluis"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11198",
+        "nombre": "LANDETE Antonio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5678",
+        "nombre": "PARRA Renato Adriano"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1848",
+        "nombre": "BALADA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11198",
+        "nombre": "LANDETE Antonio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6898",
+        "nombre": "MITEV Mitkov"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1848",
+        "nombre": "BALADA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "MASQUEFA TTC",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

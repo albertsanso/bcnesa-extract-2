@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "4a",
+  "fase": "1a Fase",
+  "grupo": 3,
+  "jornada": 2,
+  "fecha": "2024-10-05",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT BARCELONA ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA ''C''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14810",
+        "nombre": "GONZALEZ David"
+      },
+      "B": {
+        "licencia": "5863",
+        "nombre": "REDON Aitor"
+      },
+      "C": {
+        "licencia": "18720",
+        "nombre": "DOMENECH Antoni"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16167",
+        "nombre": "FABIAN Iker Jaime"
+      },
+      "X": {
+        "licencia": "19155",
+        "nombre": "FABIAN Javier"
+      },
+      "Z": {
+        "licencia": "18639",
+        "nombre": "LÓPEZ Genís"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14810",
+        "nombre": "GONZALEZ David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16167",
+        "nombre": "FABIAN Iker Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5863",
+        "nombre": "REDON Aitor"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "19155",
+        "nombre": "FABIAN Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "18720",
+        "nombre": "DOMENECH Antoni"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "18639",
+        "nombre": "LÓPEZ Genís"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14810",
+        "nombre": "GONZALEZ David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "19155",
+        "nombre": "FABIAN Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "18720",
+        "nombre": "DOMENECH Antoni"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16167",
+        "nombre": "FABIAN Iker Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5863",
+        "nombre": "REDON Aitor"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "18639",
+        "nombre": "LÓPEZ Genís"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT BARCELONA ''A''",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

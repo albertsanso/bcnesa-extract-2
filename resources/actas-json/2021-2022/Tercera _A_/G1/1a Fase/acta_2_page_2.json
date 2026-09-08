@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 2,
+  "fecha": "2021-10-24",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "ATT CASTELLAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12056",
+        "nombre": "ALFONSO Marc"
+      },
+      "B": {
+        "licencia": "4829",
+        "nombre": "LAROCCA Gustavo"
+      },
+      "C": {
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14249",
+        "nombre": "FORNELLS Abril"
+      },
+      "X": {
+        "licencia": "11157",
+        "nombre": "SANS Montse"
+      },
+      "Z": {
+        "licencia": "11076",
+        "nombre": "SERRA Carles"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12056",
+        "nombre": "ALFONSO Marc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14249",
+        "nombre": "FORNELLS Abril"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "4829",
+        "nombre": "LAROCCA Gustavo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11157",
+        "nombre": "SANS Montse"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11076",
+        "nombre": "SERRA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12056",
+        "nombre": "ALFONSO Marc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11157",
+        "nombre": "SANS Montse"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14249",
+        "nombre": "FORNELLS Abril"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "4829",
+        "nombre": "LAROCCA Gustavo"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11076",
+        "nombre": "SERRA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ATT CASTELLAR",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

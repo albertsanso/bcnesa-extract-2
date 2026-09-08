@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 12,
+  "fecha": "2024-01-21",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT TORELLÓ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
+      "B": {
+        "licencia": "5651",
+        "nombre": "HIGUERAS Manuel"
+      },
+      "C": {
+        "licencia": "11245",
+        "nombre": "LOPEZ David"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      "X": {
+        "licencia": "5417",
+        "nombre": "KRZYSZTOF Slawomir"
+      },
+      "Z": {
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "11245",
+        "nombre": "LOPEZ David"
+      },
+      {
+        "licencia": "5651",
+        "nombre": "HIGUERAS Manuel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      {
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5651",
+        "nombre": "HIGUERAS Manuel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5417",
+        "nombre": "KRZYSZTOF Slawomir"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11245",
+        "nombre": "LOPEZ David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5417",
+        "nombre": "KRZYSZTOF Slawomir"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11245",
+        "nombre": "LOPEZ David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5651",
+        "nombre": "HIGUERAS Manuel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11245",
+            "nombre": "LOPEZ David"
+          },
+          {
+            "licencia": "5651",
+            "nombre": "HIGUERAS Manuel"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12768",
+            "nombre": "BENHARI Ayoub"
+          },
+          {
+            "licencia": "8046",
+            "nombre": "BERENGUERAS Genis"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILASSAR DE MAR L'OBRERA",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

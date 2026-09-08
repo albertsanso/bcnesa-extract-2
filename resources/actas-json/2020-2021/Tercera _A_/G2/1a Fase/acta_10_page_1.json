@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 10,
+  "fecha": "2021-04-25",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MOLLET 2002 TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT RODA DE TER",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12168",
+        "nombre": "CASTILLO Isaac"
+      },
+      "B": {
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "C": {
+        "licencia": "5029",
+        "nombre": "GIRALT Daniel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13609",
+        "nombre": "TORT Pau"
+      },
+      "X": {
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "Z": {
+        "licencia": "1689",
+        "nombre": "GES Joan"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12168",
+        "nombre": "CASTILLO Isaac"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13609",
+        "nombre": "TORT Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5029",
+        "nombre": "GIRALT Daniel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1689",
+        "nombre": "GES Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12168",
+        "nombre": "CASTILLO Isaac"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5029",
+        "nombre": "GIRALT Daniel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13609",
+        "nombre": "TORT Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1689",
+        "nombre": "GES Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": {
+      "local": 10,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

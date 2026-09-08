@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Veterans 3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 8,
+  "fecha": "2025-11-26",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "MOLLET 2002 TT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14579",
+        "nombre": "ALOY Raimond"
+      },
+      "B": {
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "C": {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      "X": {
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "Z": {
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "14579",
+        "nombre": "ALOY Raimond"
+      },
+      {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      {
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14579",
+        "nombre": "ALOY Raimond"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14579",
+        "nombre": "ALOY Raimond"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14579",
+            "nombre": "ALOY Raimond"
+          },
+          {
+            "licencia": "2064",
+            "nombre": "FONTOVA Alex"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "1050",
+            "nombre": "CARRETERO Carlos"
+          },
+          {
+            "licencia": "3012",
+            "nombre": "RIFA Josep"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATENEU 1882",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

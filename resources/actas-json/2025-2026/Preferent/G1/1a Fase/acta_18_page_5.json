@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 18,
+  "fecha": "2026-04-11",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      },
+      "B": {
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "C": {
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "X": {
+        "licencia": "15363",
+        "nombre": "LI Pinda"
+      },
+      "Z": {
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15363",
+        "nombre": "LI Pinda"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15363",
+        "nombre": "LI Pinda"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATC MOLINS DE REI",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

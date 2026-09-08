@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2025-09-28",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT L'AVENÇ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "ALIANÇA LLIÇÀ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11267",
+        "nombre": "BORREGUERO Rafael"
+      },
+      "B": {
+        "licencia": "19139",
+        "nombre": "MARTÍN David"
+      },
+      "C": {
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "5520",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "X": {
+        "licencia": "4045",
+        "nombre": "VALDIVIESO Manel"
+      },
+      "Z": {
+        "licencia": "19323",
+        "nombre": "PONS Roberto"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11267",
+        "nombre": "BORREGUERO Rafael"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5520",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "19139",
+        "nombre": "MARTÍN David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4045",
+        "nombre": "VALDIVIESO Manel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "19323",
+        "nombre": "PONS Roberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11267",
+        "nombre": "BORREGUERO Rafael"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4045",
+        "nombre": "VALDIVIESO Manel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5520",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "19139",
+        "nombre": "MARTÍN David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "19323",
+        "nombre": "PONS Roberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT L'AVENÇ",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

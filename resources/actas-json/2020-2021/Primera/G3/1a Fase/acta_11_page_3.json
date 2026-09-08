@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "1a",
+  "fase": "1a Fase",
+  "grupo": 3,
+  "jornada": 11,
+  "fecha": "2021-05-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "3084",
+        "nombre": "FOLCH Pau"
+      },
+      "B": {
+        "licencia": "11263",
+        "nombre": "INTROCASO Pablo"
+      },
+      "C": {
+        "licencia": "6051",
+        "nombre": "FERNANDES Andre"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6168",
+        "nombre": "MORENO Javier"
+      },
+      "X": {
+        "licencia": "1130",
+        "nombre": "SANTIAGO Cristian"
+      },
+      "Z": {
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3084",
+        "nombre": "FOLCH Pau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6168",
+        "nombre": "MORENO Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11263",
+        "nombre": "INTROCASO Pablo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1130",
+        "nombre": "SANTIAGO Cristian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6051",
+        "nombre": "FERNANDES Andre"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3084",
+        "nombre": "FOLCH Pau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1130",
+        "nombre": "SANTIAGO Cristian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6051",
+        "nombre": "FERNANDES Andre"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6168",
+        "nombre": "MORENO Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11263",
+        "nombre": "INTROCASO Pablo"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "LLUÏSOS DE GRÀCIA ''A''",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

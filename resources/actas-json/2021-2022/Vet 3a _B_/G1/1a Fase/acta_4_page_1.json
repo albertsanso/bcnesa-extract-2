@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 4,
+  "fecha": "2021-11-17",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT RIPOLLET",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "PauFolchFisio - LLUÏSOS DE GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
+      "B": {
+        "licencia": "11060",
+        "nombre": "GUTIÉRREZ Santos Javier"
+      },
+      "C": {
+        "licencia": "7662",
+        "nombre": "RICO Calixto"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "X": {
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      },
+      "Z": {
+        "licencia": "8245",
+        "nombre": "MESTRES Enric"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
+      {
+        "licencia": "7662",
+        "nombre": "RICO Calixto"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      },
+      {
+        "licencia": "8245",
+        "nombre": "MESTRES Enric"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11060",
+        "nombre": "GUTIÉRREZ Santos Javier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7662",
+        "nombre": "RICO Calixto"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8245",
+        "nombre": "MESTRES Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7662",
+        "nombre": "RICO Calixto"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11060",
+        "nombre": "GUTIÉRREZ Santos Javier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8245",
+        "nombre": "MESTRES Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11780",
+            "nombre": "LLORENS Vicente"
+          },
+          {
+            "licencia": "7662",
+            "nombre": "RICO Calixto"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "10101",
+            "nombre": "LLADÓ Albert"
+          },
+          {
+            "licencia": "8245",
+            "nombre": "MESTRES Enric"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

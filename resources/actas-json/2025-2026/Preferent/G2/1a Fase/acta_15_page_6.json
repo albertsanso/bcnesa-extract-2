@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 15,
+  "fecha": "2026-02-07",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT L'HOSPITALET 'A'",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CERCLE TT GRACIA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17511",
+        "nombre": "ROMANIUK Anatolii"
+      },
+      "B": {
+        "licencia": "6017",
+        "nombre": "SOLSONA Eduard"
+      },
+      "C": {
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "5395",
+        "nombre": "PLANAS Josep"
+      },
+      "X": {
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
+      },
+      "Z": {
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17511",
+        "nombre": "ROMANIUK Anatolii"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5395",
+        "nombre": "PLANAS Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6017",
+        "nombre": "SOLSONA Eduard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17511",
+        "nombre": "ROMANIUK Anatolii"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5395",
+        "nombre": "PLANAS Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6017",
+        "nombre": "SOLSONA Eduard"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT L'HOSPITALET 'A'",
+    "marcador_partidos": {
+      "local": 17,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

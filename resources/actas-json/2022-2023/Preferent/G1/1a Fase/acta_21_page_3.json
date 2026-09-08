@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 21,
+  "fecha": "2023-04-22",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "NEW OLIVER BADALONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE \"A\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
+      },
+      "B": {
+        "licencia": "635",
+        "nombre": "MARTÍNEZ Antonio"
+      },
+      "C": {
+        "licencia": "11280",
+        "nombre": "MARTÍNEZ Carlos"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "4733",
+        "nombre": "GUAL Enric"
+      },
+      "X": {
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "Z": {
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4733",
+        "nombre": "GUAL Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "635",
+        "nombre": "MARTÍNEZ Antonio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11280",
+        "nombre": "MARTÍNEZ Carlos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11280",
+        "nombre": "MARTÍNEZ Carlos"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4733",
+        "nombre": "GUAL Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "635",
+        "nombre": "MARTÍNEZ Antonio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "NEW OLIVER BADALONA",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 1a",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 12,
+  "fecha": "2022-02-08",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TITUS BADALONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE ''A''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6879",
+        "nombre": "HURTADO Jose Alberto"
+      },
+      "B": {
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
+      "C": {
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "395",
+        "nombre": "EXPOSITO Juan Antonio"
+      },
+      "X": {
+        "licencia": "292",
+        "nombre": "CHACON Alejandro"
+      },
+      "Z": {
+        "licencia": "651",
+        "nombre": "CARBONELL Daniel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6879",
+        "nombre": "HURTADO Jose Alberto"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "395",
+        "nombre": "EXPOSITO Juan Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "292",
+        "nombre": "CHACON Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "651",
+        "nombre": "CARBONELL Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6879",
+        "nombre": "HURTADO Jose Alberto"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "292",
+        "nombre": "CHACON Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "395",
+        "nombre": "EXPOSITO Juan Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "651",
+        "nombre": "CARBONELL Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TITUS BADALONA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

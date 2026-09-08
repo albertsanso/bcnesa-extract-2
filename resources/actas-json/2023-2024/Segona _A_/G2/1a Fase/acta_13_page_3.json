@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 13,
+  "fecha": "2024-01-27",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT RODA DE TER",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "GIRBAU VIC TT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
+      "B": {
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "C": {
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "15850",
+        "nombre": "VIDAL Ferran"
+      },
+      "X": {
+        "licencia": "5870",
+        "nombre": "BAU Adria"
+      },
+      "Z": {
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
+      {
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
+      {
+        "licencia": "5870",
+        "nombre": "BAU Adria"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15850",
+        "nombre": "VIDAL Ferran"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5870",
+        "nombre": "BAU Adria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "5870",
+        "nombre": "BAU Adria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15850",
+        "nombre": "VIDAL Ferran"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8584",
+            "nombre": "BLANCAFORT Jaume"
+          },
+          {
+            "licencia": "5286",
+            "nombre": "OLIVA Albert"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "724",
+            "nombre": "BORRULL Jordi"
+          },
+          {
+            "licencia": "5870",
+            "nombre": "BAU Adria"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "GIRBAU VIC TT",
+    "marcador_partidos": {
+      "local": 11,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

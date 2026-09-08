@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 16,
+  "fecha": "2025-03-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT L'HOSPITALET",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      },
+      "B": {
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      },
+      "C": {
+        "licencia": "16210",
+        "nombre": "BELTRAN Pol"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6168",
+        "nombre": "MORENO Javier"
+      },
+      "X": {
+        "licencia": "14882",
+        "nombre": "MARTÍN Hector"
+      },
+      "Z": {
+        "licencia": "16157",
+        "nombre": "GONZALEZ Sonia"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      },
+      {
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6168",
+        "nombre": "MORENO Javier"
+      },
+      {
+        "licencia": "16157",
+        "nombre": "GONZALEZ Sonia"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6168",
+        "nombre": "MORENO Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14882",
+        "nombre": "MARTÍN Hector"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16210",
+        "nombre": "BELTRAN Pol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16157",
+        "nombre": "GONZALEZ Sonia"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14882",
+        "nombre": "MARTÍN Hector"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16210",
+        "nombre": "BELTRAN Pol"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6168",
+        "nombre": "MORENO Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15458",
+        "nombre": "JORGOSO Erik"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16157",
+        "nombre": "GONZALEZ Sonia"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14503",
+            "nombre": "BERTOLIN Dylan"
+          },
+          {
+            "licencia": "15458",
+            "nombre": "JORGOSO Erik"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6168",
+            "nombre": "MORENO Javier"
+          },
+          {
+            "licencia": "16157",
+            "nombre": "GONZALEZ Sonia"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT L'HOSPITALET",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

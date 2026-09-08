@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "1a",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 8,
+  "fecha": "2023-11-26",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SENTMENAT \"B\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6144",
+        "nombre": "PEREZ Pablo"
+      },
+      "B": {
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
+      "C": {
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "X": {
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "Z": {
+        "licencia": "7931",
+        "nombre": "TORAL Alex"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6144",
+        "nombre": "PEREZ Pablo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7931",
+        "nombre": "TORAL Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6144",
+        "nombre": "PEREZ Pablo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7931",
+        "nombre": "TORAL Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATENEU 1882",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

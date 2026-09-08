@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 5,
+  "fecha": "2021-11-23",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS D'HORTA TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT PARETS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "15125",
+        "nombre": "GOMEZ Lluis"
+      },
+      "B": {
+        "licencia": "130",
+        "nombre": "SOTERAS Cast"
+      },
+      "C": {
+        "licencia": "11257",
+        "nombre": "CABELLO Gualberto"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
+      },
+      "X": {
+        "licencia": "6858",
+        "nombre": "GUTIERREZ Juan Carlos"
+      },
+      "Z": {
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "15125",
+        "nombre": "GOMEZ Lluis"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "130",
+        "nombre": "SOTERAS Cast"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6858",
+        "nombre": "GUTIERREZ Juan Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11257",
+        "nombre": "CABELLO Gualberto"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "15125",
+        "nombre": "GOMEZ Lluis"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6858",
+        "nombre": "GUTIERREZ Juan Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11257",
+        "nombre": "CABELLO Gualberto"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "130",
+        "nombre": "SOTERAS Cast"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "LLUÏSOS D'HORTA TT",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

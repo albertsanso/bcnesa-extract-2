@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 22,
+  "fecha": "2024-05-05",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT OLESA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
+      "B": {
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      },
+      "C": {
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "X": {
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "Z": {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT OLESA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

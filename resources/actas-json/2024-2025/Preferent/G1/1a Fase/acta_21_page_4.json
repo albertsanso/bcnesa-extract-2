@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 21,
+  "fecha": "2025-04-27",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT OLESA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "B": {
+        "licencia": "15363",
+        "nombre": "LI Pinda"
+      },
+      "C": {
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "X": {
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "Z": {
+        "licencia": "6041",
+        "nombre": "AGUILA Iago"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15363",
+        "nombre": "LI Pinda"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6041",
+        "nombre": "AGUILA Iago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15363",
+        "nombre": "LI Pinda"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6041",
+        "nombre": "AGUILA Iago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT OLESA",
+    "marcador_partidos": {
+      "local": 10,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

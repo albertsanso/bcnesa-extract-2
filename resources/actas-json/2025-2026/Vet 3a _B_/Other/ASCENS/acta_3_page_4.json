@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Veterans 3a \"B\"",
+  "fase": "ASCENS",
+  "grupo": null,
+  "jornada": 3,
+  "fecha": "2026-03-04",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CN ST. ANDREU",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT L'HOSPITALET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "614",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "B": {
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      },
+      "C": {
+        "licencia": "8327",
+        "nombre": "MORATA Manuel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
+      },
+      "X": {
+        "licencia": "18720",
+        "nombre": "DOMENECH Antoni"
+      },
+      "Z": {
+        "licencia": "287",
+        "nombre": "FORTUNA Angel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "614",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18720",
+        "nombre": "DOMENECH Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8327",
+        "nombre": "MORATA Manuel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "287",
+        "nombre": "FORTUNA Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "614",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18720",
+        "nombre": "DOMENECH Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8327",
+        "nombre": "MORATA Manuel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "287",
+        "nombre": "FORTUNA Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT L'HOSPITALET",
+    "marcador_partidos": {
+      "local": 7,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

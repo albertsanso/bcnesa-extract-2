@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Veterans 3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 11,
+  "fecha": "2025-12-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
+      "B": {
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
+      },
+      "C": {
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      },
+      "X": {
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      "Z": {
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS DE TERRASSA",
+    "marcador_partidos": {
+      "local": 8,
+      "visitante": 17
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

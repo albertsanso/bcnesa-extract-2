@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 2a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 12,
+  "fecha": "2022-02-07",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT PEP PALÉS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "SCR EL CIERVO ''B''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "4518",
+        "nombre": "FONOLLA Ramon"
+      },
+      "B": {
+        "licencia": "3495",
+        "nombre": "AGUERRI Jordi"
+      },
+      "C": {
+        "licencia": "13100",
+        "nombre": "MALET Jorge"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "X": {
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      "Z": {
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "4518",
+        "nombre": "FONOLLA Ramon"
+      },
+      {
+        "licencia": "3495",
+        "nombre": "AGUERRI Jordi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      {
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "4518",
+        "nombre": "FONOLLA Ramon"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "3495",
+        "nombre": "AGUERRI Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13100",
+        "nombre": "MALET Jorge"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "4518",
+        "nombre": "FONOLLA Ramon"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13100",
+        "nombre": "MALET Jorge"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "3495",
+        "nombre": "AGUERRI Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "4518",
+            "nombre": "FONOLLA Ramon"
+          },
+          {
+            "licencia": "3495",
+            "nombre": "AGUERRI Jordi"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6269",
+            "nombre": "RAMOS Antoni"
+          },
+          {
+            "licencia": "11559",
+            "nombre": "ESPINOSA Lluis"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT PEP PALÉS",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 6,
+  "fecha": "2023-11-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CETT ESPARREGUERA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14611",
+        "nombre": "HERMIDA Aleix"
+      },
+      "B": {
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
+      },
+      "C": {
+        "licencia": "16535",
+        "nombre": "PÉREZ Lucas"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14179",
+        "nombre": "CARACUEL Daniel"
+      },
+      "X": {
+        "licencia": "14947",
+        "nombre": "HERNANDEZ Eder"
+      },
+      "Z": {
+        "licencia": "10853",
+        "nombre": "MAMPEL Ramon"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14611",
+        "nombre": "HERMIDA Aleix"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14179",
+        "nombre": "CARACUEL Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14947",
+        "nombre": "HERNANDEZ Eder"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16535",
+        "nombre": "PÉREZ Lucas"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10853",
+        "nombre": "MAMPEL Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14611",
+        "nombre": "HERMIDA Aleix"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14947",
+        "nombre": "HERNANDEZ Eder"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16535",
+        "nombre": "PÉREZ Lucas"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14179",
+        "nombre": "CARACUEL Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10853",
+        "nombre": "MAMPEL Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CETT ESPARREGUERA",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

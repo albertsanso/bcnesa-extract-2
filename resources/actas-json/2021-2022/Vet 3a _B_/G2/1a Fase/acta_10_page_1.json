@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 10,
+  "fecha": "2022-01-25",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT OLESA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SENTMENAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14259",
+        "nombre": "BLANCO Alonso"
+      },
+      "B": {
+        "licencia": "13215",
+        "nombre": "BOLTA Pep"
+      },
+      "C": {
+        "licencia": "13377",
+        "nombre": "CHICA Eugenio"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12155",
+        "nombre": "MASCLANS Jordi"
+      },
+      "X": {
+        "licencia": "530",
+        "nombre": "ORTEGA Juan Antonio"
+      },
+      "Z": {
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "14259",
+        "nombre": "BLANCO Alonso"
+      },
+      {
+        "licencia": "13377",
+        "nombre": "CHICA Eugenio"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12155",
+        "nombre": "MASCLANS Jordi"
+      },
+      {
+        "licencia": "530",
+        "nombre": "ORTEGA Juan Antonio"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14259",
+        "nombre": "BLANCO Alonso"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12155",
+        "nombre": "MASCLANS Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "13215",
+        "nombre": "BOLTA Pep"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "530",
+        "nombre": "ORTEGA Juan Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13377",
+        "nombre": "CHICA Eugenio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14259",
+        "nombre": "BLANCO Alonso"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "530",
+        "nombre": "ORTEGA Juan Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13377",
+        "nombre": "CHICA Eugenio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12155",
+        "nombre": "MASCLANS Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "13215",
+        "nombre": "BOLTA Pep"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14259",
+            "nombre": "BLANCO Alonso"
+          },
+          {
+            "licencia": "13377",
+            "nombre": "CHICA Eugenio"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12155",
+            "nombre": "MASCLANS Jordi"
+          },
+          {
+            "licencia": "530",
+            "nombre": "ORTEGA Juan Antonio"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT SENTMENAT",
+    "marcador_partidos": {
+      "local": 9,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

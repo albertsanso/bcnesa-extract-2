@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Veterans 4a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 5,
+  "fecha": "2025-11-05",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS D'HORTA TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT RIPOLLET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11744",
+        "nombre": "ADELANTADO Manel"
+      },
+      "B": {
+        "licencia": "17675",
+        "nombre": "TORRENS Francisco"
+      },
+      "C": {
+        "licencia": "18177",
+        "nombre": "MARTINEZ Jaume"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
+      "X": {
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "Z": {
+        "licencia": "11064",
+        "nombre": "SENDROS Josep"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11744",
+        "nombre": "ADELANTADO Manel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "17675",
+        "nombre": "TORRENS Francisco"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "18177",
+        "nombre": "MARTINEZ Jaume"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11064",
+        "nombre": "SENDROS Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11744",
+        "nombre": "ADELANTADO Manel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "18177",
+        "nombre": "MARTINEZ Jaume"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "17675",
+        "nombre": "TORRENS Francisco"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11064",
+        "nombre": "SENDROS Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT RIPOLLET",
+    "marcador_partidos": {
+      "local": 11,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

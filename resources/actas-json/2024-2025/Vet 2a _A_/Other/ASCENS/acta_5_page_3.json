@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Veterans 2a \"A\"",
+  "fase": "ASCENS",
+  "grupo": null,
+  "jornada": 5,
+  "fecha": "2025-03-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CN SABADELL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "975",
+        "nombre": "HUGUET Ferran"
+      },
+      "B": {
+        "licencia": "534",
+        "nombre": "MENENDEZ Alex"
+      },
+      "C": {
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "X": {
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
+      "Z": {
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "975",
+        "nombre": "HUGUET Ferran"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "534",
+        "nombre": "MENENDEZ Alex"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "975",
+        "nombre": "HUGUET Ferran"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "534",
+        "nombre": "MENENDEZ Alex"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CN SABADELL",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

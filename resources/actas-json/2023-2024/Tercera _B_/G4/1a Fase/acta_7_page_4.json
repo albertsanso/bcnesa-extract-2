@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 4,
+  "jornada": 7,
+  "fecha": "2023-11-19",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MASQUEFA TTC ''B''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6898",
+        "nombre": "MITEV Mitkov"
+      },
+      "B": {
+        "licencia": "17654",
+        "nombre": "SIMON Francesc"
+      },
+      "C": {
+        "licencia": "17651",
+        "nombre": "LOPEZ Victor"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16422",
+        "nombre": "PUIG Salvador"
+      },
+      "X": {
+        "licencia": "17991",
+        "nombre": "BRUNET Quim"
+      },
+      "Z": {
+        "licencia": "17807",
+        "nombre": "GARCIA Maribel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6898",
+        "nombre": "MITEV Mitkov"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16422",
+        "nombre": "PUIG Salvador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "17654",
+        "nombre": "SIMON Francesc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17991",
+        "nombre": "BRUNET Quim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "17651",
+        "nombre": "LOPEZ Victor"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17807",
+        "nombre": "GARCIA Maribel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6898",
+        "nombre": "MITEV Mitkov"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "17991",
+        "nombre": "BRUNET Quim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "17651",
+        "nombre": "LOPEZ Victor"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16422",
+        "nombre": "PUIG Salvador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "17654",
+        "nombre": "SIMON Francesc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17807",
+        "nombre": "GARCIA Maribel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "MASQUEFA TTC ''B''",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

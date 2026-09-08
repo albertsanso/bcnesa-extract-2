@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Veterans 3a \"C\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 2,
+  "fecha": "2022-10-04",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CATT SANT CELONI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8390",
+        "nombre": "LLOBET Oriol"
+      },
+      "B": {
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "C": {
+        "licencia": "12801",
+        "nombre": "CAMPS Jordi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "2347",
+        "nombre": "PUIGDEFABREGAS Josep"
+      },
+      "X": {
+        "licencia": "4661",
+        "nombre": "CORBACHO Alejandro"
+      },
+      "Z": {
+        "licencia": "2346",
+        "nombre": "GÜELL Antonio Maria"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8390",
+        "nombre": "LLOBET Oriol"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2347",
+        "nombre": "PUIGDEFABREGAS Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4661",
+        "nombre": "CORBACHO Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "12801",
+        "nombre": "CAMPS Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2346",
+        "nombre": "GÜELL Antonio Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8390",
+        "nombre": "LLOBET Oriol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4661",
+        "nombre": "CORBACHO Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "12801",
+        "nombre": "CAMPS Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2347",
+        "nombre": "PUIGDEFABREGAS Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2346",
+        "nombre": "GÜELL Antonio Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CIERVO",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

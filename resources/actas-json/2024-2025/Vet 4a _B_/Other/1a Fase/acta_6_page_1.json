@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Veterans 4a \"B\"",
+  "fase": "1a Fase",
+  "grupo": null,
+  "jornada": 6,
+  "fecha": "2025-03-18",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882 ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet E ''B''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17157",
+        "nombre": "PÉREZ Francesc"
+      },
+      "B": {
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      },
+      "C": {
+        "licencia": "5501",
+        "nombre": "HURTADO Jordi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "10109",
+        "nombre": "ROYO Jordi"
+      },
+      "X": {
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
+      "Z": {
+        "licencia": "3003",
+        "nombre": "ADELL Eduard"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "5501",
+        "nombre": "HURTADO Jordi"
+      },
+      {
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "10109",
+        "nombre": "ROYO Jordi"
+      },
+      {
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17157",
+        "nombre": "PÉREZ Francesc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10109",
+        "nombre": "ROYO Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5501",
+        "nombre": "HURTADO Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "3003",
+        "nombre": "ADELL Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17157",
+        "nombre": "PÉREZ Francesc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5501",
+        "nombre": "HURTADO Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10109",
+        "nombre": "ROYO Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "3003",
+        "nombre": "ADELL Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5501",
+            "nombre": "HURTADO Jordi"
+          },
+          {
+            "licencia": "4523",
+            "nombre": "OSORIO David"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "10109",
+            "nombre": "ROYO Jordi"
+          },
+          {
+            "licencia": "14200",
+            "nombre": "VOLLMER Sebastian"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ST QUIRZE DEL VALLÈS - Vet E ''B''",
+    "marcador_partidos": {
+      "local": 10,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

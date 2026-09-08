@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "Veterans 3a \"C\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 6,
+  "fecha": "2021-11-29",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TURRIS BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8390",
+        "nombre": "LLOBET Oriol"
+      },
+      "B": {
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "C": {
+        "licencia": "82",
+        "nombre": "REDON Joan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6289",
+        "nombre": "BARRIGA Francesc Xavier"
+      },
+      "X": {
+        "licencia": "7381",
+        "nombre": "CODINA Jordi"
+      },
+      "Z": {
+        "licencia": "10063",
+        "nombre": "NOGUERA Juan"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8390",
+        "nombre": "LLOBET Oriol"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6289",
+        "nombre": "BARRIGA Francesc Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7381",
+        "nombre": "CODINA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "82",
+        "nombre": "REDON Joan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10063",
+        "nombre": "NOGUERA Juan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8390",
+        "nombre": "LLOBET Oriol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7381",
+        "nombre": "CODINA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "82",
+        "nombre": "REDON Joan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6289",
+        "nombre": "BARRIGA Francesc Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10063",
+        "nombre": "NOGUERA Juan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CIERVO",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

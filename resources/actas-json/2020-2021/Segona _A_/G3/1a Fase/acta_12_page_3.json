@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 3,
+  "jornada": 12,
+  "fecha": "2021-05-08",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT L'HOSPITALET GRUPO PREVING",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "ICELAND ELS 8 DE LA GARRIGA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "551",
+        "nombre": "SACASAS Marcel"
+      },
+      "B": {
+        "licencia": "13094",
+        "nombre": "EXPOSITO Andres Enrique"
+      },
+      "C": {
+        "licencia": "287",
+        "nombre": "FORTUNA Angel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
+      },
+      "X": {
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
+      "Z": {
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "551",
+        "nombre": "SACASAS Marcel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "13094",
+        "nombre": "EXPOSITO Andres Enrique"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "287",
+        "nombre": "FORTUNA Angel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "551",
+        "nombre": "SACASAS Marcel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "287",
+        "nombre": "FORTUNA Angel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "13094",
+        "nombre": "EXPOSITO Andres Enrique"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT L'HOSPITALET GRUPO PREVING",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

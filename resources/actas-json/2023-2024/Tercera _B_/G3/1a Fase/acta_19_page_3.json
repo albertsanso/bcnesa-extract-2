@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 3,
+  "jornada": 19,
+  "fecha": "2024-04-07",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MASQUEFA TTC ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "DECATHLON BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17152",
+        "nombre": "PONS Antoni"
+      },
+      "B": {
+        "licencia": "11198",
+        "nombre": "LANDETE Antonio"
+      },
+      "C": {
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11708",
+        "nombre": "RAVENTOS Octavi"
+      },
+      "X": {
+        "licencia": "14967",
+        "nombre": "PASTOR Abel"
+      },
+      "Z": {
+        "licencia": "7780",
+        "nombre": "AMANTIA David"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "11198",
+        "nombre": "LANDETE Antonio"
+      },
+      {
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11708",
+        "nombre": "RAVENTOS Octavi"
+      },
+      {
+        "licencia": "7780",
+        "nombre": "AMANTIA David"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17152",
+        "nombre": "PONS Antoni"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11708",
+        "nombre": "RAVENTOS Octavi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11198",
+        "nombre": "LANDETE Antonio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14967",
+        "nombre": "PASTOR Abel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7780",
+        "nombre": "AMANTIA David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17152",
+        "nombre": "PONS Antoni"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14967",
+        "nombre": "PASTOR Abel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11708",
+        "nombre": "RAVENTOS Octavi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11198",
+        "nombre": "LANDETE Antonio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7780",
+        "nombre": "AMANTIA David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11198",
+            "nombre": "LANDETE Antonio"
+          },
+          {
+            "licencia": "11199",
+            "nombre": "SAMPERE Daniel"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11708",
+            "nombre": "RAVENTOS Octavi"
+          },
+          {
+            "licencia": "7780",
+            "nombre": "AMANTIA David"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "DECATHLON BADALONA",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 14,
+  "fecha": "2025-02-08",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "MOLLET 2002 TT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "B": {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "C": {
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "7545",
+        "nombre": "SIMON Andreu"
+      },
+      "X": {
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      "Z": {
+        "licencia": "9034",
+        "nombre": "CALLE David"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      {
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7545",
+        "nombre": "SIMON Andreu"
+      },
+      {
+        "licencia": "9034",
+        "nombre": "CALLE David"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7545",
+        "nombre": "SIMON Andreu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "9034",
+        "nombre": "CALLE David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7545",
+        "nombre": "SIMON Andreu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "9034",
+        "nombre": "CALLE David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "790",
+            "nombre": "CUENCA Oscar"
+          },
+          {
+            "licencia": "283",
+            "nombre": "NICOLAS Francisco"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7545",
+            "nombre": "SIMON Andreu"
+          },
+          {
+            "licencia": "9034",
+            "nombre": "CALLE David"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "MOLLET 2002 TT",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

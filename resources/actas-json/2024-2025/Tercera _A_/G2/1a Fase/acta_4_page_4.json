@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 4,
+  "fecha": "2024-10-20",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TT L'HOSPITALET",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT GRANOLLERS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      },
+      "B": {
+        "licencia": "16210",
+        "nombre": "BELTRAN Pol"
+      },
+      "C": {
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17704",
+        "nombre": "PUIG Sergi"
+      },
+      "X": {
+        "licencia": "18618",
+        "nombre": "NINOU Ramsés"
+      },
+      "Z": {
+        "licencia": "17007",
+        "nombre": "SÁNCHEZ Hugo"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17704",
+        "nombre": "PUIG Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16210",
+        "nombre": "BELTRAN Pol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18618",
+        "nombre": "NINOU Ramsés"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17007",
+        "nombre": "SÁNCHEZ Hugo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18618",
+        "nombre": "NINOU Ramsés"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14503",
+        "nombre": "BERTOLIN Dylan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17704",
+        "nombre": "PUIG Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16210",
+        "nombre": "BELTRAN Pol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17007",
+        "nombre": "SÁNCHEZ Hugo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT L'HOSPITALET",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

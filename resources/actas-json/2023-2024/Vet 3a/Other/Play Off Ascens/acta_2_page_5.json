@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Veterans 3a \"C\"",
+  "fase": "Play Off Ascens",
+  "grupo": null,
+  "jornada": 2,
+  "fecha": "2024-05-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT BARCELONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CARDEDEU EIG \"B\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17534",
+        "nombre": "CAPEK Branko"
+      },
+      "B": {
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      "C": {
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
+      "X": {
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
+      "Z": {
+        "licencia": "16463",
+        "nombre": "OLLERO Angel"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      {
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
+      {
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17534",
+        "nombre": "CAPEK Branko"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16463",
+        "nombre": "OLLERO Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17534",
+        "nombre": "CAPEK Branko"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7981",
+        "nombre": "SORIANO Manuel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16463",
+        "nombre": "OLLERO Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7981",
+            "nombre": "SORIANO Manuel"
+          },
+          {
+            "licencia": "13315",
+            "nombre": "PLATON Carlos"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16300",
+            "nombre": "MORA Daniel"
+          },
+          {
+            "licencia": "7670",
+            "nombre": "VALLBONA Xavier"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CARDEDEU EIG \"B\"",
+    "marcador_partidos": {
+      "local": 11,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

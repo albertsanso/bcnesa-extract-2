@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 17,
+  "fecha": "2026-03-21",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS TERRASSA 'B'",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "7896",
+        "nombre": "ALVAREZ Raul Gervasio"
+      },
+      "B": {
+        "licencia": "11170",
+        "nombre": "TOMAS David Jose"
+      },
+      "C": {
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8489",
+        "nombre": "ESTRADA Marià"
+      },
+      "X": {
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      },
+      "Z": {
+        "licencia": "7398",
+        "nombre": "GARRICH Antoni"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "11170",
+        "nombre": "TOMAS David Jose"
+      },
+      {
+        "licencia": "7896",
+        "nombre": "ALVAREZ Raul Gervasio"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      },
+      {
+        "licencia": "8489",
+        "nombre": "ESTRADA Marià"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "7896",
+        "nombre": "ALVAREZ Raul Gervasio"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8489",
+        "nombre": "ESTRADA Marià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11170",
+        "nombre": "TOMAS David Jose"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7398",
+        "nombre": "GARRICH Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "7896",
+        "nombre": "ALVAREZ Raul Gervasio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8489",
+        "nombre": "ESTRADA Marià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11170",
+        "nombre": "TOMAS David Jose"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "7398",
+        "nombre": "GARRICH Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11170",
+            "nombre": "TOMAS David Jose"
+          },
+          {
+            "licencia": "7896",
+            "nombre": "ALVAREZ Raul Gervasio"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "852",
+            "nombre": "SERRES Maria"
+          },
+          {
+            "licencia": "8489",
+            "nombre": "ESTRADA Marià"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS TERRASSA 'B'",
+    "marcador_partidos": {
+      "local": 10,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

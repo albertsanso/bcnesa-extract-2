@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "1a",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 6,
+  "fecha": "2023-11-11",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "FOMENT MARTINENC-BARNY",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
+      "B": {
+        "licencia": "6466",
+        "nombre": "MONTAÑEZ Xavier"
+      },
+      "C": {
+        "licencia": "10393",
+        "nombre": "MILLAN Jan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Aleja"
+      },
+      "X": {
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "Z": {
+        "licencia": "17349",
+        "nombre": "MARCHAN Richard"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Aleja"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6466",
+        "nombre": "MONTAÑEZ Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10393",
+        "nombre": "MILLAN Jan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17349",
+        "nombre": "MARCHAN Richard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10393",
+        "nombre": "MILLAN Jan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Aleja"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6466",
+        "nombre": "MONTAÑEZ Xavier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17349",
+        "nombre": "MARCHAN Richard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FOMENT MARTINENC-BARNY",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

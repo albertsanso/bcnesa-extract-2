@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 17,
+  "fecha": "2024-03-09",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CN SABADELL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6499",
+        "nombre": "PEREZ Adria Marc"
+      },
+      "B": {
+        "licencia": "11167",
+        "nombre": "RUIZ Jordi"
+      },
+      "C": {
+        "licencia": "14358",
+        "nombre": "SILVESTRE Alex"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
+      },
+      "X": {
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "Z": {
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6499",
+        "nombre": "PEREZ Adria Marc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11167",
+        "nombre": "RUIZ Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14358",
+        "nombre": "SILVESTRE Alex"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6499",
+        "nombre": "PEREZ Adria Marc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14358",
+        "nombre": "SILVESTRE Alex"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11167",
+        "nombre": "RUIZ Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CN SABADELL",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

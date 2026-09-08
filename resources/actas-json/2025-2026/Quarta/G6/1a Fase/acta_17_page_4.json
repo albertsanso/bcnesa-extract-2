@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "4a",
+  "fase": "1a Fase",
+  "grupo": 6,
+  "jornada": 17,
+  "fecha": "2026-03-22",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT SALLENT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "ELS 8 DE LA GARRIGA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "18021",
+        "nombre": "GIL Joan"
+      },
+      "B": {
+        "licencia": "11240",
+        "nombre": "PONS Ignasi"
+      },
+      "C": {
+        "licencia": "20726",
+        "nombre": "RUEDAS Cecili"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12511",
+        "nombre": "KOZHUKHOVA Irina"
+      },
+      "X": {
+        "licencia": "19103",
+        "nombre": "CARTES Pau"
+      },
+      "Z": {
+        "licencia": "10498",
+        "nombre": "MONTAGUT Carles"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "18021",
+        "nombre": "GIL Joan"
+      },
+      {
+        "licencia": "11240",
+        "nombre": "PONS Ignasi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "10498",
+        "nombre": "MONTAGUT Carles"
+      },
+      {
+        "licencia": "19103",
+        "nombre": "CARTES Pau"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "18021",
+        "nombre": "GIL Joan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12511",
+        "nombre": "KOZHUKHOVA Irina"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11240",
+        "nombre": "PONS Ignasi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "19103",
+        "nombre": "CARTES Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "20726",
+        "nombre": "RUEDAS Cecili"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10498",
+        "nombre": "MONTAGUT Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "18021",
+        "nombre": "GIL Joan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "19103",
+        "nombre": "CARTES Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "20726",
+        "nombre": "RUEDAS Cecili"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12511",
+        "nombre": "KOZHUKHOVA Irina"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11240",
+        "nombre": "PONS Ignasi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10498",
+        "nombre": "MONTAGUT Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18021",
+            "nombre": "GIL Joan"
+          },
+          {
+            "licencia": "11240",
+            "nombre": "PONS Ignasi"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "10498",
+            "nombre": "MONTAGUT Carles"
+          },
+          {
+            "licencia": "19103",
+            "nombre": "CARTES Pau"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT SALLENT",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

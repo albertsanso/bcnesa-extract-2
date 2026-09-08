@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 15,
+  "fecha": "2024-02-10",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "FALCONS SABADELL A.E.",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT OLESA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      },
+      "B": {
+        "licencia": "10192",
+        "nombre": "SERRANO Emmanuel"
+      },
+      "C": {
+        "licencia": "4670",
+        "nombre": "ARGELAGUET Pau"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "4348",
+        "nombre": "LLONGUERAS Valenti"
+      },
+      "X": {
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "Z": {
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4348",
+        "nombre": "LLONGUERAS Valenti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "10192",
+        "nombre": "SERRANO Emmanuel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "4670",
+        "nombre": "ARGELAGUET Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "4670",
+        "nombre": "ARGELAGUET Pau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4348",
+        "nombre": "LLONGUERAS Valenti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "10192",
+        "nombre": "SERRANO Emmanuel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT OLESA",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 17
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "4a",
+  "fase": "Play Off Ascens",
+  "grupo": null,
+  "jornada": 2,
+  "fecha": "2025-05-17",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CN MATARÓ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "MOLLET 2002 TT ''A''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16791",
+        "nombre": "SÁEZ Hiram"
+      },
+      "B": {
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      },
+      "C": {
+        "licencia": "15596",
+        "nombre": "NEYRA Gorka"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "4812",
+        "nombre": "ALVAREZ Carles"
+      },
+      "X": {
+        "licencia": "4026",
+        "nombre": "SANTOS David"
+      },
+      "Z": {
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16791",
+        "nombre": "SÁEZ Hiram"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4812",
+        "nombre": "ALVAREZ Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4026",
+        "nombre": "SANTOS David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "15596",
+        "nombre": "NEYRA Gorka"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16791",
+        "nombre": "SÁEZ Hiram"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4026",
+        "nombre": "SANTOS David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "15596",
+        "nombre": "NEYRA Gorka"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4812",
+        "nombre": "ALVAREZ Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CN MATARÓ",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

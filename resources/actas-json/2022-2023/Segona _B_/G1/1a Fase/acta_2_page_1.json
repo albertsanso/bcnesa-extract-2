@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "2a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 2,
+  "fecha": "2022-10-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "BELLVITGE ALHEÑA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "FALCONS DE SABADELL A.E.",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "5678",
+        "nombre": "PARRA Renato Adriano"
+      },
+      "B": {
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "C": {
+        "licencia": "12706",
+        "nombre": "MUR Francisco"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11143",
+        "nombre": "BORRELL Carles"
+      },
+      "X": {
+        "licencia": "7970",
+        "nombre": "GIBERT Marc"
+      },
+      "Z": {
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "5678",
+        "nombre": "PARRA Renato Adriano"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11143",
+        "nombre": "BORRELL Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7970",
+        "nombre": "GIBERT Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "12706",
+        "nombre": "MUR Francisco"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "5678",
+        "nombre": "PARRA Renato Adriano"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7970",
+        "nombre": "GIBERT Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "12706",
+        "nombre": "MUR Francisco"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11143",
+        "nombre": "BORRELL Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "BELLVITGE ALHEÑA",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

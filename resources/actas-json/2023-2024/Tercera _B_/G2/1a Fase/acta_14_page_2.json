@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 14,
+  "fecha": "2024-02-04",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CN SABADELL ''B''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "ESCOLETA VIA TRAJANA ''A''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16851",
+        "nombre": "LAZARO Marc"
+      },
+      "B": {
+        "licencia": "18029",
+        "nombre": "POYATOS Pau"
+      },
+      "C": {
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16446",
+        "nombre": "GONZÁLEZ Francisco"
+      },
+      "X": {
+        "licencia": "16452",
+        "nombre": "PÉREZ Manuel"
+      },
+      "Z": {
+        "licencia": "16449",
+        "nombre": "BARRIOS Francisco José"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16851",
+        "nombre": "LAZARO Marc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16446",
+        "nombre": "GONZÁLEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "18029",
+        "nombre": "POYATOS Pau"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16452",
+        "nombre": "PÉREZ Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16449",
+        "nombre": "BARRIOS Francisco José"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16851",
+        "nombre": "LAZARO Marc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16452",
+        "nombre": "PÉREZ Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16446",
+        "nombre": "GONZÁLEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "18029",
+        "nombre": "POYATOS Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16449",
+        "nombre": "BARRIOS Francisco José"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ESCOLETA VIA TRAJANA ''A''",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 17
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

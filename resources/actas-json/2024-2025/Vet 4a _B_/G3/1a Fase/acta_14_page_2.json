@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Veterans 4a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 3,
+  "jornada": 14,
+  "fecha": "2025-01-21",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet E ''B''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CERCLE TT GRÀCIA \"A\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17469",
+        "nombre": "CARNEVALI Davide"
+      },
+      "B": {
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
+      "C": {
+        "licencia": "3003",
+        "nombre": "ADELL Eduard"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12142",
+        "nombre": "DE ELIAS Berenguer"
+      },
+      "X": {
+        "licencia": "16303",
+        "nombre": "BERNAT Lluis"
+      },
+      "Z": {
+        "licencia": "2334",
+        "nombre": "PALACIOS Manuel E."
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "3003",
+        "nombre": "ADELL Eduard"
+      },
+      {
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12142",
+        "nombre": "DE ELIAS Berenguer"
+      },
+      {
+        "licencia": "2334",
+        "nombre": "PALACIOS Manuel E."
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17469",
+        "nombre": "CARNEVALI Davide"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12142",
+        "nombre": "DE ELIAS Berenguer"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16303",
+        "nombre": "BERNAT Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "3003",
+        "nombre": "ADELL Eduard"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2334",
+        "nombre": "PALACIOS Manuel E."
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17469",
+        "nombre": "CARNEVALI Davide"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16303",
+        "nombre": "BERNAT Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "3003",
+        "nombre": "ADELL Eduard"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12142",
+        "nombre": "DE ELIAS Berenguer"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2334",
+        "nombre": "PALACIOS Manuel E."
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "3003",
+            "nombre": "ADELL Eduard"
+          },
+          {
+            "licencia": "14200",
+            "nombre": "VOLLMER Sebastian"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12142",
+            "nombre": "DE ELIAS Berenguer"
+          },
+          {
+            "licencia": "2334",
+            "nombre": "PALACIOS Manuel E."
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CERCLE TT GRÀCIA \"A\"",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

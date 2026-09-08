@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 6,
+  "jornada": 6,
+  "fecha": "2021-12-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882 ''B''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CLUB NATACIO SABADELL ''C''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
+      "B": {
+        "licencia": "14917",
+        "nombre": "PINZANO Ignasi"
+      },
+      "C": {
+        "licencia": "13136",
+        "nombre": "DOMINGUEZ Eric"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      "X": {
+        "licencia": "7537",
+        "nombre": "OMS Jordi"
+      },
+      "Z": {
+        "licencia": "14643",
+        "nombre": "ARDÉVOL Roger"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "13136",
+        "nombre": "DOMINGUEZ Eric"
+      },
+      {
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      {
+        "licencia": "7537",
+        "nombre": "OMS Jordi"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14917",
+        "nombre": "PINZANO Ignasi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7537",
+        "nombre": "OMS Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13136",
+        "nombre": "DOMINGUEZ Eric"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14643",
+        "nombre": "ARDÉVOL Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7537",
+        "nombre": "OMS Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13136",
+        "nombre": "DOMINGUEZ Eric"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6853",
+        "nombre": "GARCIA Marcelo Amado"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14917",
+        "nombre": "PINZANO Ignasi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14643",
+        "nombre": "ARDÉVOL Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13136",
+            "nombre": "DOMINGUEZ Eric"
+          },
+          {
+            "licencia": "3983",
+            "nombre": "PLA Joaquim"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6853",
+            "nombre": "GARCIA Marcelo Amado"
+          },
+          {
+            "licencia": "7537",
+            "nombre": "OMS Jordi"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATENEU 1882 ''B''",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

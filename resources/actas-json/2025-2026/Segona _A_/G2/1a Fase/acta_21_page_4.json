@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 21,
+  "fecha": "2026-05-02",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "PROTEC BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "B": {
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      "C": {
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "X": {
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      "Z": {
+        "licencia": "17907",
+        "nombre": "PALAU Adrià"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      {
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17907",
+        "nombre": "PALAU Adrià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17907",
+        "nombre": "PALAU Adrià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "4483",
+            "nombre": "CAMPOS Alberto"
+          },
+          {
+            "licencia": "6272",
+            "nombre": "MATA Javier"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18765",
+            "nombre": "JI Michael Xiao Zhuang"
+          },
+          {
+            "licencia": "8328",
+            "nombre": "GIMENEZ Angel"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLDEFELS",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

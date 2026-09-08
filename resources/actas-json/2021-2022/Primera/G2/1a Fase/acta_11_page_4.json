@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "1a",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 11,
+  "fecha": "2022-02-06",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "PauFolchFisio - LLUÏSOS DE GRÀCIA ''A''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT OLESA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "4443",
+        "nombre": "FELIP Eduard"
+      },
+      "B": {
+        "licencia": "12171",
+        "nombre": "MARCO Oriol"
+      },
+      "C": {
+        "licencia": "13082",
+        "nombre": "GUEVARA Carlos"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      },
+      "X": {
+        "licencia": "10247",
+        "nombre": "BOLTÀ Ot"
+      },
+      "Z": {
+        "licencia": "6416",
+        "nombre": "MOYA Carlos"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "4443",
+        "nombre": "FELIP Eduard"
+      },
+      {
+        "licencia": "12171",
+        "nombre": "MARCO Oriol"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      },
+      {
+        "licencia": "10247",
+        "nombre": "BOLTÀ Ot"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "4443",
+        "nombre": "FELIP Eduard"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12171",
+        "nombre": "MARCO Oriol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10247",
+        "nombre": "BOLTÀ Ot"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13082",
+        "nombre": "GUEVARA Carlos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6416",
+        "nombre": "MOYA Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "4443",
+        "nombre": "FELIP Eduard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10247",
+        "nombre": "BOLTÀ Ot"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13082",
+        "nombre": "GUEVARA Carlos"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12171",
+        "nombre": "MARCO Oriol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6416",
+        "nombre": "MOYA Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "4443",
+            "nombre": "FELIP Eduard"
+          },
+          {
+            "licencia": "12171",
+            "nombre": "MARCO Oriol"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "2409",
+            "nombre": "BUXEDA Joan"
+          },
+          {
+            "licencia": "10247",
+            "nombre": "BOLTÀ Ot"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "PauFolchFisio - LLUÏSOS DE GRÀCIA ''A''",
+    "marcador_partidos": {
+      "local": 17,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

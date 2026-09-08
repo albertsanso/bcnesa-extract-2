@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "4a",
+  "fase": "1a Fase",
+  "grupo": 5,
+  "jornada": 10,
+  "fecha": "2024-12-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT GRANOLLERS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "MOLLET 2002 TT ''C''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14911",
+        "nombre": "MAS Martí"
+      },
+      "B": {
+        "licencia": "18626",
+        "nombre": "SÁNCHEZ Quim"
+      },
+      "C": {
+        "licencia": "18618",
+        "nombre": "NINOU Ramsés"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "X": {
+        "licencia": "6961",
+        "nombre": "MUÑOZ Jose"
+      },
+      "Z": {
+        "licencia": "36",
+        "nombre": "POU Joan"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14911",
+        "nombre": "MAS Martí"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "18626",
+        "nombre": "SÁNCHEZ Quim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6961",
+        "nombre": "MUÑOZ Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "18618",
+        "nombre": "NINOU Ramsés"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "36",
+        "nombre": "POU Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14911",
+        "nombre": "MAS Martí"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6961",
+        "nombre": "MUÑOZ Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "18618",
+        "nombre": "NINOU Ramsés"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "18626",
+        "nombre": "SÁNCHEZ Quim"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "36",
+        "nombre": "POU Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "MOLLET 2002 TT ''C''",
+    "marcador_partidos": {
+      "local": 9,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

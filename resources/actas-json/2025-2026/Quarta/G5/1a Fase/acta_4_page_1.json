@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "4a",
+  "fase": "1a Fase",
+  "grupo": 5,
+  "jornada": 4,
+  "fecha": "2025-10-25",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT VILAFRANCA 'A'",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "FALCONS SABADELL A.E. 'B'",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "7547",
+        "nombre": "APARICIO David"
+      },
+      "B": {
+        "licencia": "19134",
+        "nombre": "CLEMENTE Andreu"
+      },
+      "C": {
+        "licencia": "19135",
+        "nombre": "CLEMENTE Marc"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11510",
+        "nombre": "ROMAN Miguel"
+      },
+      "X": {
+        "licencia": "16136",
+        "nombre": "PAGES Arnau"
+      },
+      "Z": {
+        "licencia": "14174",
+        "nombre": "RAMÍREZ Rafael"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "7547",
+        "nombre": "APARICIO David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11510",
+        "nombre": "ROMAN Miguel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "19134",
+        "nombre": "CLEMENTE Andreu"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16136",
+        "nombre": "PAGES Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "19135",
+        "nombre": "CLEMENTE Marc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14174",
+        "nombre": "RAMÍREZ Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "7547",
+        "nombre": "APARICIO David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16136",
+        "nombre": "PAGES Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "19135",
+        "nombre": "CLEMENTE Marc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11510",
+        "nombre": "ROMAN Miguel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "19134",
+        "nombre": "CLEMENTE Andreu"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14174",
+        "nombre": "RAMÍREZ Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FALCONS SABADELL A.E. 'B'",
+    "marcador_partidos": {
+      "local": 7,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

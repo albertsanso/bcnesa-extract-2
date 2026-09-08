@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 22,
+  "fecha": "2024-05-05",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CN SABADELL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA I LA GELTRU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "13462",
+        "nombre": "ALARCON Biel"
+      },
+      "B": {
+        "licencia": "16851",
+        "nombre": "LAZARO Marc"
+      },
+      "C": {
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14418",
+        "nombre": "PANOSA Bernat"
+      },
+      "X": {
+        "licencia": "14995",
+        "nombre": "ANGEL Antoni"
+      },
+      "Z": {
+        "licencia": "17047",
+        "nombre": "PASQUINI Nagual"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "13462",
+        "nombre": "ALARCON Biel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14418",
+        "nombre": "PANOSA Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16851",
+        "nombre": "LAZARO Marc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14995",
+        "nombre": "ANGEL Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17047",
+        "nombre": "PASQUINI Nagual"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "13462",
+        "nombre": "ALARCON Biel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14995",
+        "nombre": "ANGEL Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14418",
+        "nombre": "PANOSA Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16851",
+        "nombre": "LAZARO Marc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17047",
+        "nombre": "PASQUINI Nagual"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILANOVA I LA GELTRU",
+    "marcador_partidos": {
+      "local": 6,
+      "visitante": 17
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

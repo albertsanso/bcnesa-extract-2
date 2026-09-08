@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 5,
+  "jornada": 19,
+  "fecha": "2024-04-07",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA \"B\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT CARDEDEU EIG",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16819",
+        "nombre": "KAM Isaac"
+      },
+      "B": {
+        "licencia": "15634",
+        "nombre": "ISERN Jan Ziad"
+      },
+      "C": {
+        "licencia": "16495",
+        "nombre": "GAVALDÀ Jordi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16715",
+        "nombre": "BOIX Roc"
+      },
+      "X": {
+        "licencia": "16747",
+        "nombre": "RUSIÑOL Guillem"
+      },
+      "Z": {
+        "licencia": "17339",
+        "nombre": "PARERA Pol"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16819",
+        "nombre": "KAM Isaac"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16715",
+        "nombre": "BOIX Roc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15634",
+        "nombre": "ISERN Jan Ziad"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16747",
+        "nombre": "RUSIÑOL Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16495",
+        "nombre": "GAVALDÀ Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17339",
+        "nombre": "PARERA Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16819",
+        "nombre": "KAM Isaac"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16747",
+        "nombre": "RUSIÑOL Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16495",
+        "nombre": "GAVALDÀ Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16715",
+        "nombre": "BOIX Roc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15634",
+        "nombre": "ISERN Jan Ziad"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17339",
+        "nombre": "PARERA Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CARDEDEU EIG",
+    "marcador_partidos": {
+      "local": 6,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

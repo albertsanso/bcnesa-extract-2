@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 9,
+  "fecha": "2023-12-02",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA \"D\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11476",
+        "nombre": "PEREZ Gerard"
+      },
+      "B": {
+        "licencia": "2330",
+        "nombre": "GOMIS Anna"
+      },
+      "C": {
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17966",
+        "nombre": "CASTELLÓ Joaquim"
+      },
+      "X": {
+        "licencia": "16432",
+        "nombre": "MANDE Jose Vicente"
+      },
+      "Z": {
+        "licencia": "16487",
+        "nombre": "MANUEL Jordi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11476",
+        "nombre": "PEREZ Gerard"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17966",
+        "nombre": "CASTELLÓ Joaquim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "2330",
+        "nombre": "GOMIS Anna"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16432",
+        "nombre": "MANDE Jose Vicente"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16487",
+        "nombre": "MANUEL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11476",
+        "nombre": "PEREZ Gerard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16432",
+        "nombre": "MANDE Jose Vicente"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17966",
+        "nombre": "CASTELLÓ Joaquim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "2330",
+        "nombre": "GOMIS Anna"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16487",
+        "nombre": "MANUEL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "AGRUPACIÓ CONGRÉS",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

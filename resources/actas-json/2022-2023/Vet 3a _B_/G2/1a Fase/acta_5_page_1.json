@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Veterans 3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 5,
+  "fecha": "2022-11-08",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT CANET DE MAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "B": {
+        "licencia": "8477",
+        "nombre": "CERRILLO Felip"
+      },
+      "C": {
+        "licencia": "11158",
+        "nombre": "MERCADER Luis"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "X": {
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Ju"
+      },
+      "Z": {
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8477",
+        "nombre": "CERRILLO Felip"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Ju"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "11158",
+        "nombre": "MERCADER Luis"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Ju"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "11158",
+        "nombre": "MERCADER Luis"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8477",
+        "nombre": "CERRILLO Felip"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CANET DE MAR",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

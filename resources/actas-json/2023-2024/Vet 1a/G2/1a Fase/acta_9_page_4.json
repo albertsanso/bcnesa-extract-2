@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Veterans 1a",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 9,
+  "fecha": "2023-12-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT L'HOSPITALET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "837",
+        "nombre": "ALMAGRO Marcos"
+      },
+      "B": {
+        "licencia": "995",
+        "nombre": "MARTÍNEZ Iván"
+      },
+      "C": {
+        "licencia": "1059",
+        "nombre": "MONZÓ Oriol"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "493",
+        "nombre": "SOISA Pedro"
+      },
+      "X": {
+        "licencia": "8845",
+        "nombre": "GUARCH Roger"
+      },
+      "Z": {
+        "licencia": "17511",
+        "nombre": "ROMANIUK Anatolii"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "837",
+        "nombre": "ALMAGRO Marcos"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "493",
+        "nombre": "SOISA Pedro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "995",
+        "nombre": "MARTÍNEZ Iván"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8845",
+        "nombre": "GUARCH Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "1059",
+        "nombre": "MONZÓ Oriol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17511",
+        "nombre": "ROMANIUK Anatolii"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "837",
+        "nombre": "ALMAGRO Marcos"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "8845",
+        "nombre": "GUARCH Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "1059",
+        "nombre": "MONZÓ Oriol"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "493",
+        "nombre": "SOISA Pedro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "995",
+        "nombre": "MARTÍNEZ Iván"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17511",
+        "nombre": "ROMANIUK Anatolii"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATENEU 1882",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

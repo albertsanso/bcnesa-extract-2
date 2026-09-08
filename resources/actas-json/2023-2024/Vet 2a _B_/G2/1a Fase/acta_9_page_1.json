@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Veterans 2a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 9,
+  "fecha": "2023-12-12",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SANT QUINTÍ DE MEDIONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
+      "B": {
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      },
+      "C": {
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "517",
+        "nombre": "MARTI Josep"
+      },
+      "X": {
+        "licencia": "504",
+        "nombre": "RAMON Jaume"
+      },
+      "Z": {
+        "licencia": "3917",
+        "nombre": "ORTEGO Jose"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "517",
+        "nombre": "MARTI Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "504",
+        "nombre": "RAMON Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "3917",
+        "nombre": "ORTEGO Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "504",
+        "nombre": "RAMON Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "517",
+        "nombre": "MARTI Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "3917",
+        "nombre": "ORTEGO Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT SANT QUINTÍ DE MEDIONA",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

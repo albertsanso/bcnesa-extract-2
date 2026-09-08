@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 4,
+  "fecha": "2023-10-21",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT VALLS DE TORROELLA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SALLENT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "17893",
+        "nombre": "PARIS Josep"
+      },
+      "B": {
+        "licencia": "15700",
+        "nombre": "SALVA Ricard"
+      },
+      "C": {
+        "licencia": "13159",
+        "nombre": "GIMENEZ Ricard"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16393",
+        "nombre": "CIURO Ramon"
+      },
+      "X": {
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
+      },
+      "Z": {
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "17893",
+        "nombre": "PARIS Josep"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16393",
+        "nombre": "CIURO Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15700",
+        "nombre": "SALVA Ricard"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13159",
+        "nombre": "GIMENEZ Ricard"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "17893",
+        "nombre": "PARIS Josep"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13159",
+        "nombre": "GIMENEZ Ricard"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16393",
+        "nombre": "CIURO Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15700",
+        "nombre": "SALVA Ricard"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT SALLENT",
+    "marcador_partidos": {
+      "local": 9,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

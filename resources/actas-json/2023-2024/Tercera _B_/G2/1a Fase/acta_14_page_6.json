@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 14,
+  "fecha": "2024-02-04",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT BARCELONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CT BARCINO",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "13355",
+        "nombre": "MAJO Mateu"
+      },
+      "B": {
+        "licencia": "15220",
+        "nombre": "TRILLA Tomas"
+      },
+      "C": {
+        "licencia": "5863",
+        "nombre": "REDON Aitor"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
+      "X": {
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      },
+      "Z": {
+        "licencia": "17039",
+        "nombre": "AHEDO Jorge"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "13355",
+        "nombre": "MAJO Mateu"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "15220",
+        "nombre": "TRILLA Tomas"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "5863",
+        "nombre": "REDON Aitor"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17039",
+        "nombre": "AHEDO Jorge"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "13355",
+        "nombre": "MAJO Mateu"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "5863",
+        "nombre": "REDON Aitor"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "15220",
+        "nombre": "TRILLA Tomas"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17039",
+        "nombre": "AHEDO Jorge"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CT BARCINO",
+    "marcador_partidos": {
+      "local": 8,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Veterans 3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 5,
+  "fecha": "2025-11-04",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CERCLE TT GRACIA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILASSAR",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "B": {
+        "licencia": "11229",
+        "nombre": "NERIN Carles"
+      },
+      "C": {
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "19870",
+        "nombre": "SILVA Sebastian"
+      },
+      "X": {
+        "licencia": "11245",
+        "nombre": "LOPEZ David"
+      },
+      "Z": {
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "19870",
+        "nombre": "SILVA Sebastian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "11229",
+        "nombre": "NERIN Carles"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11245",
+        "nombre": "LOPEZ David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11245",
+        "nombre": "LOPEZ David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "19870",
+        "nombre": "SILVA Sebastian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "11229",
+        "nombre": "NERIN Carles"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CERCLE TT GRACIA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

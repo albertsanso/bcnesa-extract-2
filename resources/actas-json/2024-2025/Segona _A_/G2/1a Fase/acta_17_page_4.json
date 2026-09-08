@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 17,
+  "fecha": "2025-03-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS D'HORTA TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT POBLENOU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "15798",
+        "nombre": "DONAIRE Bruno"
+      },
+      "B": {
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
+      "C": {
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "10391",
+        "nombre": "ESPAÑA Fabian Andres"
+      },
+      "X": {
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
+      "Z": {
+        "licencia": "12643",
+        "nombre": "GARCIA Alberto"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "15798",
+        "nombre": "DONAIRE Bruno"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10391",
+        "nombre": "ESPAÑA Fabian Andres"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12643",
+        "nombre": "GARCIA Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "15798",
+        "nombre": "DONAIRE Bruno"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "10391",
+        "nombre": "ESPAÑA Fabian Andres"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12643",
+        "nombre": "GARCIA Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT POBLENOU",
+    "marcador_partidos": {
+      "local": 9,
+      "visitante": 13
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Veterans 3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 8,
+  "fecha": "2022-11-30",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT L'AVENÇ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      "B": {
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "C": {
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "4386",
+        "nombre": "SARDA Santiago"
+      },
+      "X": {
+        "licencia": "506",
+        "nombre": "MARTIN Francisco"
+      },
+      "Z": {
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4386",
+        "nombre": "SARDA Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "506",
+        "nombre": "MARTIN Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "506",
+        "nombre": "MARTIN Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "4386",
+        "nombre": "SARDA Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "AGRUPACIÓ CONGRÉS",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

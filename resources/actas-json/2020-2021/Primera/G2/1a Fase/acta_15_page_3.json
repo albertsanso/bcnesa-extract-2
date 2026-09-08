@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "1a",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 15,
+  "fecha": "2021-05-30",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA ''B''",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CLUB NATACIO SABADELL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8247",
+        "nombre": "FLORIDO Kapil"
+      },
+      "B": {
+        "licencia": "10885",
+        "nombre": "LOZANO Manel"
+      },
+      "C": {
+        "licencia": "12171",
+        "nombre": "MARCO Oriol"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12466",
+        "nombre": "CLADELLAS Oriol"
+      },
+      "X": {
+        "licencia": "11168",
+        "nombre": "BARBERA Joan"
+      },
+      "Z": {
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8247",
+        "nombre": "FLORIDO Kapil"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12466",
+        "nombre": "CLADELLAS Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "10885",
+        "nombre": "LOZANO Manel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11168",
+        "nombre": "BARBERA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "12171",
+        "nombre": "MARCO Oriol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8247",
+        "nombre": "FLORIDO Kapil"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11168",
+        "nombre": "BARBERA Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "12171",
+        "nombre": "MARCO Oriol"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12466",
+        "nombre": "CLADELLAS Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "10885",
+        "nombre": "LOZANO Manel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB NATACIO SABADELL",
+    "marcador_partidos": {
+      "local": 7,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

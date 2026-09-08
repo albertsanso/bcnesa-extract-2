@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 3,
+  "jornada": 11,
+  "fecha": "2022-02-06",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CETT ESPARREGUERA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TERMOTUR CALELLA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "8074",
+        "nombre": "PEDROSA Hector"
+      },
+      "B": {
+        "licencia": "8480",
+        "nombre": "SANCHEZ Ruben"
+      },
+      "C": {
+        "licencia": "7189",
+        "nombre": "GARCIA David"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "150",
+        "nombre": "FONT Jordi"
+      },
+      "X": {
+        "licencia": "6057",
+        "nombre": "VILLARET Mateu"
+      },
+      "Z": {
+        "licencia": "11310",
+        "nombre": "FIGUERAS Jack"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "8074",
+        "nombre": "PEDROSA Hector"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "150",
+        "nombre": "FONT Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8480",
+        "nombre": "SANCHEZ Ruben"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6057",
+        "nombre": "VILLARET Mateu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7189",
+        "nombre": "GARCIA David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11310",
+        "nombre": "FIGUERAS Jack"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "8074",
+        "nombre": "PEDROSA Hector"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6057",
+        "nombre": "VILLARET Mateu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7189",
+        "nombre": "GARCIA David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "150",
+        "nombre": "FONT Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8480",
+        "nombre": "SANCHEZ Ruben"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11310",
+        "nombre": "FIGUERAS Jack"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CETT ESPARREGUERA",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

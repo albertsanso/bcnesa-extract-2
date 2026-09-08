@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Veterans 3a \"C\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 12,
+  "fecha": "2023-01-24",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CC SANTS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT BARCELONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "3995",
+        "nombre": "IGLESIAS Carlos"
+      },
+      "B": {
+        "licencia": "245",
+        "nombre": "TARRAGO Enric"
+      },
+      "C": {
+        "licencia": "1919",
+        "nombre": "DOMENECH Jose"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "X": {
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
+      "Z": {
+        "licencia": "16903",
+        "nombre": "RAMENTOL David"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3995",
+        "nombre": "IGLESIAS Carlos"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "245",
+        "nombre": "TARRAGO Enric"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "1919",
+        "nombre": "DOMENECH Jose"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16903",
+        "nombre": "RAMENTOL David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3995",
+        "nombre": "IGLESIAS Carlos"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "1919",
+        "nombre": "DOMENECH Jose"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "245",
+        "nombre": "TARRAGO Enric"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16903",
+        "nombre": "RAMENTOL David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CC SANTS",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

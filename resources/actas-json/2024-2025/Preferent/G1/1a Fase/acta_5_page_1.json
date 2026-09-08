@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 5,
+  "fecha": "2024-10-27",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT LA POBLA DE LILLET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "B": {
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "C": {
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
+      "X": {
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
+      "Z": {
+        "licencia": "12132",
+        "nombre": "PARDINILLA Jorge"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12132",
+        "nombre": "PARDINILLA Jorge"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12132",
+        "nombre": "PARDINILLA Jorge"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CENTRE",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

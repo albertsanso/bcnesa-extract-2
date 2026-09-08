@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Veterans 3a \"B\"",
+  "fase": "DESCENS",
+  "grupo": null,
+  "jornada": 3,
+  "fecha": "2023-03-08",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
+      "B": {
+        "licencia": "12579",
+        "nombre": "MUÑOZ Joan"
+      },
+      "C": {
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
+      "X": {
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
+      },
+      "Z": {
+        "licencia": "92",
+        "nombre": "RIPOLLES Jaime"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12579",
+        "nombre": "MUÑOZ Joan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "92",
+        "nombre": "RIPOLLES Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12579",
+        "nombre": "MUÑOZ Joan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "92",
+        "nombre": "RIPOLLES Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "AGRUPACIÓ CONGRÉS",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 17
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

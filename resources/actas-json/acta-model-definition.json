@@ -39,11 +39,17 @@
       "description": "Nombre de la competición, categoría y, habitualmente, género.",
       "examples": ["Superdivisión Masculina", "División de Honor Femenina", null]
     },
+    "fase": {
+      "type": "string",
+      "description": "Fase de la competición a la que pertenece el acta.",
+      "minLength": 1,
+      "examples": ["1a Fase", "Play Off Ascens"]
+    },
     "grupo": {
-      "type": "integer",
-      "description": "Número de grupo dentro de la competición.",
+      "type": ["integer", "null"],
+      "description": "Número de grupo dentro de la competición; es null cuando la carpeta del grupo es Other.",
       "minimum": 0,
-      "examples": [0, 1, 6]
+      "examples": [0, 1, 6, null]
     },
     "jornada": {
       "type": "integer",

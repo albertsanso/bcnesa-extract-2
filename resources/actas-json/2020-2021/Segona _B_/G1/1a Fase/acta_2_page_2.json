@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "2a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 2,
+  "fecha": "2021-03-20",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT L'HOSPITALET GRUPO PREVING \"B",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12036",
+        "nombre": "ROMO Pol"
+      },
+      "B": {
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "C": {
+        "licencia": "8909",
+        "nombre": "DOMINGUEZ Joel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
+      },
+      "X": {
+        "licencia": "6083",
+        "nombre": "GRANELL Jose"
+      },
+      "Z": {
+        "licencia": "8253",
+        "nombre": "MARRO Daniel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12036",
+        "nombre": "ROMO Pol"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6083",
+        "nombre": "GRANELL Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8909",
+        "nombre": "DOMINGUEZ Joel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8253",
+        "nombre": "MARRO Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12036",
+        "nombre": "ROMO Pol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6083",
+        "nombre": "GRANELL Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8909",
+        "nombre": "DOMINGUEZ Joel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8253",
+        "nombre": "MARRO Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATENEU 1882",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 11
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

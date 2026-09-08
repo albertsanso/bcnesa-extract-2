@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 17,
+  "fecha": "2024-03-10",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT VILANOVA DEL CAMI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      },
+      "B": {
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      },
+      "C": {
+        "licencia": "843",
+        "nombre": "VILÀ Roser"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "1848",
+        "nombre": "BALADA Lluis"
+      },
+      "X": {
+        "licencia": "235",
+        "nombre": "BLANCO Matias"
+      },
+      "Z": {
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "1848",
+        "nombre": "BALADA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "235",
+        "nombre": "BLANCO Matias"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "843",
+        "nombre": "VILÀ Roser"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "235",
+        "nombre": "BLANCO Matias"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "843",
+        "nombre": "VILÀ Roser"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "1848",
+        "nombre": "BALADA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "459",
+        "nombre": "LOPEZ Bernat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS DE TERRASSA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Preferent",
+  "fase": "Play Off Ascens",
+  "grupo": null,
+  "jornada": 1,
+  "fecha": "2025-05-10",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "ATT PREMIÀ DE MAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "B": {
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      },
+      "C": {
+        "licencia": "1016",
+        "nombre": "GARCIA David"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "2259",
+        "nombre": "CAYMEL Ismael"
+      },
+      "X": {
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "Z": {
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2259",
+        "nombre": "CAYMEL Ismael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "1016",
+        "nombre": "GARCIA David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "790",
+        "nombre": "CUENCA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "1016",
+        "nombre": "GARCIA David"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2259",
+        "nombre": "CAYMEL Ismael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 6
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATC MOLINS DE REI",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 18
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

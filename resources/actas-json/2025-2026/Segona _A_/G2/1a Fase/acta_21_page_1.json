@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 21,
+  "fecha": "2026-05-03",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "LLUÏSOS DE GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS TERRASSA 'A'",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16812",
+        "nombre": "RIU Miquel"
+      },
+      "B": {
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
+      "C": {
+        "licencia": "21171",
+        "nombre": "VICENTE Pablo"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11561",
+        "nombre": "PAGÈS Anna"
+      },
+      "X": {
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      "Z": {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16812",
+        "nombre": "RIU Miquel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11561",
+        "nombre": "PAGÈS Anna"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "21171",
+        "nombre": "VICENTE Pablo"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16812",
+        "nombre": "RIU Miquel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "21171",
+        "nombre": "VICENTE Pablo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11561",
+        "nombre": "PAGÈS Anna"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS TERRASSA 'A'",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

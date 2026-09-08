@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 13,
+  "fecha": "2026-01-25",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT PRAT LISANT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "15311",
+        "nombre": "DÍAZ Èric"
+      },
+      "B": {
+        "licencia": "18757",
+        "nombre": "BERNAL Iván"
+      },
+      "C": {
+        "licencia": "14764",
+        "nombre": "HURTADO Eric"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "14127",
+        "nombre": "PARRAS Jose"
+      },
+      "X": {
+        "licencia": "10107",
+        "nombre": "MUÑOZ Patricio Berry"
+      },
+      "Z": {
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "15311",
+        "nombre": "DÍAZ Èric"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14127",
+        "nombre": "PARRAS Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "18757",
+        "nombre": "BERNAL Iván"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10107",
+        "nombre": "MUÑOZ Patricio Berry"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14764",
+        "nombre": "HURTADO Eric"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "15311",
+        "nombre": "DÍAZ Èric"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10107",
+        "nombre": "MUÑOZ Patricio Berry"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14764",
+        "nombre": "HURTADO Eric"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "14127",
+        "nombre": "PARRAS Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "18757",
+        "nombre": "BERNAL Iván"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ATENEU 1882",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Veterans 1a",
+  "fase": "DESCENS",
+  "grupo": null,
+  "jornada": 6,
+  "fecha": "2026-04-14",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "ATT PREMIÀ DE MAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT PARETS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "B": {
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      "C": {
+        "licencia": "394",
+        "nombre": "SERRA Josep"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "755",
+        "nombre": "MOLINA Miguel"
+      },
+      "X": {
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
+      "Z": {
+        "licencia": "10740",
+        "nombre": "GARRELL Amador"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "755",
+        "nombre": "MOLINA Miguel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "394",
+        "nombre": "SERRA Josep"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10740",
+        "nombre": "GARRELL Amador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "394",
+        "nombre": "SERRA Josep"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "755",
+        "nombre": "MOLINA Miguel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "10740",
+        "nombre": "GARRELL Amador"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT PARETS",
+    "marcador_partidos": {
+      "local": 8,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

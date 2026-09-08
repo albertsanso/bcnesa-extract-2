@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Veterans 3a \"A\"",
+  "fase": "Play Off Ascens",
+  "grupo": null,
+  "jornada": 4,
+  "fecha": "2023-05-30",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CC SANTS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
+      "B": {
+        "licencia": "8182",
+        "nombre": "CASAS Jaume"
+      },
+      "C": {
+        "licencia": "779",
+        "nombre": "NUÑEZ Edgardo"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      "X": {
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
+      "Z": {
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "8182",
+        "nombre": "CASAS Jaume"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "779",
+        "nombre": "NUÑEZ Edgardo"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "779",
+        "nombre": "NUÑEZ Edgardo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "8182",
+        "nombre": "CASAS Jaume"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "11559",
+        "nombre": "ESPINOSA Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CIERVO",
+    "marcador_partidos": {
+      "local": 8,
+      "visitante": 12
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 6,
+  "fecha": "2023-11-11",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CERCLE TT GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "GIRBAU VIC TT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
+      },
+      "B": {
+        "licencia": "369",
+        "nombre": "MORATA Genis"
+      },
+      "C": {
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "X": {
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "Z": {
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      },
+      {
+        "licencia": "369",
+        "nombre": "MORATA Genis"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      {
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "369",
+        "nombre": "MORATA Genis"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "329",
+        "nombre": "CASABONA Oscar"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "369",
+        "nombre": "MORATA Genis"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "329",
+            "nombre": "CASABONA Oscar"
+          },
+          {
+            "licencia": "369",
+            "nombre": "MORATA Genis"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "2080",
+            "nombre": "AUSIO Pere"
+          },
+          {
+            "licencia": "536",
+            "nombre": "PLADEVALL Jordi"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "GIRBAU VIC TT",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

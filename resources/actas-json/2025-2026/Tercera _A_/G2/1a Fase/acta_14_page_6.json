@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 14,
+  "fecha": "2026-02-01",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT POBLENOU",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "ALIANÇA LLIÇÀ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "21181",
+        "nombre": "ISCHIA Javier"
+      },
+      "B": {
+        "licencia": "17987",
+        "nombre": "BOLAÑOS Juan Sebastian"
+      },
+      "C": {
+        "licencia": "10197",
+        "nombre": "MEREGALLI Joel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "617",
+        "nombre": "CANADELL Miquel"
+      },
+      "X": {
+        "licencia": "20153",
+        "nombre": "ARGEMÍ Ferran"
+      },
+      "Z": {
+        "licencia": "5520",
+        "nombre": "MARTINEZ Francisco"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "21181",
+        "nombre": "ISCHIA Javier"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "617",
+        "nombre": "CANADELL Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "17987",
+        "nombre": "BOLAÑOS Juan Sebastian"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "20153",
+        "nombre": "ARGEMÍ Ferran"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "10197",
+        "nombre": "MEREGALLI Joel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "5520",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "21181",
+        "nombre": "ISCHIA Javier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "20153",
+        "nombre": "ARGEMÍ Ferran"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "10197",
+        "nombre": "MEREGALLI Joel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "617",
+        "nombre": "CANADELL Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "17987",
+        "nombre": "BOLAÑOS Juan Sebastian"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "5520",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT POBLENOU",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

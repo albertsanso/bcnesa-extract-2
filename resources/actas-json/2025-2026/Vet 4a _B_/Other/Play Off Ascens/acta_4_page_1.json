@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Veterans 4a \"B\"",
+  "fase": "Play Off Ascens",
+  "grupo": null,
+  "jornada": 4,
+  "fecha": "2026-06-02",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT LA BISBAL DEL PENEDÈS 'A'",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATC MOLINS DE REI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "B": {
+        "licencia": "6796",
+        "nombre": "PORTA Pere"
+      },
+      "C": {
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "1724",
+        "nombre": "VINUESA G. Victor"
+      },
+      "X": {
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      },
+      "Z": {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      {
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      {
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "1724",
+        "nombre": "VINUESA G. Victor"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "6796",
+        "nombre": "PORTA Pere"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "1724",
+        "nombre": "VINUESA G. Victor"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "6796",
+        "nombre": "PORTA Pere"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "241",
+            "nombre": "MARTINEZ Josep"
+          },
+          {
+            "licencia": "302",
+            "nombre": "ESCUDERO Josep Maria"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6167",
+            "nombre": "ESTRADA Jordi"
+          },
+          {
+            "licencia": "283",
+            "nombre": "NICOLAS Francisco"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT LA BISBAL DEL PENEDÈS 'A'",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

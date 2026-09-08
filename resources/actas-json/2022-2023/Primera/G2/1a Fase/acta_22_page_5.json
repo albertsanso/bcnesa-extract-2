@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "1a",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 22,
+  "fecha": "2023-04-30",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "VIC TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "FORN BERTRAN BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      },
+      "B": {
+        "licencia": "5870",
+        "nombre": "BAU Adria"
+      },
+      "C": {
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      },
+      "X": {
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      },
+      "Z": {
+        "licencia": "13369",
+        "nombre": "AMANTIA Liam"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      {
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      },
+      {
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "5870",
+        "nombre": "BAU Adria"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13369",
+        "nombre": "AMANTIA Liam"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "5870",
+        "nombre": "BAU Adria"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "13369",
+        "nombre": "AMANTIA Liam"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8615",
+            "nombre": "PORTET Joaquim"
+          },
+          {
+            "licencia": "12868",
+            "nombre": "TORRENTS Joan"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7744",
+            "nombre": "GARCIA Eduard"
+          },
+          {
+            "licencia": "7683",
+            "nombre": "XIA Wen Long"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FORN BERTRAN BADALONA",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 17
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

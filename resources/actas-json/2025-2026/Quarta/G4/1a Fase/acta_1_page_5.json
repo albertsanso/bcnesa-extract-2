@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "4a",
+  "fase": "1a Fase",
+  "grupo": 4,
+  "jornada": 1,
+  "fecha": "2025-09-27",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "ASS.E. DE PING PONG VIA TRAJANA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "EUROCLIMA BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
+      "B": {
+        "licencia": "19073",
+        "nombre": "ARGÜELLES Cristian"
+      },
+      "C": {
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "15858",
+        "nombre": "LÓPEZ Martí"
+      },
+      "X": {
+        "licencia": "6469",
+        "nombre": "SAAVEDRA Raul"
+      },
+      "Z": {
+        "licencia": "18018",
+        "nombre": "TARRÉS Sasha"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
+      {
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15858",
+        "nombre": "LÓPEZ Martí"
+      },
+      {
+        "licencia": "6469",
+        "nombre": "SAAVEDRA Raul"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15858",
+        "nombre": "LÓPEZ Martí"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "19073",
+        "nombre": "ARGÜELLES Cristian"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6469",
+        "nombre": "SAAVEDRA Raul"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "18018",
+        "nombre": "TARRÉS Sasha"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6469",
+        "nombre": "SAAVEDRA Raul"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15858",
+        "nombre": "LÓPEZ Martí"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "19073",
+        "nombre": "ARGÜELLES Cristian"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "18018",
+        "nombre": "TARRÉS Sasha"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16450",
+            "nombre": "PALACIOS Joaquin"
+          },
+          {
+            "licencia": "8054",
+            "nombre": "DESCARREGA Oscar"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15858",
+            "nombre": "LÓPEZ Martí"
+          },
+          {
+            "licencia": "6469",
+            "nombre": "SAAVEDRA Raul"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EUROCLIMA BADALONA",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 17
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

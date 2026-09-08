@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 4,
+  "jornada": 15,
+  "fecha": "2023-02-19",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CETT SANT ANDREU DE LA BARCA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "MASQUEFA TTC",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "15394",
+        "nombre": "CASAS Ramón"
+      },
+      "B": {
+        "licencia": "13279",
+        "nombre": "DONAIRE Juan Francisco"
+      },
+      "C": {
+        "licencia": "13282",
+        "nombre": "REQUENA Diego"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "11315",
+        "nombre": "LOPEZ Naiara"
+      },
+      "X": {
+        "licencia": "16418",
+        "nombre": "ARGÜERA Eric"
+      },
+      "Z": {
+        "licencia": "16417",
+        "nombre": "ALBERT Jordi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "15394",
+        "nombre": "CASAS Ramón"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11315",
+        "nombre": "LOPEZ Naiara"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "13279",
+        "nombre": "DONAIRE Juan Francisco"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16418",
+        "nombre": "ARGÜERA Eric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13282",
+        "nombre": "REQUENA Diego"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16417",
+        "nombre": "ALBERT Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "15394",
+        "nombre": "CASAS Ramón"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "16418",
+        "nombre": "ARGÜERA Eric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13282",
+        "nombre": "REQUENA Diego"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "11315",
+        "nombre": "LOPEZ Naiara"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "13279",
+        "nombre": "DONAIRE Juan Francisco"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "16417",
+        "nombre": "ALBERT Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CETT SANT ANDREU DE LA BARCA",
+    "marcador_partidos": {
+      "local": 17,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

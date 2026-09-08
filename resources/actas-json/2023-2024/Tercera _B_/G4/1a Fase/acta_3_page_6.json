@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 4,
+  "jornada": 3,
+  "fecha": "2023-10-15",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "GIRBAU VIC TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
+      "B": {
+        "licencia": "14009",
+        "nombre": "TORRENTS Laura"
+      },
+      "C": {
+        "licencia": "17857",
+        "nombre": "BUJONS Mercè"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17241",
+        "nombre": "PEYA Clara"
+      },
+      "X": {
+        "licencia": "13483",
+        "nombre": "ESQUIUS Roc"
+      },
+      "Z": {
+        "licencia": "17261",
+        "nombre": "ALBIOL Ian"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17241",
+        "nombre": "PEYA Clara"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14009",
+        "nombre": "TORRENTS Laura"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13483",
+        "nombre": "ESQUIUS Roc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "17857",
+        "nombre": "BUJONS Mercè"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17261",
+        "nombre": "ALBIOL Ian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13483",
+        "nombre": "ESQUIUS Roc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "17857",
+        "nombre": "BUJONS Mercè"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17241",
+        "nombre": "PEYA Clara"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14009",
+        "nombre": "TORRENTS Laura"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "17261",
+        "nombre": "ALBIOL Ian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "GIRBAU VIC TT",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

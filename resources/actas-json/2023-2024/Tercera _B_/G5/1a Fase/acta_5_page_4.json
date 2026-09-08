@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 5,
+  "jornada": 5,
+  "fecha": "2023-10-29",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "TARINAS CALELLA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SANTA PERPETUA ''B''",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "10220",
+        "nombre": "PLAZA Francisco José"
+      },
+      "B": {
+        "licencia": "14246",
+        "nombre": "KROTKOV Gleb"
+      },
+      "C": {
+        "licencia": "14230",
+        "nombre": "SOLE Pau"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6282",
+        "nombre": "RODRIGUEZ Jose Maria"
+      },
+      "X": {
+        "licencia": "6283",
+        "nombre": "RODRIGUEZ Daniel"
+      },
+      "Z": {
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "10220",
+        "nombre": "PLAZA Francisco José"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6282",
+        "nombre": "RODRIGUEZ Jose Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14246",
+        "nombre": "KROTKOV Gleb"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6283",
+        "nombre": "RODRIGUEZ Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14230",
+        "nombre": "SOLE Pau"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "10220",
+        "nombre": "PLAZA Francisco José"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "6283",
+        "nombre": "RODRIGUEZ Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14230",
+        "nombre": "SOLE Pau"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6282",
+        "nombre": "RODRIGUEZ Jose Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14246",
+        "nombre": "KROTKOV Gleb"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TARINAS CALELLA",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 7
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

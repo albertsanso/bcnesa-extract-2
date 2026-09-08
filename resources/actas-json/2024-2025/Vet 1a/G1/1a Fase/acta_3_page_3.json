@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2024/2025",
+  "competicion": "Veterans 1a",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2024-10-15",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "B": {
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
+      "C": {
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "856",
+        "nombre": "MARTINEZ Ignasi"
+      },
+      "X": {
+        "licencia": "11007",
+        "nombre": "REGINCÓS Albert"
+      },
+      "Z": {
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "856",
+        "nombre": "MARTINEZ Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11007",
+        "nombre": "REGINCÓS Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "11007",
+        "nombre": "REGINCÓS Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "856",
+        "nombre": "MARTINEZ Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "852",
+        "nombre": "SERRES Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CENTRE",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

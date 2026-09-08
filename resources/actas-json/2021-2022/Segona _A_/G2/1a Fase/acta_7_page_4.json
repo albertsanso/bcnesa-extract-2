@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 7,
+  "fecha": "2021-12-19",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "UE SANT CUGAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "14221",
+        "nombre": "GÓMEZ Carles"
+      },
+      "B": {
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      },
+      "C": {
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13235",
+        "nombre": "BOIANO Bruno"
+      },
+      "X": {
+        "licencia": "13758",
+        "nombre": "CALLEJON Christian"
+      },
+      "Z": {
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "14221",
+        "nombre": "GÓMEZ Carles"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13235",
+        "nombre": "BOIANO Bruno"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13758",
+        "nombre": "CALLEJON Christian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "14221",
+        "nombre": "GÓMEZ Carles"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "13758",
+        "nombre": "CALLEJON Christian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13235",
+        "nombre": "BOIANO Bruno"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLDEFELS",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

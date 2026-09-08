@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "3a \"B\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 20,
+  "fecha": "2024-04-21",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT ELS AMICS TERRASSA \"A\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT BARCELONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "7284",
+        "nombre": "SANROMA Jordi"
+      },
+      "B": {
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
+      },
+      "C": {
+        "licencia": "6404",
+        "nombre": "ZIELINSKI Mariusz Jan"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "13355",
+        "nombre": "MAJO Mateu"
+      },
+      "X": {
+        "licencia": "15220",
+        "nombre": "TRILLA Tomas"
+      },
+      "Z": {
+        "licencia": "14828",
+        "nombre": "CUENCA Nicholas Manuel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "7284",
+        "nombre": "SANROMA Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13355",
+        "nombre": "MAJO Mateu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15220",
+        "nombre": "TRILLA Tomas"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6404",
+        "nombre": "ZIELINSKI Mariusz Jan"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14828",
+        "nombre": "CUENCA Nicholas Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "7284",
+        "nombre": "SANROMA Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "15220",
+        "nombre": "TRILLA Tomas"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6404",
+        "nombre": "ZIELINSKI Mariusz Jan"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "13355",
+        "nombre": "MAJO Mateu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14828",
+        "nombre": "CUENCA Nicholas Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS TERRASSA \"A\"",
+    "marcador_partidos": {
+      "local": 16,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

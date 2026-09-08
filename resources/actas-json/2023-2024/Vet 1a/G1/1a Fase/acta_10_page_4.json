@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Veterans 1a",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 10,
+  "fecha": "2023-12-19",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT OLESA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "DECATHLON BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
+      "B": {
+        "licencia": "4348",
+        "nombre": "LLONGUERAS Valenti"
+      },
+      "C": {
+        "licencia": "2290",
+        "nombre": "MOSCOSO Renato Victor"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "17592",
+        "nombre": "LI Yao Jun"
+      },
+      "X": {
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
+      "Z": {
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17592",
+        "nombre": "LI Yao Jun"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "4348",
+        "nombre": "LLONGUERAS Valenti"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "2290",
+        "nombre": "MOSCOSO Renato Victor"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "2290",
+        "nombre": "MOSCOSO Renato Victor"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "17592",
+        "nombre": "LI Yao Jun"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "4348",
+        "nombre": "LLONGUERAS Valenti"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT OLESA",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 10
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

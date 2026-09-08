@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2025-09-27",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CETT ESPARREGUERA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT L'HOSPITALET 'A'",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "16535",
+        "nombre": "PÉREZ Lucas"
+      },
+      "B": {
+        "licencia": "16397",
+        "nombre": "LIARTE Lluc"
+      },
+      "C": {
+        "licencia": "14611",
+        "nombre": "HERMIDA Aleix"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6017",
+        "nombre": "SOLSONA Eduard"
+      },
+      "X": {
+        "licencia": "1295",
+        "nombre": "RODRIGUEZ Xavier"
+      },
+      "Z": {
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "16535",
+        "nombre": "PÉREZ Lucas"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6017",
+        "nombre": "SOLSONA Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16397",
+        "nombre": "LIARTE Lluc"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1295",
+        "nombre": "RODRIGUEZ Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "14611",
+        "nombre": "HERMIDA Aleix"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "16535",
+        "nombre": "PÉREZ Lucas"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "1295",
+        "nombre": "RODRIGUEZ Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "14611",
+        "nombre": "HERMIDA Aleix"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6017",
+        "nombre": "SOLSONA Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16397",
+        "nombre": "LIARTE Lluc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT L'HOSPITALET 'A'",
+    "marcador_partidos": {
+      "local": 6,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

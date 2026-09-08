@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2020/2021",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 2,
+  "fecha": "2021-03-21",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "TT PARETS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11506",
+        "nombre": "ALERT Vladimir"
+      },
+      "B": {
+        "licencia": "10023",
+        "nombre": "LUS Constantin"
+      },
+      "C": {
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "X": {
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      },
+      "Z": {
+        "licencia": "2299",
+        "nombre": "IBAÑEZ Jordi"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11506",
+        "nombre": "ALERT Vladimir"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "10023",
+        "nombre": "LUS Constantin"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2299",
+        "nombre": "IBAÑEZ Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11506",
+        "nombre": "ALERT Vladimir"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "10023",
+        "nombre": "LUS Constantin"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2299",
+        "nombre": "IBAÑEZ Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLGALÍ",
+    "marcador_partidos": {
+      "local": 13,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

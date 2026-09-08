@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2023/2024",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 22,
+  "fecha": "2024-05-05",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "AGRUPACIÓ CONGRÉS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CC SANTS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "B": {
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "C": {
+        "licencia": "13097",
+        "nombre": "CARDONA Biel"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      "X": {
+        "licencia": "895",
+        "nombre": "AYUSO Alejandro"
+      },
+      "Z": {
+        "licencia": "1114",
+        "nombre": "MARTÍNEZ Àlex"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "895",
+        "nombre": "AYUSO Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "13097",
+        "nombre": "CARDONA Biel"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1114",
+        "nombre": "MARTÍNEZ Àlex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "895",
+        "nombre": "AYUSO Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "13097",
+        "nombre": "CARDONA Biel"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "1114",
+        "nombre": "MARTÍNEZ Àlex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "AGRUPACIÓ CONGRÉS",
+    "marcador_partidos": {
+      "local": 15,
+      "visitante": 8
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

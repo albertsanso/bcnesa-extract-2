@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "Preferent",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 4,
+  "fecha": "2022-10-30",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "FALCONS DE SABADELL A.E.",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
+      "B": {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "C": {
+        "licencia": "12469",
+        "nombre": "TORREZ Sean Marc"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "X": {
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      "Z": {
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "12469",
+        "nombre": "TORREZ Sean Marc"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "12469",
+        "nombre": "TORREZ Sean Marc"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FALCONS DE SABADELL A.E.",
+    "marcador_partidos": {
+      "local": 14,
+      "visitante": 9
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

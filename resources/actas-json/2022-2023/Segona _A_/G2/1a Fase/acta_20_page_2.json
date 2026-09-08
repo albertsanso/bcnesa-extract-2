@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "2a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 20,
+  "fecha": "2023-04-16",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "CTT VILANOVA DEL CAMI",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "PROTEC BADALONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "B": {
+        "licencia": "12048",
+        "nombre": "BATET Carlos"
+      },
+      "C": {
+        "licencia": "3120",
+        "nombre": "ZARAGOZA Eloi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "X": {
+        "licencia": "4142",
+        "nombre": "SALGUERO Albert"
+      },
+      "Z": {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "12048",
+        "nombre": "BATET Carlos"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4142",
+        "nombre": "SALGUERO Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "3120",
+        "nombre": "ZARAGOZA Eloi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "297",
+        "nombre": "SUERO Manolo"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "4142",
+        "nombre": "SALGUERO Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "3120",
+        "nombre": "ZARAGOZA Eloi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "12048",
+        "nombre": "BATET Carlos"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "PROTEC BADALONA",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 16
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

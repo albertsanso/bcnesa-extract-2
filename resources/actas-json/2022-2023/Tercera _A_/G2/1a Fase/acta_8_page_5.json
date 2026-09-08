@@ -1,0 +1,222 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2022/2023",
+  "competicion": "3a \"A\"",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 8,
+  "fecha": "2022-12-03",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "MOLLET 2002 TT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "CTT SENTMENAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "6888",
+        "nombre": "BRAGE Emilio Jose"
+      },
+      "B": {
+        "licencia": "16489",
+        "nombre": "POZAS Sergio"
+      },
+      "C": {
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "12159",
+        "nombre": "BAULENAS Lluis"
+      },
+      "X": {
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "Z": {
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "6888",
+        "nombre": "BRAGE Emilio Jose"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12159",
+        "nombre": "BAULENAS Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "16489",
+        "nombre": "POZAS Sergio"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "6888",
+        "nombre": "BRAGE Emilio Jose"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "12159",
+        "nombre": "BAULENAS Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "16489",
+        "nombre": "POZAS Sergio"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT SENTMENAT",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 15
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

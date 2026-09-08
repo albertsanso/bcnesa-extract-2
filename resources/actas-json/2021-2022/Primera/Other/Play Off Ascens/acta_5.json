@@ -1,0 +1,284 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2021/2022",
+  "competicion": "1a",
+  "fase": "Play Off Ascens",
+  "grupo": null,
+  "jornada": 5,
+  "fecha": "2022-06-05",
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": "FALCONS DE SABADELL A.E.",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": "SURIS CALELLA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "licencia": "1040",
+        "nombre": "BELLSOLÀ Pere"
+      },
+      "B": {
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      "C": {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "licencia": "7264",
+        "nombre": "SANCHEZ Lluc"
+      },
+      "X": {
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "Z": {
+        "licencia": "2030",
+        "nombre": "SANCHEZ Josep"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "licencia": "1040",
+        "nombre": "BELLSOLÀ Pere"
+      },
+      {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7264",
+        "nombre": "SANCHEZ Lluc"
+      },
+      {
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "licencia": "1040",
+        "nombre": "BELLSOLÀ Pere"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7264",
+        "nombre": "SANCHEZ Lluc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2030",
+        "nombre": "SANCHEZ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "licencia": "1040",
+        "nombre": "BELLSOLÀ Pere"
+      },
+      "visitante": {
+        "letra": "X",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "visitante": {
+        "letra": "Y",
+        "licencia": "7264",
+        "nombre": "SANCHEZ Lluc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      "visitante": {
+        "letra": "Z",
+        "licencia": "2030",
+        "nombre": "SANCHEZ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "1040",
+            "nombre": "BELLSOLÀ Pere"
+          },
+          {
+            "licencia": "7713",
+            "nombre": "FARELL Jordi"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7264",
+            "nombre": "SANCHEZ Lluc"
+          },
+          {
+            "licencia": "14195",
+            "nombre": "PETRAGUE Alain"
+          }
+        ]
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "SURIS CALELLA",
+    "marcador_partidos": {
+      "local": 12,
+      "visitante": 14
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}
