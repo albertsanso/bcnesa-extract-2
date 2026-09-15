@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "EL CIERVO ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO ''B''",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1996",
-        "nombre": "MONTAÑANA Hector"
-      },
-      "B": {
-        "licencia": "14578",
-        "nombre": "GARCIA Santiago"
-      },
-      "C": {
-        "licencia": "755",
-        "nombre": "MOLINA Miguel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4276",
         "nombre": "GALTES Francesc X."
@@ -55,6 +41,20 @@
         "licencia": "2486",
         "nombre": "BLASCO Vicenç"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1996",
+        "nombre": "MONTAÑANA Hector"
+      },
+      "B": {
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
+      "C": {
+        "licencia": "755",
+        "nombre": "MOLINA Miguel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1996",
-        "nombre": "MONTAÑANA Hector"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4276",
         "nombre": "GALTES Francesc X."
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1996",
+        "nombre": "MONTAÑANA Hector"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14578",
-        "nombre": "GARCIA Santiago"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8321",
         "nombre": "BOADA Isidro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "755",
-        "nombre": "MOLINA Miguel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2486",
         "nombre": "BLASCO Vicenç"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "1996",
-        "nombre": "MONTAÑANA Hector"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8321",
-        "nombre": "BOADA Isidro"
+        "letra": "C",
+        "licencia": "755",
+        "nombre": "MOLINA Miguel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8321",
+        "nombre": "BOADA Isidro"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1996",
+        "nombre": "MONTAÑANA Hector"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "755",
-        "nombre": "MOLINA Miguel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4276",
         "nombre": "GALTES Francesc X."
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "755",
+        "nombre": "MOLINA Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14578",
-        "nombre": "GARCIA Santiago"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2486",
         "nombre": "BLASCO Vicenç"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

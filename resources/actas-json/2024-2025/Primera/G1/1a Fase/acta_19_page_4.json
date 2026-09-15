@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "CTT COLLBATO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT COLLBATO",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      "B": {
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "C": {
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16294",
         "nombre": "CUADROS Roberto"
@@ -55,20 +41,24 @@
         "licencia": "509",
         "nombre": "GOTSENS Enric"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
+      "B": {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "C": {
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      {
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13214",
         "nombre": "CASCANTE Josep Maria"
@@ -76,6 +66,16 @@
       {
         "licencia": "16294",
         "nombre": "CUADROS Roberto"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
+      {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16294",
         "nombre": "CUADROS Roberto"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13214",
-        "nombre": "CASCANTE Josep Maria"
+        "letra": "A",
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13214",
+        "nombre": "CASCANTE Josep Maria"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "509",
         "nombre": "GOTSENS Enric"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13214",
-        "nombre": "CASCANTE Josep Maria"
+        "letra": "C",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13214",
+        "nombre": "CASCANTE Josep Maria"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16294",
         "nombre": "CUADROS Roberto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "509",
         "nombre": "GOTSENS Enric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "7971",
-            "nombre": "BOSCH Miquel"
-          },
-          {
-            "licencia": "7713",
-            "nombre": "FARELL Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13214",
             "nombre": "CASCANTE Josep Maria"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7971",
+            "nombre": "BOSCH Miquel"
+          },
+          {
+            "licencia": "7713",
+            "nombre": "FARELL Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 14
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

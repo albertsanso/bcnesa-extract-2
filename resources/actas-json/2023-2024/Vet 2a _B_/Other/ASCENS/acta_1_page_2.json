@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15729",
-        "nombre": "SARABIA Juan"
-      },
-      "B": {
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      },
-      "C": {
-        "licencia": "394",
-        "nombre": "SERRA Josep"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
@@ -55,20 +41,24 @@
         "licencia": "6272",
         "nombre": "MATA Javier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15729",
+        "nombre": "SARABIA Juan"
+      },
+      "B": {
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      },
+      "C": {
+        "licencia": "394",
+        "nombre": "SERRA Josep"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15729",
-        "nombre": "SARABIA Juan"
-      },
-      {
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
@@ -76,6 +66,16 @@
       {
         "licencia": "13637",
         "nombre": "MARTÍ Victor"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15729",
+        "nombre": "SARABIA Juan"
+      },
+      {
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15729",
-        "nombre": "SARABIA Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13637",
-        "nombre": "MARTÍ Victor"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "394",
-        "nombre": "SERRA Josep"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6272",
-        "nombre": "MATA Javier"
+        "letra": "A",
+        "licencia": "15729",
+        "nombre": "SARABIA Juan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,47 +102,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15729",
-        "nombre": "SARABIA Juan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13637",
         "nombre": "MARTÍ Victor"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "394",
-        "nombre": "SERRA Josep"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "4483",
-        "nombre": "CAMPOS Alberto"
+        "letra": "B",
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
       },
       "sets": [],
       "resultado_juegos": {
@@ -202,22 +127,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 3
+        "visitante": 0
       }
     },
     {
-      "numero": 6,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6272",
         "nombre": "MATA Javier"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "394",
+        "nombre": "SERRA Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13637",
+        "nombre": "MARTÍ Victor"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15729",
+        "nombre": "SARABIA Juan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +175,56 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "394",
+        "nombre": "SERRA Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15729",
-            "nombre": "SARABIA Juan"
-          },
-          {
-            "licencia": "69",
-            "nombre": "VILARO Joan Mª"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "4483",
             "nombre": "CAMPOS Alberto"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15729",
+            "nombre": "SARABIA Juan"
+          },
+          {
+            "licencia": "69",
+            "nombre": "VILARO Joan Mª"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

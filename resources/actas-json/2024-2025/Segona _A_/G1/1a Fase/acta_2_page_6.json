@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RODA DE TER",
+      "nombre": "BADAGRES BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BADAGRES BADALONA",
+      "nombre": "CTT RODA DE TER",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12000",
-        "nombre": "ARUMI Gil"
-      },
-      "B": {
-        "licencia": "7639",
-        "nombre": "OLIVA Alberto"
-      },
-      "C": {
-        "licencia": "5286",
-        "nombre": "OLIVA Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14077",
         "nombre": "NÚÑEZ Pol"
@@ -55,6 +41,20 @@
         "licencia": "13369",
         "nombre": "AMANTIA Liam"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12000",
+        "nombre": "ARUMI Gil"
+      },
+      "B": {
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "C": {
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12000",
-        "nombre": "ARUMI Gil"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14077",
         "nombre": "NÚÑEZ Pol"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7639",
-        "nombre": "OLIVA Alberto"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4142",
-        "nombre": "SALGUERO Albert"
+        "letra": "A",
+        "licencia": "12000",
+        "nombre": "ARUMI Gil"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4142",
+        "nombre": "SALGUERO Albert"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5286",
-        "nombre": "OLIVA Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13369",
         "nombre": "AMANTIA Liam"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12000",
-        "nombre": "ARUMI Gil"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4142",
         "nombre": "SALGUERO Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12000",
+        "nombre": "ARUMI Gil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5286",
-        "nombre": "OLIVA Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14077",
         "nombre": "NÚÑEZ Pol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7639",
-        "nombre": "OLIVA Alberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13369",
         "nombre": "AMANTIA Liam"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "BADAGRES BADALONA",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

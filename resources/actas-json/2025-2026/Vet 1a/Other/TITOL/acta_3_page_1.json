@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CLUB NATACIO SABADELL 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL 'A'",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1059",
-        "nombre": "MONZÓ Oriol"
-      },
-      "B": {
-        "licencia": "1663",
-        "nombre": "JOFRE Jaume"
-      },
-      "C": {
-        "licencia": "689",
-        "nombre": "MANZANO Enric"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "511",
         "nombre": "WEISZ Pere"
@@ -55,6 +41,20 @@
         "licencia": "548",
         "nombre": "WEISZ Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1059",
+        "nombre": "MONZÓ Oriol"
+      },
+      "B": {
+        "licencia": "1663",
+        "nombre": "JOFRE Jaume"
+      },
+      "C": {
+        "licencia": "689",
+        "nombre": "MANZANO Enric"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1059",
-        "nombre": "MONZÓ Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "511",
         "nombre": "WEISZ Pere"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "1663",
-        "nombre": "JOFRE Jaume"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7539",
-        "nombre": "WEISZ Ignasi"
+        "letra": "A",
+        "licencia": "1059",
+        "nombre": "MONZÓ Oriol"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7539",
+        "nombre": "WEISZ Ignasi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1663",
+        "nombre": "JOFRE Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "689",
-        "nombre": "MANZANO Enric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "548",
         "nombre": "WEISZ Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "689",
+        "nombre": "MANZANO Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1059",
-        "nombre": "MONZÓ Oriol"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7539",
         "nombre": "WEISZ Ignasi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1059",
+        "nombre": "MONZÓ Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "689",
-        "nombre": "MANZANO Enric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "511",
         "nombre": "WEISZ Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "689",
+        "nombre": "MANZANO Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1663",
-        "nombre": "JOFRE Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "548",
         "nombre": "WEISZ Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1663",
+        "nombre": "JOFRE Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB NATACIO SABADELL 'A'",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

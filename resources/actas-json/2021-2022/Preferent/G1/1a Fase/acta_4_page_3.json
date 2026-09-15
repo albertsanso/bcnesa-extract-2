@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MASQUEFA TTC",
+      "nombre": "CLUB NATACIO SABADELL",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL",
+      "nombre": "MASQUEFA TTC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12214",
-        "nombre": "VIDAL Raul"
-      },
-      "B": {
-        "licencia": "11199",
-        "nombre": "SAMPERE Daniel"
-      },
-      "C": {
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12466",
         "nombre": "CLADELLAS Oriol"
@@ -55,20 +41,24 @@
         "licencia": "7752",
         "nombre": "FONT Aniol"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12214",
+        "nombre": "VIDAL Raul"
+      },
+      "B": {
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      },
+      "C": {
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      },
-      {
-        "licencia": "11199",
-        "nombre": "SAMPERE Daniel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12466",
         "nombre": "CLADELLAS Oriol"
@@ -76,6 +66,16 @@
       {
         "licencia": "11168",
         "nombre": "BARBERA Joan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
+      {
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12214",
-        "nombre": "VIDAL Raul"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12466",
         "nombre": "CLADELLAS Oriol"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11199",
-        "nombre": "SAMPERE Daniel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11168",
-        "nombre": "BARBERA Joan"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "7752",
-        "nombre": "FONT Aniol"
+        "letra": "A",
+        "licencia": "12214",
+        "nombre": "VIDAL Raul"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,7 +102,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11168",
+        "nombre": "BARBERA Joan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7752",
+        "nombre": "FONT Aniol"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12214",
-        "nombre": "VIDAL Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11168",
         "nombre": "BARBERA Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12214",
+        "nombre": "VIDAL Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12466",
         "nombre": "CLADELLAS Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11199",
-        "nombre": "SAMPERE Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7752",
         "nombre": "FONT Aniol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11199",
+        "nombre": "SAMPERE Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6500",
-            "nombre": "SANCHEZ Didac"
-          },
-          {
-            "licencia": "11199",
-            "nombre": "SAMPERE Daniel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12466",
             "nombre": "CLADELLAS Oriol"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6500",
+            "nombre": "SANCHEZ Didac"
+          },
+          {
+            "licencia": "11199",
+            "nombre": "SAMPERE Daniel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CLUB NATACIO SABADELL",
+    "ganador": "MASQUEFA TTC",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 16
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

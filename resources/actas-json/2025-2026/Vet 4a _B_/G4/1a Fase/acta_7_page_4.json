@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN ST. ANDREU",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CN ST. ANDREU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16616",
-        "nombre": "NUÑEZ Francisco"
-      },
-      "B": {
-        "licencia": "3148",
-        "nombre": "DEL AMOR Pedro"
-      },
-      "C": {
-        "licencia": "13059",
-        "nombre": "MEDINA Edwin"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10061",
         "nombre": "RULL Jordi"
@@ -55,6 +41,20 @@
         "licencia": "6947",
         "nombre": "FORES Jaume"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16616",
+        "nombre": "NUÑEZ Francisco"
+      },
+      "B": {
+        "licencia": "3148",
+        "nombre": "DEL AMOR Pedro"
+      },
+      "C": {
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16616",
-        "nombre": "NUÑEZ Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10061",
         "nombre": "RULL Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16616",
+        "nombre": "NUÑEZ Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "3148",
-        "nombre": "DEL AMOR Pedro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7381",
         "nombre": "CODINA Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3148",
+        "nombre": "DEL AMOR Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13059",
-        "nombre": "MEDINA Edwin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6947",
         "nombre": "FORES Jaume"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16616",
-        "nombre": "NUÑEZ Francisco"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7381",
-        "nombre": "CODINA Jordi"
+        "letra": "C",
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7381",
+        "nombre": "CODINA Jordi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16616",
+        "nombre": "NUÑEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13059",
-        "nombre": "MEDINA Edwin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10061",
         "nombre": "RULL Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3148",
-        "nombre": "DEL AMOR Pedro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6947",
         "nombre": "FORES Jaume"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3148",
+        "nombre": "DEL AMOR Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN ST. ANDREU",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

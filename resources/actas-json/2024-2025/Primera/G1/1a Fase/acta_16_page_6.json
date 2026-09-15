@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16415",
-        "nombre": "CASQUERO Daniel"
-      },
-      "B": {
-        "licencia": "14235",
-        "nombre": "JORQUERA Simó"
-      },
-      "C": {
-        "licencia": "14611",
-        "nombre": "HERMIDA Aleix"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13535",
         "nombre": "BENAVENT Nil"
@@ -55,6 +41,20 @@
         "licencia": "10934",
         "nombre": "PRIEGO Hristo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16415",
+        "nombre": "CASQUERO Daniel"
+      },
+      "B": {
+        "licencia": "14235",
+        "nombre": "JORQUERA Simó"
+      },
+      "C": {
+        "licencia": "14611",
+        "nombre": "HERMIDA Aleix"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16415",
-        "nombre": "CASQUERO Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13535",
         "nombre": "BENAVENT Nil"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16415",
+        "nombre": "CASQUERO Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14235",
-        "nombre": "JORQUERA Simó"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12395",
         "nombre": "MARTÍN Aleix"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14235",
+        "nombre": "JORQUERA Simó"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14611",
-        "nombre": "HERMIDA Aleix"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10934",
         "nombre": "PRIEGO Hristo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14611",
+        "nombre": "HERMIDA Aleix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16415",
-        "nombre": "CASQUERO Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12395",
         "nombre": "MARTÍN Aleix"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16415",
+        "nombre": "CASQUERO Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14611",
-        "nombre": "HERMIDA Aleix"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13535",
         "nombre": "BENAVENT Nil"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14611",
+        "nombre": "HERMIDA Aleix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14235",
-        "nombre": "JORQUERA Simó"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10934",
         "nombre": "PRIEGO Hristo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14235",
+        "nombre": "JORQUERA Simó"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CETT ESPARREGUERA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

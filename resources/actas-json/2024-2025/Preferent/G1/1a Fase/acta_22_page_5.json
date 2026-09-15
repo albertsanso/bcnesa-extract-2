@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "CN SABADELL",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN SABADELL",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13593",
-        "nombre": "RUIZ Guillem"
-      },
-      "B": {
-        "licencia": "12173",
-        "nombre": "SERENA Pere Gustav"
-      },
-      "C": {
-        "licencia": "12467",
-        "nombre": "BATET Pol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "975",
         "nombre": "HUGUET Ferran"
@@ -55,6 +41,20 @@
         "licencia": "11167",
         "nombre": "RUIZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13593",
+        "nombre": "RUIZ Guillem"
+      },
+      "B": {
+        "licencia": "12173",
+        "nombre": "SERENA Pere Gustav"
+      },
+      "C": {
+        "licencia": "12467",
+        "nombre": "BATET Pol"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13593",
-        "nombre": "RUIZ Guillem"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "975",
         "nombre": "HUGUET Ferran"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12173",
-        "nombre": "SERENA Pere Gustav"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15899",
-        "nombre": "SALA Jordi"
+        "letra": "A",
+        "licencia": "13593",
+        "nombre": "RUIZ Guillem"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15899",
+        "nombre": "SALA Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12173",
+        "nombre": "SERENA Pere Gustav"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12467",
-        "nombre": "BATET Pol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11167",
         "nombre": "RUIZ Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "13593",
-        "nombre": "RUIZ Guillem"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15899",
-        "nombre": "SALA Jordi"
+        "letra": "C",
+        "licencia": "12467",
+        "nombre": "BATET Pol"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15899",
+        "nombre": "SALA Jordi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13593",
+        "nombre": "RUIZ Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12467",
-        "nombre": "BATET Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "975",
         "nombre": "HUGUET Ferran"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12467",
+        "nombre": "BATET Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12173",
-        "nombre": "SERENA Pere Gustav"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11167",
         "nombre": "RUIZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12173",
+        "nombre": "SERENA Pere Gustav"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN SABADELL",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 16
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

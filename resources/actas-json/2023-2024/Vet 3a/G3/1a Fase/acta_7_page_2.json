@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT CARDEDEU EIG \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG \"A\"",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7651",
-        "nombre": "NAVARRO Adolfo"
-      },
-      "B": {
-        "licencia": "5390",
-        "nombre": "RUIZ-SARMIENTO Manuel"
-      },
-      "C": {
-        "licencia": "2485",
-        "nombre": "BRETONES Francisco"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15044",
         "nombre": "TEIXIDÓ Salvador"
@@ -55,6 +41,20 @@
         "licencia": "8086",
         "nombre": "ANDREU Juan Luis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7651",
+        "nombre": "NAVARRO Adolfo"
+      },
+      "B": {
+        "licencia": "5390",
+        "nombre": "RUIZ-SARMIENTO Manuel"
+      },
+      "C": {
+        "licencia": "2485",
+        "nombre": "BRETONES Francisco"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7651",
-        "nombre": "NAVARRO Adolfo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15044",
         "nombre": "TEIXIDÓ Salvador"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "5390",
-        "nombre": "RUIZ-SARMIENTO Manuel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8837",
-        "nombre": "CONSUEGRA Antonio Jose"
+        "letra": "A",
+        "licencia": "7651",
+        "nombre": "NAVARRO Adolfo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8837",
+        "nombre": "CONSUEGRA Antonio Jose"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5390",
+        "nombre": "RUIZ-SARMIENTO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2485",
-        "nombre": "BRETONES Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8086",
         "nombre": "ANDREU Juan Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2485",
+        "nombre": "BRETONES Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7651",
-        "nombre": "NAVARRO Adolfo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8837",
         "nombre": "CONSUEGRA Antonio Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7651",
+        "nombre": "NAVARRO Adolfo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2485",
-        "nombre": "BRETONES Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15044",
         "nombre": "TEIXIDÓ Salvador"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2485",
+        "nombre": "BRETONES Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5390",
-        "nombre": "RUIZ-SARMIENTO Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8086",
         "nombre": "ANDREU Juan Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5390",
+        "nombre": "RUIZ-SARMIENTO Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

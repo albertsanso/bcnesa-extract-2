@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CERLCE TT GRÀCIA ''B''",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "EL CERLCE TT GRÀCIA ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "9114",
-        "nombre": "VINYALS Oriol"
-      },
-      "B": {
-        "licencia": "3494",
-        "nombre": "PIÑOL Jordi"
-      },
-      "C": {
-        "licencia": "418",
-        "nombre": "COMELLAS Isidre"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "200",
         "nombre": "LUCEA Javier"
@@ -55,6 +41,20 @@
         "licencia": "242",
         "nombre": "AZCON Joaquin"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
+      "B": {
+        "licencia": "3494",
+        "nombre": "PIÑOL Jordi"
+      },
+      "C": {
+        "licencia": "418",
+        "nombre": "COMELLAS Isidre"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "9114",
-        "nombre": "VINYALS Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "200",
         "nombre": "LUCEA Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "3494",
-        "nombre": "PIÑOL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11156",
         "nombre": "RUIZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3494",
+        "nombre": "PIÑOL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "418",
-        "nombre": "COMELLAS Isidre"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "242",
         "nombre": "AZCON Joaquin"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "418",
+        "nombre": "COMELLAS Isidre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "9114",
-        "nombre": "VINYALS Oriol"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11156",
         "nombre": "RUIZ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "418",
-        "nombre": "COMELLAS Isidre"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "200",
         "nombre": "LUCEA Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "418",
+        "nombre": "COMELLAS Isidre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3494",
-        "nombre": "PIÑOL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "242",
         "nombre": "AZCON Joaquin"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3494",
+        "nombre": "PIÑOL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 17
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

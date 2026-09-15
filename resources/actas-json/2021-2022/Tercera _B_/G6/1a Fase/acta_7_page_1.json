@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882 ''B''",
+      "nombre": "CPP IGUALADA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CPP IGUALADA",
+      "nombre": "CTT ATENEU 1882 ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14647",
-        "nombre": "WALLS Juan Manuel"
-      },
-      "B": {
-        "licencia": "13134",
-        "nombre": "CARME Lucas"
-      },
-      "C": {
-        "licencia": "14916",
-        "nombre": "MORENO Biel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15194",
         "nombre": "TORRECILLAS Biel"
@@ -55,6 +41,20 @@
         "licencia": "11298",
         "nombre": "LUCO Guillem"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14647",
+        "nombre": "WALLS Juan Manuel"
+      },
+      "B": {
+        "licencia": "13134",
+        "nombre": "CARME Lucas"
+      },
+      "C": {
+        "licencia": "14916",
+        "nombre": "MORENO Biel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14647",
-        "nombre": "WALLS Juan Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15194",
         "nombre": "TORRECILLAS Biel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13134",
-        "nombre": "CARME Lucas"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14197",
-        "nombre": "PIÑAR Ricard"
+        "letra": "A",
+        "licencia": "14647",
+        "nombre": "WALLS Juan Manuel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13134",
+        "nombre": "CARME Lucas"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14916",
-        "nombre": "MORENO Biel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11298",
         "nombre": "LUCO Guillem"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14916",
+        "nombre": "MORENO Biel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14647",
-        "nombre": "WALLS Juan Manuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14197",
         "nombre": "PIÑAR Ricard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14647",
+        "nombre": "WALLS Juan Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14916",
-        "nombre": "MORENO Biel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15194",
         "nombre": "TORRECILLAS Biel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14916",
+        "nombre": "MORENO Biel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13134",
-        "nombre": "CARME Lucas"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11298",
         "nombre": "LUCO Guillem"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13134",
+        "nombre": "CARME Lucas"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CPP IGUALADA",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "MASQUEFA TTC",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MASQUEFA TTC",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "B": {
-        "licencia": "13097",
-        "nombre": "CARDONA Biel"
-      },
-      "C": {
-        "licencia": "10041",
-        "nombre": "PEÑA Dario Alfonso"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10114",
         "nombre": "MAYEUX Frederic"
@@ -55,6 +41,20 @@
         "licencia": "19172",
         "nombre": "MURILLO Juan Emmanuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "B": {
+        "licencia": "13097",
+        "nombre": "CARDONA Biel"
+      },
+      "C": {
+        "licencia": "10041",
+        "nombre": "PEÑA Dario Alfonso"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10114",
         "nombre": "MAYEUX Frederic"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13097",
-        "nombre": "CARDONA Biel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6204",
         "nombre": "FLORES Marc"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "10041",
-        "nombre": "PEÑA Dario Alfonso"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "19172",
-        "nombre": "MURILLO Juan Emmanuel"
+        "letra": "B",
+        "licencia": "13097",
+        "nombre": "CARDONA Biel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,23 +105,23 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "A",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
+        "letra": "Z",
+        "licencia": "19172",
+        "nombre": "MURILLO Juan Emmanuel"
       },
       "visitante": {
-        "letra": "X",
-        "licencia": "6204",
-        "nombre": "FLORES Marc"
+        "letra": "C",
+        "licencia": "10041",
+        "nombre": "PEÑA Dario Alfonso"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10041",
-        "nombre": "PEÑA Dario Alfonso"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10114",
         "nombre": "MAYEUX Frederic"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10041",
+        "nombre": "PEÑA Dario Alfonso"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13097",
-        "nombre": "CARDONA Biel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19172",
         "nombre": "MURILLO Juan Emmanuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13097",
+        "nombre": "CARDONA Biel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "MASQUEFA TTC",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

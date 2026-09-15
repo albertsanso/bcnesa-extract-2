@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "ASS.E. DE PING PONG VIA TRAJANA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ASS.E. DE PING PONG VIA TRAJANA",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4569",
-        "nombre": "FERRER Jose Ernesto"
-      },
-      "B": {
-        "licencia": "19454",
-        "nombre": "FRUIT Gaël"
-      },
-      "C": {
-        "licencia": "10148",
-        "nombre": "PLAZA Santi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16446",
         "nombre": "GONZÁLEZ Francisco"
@@ -55,6 +41,20 @@
         "licencia": "17625",
         "nombre": "GONZALEZ José Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      },
+      "B": {
+        "licencia": "19454",
+        "nombre": "FRUIT Gaël"
+      },
+      "C": {
+        "licencia": "10148",
+        "nombre": "PLAZA Santi"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4569",
-        "nombre": "FERRER Jose Ernesto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16446",
         "nombre": "GONZÁLEZ Francisco"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "19454",
-        "nombre": "FRUIT Gaël"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16452",
-        "nombre": "PÉREZ Manuel"
+        "letra": "A",
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16452",
+        "nombre": "PÉREZ Manuel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19454",
+        "nombre": "FRUIT Gaël"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10148",
-        "nombre": "PLAZA Santi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17625",
         "nombre": "GONZALEZ José Ramon"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "4569",
-        "nombre": "FERRER Jose Ernesto"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16452",
-        "nombre": "PÉREZ Manuel"
+        "letra": "C",
+        "licencia": "10148",
+        "nombre": "PLAZA Santi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16452",
+        "nombre": "PÉREZ Manuel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10148",
-        "nombre": "PLAZA Santi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16446",
         "nombre": "GONZÁLEZ Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10148",
+        "nombre": "PLAZA Santi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19454",
-        "nombre": "FRUIT Gaël"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17625",
         "nombre": "GONZALEZ José Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19454",
+        "nombre": "FRUIT Gaël"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

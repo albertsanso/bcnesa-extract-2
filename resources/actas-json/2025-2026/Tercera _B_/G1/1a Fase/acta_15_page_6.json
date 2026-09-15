@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA UNIÓ 'B'",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "CTT LA UNIÓ 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
-      },
-      "B": {
-        "licencia": "17812",
-        "nombre": "SARIOL Eric"
-      },
-      "C": {
-        "licencia": "15786",
-        "nombre": "VILLARONGA Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17505",
         "nombre": "QUIÑOA Javier"
@@ -55,6 +41,20 @@
         "licencia": "18089",
         "nombre": "CANALS Roger"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
+      },
+      "B": {
+        "licencia": "17812",
+        "nombre": "SARIOL Eric"
+      },
+      "C": {
+        "licencia": "15786",
+        "nombre": "VILLARONGA Miquel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17505",
         "nombre": "QUIÑOA Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17812",
-        "nombre": "SARIOL Eric"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17720",
-        "nombre": "TARRIDA Jaume"
+        "letra": "A",
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17720",
+        "nombre": "TARRIDA Jaume"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17812",
+        "nombre": "SARIOL Eric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15786",
-        "nombre": "VILLARONGA Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18089",
         "nombre": "CANALS Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15786",
+        "nombre": "VILLARONGA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17720",
         "nombre": "TARRIDA Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15786",
-        "nombre": "VILLARONGA Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17505",
         "nombre": "QUIÑOA Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15786",
+        "nombre": "VILLARONGA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17812",
-        "nombre": "SARIOL Eric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18089",
         "nombre": "CANALS Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17812",
+        "nombre": "SARIOL Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT BARCELONA",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

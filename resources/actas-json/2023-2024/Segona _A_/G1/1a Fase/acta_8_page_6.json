@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "687",
-        "nombre": "BARCOJO Antonio"
-      },
-      "B": {
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "C": {
-        "licencia": "5390",
-        "nombre": "RUIZ-SARMIENTO Manuel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14221",
         "nombre": "GÓMEZ Carles"
@@ -55,6 +41,20 @@
         "licencia": "14883",
         "nombre": "GONZÁLEZ Jan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
+      "B": {
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      "C": {
+        "licencia": "5390",
+        "nombre": "RUIZ-SARMIENTO Manuel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "687",
-        "nombre": "BARCOJO Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14221",
         "nombre": "GÓMEZ Carles"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "5390",
-        "nombre": "RUIZ-SARMIENTO Manuel"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "14883",
-        "nombre": "GONZÁLEZ Jan"
+        "letra": "B",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5390",
+        "nombre": "RUIZ-SARMIENTO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "687",
-        "nombre": "BARCOJO Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5390",
-        "nombre": "RUIZ-SARMIENTO Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14221",
         "nombre": "GÓMEZ Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5390",
+        "nombre": "RUIZ-SARMIENTO Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14883",
         "nombre": "GONZÁLEZ Jan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

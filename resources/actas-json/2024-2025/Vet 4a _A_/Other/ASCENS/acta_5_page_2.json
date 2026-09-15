@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet C",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet C",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11651",
-        "nombre": "GUINART Jordi"
-      },
-      "B": {
-        "licencia": "6194",
-        "nombre": "RIUS Eusebi"
-      },
-      "C": {
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
@@ -55,20 +41,24 @@
         "licencia": "14200",
         "nombre": "VOLLMER Sebastian"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11651",
+        "nombre": "GUINART Jordi"
+      },
+      "B": {
+        "licencia": "6194",
+        "nombre": "RIUS Eusebi"
+      },
+      "C": {
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6194",
-        "nombre": "RIUS Eusebi"
-      },
-      {
-        "licencia": "11651",
-        "nombre": "GUINART Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
@@ -76,6 +66,16 @@
       {
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6194",
+        "nombre": "RIUS Eusebi"
+      },
+      {
+        "licencia": "11651",
+        "nombre": "GUINART Jordi"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "2441",
+        "nombre": "ALVAREZ Jose Maria"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "11651",
         "nombre": "GUINART Jordi"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "125",
+        "nombre": "MUÑOZ Josep Lluis"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "2441",
-        "nombre": "ALVAREZ Jose Maria"
+        "letra": "B",
+        "licencia": "6194",
+        "nombre": "RIUS Eusebi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
       },
       "sets": [],
       "resultado_juegos": {
@@ -102,57 +152,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "6194",
-        "nombre": "RIUS Eusebi"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "125",
-        "nombre": "MUÑOZ Josep Lluis"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "14200",
-        "nombre": "VOLLMER Sebastian"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11651",
-        "nombre": "GUINART Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11651",
+        "nombre": "GUINART Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6194",
-        "nombre": "RIUS Eusebi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14200",
         "nombre": "VOLLMER Sebastian"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6194",
+        "nombre": "RIUS Eusebi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6194",
-            "nombre": "RIUS Eusebi"
-          },
-          {
-            "licencia": "11651",
-            "nombre": "GUINART Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "125",
             "nombre": "MUÑOZ Josep Lluis"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6194",
+            "nombre": "RIUS Eusebi"
+          },
+          {
+            "licencia": "11651",
+            "nombre": "GUINART Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

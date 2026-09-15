@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "CLUB NATACIO SABADELL",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10197",
-        "nombre": "MEREGALLI Joel"
-      },
-      "B": {
-        "licencia": "11388",
-        "nombre": "VENDRELL Pau"
-      },
-      "C": {
-        "licencia": "10391",
-        "nombre": "ESPAÑA Fabian Andres"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12466",
         "nombre": "CLADELLAS Oriol"
@@ -55,6 +41,20 @@
         "licencia": "10190",
         "nombre": "SERRANO Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10197",
+        "nombre": "MEREGALLI Joel"
+      },
+      "B": {
+        "licencia": "11388",
+        "nombre": "VENDRELL Pau"
+      },
+      "C": {
+        "licencia": "10391",
+        "nombre": "ESPAÑA Fabian Andres"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10197",
-        "nombre": "MEREGALLI Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12466",
         "nombre": "CLADELLAS Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10197",
+        "nombre": "MEREGALLI Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11388",
-        "nombre": "VENDRELL Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7752",
         "nombre": "FONT Aniol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11388",
+        "nombre": "VENDRELL Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10391",
-        "nombre": "ESPAÑA Fabian Andres"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10190",
         "nombre": "SERRANO Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10391",
+        "nombre": "ESPAÑA Fabian Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10197",
-        "nombre": "MEREGALLI Joel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7752",
         "nombre": "FONT Aniol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10197",
+        "nombre": "MEREGALLI Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10391",
-        "nombre": "ESPAÑA Fabian Andres"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12466",
         "nombre": "CLADELLAS Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10391",
+        "nombre": "ESPAÑA Fabian Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11388",
-        "nombre": "VENDRELL Pau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10190",
         "nombre": "SERRANO Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11388",
+        "nombre": "VENDRELL Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CLUB NATACIO SABADELL",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 17
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

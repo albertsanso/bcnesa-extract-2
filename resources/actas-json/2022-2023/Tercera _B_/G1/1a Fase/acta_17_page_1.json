@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT.ELS JOVES CASTELLDEFELS ''A''",
+      "nombre": "TT PARETS ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS ''B''",
+      "nombre": "TT.ELS JOVES CASTELLDEFELS ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16719",
-        "nombre": "GARRIDO Axel"
-      },
-      "B": {
-        "licencia": "3983",
-        "nombre": "PLA Joaquim"
-      },
-      "C": {
-        "licencia": "11790",
-        "nombre": "LOPEZ Eric"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12453",
         "nombre": "SANCHEZ Alex"
@@ -55,6 +41,20 @@
         "licencia": "16428",
         "nombre": "DOMENICHETTI Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16719",
+        "nombre": "GARRIDO Axel"
+      },
+      "B": {
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
+      "C": {
+        "licencia": "11790",
+        "nombre": "LOPEZ Eric"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16719",
-        "nombre": "GARRIDO Axel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12453",
         "nombre": "SANCHEZ Alex"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16719",
+        "nombre": "GARRIDO Axel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "3983",
-        "nombre": "PLA Joaquim"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16337",
         "nombre": "HERNÁNDEZ Bruno"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11790",
-        "nombre": "LOPEZ Eric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16428",
         "nombre": "DOMENICHETTI Joan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16719",
-        "nombre": "GARRIDO Axel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16337",
-        "nombre": "HERNÁNDEZ Bruno"
+        "letra": "C",
+        "licencia": "11790",
+        "nombre": "LOPEZ Eric"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16337",
+        "nombre": "HERNÁNDEZ Bruno"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16719",
+        "nombre": "GARRIDO Axel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11790",
-        "nombre": "LOPEZ Eric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12453",
         "nombre": "SANCHEZ Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11790",
+        "nombre": "LOPEZ Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3983",
-        "nombre": "PLA Joaquim"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16428",
         "nombre": "DOMENICHETTI Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT.ELS JOVES CASTELLDEFELS ''A''",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

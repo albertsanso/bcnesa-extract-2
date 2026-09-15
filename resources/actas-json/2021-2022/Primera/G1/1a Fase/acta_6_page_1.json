@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL",
+      "nombre": "CTT SALLENT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SALLENT",
+      "nombre": "CLUB NATACIO SABADELL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8719",
-        "nombre": "WEISZ Adria"
-      },
-      "B": {
-        "licencia": "7112",
-        "nombre": "OMS Marti"
-      },
-      "C": {
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8499",
         "nombre": "ESTRUCH Amanel"
@@ -55,6 +41,20 @@
         "licencia": "14593",
         "nombre": "HARO Josep"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8719",
+        "nombre": "WEISZ Adria"
+      },
+      "B": {
+        "licencia": "7112",
+        "nombre": "OMS Marti"
+      },
+      "C": {
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8719",
-        "nombre": "WEISZ Adria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8499",
         "nombre": "ESTRUCH Amanel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8719",
+        "nombre": "WEISZ Adria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7112",
-        "nombre": "OMS Marti"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8497",
         "nombre": "MAZCUÑAN Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7112",
+        "nombre": "OMS Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14593",
         "nombre": "HARO Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8719",
-        "nombre": "WEISZ Adria"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8497",
         "nombre": "MAZCUÑAN Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8719",
+        "nombre": "WEISZ Adria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8499",
         "nombre": "ESTRUCH Amanel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7112",
-        "nombre": "OMS Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14593",
         "nombre": "HARO Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7112",
+        "nombre": "OMS Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB NATACIO SABADELL",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

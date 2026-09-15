@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      },
-      "B": {
-        "licencia": "1725",
-        "nombre": "BONAVILA Alejandro"
-      },
-      "C": {
-        "licencia": "4594",
-        "nombre": "PORTET Josep Mª"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4114",
         "nombre": "OTERO Sergio"
@@ -55,6 +41,20 @@
         "licencia": "946",
         "nombre": "PEIRIS Enrique"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      },
+      "B": {
+        "licencia": "1725",
+        "nombre": "BONAVILA Alejandro"
+      },
+      "C": {
+        "licencia": "4594",
+        "nombre": "PORTET Josep Mª"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4114",
         "nombre": "OTERO Sergio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1725",
-        "nombre": "BONAVILA Alejandro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1725",
+        "nombre": "BONAVILA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4594",
-        "nombre": "PORTET Josep Mª"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "946",
         "nombre": "PEIRIS Enrique"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "125",
-        "nombre": "MUÑOZ Josep Lluis"
+        "letra": "C",
+        "licencia": "4594",
+        "nombre": "PORTET Josep Mª"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "125",
+        "nombre": "MUÑOZ Josep Lluis"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4594",
-        "nombre": "PORTET Josep Mª"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4114",
         "nombre": "OTERO Sergio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4594",
+        "nombre": "PORTET Josep Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1725",
-        "nombre": "BONAVILA Alejandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "946",
         "nombre": "PEIRIS Enrique"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1725",
+        "nombre": "BONAVILA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUIRZE DEL VALLÈS",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

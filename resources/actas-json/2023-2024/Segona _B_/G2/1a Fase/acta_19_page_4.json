@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
+      "nombre": "CN SABADELL",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN SABADELL",
+      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13078",
-        "nombre": "ESCORZA Daniel"
-      },
-      "B": {
-        "licencia": "13081",
-        "nombre": "GOMEZ David"
-      },
-      "C": {
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14583",
         "nombre": "LIU Ethan"
@@ -55,6 +41,20 @@
         "licencia": "12136",
         "nombre": "PLAZA Pau"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13078",
+        "nombre": "ESCORZA Daniel"
+      },
+      "B": {
+        "licencia": "13081",
+        "nombre": "GOMEZ David"
+      },
+      "C": {
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13078",
-        "nombre": "ESCORZA Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14583",
         "nombre": "LIU Ethan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13078",
+        "nombre": "ESCORZA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13081",
-        "nombre": "GOMEZ David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13462",
         "nombre": "ALARCON Biel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13081",
+        "nombre": "GOMEZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12136",
         "nombre": "PLAZA Pau"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "13078",
-        "nombre": "ESCORZA Daniel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13462",
-        "nombre": "ALARCON Biel"
+        "letra": "C",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13462",
+        "nombre": "ALARCON Biel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13078",
+        "nombre": "ESCORZA Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14583",
         "nombre": "LIU Ethan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13081",
-        "nombre": "GOMEZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12136",
         "nombre": "PLAZA Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13081",
+        "nombre": "GOMEZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN SABADELL",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

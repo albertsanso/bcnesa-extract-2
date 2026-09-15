@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT POBLENOU 'A'",
+      "nombre": "El CENTRE NYX 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "El CENTRE NYX 'A'",
+      "nombre": "CTT POBLENOU 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18221",
-        "nombre": "PIERRE Charlie"
-      },
-      "B": {
-        "licencia": "21064",
-        "nombre": "CRUZ Santiago"
-      },
-      "C": {
-        "licencia": "12253",
-        "nombre": "SANCHEZ Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
@@ -55,20 +41,24 @@
         "licencia": "18151",
         "nombre": "BADER Lauren"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18221",
+        "nombre": "PIERRE Charlie"
+      },
+      "B": {
+        "licencia": "21064",
+        "nombre": "CRUZ Santiago"
+      },
+      "C": {
+        "licencia": "12253",
+        "nombre": "SANCHEZ Miquel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "18221",
-        "nombre": "PIERRE Charlie"
-      },
-      {
-        "licencia": "12253",
-        "nombre": "SANCHEZ Miquel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
@@ -76,6 +66,16 @@
       {
         "licencia": "18151",
         "nombre": "BADER Lauren"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "18221",
+        "nombre": "PIERRE Charlie"
+      },
+      {
+        "licencia": "12253",
+        "nombre": "SANCHEZ Miquel"
       }
     ]
   },
@@ -85,139 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18221",
-        "nombre": "PIERRE Charlie"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "21064",
-        "nombre": "CRUZ Santiago"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13736",
-        "nombre": "UBALDE Natalia"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12253",
-        "nombre": "SANCHEZ Miquel"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "18151",
-        "nombre": "BADER Lauren"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "18221",
         "nombre": "PIERRE Charlie"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "13736",
-        "nombre": "UBALDE Natalia"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "12253",
-        "nombre": "SANCHEZ Miquel"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "17712",
-        "nombre": "THIEL Brigitte"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "21064",
-        "nombre": "CRUZ Santiago"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "18151",
-        "nombre": "BADER Lauren"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +100,131 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13736",
+        "nombre": "UBALDE Natalia"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21064",
+        "nombre": "CRUZ Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "18151",
+        "nombre": "BADER Lauren"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12253",
+        "nombre": "SANCHEZ Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13736",
+        "nombre": "UBALDE Natalia"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18221",
+        "nombre": "PIERRE Charlie"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "17712",
+        "nombre": "THIEL Brigitte"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12253",
+        "nombre": "SANCHEZ Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "18151",
+        "nombre": "BADER Lauren"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21064",
+        "nombre": "CRUZ Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "18221",
-            "nombre": "PIERRE Charlie"
-          },
-          {
-            "licencia": "12253",
-            "nombre": "SANCHEZ Miquel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "17712",
             "nombre": "THIEL Brigitte"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18221",
+            "nombre": "PIERRE Charlie"
+          },
+          {
+            "licencia": "12253",
+            "nombre": "SANCHEZ Miquel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "El CENTRE NYX 'A'",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

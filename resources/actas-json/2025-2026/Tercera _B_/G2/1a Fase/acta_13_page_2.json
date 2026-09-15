@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB ARIEL B",
+      "nombre": "CTT ELS AMICS TERRASSA 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA 'A'",
+      "nombre": "CLUB ARIEL B",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18645",
-        "nombre": "PHILIPPET Laurent"
-      },
-      "B": {
-        "licencia": "18922",
-        "nombre": "ROSAS Ariel Alberto"
-      },
-      "C": {
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14180",
         "nombre": "AGUILAR Antoni"
@@ -55,6 +41,20 @@
         "licencia": "16410",
         "nombre": "SAPES Esteve"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
+      },
+      "B": {
+        "licencia": "18922",
+        "nombre": "ROSAS Ariel Alberto"
+      },
+      "C": {
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18645",
-        "nombre": "PHILIPPET Laurent"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14180",
         "nombre": "AGUILAR Antoni"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "18922",
-        "nombre": "ROSAS Ariel Alberto"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
+        "letra": "A",
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +80,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18922",
+        "nombre": "ROSAS Ariel Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18645",
-        "nombre": "PHILIPPET Laurent"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8920",
         "nombre": "GARCIA Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14180",
         "nombre": "AGUILAR Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18922",
-        "nombre": "ROSAS Ariel Alberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16410",
         "nombre": "SAPES Esteve"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18922",
+        "nombre": "ROSAS Ariel Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB ARIEL B",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 4
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

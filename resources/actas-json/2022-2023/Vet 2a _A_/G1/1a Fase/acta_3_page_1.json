@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "EL CENTRE \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE \"A\"",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "B": {
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
-      "C": {
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "952",
         "nombre": "LLOPIS Isaac"
@@ -55,6 +41,20 @@
         "licencia": "7213",
         "nombre": "FELIU Javier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "B": {
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "C": {
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "952",
         "nombre": "LLOPIS Isaac"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,89 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "6639",
+        "nombre": "FELIU Jose"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "27",
         "nombre": "MADURELL Josep"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "6639",
-        "nombre": "FELIU Jose"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "7213",
-        "nombre": "FELIU Javier"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "6639",
-        "nombre": "FELIU Jose"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,23 +105,48 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 0,
+        "visitante": 2
       }
     },
     {
-      "numero": 6,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7213",
         "nombre": "FELIU Javier"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6639",
+        "nombre": "FELIU Jose"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7213",
+        "nombre": "FELIU Javier"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

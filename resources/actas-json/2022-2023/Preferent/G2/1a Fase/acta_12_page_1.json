@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "CTT LA POBLA DE LILLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT LA POBLA DE LILLET",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "675",
-        "nombre": "MILA Salvador"
-      },
-      "B": {
-        "licencia": "13760",
-        "nombre": "MIHALKO Jozsef"
-      },
-      "C": {
-        "licencia": "6811",
-        "nombre": "MESTRES Arnau"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1680",
         "nombre": "PONS Lluis"
@@ -55,6 +41,20 @@
         "licencia": "5410",
         "nombre": "GALIAN Roger"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "675",
+        "nombre": "MILA Salvador"
+      },
+      "B": {
+        "licencia": "13760",
+        "nombre": "MIHALKO Jozsef"
+      },
+      "C": {
+        "licencia": "6811",
+        "nombre": "MESTRES Arnau"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "675",
-        "nombre": "MILA Salvador"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1680",
         "nombre": "PONS Lluis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13760",
-        "nombre": "MIHALKO Jozsef"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "1371",
-        "nombre": "ARTIGAS Sergi"
+        "letra": "A",
+        "licencia": "675",
+        "nombre": "MILA Salvador"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13760",
+        "nombre": "MIHALKO Jozsef"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6811",
-        "nombre": "MESTRES Arnau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5410",
         "nombre": "GALIAN Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6811",
+        "nombre": "MESTRES Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "675",
-        "nombre": "MILA Salvador"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1371",
         "nombre": "ARTIGAS Sergi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "675",
+        "nombre": "MILA Salvador"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6811",
-        "nombre": "MESTRES Arnau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1680",
         "nombre": "PONS Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6811",
+        "nombre": "MESTRES Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13760",
-        "nombre": "MIHALKO Jozsef"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5410",
         "nombre": "GALIAN Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13760",
+        "nombre": "MIHALKO Jozsef"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA POBLA DE LILLET",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

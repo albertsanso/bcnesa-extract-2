@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SENTMENAT",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT SENTMENAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "884",
-        "nombre": "GARCIA Richard"
-      },
-      "B": {
-        "licencia": "12159",
-        "nombre": "BAULENAS Lluis"
-      },
-      "C": {
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2159",
         "nombre": "GARCIA Daniel"
@@ -55,6 +41,20 @@
         "licencia": "208",
         "nombre": "COCHRAN Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "884",
+        "nombre": "GARCIA Richard"
+      },
+      "B": {
+        "licencia": "12159",
+        "nombre": "BAULENAS Lluis"
+      },
+      "C": {
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      }
     }
   },
   "dobles": null,
@@ -64,89 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "884",
-        "nombre": "GARCIA Richard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2159",
         "nombre": "GARCIA Daniel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12159",
-        "nombre": "BAULENAS Lluis"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "208",
-        "nombre": "COCHRAN Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "884",
         "nombre": "GARCIA Richard"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +79,81 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12159",
+        "nombre": "BAULENAS Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "208",
+        "nombre": "COCHRAN Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "884",
+        "nombre": "GARCIA Richard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2159",
         "nombre": "GARCIA Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12159",
-        "nombre": "BAULENAS Lluis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "208",
         "nombre": "COCHRAN Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12159",
+        "nombre": "BAULENAS Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

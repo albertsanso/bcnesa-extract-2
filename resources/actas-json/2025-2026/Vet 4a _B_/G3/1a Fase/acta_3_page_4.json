@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT GRANOLLERS 'B'",
+      "nombre": "AP LA CAIXA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AP LA CAIXA",
+      "nombre": "CTT GRANOLLERS 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "20702",
-        "nombre": "MACHUCA Victor"
-      },
-      "B": {
-        "licencia": "20294",
-        "nombre": "VENTAYOL Lluís"
-      },
-      "C": {
-        "licencia": "14909",
-        "nombre": "ADELL Benjamí"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "20154",
         "nombre": "SANMARTÍ Xavier"
@@ -55,6 +41,20 @@
         "licencia": "19002",
         "nombre": "LÓPEZ Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "20702",
+        "nombre": "MACHUCA Victor"
+      },
+      "B": {
+        "licencia": "20294",
+        "nombre": "VENTAYOL Lluís"
+      },
+      "C": {
+        "licencia": "14909",
+        "nombre": "ADELL Benjamí"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "20702",
-        "nombre": "MACHUCA Victor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20154",
         "nombre": "SANMARTÍ Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20702",
+        "nombre": "MACHUCA Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "20294",
-        "nombre": "VENTAYOL Lluís"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19001",
         "nombre": "AGUSTÍ Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20294",
+        "nombre": "VENTAYOL Lluís"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14909",
-        "nombre": "ADELL Benjamí"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19002",
         "nombre": "LÓPEZ Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14909",
+        "nombre": "ADELL Benjamí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "20702",
-        "nombre": "MACHUCA Victor"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19001",
         "nombre": "AGUSTÍ Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20702",
+        "nombre": "MACHUCA Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14909",
-        "nombre": "ADELL Benjamí"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20154",
         "nombre": "SANMARTÍ Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14909",
+        "nombre": "ADELL Benjamí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "20294",
-        "nombre": "VENTAYOL Lluís"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19002",
         "nombre": "LÓPEZ Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20294",
+        "nombre": "VENTAYOL Lluís"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT GRANOLLERS 'B'",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 1
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 1,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

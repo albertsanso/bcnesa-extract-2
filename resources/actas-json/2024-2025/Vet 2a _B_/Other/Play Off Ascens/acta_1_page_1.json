@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet B",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet B",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10478",
-        "nombre": "MESA Josep"
-      },
-      "B": {
-        "licencia": "16275",
-        "nombre": "ALDEA Manel"
-      },
-      "C": {
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4114",
         "nombre": "OTERO Sergio"
@@ -55,6 +41,20 @@
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10478",
+        "nombre": "MESA Josep"
+      },
+      "B": {
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
+      "C": {
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10478",
-        "nombre": "MESA Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4114",
         "nombre": "OTERO Sergio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10478",
+        "nombre": "MESA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16275",
-        "nombre": "ALDEA Manel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10478",
-        "nombre": "MESA Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10478",
+        "nombre": "MESA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4114",
         "nombre": "OTERO Sergio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16275",
-        "nombre": "ALDEA Manel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 4
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

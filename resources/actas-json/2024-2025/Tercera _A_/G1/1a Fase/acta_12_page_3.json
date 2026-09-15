@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12768",
-        "nombre": "BENHARI Ayoub"
-      },
-      "B": {
-        "licencia": "17669",
-        "nombre": "SUNYER Marti"
-      },
-      "C": {
-        "licencia": "19147",
-        "nombre": "GHOULLA Said"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18760",
         "nombre": "MAJO Marti"
@@ -55,6 +41,20 @@
         "licencia": "16646",
         "nombre": "CHECA Roberto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      "B": {
+        "licencia": "17669",
+        "nombre": "SUNYER Marti"
+      },
+      "C": {
+        "licencia": "19147",
+        "nombre": "GHOULLA Said"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12768",
-        "nombre": "BENHARI Ayoub"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18760",
         "nombre": "MAJO Marti"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17669",
-        "nombre": "SUNYER Marti"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18943",
         "nombre": "DURAN Kai"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17669",
+        "nombre": "SUNYER Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19147",
-        "nombre": "GHOULLA Said"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16646",
         "nombre": "CHECA Roberto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19147",
+        "nombre": "GHOULLA Said"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12768",
-        "nombre": "BENHARI Ayoub"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18943",
         "nombre": "DURAN Kai"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19147",
-        "nombre": "GHOULLA Said"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18760",
         "nombre": "MAJO Marti"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19147",
+        "nombre": "GHOULLA Said"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17669",
-        "nombre": "SUNYER Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16646",
         "nombre": "CHECA Roberto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17669",
+        "nombre": "SUNYER Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT TORELLÓ",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

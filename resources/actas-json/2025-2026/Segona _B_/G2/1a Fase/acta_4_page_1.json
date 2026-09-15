@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3424",
-        "nombre": "SANAHUJA Jordi"
-      },
-      "B": {
-        "licencia": "17397",
-        "nombre": "GALÍ Alexandre"
-      },
-      "C": {
-        "licencia": "11650",
-        "nombre": "FERNANDEZ Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16342",
         "nombre": "CERVELLO Lluis"
@@ -55,6 +41,20 @@
         "licencia": "15001",
         "nombre": "MALVAR Juan Andres"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3424",
+        "nombre": "SANAHUJA Jordi"
+      },
+      "B": {
+        "licencia": "17397",
+        "nombre": "GALÍ Alexandre"
+      },
+      "C": {
+        "licencia": "11650",
+        "nombre": "FERNANDEZ Alex"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3424",
-        "nombre": "SANAHUJA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16342",
         "nombre": "CERVELLO Lluis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17397",
-        "nombre": "GALÍ Alexandre"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18638",
-        "nombre": "MARQUEZ Arnau"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "11650",
-        "nombre": "FERNANDEZ Alex"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "15001",
-        "nombre": "MALVAR Juan Andres"
+        "letra": "A",
+        "licencia": "3424",
+        "nombre": "SANAHUJA Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18638",
+        "nombre": "MARQUEZ Arnau"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17397",
+        "nombre": "GALÍ Alexandre"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11650",
+        "nombre": "FERNANDEZ Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3424",
-        "nombre": "SANAHUJA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18638",
         "nombre": "MARQUEZ Arnau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3424",
+        "nombre": "SANAHUJA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11650",
-        "nombre": "FERNANDEZ Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16342",
         "nombre": "CERVELLO Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11650",
+        "nombre": "FERNANDEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17397",
-        "nombre": "GALÍ Alexandre"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15001",
         "nombre": "MALVAR Juan Andres"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17397",
+        "nombre": "GALÍ Alexandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILANOVA I LA GELTRU",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

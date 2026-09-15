@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      },
-      "B": {
-        "licencia": "15749",
-        "nombre": "BARBARA Enrique"
-      },
-      "C": {
-        "licencia": "13070",
-        "nombre": "GONZALEZ David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12251",
         "nombre": "ALONSO Joan"
@@ -55,20 +41,24 @@
         "licencia": "12643",
         "nombre": "GARCIA Alberto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
+      "B": {
+        "licencia": "15749",
+        "nombre": "BARBARA Enrique"
+      },
+      "C": {
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      },
-      {
-        "licencia": "15749",
-        "nombre": "BARBARA Enrique"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12251",
         "nombre": "ALONSO Joan"
@@ -76,6 +66,16 @@
       {
         "licencia": "12643",
         "nombre": "GARCIA Alberto"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
+      {
+        "licencia": "15749",
+        "nombre": "BARBARA Enrique"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12251",
         "nombre": "ALONSO Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15749",
-        "nombre": "BARBARA Enrique"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10391",
         "nombre": "ESPAÑA Fabian Andres"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15749",
+        "nombre": "BARBARA Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13070",
-        "nombre": "GONZALEZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12643",
         "nombre": "GARCIA Alberto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10391",
         "nombre": "ESPAÑA Fabian Andres"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13070",
-        "nombre": "GONZALEZ David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12251",
         "nombre": "ALONSO Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15749",
-        "nombre": "BARBARA Enrique"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12643",
         "nombre": "GARCIA Alberto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15749",
+        "nombre": "BARBARA Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15815",
-            "nombre": "GAO Shang"
-          },
-          {
-            "licencia": "15749",
-            "nombre": "BARBARA Enrique"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12251",
             "nombre": "ALONSO Joan"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15815",
+            "nombre": "GAO Shang"
+          },
+          {
+            "licencia": "15749",
+            "nombre": "BARBARA Enrique"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

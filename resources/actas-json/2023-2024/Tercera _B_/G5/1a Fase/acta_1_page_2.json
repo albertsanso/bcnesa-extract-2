@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANTA PERPETUA ''B''",
+      "nombre": "LLUÏSOS DE GRÀCIA \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"B\"",
+      "nombre": "CTT SANTA PERPETUA ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      },
-      "B": {
-        "licencia": "13216",
-        "nombre": "SANCHEZ Isaac"
-      },
-      "C": {
-        "licencia": "17605",
-        "nombre": "GARCIA Jose Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15634",
         "nombre": "ISERN Jan Ziad"
@@ -55,20 +41,24 @@
         "licencia": "16815",
         "nombre": "ZAFRA Bruno"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
+      "B": {
+        "licencia": "13216",
+        "nombre": "SANCHEZ Isaac"
+      },
+      "C": {
+        "licencia": "17605",
+        "nombre": "GARCIA Jose Luis"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "13216",
-        "nombre": "SANCHEZ Isaac"
-      },
-      {
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16815",
         "nombre": "ZAFRA Bruno"
@@ -76,6 +66,16 @@
       {
         "licencia": "15634",
         "nombre": "ISERN Jan Ziad"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13216",
+        "nombre": "SANCHEZ Isaac"
+      },
+      {
+        "licencia": "1720",
+        "nombre": "MATEO David"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15634",
         "nombre": "ISERN Jan Ziad"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13216",
-        "nombre": "SANCHEZ Isaac"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16819",
-        "nombre": "KAM Isaac"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "17605",
-        "nombre": "GARCIA Jose Luis"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16815",
-        "nombre": "ZAFRA Bruno"
+        "letra": "A",
+        "licencia": "1720",
+        "nombre": "MATEO David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -151,8 +101,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16819",
+        "nombre": "KAM Isaac"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13216",
+        "nombre": "SANCHEZ Isaac"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16815",
+        "nombre": "ZAFRA Bruno"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17605",
+        "nombre": "GARCIA Jose Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16819",
         "nombre": "KAM Isaac"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17605",
-        "nombre": "GARCIA Jose Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15634",
         "nombre": "ISERN Jan Ziad"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17605",
+        "nombre": "GARCIA Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13216",
-        "nombre": "SANCHEZ Isaac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16815",
         "nombre": "ZAFRA Bruno"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13216",
+        "nombre": "SANCHEZ Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "13216",
-            "nombre": "SANCHEZ Isaac"
-          },
-          {
-            "licencia": "1720",
-            "nombre": "MATEO David"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16815",
             "nombre": "ZAFRA Bruno"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13216",
+            "nombre": "SANCHEZ Isaac"
+          },
+          {
+            "licencia": "1720",
+            "nombre": "MATEO David"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANTA PERPETUA ''B''",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

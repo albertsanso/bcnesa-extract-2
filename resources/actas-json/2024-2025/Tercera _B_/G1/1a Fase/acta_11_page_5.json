@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "998",
-        "nombre": "QUESADA Ruben"
-      },
-      "B": {
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "C": {
-        "licencia": "19157",
-        "nombre": "BLANCH Pere"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18500",
         "nombre": "POZO Lluís"
@@ -55,20 +41,24 @@
         "licencia": "19895",
         "nombre": "GARCIA Victor"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "998",
+        "nombre": "QUESADA Ruben"
+      },
+      "B": {
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
+      "C": {
+        "licencia": "19157",
+        "nombre": "BLANCH Pere"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      {
-        "licencia": "4492",
-        "nombre": "PRAT Jaume"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "18500",
         "nombre": "POZO Lluís"
@@ -76,6 +66,16 @@
       {
         "licencia": "19895",
         "nombre": "GARCIA Victor"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
+      {
+        "licencia": "4492",
+        "nombre": "PRAT Jaume"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "18500",
+        "nombre": "POZO Lluís"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "998",
         "nombre": "QUESADA Ruben"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16338",
+        "nombre": "GIL Ricard"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "18500",
-        "nombre": "POZO Lluís"
+        "letra": "B",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "19895",
+        "nombre": "GARCIA Victor"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19157",
+        "nombre": "BLANCH Pere"
       },
       "sets": [],
       "resultado_juegos": {
@@ -102,57 +152,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "16338",
-        "nombre": "GIL Ricard"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "19157",
-        "nombre": "BLANCH Pere"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "19895",
-        "nombre": "GARCIA Victor"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "visitante": 2
       }
     },
     {
@@ -160,39 +160,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "998",
-        "nombre": "QUESADA Ruben"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16338",
         "nombre": "GIL Ricard"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "19157",
-        "nombre": "BLANCH Pere"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "18500",
-        "nombre": "POZO Lluís"
+        "letra": "A",
+        "licencia": "998",
+        "nombre": "QUESADA Ruben"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +176,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "18500",
+        "nombre": "POZO Lluís"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19157",
+        "nombre": "BLANCH Pere"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 3,
-        "visitante": 2
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19895",
         "nombre": "GARCIA Victor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8127",
-            "nombre": "MONTENEGRO Rafael"
-          },
-          {
-            "licencia": "4492",
-            "nombre": "PRAT Jaume"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "18500",
             "nombre": "POZO Lluís"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8127",
+            "nombre": "MONTENEGRO Rafael"
+          },
+          {
+            "licencia": "4492",
+            "nombre": "PRAT Jaume"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RUBI",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

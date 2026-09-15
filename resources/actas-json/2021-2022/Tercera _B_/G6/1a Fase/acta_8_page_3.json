@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "CTT VILANOVA I LA GELTRU ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU ''B''",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13781",
-        "nombre": "DIAZ Pol"
-      },
-      "B": {
-        "licencia": "12222",
-        "nombre": "ROIG Navin"
-      },
-      "C": {
-        "licencia": "14949",
-        "nombre": "GALOFRÉ Guillem"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14995",
         "nombre": "ANGEL Antoni"
@@ -55,6 +41,20 @@
         "licencia": "2432",
         "nombre": "RUIZ Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13781",
+        "nombre": "DIAZ Pol"
+      },
+      "B": {
+        "licencia": "12222",
+        "nombre": "ROIG Navin"
+      },
+      "C": {
+        "licencia": "14949",
+        "nombre": "GALOFRÉ Guillem"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13781",
-        "nombre": "DIAZ Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14995",
         "nombre": "ANGEL Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13781",
+        "nombre": "DIAZ Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,64 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "12222",
         "nombre": "ROIG Navin"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15001",
-        "nombre": "MALVAR Juan Andres"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "14949",
-        "nombre": "GALOFRÉ Guillem"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "13781",
-        "nombre": "DIAZ Pol"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15001",
-        "nombre": "MALVAR Juan Andres"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +104,56 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14949",
+        "nombre": "GALOFRÉ Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13781",
+        "nombre": "DIAZ Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14949",
-        "nombre": "GALOFRÉ Guillem"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14995",
         "nombre": "ANGEL Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14949",
+        "nombre": "GALOFRÉ Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12222",
-        "nombre": "ROIG Navin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2432",
         "nombre": "RUIZ Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12222",
+        "nombre": "ROIG Navin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILANOVA I LA GELTRU ''B''",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

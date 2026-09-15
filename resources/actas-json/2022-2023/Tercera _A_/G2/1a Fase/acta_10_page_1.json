@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13164",
-        "nombre": "MENDEZ Gil"
-      },
-      "B": {
-        "licencia": "13159",
-        "nombre": "GIMENEZ Ricard"
-      },
-      "C": {
-        "licencia": "13964",
-        "nombre": "XANDRI Oriol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11276",
         "nombre": "MESTRE Manuel"
@@ -55,6 +41,20 @@
         "licencia": "11275",
         "nombre": "FIGUERAS Santiago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13164",
+        "nombre": "MENDEZ Gil"
+      },
+      "B": {
+        "licencia": "13159",
+        "nombre": "GIMENEZ Ricard"
+      },
+      "C": {
+        "licencia": "13964",
+        "nombre": "XANDRI Oriol"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13164",
-        "nombre": "MENDEZ Gil"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11276",
         "nombre": "MESTRE Manuel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13159",
-        "nombre": "GIMENEZ Ricard"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "80",
-        "nombre": "MARTÍNEZ José"
+        "letra": "A",
+        "licencia": "13164",
+        "nombre": "MENDEZ Gil"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13159",
+        "nombre": "GIMENEZ Ricard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13964",
-        "nombre": "XANDRI Oriol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11275",
         "nombre": "FIGUERAS Santiago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13964",
+        "nombre": "XANDRI Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13164",
-        "nombre": "MENDEZ Gil"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "80",
         "nombre": "MARTÍNEZ José"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13164",
+        "nombre": "MENDEZ Gil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13964",
-        "nombre": "XANDRI Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11276",
         "nombre": "MESTRE Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13964",
+        "nombre": "XANDRI Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13159",
-        "nombre": "GIMENEZ Ricard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11275",
         "nombre": "FIGUERAS Santiago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13159",
+        "nombre": "GIMENEZ Ricard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VALLS DE TORROELLA",
     "marcador_partidos": {
-      "local": 15,
+      "local": 1,
       "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

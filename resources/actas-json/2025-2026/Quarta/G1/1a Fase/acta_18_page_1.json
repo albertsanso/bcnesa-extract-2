@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CPP IGUALADA 'B'",
+      "nombre": "CTT VILANOVA DEL CAMI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA DEL CAMI",
+      "nombre": "CPP IGUALADA 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "21090",
-        "nombre": "GONZALEZ Jaime"
-      },
-      "B": {
-        "licencia": "21089",
-        "nombre": "GEL Alejandro"
-      },
-      "C": {
-        "licencia": "21086",
-        "nombre": "BAÑOS Josep Maria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "20673",
         "nombre": "MIGGIANO Massimiliano"
@@ -55,6 +41,20 @@
         "licencia": "12048",
         "nombre": "BATET Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "21090",
+        "nombre": "GONZALEZ Jaime"
+      },
+      "B": {
+        "licencia": "21089",
+        "nombre": "GEL Alejandro"
+      },
+      "C": {
+        "licencia": "21086",
+        "nombre": "BAÑOS Josep Maria"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "21090",
-        "nombre": "GONZALEZ Jaime"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20673",
         "nombre": "MIGGIANO Massimiliano"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "21090",
+        "nombre": "GONZALEZ Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "21089",
-        "nombre": "GEL Alejandro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16375",
         "nombre": "QUILEZ Javier Victor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21089",
+        "nombre": "GEL Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "21086",
-        "nombre": "BAÑOS Josep Maria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12048",
         "nombre": "BATET Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "21086",
+        "nombre": "BAÑOS Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "21090",
-        "nombre": "GONZALEZ Jaime"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16375",
         "nombre": "QUILEZ Javier Victor"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "21090",
+        "nombre": "GONZALEZ Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "21086",
-        "nombre": "BAÑOS Josep Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20673",
         "nombre": "MIGGIANO Massimiliano"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "21086",
+        "nombre": "BAÑOS Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "21089",
-        "nombre": "GEL Alejandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12048",
         "nombre": "BATET Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21089",
+        "nombre": "GEL Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CPP IGUALADA 'B'",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

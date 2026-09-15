@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CN ST. ANDREU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN ST. ANDREU",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7381",
-        "nombre": "CODINA Jordi"
-      },
-      "B": {
-        "licencia": "13064",
-        "nombre": "REQUENA Oscar"
-      },
-      "C": {
-        "licencia": "10351",
-        "nombre": "GARRIGA Sergi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "614",
         "nombre": "MARTINEZ Francisco"
@@ -55,6 +41,20 @@
         "licencia": "14126",
         "nombre": "ALLUE Vicens"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7381",
+        "nombre": "CODINA Jordi"
+      },
+      "B": {
+        "licencia": "13064",
+        "nombre": "REQUENA Oscar"
+      },
+      "C": {
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7381",
-        "nombre": "CODINA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "614",
         "nombre": "MARTINEZ Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7381",
+        "nombre": "CODINA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13064",
-        "nombre": "REQUENA Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8327",
         "nombre": "MORATA Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13064",
+        "nombre": "REQUENA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10351",
-        "nombre": "GARRIGA Sergi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14126",
         "nombre": "ALLUE Vicens"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7381",
-        "nombre": "CODINA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8327",
         "nombre": "MORATA Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7381",
+        "nombre": "CODINA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10351",
-        "nombre": "GARRIGA Sergi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "614",
         "nombre": "MARTINEZ Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13064",
-        "nombre": "REQUENA Oscar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14126",
         "nombre": "ALLUE Vicens"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13064",
+        "nombre": "REQUENA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN ST. ANDREU",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

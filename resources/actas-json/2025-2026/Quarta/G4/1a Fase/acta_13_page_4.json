@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANTA P. FECOSAUTO 'A'",
+      "nombre": "CTT VILASSAR L'OBRERA 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR L'OBRERA 'B'",
+      "nombre": "CTT SANTA P. FECOSAUTO 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      },
-      "B": {
-        "licencia": "17204",
-        "nombre": "CAÑADAS Antonio Javier"
-      },
-      "C": {
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19291",
         "nombre": "ROVIROSA Elisa"
@@ -55,6 +41,20 @@
         "licencia": "12325",
         "nombre": "PIÑOL Nuria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
+      "B": {
+        "licencia": "17204",
+        "nombre": "CAÑADAS Antonio Javier"
+      },
+      "C": {
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19291",
         "nombre": "ROVIROSA Elisa"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17204",
-        "nombre": "CAÑADAS Antonio Javier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17708",
         "nombre": "ESCORSA Rosa Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17204",
+        "nombre": "CAÑADAS Antonio Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12325",
         "nombre": "PIÑOL Nuria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17708",
         "nombre": "ESCORSA Rosa Maria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19291",
         "nombre": "ROVIROSA Elisa"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17204",
-        "nombre": "CAÑADAS Antonio Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12325",
         "nombre": "PIÑOL Nuria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17204",
+        "nombre": "CAÑADAS Antonio Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANTA P. FECOSAUTO 'A'",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 0
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 0,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

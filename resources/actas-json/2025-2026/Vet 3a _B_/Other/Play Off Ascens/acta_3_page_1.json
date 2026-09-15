@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 188214è3aA",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "CTT ATENEU 188214è3aA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14579",
-        "nombre": "ALOY Raimond"
-      },
-      "B": {
-        "licencia": "12219",
-        "nombre": "ROMO Miquel"
-      },
-      "C": {
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18720",
         "nombre": "DOMENECH Antoni"
@@ -55,20 +41,24 @@
         "licencia": "287",
         "nombre": "FORTUNA Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14579",
+        "nombre": "ALOY Raimond"
+      },
+      "B": {
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "C": {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14579",
-        "nombre": "ALOY Raimond"
-      },
-      {
-        "licencia": "12219",
-        "nombre": "ROMO Miquel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "18720",
         "nombre": "DOMENECH Antoni"
@@ -76,6 +66,16 @@
       {
         "licencia": "287",
         "nombre": "FORTUNA Angel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14579",
+        "nombre": "ALOY Raimond"
+      },
+      {
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14579",
-        "nombre": "ALOY Raimond"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18720",
         "nombre": "DOMENECH Antoni"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12219",
-        "nombre": "ROMO Miquel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8253",
-        "nombre": "MARRO Daniel"
+        "letra": "A",
+        "licencia": "14579",
+        "nombre": "ALOY Raimond"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8253",
+        "nombre": "MARRO Daniel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "287",
         "nombre": "FORTUNA Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14579",
-        "nombre": "ALOY Raimond"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8253",
         "nombre": "MARRO Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14579",
+        "nombre": "ALOY Raimond"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18720",
         "nombre": "DOMENECH Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12219",
-        "nombre": "ROMO Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "287",
         "nombre": "FORTUNA Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14579",
-            "nombre": "ALOY Raimond"
-          },
-          {
-            "licencia": "12219",
-            "nombre": "ROMO Miquel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "18720",
             "nombre": "DOMENECH Antoni"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14579",
+            "nombre": "ALOY Raimond"
+          },
+          {
+            "licencia": "12219",
+            "nombre": "ROMO Miquel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT ATENEU 188214è3aA",
+    "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

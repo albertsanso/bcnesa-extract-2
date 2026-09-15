@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      },
-      "B": {
-        "licencia": "8182",
-        "nombre": "CASAS Jaume"
-      },
-      "C": {
-        "licencia": "779",
-        "nombre": "NUÑEZ Edgardo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5454",
         "nombre": "POYATOS Xavier"
@@ -55,20 +41,24 @@
         "licencia": "1928",
         "nombre": "MALDONADO Miquel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
+      "B": {
+        "licencia": "8182",
+        "nombre": "CASAS Jaume"
+      },
+      "C": {
+        "licencia": "779",
+        "nombre": "NUÑEZ Edgardo"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      },
-      {
-        "licencia": "779",
-        "nombre": "NUÑEZ Edgardo"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "1928",
         "nombre": "MALDONADO Miquel"
@@ -76,6 +66,16 @@
       {
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
+      {
+        "licencia": "779",
+        "nombre": "NUÑEZ Edgardo"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5454",
         "nombre": "POYATOS Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8182",
-        "nombre": "CASAS Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8182",
+        "nombre": "CASAS Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "779",
-        "nombre": "NUÑEZ Edgardo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1928",
         "nombre": "MALDONADO Miquel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8007",
-        "nombre": "VARGAS Pedro Juan"
+        "letra": "C",
+        "licencia": "779",
+        "nombre": "NUÑEZ Edgardo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "779",
-        "nombre": "NUÑEZ Edgardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5454",
         "nombre": "POYATOS Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "779",
+        "nombre": "NUÑEZ Edgardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8182",
-        "nombre": "CASAS Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1928",
         "nombre": "MALDONADO Miquel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8182",
+        "nombre": "CASAS Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "233",
-            "nombre": "PASCUAL Rafael"
-          },
-          {
-            "licencia": "779",
-            "nombre": "NUÑEZ Edgardo"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "1928",
             "nombre": "MALDONADO Miquel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "233",
+            "nombre": "PASCUAL Rafael"
+          },
+          {
+            "licencia": "779",
+            "nombre": "NUÑEZ Edgardo"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

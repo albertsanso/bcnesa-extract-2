@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1994",
-        "nombre": "MENAL Manuel"
-      },
-      "B": {
-        "licencia": "12114",
-        "nombre": "MASSARD Franck"
-      },
-      "C": {
-        "licencia": "6129",
-        "nombre": "ALCALA Olegario Basilio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
@@ -55,6 +41,20 @@
         "licencia": "15982",
         "nombre": "GUERRERO Jose Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1994",
+        "nombre": "MENAL Manuel"
+      },
+      "B": {
+        "licencia": "12114",
+        "nombre": "MASSARD Franck"
+      },
+      "C": {
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1994",
-        "nombre": "MENAL Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1994",
+        "nombre": "MENAL Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12114",
-        "nombre": "MASSARD Franck"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "963",
         "nombre": "NOLIS Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12114",
+        "nombre": "MASSARD Franck"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6129",
-        "nombre": "ALCALA Olegario Basilio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15982",
         "nombre": "GUERRERO Jose Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1994",
-        "nombre": "MENAL Manuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "963",
         "nombre": "NOLIS Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1994",
+        "nombre": "MENAL Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6129",
-        "nombre": "ALCALA Olegario Basilio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12114",
-        "nombre": "MASSARD Franck"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15982",
         "nombre": "GUERRERO Jose Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12114",
+        "nombre": "MASSARD Franck"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TITUS BADALONA",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

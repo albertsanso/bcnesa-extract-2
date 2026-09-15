@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "CTT CASTELLGALÍ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13455",
-        "nombre": "COSTA Roc"
-      },
-      "B": {
-        "licencia": "11373",
-        "nombre": "BUISAN Marti"
-      },
-      "C": {
-        "licencia": "10192",
-        "nombre": "SERRANO Emmanuel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11190",
         "nombre": "FRINCU Constantin"
@@ -55,6 +41,20 @@
         "licencia": "11189",
         "nombre": "ORTEGA Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13455",
+        "nombre": "COSTA Roc"
+      },
+      "B": {
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
+      "C": {
+        "licencia": "10192",
+        "nombre": "SERRANO Emmanuel"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13455",
-        "nombre": "COSTA Roc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11190",
         "nombre": "FRINCU Constantin"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11373",
-        "nombre": "BUISAN Marti"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14249",
-        "nombre": "FORNELLS Abril"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "10192",
-        "nombre": "SERRANO Emmanuel"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "11189",
-        "nombre": "ORTEGA Antonio"
+        "letra": "A",
+        "licencia": "13455",
+        "nombre": "COSTA Roc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,23 +80,48 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13455",
-        "nombre": "COSTA Roc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14249",
         "nombre": "FORNELLS Abril"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "11189",
+        "nombre": "ORTEGA Antonio"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10192",
+        "nombre": "SERRANO Emmanuel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14249",
+        "nombre": "FORNELLS Abril"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13455",
+        "nombre": "COSTA Roc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10192",
-        "nombre": "SERRANO Emmanuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11190",
         "nombre": "FRINCU Constantin"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10192",
+        "nombre": "SERRANO Emmanuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11373",
-        "nombre": "BUISAN Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11189",
         "nombre": "ORTEGA Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

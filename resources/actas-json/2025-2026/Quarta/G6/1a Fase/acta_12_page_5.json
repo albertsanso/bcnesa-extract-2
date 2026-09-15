@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ELS 8 DE LA GARRIGA",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "ELS 8 DE LA GARRIGA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10530",
-        "nombre": "MANZULLI Michelle"
-      },
-      "B": {
-        "licencia": "12510",
-        "nombre": "CLARAMUNT Albert"
-      },
-      "C": {
-        "licencia": "12511",
-        "nombre": "KOZHUKHOVA Irina"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8463",
         "nombre": "VELASCO Cristobal"
@@ -55,6 +41,20 @@
         "licencia": "19227",
         "nombre": "NOGUE Josep"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10530",
+        "nombre": "MANZULLI Michelle"
+      },
+      "B": {
+        "licencia": "12510",
+        "nombre": "CLARAMUNT Albert"
+      },
+      "C": {
+        "licencia": "12511",
+        "nombre": "KOZHUKHOVA Irina"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10530",
-        "nombre": "MANZULLI Michelle"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8463",
         "nombre": "VELASCO Cristobal"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10530",
+        "nombre": "MANZULLI Michelle"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12510",
-        "nombre": "CLARAMUNT Albert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13974",
         "nombre": "MANRIQUE Pol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12510",
+        "nombre": "CLARAMUNT Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12511",
-        "nombre": "KOZHUKHOVA Irina"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19227",
         "nombre": "NOGUE Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12511",
+        "nombre": "KOZHUKHOVA Irina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10530",
-        "nombre": "MANZULLI Michelle"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13974",
         "nombre": "MANRIQUE Pol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10530",
+        "nombre": "MANZULLI Michelle"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12511",
-        "nombre": "KOZHUKHOVA Irina"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8463",
         "nombre": "VELASCO Cristobal"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12511",
+        "nombre": "KOZHUKHOVA Irina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12510",
-        "nombre": "CLARAMUNT Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19227",
         "nombre": "NOGUE Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12510",
+        "nombre": "CLARAMUNT Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "ELS 8 DE LA GARRIGA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 8
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

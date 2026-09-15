@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "307",
-        "nombre": "MORENO Juan M."
-      },
-      "B": {
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
-      },
-      "C": {
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14936",
         "nombre": "YU Carlos"
@@ -55,6 +41,20 @@
         "licencia": "3181",
         "nombre": "POCH Xavier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "307",
+        "nombre": "MORENO Juan M."
+      },
+      "B": {
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      },
+      "C": {
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "307",
-        "nombre": "MORENO Juan M."
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14936",
         "nombre": "YU Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "307",
+        "nombre": "MORENO Juan M."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5620",
         "nombre": "MENDOZA Alejandro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3181",
         "nombre": "POCH Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "307",
-        "nombre": "MORENO Juan M."
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5620",
         "nombre": "MENDOZA Alejandro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "307",
+        "nombre": "MORENO Juan M."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14936",
         "nombre": "YU Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3181",
         "nombre": "POCH Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT POBLENOU",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 4
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

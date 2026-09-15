@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5544",
-        "nombre": "PRADES Aixeus"
-      },
-      "B": {
-        "licencia": "8466",
-        "nombre": "MORI Dorian Joseph"
-      },
-      "C": {
-        "licencia": "507",
-        "nombre": "BERNABEU Ricardo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8845",
         "nombre": "GUARCH Roger"
@@ -55,20 +41,24 @@
         "licencia": "7212",
         "nombre": "JAMETT Witerman Boris"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "B": {
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      },
+      "C": {
+        "licencia": "507",
+        "nombre": "BERNABEU Ricardo"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8466",
-        "nombre": "MORI Dorian Joseph"
-      },
-      {
-        "licencia": "507",
-        "nombre": "BERNABEU Ricardo"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8845",
         "nombre": "GUARCH Roger"
@@ -76,6 +66,16 @@
       {
         "licencia": "493",
         "nombre": "SOISA Pedro"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      },
+      {
+        "licencia": "507",
+        "nombre": "BERNABEU Ricardo"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5544",
-        "nombre": "PRADES Aixeus"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8845",
         "nombre": "GUARCH Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8466",
-        "nombre": "MORI Dorian Joseph"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "493",
         "nombre": "SOISA Pedro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "507",
-        "nombre": "BERNABEU Ricardo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7212",
         "nombre": "JAMETT Witerman Boris"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "507",
+        "nombre": "BERNABEU Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5544",
-        "nombre": "PRADES Aixeus"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "493",
         "nombre": "SOISA Pedro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "507",
-        "nombre": "BERNABEU Ricardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8845",
         "nombre": "GUARCH Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "507",
+        "nombre": "BERNABEU Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8466",
-        "nombre": "MORI Dorian Joseph"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7212",
         "nombre": "JAMETT Witerman Boris"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8466",
+        "nombre": "MORI Dorian Joseph"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8466",
-            "nombre": "MORI Dorian Joseph"
-          },
-          {
-            "licencia": "507",
-            "nombre": "BERNABEU Ricardo"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8845",
             "nombre": "GUARCH Roger"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8466",
+            "nombre": "MORI Dorian Joseph"
+          },
+          {
+            "licencia": "507",
+            "nombre": "BERNABEU Ricardo"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

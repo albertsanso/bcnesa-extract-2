@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4016",
-        "nombre": "OLAYA Joaquin"
-      },
-      "B": {
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "C": {
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1985",
         "nombre": "GIL Carlos"
@@ -55,6 +41,20 @@
         "licencia": "6272",
         "nombre": "MATA Javier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
+      "B": {
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      "C": {
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4016",
-        "nombre": "OLAYA Joaquin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1985",
         "nombre": "GIL Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "918",
         "nombre": "RECHES Ivan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4016",
-        "nombre": "OLAYA Joaquin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "918",
         "nombre": "RECHES Ivan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1985",
         "nombre": "GIL Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "ESCOLA TT CASTELLDEFELS ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ESCOLA TT CASTELLDEFELS ''B''",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8568",
-        "nombre": "RODA Martí"
-      },
-      "B": {
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      "C": {
-        "licencia": "7943",
-        "nombre": "KREMEN Lara"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10934",
         "nombre": "PRIEGO Hristo"
@@ -55,6 +41,20 @@
         "licencia": "8520",
         "nombre": "GUZMÁN Arnau"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8568",
+        "nombre": "RODA Martí"
+      },
+      "B": {
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
+      "C": {
+        "licencia": "7943",
+        "nombre": "KREMEN Lara"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8568",
-        "nombre": "RODA Martí"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10934",
         "nombre": "PRIEGO Hristo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8568",
+        "nombre": "RODA Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11673",
         "nombre": "FERNÁNDEZ Raul"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7943",
-        "nombre": "KREMEN Lara"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8520",
         "nombre": "GUZMÁN Arnau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7943",
+        "nombre": "KREMEN Lara"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8568",
-        "nombre": "RODA Martí"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11673",
         "nombre": "FERNÁNDEZ Raul"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8568",
+        "nombre": "RODA Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7943",
-        "nombre": "KREMEN Lara"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10934",
         "nombre": "PRIEGO Hristo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7943",
+        "nombre": "KREMEN Lara"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12324",
-        "nombre": "NUÑEZ Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11305",
         "nombre": "ESCOBAR David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12324",
+        "nombre": "NUÑEZ Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "ESCOLA TT CASTELLDEFELS ''B''",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

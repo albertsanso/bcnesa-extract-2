@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA UNIÓ",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "CTT LA UNIÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7388",
-        "nombre": "FERNANDEZ Carlos"
-      },
-      "B": {
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "C": {
-        "licencia": "6875",
-        "nombre": "AGUADO Francisco Javier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "238",
         "nombre": "GARRIDO Antoni"
@@ -55,6 +41,20 @@
         "licencia": "4795",
         "nombre": "FRANCO Jose"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7388",
+        "nombre": "FERNANDEZ Carlos"
+      },
+      "B": {
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
+      "C": {
+        "licencia": "6875",
+        "nombre": "AGUADO Francisco Javier"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7388",
-        "nombre": "FERNANDEZ Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "238",
         "nombre": "GARRIDO Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7388",
+        "nombre": "FERNANDEZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11148",
         "nombre": "MAZORRA Enric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6875",
-        "nombre": "AGUADO Francisco Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4795",
         "nombre": "FRANCO Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6875",
+        "nombre": "AGUADO Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7388",
-        "nombre": "FERNANDEZ Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11148",
         "nombre": "MAZORRA Enric"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7388",
+        "nombre": "FERNANDEZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6875",
-        "nombre": "AGUADO Francisco Javier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "238",
         "nombre": "GARRIDO Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6875",
+        "nombre": "AGUADO Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4795",
         "nombre": "FRANCO Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA UNIÓ",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 5
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

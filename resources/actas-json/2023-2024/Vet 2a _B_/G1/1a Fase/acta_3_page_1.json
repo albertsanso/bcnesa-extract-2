@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "B": {
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "C": {
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6482",
         "nombre": "OLTENAS Viorel"
@@ -55,6 +41,20 @@
         "licencia": "4378",
         "nombre": "CLAVER Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "B": {
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
+      "C": {
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6482",
         "nombre": "OLTENAS Viorel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
+        "letra": "A",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4378",
         "nombre": "CLAVER Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
+        "letra": "C",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6482",
         "nombre": "OLTENAS Viorel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4378",
         "nombre": "CLAVER Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RIPOLLET",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

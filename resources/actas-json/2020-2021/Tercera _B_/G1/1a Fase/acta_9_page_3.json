@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA \"A\"",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "CTT ELS AMICS TERRASSA \"A\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14200",
-        "nombre": "WOLLMER Sebastian"
-      },
-      "B": {
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
-      },
-      "C": {
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13758",
         "nombre": "CALLEJON Christian"
@@ -55,6 +41,20 @@
         "licencia": "388",
         "nombre": "MINGUELL Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14200",
+        "nombre": "WOLLMER Sebastian"
+      },
+      "B": {
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "C": {
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14200",
-        "nombre": "WOLLMER Sebastian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13758",
         "nombre": "CALLEJON Christian"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11378",
-        "nombre": "MATEOS Enric"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "388",
-        "nombre": "MINGUELL Joan"
+        "letra": "A",
+        "licencia": "14200",
+        "nombre": "WOLLMER Sebastian"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +80,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11378",
+        "nombre": "MATEOS Enric"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "388",
+        "nombre": "MINGUELL Joan"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14200",
-        "nombre": "WOLLMER Sebastian"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11378",
         "nombre": "MATEOS Enric"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14200",
+        "nombre": "WOLLMER Sebastian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13758",
         "nombre": "CALLEJON Christian"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "388",
-        "nombre": "MINGUELL Joan"
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
       },
       "sets": [],
       "resultado_juegos": {
@@ -206,17 +181,45 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "388",
+        "nombre": "MINGUELL Joan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
         "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "UE SANT CUGAT",
+    "ganador": null,
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 11
+      "local": 3,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

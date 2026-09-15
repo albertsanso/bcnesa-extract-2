@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA 'B'",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT BARCELONA 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11821",
-        "nombre": "MESTRE Lluc"
-      },
-      "B": {
-        "licencia": "11984",
-        "nombre": "GAVIRA Raphael"
-      },
-      "C": {
-        "licencia": "13403",
-        "nombre": "MURIEL Pau"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1985",
         "nombre": "GIL Carlos"
@@ -55,6 +41,20 @@
         "licencia": "20786",
         "nombre": "VAILO Vladyslav"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
+      "B": {
+        "licencia": "11984",
+        "nombre": "GAVIRA Raphael"
+      },
+      "C": {
+        "licencia": "13403",
+        "nombre": "MURIEL Pau"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11821",
-        "nombre": "MESTRE Lluc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1985",
         "nombre": "GIL Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11984",
-        "nombre": "GAVIRA Raphael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "918",
         "nombre": "RECHES Ivan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11984",
+        "nombre": "GAVIRA Raphael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13403",
-        "nombre": "MURIEL Pau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20786",
         "nombre": "VAILO Vladyslav"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13403",
+        "nombre": "MURIEL Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11821",
-        "nombre": "MESTRE Lluc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "918",
         "nombre": "RECHES Ivan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13403",
-        "nombre": "MURIEL Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1985",
         "nombre": "GIL Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13403",
+        "nombre": "MURIEL Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11984",
-        "nombre": "GAVIRA Raphael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20786",
         "nombre": "VAILO Vladyslav"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11984",
+        "nombre": "GAVIRA Raphael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

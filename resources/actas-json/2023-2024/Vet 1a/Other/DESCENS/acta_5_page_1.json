@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO ''B''",
+      "nombre": "TT PRAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PRAT",
+      "nombre": "EL CIERVO ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8321",
-        "nombre": "BOADA Isidro"
-      },
-      "B": {
-        "licencia": "11784",
-        "nombre": "MORAN Francisco Jose"
-      },
-      "C": {
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
@@ -55,6 +41,20 @@
         "licencia": "5638",
         "nombre": "RABADAN Luis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8321",
+        "nombre": "BOADA Isidro"
+      },
+      "B": {
+        "licencia": "11784",
+        "nombre": "MORAN Francisco Jose"
+      },
+      "C": {
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8321",
-        "nombre": "BOADA Isidro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8321",
+        "nombre": "BOADA Isidro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11784",
-        "nombre": "MORAN Francisco Jose"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "842",
         "nombre": "RUIZ Amador"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11784",
+        "nombre": "MORAN Francisco Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5638",
         "nombre": "RABADAN Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8321",
-        "nombre": "BOADA Isidro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "842",
         "nombre": "RUIZ Amador"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8321",
+        "nombre": "BOADA Isidro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11784",
-        "nombre": "MORAN Francisco Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5638",
         "nombre": "RABADAN Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11784",
+        "nombre": "MORAN Francisco Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PRAT",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 16
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

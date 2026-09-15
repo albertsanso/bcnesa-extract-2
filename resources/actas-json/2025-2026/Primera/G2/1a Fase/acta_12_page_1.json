@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11592",
-        "nombre": "SANCHÍS Marc"
-      },
-      "B": {
-        "licencia": "14032",
-        "nombre": "MAKHARASHVILI Irakli"
-      },
-      "C": {
-        "licencia": "18138",
-        "nombre": "ALBERT Marcel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "675",
         "nombre": "MILA Salvador"
@@ -55,6 +41,20 @@
         "licencia": "18638",
         "nombre": "MARQUEZ Arnau"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11592",
+        "nombre": "SANCHÍS Marc"
+      },
+      "B": {
+        "licencia": "14032",
+        "nombre": "MAKHARASHVILI Irakli"
+      },
+      "C": {
+        "licencia": "18138",
+        "nombre": "ALBERT Marcel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11592",
-        "nombre": "SANCHÍS Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "675",
         "nombre": "MILA Salvador"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11592",
+        "nombre": "SANCHÍS Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14032",
-        "nombre": "MAKHARASHVILI Irakli"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10777",
         "nombre": "CERVELLÓ Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14032",
+        "nombre": "MAKHARASHVILI Irakli"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18138",
-        "nombre": "ALBERT Marcel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18638",
         "nombre": "MARQUEZ Arnau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18138",
+        "nombre": "ALBERT Marcel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11592",
-        "nombre": "SANCHÍS Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10777",
         "nombre": "CERVELLÓ Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11592",
+        "nombre": "SANCHÍS Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18138",
-        "nombre": "ALBERT Marcel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "675",
         "nombre": "MILA Salvador"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "14032",
-        "nombre": "MAKHARASHVILI Irakli"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "18638",
-        "nombre": "MARQUEZ Arnau"
+        "letra": "C",
+        "licencia": "18138",
+        "nombre": "ALBERT Marcel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "18638",
+        "nombre": "MARQUEZ Arnau"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14032",
+        "nombre": "MAKHARASHVILI Irakli"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

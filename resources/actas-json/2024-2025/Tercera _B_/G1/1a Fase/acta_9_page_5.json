@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ESC. PING PONG VIA TRAJANA ''B''",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "ESC. PING PONG VIA TRAJANA ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16450",
-        "nombre": "PALACIOS Joaquin"
-      },
-      "B": {
-        "licencia": "16448",
-        "nombre": "RUIZ Julio"
-      },
-      "C": {
-        "licencia": "16449",
-        "nombre": "BARRIOS Francisco José"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5759",
         "nombre": "BADIA Albert"
@@ -55,6 +41,20 @@
         "licencia": "15182",
         "nombre": "CASTRO Rodrigo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
+      "B": {
+        "licencia": "16448",
+        "nombre": "RUIZ Julio"
+      },
+      "C": {
+        "licencia": "16449",
+        "nombre": "BARRIOS Francisco José"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16450",
-        "nombre": "PALACIOS Joaquin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5759",
         "nombre": "BADIA Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16448",
-        "nombre": "RUIZ Julio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16492",
         "nombre": "HÄRING Arthur"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16448",
+        "nombre": "RUIZ Julio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16449",
-        "nombre": "BARRIOS Francisco José"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15182",
         "nombre": "CASTRO Rodrigo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16449",
+        "nombre": "BARRIOS Francisco José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16450",
-        "nombre": "PALACIOS Joaquin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16492",
         "nombre": "HÄRING Arthur"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16449",
-        "nombre": "BARRIOS Francisco José"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5759",
         "nombre": "BADIA Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16449",
+        "nombre": "BARRIOS Francisco José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16448",
-        "nombre": "RUIZ Julio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15182",
         "nombre": "CASTRO Rodrigo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16448",
+        "nombre": "RUIZ Julio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

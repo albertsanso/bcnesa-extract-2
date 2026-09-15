@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT GRANOLLERS",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT GRANOLLERS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17007",
-        "nombre": "SÁNCHEZ Hugo"
-      },
-      "B": {
-        "licencia": "16593",
-        "nombre": "PARDO Martí"
-      },
-      "C": {
-        "licencia": "14911",
-        "nombre": "MAS Martí"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14884",
         "nombre": "GONZÁLEZ Martina"
@@ -55,6 +41,20 @@
         "licencia": "11673",
         "nombre": "FERNÁNDEZ Raul"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17007",
+        "nombre": "SÁNCHEZ Hugo"
+      },
+      "B": {
+        "licencia": "16593",
+        "nombre": "PARDO Martí"
+      },
+      "C": {
+        "licencia": "14911",
+        "nombre": "MAS Martí"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17007",
-        "nombre": "SÁNCHEZ Hugo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14884",
         "nombre": "GONZÁLEZ Martina"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17007",
+        "nombre": "SÁNCHEZ Hugo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16593",
-        "nombre": "PARDO Martí"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6168",
         "nombre": "MORENO Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16593",
+        "nombre": "PARDO Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14911",
-        "nombre": "MAS Martí"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11673",
         "nombre": "FERNÁNDEZ Raul"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14911",
+        "nombre": "MAS Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17007",
-        "nombre": "SÁNCHEZ Hugo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6168",
         "nombre": "MORENO Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17007",
+        "nombre": "SÁNCHEZ Hugo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14911",
-        "nombre": "MAS Martí"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14884",
         "nombre": "GONZÁLEZ Martina"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14911",
+        "nombre": "MAS Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16593",
-        "nombre": "PARDO Martí"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11673",
         "nombre": "FERNÁNDEZ Raul"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16593",
+        "nombre": "PARDO Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 16
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

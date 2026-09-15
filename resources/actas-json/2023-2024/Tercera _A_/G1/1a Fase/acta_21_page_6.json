@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17621",
-        "nombre": "SANCHEZ Jaume"
-      },
-      "B": {
-        "licencia": "3151",
-        "nombre": "ARELLANO Juan Francisco"
-      },
-      "C": {
-        "licencia": "17315",
-        "nombre": "BAEZ Ruben Fermin"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16840",
         "nombre": "FAMADES Oleguer"
@@ -55,6 +41,20 @@
         "licencia": "17751",
         "nombre": "VARELA Hugo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17621",
+        "nombre": "SANCHEZ Jaume"
+      },
+      "B": {
+        "licencia": "3151",
+        "nombre": "ARELLANO Juan Francisco"
+      },
+      "C": {
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17621",
-        "nombre": "SANCHEZ Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16840",
         "nombre": "FAMADES Oleguer"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "3151",
-        "nombre": "ARELLANO Juan Francisco"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17749",
-        "nombre": "MARTINEZ Roger"
+        "letra": "A",
+        "licencia": "17621",
+        "nombre": "SANCHEZ Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17749",
+        "nombre": "MARTINEZ Roger"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3151",
+        "nombre": "ARELLANO Juan Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17315",
-        "nombre": "BAEZ Ruben Fermin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17751",
         "nombre": "VARELA Hugo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17621",
-        "nombre": "SANCHEZ Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17749",
         "nombre": "MARTINEZ Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17621",
+        "nombre": "SANCHEZ Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17315",
-        "nombre": "BAEZ Ruben Fermin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16840",
         "nombre": "FAMADES Oleguer"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3151",
-        "nombre": "ARELLANO Juan Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17751",
         "nombre": "VARELA Hugo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3151",
+        "nombre": "ARELLANO Juan Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATC MOLINS DE REI",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 4
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

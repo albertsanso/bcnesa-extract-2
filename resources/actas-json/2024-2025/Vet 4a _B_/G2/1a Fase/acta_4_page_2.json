@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet D ''A''",
+      "nombre": "CTT VILASSAR ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR ''B''",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet D ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
-      "B": {
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
-      "C": {
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16013",
         "nombre": "VALLESPI Guillem"
@@ -55,20 +41,24 @@
         "licencia": "19293",
         "nombre": "ESTEBAN Alex"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      "B": {
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
+      "C": {
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
-      {
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15086",
         "nombre": "BAHUAUD Jean-francois"
@@ -76,6 +66,16 @@
       {
         "licencia": "19293",
         "nombre": "ESTEBAN Alex"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      {
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16013",
         "nombre": "VALLESPI Guillem"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15086",
-        "nombre": "BAHUAUD Jean-francois"
+        "letra": "A",
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15086",
+        "nombre": "BAHUAUD Jean-francois"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19293",
         "nombre": "ESTEBAN Alex"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15086",
-        "nombre": "BAHUAUD Jean-francois"
+        "letra": "C",
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15086",
+        "nombre": "BAHUAUD Jean-francois"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16013",
         "nombre": "VALLESPI Guillem"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19293",
         "nombre": "ESTEBAN Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "12124",
-            "nombre": "ALASTUEY Hugo Alberto"
-          },
-          {
-            "licencia": "154",
-            "nombre": "BOTELLA Joan"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15086",
             "nombre": "BAHUAUD Jean-francois"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12124",
+            "nombre": "ALASTUEY Hugo Alberto"
+          },
+          {
+            "licencia": "154",
+            "nombre": "BOTELLA Joan"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ST QUIRZE DEL VALLÈS - Vet D ''A''",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO ''A''",
+      "nombre": "SURIS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "SURIS CALELLA",
+      "nombre": "EL CIERVO ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2303",
-        "nombre": "ALMENDROS Joan Antoni"
-      },
-      "B": {
-        "licencia": "194",
-        "nombre": "AGEA Rafael"
-      },
-      "C": {
-        "licencia": "5522",
-        "nombre": "GUINOVART Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "150",
         "nombre": "FONT Jordi"
@@ -55,6 +41,20 @@
         "licencia": "12195",
         "nombre": "SAÑA Orlando"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
+      "B": {
+        "licencia": "194",
+        "nombre": "AGEA Rafael"
+      },
+      "C": {
+        "licencia": "5522",
+        "nombre": "GUINOVART Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2303",
-        "nombre": "ALMENDROS Joan Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "150",
         "nombre": "FONT Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "194",
-        "nombre": "AGEA Rafael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14422",
         "nombre": "TORROJA Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "5522",
-        "nombre": "GUINOVART Antonio"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
+        "letra": "B",
+        "licencia": "194",
+        "nombre": "AGEA Rafael"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,23 +105,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 0,
+        "visitante": 2
       }
     },
     {
-      "numero": 4,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "A",
-        "licencia": "2303",
-        "nombre": "ALMENDROS Joan Antoni"
+        "letra": "Z",
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
       },
       "visitante": {
-        "letra": "X",
-        "licencia": "14422",
-        "nombre": "TORROJA Jordi"
+        "letra": "C",
+        "licencia": "5522",
+        "nombre": "GUINOVART Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14422",
+        "nombre": "TORROJA Jordi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5522",
-        "nombre": "GUINOVART Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "150",
         "nombre": "FONT Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "194",
-        "nombre": "AGEA Rafael"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
+        "letra": "C",
+        "licencia": "5522",
+        "nombre": "GUINOVART Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "194",
+        "nombre": "AGEA Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO ''A''",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

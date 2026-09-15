@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "758",
-        "nombre": "CASTAÑE Jordi"
-      },
-      "B": {
-        "licencia": "5457",
-        "nombre": "REINA Carles"
-      },
-      "C": {
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
@@ -55,6 +41,20 @@
         "licencia": "14949",
         "nombre": "GALOFRÉ Guillem"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "758",
+        "nombre": "CASTAÑE Jordi"
+      },
+      "B": {
+        "licencia": "5457",
+        "nombre": "REINA Carles"
+      },
+      "C": {
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "758",
-        "nombre": "CASTAÑE Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "5457",
-        "nombre": "REINA Carles"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6129",
-        "nombre": "ALCALA Olegario Basilio"
+        "letra": "A",
+        "licencia": "758",
+        "nombre": "CASTAÑE Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5457",
+        "nombre": "REINA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14949",
         "nombre": "GALOFRÉ Guillem"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "758",
-        "nombre": "CASTAÑE Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6129",
         "nombre": "ALCALA Olegario Basilio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "758",
+        "nombre": "CASTAÑE Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5457",
-        "nombre": "REINA Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14949",
         "nombre": "GALOFRÉ Guillem"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5457",
+        "nombre": "REINA Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

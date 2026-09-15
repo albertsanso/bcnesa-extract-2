@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17818",
-        "nombre": "FONT Gerard"
-      },
-      "B": {
-        "licencia": "11860",
-        "nombre": "MARTORELL Eloy"
-      },
-      "C": {
-        "licencia": "6656",
-        "nombre": "ALVAREZ Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14579",
         "nombre": "ALOY Raimond"
@@ -55,6 +41,20 @@
         "licencia": "6144",
         "nombre": "PEREZ Pablo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17818",
+        "nombre": "FONT Gerard"
+      },
+      "B": {
+        "licencia": "11860",
+        "nombre": "MARTORELL Eloy"
+      },
+      "C": {
+        "licencia": "6656",
+        "nombre": "ALVAREZ Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17818",
-        "nombre": "FONT Gerard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14579",
         "nombre": "ALOY Raimond"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11860",
-        "nombre": "MARTORELL Eloy"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "9036",
-        "nombre": "BONAVILA Pol"
+        "letra": "A",
+        "licencia": "17818",
+        "nombre": "FONT Gerard"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "9036",
+        "nombre": "BONAVILA Pol"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11860",
+        "nombre": "MARTORELL Eloy"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6656",
-        "nombre": "ALVAREZ Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6144",
         "nombre": "PEREZ Pablo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6656",
+        "nombre": "ALVAREZ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17818",
-        "nombre": "FONT Gerard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "9036",
         "nombre": "BONAVILA Pol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17818",
+        "nombre": "FONT Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6656",
-        "nombre": "ALVAREZ Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14579",
         "nombre": "ALOY Raimond"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6656",
+        "nombre": "ALVAREZ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11860",
-        "nombre": "MARTORELL Eloy"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6144",
         "nombre": "PEREZ Pablo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11860",
+        "nombre": "MARTORELL Eloy"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT VILAFRANCA",
     "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

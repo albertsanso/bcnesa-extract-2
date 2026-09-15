@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT CASTELLDEFELS ''A''",
+      "nombre": "CTT SALLENT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SALLENT",
+      "nombre": "TT CASTELLDEFELS ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7982",
-        "nombre": "CAPDEVILA Oscar"
-      },
-      "B": {
-        "licencia": "13637",
-        "nombre": "MARTÍ Victor"
-      },
-      "C": {
-        "licencia": "7840",
-        "nombre": "ESPASA Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8497",
         "nombre": "MAZCUÑAN Pau"
@@ -55,6 +41,20 @@
         "licencia": "671",
         "nombre": "BARLAM Valenti"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7982",
+        "nombre": "CAPDEVILA Oscar"
+      },
+      "B": {
+        "licencia": "13637",
+        "nombre": "MARTÍ Victor"
+      },
+      "C": {
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7982",
-        "nombre": "CAPDEVILA Oscar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8497",
         "nombre": "MAZCUÑAN Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7982",
+        "nombre": "CAPDEVILA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13637",
-        "nombre": "MARTÍ Victor"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7873",
         "nombre": "CABALLERO Pol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13637",
+        "nombre": "MARTÍ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7840",
-        "nombre": "ESPASA Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "671",
         "nombre": "BARLAM Valenti"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7982",
-        "nombre": "CAPDEVILA Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7873",
         "nombre": "CABALLERO Pol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7982",
+        "nombre": "CAPDEVILA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7840",
-        "nombre": "ESPASA Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8497",
         "nombre": "MAZCUÑAN Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "671",
         "nombre": "BARLAM Valenti"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SALLENT",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

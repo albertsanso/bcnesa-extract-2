@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL ''B''",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "CLUB NATACIO SABADELL ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "B": {
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
-      "C": {
-        "licencia": "3637",
-        "nombre": "BARBERA Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "931",
         "nombre": "BOSCH Enric"
@@ -55,20 +41,24 @@
         "licencia": "6203",
         "nombre": "ORTIZ Francesc Xavier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "B": {
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
+      "C": {
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
-      {
-        "licencia": "3637",
-        "nombre": "BARBERA Joan"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6203",
         "nombre": "ORTIZ Francesc Xavier"
@@ -76,6 +66,16 @@
       {
         "licencia": "931",
         "nombre": "BOSCH Enric"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
+      {
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "931",
         "nombre": "BOSCH Enric"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "169",
-        "nombre": "PAREJA Joan"
+        "letra": "A",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "169",
+        "nombre": "PAREJA Joan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3637",
-        "nombre": "BARBERA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6203",
         "nombre": "ORTIZ Francesc Xavier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "169",
-        "nombre": "PAREJA Joan"
+        "letra": "C",
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "169",
+        "nombre": "PAREJA Joan"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3637",
-        "nombre": "BARBERA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "931",
         "nombre": "BOSCH Enric"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6203",
         "nombre": "ORTIZ Francesc Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "1774",
-            "nombre": "CANO Andres"
-          },
-          {
-            "licencia": "3637",
-            "nombre": "BARBERA Joan"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6203",
             "nombre": "ORTIZ Francesc Xavier"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "1774",
+            "nombre": "CANO Andres"
+          },
+          {
+            "licencia": "3637",
+            "nombre": "BARBERA Joan"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB NATACIO SABADELL ''B''",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

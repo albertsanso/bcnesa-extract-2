@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "TT SANT ANDREU \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT SANT ANDREU \"A\"",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1928",
-        "nombre": "MALDONADO Miquel"
-      },
-      "B": {
-        "licencia": "6123",
-        "nombre": "PEREZ Agustin"
-      },
-      "C": {
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14154",
         "nombre": "TRULLOLS Eduard"
@@ -55,6 +41,20 @@
         "licencia": "14150",
         "nombre": "JIANG Zhu"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
+      "B": {
+        "licencia": "6123",
+        "nombre": "PEREZ Agustin"
+      },
+      "C": {
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1928",
-        "nombre": "MALDONADO Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14154",
         "nombre": "TRULLOLS Eduard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6123",
-        "nombre": "PEREZ Agustin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14153",
         "nombre": "CASTAGNA Agustin F."
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6123",
+        "nombre": "PEREZ Agustin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14150",
         "nombre": "JIANG Zhu"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1928",
-        "nombre": "MALDONADO Miquel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14153",
         "nombre": "CASTAGNA Agustin F."
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14154",
         "nombre": "TRULLOLS Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6123",
-        "nombre": "PEREZ Agustin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14150",
         "nombre": "JIANG Zhu"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6123",
+        "nombre": "PEREZ Agustin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 0
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 0,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

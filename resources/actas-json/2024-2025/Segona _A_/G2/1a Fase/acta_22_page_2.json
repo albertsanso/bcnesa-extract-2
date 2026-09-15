@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA \"B\"",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT ELS AMICS TERRASSA \"B\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8459",
-        "nombre": "ROGER Jordi"
-      },
-      "B": {
-        "licencia": "6902",
-        "nombre": "ARIAS Jordi"
-      },
-      "C": {
-        "licencia": "18002",
-        "nombre": "XU Fuwei"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15815",
         "nombre": "GAO Shang"
@@ -55,20 +41,24 @@
         "licencia": "15749",
         "nombre": "BARBARA Enrique"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8459",
+        "nombre": "ROGER Jordi"
+      },
+      "B": {
+        "licencia": "6902",
+        "nombre": "ARIAS Jordi"
+      },
+      "C": {
+        "licencia": "18002",
+        "nombre": "XU Fuwei"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "18002",
-        "nombre": "XU Fuwei"
-      },
-      {
-        "licencia": "8459",
-        "nombre": "ROGER Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15815",
         "nombre": "GAO Shang"
@@ -76,6 +66,16 @@
       {
         "licencia": "15749",
         "nombre": "BARBARA Enrique"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "18002",
+        "nombre": "XU Fuwei"
+      },
+      {
+        "licencia": "8459",
+        "nombre": "ROGER Jordi"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8459",
-        "nombre": "ROGER Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15815",
         "nombre": "GAO Shang"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8459",
+        "nombre": "ROGER Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6902",
-        "nombre": "ARIAS Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13070",
         "nombre": "GONZALEZ David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6902",
+        "nombre": "ARIAS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18002",
-        "nombre": "XU Fuwei"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15749",
         "nombre": "BARBARA Enrique"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "8459",
-        "nombre": "ROGER Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13070",
-        "nombre": "GONZALEZ David"
+        "letra": "C",
+        "licencia": "18002",
+        "nombre": "XU Fuwei"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8459",
+        "nombre": "ROGER Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18002",
-        "nombre": "XU Fuwei"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15815",
         "nombre": "GAO Shang"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18002",
+        "nombre": "XU Fuwei"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6902",
-        "nombre": "ARIAS Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15749",
         "nombre": "BARBARA Enrique"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6902",
+        "nombre": "ARIAS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "18002",
-            "nombre": "XU Fuwei"
-          },
-          {
-            "licencia": "8459",
-            "nombre": "ROGER Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15815",
             "nombre": "GAO Shang"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18002",
+            "nombre": "XU Fuwei"
+          },
+          {
+            "licencia": "8459",
+            "nombre": "ROGER Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

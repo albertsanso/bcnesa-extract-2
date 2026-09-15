@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "203",
-        "nombre": "GUAL Jordi"
-      },
-      "B": {
-        "licencia": "325",
-        "nombre": "GUTIERREZ Joan M."
-      },
-      "C": {
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5454",
         "nombre": "POYATOS Xavier"
@@ -55,6 +41,20 @@
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "203",
+        "nombre": "GUAL Jordi"
+      },
+      "B": {
+        "licencia": "325",
+        "nombre": "GUTIERREZ Joan M."
+      },
+      "C": {
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "203",
-        "nombre": "GUAL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5454",
         "nombre": "POYATOS Xavier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "325",
-        "nombre": "GUTIERREZ Joan M."
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "108",
-        "nombre": "ALEMANY Antonio"
+        "letra": "A",
+        "licencia": "203",
+        "nombre": "GUAL Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "108",
+        "nombre": "ALEMANY Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "325",
+        "nombre": "GUTIERREZ Joan M."
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "203",
-        "nombre": "GUAL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "108",
         "nombre": "ALEMANY Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "203",
+        "nombre": "GUAL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5454",
         "nombre": "POYATOS Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "325",
-        "nombre": "GUTIERREZ Joan M."
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "325",
+        "nombre": "GUTIERREZ Joan M."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

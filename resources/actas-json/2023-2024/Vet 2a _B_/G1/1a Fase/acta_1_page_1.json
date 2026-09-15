@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "B": {
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "C": {
-        "licencia": "549",
-        "nombre": "VERA Juan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10639",
         "nombre": "CRESPO Pere"
@@ -55,6 +41,20 @@
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "B": {
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
+      "C": {
+        "licencia": "549",
+        "nombre": "VERA Juan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10639",
         "nombre": "CRESPO Pere"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15982",
         "nombre": "GUERRERO Jose Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "549",
-        "nombre": "VERA Juan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "549",
+        "nombre": "VERA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15982",
         "nombre": "GUERRERO Jose Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "549",
-        "nombre": "VERA Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10639",
         "nombre": "CRESPO Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "549",
+        "nombre": "VERA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TITUS BADALONA",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10148",
-        "nombre": "PLAZA Santi"
-      },
-      "B": {
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
-      "C": {
-        "licencia": "16664",
-        "nombre": "SOLER Marcel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13081",
         "nombre": "GOMEZ David"
@@ -55,6 +41,20 @@
         "licencia": "13078",
         "nombre": "ESCORZA Daniel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10148",
+        "nombre": "PLAZA Santi"
+      },
+      "B": {
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      },
+      "C": {
+        "licencia": "16664",
+        "nombre": "SOLER Marcel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10148",
-        "nombre": "PLAZA Santi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13081",
         "nombre": "GOMEZ David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10148",
+        "nombre": "PLAZA Santi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7942",
         "nombre": "ESPIN Paula"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16664",
-        "nombre": "SOLER Marcel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13078",
         "nombre": "ESCORZA Daniel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "10148",
-        "nombre": "PLAZA Santi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7942",
-        "nombre": "ESPIN Paula"
+        "letra": "C",
+        "licencia": "16664",
+        "nombre": "SOLER Marcel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7942",
+        "nombre": "ESPIN Paula"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10148",
+        "nombre": "PLAZA Santi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16664",
-        "nombre": "SOLER Marcel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13081",
         "nombre": "GOMEZ David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16664",
+        "nombre": "SOLER Marcel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13078",
         "nombre": "ESCORZA Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

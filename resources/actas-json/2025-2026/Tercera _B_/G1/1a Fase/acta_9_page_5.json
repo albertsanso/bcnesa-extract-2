@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "DECATLHON BADALONA",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "DECATLHON BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17907",
-        "nombre": "PALAU Adrià"
-      },
-      "B": {
-        "licencia": "16159",
-        "nombre": "PALLEJA Marc"
-      },
-      "C": {
-        "licencia": "15316",
-        "nombre": "SABATER Lluc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
@@ -55,6 +41,20 @@
         "licencia": "19311",
         "nombre": "RAMIREZ Oscar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17907",
+        "nombre": "PALAU Adrià"
+      },
+      "B": {
+        "licencia": "16159",
+        "nombre": "PALLEJA Marc"
+      },
+      "C": {
+        "licencia": "15316",
+        "nombre": "SABATER Lluc"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17907",
-        "nombre": "PALAU Adrià"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16159",
-        "nombre": "PALLEJA Marc"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8197",
-        "nombre": "OLIVARES Josep"
+        "letra": "A",
+        "licencia": "17907",
+        "nombre": "PALAU Adrià"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8197",
+        "nombre": "OLIVARES Josep"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16159",
+        "nombre": "PALLEJA Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15316",
-        "nombre": "SABATER Lluc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19311",
         "nombre": "RAMIREZ Oscar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15316",
+        "nombre": "SABATER Lluc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17907",
-        "nombre": "PALAU Adrià"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8197",
         "nombre": "OLIVARES Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17907",
+        "nombre": "PALAU Adrià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15316",
-        "nombre": "SABATER Lluc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15316",
+        "nombre": "SABATER Lluc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16159",
-        "nombre": "PALLEJA Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19311",
         "nombre": "RAMIREZ Oscar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16159",
+        "nombre": "PALLEJA Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "DECATLHON BADALONA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

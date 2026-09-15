@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CLUB NATACIO SABADELL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11746",
-        "nombre": "YANG Owen"
-      },
-      "B": {
-        "licencia": "16596",
-        "nombre": "CARITEU Alex"
-      },
-      "C": {
-        "licencia": "7112",
-        "nombre": "OMS Marti"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "851",
         "nombre": "SERRES Jordi"
@@ -55,20 +41,24 @@
         "licencia": "4405",
         "nombre": "CAROL Santiago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11746",
+        "nombre": "YANG Owen"
+      },
+      "B": {
+        "licencia": "16596",
+        "nombre": "CARITEU Alex"
+      },
+      "C": {
+        "licencia": "7112",
+        "nombre": "OMS Marti"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11746",
-        "nombre": "YANG Owen"
-      },
-      {
-        "licencia": "7112",
-        "nombre": "OMS Marti"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "851",
         "nombre": "SERRES Jordi"
@@ -76,6 +66,16 @@
       {
         "licencia": "10855",
         "nombre": "CATALÁN Roger"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11746",
+        "nombre": "YANG Owen"
+      },
+      {
+        "licencia": "7112",
+        "nombre": "OMS Marti"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11746",
-        "nombre": "YANG Owen"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "851",
         "nombre": "SERRES Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11746",
+        "nombre": "YANG Owen"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16596",
-        "nombre": "CARITEU Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10855",
         "nombre": "CATALÁN Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16596",
+        "nombre": "CARITEU Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7112",
-        "nombre": "OMS Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4405",
         "nombre": "CAROL Santiago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7112",
+        "nombre": "OMS Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11746",
-        "nombre": "YANG Owen"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10855",
         "nombre": "CATALÁN Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11746",
+        "nombre": "YANG Owen"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7112",
-        "nombre": "OMS Marti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "851",
         "nombre": "SERRES Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7112",
+        "nombre": "OMS Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16596",
-        "nombre": "CARITEU Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4405",
         "nombre": "CAROL Santiago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16596",
+        "nombre": "CARITEU Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11746",
-            "nombre": "YANG Owen"
-          },
-          {
-            "licencia": "7112",
-            "nombre": "OMS Marti"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "851",
             "nombre": "SERRES Jordi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11746",
+            "nombre": "YANG Owen"
+          },
+          {
+            "licencia": "7112",
+            "nombre": "OMS Marti"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

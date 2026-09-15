@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ",
+      "nombre": "CTT VILASSAR ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR ''A''",
+      "nombre": "CTT CASTELLGALÍ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11251",
-        "nombre": "GARCIA Rafael"
-      },
-      "B": {
-        "licencia": "18952",
-        "nombre": "GARCIA Joaquin"
-      },
-      "C": {
-        "licencia": "377",
-        "nombre": "LLOBET Jaume"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19870",
         "nombre": "SILVA Sebastian"
@@ -55,20 +41,24 @@
         "licencia": "19316",
         "nombre": "GUANTER Josep Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11251",
+        "nombre": "GARCIA Rafael"
+      },
+      "B": {
+        "licencia": "18952",
+        "nombre": "GARCIA Joaquin"
+      },
+      "C": {
+        "licencia": "377",
+        "nombre": "LLOBET Jaume"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "377",
-        "nombre": "LLOBET Jaume"
-      },
-      {
-        "licencia": "18952",
-        "nombre": "GARCIA Joaquin"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "19316",
         "nombre": "GUANTER Josep Maria"
@@ -76,6 +66,16 @@
       {
         "licencia": "19870",
         "nombre": "SILVA Sebastian"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "377",
+        "nombre": "LLOBET Jaume"
+      },
+      {
+        "licencia": "18952",
+        "nombre": "GARCIA Joaquin"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11251",
-        "nombre": "GARCIA Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19870",
         "nombre": "SILVA Sebastian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11251",
+        "nombre": "GARCIA Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18952",
-        "nombre": "GARCIA Joaquin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5651",
         "nombre": "HIGUERAS Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18952",
+        "nombre": "GARCIA Joaquin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "377",
-        "nombre": "LLOBET Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19316",
         "nombre": "GUANTER Josep Maria"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "11251",
-        "nombre": "GARCIA Rafael"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5651",
-        "nombre": "HIGUERAS Manuel"
+        "letra": "C",
+        "licencia": "377",
+        "nombre": "LLOBET Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5651",
+        "nombre": "HIGUERAS Manuel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11251",
+        "nombre": "GARCIA Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "377",
-        "nombre": "LLOBET Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19870",
         "nombre": "SILVA Sebastian"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "377",
+        "nombre": "LLOBET Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18952",
-        "nombre": "GARCIA Joaquin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19316",
         "nombre": "GUANTER Josep Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18952",
+        "nombre": "GARCIA Joaquin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "377",
-            "nombre": "LLOBET Jaume"
-          },
-          {
-            "licencia": "18952",
-            "nombre": "GARCIA Joaquin"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "19316",
             "nombre": "GUANTER Josep Maria"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "377",
+            "nombre": "LLOBET Jaume"
+          },
+          {
+            "licencia": "18952",
+            "nombre": "GARCIA Joaquin"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT VILASSAR ''A''",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 16,
       "visitante": 16
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

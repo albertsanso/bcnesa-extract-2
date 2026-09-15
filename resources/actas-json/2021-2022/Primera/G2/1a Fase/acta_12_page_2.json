@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RODA DE TER",
+      "nombre": "PauFolchFisio - LLUÏSOS DE GRÀCIA ''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "PauFolchFisio - LLUÏSOS DE GRÀCIA ''",
+      "nombre": "CTT RODA DE TER",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7639",
-        "nombre": "OLIVA Alberto"
-      },
-      "B": {
-        "licencia": "12000",
-        "nombre": "ARUMI Gil"
-      },
-      "C": {
-        "licencia": "13609",
-        "nombre": "TORT Pau"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10660",
         "nombre": "GOMEZ Mauro"
@@ -55,6 +41,20 @@
         "licencia": "10885",
         "nombre": "LOZANO Manel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
+      "B": {
+        "licencia": "12000",
+        "nombre": "ARUMI Gil"
+      },
+      "C": {
+        "licencia": "13609",
+        "nombre": "TORT Pau"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7639",
-        "nombre": "OLIVA Alberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10660",
         "nombre": "GOMEZ Mauro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12000",
-        "nombre": "ARUMI Gil"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12171",
         "nombre": "MARCO Oriol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12000",
+        "nombre": "ARUMI Gil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13609",
-        "nombre": "TORT Pau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10885",
         "nombre": "LOZANO Manel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13609",
+        "nombre": "TORT Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7639",
-        "nombre": "OLIVA Alberto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12171",
         "nombre": "MARCO Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13609",
-        "nombre": "TORT Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10660",
         "nombre": "GOMEZ Mauro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13609",
+        "nombre": "TORT Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12000",
-        "nombre": "ARUMI Gil"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10885",
         "nombre": "LOZANO Manel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12000",
+        "nombre": "ARUMI Gil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "PauFolchFisio - LLUÏSOS DE GRÀCIA ''",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

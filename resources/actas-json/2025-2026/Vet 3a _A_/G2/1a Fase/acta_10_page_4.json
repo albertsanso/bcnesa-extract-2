@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "B": {
-        "licencia": "1919",
-        "nombre": "DOMENECH Jose"
-      },
-      "C": {
-        "licencia": "320",
-        "nombre": "MAÑE Merce"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5550",
         "nombre": "MAREGIL Alvaro"
@@ -55,6 +41,20 @@
         "licencia": "1070",
         "nombre": "HUERTAS Ruben"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
+      "B": {
+        "licencia": "1919",
+        "nombre": "DOMENECH Jose"
+      },
+      "C": {
+        "licencia": "320",
+        "nombre": "MAÑE Merce"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5550",
         "nombre": "MAREGIL Alvaro"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "1919",
-        "nombre": "DOMENECH Jose"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "320",
-        "nombre": "MAÑE Merce"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "1070",
-        "nombre": "HUERTAS Ruben"
+        "letra": "A",
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,22 +81,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "631",
         "nombre": "RUIZ Cristobal"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1919",
+        "nombre": "DOMENECH Jose"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +104,56 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "320",
+        "nombre": "MAÑE Merce"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "320",
-        "nombre": "MAÑE Merce"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5550",
         "nombre": "MAREGIL Alvaro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "320",
+        "nombre": "MAÑE Merce"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1919",
-        "nombre": "DOMENECH Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1070",
         "nombre": "HUERTAS Ruben"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1919",
+        "nombre": "DOMENECH Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT OLESA",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

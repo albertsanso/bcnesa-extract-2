@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11064",
-        "nombre": "SENDROS Josep"
-      },
-      "B": {
-        "licencia": "8669",
-        "nombre": "PARDO Vicente"
-      },
-      "C": {
-        "licencia": "11066",
-        "nombre": "ORERO Francisco"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14936",
         "nombre": "YU Carlos"
@@ -55,20 +41,24 @@
         "licencia": "5759",
         "nombre": "BADIA Albert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11064",
+        "nombre": "SENDROS Josep"
+      },
+      "B": {
+        "licencia": "8669",
+        "nombre": "PARDO Vicente"
+      },
+      "C": {
+        "licencia": "11066",
+        "nombre": "ORERO Francisco"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11066",
-        "nombre": "ORERO Francisco"
-      },
-      {
-        "licencia": "8669",
-        "nombre": "PARDO Vicente"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "5620",
         "nombre": "MENDOZA Alejandro"
@@ -76,6 +66,16 @@
       {
         "licencia": "14936",
         "nombre": "YU Carlos"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11066",
+        "nombre": "ORERO Francisco"
+      },
+      {
+        "licencia": "8669",
+        "nombre": "PARDO Vicente"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11064",
-        "nombre": "SENDROS Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14936",
         "nombre": "YU Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11064",
+        "nombre": "SENDROS Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8669",
-        "nombre": "PARDO Vicente"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5620",
         "nombre": "MENDOZA Alejandro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8669",
+        "nombre": "PARDO Vicente"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11066",
-        "nombre": "ORERO Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5759",
         "nombre": "BADIA Albert"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "11064",
-        "nombre": "SENDROS Josep"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5620",
-        "nombre": "MENDOZA Alejandro"
+        "letra": "C",
+        "licencia": "11066",
+        "nombre": "ORERO Francisco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,23 +151,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "11066",
-        "nombre": "ORERO Francisco"
+        "letra": "X",
+        "licencia": "5620",
+        "nombre": "MENDOZA Alejandro"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "14936",
-        "nombre": "YU Carlos"
+        "letra": "A",
+        "licencia": "11064",
+        "nombre": "SENDROS Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +176,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "14936",
+        "nombre": "YU Carlos"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11066",
+        "nombre": "ORERO Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8669",
-        "nombre": "PARDO Vicente"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5759",
         "nombre": "BADIA Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8669",
+        "nombre": "PARDO Vicente"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11066",
-            "nombre": "ORERO Francisco"
-          },
-          {
-            "licencia": "8669",
-            "nombre": "PARDO Vicente"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "5620",
             "nombre": "MENDOZA Alejandro"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11066",
+            "nombre": "ORERO Francisco"
+          },
+          {
+            "licencia": "8669",
+            "nombre": "PARDO Vicente"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "EL CENTRE",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

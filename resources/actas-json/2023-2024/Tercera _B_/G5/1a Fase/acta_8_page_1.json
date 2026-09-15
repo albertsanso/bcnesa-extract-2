@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      "B": {
-        "licencia": "16731",
-        "nombre": "ROVIRA Juan Carlos"
-      },
-      "C": {
-        "licencia": "18020",
-        "nombre": "CARRERAS Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8702",
         "nombre": "TAPIA Andres"
@@ -55,20 +41,24 @@
         "licencia": "17806",
         "nombre": "BAREA David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
+      "B": {
+        "licencia": "16731",
+        "nombre": "ROVIRA Juan Carlos"
+      },
+      "C": {
+        "licencia": "18020",
+        "nombre": "CARRERAS Daniel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      {
-        "licencia": "18020",
-        "nombre": "CARRERAS Daniel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8702",
         "nombre": "TAPIA Andres"
@@ -76,6 +66,16 @@
       {
         "licencia": "8327",
         "nombre": "MORATA Manuel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
+      {
+        "licencia": "18020",
+        "nombre": "CARRERAS Daniel"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8702",
         "nombre": "TAPIA Andres"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16731",
-        "nombre": "ROVIRA Juan Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8327",
         "nombre": "MORATA Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16731",
+        "nombre": "ROVIRA Juan Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,14 +135,64 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "17806",
+        "nombre": "BAREA David"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "18020",
         "nombre": "CARRERAS Daniel"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8327",
+        "nombre": "MORATA Manuel"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "17806",
-        "nombre": "BAREA David"
+        "letra": "A",
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "8702",
+        "nombre": "TAPIA Andres"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18020",
+        "nombre": "CARRERAS Daniel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,57 +202,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "8327",
-        "nombre": "MORATA Manuel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "18020",
-        "nombre": "CARRERAS Daniel"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "8702",
-        "nombre": "TAPIA Andres"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
         "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16731",
-        "nombre": "ROVIRA Juan Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17806",
         "nombre": "BAREA David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16731",
+        "nombre": "ROVIRA Juan Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "887",
-            "nombre": "COLLDEFORN Jaume"
-          },
-          {
-            "licencia": "18020",
-            "nombre": "CARRERAS Daniel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8702",
             "nombre": "TAPIA Andres"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "887",
+            "nombre": "COLLDEFORN Jaume"
+          },
+          {
+            "licencia": "18020",
+            "nombre": "CARRERAS Daniel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT PREMIÀ DE MAR",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

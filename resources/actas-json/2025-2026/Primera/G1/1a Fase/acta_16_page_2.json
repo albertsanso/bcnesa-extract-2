@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT CARDEDEU EIG 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG 'A'",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "B": {
-        "licencia": "1985",
-        "nombre": "GIL Carlos"
-      },
-      "C": {
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17349",
         "nombre": "MARCHAN Richard"
@@ -55,20 +41,24 @@
         "licencia": "5399",
         "nombre": "CASTRO Ismael"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "B": {
+        "licencia": "1985",
+        "nombre": "GIL Carlos"
+      },
+      "C": {
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "1985",
-        "nombre": "GIL Carlos"
-      },
-      {
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "17349",
         "nombre": "MARCHAN Richard"
@@ -76,6 +66,16 @@
       {
         "licencia": "5399",
         "nombre": "CASTRO Ismael"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "1985",
+        "nombre": "GIL Carlos"
+      },
+      {
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17349",
         "nombre": "MARCHAN Richard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1985",
-        "nombre": "GIL Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "758",
         "nombre": "CASTAÑE Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1985",
+        "nombre": "GIL Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5399",
         "nombre": "CASTRO Ismael"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "758",
         "nombre": "CASTAÑE Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17349",
         "nombre": "MARCHAN Richard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1985",
-        "nombre": "GIL Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5399",
         "nombre": "CASTRO Ismael"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1985",
+        "nombre": "GIL Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "1985",
-            "nombre": "GIL Carlos"
-          },
-          {
-            "licencia": "918",
-            "nombre": "RECHES Ivan"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "17349",
             "nombre": "MARCHAN Richard"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "1985",
+            "nombre": "GIL Carlos"
+          },
+          {
+            "licencia": "918",
+            "nombre": "RECHES Ivan"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

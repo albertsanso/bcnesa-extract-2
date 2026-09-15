@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11286",
-        "nombre": "ZHANG Zhiquan"
-      },
-      "B": {
-        "licencia": "14325",
-        "nombre": "AGULLÓ Gerard"
-      },
-      "C": {
-        "licencia": "2106",
-        "nombre": "GONZALEZ Pedro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
@@ -55,6 +41,20 @@
         "licencia": "7545",
         "nombre": "SIMON Andreu"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11286",
+        "nombre": "ZHANG Zhiquan"
+      },
+      "B": {
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
+      "C": {
+        "licencia": "2106",
+        "nombre": "GONZALEZ Pedro"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11286",
-        "nombre": "ZHANG Zhiquan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11286",
+        "nombre": "ZHANG Zhiquan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14325",
-        "nombre": "AGULLÓ Gerard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2106",
-        "nombre": "GONZALEZ Pedro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7545",
         "nombre": "SIMON Andreu"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2106",
+        "nombre": "GONZALEZ Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11286",
-        "nombre": "ZHANG Zhiquan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11286",
+        "nombre": "ZHANG Zhiquan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2106",
-        "nombre": "GONZALEZ Pedro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "14325",
-        "nombre": "AGULLÓ Gerard"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "7545",
-        "nombre": "SIMON Andreu"
+        "letra": "C",
+        "licencia": "2106",
+        "nombre": "GONZALEZ Pedro"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7545",
+        "nombre": "SIMON Andreu"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

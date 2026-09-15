@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT 'B'",
+      "nombre": "El CENTRE NYX 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "El CENTRE NYX 'A'",
+      "nombre": "LLUÏSOS D'HORTA TT 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18176",
-        "nombre": "POTTIER Gaël"
-      },
-      "B": {
-        "licencia": "19471",
-        "nombre": "ALTUNA Nerea"
-      },
-      "C": {
-        "licencia": "10650",
-        "nombre": "PAMIES Juan Jose"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "21810",
         "nombre": "GARCIA Margarita"
@@ -55,6 +41,20 @@
         "licencia": "13736",
         "nombre": "UBALDE Natalia"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18176",
+        "nombre": "POTTIER Gaël"
+      },
+      "B": {
+        "licencia": "19471",
+        "nombre": "ALTUNA Nerea"
+      },
+      "C": {
+        "licencia": "10650",
+        "nombre": "PAMIES Juan Jose"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18176",
-        "nombre": "POTTIER Gaël"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "21810",
         "nombre": "GARCIA Margarita"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18176",
+        "nombre": "POTTIER Gaël"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,64 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "17713",
+        "nombre": "LÓPEZ Maria Jesús"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "19471",
         "nombre": "ALTUNA Nerea"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "17713",
-        "nombre": "LÓPEZ Maria Jesús"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "10650",
-        "nombre": "PAMIES Juan Jose"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "13736",
-        "nombre": "UBALDE Natalia"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "18176",
-        "nombre": "POTTIER Gaël"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "17713",
-        "nombre": "LÓPEZ Maria Jesús"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +105,58 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13736",
+        "nombre": "UBALDE Natalia"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10650",
+        "nombre": "PAMIES Juan Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17713",
+        "nombre": "LÓPEZ Maria Jesús"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18176",
+        "nombre": "POTTIER Gaël"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10650",
-        "nombre": "PAMIES Juan Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "21810",
         "nombre": "GARCIA Margarita"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10650",
+        "nombre": "PAMIES Juan Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19471",
-        "nombre": "ALTUNA Nerea"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13736",
         "nombre": "UBALDE Natalia"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19471",
+        "nombre": "ALTUNA Nerea"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "El CENTRE NYX 'A'",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

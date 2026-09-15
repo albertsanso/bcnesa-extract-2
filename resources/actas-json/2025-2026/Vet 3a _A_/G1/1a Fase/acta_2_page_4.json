@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
-      "B": {
-        "licencia": "8007",
-        "nombre": "VARGAS Pedro Juan"
-      },
-      "C": {
-        "licencia": "16445",
-        "nombre": "ZHAO Yun"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6269",
         "nombre": "RAMOS Antoni"
@@ -55,6 +41,20 @@
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
+      "B": {
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "C": {
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6269",
         "nombre": "RAMOS Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8007",
-        "nombre": "VARGAS Pedro Juan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "267",
         "nombre": "INFANTE Isidro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16445",
-        "nombre": "ZHAO Yun"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "267",
         "nombre": "INFANTE Isidro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16445",
-        "nombre": "ZHAO Yun"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6269",
         "nombre": "RAMOS Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8007",
-        "nombre": "VARGAS Pedro Juan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "CLUB ARIEL",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB ARIEL",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12481",
-        "nombre": "GARCIA Joan Marc"
-      },
-      "B": {
-        "licencia": "12792",
-        "nombre": "QUINTERO Bethany Lyn"
-      },
-      "C": {
-        "licencia": "13503",
-        "nombre": "MOTA Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14977",
         "nombre": "MUCI Gianluca"
@@ -55,6 +41,20 @@
         "licencia": "10059",
         "nombre": "SIBEAUX Florent"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12481",
+        "nombre": "GARCIA Joan Marc"
+      },
+      "B": {
+        "licencia": "12792",
+        "nombre": "QUINTERO Bethany Lyn"
+      },
+      "C": {
+        "licencia": "13503",
+        "nombre": "MOTA Alex"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12481",
-        "nombre": "GARCIA Joan Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14977",
         "nombre": "MUCI Gianluca"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12481",
+        "nombre": "GARCIA Joan Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12792",
-        "nombre": "QUINTERO Bethany Lyn"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14976",
         "nombre": "RIEROLA Alejandro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12792",
+        "nombre": "QUINTERO Bethany Lyn"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13503",
-        "nombre": "MOTA Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10059",
         "nombre": "SIBEAUX Florent"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13503",
+        "nombre": "MOTA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12481",
-        "nombre": "GARCIA Joan Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14976",
         "nombre": "RIEROLA Alejandro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12481",
+        "nombre": "GARCIA Joan Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13503",
-        "nombre": "MOTA Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14977",
         "nombre": "MUCI Gianluca"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13503",
+        "nombre": "MOTA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12792",
-        "nombre": "QUINTERO Bethany Lyn"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10059",
         "nombre": "SIBEAUX Florent"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12792",
+        "nombre": "QUINTERO Bethany Lyn"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

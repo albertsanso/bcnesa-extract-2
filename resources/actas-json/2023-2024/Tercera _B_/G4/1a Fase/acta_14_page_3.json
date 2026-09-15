@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
+      "nombre": "CTT LA UNIÓ ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT LA UNIÓ ''B''",
+      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17161",
-        "nombre": "GAS Anna"
-      },
-      "B": {
-        "licencia": "6165",
-        "nombre": "SALCEDO Raul"
-      },
-      "C": {
-        "licencia": "17964",
-        "nombre": "RODRÍGUEZ Alexandre"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15786",
         "nombre": "VILLARONGA Miquel"
@@ -55,20 +41,24 @@
         "licencia": "14749",
         "nombre": "GARCIA Sergi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17161",
+        "nombre": "GAS Anna"
+      },
+      "B": {
+        "licencia": "6165",
+        "nombre": "SALCEDO Raul"
+      },
+      "C": {
+        "licencia": "17964",
+        "nombre": "RODRÍGUEZ Alexandre"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "17161",
-        "nombre": "GAS Anna"
-      },
-      {
-        "licencia": "17964",
-        "nombre": "RODRÍGUEZ Alexandre"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "14749",
         "nombre": "GARCIA Sergi"
@@ -76,6 +66,16 @@
       {
         "licencia": "13500",
         "nombre": "SANCHEZ Hector"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "17161",
+        "nombre": "GAS Anna"
+      },
+      {
+        "licencia": "17964",
+        "nombre": "RODRÍGUEZ Alexandre"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17161",
-        "nombre": "GAS Anna"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15786",
         "nombre": "VILLARONGA Miquel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17161",
+        "nombre": "GAS Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6165",
-        "nombre": "SALCEDO Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14750",
         "nombre": "SEVILLA Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6165",
+        "nombre": "SALCEDO Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17964",
-        "nombre": "RODRÍGUEZ Alexandre"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14749",
         "nombre": "GARCIA Sergi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17964",
+        "nombre": "RODRÍGUEZ Alexandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17161",
-        "nombre": "GAS Anna"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14750",
         "nombre": "SEVILLA Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17161",
+        "nombre": "GAS Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17964",
-        "nombre": "RODRÍGUEZ Alexandre"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15786",
         "nombre": "VILLARONGA Miquel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17964",
+        "nombre": "RODRÍGUEZ Alexandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6165",
-        "nombre": "SALCEDO Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14749",
         "nombre": "GARCIA Sergi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6165",
+        "nombre": "SALCEDO Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "17161",
-            "nombre": "GAS Anna"
-          },
-          {
-            "licencia": "17964",
-            "nombre": "RODRÍGUEZ Alexandre"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "14749",
             "nombre": "GARCIA Sergi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17161",
+            "nombre": "GAS Anna"
+          },
+          {
+            "licencia": "17964",
+            "nombre": "RODRÍGUEZ Alexandre"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA \"A\"",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

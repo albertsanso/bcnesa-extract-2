@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "CTT VILANOVA DEL CAMI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA DEL CAMI",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "551",
-        "nombre": "SACASAS Marcel"
-      },
-      "B": {
-        "licencia": "14032",
-        "nombre": "MAKHARASHVILI Irakli"
-      },
-      "C": {
-        "licencia": "12824",
-        "nombre": "FERRÉ Marcel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5393",
         "nombre": "SALA David"
@@ -55,20 +41,24 @@
         "licencia": "3914",
         "nombre": "SANCHEZ Adrian"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "551",
+        "nombre": "SACASAS Marcel"
+      },
+      "B": {
+        "licencia": "14032",
+        "nombre": "MAKHARASHVILI Irakli"
+      },
+      "C": {
+        "licencia": "12824",
+        "nombre": "FERRÉ Marcel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "551",
-        "nombre": "SACASAS Marcel"
-      },
-      {
-        "licencia": "12824",
-        "nombre": "FERRÉ Marcel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "5393",
         "nombre": "SALA David"
@@ -76,6 +66,16 @@
       {
         "licencia": "8346",
         "nombre": "PEREZ Javier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "551",
+        "nombre": "SACASAS Marcel"
+      },
+      {
+        "licencia": "12824",
+        "nombre": "FERRÉ Marcel"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "551",
-        "nombre": "SACASAS Marcel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5393",
         "nombre": "SALA David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "551",
+        "nombre": "SACASAS Marcel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14032",
-        "nombre": "MAKHARASHVILI Irakli"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8346",
         "nombre": "PEREZ Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14032",
+        "nombre": "MAKHARASHVILI Irakli"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12824",
-        "nombre": "FERRÉ Marcel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3914",
         "nombre": "SANCHEZ Adrian"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12824",
+        "nombre": "FERRÉ Marcel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "551",
-        "nombre": "SACASAS Marcel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8346",
         "nombre": "PEREZ Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "551",
+        "nombre": "SACASAS Marcel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12824",
-        "nombre": "FERRÉ Marcel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5393",
         "nombre": "SALA David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12824",
+        "nombre": "FERRÉ Marcel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14032",
-        "nombre": "MAKHARASHVILI Irakli"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3914",
         "nombre": "SANCHEZ Adrian"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14032",
+        "nombre": "MAKHARASHVILI Irakli"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "551",
-            "nombre": "SACASAS Marcel"
-          },
-          {
-            "licencia": "12824",
-            "nombre": "FERRÉ Marcel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "5393",
             "nombre": "SALA David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "551",
+            "nombre": "SACASAS Marcel"
+          },
+          {
+            "licencia": "12824",
+            "nombre": "FERRÉ Marcel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILANOVA DEL CAMI",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

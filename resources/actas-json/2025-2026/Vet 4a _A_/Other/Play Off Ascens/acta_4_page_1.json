@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANTA P. FECOSAUTO2n4aB",
+      "nombre": "FALCONS DE SABADELL A.E.1r4aB",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.1r4aB",
+      "nombre": "CTT SANTA P. FECOSAUTO2n4aB",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "B": {
-        "licencia": "17632",
-        "nombre": "JIMENEZ Oscar"
-      },
-      "C": {
-        "licencia": "17204",
-        "nombre": "CAÑADAS Antonio Javier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10148",
         "nombre": "PLAZA Santi"
@@ -55,6 +41,20 @@
         "licencia": "17507",
         "nombre": "SOLER Albert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
+      "B": {
+        "licencia": "17632",
+        "nombre": "JIMENEZ Oscar"
+      },
+      "C": {
+        "licencia": "17204",
+        "nombre": "CAÑADAS Antonio Javier"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10148",
         "nombre": "PLAZA Santi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17632",
-        "nombre": "JIMENEZ Oscar"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11143",
-        "nombre": "BORRELL Carles"
+        "letra": "A",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11143",
+        "nombre": "BORRELL Carles"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17632",
+        "nombre": "JIMENEZ Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17204",
-        "nombre": "CAÑADAS Antonio Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17507",
         "nombre": "SOLER Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17204",
+        "nombre": "CAÑADAS Antonio Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11143",
         "nombre": "BORRELL Carles"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17204",
-        "nombre": "CAÑADAS Antonio Javier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10148",
         "nombre": "PLAZA Santi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17204",
+        "nombre": "CAÑADAS Antonio Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17632",
-        "nombre": "JIMENEZ Oscar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17507",
         "nombre": "SOLER Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17632",
+        "nombre": "JIMENEZ Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "FALCONS DE SABADELL A.E.1r4aB",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 15
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

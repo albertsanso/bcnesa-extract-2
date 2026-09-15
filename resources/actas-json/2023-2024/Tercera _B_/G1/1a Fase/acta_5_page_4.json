@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen C",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen C",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11391",
-        "nombre": "CORDERO Martin"
-      },
-      "B": {
-        "licencia": "4492",
-        "nombre": "PRAT Jaume"
-      },
-      "C": {
-        "licencia": "12347",
-        "nombre": "FRANQUET Juan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12904",
         "nombre": "JIMENEZ Marti"
@@ -55,6 +41,20 @@
         "licencia": "17746",
         "nombre": "BALCELLS Pau"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11391",
+        "nombre": "CORDERO Martin"
+      },
+      "B": {
+        "licencia": "4492",
+        "nombre": "PRAT Jaume"
+      },
+      "C": {
+        "licencia": "12347",
+        "nombre": "FRANQUET Juan"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11391",
-        "nombre": "CORDERO Martin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12904",
         "nombre": "JIMENEZ Marti"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "4492",
-        "nombre": "PRAT Jaume"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "1770",
-        "nombre": "MILLERA Carlos"
+        "letra": "A",
+        "licencia": "11391",
+        "nombre": "CORDERO Martin"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4492",
+        "nombre": "PRAT Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12347",
-        "nombre": "FRANQUET Juan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17746",
         "nombre": "BALCELLS Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12347",
+        "nombre": "FRANQUET Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11391",
-        "nombre": "CORDERO Martin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1770",
         "nombre": "MILLERA Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11391",
+        "nombre": "CORDERO Martin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12347",
-        "nombre": "FRANQUET Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12904",
         "nombre": "JIMENEZ Marti"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12347",
+        "nombre": "FRANQUET Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4492",
-        "nombre": "PRAT Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17746",
         "nombre": "BALCELLS Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4492",
+        "nombre": "PRAT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RUBI",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "B": {
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "C": {
-        "licencia": "196",
-        "nombre": "GUZMÁN Josep Maria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "654",
         "nombre": "OSUNA Fco. Jose"
@@ -55,20 +41,24 @@
         "licencia": "6200",
         "nombre": "MORALES Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
+      "B": {
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      "C": {
+        "licencia": "196",
+        "nombre": "GUZMÁN Josep Maria"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      {
-        "licencia": "196",
-        "nombre": "GUZMÁN Josep Maria"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "684",
         "nombre": "JULIÀ Fèlix"
@@ -76,6 +66,16 @@
       {
         "licencia": "654",
         "nombre": "OSUNA Fco. Jose"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      {
+        "licencia": "196",
+        "nombre": "GUZMÁN Josep Maria"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "654",
         "nombre": "OSUNA Fco. Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,64 +110,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "684",
+        "nombre": "JULIÀ Fèlix"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "227",
         "nombre": "CREIXELL Josep"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "684",
-        "nombre": "JULIÀ Fèlix"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "196",
-        "nombre": "GUZMÁN Josep Maria"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6200",
-        "nombre": "MORALES Manuel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "684",
-        "nombre": "JULIÀ Fèlix"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +125,56 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6200",
+        "nombre": "MORALES Manuel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "196",
+        "nombre": "GUZMÁN Josep Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "684",
+        "nombre": "JULIÀ Fèlix"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "196",
-        "nombre": "GUZMÁN Josep Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "654",
         "nombre": "OSUNA Fco. Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "196",
+        "nombre": "GUZMÁN Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6200",
         "nombre": "MORALES Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "227",
-            "nombre": "CREIXELL Josep"
-          },
-          {
-            "licencia": "196",
-            "nombre": "GUZMÁN Josep Maria"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "684",
             "nombre": "JULIÀ Fèlix"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "227",
+            "nombre": "CREIXELL Josep"
+          },
+          {
+            "licencia": "196",
+            "nombre": "GUZMÁN Josep Maria"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT ATENEU 1882",
+    "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 15
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

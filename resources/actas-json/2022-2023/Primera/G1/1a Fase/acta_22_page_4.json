@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ICELAND TT ELS 8 LA GARRIGA",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "ICELAND TT ELS 8 LA GARRIGA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      "B": {
-        "licencia": "8301",
-        "nombre": "CHICU Radu"
-      },
-      "C": {
-        "licencia": "12296",
-        "nombre": "COROMINAS Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6041",
         "nombre": "AGUILA Iago"
@@ -55,6 +41,20 @@
         "licencia": "7242",
         "nombre": "CASADO Yeray"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
+      "B": {
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
+      },
+      "C": {
+        "licencia": "12296",
+        "nombre": "COROMINAS Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6041",
         "nombre": "AGUILA Iago"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8301",
-        "nombre": "CHICU Radu"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2409",
         "nombre": "BUXEDA Joan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12296",
-        "nombre": "COROMINAS Albert"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "7242",
-        "nombre": "CASADO Yeray"
+        "letra": "B",
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7242",
+        "nombre": "CASADO Yeray"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12296",
+        "nombre": "COROMINAS Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2409",
         "nombre": "BUXEDA Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12296",
-        "nombre": "COROMINAS Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6041",
         "nombre": "AGUILA Iago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12296",
+        "nombre": "COROMINAS Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8301",
-        "nombre": "CHICU Radu"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7242",
         "nombre": "CASADO Yeray"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "ICELAND TT ELS 8 LA GARRIGA",
     "marcador_partidos": {
-      "local": 17,
+      "local": 1,
       "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

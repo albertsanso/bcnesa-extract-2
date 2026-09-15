@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA ''A''",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "CTT BARCELONA ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15842",
-        "nombre": "GRAU Antoni"
-      },
-      "B": {
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      },
-      "C": {
-        "licencia": "16291",
-        "nombre": "CATALUÑA Jorge"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13506",
         "nombre": "HERNANDO Marc"
@@ -55,20 +41,24 @@
         "licencia": "15483",
         "nombre": "CARTAÑA Pau"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15842",
+        "nombre": "GRAU Antoni"
+      },
+      "B": {
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
+      },
+      "C": {
+        "licencia": "16291",
+        "nombre": "CATALUÑA Jorge"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16291",
-        "nombre": "CATALUÑA Jorge"
-      },
-      {
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "14028",
         "nombre": "RAMIREZ Daniel"
@@ -76,6 +66,16 @@
       {
         "licencia": "15483",
         "nombre": "CARTAÑA Pau"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16291",
+        "nombre": "CATALUÑA Jorge"
+      },
+      {
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15842",
-        "nombre": "GRAU Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13506",
         "nombre": "HERNANDO Marc"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14028",
-        "nombre": "RAMIREZ Daniel"
+        "letra": "A",
+        "licencia": "15842",
+        "nombre": "GRAU Antoni"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16291",
-        "nombre": "CATALUÑA Jorge"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15483",
         "nombre": "CARTAÑA Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16291",
+        "nombre": "CATALUÑA Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,14 +160,39 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
+        "letra": "X",
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "15842",
         "nombre": "GRAU Antoni"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "13506",
+        "nombre": "HERNANDO Marc"
+      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14028",
-        "nombre": "RAMIREZ Daniel"
+        "letra": "C",
+        "licencia": "16291",
+        "nombre": "CATALUÑA Jorge"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,33 +201,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "16291",
-        "nombre": "CATALUÑA Jorge"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "13506",
-        "nombre": "HERNANDO Marc"
-      },
-      "sets": [],
-      "resultado_juegos": {
         "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15483",
         "nombre": "CARTAÑA Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16291",
-            "nombre": "CATALUÑA Jorge"
-          },
-          {
-            "licencia": "9119",
-            "nombre": "LLORENTE Jose Antonio"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "14028",
             "nombre": "RAMIREZ Daniel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16291",
+            "nombre": "CATALUÑA Jorge"
+          },
+          {
+            "licencia": "9119",
+            "nombre": "LLORENTE Jose Antonio"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

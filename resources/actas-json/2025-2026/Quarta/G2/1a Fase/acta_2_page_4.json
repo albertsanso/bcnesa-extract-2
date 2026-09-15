@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE 'B'",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "EL CENTRE 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19140",
-        "nombre": "CARTRO Edmon"
-      },
-      "B": {
-        "licencia": "19114",
-        "nombre": "RIBES Natalia"
-      },
-      "C": {
-        "licencia": "20996",
-        "nombre": "ORTEGA Ricardo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8286",
         "nombre": "GONZALEZ Jordi"
@@ -55,6 +41,20 @@
         "licencia": "17133",
         "nombre": "CAMPO Rafael"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19140",
+        "nombre": "CARTRO Edmon"
+      },
+      "B": {
+        "licencia": "19114",
+        "nombre": "RIBES Natalia"
+      },
+      "C": {
+        "licencia": "20996",
+        "nombre": "ORTEGA Ricardo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19140",
-        "nombre": "CARTRO Edmon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8286",
         "nombre": "GONZALEZ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19140",
+        "nombre": "CARTRO Edmon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19114",
-        "nombre": "RIBES Natalia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19081",
         "nombre": "GRAU Francesc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19114",
+        "nombre": "RIBES Natalia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "20996",
-        "nombre": "ORTEGA Ricardo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17133",
         "nombre": "CAMPO Rafael"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20996",
+        "nombre": "ORTEGA Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19140",
-        "nombre": "CARTRO Edmon"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19081",
         "nombre": "GRAU Francesc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19140",
+        "nombre": "CARTRO Edmon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "20996",
-        "nombre": "ORTEGA Ricardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8286",
         "nombre": "GONZALEZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20996",
+        "nombre": "ORTEGA Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19114",
-        "nombre": "RIBES Natalia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17133",
         "nombre": "CAMPO Rafael"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19114",
+        "nombre": "RIBES Natalia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT CASTELLAR",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

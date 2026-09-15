@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"D\"",
+      "nombre": "CN SABADELL ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN SABADELL ''B''",
+      "nombre": "LLUÏSOS DE GRÀCIA \"D\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16820",
-        "nombre": "CASALS Toni"
-      },
-      "B": {
-        "licencia": "17968",
-        "nombre": "GARCIA Ander"
-      },
-      "C": {
-        "licencia": "16814",
-        "nombre": "LAMICH Bruno"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16851",
         "nombre": "LAZARO Marc"
@@ -55,20 +41,24 @@
         "licencia": "15366",
         "nombre": "PEREZ Juan Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16820",
+        "nombre": "CASALS Toni"
+      },
+      "B": {
+        "licencia": "17968",
+        "nombre": "GARCIA Ander"
+      },
+      "C": {
+        "licencia": "16814",
+        "nombre": "LAMICH Bruno"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "17968",
-        "nombre": "GARCIA Ander"
-      },
-      {
-        "licencia": "16820",
-        "nombre": "CASALS Toni"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "18029",
         "nombre": "POYATOS Pau"
@@ -76,6 +66,16 @@
       {
         "licencia": "16851",
         "nombre": "LAZARO Marc"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "17968",
+        "nombre": "GARCIA Ander"
+      },
+      {
+        "licencia": "16820",
+        "nombre": "CASALS Toni"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16820",
-        "nombre": "CASALS Toni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16851",
         "nombre": "LAZARO Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16820",
+        "nombre": "CASALS Toni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17968",
-        "nombre": "GARCIA Ander"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18029",
         "nombre": "POYATOS Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17968",
+        "nombre": "GARCIA Ander"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16814",
-        "nombre": "LAMICH Bruno"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15366",
         "nombre": "PEREZ Juan Francisco"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16820",
-        "nombre": "CASALS Toni"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18029",
-        "nombre": "POYATOS Pau"
+        "letra": "C",
+        "licencia": "16814",
+        "nombre": "LAMICH Bruno"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,23 +151,23 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "16814",
-        "nombre": "LAMICH Bruno"
+        "letra": "X",
+        "licencia": "18029",
+        "nombre": "POYATOS Pau"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "16851",
-        "nombre": "LAZARO Marc"
+        "letra": "A",
+        "licencia": "16820",
+        "nombre": "CASALS Toni"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +176,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "16851",
+        "nombre": "LAZARO Marc"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16814",
+        "nombre": "LAMICH Bruno"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 3,
-        "visitante": 2
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17968",
-        "nombre": "GARCIA Ander"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15366",
         "nombre": "PEREZ Juan Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17968",
+        "nombre": "GARCIA Ander"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "17968",
-            "nombre": "GARCIA Ander"
-          },
-          {
-            "licencia": "16820",
-            "nombre": "CASALS Toni"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "18029",
             "nombre": "POYATOS Pau"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17968",
+            "nombre": "GARCIA Ander"
+          },
+          {
+            "licencia": "16820",
+            "nombre": "CASALS Toni"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN SABADELL ''B''",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

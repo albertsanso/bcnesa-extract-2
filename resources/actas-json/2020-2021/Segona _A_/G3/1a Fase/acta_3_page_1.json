@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT CASTELLDEFELS ''A''",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "TT CASTELLDEFELS ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7982",
-        "nombre": "CAPDEVILA Oscar"
-      },
-      "B": {
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "C": {
-        "licencia": "14221",
-        "nombre": "GÓMEZ Carles"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11357",
         "nombre": "BERNAL Pau"
@@ -55,6 +41,20 @@
         "licencia": "3165",
         "nombre": "BRETONES Xavier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7982",
+        "nombre": "CAPDEVILA Oscar"
+      },
+      "B": {
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "C": {
+        "licencia": "14221",
+        "nombre": "GÓMEZ Carles"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7982",
-        "nombre": "CAPDEVILA Oscar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11357",
         "nombre": "BERNAL Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7982",
+        "nombre": "CAPDEVILA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7087",
         "nombre": "CRUELLS Ruben"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14221",
-        "nombre": "GÓMEZ Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3165",
         "nombre": "BRETONES Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14221",
+        "nombre": "GÓMEZ Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7982",
-        "nombre": "CAPDEVILA Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7087",
         "nombre": "CRUELLS Ruben"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7982",
+        "nombre": "CAPDEVILA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14221",
-        "nombre": "GÓMEZ Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11357",
         "nombre": "BERNAL Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14221",
+        "nombre": "GÓMEZ Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3165",
         "nombre": "BRETONES Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT CASTELLAR",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

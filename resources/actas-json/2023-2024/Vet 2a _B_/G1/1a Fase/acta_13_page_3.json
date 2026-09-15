@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16371",
-        "nombre": "LOPEZ Juan Francisco"
-      },
-      "B": {
-        "licencia": "6482",
-        "nombre": "OLTENAS Viorel"
-      },
-      "C": {
-        "licencia": "4378",
-        "nombre": "CLAVER Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3970",
         "nombre": "GUTIERREZ Sergio"
@@ -55,6 +41,20 @@
         "licencia": "14221",
         "nombre": "GÓMEZ Carles"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16371",
+        "nombre": "LOPEZ Juan Francisco"
+      },
+      "B": {
+        "licencia": "6482",
+        "nombre": "OLTENAS Viorel"
+      },
+      "C": {
+        "licencia": "4378",
+        "nombre": "CLAVER Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16371",
-        "nombre": "LOPEZ Juan Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3970",
         "nombre": "GUTIERREZ Sergio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16371",
+        "nombre": "LOPEZ Juan Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6482",
-        "nombre": "OLTENAS Viorel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "4378",
-        "nombre": "CLAVER Antonio"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "14221",
-        "nombre": "GÓMEZ Carles"
+        "letra": "B",
+        "licencia": "6482",
+        "nombre": "OLTENAS Viorel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "14221",
+        "nombre": "GÓMEZ Carles"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4378",
+        "nombre": "CLAVER Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16371",
-        "nombre": "LOPEZ Juan Francisco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16371",
+        "nombre": "LOPEZ Juan Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4378",
-        "nombre": "CLAVER Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3970",
         "nombre": "GUTIERREZ Sergio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4378",
+        "nombre": "CLAVER Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6482",
-        "nombre": "OLTENAS Viorel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14221",
         "nombre": "GÓMEZ Carles"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6482",
+        "nombre": "OLTENAS Viorel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

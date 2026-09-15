@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILASSAR ''A''",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "CTT VILASSAR ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17139",
-        "nombre": "PARRA Llorenç August"
-      },
-      "B": {
-        "licencia": "19316",
-        "nombre": "GUANTER Josep Maria"
-      },
-      "C": {
-        "licencia": "17706",
-        "nombre": "POVEDA Francisco Javier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12123",
         "nombre": "ANDREU Salvador"
@@ -55,6 +41,20 @@
         "licencia": "8390",
         "nombre": "LLOBET Oriol"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17139",
+        "nombre": "PARRA Llorenç August"
+      },
+      "B": {
+        "licencia": "19316",
+        "nombre": "GUANTER Josep Maria"
+      },
+      "C": {
+        "licencia": "17706",
+        "nombre": "POVEDA Francisco Javier"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17139",
-        "nombre": "PARRA Llorenç August"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12123",
         "nombre": "ANDREU Salvador"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "19316",
-        "nombre": "GUANTER Josep Maria"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12801",
-        "nombre": "CAMPS Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "17706",
-        "nombre": "POVEDA Francisco Javier"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "8390",
-        "nombre": "LLOBET Oriol"
+        "letra": "A",
+        "licencia": "17139",
+        "nombre": "PARRA Llorenç August"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,47 +81,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17139",
-        "nombre": "PARRA Llorenç August"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12801",
         "nombre": "CAMPS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19316",
+        "nombre": "GUANTER Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 0
       }
     },
     {
-      "numero": 5,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "8390",
+        "nombre": "LLOBET Oriol"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "17706",
         "nombre": "POVEDA Francisco Javier"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "12123",
-        "nombre": "ANDREU Salvador"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,23 +130,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 2,
+        "visitante": 1
       }
     },
     {
-      "numero": 6,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19316",
-        "nombre": "GUANTER Josep Maria"
+        "letra": "X",
+        "licencia": "12801",
+        "nombre": "CAMPS Jordi"
       },
       "visitante": {
-        "letra": "Z",
-        "licencia": "8390",
-        "nombre": "LLOBET Oriol"
+        "letra": "A",
+        "licencia": "17139",
+        "nombre": "PARRA Llorenç August"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17706",
+        "nombre": "POVEDA Francisco Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "8390",
+        "nombre": "LLOBET Oriol"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19316",
+        "nombre": "GUANTER Josep Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

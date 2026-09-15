@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "BELLVITGE ALHEÑA",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "BELLVITGE ALHEÑA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "713",
-        "nombre": "GARCIA Carlos"
-      },
-      "B": {
-        "licencia": "494",
-        "nombre": "GONZÁLEZ Ricard"
-      },
-      "C": {
-        "licencia": "674",
-        "nombre": "LOPEZ Manolo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
@@ -55,20 +41,24 @@
         "licencia": "7807",
         "nombre": "BOLAÑOS Sergio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
+      "B": {
+        "licencia": "494",
+        "nombre": "GONZÁLEZ Ricard"
+      },
+      "C": {
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "674",
-        "nombre": "LOPEZ Manolo"
-      },
-      {
-        "licencia": "713",
-        "nombre": "GARCIA Carlos"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "7545",
         "nombre": "SIMON Andreu"
@@ -76,6 +66,16 @@
       {
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
+      {
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "713",
-        "nombre": "GARCIA Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "494",
-        "nombre": "GONZÁLEZ Ricard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "494",
+        "nombre": "GONZÁLEZ Ricard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "674",
-        "nombre": "LOPEZ Manolo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7807",
         "nombre": "BOLAÑOS Sergio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "713",
-        "nombre": "GARCIA Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "674",
-        "nombre": "LOPEZ Manolo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "494",
-        "nombre": "GONZÁLEZ Ricard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7807",
         "nombre": "BOLAÑOS Sergio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "494",
+        "nombre": "GONZÁLEZ Ricard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "674",
-            "nombre": "LOPEZ Manolo"
-          },
-          {
-            "licencia": "713",
-            "nombre": "GARCIA Carlos"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "7545",
             "nombre": "SIMON Andreu"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "674",
+            "nombre": "LOPEZ Manolo"
+          },
+          {
+            "licencia": "713",
+            "nombre": "GARCIA Carlos"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "BELLVITGE ALHEÑA",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

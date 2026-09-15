@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "ÀNECBLAU - TT ELS JOVES",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ÀNECBLAU - TT ELS JOVES",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13434",
-        "nombre": "CASABONA Ramon"
-      },
-      "B": {
-        "licencia": "13438",
-        "nombre": "PUCHE Carlos"
-      },
-      "C": {
-        "licencia": "14327",
-        "nombre": "HOSPITAL Txomin"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10196",
         "nombre": "HEREDIA Roger"
@@ -55,6 +41,20 @@
         "licencia": "3983",
         "nombre": "PLA Joaquim"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13434",
+        "nombre": "CASABONA Ramon"
+      },
+      "B": {
+        "licencia": "13438",
+        "nombre": "PUCHE Carlos"
+      },
+      "C": {
+        "licencia": "14327",
+        "nombre": "HOSPITAL Txomin"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13434",
-        "nombre": "CASABONA Ramon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10196",
         "nombre": "HEREDIA Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13434",
+        "nombre": "CASABONA Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13438",
-        "nombre": "PUCHE Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15287",
         "nombre": "ORDÓÑEZ Joel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13438",
+        "nombre": "PUCHE Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14327",
-        "nombre": "HOSPITAL Txomin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3983",
         "nombre": "PLA Joaquim"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14327",
+        "nombre": "HOSPITAL Txomin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13434",
-        "nombre": "CASABONA Ramon"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15287",
         "nombre": "ORDÓÑEZ Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13434",
+        "nombre": "CASABONA Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14327",
-        "nombre": "HOSPITAL Txomin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10196",
         "nombre": "HEREDIA Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14327",
+        "nombre": "HOSPITAL Txomin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13438",
-        "nombre": "PUCHE Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3983",
         "nombre": "PLA Joaquim"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13438",
+        "nombre": "PUCHE Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "ÀNECBLAU - TT ELS JOVES",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 16
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

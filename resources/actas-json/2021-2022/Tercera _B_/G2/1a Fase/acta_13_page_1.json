@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EUROCLIMA BADALONA",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "EUROCLIMA BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13369",
-        "nombre": "AMANTIA Liam"
-      },
-      "B": {
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "C": {
-        "licencia": "14223",
-        "nombre": "GRANADOS Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "93",
         "nombre": "PUIG Jaume"
@@ -55,6 +41,20 @@
         "licencia": "14230",
         "nombre": "SOLE Pau"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13369",
+        "nombre": "AMANTIA Liam"
+      },
+      "B": {
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
+      "C": {
+        "licencia": "14223",
+        "nombre": "GRANADOS Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13369",
-        "nombre": "AMANTIA Liam"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "93",
         "nombre": "PUIG Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13369",
+        "nombre": "AMANTIA Liam"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14223",
-        "nombre": "GRANADOS Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14230",
         "nombre": "SOLE Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14223",
+        "nombre": "GRANADOS Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13369",
-        "nombre": "AMANTIA Liam"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13369",
+        "nombre": "AMANTIA Liam"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14223",
-        "nombre": "GRANADOS Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "93",
         "nombre": "PUIG Jaume"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14223",
+        "nombre": "GRANADOS Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14230",
         "nombre": "SOLE Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

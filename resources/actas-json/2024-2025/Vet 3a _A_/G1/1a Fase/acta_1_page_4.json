@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6922",
-        "nombre": "MALDONADO Esteban"
-      },
-      "B": {
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
-      "C": {
-        "licencia": "1106",
-        "nombre": "MORALES Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6656",
         "nombre": "ALVAREZ Antonio"
@@ -55,20 +41,24 @@
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6922",
+        "nombre": "MALDONADO Esteban"
+      },
+      "B": {
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
+      "C": {
+        "licencia": "1106",
+        "nombre": "MORALES Jordi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "1106",
-        "nombre": "MORALES Jordi"
-      },
-      {
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "7547",
         "nombre": "APARICIO David"
@@ -76,6 +66,16 @@
       {
         "licencia": "6656",
         "nombre": "ALVAREZ Antonio"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "1106",
+        "nombre": "MORALES Jordi"
+      },
+      {
+        "licencia": "439",
+        "nombre": "PONS Felix"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6922",
-        "nombre": "MALDONADO Esteban"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6656",
         "nombre": "ALVAREZ Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6922",
+        "nombre": "MALDONADO Esteban"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7547",
         "nombre": "APARICIO David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1106",
-        "nombre": "MORALES Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "6922",
-        "nombre": "MALDONADO Esteban"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7547",
-        "nombre": "APARICIO David"
+        "letra": "C",
+        "licencia": "1106",
+        "nombre": "MORALES Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,23 +151,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "1106",
-        "nombre": "MORALES Jordi"
+        "letra": "X",
+        "licencia": "7547",
+        "nombre": "APARICIO David"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "6656",
-        "nombre": "ALVAREZ Antonio"
+        "letra": "A",
+        "licencia": "6922",
+        "nombre": "MALDONADO Esteban"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +176,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "6656",
+        "nombre": "ALVAREZ Antonio"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1106",
+        "nombre": "MORALES Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "1106",
-            "nombre": "MORALES Jordi"
-          },
-          {
-            "licencia": "439",
-            "nombre": "PONS Felix"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "7547",
             "nombre": "APARICIO David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "1106",
+            "nombre": "MORALES Jordi"
+          },
+          {
+            "licencia": "439",
+            "nombre": "PONS Felix"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CETT ESPARREGUERA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 9
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

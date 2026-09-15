@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EUROCLIMA BADALONA",
+      "nombre": "LLUÏSOS D'HORTA TT 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT 'A'",
+      "nombre": "EUROCLIMA BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10061",
-        "nombre": "RULL Jordi"
-      },
-      "B": {
-        "licencia": "16885",
-        "nombre": "PLANELL Albert"
-      },
-      "C": {
-        "licencia": "11736",
-        "nombre": "RUIZ Ignasi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15810",
         "nombre": "MUÑOZ Jose Manuel"
@@ -55,20 +41,24 @@
         "licencia": "19052",
         "nombre": "PALACIOS Miguel Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10061",
+        "nombre": "RULL Jordi"
+      },
+      "B": {
+        "licencia": "16885",
+        "nombre": "PLANELL Albert"
+      },
+      "C": {
+        "licencia": "11736",
+        "nombre": "RUIZ Ignasi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11736",
-        "nombre": "RUIZ Ignasi"
-      },
-      {
-        "licencia": "16885",
-        "nombre": "PLANELL Albert"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "17675",
         "nombre": "TORRENS Francisco"
@@ -76,6 +66,16 @@
       {
         "licencia": "15810",
         "nombre": "MUÑOZ Jose Manuel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11736",
+        "nombre": "RUIZ Ignasi"
+      },
+      {
+        "licencia": "16885",
+        "nombre": "PLANELL Albert"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10061",
-        "nombre": "RULL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15810",
         "nombre": "MUÑOZ Jose Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10061",
+        "nombre": "RULL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16885",
-        "nombre": "PLANELL Albert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17675",
         "nombre": "TORRENS Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16885",
+        "nombre": "PLANELL Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11736",
-        "nombre": "RUIZ Ignasi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19052",
         "nombre": "PALACIOS Miguel Angel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "10061",
-        "nombre": "RULL Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17675",
-        "nombre": "TORRENS Francisco"
+        "letra": "C",
+        "licencia": "11736",
+        "nombre": "RUIZ Ignasi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,23 +151,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "11736",
-        "nombre": "RUIZ Ignasi"
+        "letra": "X",
+        "licencia": "17675",
+        "nombre": "TORRENS Francisco"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
+        "letra": "A",
+        "licencia": "10061",
+        "nombre": "RULL Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +176,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11736",
+        "nombre": "RUIZ Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16885",
-        "nombre": "PLANELL Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19052",
         "nombre": "PALACIOS Miguel Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16885",
+        "nombre": "PLANELL Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11736",
-            "nombre": "RUIZ Ignasi"
-          },
-          {
-            "licencia": "16885",
-            "nombre": "PLANELL Albert"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "17675",
             "nombre": "TORRENS Francisco"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11736",
+            "nombre": "RUIZ Ignasi"
+          },
+          {
+            "licencia": "16885",
+            "nombre": "PLANELL Albert"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EUROCLIMA BADALONA",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 9
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

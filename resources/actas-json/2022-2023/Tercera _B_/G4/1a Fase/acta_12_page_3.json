@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13166",
-        "nombre": "CARO David"
-      },
-      "B": {
-        "licencia": "17080",
-        "nombre": "LOPEZ Josep Manuel"
-      },
-      "C": {
-        "licencia": "13162",
-        "nombre": "RUSCA Domingo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17211",
         "nombre": "BARRETO Javier"
@@ -55,6 +41,20 @@
         "licencia": "16492",
         "nombre": "HÄRING Arthur"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13166",
+        "nombre": "CARO David"
+      },
+      "B": {
+        "licencia": "17080",
+        "nombre": "LOPEZ Josep Manuel"
+      },
+      "C": {
+        "licencia": "13162",
+        "nombre": "RUSCA Domingo"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13166",
-        "nombre": "CARO David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17211",
         "nombre": "BARRETO Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17080",
-        "nombre": "LOPEZ Josep Manuel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "3181",
-        "nombre": "POCH Xavier"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "13162",
-        "nombre": "RUSCA Domingo"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16492",
-        "nombre": "HÄRING Arthur"
+        "letra": "A",
+        "licencia": "13166",
+        "nombre": "CARO David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,72 +81,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13166",
-        "nombre": "CARO David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3181",
         "nombre": "POCH Xavier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "13162",
-        "nombre": "RUSCA Domingo"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "17211",
-        "nombre": "BARRETO Javier"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
         "letra": "B",
         "licencia": "17080",
         "nombre": "LOPEZ Josep Manuel"
       },
-      "visitante": {
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
         "letra": "Z",
         "licencia": "16492",
         "nombre": "HÄRING Arthur"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13162",
+        "nombre": "RUSCA Domingo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +130,96 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "3181",
+        "nombre": "POCH Xavier"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13166",
+        "nombre": "CARO David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "17211",
+        "nombre": "BARRETO Javier"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13162",
+        "nombre": "RUSCA Domingo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16492",
+        "nombre": "HÄRING Arthur"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17080",
+        "nombre": "LOPEZ Josep Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

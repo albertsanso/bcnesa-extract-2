@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "B": {
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "C": {
-        "licencia": "2409",
-        "nombre": "BUXEDA Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13097",
         "nombre": "CARDONA Biel"
@@ -55,6 +41,20 @@
         "licencia": "2159",
         "nombre": "GARCIA Daniel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "B": {
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
+      "C": {
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13097",
         "nombre": "CARDONA Biel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "395",
-        "nombre": "EXPOSITO Juan Antonio"
+        "letra": "A",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "395",
+        "nombre": "EXPOSITO Juan Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2409",
-        "nombre": "BUXEDA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2159",
         "nombre": "GARCIA Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "395",
         "nombre": "EXPOSITO Juan Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2409",
-        "nombre": "BUXEDA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13097",
         "nombre": "CARDONA Biel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2409",
+        "nombre": "BUXEDA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2159",
         "nombre": "GARCIA Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

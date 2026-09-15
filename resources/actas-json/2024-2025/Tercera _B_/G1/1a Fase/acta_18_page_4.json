@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "ESC. PING PONG VIA TRAJANA ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ESC. PING PONG VIA TRAJANA ''B''",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17621",
-        "nombre": "SANCHEZ Jaume"
-      },
-      "B": {
-        "licencia": "80",
-        "nombre": "MARTÍNEZ José"
-      },
-      "C": {
-        "licencia": "17315",
-        "nombre": "BAEZ Ruben Fermin"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8054",
         "nombre": "DESCARREGA Oscar"
@@ -55,6 +41,20 @@
         "licencia": "16449",
         "nombre": "BARRIOS Francisco José"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17621",
+        "nombre": "SANCHEZ Jaume"
+      },
+      "B": {
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
+      "C": {
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17621",
-        "nombre": "SANCHEZ Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8054",
         "nombre": "DESCARREGA Oscar"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17621",
+        "nombre": "SANCHEZ Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "80",
-        "nombre": "MARTÍNEZ José"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13474",
         "nombre": "DESCARREGA Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17315",
-        "nombre": "BAEZ Ruben Fermin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16449",
         "nombre": "BARRIOS Francisco José"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17621",
-        "nombre": "SANCHEZ Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13474",
         "nombre": "DESCARREGA Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17621",
+        "nombre": "SANCHEZ Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17315",
-        "nombre": "BAEZ Ruben Fermin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8054",
         "nombre": "DESCARREGA Oscar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "80",
-        "nombre": "MARTÍNEZ José"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16449",
         "nombre": "BARRIOS Francisco José"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATC MOLINS DE REI",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

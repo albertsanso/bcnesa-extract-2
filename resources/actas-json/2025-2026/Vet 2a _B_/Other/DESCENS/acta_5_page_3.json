@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      },
-      "B": {
-        "licencia": "307",
-        "nombre": "MORENO Juan M."
-      },
-      "C": {
-        "licencia": "328",
-        "nombre": "BOIX Angel Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3217",
         "nombre": "GARCIA Jose Luis"
@@ -55,20 +41,24 @@
         "licencia": "2365",
         "nombre": "CONDAL Jaume"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
+      "B": {
+        "licencia": "307",
+        "nombre": "MORENO Juan M."
+      },
+      "C": {
+        "licencia": "328",
+        "nombre": "BOIX Angel Antonio"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      },
-      {
-        "licencia": "328",
-        "nombre": "BOIX Angel Antonio"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "3548",
         "nombre": "ALVAREZ Enrique Sotero"
@@ -76,6 +66,16 @@
       {
         "licencia": "2365",
         "nombre": "CONDAL Jaume"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
+      {
+        "licencia": "328",
+        "nombre": "BOIX Angel Antonio"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3217",
         "nombre": "GARCIA Jose Luis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "307",
-        "nombre": "MORENO Juan M."
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3548",
         "nombre": "ALVAREZ Enrique Sotero"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "307",
+        "nombre": "MORENO Juan M."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "328",
-        "nombre": "BOIX Angel Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2365",
         "nombre": "CONDAL Jaume"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "3548",
-        "nombre": "ALVAREZ Enrique Sotero"
+        "letra": "C",
+        "licencia": "328",
+        "nombre": "BOIX Angel Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "328",
-        "nombre": "BOIX Angel Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3217",
         "nombre": "GARCIA Jose Luis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "307",
-        "nombre": "MORENO Juan M."
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "2365",
-        "nombre": "CONDAL Jaume"
+        "letra": "C",
+        "licencia": "328",
+        "nombre": "BOIX Angel Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "307",
+        "nombre": "MORENO Juan M."
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "12251",
-            "nombre": "ALONSO Joan"
-          },
-          {
-            "licencia": "328",
-            "nombre": "BOIX Angel Antonio"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "3548",
             "nombre": "ALVAREZ Enrique Sotero"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12251",
+            "nombre": "ALONSO Joan"
+          },
+          {
+            "licencia": "328",
+            "nombre": "BOIX Angel Antonio"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT POBLENOU",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11255",
-        "nombre": "VIDAL Oscar"
-      },
-      "B": {
-        "licencia": "7852",
-        "nombre": "RUIZ Juan Jesus"
-      },
-      "C": {
-        "licencia": "319",
-        "nombre": "PEDRÓ Santiago"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "108",
         "nombre": "ALEMANY Antonio"
@@ -55,20 +41,24 @@
         "licencia": "1928",
         "nombre": "MALDONADO Miquel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11255",
+        "nombre": "VIDAL Oscar"
+      },
+      "B": {
+        "licencia": "7852",
+        "nombre": "RUIZ Juan Jesus"
+      },
+      "C": {
+        "licencia": "319",
+        "nombre": "PEDRÓ Santiago"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11255",
-        "nombre": "VIDAL Oscar"
-      },
-      {
-        "licencia": "319",
-        "nombre": "PEDRÓ Santiago"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "108",
         "nombre": "ALEMANY Antonio"
@@ -76,6 +66,16 @@
       {
         "licencia": "208",
         "nombre": "COCHRAN Jordi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11255",
+        "nombre": "VIDAL Oscar"
+      },
+      {
+        "licencia": "319",
+        "nombre": "PEDRÓ Santiago"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11255",
-        "nombre": "VIDAL Oscar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "108",
         "nombre": "ALEMANY Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7852",
-        "nombre": "RUIZ Juan Jesus"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "208",
-        "nombre": "COCHRAN Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "319",
-        "nombre": "PEDRÓ Santiago"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "1928",
-        "nombre": "MALDONADO Miquel"
+        "letra": "A",
+        "licencia": "11255",
+        "nombre": "VIDAL Oscar"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,22 +102,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11255",
-        "nombre": "VIDAL Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "208",
         "nombre": "COCHRAN Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7852",
+        "nombre": "RUIZ Juan Jesus"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "319",
+        "nombre": "PEDRÓ Santiago"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,8 +151,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "208",
+        "nombre": "COCHRAN Jordi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11255",
+        "nombre": "VIDAL Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "319",
-        "nombre": "PEDRÓ Santiago"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "108",
         "nombre": "ALEMANY Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "319",
+        "nombre": "PEDRÓ Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7852",
-        "nombre": "RUIZ Juan Jesus"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1928",
         "nombre": "MALDONADO Miquel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7852",
+        "nombre": "RUIZ Juan Jesus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11255",
-            "nombre": "VIDAL Oscar"
-          },
-          {
-            "licencia": "319",
-            "nombre": "PEDRÓ Santiago"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "108",
             "nombre": "ALEMANY Antonio"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11255",
+            "nombre": "VIDAL Oscar"
+          },
+          {
+            "licencia": "319",
+            "nombre": "PEDRÓ Santiago"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

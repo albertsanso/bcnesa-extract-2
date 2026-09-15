@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5487",
-        "nombre": "GARCIA Tomas"
-      },
-      "B": {
-        "licencia": "3458",
-        "nombre": "RODRIGUEZ Miguel Angel"
-      },
-      "C": {
-        "licencia": "14224",
-        "nombre": "DE AMORES Rafael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "364",
         "nombre": "MONERA Jesus"
@@ -55,20 +41,24 @@
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      "B": {
+        "licencia": "3458",
+        "nombre": "RODRIGUEZ Miguel Angel"
+      },
+      "C": {
+        "licencia": "14224",
+        "nombre": "DE AMORES Rafael"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "5487",
-        "nombre": "GARCIA Tomas"
-      },
-      {
-        "licencia": "3458",
-        "nombre": "RODRIGUEZ Miguel Angel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "5428",
         "nombre": "FRANQUESA Ricardo"
@@ -76,6 +66,16 @@
       {
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
+      {
+        "licencia": "3458",
+        "nombre": "RODRIGUEZ Miguel Angel"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5487",
-        "nombre": "GARCIA Tomas"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "364",
         "nombre": "MONERA Jesus"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "3458",
-        "nombre": "RODRIGUEZ Miguel Angel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5428",
-        "nombre": "FRANQUESA Ricardo"
+        "letra": "A",
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5428",
+        "nombre": "FRANQUESA Ricardo"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3458",
+        "nombre": "RODRIGUEZ Miguel Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14224",
-        "nombre": "DE AMORES Rafael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14224",
+        "nombre": "DE AMORES Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5487",
-        "nombre": "GARCIA Tomas"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5428",
         "nombre": "FRANQUESA Ricardo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5487",
+        "nombre": "GARCIA Tomas"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14224",
-        "nombre": "DE AMORES Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "364",
         "nombre": "MONERA Jesus"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14224",
+        "nombre": "DE AMORES Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3458",
-        "nombre": "RODRIGUEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3458",
+        "nombre": "RODRIGUEZ Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "5487",
-            "nombre": "GARCIA Tomas"
-          },
-          {
-            "licencia": "3458",
-            "nombre": "RODRIGUEZ Miguel Angel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "5428",
             "nombre": "FRANQUESA Ricardo"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5487",
+            "nombre": "GARCIA Tomas"
+          },
+          {
+            "licencia": "3458",
+            "nombre": "RODRIGUEZ Miguel Angel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT CASTELLDEFELS",
+    "ganador": "EL CERCLE TT GRÀCIA",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17701",
-        "nombre": "RUIZ Santiago"
-      },
-      "B": {
-        "licencia": "14669",
-        "nombre": "BENAVIDES Fernando"
-      },
-      "C": {
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13161",
         "nombre": "PUIG Josep"
@@ -55,20 +41,24 @@
         "licencia": "13162",
         "nombre": "RUSCA Domingo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17701",
+        "nombre": "RUIZ Santiago"
+      },
+      "B": {
+        "licencia": "14669",
+        "nombre": "BENAVIDES Fernando"
+      },
+      "C": {
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "17701",
-        "nombre": "RUIZ Santiago"
-      },
-      {
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13162",
         "nombre": "RUSCA Domingo"
@@ -76,6 +66,16 @@
       {
         "licencia": "13184",
         "nombre": "GALLEGO David"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "17701",
+        "nombre": "RUIZ Santiago"
+      },
+      {
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17701",
-        "nombre": "RUIZ Santiago"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13161",
         "nombre": "PUIG Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17701",
+        "nombre": "RUIZ Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14669",
-        "nombre": "BENAVIDES Fernando"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13184",
         "nombre": "GALLEGO David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14669",
+        "nombre": "BENAVIDES Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13162",
         "nombre": "RUSCA Domingo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "17701",
-        "nombre": "RUIZ Santiago"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13184",
-        "nombre": "GALLEGO David"
+        "letra": "C",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13184",
+        "nombre": "GALLEGO David"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17701",
+        "nombre": "RUIZ Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13161",
         "nombre": "PUIG Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "14669",
-        "nombre": "BENAVIDES Fernando"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "13162",
-        "nombre": "RUSCA Domingo"
+        "letra": "C",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13162",
+        "nombre": "RUSCA Domingo"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14669",
+        "nombre": "BENAVIDES Fernando"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "17701",
-            "nombre": "RUIZ Santiago"
-          },
-          {
-            "licencia": "8127",
-            "nombre": "MONTENEGRO Rafael"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13162",
             "nombre": "RUSCA Domingo"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17701",
+            "nombre": "RUIZ Santiago"
+          },
+          {
+            "licencia": "8127",
+            "nombre": "MONTENEGRO Rafael"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT RUBI",
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

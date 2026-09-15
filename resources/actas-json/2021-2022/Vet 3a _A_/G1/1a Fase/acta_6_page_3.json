@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11286",
-        "nombre": "ZHANG Zhiquan"
-      },
-      "B": {
-        "licencia": "14327",
-        "nombre": "HOSPITAL Txomin"
-      },
-      "C": {
-        "licencia": "2045",
-        "nombre": "RINCON Jose Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
@@ -55,20 +41,24 @@
         "licencia": "9114",
         "nombre": "VINYALS Oriol"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11286",
+        "nombre": "ZHANG Zhiquan"
+      },
+      "B": {
+        "licencia": "14327",
+        "nombre": "HOSPITAL Txomin"
+      },
+      "C": {
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11286",
-        "nombre": "ZHANG Zhiquan"
-      },
-      {
-        "licencia": "2045",
-        "nombre": "RINCON Jose Luis"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "9114",
         "nombre": "VINYALS Oriol"
@@ -76,6 +66,16 @@
       {
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11286",
+        "nombre": "ZHANG Zhiquan"
+      },
+      {
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "5411",
+        "nombre": "CORTILLAS Isidre"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "11286",
         "nombre": "ZHANG Zhiquan"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "364",
+        "nombre": "MONERA Jesus"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "5411",
-        "nombre": "CORTILLAS Isidre"
+        "letra": "B",
+        "licencia": "14327",
+        "nombre": "HOSPITAL Txomin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -102,57 +152,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14327",
-        "nombre": "HOSPITAL Txomin"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "364",
-        "nombre": "MONERA Jesus"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "2045",
-        "nombre": "RINCON Jose Luis"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "9114",
-        "nombre": "VINYALS Oriol"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "visitante": 2
       }
     },
     {
@@ -160,39 +160,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11286",
-        "nombre": "ZHANG Zhiquan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "364",
         "nombre": "MONERA Jesus"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "2045",
-        "nombre": "RINCON Jose Luis"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "5411",
-        "nombre": "CORTILLAS Isidre"
+        "letra": "A",
+        "licencia": "11286",
+        "nombre": "ZHANG Zhiquan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +176,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "5411",
+        "nombre": "CORTILLAS Isidre"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14327",
-        "nombre": "HOSPITAL Txomin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "9114",
         "nombre": "VINYALS Oriol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14327",
+        "nombre": "HOSPITAL Txomin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11286",
-            "nombre": "ZHANG Zhiquan"
-          },
-          {
-            "licencia": "2045",
-            "nombre": "RINCON Jose Luis"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "9114",
             "nombre": "VINYALS Oriol"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11286",
+            "nombre": "ZHANG Zhiquan"
+          },
+          {
+            "licencia": "2045",
+            "nombre": "RINCON Jose Luis"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CERCLE TT GRÀCIA",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

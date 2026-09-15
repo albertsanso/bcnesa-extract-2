@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLGALI 'A'",
+      "nombre": "CTT VILASSAR L'OBRERA 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR L'OBRERA 'A'",
+      "nombre": "CTT CASTELLGALI 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18768",
-        "nombre": "VIVES Aleix"
-      },
-      "B": {
-        "licencia": "13080",
-        "nombre": "VAZQUEZ Gabriel"
-      },
-      "C": {
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13542",
         "nombre": "SAÑUDO Joel"
@@ -55,6 +41,20 @@
         "licencia": "17338",
         "nombre": "PRADA Marc"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18768",
+        "nombre": "VIVES Aleix"
+      },
+      "B": {
+        "licencia": "13080",
+        "nombre": "VAZQUEZ Gabriel"
+      },
+      "C": {
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18768",
-        "nombre": "VIVES Aleix"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13542",
         "nombre": "SAÑUDO Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18768",
+        "nombre": "VIVES Aleix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13080",
-        "nombre": "VAZQUEZ Gabriel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8128",
         "nombre": "PINEDA Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13080",
+        "nombre": "VAZQUEZ Gabriel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17338",
         "nombre": "PRADA Marc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18768",
-        "nombre": "VIVES Aleix"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8128",
         "nombre": "PINEDA Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18768",
+        "nombre": "VIVES Aleix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13542",
         "nombre": "SAÑUDO Joel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13080",
-        "nombre": "VAZQUEZ Gabriel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17338",
         "nombre": "PRADA Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13080",
+        "nombre": "VAZQUEZ Gabriel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILASSAR L'OBRERA 'A'",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

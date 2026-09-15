@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB ARIEL C",
+      "nombre": "LLUÏSOS D'HORTA TT 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT 'A'",
+      "nombre": "CLUB ARIEL C",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "20484",
-        "nombre": "TORT Josep"
-      },
-      "B": {
-        "licencia": "17728",
-        "nombre": "ZILOTTI Gianguido"
-      },
-      "C": {
-        "licencia": "16265",
-        "nombre": "GARCÍA Eduard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18177",
         "nombre": "MARTINEZ Jaume"
@@ -55,6 +41,20 @@
         "licencia": "20807",
         "nombre": "GIBERT Alejandro"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "20484",
+        "nombre": "TORT Josep"
+      },
+      "B": {
+        "licencia": "17728",
+        "nombre": "ZILOTTI Gianguido"
+      },
+      "C": {
+        "licencia": "16265",
+        "nombre": "GARCÍA Eduard"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "20484",
-        "nombre": "TORT Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18177",
         "nombre": "MARTINEZ Jaume"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17728",
-        "nombre": "ZILOTTI Gianguido"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
+        "letra": "A",
+        "licencia": "20484",
+        "nombre": "TORT Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17728",
+        "nombre": "ZILOTTI Gianguido"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16265",
-        "nombre": "GARCÍA Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20807",
         "nombre": "GIBERT Alejandro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16265",
+        "nombre": "GARCÍA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "20484",
-        "nombre": "TORT Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15810",
         "nombre": "MUÑOZ Jose Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20484",
+        "nombre": "TORT Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16265",
-        "nombre": "GARCÍA Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18177",
         "nombre": "MARTINEZ Jaume"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16265",
+        "nombre": "GARCÍA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17728",
-        "nombre": "ZILOTTI Gianguido"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20807",
         "nombre": "GIBERT Alejandro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17728",
+        "nombre": "ZILOTTI Gianguido"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB ARIEL C",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

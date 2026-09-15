@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA 'A'",
+      "nombre": "CTT GRANOLLERS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT GRANOLLERS",
+      "nombre": "CTT ELS AMICS TERRASSA 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14180",
-        "nombre": "AGUILAR Antoni"
-      },
-      "B": {
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "C": {
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "20299",
         "nombre": "FONT Pere"
@@ -55,20 +41,24 @@
         "licencia": "16593",
         "nombre": "PARDO Martí"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
+      },
+      "B": {
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "C": {
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      {
-        "licencia": "14180",
-        "nombre": "AGUILAR Antoni"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "20299",
         "nombre": "FONT Pere"
@@ -76,6 +66,16 @@
       {
         "licencia": "1156",
         "nombre": "SELVA David"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      {
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14180",
-        "nombre": "AGUILAR Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20299",
         "nombre": "FONT Pere"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1156",
         "nombre": "SELVA David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,89 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16593",
         "nombre": "PARDO Martí"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14180",
-        "nombre": "AGUILAR Antoni"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
         "letra": "C",
         "licencia": "16410",
         "nombre": "SAPES Esteve"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "20299",
-        "nombre": "FONT Pere"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16593",
-        "nombre": "PARDO Martí"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +150,81 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1156",
+        "nombre": "SELVA David"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "20299",
+        "nombre": "FONT Pere"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16593",
+        "nombre": "PARDO Martí"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8920",
-            "nombre": "GARCIA Jose"
-          },
-          {
-            "licencia": "14180",
-            "nombre": "AGUILAR Antoni"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "20299",
             "nombre": "FONT Pere"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8920",
+            "nombre": "GARCIA Jose"
+          },
+          {
+            "licencia": "14180",
+            "nombre": "AGUILAR Antoni"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT GRANOLLERS",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ESCOLA CTT CASTELLDEFELS",
+      "nombre": "ESCOLETA VIA TRAJANA \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ESCOLETA VIA TRAJANA \"A\"",
+      "nombre": "ESCOLA CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14883",
-        "nombre": "GONZÁLEZ Jan"
-      },
-      "B": {
-        "licencia": "14884",
-        "nombre": "GONZÁLEZ Martina"
-      },
-      "C": {
-        "licencia": "15564",
-        "nombre": "VERA Berkano Aker"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16454",
         "nombre": "ARANDA Miguel Ángel"
@@ -55,6 +41,20 @@
         "licencia": "16446",
         "nombre": "GONZÁLEZ Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "B": {
+        "licencia": "14884",
+        "nombre": "GONZÁLEZ Martina"
+      },
+      "C": {
+        "licencia": "15564",
+        "nombre": "VERA Berkano Aker"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14883",
-        "nombre": "GONZÁLEZ Jan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16454",
         "nombre": "ARANDA Miguel Ángel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14884",
-        "nombre": "GONZÁLEZ Martina"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16452",
-        "nombre": "PÉREZ Manuel"
+        "letra": "A",
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16452",
+        "nombre": "PÉREZ Manuel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14884",
+        "nombre": "GONZÁLEZ Martina"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15564",
-        "nombre": "VERA Berkano Aker"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16446",
         "nombre": "GONZÁLEZ Francisco"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14883",
-        "nombre": "GONZÁLEZ Jan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16452",
-        "nombre": "PÉREZ Manuel"
+        "letra": "C",
+        "licencia": "15564",
+        "nombre": "VERA Berkano Aker"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16452",
+        "nombre": "PÉREZ Manuel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15564",
-        "nombre": "VERA Berkano Aker"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16454",
         "nombre": "ARANDA Miguel Ángel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15564",
+        "nombre": "VERA Berkano Aker"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14884",
-        "nombre": "GONZÁLEZ Martina"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16446",
         "nombre": "GONZÁLEZ Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14884",
+        "nombre": "GONZÁLEZ Martina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ESCOLA CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

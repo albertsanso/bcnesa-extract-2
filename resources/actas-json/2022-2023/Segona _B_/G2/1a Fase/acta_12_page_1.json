@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ",
+      "nombre": "TT L'HOSPITALET ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''B''",
+      "nombre": "CTT CASTELLGALÍ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11506",
-        "nombre": "ALERT Vladimir"
-      },
-      "B": {
-        "licencia": "11191",
-        "nombre": "HERNANDEZ Jordi"
-      },
-      "C": {
-        "licencia": "11157",
-        "nombre": "SANS Montse"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10975",
         "nombre": "MUNIESA Victor"
@@ -55,6 +41,20 @@
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11506",
+        "nombre": "ALERT Vladimir"
+      },
+      "B": {
+        "licencia": "11191",
+        "nombre": "HERNANDEZ Jordi"
+      },
+      "C": {
+        "licencia": "11157",
+        "nombre": "SANS Montse"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11506",
-        "nombre": "ALERT Vladimir"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10975",
         "nombre": "MUNIESA Victor"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11191",
-        "nombre": "HERNANDEZ Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6637",
-        "nombre": "JIMENEZ Francisco Manuel"
+        "letra": "A",
+        "licencia": "11506",
+        "nombre": "ALERT Vladimir"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6637",
+        "nombre": "JIMENEZ Francisco Manuel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11191",
+        "nombre": "HERNANDEZ Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11157",
-        "nombre": "SANS Montse"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11157",
+        "nombre": "SANS Montse"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11506",
-        "nombre": "ALERT Vladimir"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6637",
         "nombre": "JIMENEZ Francisco Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11506",
+        "nombre": "ALERT Vladimir"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11157",
-        "nombre": "SANS Montse"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10975",
         "nombre": "MUNIESA Victor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11157",
+        "nombre": "SANS Montse"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11191",
-        "nombre": "HERNANDEZ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11191",
+        "nombre": "HERNANDEZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET ''B''",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

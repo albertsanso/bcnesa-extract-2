@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT CANET DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CANET DE MAR",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4648",
-        "nombre": "MOLINS Josep Anton"
-      },
-      "B": {
-        "licencia": "17610",
-        "nombre": "DE OSES Montserrat"
-      },
-      "C": {
-        "licencia": "16271",
-        "nombre": "OSUNA Lola"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "507",
         "nombre": "BERNABEU Ricardo"
@@ -55,6 +41,20 @@
         "licencia": "480",
         "nombre": "MAILLO Josep Manel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4648",
+        "nombre": "MOLINS Josep Anton"
+      },
+      "B": {
+        "licencia": "17610",
+        "nombre": "DE OSES Montserrat"
+      },
+      "C": {
+        "licencia": "16271",
+        "nombre": "OSUNA Lola"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4648",
-        "nombre": "MOLINS Josep Anton"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "507",
         "nombre": "BERNABEU Ricardo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4648",
+        "nombre": "MOLINS Josep Anton"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17610",
-        "nombre": "DE OSES Montserrat"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12195",
         "nombre": "SAÑA Orlando"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17610",
+        "nombre": "DE OSES Montserrat"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16271",
-        "nombre": "OSUNA Lola"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "480",
         "nombre": "MAILLO Josep Manel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16271",
+        "nombre": "OSUNA Lola"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4648",
-        "nombre": "MOLINS Josep Anton"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12195",
         "nombre": "SAÑA Orlando"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4648",
+        "nombre": "MOLINS Josep Anton"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16271",
-        "nombre": "OSUNA Lola"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "507",
         "nombre": "BERNABEU Ricardo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16271",
+        "nombre": "OSUNA Lola"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17610",
-        "nombre": "DE OSES Montserrat"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "480",
         "nombre": "MAILLO Josep Manel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17610",
+        "nombre": "DE OSES Montserrat"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CANET DE MAR",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

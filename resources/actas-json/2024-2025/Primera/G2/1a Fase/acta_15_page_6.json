@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT GRANOLLERS",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT GRANOLLERS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14790",
-        "nombre": "YETOR Jordi"
-      },
-      "B": {
-        "licencia": "17229",
-        "nombre": "GARCÍA Xavier"
-      },
-      "C": {
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8008",
         "nombre": "VARGAS Neo"
@@ -55,6 +41,20 @@
         "licencia": "1928",
         "nombre": "MALDONADO Miquel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14790",
+        "nombre": "YETOR Jordi"
+      },
+      "B": {
+        "licencia": "17229",
+        "nombre": "GARCÍA Xavier"
+      },
+      "C": {
+        "licencia": "1156",
+        "nombre": "SELVA David"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14790",
-        "nombre": "YETOR Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8008",
         "nombre": "VARGAS Neo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17229",
-        "nombre": "GARCÍA Xavier"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8007",
-        "nombre": "VARGAS Pedro Juan"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "1928",
-        "nombre": "MALDONADO Miquel"
+        "letra": "A",
+        "licencia": "14790",
+        "nombre": "YETOR Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17229",
+        "nombre": "GARCÍA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1156",
+        "nombre": "SELVA David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14790",
-        "nombre": "YETOR Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14790",
+        "nombre": "YETOR Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8008",
         "nombre": "VARGAS Neo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1156",
+        "nombre": "SELVA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17229",
-        "nombre": "GARCÍA Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1928",
         "nombre": "MALDONADO Miquel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17229",
+        "nombre": "GARCÍA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

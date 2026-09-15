@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
+      "nombre": "SCR EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "SCR EL CIERVO",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3489",
-        "nombre": "PEREZ Victor"
-      },
-      "B": {
-        "licencia": "1770",
-        "nombre": "MILLERA Carlos"
-      },
-      "C": {
-        "licencia": "12904",
-        "nombre": "JIMENEZ Marti"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "988",
         "nombre": "JIMÉNEZ Xavier"
@@ -55,6 +41,20 @@
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3489",
+        "nombre": "PEREZ Victor"
+      },
+      "B": {
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      },
+      "C": {
+        "licencia": "12904",
+        "nombre": "JIMENEZ Marti"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3489",
-        "nombre": "PEREZ Victor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "988",
         "nombre": "JIMÉNEZ Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3489",
+        "nombre": "PEREZ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1770",
-        "nombre": "MILLERA Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3164",
         "nombre": "PRAT Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12904",
-        "nombre": "JIMENEZ Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12904",
+        "nombre": "JIMENEZ Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3489",
-        "nombre": "PEREZ Victor"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3164",
         "nombre": "PRAT Pere"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3489",
+        "nombre": "PEREZ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12904",
-        "nombre": "JIMENEZ Marti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "988",
         "nombre": "JIMÉNEZ Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12904",
+        "nombre": "JIMENEZ Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1770",
-        "nombre": "MILLERA Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "SCR EL CIERVO",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

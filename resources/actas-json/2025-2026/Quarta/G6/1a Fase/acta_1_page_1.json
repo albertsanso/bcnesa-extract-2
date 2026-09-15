@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "CLUB NATACIO SABADELL 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL 'A'",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18143",
-        "nombre": "MOLINA Eric"
-      },
-      "B": {
-        "licencia": "19949",
-        "nombre": "SHAO Yicheng"
-      },
-      "C": {
-        "licencia": "17671",
-        "nombre": "DE CASTRO Raul"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18029",
         "nombre": "POYATOS Pau"
@@ -55,20 +41,24 @@
         "licencia": "16851",
         "nombre": "LAZARO Marc"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18143",
+        "nombre": "MOLINA Eric"
+      },
+      "B": {
+        "licencia": "19949",
+        "nombre": "SHAO Yicheng"
+      },
+      "C": {
+        "licencia": "17671",
+        "nombre": "DE CASTRO Raul"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "18143",
-        "nombre": "MOLINA Eric"
-      },
-      {
-        "licencia": "19949",
-        "nombre": "SHAO Yicheng"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "18029",
         "nombre": "POYATOS Pau"
@@ -76,6 +66,16 @@
       {
         "licencia": "16851",
         "nombre": "LAZARO Marc"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "18143",
+        "nombre": "MOLINA Eric"
+      },
+      {
+        "licencia": "19949",
+        "nombre": "SHAO Yicheng"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18143",
-        "nombre": "MOLINA Eric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18029",
         "nombre": "POYATOS Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18143",
+        "nombre": "MOLINA Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,64 +110,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "15556",
+        "nombre": "LLONCH Roger"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "19949",
         "nombre": "SHAO Yicheng"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15556",
-        "nombre": "LLONCH Roger"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "17671",
-        "nombre": "DE CASTRO Raul"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16851",
-        "nombre": "LAZARO Marc"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "18143",
-        "nombre": "MOLINA Eric"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15556",
-        "nombre": "LLONCH Roger"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +125,56 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16851",
+        "nombre": "LAZARO Marc"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17671",
+        "nombre": "DE CASTRO Raul"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15556",
+        "nombre": "LLONCH Roger"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18143",
+        "nombre": "MOLINA Eric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17671",
-        "nombre": "DE CASTRO Raul"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18029",
         "nombre": "POYATOS Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17671",
+        "nombre": "DE CASTRO Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19949",
-        "nombre": "SHAO Yicheng"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16851",
         "nombre": "LAZARO Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19949",
+        "nombre": "SHAO Yicheng"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "18143",
-            "nombre": "MOLINA Eric"
-          },
-          {
-            "licencia": "19949",
-            "nombre": "SHAO Yicheng"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "18029",
             "nombre": "POYATOS Pau"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18143",
+            "nombre": "MOLINA Eric"
+          },
+          {
+            "licencia": "19949",
+            "nombre": "SHAO Yicheng"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB NATACIO SABADELL 'A'",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "149",
-        "nombre": "NOLIS Josep Mª"
-      },
-      "B": {
-        "licencia": "18765",
-        "nombre": "JI Michael Xiao Zhuang"
-      },
-      "C": {
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14259",
         "nombre": "BLANCO Alonso"
@@ -55,6 +41,20 @@
         "licencia": "631",
         "nombre": "RUIZ Cristobal"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "149",
+        "nombre": "NOLIS Josep Mª"
+      },
+      "B": {
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      "C": {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "149",
-        "nombre": "NOLIS Josep Mª"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14259",
         "nombre": "BLANCO Alonso"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "18765",
-        "nombre": "JI Michael Xiao Zhuang"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5550",
-        "nombre": "MAREGIL Alvaro"
+        "letra": "A",
+        "licencia": "149",
+        "nombre": "NOLIS Josep Mª"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5550",
+        "nombre": "MAREGIL Alvaro"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "631",
         "nombre": "RUIZ Cristobal"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "149",
-        "nombre": "NOLIS Josep Mª"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5550",
         "nombre": "MAREGIL Alvaro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "149",
+        "nombre": "NOLIS Josep Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14259",
         "nombre": "BLANCO Alonso"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "18765",
-        "nombre": "JI Michael Xiao Zhuang"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
+        "letra": "C",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT OLESA",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

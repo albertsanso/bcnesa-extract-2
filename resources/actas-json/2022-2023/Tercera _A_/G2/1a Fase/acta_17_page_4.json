@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11391",
-        "nombre": "CORDERO Martin"
-      },
-      "B": {
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
-      },
-      "C": {
-        "licencia": "14349",
-        "nombre": "DUEÑAS Adrian"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
@@ -55,20 +41,24 @@
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11391",
+        "nombre": "CORDERO Martin"
+      },
+      "B": {
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "C": {
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11391",
-        "nombre": "CORDERO Martin"
-      },
-      {
-        "licencia": "14349",
-        "nombre": "DUEÑAS Adrian"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
@@ -76,6 +66,16 @@
       {
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11391",
+        "nombre": "CORDERO Martin"
+      },
+      {
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11391",
-        "nombre": "CORDERO Martin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6961",
-        "nombre": "MUÑOZ Jose"
+        "letra": "A",
+        "licencia": "11391",
+        "nombre": "CORDERO Martin"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6961",
+        "nombre": "MUÑOZ Jose"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14349",
-        "nombre": "DUEÑAS Adrian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11391",
-        "nombre": "CORDERO Martin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6961",
         "nombre": "MUÑOZ Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11391",
+        "nombre": "CORDERO Martin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14349",
-        "nombre": "DUEÑAS Adrian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11391",
-            "nombre": "CORDERO Martin"
-          },
-          {
-            "licencia": "14349",
-            "nombre": "DUEÑAS Adrian"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "14670",
             "nombre": "SÁNCHEZ Jordi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11391",
+            "nombre": "CORDERO Martin"
+          },
+          {
+            "licencia": "14349",
+            "nombre": "DUEÑAS Adrian"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      },
-      "B": {
-        "licencia": "124",
-        "nombre": "GARCES Lorenzo"
-      },
-      "C": {
-        "licencia": "307",
-        "nombre": "MORENO Juan M."
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2106",
         "nombre": "GONZALEZ Pedro"
@@ -55,6 +41,20 @@
         "licencia": "2045",
         "nombre": "RINCON Jose Luis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
+      "B": {
+        "licencia": "124",
+        "nombre": "GARCES Lorenzo"
+      },
+      "C": {
+        "licencia": "307",
+        "nombre": "MORENO Juan M."
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2106",
         "nombre": "GONZALEZ Pedro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "124",
-        "nombre": "GARCES Lorenzo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13438",
         "nombre": "PUCHE Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "124",
+        "nombre": "GARCES Lorenzo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "307",
-        "nombre": "MORENO Juan M."
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2045",
         "nombre": "RINCON Jose Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "307",
+        "nombre": "MORENO Juan M."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13438",
         "nombre": "PUCHE Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "307",
-        "nombre": "MORENO Juan M."
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2106",
         "nombre": "GONZALEZ Pedro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "307",
+        "nombre": "MORENO Juan M."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "124",
-        "nombre": "GARCES Lorenzo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2045",
         "nombre": "RINCON Jose Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "124",
+        "nombre": "GARCES Lorenzo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT POBLENOU",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

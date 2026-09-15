@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7988",
-        "nombre": "NAVARRO Angel"
-      },
-      "B": {
-        "licencia": "11672",
-        "nombre": "LARA Pau"
-      },
-      "C": {
-        "licencia": "11304",
-        "nombre": "FERNANDEZ David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10109",
         "nombre": "ROYO Jordi"
@@ -55,6 +41,20 @@
         "licencia": "12904",
         "nombre": "JIMENEZ Marti"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7988",
+        "nombre": "NAVARRO Angel"
+      },
+      "B": {
+        "licencia": "11672",
+        "nombre": "LARA Pau"
+      },
+      "C": {
+        "licencia": "11304",
+        "nombre": "FERNANDEZ David"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7988",
-        "nombre": "NAVARRO Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10109",
         "nombre": "ROYO Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7988",
+        "nombre": "NAVARRO Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11672",
-        "nombre": "LARA Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "946",
         "nombre": "PEIRIS Enrique"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11672",
+        "nombre": "LARA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11304",
-        "nombre": "FERNANDEZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12904",
         "nombre": "JIMENEZ Marti"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "7988",
-        "nombre": "NAVARRO Angel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "946",
-        "nombre": "PEIRIS Enrique"
+        "letra": "C",
+        "licencia": "11304",
+        "nombre": "FERNANDEZ David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7988",
+        "nombre": "NAVARRO Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11304",
-        "nombre": "FERNANDEZ David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10109",
         "nombre": "ROYO Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11304",
+        "nombre": "FERNANDEZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11672",
-        "nombre": "LARA Pau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12904",
         "nombre": "JIMENEZ Marti"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11672",
+        "nombre": "LARA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

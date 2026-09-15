@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "B": {
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
-      },
-      "C": {
-        "licencia": "3254",
-        "nombre": "CARCELLER Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "645",
         "nombre": "SUÑE Manel"
@@ -55,20 +41,24 @@
         "licencia": "689",
         "nombre": "MANZANO Enric"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "B": {
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
+      },
+      "C": {
+        "licencia": "3254",
+        "nombre": "CARCELLER Jordi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "3254",
-        "nombre": "CARCELLER Jordi"
-      },
-      {
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "546",
         "nombre": "SAIZ David"
@@ -76,6 +66,16 @@
       {
         "licencia": "689",
         "nombre": "MANZANO Enric"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "3254",
+        "nombre": "CARCELLER Jordi"
+      },
+      {
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "645",
         "nombre": "SUÑE Manel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "546",
         "nombre": "SAIZ David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3254",
-        "nombre": "CARCELLER Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "689",
         "nombre": "MANZANO Enric"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3254",
+        "nombre": "CARCELLER Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "546",
         "nombre": "SAIZ David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3254",
-        "nombre": "CARCELLER Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "645",
         "nombre": "SUÑE Manel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3254",
+        "nombre": "CARCELLER Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "689",
         "nombre": "MANZANO Enric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "3254",
-            "nombre": "CARCELLER Jordi"
-          },
-          {
-            "licencia": "4669",
-            "nombre": "PEIX Lluis"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "546",
             "nombre": "SAIZ David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "3254",
+            "nombre": "CARCELLER Jordi"
+          },
+          {
+            "licencia": "4669",
+            "nombre": "PEIX Lluis"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

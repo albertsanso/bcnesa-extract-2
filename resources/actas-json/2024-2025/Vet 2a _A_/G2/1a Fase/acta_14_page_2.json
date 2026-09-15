@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "257",
-        "nombre": "PEÑA Clemente"
-      },
-      "B": {
-        "licencia": "16408",
-        "nombre": "RIU Fernando"
-      },
-      "C": {
-        "licencia": "303",
-        "nombre": "CAUDET Roman"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "689",
         "nombre": "MANZANO Enric"
@@ -55,6 +41,20 @@
         "licencia": "308",
         "nombre": "GARCIA Benito"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "257",
+        "nombre": "PEÑA Clemente"
+      },
+      "B": {
+        "licencia": "16408",
+        "nombre": "RIU Fernando"
+      },
+      "C": {
+        "licencia": "303",
+        "nombre": "CAUDET Roman"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "257",
-        "nombre": "PEÑA Clemente"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "689",
         "nombre": "MANZANO Enric"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "257",
+        "nombre": "PEÑA Clemente"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16408",
-        "nombre": "RIU Fernando"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16408",
+        "nombre": "RIU Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "303",
-        "nombre": "CAUDET Roman"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "308",
         "nombre": "GARCIA Benito"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "303",
+        "nombre": "CAUDET Roman"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "257",
-        "nombre": "PEÑA Clemente"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "257",
+        "nombre": "PEÑA Clemente"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "303",
-        "nombre": "CAUDET Roman"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "689",
         "nombre": "MANZANO Enric"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "303",
+        "nombre": "CAUDET Roman"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16408",
-        "nombre": "RIU Fernando"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "308",
         "nombre": "GARCIA Benito"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16408",
+        "nombre": "RIU Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT OLESA",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

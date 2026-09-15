@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "ICELAND ELS 8 DE LA GARRIGA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ICELAND ELS 8 DE LA GARRIGA",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8912",
-        "nombre": "PAREDES Marco"
-      },
-      "B": {
-        "licencia": "12838",
-        "nombre": "ZOU Tian Qi"
-      },
-      "C": {
-        "licencia": "2106",
-        "nombre": "GONZALEZ Pedro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8301",
         "nombre": "CHICU Radu"
@@ -55,6 +41,20 @@
         "licencia": "10672",
         "nombre": "CASTELLS Iris"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8912",
+        "nombre": "PAREDES Marco"
+      },
+      "B": {
+        "licencia": "12838",
+        "nombre": "ZOU Tian Qi"
+      },
+      "C": {
+        "licencia": "2106",
+        "nombre": "GONZALEZ Pedro"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8912",
-        "nombre": "PAREDES Marco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8301",
         "nombre": "CHICU Radu"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8912",
+        "nombre": "PAREDES Marco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12838",
-        "nombre": "ZOU Tian Qi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7618",
         "nombre": "GUINART Joel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12838",
+        "nombre": "ZOU Tian Qi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2106",
-        "nombre": "GONZALEZ Pedro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10672",
         "nombre": "CASTELLS Iris"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2106",
+        "nombre": "GONZALEZ Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8912",
-        "nombre": "PAREDES Marco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7618",
         "nombre": "GUINART Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8912",
+        "nombre": "PAREDES Marco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2106",
-        "nombre": "GONZALEZ Pedro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8301",
         "nombre": "CHICU Radu"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2106",
+        "nombre": "GONZALEZ Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12838",
-        "nombre": "ZOU Tian Qi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10672",
         "nombre": "CASTELLS Iris"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12838",
+        "nombre": "ZOU Tian Qi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "ICELAND ELS 8 DE LA GARRIGA",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7026",
-        "nombre": "CAMPOS Ramon"
-      },
-      "B": {
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "C": {
-        "licencia": "5587",
-        "nombre": "FERNANDEZ Raul"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4911",
         "nombre": "CATALAN Oriol"
@@ -55,6 +41,20 @@
         "licencia": "2187",
         "nombre": "TARRASO Jaume"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
+      "B": {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "C": {
+        "licencia": "5587",
+        "nombre": "FERNANDEZ Raul"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7026",
-        "nombre": "CAMPOS Ramon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4911",
         "nombre": "CATALAN Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "851",
         "nombre": "SERRES Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5587",
-        "nombre": "FERNANDEZ Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2187",
         "nombre": "TARRASO Jaume"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5587",
+        "nombre": "FERNANDEZ Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7026",
-        "nombre": "CAMPOS Ramon"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "851",
         "nombre": "SERRES Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5587",
-        "nombre": "FERNANDEZ Raul"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4911",
         "nombre": "CATALAN Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5587",
+        "nombre": "FERNANDEZ Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2187",
         "nombre": "TARRASO Jaume"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

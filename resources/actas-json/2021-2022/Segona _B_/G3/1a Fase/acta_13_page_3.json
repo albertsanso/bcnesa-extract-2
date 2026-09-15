@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7711",
-        "nombre": "CARRASCO Francisco"
-      },
-      "B": {
-        "licencia": "12345",
-        "nombre": "JORDI Joan"
-      },
-      "C": {
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7587",
         "nombre": "VIADE Antonio"
@@ -55,20 +41,24 @@
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7711",
+        "nombre": "CARRASCO Francisco"
+      },
+      "B": {
+        "licencia": "12345",
+        "nombre": "JORDI Joan"
+      },
+      "C": {
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "7711",
-        "nombre": "CARRASCO Francisco"
-      },
-      {
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "7587",
         "nombre": "VIADE Antonio"
@@ -76,6 +66,16 @@
       {
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7711",
+        "nombre": "CARRASCO Francisco"
+      },
+      {
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7711",
-        "nombre": "CARRASCO Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7587",
         "nombre": "VIADE Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12345",
-        "nombre": "JORDI Joan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
+        "letra": "A",
+        "licencia": "7711",
+        "nombre": "CARRASCO Francisco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12345",
+        "nombre": "JORDI Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7711",
-        "nombre": "CARRASCO Francisco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "606",
         "nombre": "FRANCH Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7711",
+        "nombre": "CARRASCO Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7587",
         "nombre": "VIADE Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12345",
-        "nombre": "JORDI Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12345",
+        "nombre": "JORDI Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "7711",
-            "nombre": "CARRASCO Francisco"
-          },
-          {
-            "licencia": "5399",
-            "nombre": "CASTRO Ismael"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "7587",
             "nombre": "VIADE Antonio"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7711",
+            "nombre": "CARRASCO Francisco"
+          },
+          {
+            "licencia": "5399",
+            "nombre": "CASTRO Ismael"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 15
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

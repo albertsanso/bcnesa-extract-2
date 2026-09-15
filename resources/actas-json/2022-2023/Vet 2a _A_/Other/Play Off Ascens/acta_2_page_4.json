@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA ''A''",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "EL CERCLE TT GRÀCIA ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5395",
-        "nombre": "PLANAS Josep"
-      },
-      "B": {
-        "licencia": "369",
-        "nombre": "MORATA Genis"
-      },
-      "C": {
-        "licencia": "361",
-        "nombre": "CASANOVA Santiago"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12114",
         "nombre": "MASSARD Franck"
@@ -55,6 +41,20 @@
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5395",
+        "nombre": "PLANAS Josep"
+      },
+      "B": {
+        "licencia": "369",
+        "nombre": "MORATA Genis"
+      },
+      "C": {
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5395",
-        "nombre": "PLANAS Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12114",
         "nombre": "MASSARD Franck"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5395",
+        "nombre": "PLANAS Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "369",
-        "nombre": "MORATA Genis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "361",
-        "nombre": "CASANOVA Santiago"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "302",
-        "nombre": "ESCUDERO Josep Maria"
+        "letra": "B",
+        "licencia": "369",
+        "nombre": "MORATA Genis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,23 +105,23 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "A",
-        "licencia": "5395",
-        "nombre": "PLANAS Josep"
+        "letra": "Z",
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
       },
       "visitante": {
-        "letra": "X",
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
+        "letra": "C",
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5395",
+        "nombre": "PLANAS Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,14 +164,39 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "12114",
+        "nombre": "MASSARD Franck"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "361",
         "nombre": "CASANOVA Santiago"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "12114",
-        "nombre": "MASSARD Franck"
+        "letra": "B",
+        "licencia": "369",
+        "nombre": "MORATA Genis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,43 +205,21 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "369",
-        "nombre": "MORATA Genis"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "302",
-        "nombre": "ESCUDERO Josep Maria"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILAFRANCA",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

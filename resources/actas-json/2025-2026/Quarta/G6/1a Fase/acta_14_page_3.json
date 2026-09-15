@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17510",
-        "nombre": "COLLELL Martí"
-      },
-      "B": {
-        "licencia": "20495",
-        "nombre": "MOLL Bruc"
-      },
-      "C": {
-        "licencia": "18458",
-        "nombre": "BARROGA Gerome Dylan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15485",
         "nombre": "LOBERA Jordi"
@@ -55,6 +41,20 @@
         "licencia": "16833",
         "nombre": "PALMER Jan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17510",
+        "nombre": "COLLELL Martí"
+      },
+      "B": {
+        "licencia": "20495",
+        "nombre": "MOLL Bruc"
+      },
+      "C": {
+        "licencia": "18458",
+        "nombre": "BARROGA Gerome Dylan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17510",
-        "nombre": "COLLELL Martí"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15485",
         "nombre": "LOBERA Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17510",
+        "nombre": "COLLELL Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "20495",
-        "nombre": "MOLL Bruc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19443",
         "nombre": "SOLSONA Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20495",
+        "nombre": "MOLL Bruc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18458",
-        "nombre": "BARROGA Gerome Dylan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16833",
         "nombre": "PALMER Jan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18458",
+        "nombre": "BARROGA Gerome Dylan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17510",
-        "nombre": "COLLELL Martí"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19443",
         "nombre": "SOLSONA Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17510",
+        "nombre": "COLLELL Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18458",
-        "nombre": "BARROGA Gerome Dylan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15485",
         "nombre": "LOBERA Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18458",
+        "nombre": "BARROGA Gerome Dylan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "20495",
-        "nombre": "MOLL Bruc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16833",
         "nombre": "PALMER Jan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20495",
+        "nombre": "MOLL Bruc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "UE SANT CUGAT",
     "marcador_partidos": {
       "local": 6,
-      "visitante": 18
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

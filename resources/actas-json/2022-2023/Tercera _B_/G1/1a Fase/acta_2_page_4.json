@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL ''A''",
+      "nombre": "CTT ELS AMICS DE TERRASSA ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA ''A''",
+      "nombre": "CLUB NATACIO SABADELL ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5109",
-        "nombre": "BOCANEGRA Alexander"
-      },
-      "B": {
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
-      "C": {
-        "licencia": "13520",
-        "nombre": "VILA Josep"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6404",
         "nombre": "ZIELINSKI Mariusz Jan"
@@ -55,6 +41,20 @@
         "licencia": "14180",
         "nombre": "AGUILAR Antoni"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5109",
+        "nombre": "BOCANEGRA Alexander"
+      },
+      "B": {
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "C": {
+        "licencia": "13520",
+        "nombre": "VILA Josep"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5109",
-        "nombre": "BOCANEGRA Alexander"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6404",
         "nombre": "ZIELINSKI Mariusz Jan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
+        "letra": "A",
+        "licencia": "5109",
+        "nombre": "BOCANEGRA Alexander"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13520",
-        "nombre": "VILA Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14180",
         "nombre": "AGUILAR Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13520",
+        "nombre": "VILA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5109",
-        "nombre": "BOCANEGRA Alexander"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8920",
         "nombre": "GARCIA Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5109",
+        "nombre": "BOCANEGRA Alexander"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13520",
-        "nombre": "VILA Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6404",
         "nombre": "ZIELINSKI Mariusz Jan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13520",
+        "nombre": "VILA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14180",
         "nombre": "AGUILAR Antoni"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA ''A''",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

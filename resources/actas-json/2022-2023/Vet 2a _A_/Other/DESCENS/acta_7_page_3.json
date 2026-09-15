@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE \"B\"",
+      "nombre": "EL CERLCE TT GRÀCIA ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CERLCE TT GRÀCIA ''B''",
+      "nombre": "EL CENTRE \"B\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "922",
-        "nombre": "BURLO David"
-      },
-      "B": {
-        "licencia": "2365",
-        "nombre": "CONDAL Jaume"
-      },
-      "C": {
-        "licencia": "3217",
-        "nombre": "GARCIA Jose Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11229",
         "nombre": "NERIN Carles"
@@ -55,6 +41,20 @@
         "licencia": "624",
         "nombre": "GIRBAU David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
+      "B": {
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "C": {
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "922",
-        "nombre": "BURLO David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11229",
         "nombre": "NERIN Carles"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2365",
-        "nombre": "CONDAL Jaume"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "9114",
-        "nombre": "VINYALS Oriol"
+        "letra": "A",
+        "licencia": "922",
+        "nombre": "BURLO David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "9114",
+        "nombre": "VINYALS Oriol"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3217",
-        "nombre": "GARCIA Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "624",
         "nombre": "GIRBAU David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "922",
-        "nombre": "BURLO David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "9114",
         "nombre": "VINYALS Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3217",
-        "nombre": "GARCIA Jose Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11229",
         "nombre": "NERIN Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2365",
-        "nombre": "CONDAL Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "624",
         "nombre": "GIRBAU David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE \"B\"",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

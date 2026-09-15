@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FISIOTERÀPIA DR BADALONA",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "FISIOTERÀPIA DR BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "219",
-        "nombre": "FIGUERAS Antoni"
-      },
-      "B": {
-        "licencia": "149",
-        "nombre": "NOLIS Josep Mª"
-      },
-      "C": {
-        "licencia": "15982",
-        "nombre": "GUERRERO Jose Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6268",
         "nombre": "SOLER Antoni"
@@ -55,6 +41,20 @@
         "licencia": "440",
         "nombre": "SAPES Nuria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "219",
+        "nombre": "FIGUERAS Antoni"
+      },
+      "B": {
+        "licencia": "149",
+        "nombre": "NOLIS Josep Mª"
+      },
+      "C": {
+        "licencia": "15982",
+        "nombre": "GUERRERO Jose Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "219",
-        "nombre": "FIGUERAS Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6268",
         "nombre": "SOLER Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "219",
+        "nombre": "FIGUERAS Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "149",
-        "nombre": "NOLIS Josep Mª"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6269",
         "nombre": "RAMOS Antoni"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "15982",
-        "nombre": "GUERRERO Jose Antonio"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
+        "letra": "B",
+        "licencia": "149",
+        "nombre": "NOLIS Josep Mª"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15982",
+        "nombre": "GUERRERO Jose Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "219",
-        "nombre": "FIGUERAS Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6269",
         "nombre": "RAMOS Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "219",
+        "nombre": "FIGUERAS Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15982",
-        "nombre": "GUERRERO Jose Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6268",
         "nombre": "SOLER Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15982",
+        "nombre": "GUERRERO Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "149",
-        "nombre": "NOLIS Josep Mª"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "440",
         "nombre": "SAPES Nuria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "149",
+        "nombre": "NOLIS Josep Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "FISIOTERÀPIA DR BADALONA",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

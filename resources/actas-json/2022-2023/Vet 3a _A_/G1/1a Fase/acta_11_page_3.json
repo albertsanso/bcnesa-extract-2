@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CATT SANT CELONI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CATT SANT CELONI",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "B": {
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "C": {
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "524",
         "nombre": "TORT David"
@@ -55,6 +41,20 @@
         "licencia": "2345",
         "nombre": "IGLESIAS Valenti"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "B": {
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "C": {
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "524",
         "nombre": "TORT David"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "466",
-        "nombre": "PUGET Jorge"
+        "letra": "A",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "466",
+        "nombre": "PUGET Jorge"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2345",
         "nombre": "IGLESIAS Valenti"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "466",
         "nombre": "PUGET Jorge"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "524",
         "nombre": "TORT David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2345",
         "nombre": "IGLESIAS Valenti"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CATT SANT CELONI",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

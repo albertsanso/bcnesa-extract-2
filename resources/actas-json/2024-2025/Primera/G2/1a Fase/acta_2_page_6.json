@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT GRANOLLERS",
+      "nombre": "BELLVITGE ALHEÑA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BELLVITGE ALHEÑA",
+      "nombre": "CTT GRANOLLERS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      },
-      "B": {
-        "licencia": "12657",
-        "nombre": "COROMINAS Xavier"
-      },
-      "C": {
-        "licencia": "17229",
-        "nombre": "GARCÍA Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "494",
         "nombre": "GONZÁLEZ Ricard"
@@ -55,6 +41,20 @@
         "licencia": "12706",
         "nombre": "MUR Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1156",
+        "nombre": "SELVA David"
+      },
+      "B": {
+        "licencia": "12657",
+        "nombre": "COROMINAS Xavier"
+      },
+      "C": {
+        "licencia": "17229",
+        "nombre": "GARCÍA Xavier"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "494",
         "nombre": "GONZÁLEZ Ricard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1156",
+        "nombre": "SELVA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12657",
-        "nombre": "COROMINAS Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13183",
         "nombre": "AMIGO Juan Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12657",
+        "nombre": "COROMINAS Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17229",
-        "nombre": "GARCÍA Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12706",
         "nombre": "MUR Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17229",
+        "nombre": "GARCÍA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,64 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13183",
         "nombre": "AMIGO Juan Carlos"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "17229",
-        "nombre": "GARCÍA Xavier"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "494",
-        "nombre": "GONZÁLEZ Ricard"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "12657",
-        "nombre": "COROMINAS Xavier"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "12706",
-        "nombre": "MUR Francisco"
+        "letra": "A",
+        "licencia": "1156",
+        "nombre": "SELVA David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "494",
+        "nombre": "GONZÁLEZ Ricard"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17229",
+        "nombre": "GARCÍA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "12706",
+        "nombre": "MUR Francisco"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12657",
+        "nombre": "COROMINAS Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT GRANOLLERS",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 10
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

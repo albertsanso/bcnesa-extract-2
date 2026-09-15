@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN SABADELL",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "CN SABADELL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "511",
-        "nombre": "WEISZ Pere"
-      },
-      "B": {
-        "licencia": "4540",
-        "nombre": "WEISZ Monica"
-      },
-      "C": {
-        "licencia": "548",
-        "nombre": "WEISZ Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10320",
         "nombre": "FERNANDEZ Francisco"
@@ -55,6 +41,20 @@
         "licencia": "14578",
         "nombre": "GARCIA Santiago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "511",
+        "nombre": "WEISZ Pere"
+      },
+      "B": {
+        "licencia": "4540",
+        "nombre": "WEISZ Monica"
+      },
+      "C": {
+        "licencia": "548",
+        "nombre": "WEISZ Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "511",
-        "nombre": "WEISZ Pere"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10320",
         "nombre": "FERNANDEZ Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "511",
+        "nombre": "WEISZ Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4540",
-        "nombre": "WEISZ Monica"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "846",
         "nombre": "MARTÍN Agustí"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4540",
+        "nombre": "WEISZ Monica"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "548",
-        "nombre": "WEISZ Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14578",
         "nombre": "GARCIA Santiago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "548",
+        "nombre": "WEISZ Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "511",
-        "nombre": "WEISZ Pere"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "846",
         "nombre": "MARTÍN Agustí"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "511",
+        "nombre": "WEISZ Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "548",
-        "nombre": "WEISZ Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10320",
         "nombre": "FERNANDEZ Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "548",
+        "nombre": "WEISZ Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4540",
-        "nombre": "WEISZ Monica"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14578",
         "nombre": "GARCIA Santiago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4540",
+        "nombre": "WEISZ Monica"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

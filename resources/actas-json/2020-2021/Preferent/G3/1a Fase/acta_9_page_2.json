@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "BADAGRES BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BADAGRES BADALONA",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "612",
-        "nombre": "BALLESTA Lluis Carles"
-      },
-      "B": {
-        "licencia": "2983",
-        "nombre": "ESCOLA Francisco Javier"
-      },
-      "C": {
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11283",
         "nombre": "RAVENTÓS Arnau"
@@ -55,6 +41,20 @@
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
+      "B": {
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      "C": {
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "612",
-        "nombre": "BALLESTA Lluis Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11283",
         "nombre": "RAVENTÓS Arnau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "2983",
-        "nombre": "ESCOLA Francisco Javier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12974",
         "nombre": "FORMENTÍ Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "612",
-        "nombre": "BALLESTA Lluis Carles"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12974",
         "nombre": "FORMENTÍ Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11283",
         "nombre": "RAVENTÓS Arnau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,21 +189,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2983",
-        "nombre": "ESCOLA Francisco Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -211,12 +211,15 @@
     }
   ],
   "resultado_final": {
-    "ganador": "ATT PREMIÀ DE MAR",
+    "ganador": null,
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 11
+      "local": 3,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

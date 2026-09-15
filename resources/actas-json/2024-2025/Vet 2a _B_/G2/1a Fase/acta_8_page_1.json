@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet B",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet B",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "B": {
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
-      "C": {
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8328",
         "nombre": "GIMENEZ Angel"
@@ -55,6 +41,20 @@
         "licencia": "15982",
         "nombre": "GUERRERO Jose Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
+      "B": {
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
+      "C": {
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8328",
         "nombre": "GIMENEZ Angel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15982",
         "nombre": "GUERRERO Jose Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8328",
         "nombre": "GIMENEZ Angel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "15982",
-        "nombre": "GUERRERO Jose Antonio"
+        "letra": "C",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "15982",
+        "nombre": "GUERRERO Jose Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT ST QUIRZE DEL VALLÈS - Vet B",
     "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

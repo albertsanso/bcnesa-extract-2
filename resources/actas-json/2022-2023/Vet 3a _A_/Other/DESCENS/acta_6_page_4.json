@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CN ST. ANDREU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN ST. ANDREU",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "B": {
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "C": {
-        "licencia": "549",
-        "nombre": "VERA Juan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "614",
         "nombre": "MARTINEZ Francisco"
@@ -55,6 +41,20 @@
         "licencia": "607",
         "nombre": "CASTILLO Carlos Jesús"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "B": {
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
+      "C": {
+        "licencia": "549",
+        "nombre": "VERA Juan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "614",
         "nombre": "MARTINEZ Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14126",
         "nombre": "ALLUE Vicens"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "549",
-        "nombre": "VERA Juan"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "607",
-        "nombre": "CASTILLO Carlos Jesús"
+        "letra": "B",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "607",
+        "nombre": "CASTILLO Carlos Jesús"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "549",
+        "nombre": "VERA Juan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14126",
         "nombre": "ALLUE Vicens"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "549",
-        "nombre": "VERA Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "614",
         "nombre": "MARTINEZ Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "549",
+        "nombre": "VERA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "607",
         "nombre": "CASTILLO Carlos Jesús"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN ST. ANDREU",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG ''B''",
+      "nombre": "AGRUPACIÓ CONGRÉS ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS ''A''",
+      "nombre": "CTT CARDEDEU EIG ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8729",
-        "nombre": "MONSALVE Francesc"
-      },
-      "B": {
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "C": {
-        "licencia": "6567",
-        "nombre": "CHAVARRIA Isaac"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14495",
         "nombre": "ABUIN Roger"
@@ -55,6 +41,20 @@
         "licencia": "6187",
         "nombre": "PEÑA Ana Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8729",
+        "nombre": "MONSALVE Francesc"
+      },
+      "B": {
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
+      "C": {
+        "licencia": "6567",
+        "nombre": "CHAVARRIA Isaac"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8729",
-        "nombre": "MONSALVE Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14495",
         "nombre": "ABUIN Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8729",
+        "nombre": "MONSALVE Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7743",
         "nombre": "MARCA Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6567",
-        "nombre": "CHAVARRIA Isaac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6187",
         "nombre": "PEÑA Ana Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6567",
+        "nombre": "CHAVARRIA Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,64 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8729",
-        "nombre": "MONSALVE Francesc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7743",
         "nombre": "MARCA Ramon"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "6567",
-        "nombre": "CHAVARRIA Isaac"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "14495",
-        "nombre": "ABUIN Roger"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6187",
-        "nombre": "PEÑA Ana Maria"
+        "letra": "A",
+        "licencia": "8729",
+        "nombre": "MONSALVE Francesc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "14495",
+        "nombre": "ABUIN Roger"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6567",
+        "nombre": "CHAVARRIA Isaac"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6187",
+        "nombre": "PEÑA Ana Maria"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS ''A''",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

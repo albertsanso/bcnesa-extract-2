@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "BELLVITGE ALHEÑA",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "BELLVITGE ALHEÑA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4597",
-        "nombre": "SANZ Julio"
-      },
-      "B": {
-        "licencia": "713",
-        "nombre": "GARCIA Carlos"
-      },
-      "C": {
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7713",
         "nombre": "FARELL Jordi"
@@ -55,6 +41,20 @@
         "licencia": "1040",
         "nombre": "BELLSOLÀ Pere"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4597",
+        "nombre": "SANZ Julio"
+      },
+      "B": {
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
+      "C": {
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4597",
-        "nombre": "SANZ Julio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7713",
         "nombre": "FARELL Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "713",
-        "nombre": "GARCIA Carlos"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11373",
-        "nombre": "BUISAN Marti"
+        "letra": "A",
+        "licencia": "4597",
+        "nombre": "SANZ Julio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1040",
         "nombre": "BELLSOLÀ Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4597",
-        "nombre": "SANZ Julio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11373",
         "nombre": "BUISAN Marti"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4597",
+        "nombre": "SANZ Julio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7713",
         "nombre": "FARELL Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "713",
-        "nombre": "GARCIA Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1040",
         "nombre": "BELLSOLÀ Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "BELLVITGE ALHEÑA",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

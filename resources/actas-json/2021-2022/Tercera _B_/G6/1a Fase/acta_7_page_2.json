@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "CTT BARCELONA ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA ''A''",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15203",
-        "nombre": "ALMIRALL Josep"
-      },
-      "B": {
-        "licencia": "12222",
-        "nombre": "ROIG Navin"
-      },
-      "C": {
-        "licencia": "13785",
-        "nombre": "GIBERT Jaume"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10640",
         "nombre": "CARLES Pol"
@@ -55,20 +41,24 @@
         "licencia": "8284",
         "nombre": "MUÑOZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15203",
+        "nombre": "ALMIRALL Josep"
+      },
+      "B": {
+        "licencia": "12222",
+        "nombre": "ROIG Navin"
+      },
+      "C": {
+        "licencia": "13785",
+        "nombre": "GIBERT Jaume"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "13785",
-        "nombre": "GIBERT Jaume"
-      },
-      {
-        "licencia": "12222",
-        "nombre": "ROIG Navin"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13606",
         "nombre": "RODRIGUEZ Leo"
@@ -76,6 +66,16 @@
       {
         "licencia": "10640",
         "nombre": "CARLES Pol"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13785",
+        "nombre": "GIBERT Jaume"
+      },
+      {
+        "licencia": "12222",
+        "nombre": "ROIG Navin"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15203",
-        "nombre": "ALMIRALL Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10640",
         "nombre": "CARLES Pol"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12222",
-        "nombre": "ROIG Navin"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13606",
-        "nombre": "RODRIGUEZ Leo"
+        "letra": "A",
+        "licencia": "15203",
+        "nombre": "ALMIRALL Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13606",
+        "nombre": "RODRIGUEZ Leo"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12222",
+        "nombre": "ROIG Navin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13785",
-        "nombre": "GIBERT Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8284",
         "nombre": "MUÑOZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13785",
+        "nombre": "GIBERT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15203",
-        "nombre": "ALMIRALL Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13606",
         "nombre": "RODRIGUEZ Leo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15203",
+        "nombre": "ALMIRALL Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13785",
-        "nombre": "GIBERT Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10640",
         "nombre": "CARLES Pol"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "12222",
-        "nombre": "ROIG Navin"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "8284",
-        "nombre": "MUÑOZ Jordi"
+        "letra": "C",
+        "licencia": "13785",
+        "nombre": "GIBERT Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "8284",
+        "nombre": "MUÑOZ Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12222",
+        "nombre": "ROIG Navin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "13785",
-            "nombre": "GIBERT Jaume"
-          },
-          {
-            "licencia": "12222",
-            "nombre": "ROIG Navin"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13606",
             "nombre": "RODRIGUEZ Leo"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13785",
+            "nombre": "GIBERT Jaume"
+          },
+          {
+            "licencia": "12222",
+            "nombre": "ROIG Navin"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT BARCELONA ''A''",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 13
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

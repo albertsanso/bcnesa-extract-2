@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FOMENT MARTINENC-BARNY",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "FOMENT MARTINENC-BARNY",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6464",
-        "nombre": "MENINO Pau"
-      },
-      "B": {
-        "licencia": "6466",
-        "nombre": "MONTAÑEZ Xavier"
-      },
-      "C": {
-        "licencia": "4009",
-        "nombre": "PELLEJA Enrique"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "758",
         "nombre": "CASTAÑE Jordi"
@@ -55,20 +41,24 @@
         "licencia": "5399",
         "nombre": "CASTRO Ismael"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
+      "B": {
+        "licencia": "6466",
+        "nombre": "MONTAÑEZ Xavier"
+      },
+      "C": {
+        "licencia": "4009",
+        "nombre": "PELLEJA Enrique"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6464",
-        "nombre": "MENINO Pau"
-      },
-      {
-        "licencia": "6466",
-        "nombre": "MONTAÑEZ Xavier"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "7711",
         "nombre": "CARRASCO Francisco"
@@ -76,6 +66,16 @@
       {
         "licencia": "5399",
         "nombre": "CASTRO Ismael"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
+      {
+        "licencia": "6466",
+        "nombre": "MONTAÑEZ Xavier"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "758",
+        "nombre": "CASTAÑE Jordi"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "6464",
         "nombre": "MENINO Pau"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7711",
+        "nombre": "CARRASCO Francisco"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "758",
-        "nombre": "CASTAÑE Jordi"
+        "letra": "B",
+        "licencia": "6466",
+        "nombre": "MONTAÑEZ Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "5399",
+        "nombre": "CASTRO Ismael"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4009",
+        "nombre": "PELLEJA Enrique"
       },
       "sets": [],
       "resultado_juegos": {
@@ -102,57 +152,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "6466",
-        "nombre": "MONTAÑEZ Xavier"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "7711",
-        "nombre": "CARRASCO Francisco"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
         "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "4009",
-        "nombre": "PELLEJA Enrique"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "5399",
-        "nombre": "CASTRO Ismael"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6464",
-        "nombre": "MENINO Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7711",
         "nombre": "CARRASCO Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4009",
-        "nombre": "PELLEJA Enrique"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "758",
         "nombre": "CASTAÑE Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4009",
+        "nombre": "PELLEJA Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6466",
-        "nombre": "MONTAÑEZ Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5399",
         "nombre": "CASTRO Ismael"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6466",
+        "nombre": "MONTAÑEZ Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6464",
-            "nombre": "MENINO Pau"
-          },
-          {
-            "licencia": "6466",
-            "nombre": "MONTAÑEZ Xavier"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "7711",
             "nombre": "CARRASCO Francisco"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6464",
+            "nombre": "MENINO Pau"
+          },
+          {
+            "licencia": "6466",
+            "nombre": "MONTAÑEZ Xavier"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FOMENT MARTINENC-BARNY",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

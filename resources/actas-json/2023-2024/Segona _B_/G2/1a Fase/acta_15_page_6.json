@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
+      "nombre": "BELLVITGE ALHEÑA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BELLVITGE ALHEÑA",
+      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13078",
-        "nombre": "ESCORZA Daniel"
-      },
-      "B": {
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "C": {
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12706",
         "nombre": "MUR Francisco"
@@ -55,6 +41,20 @@
         "licencia": "13182",
         "nombre": "MORÓN Daniel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13078",
+        "nombre": "ESCORZA Daniel"
+      },
+      "B": {
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
+      "C": {
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13078",
-        "nombre": "ESCORZA Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12706",
         "nombre": "MUR Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13078",
+        "nombre": "ESCORZA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16394",
         "nombre": "PÉREZ Marcos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13182",
         "nombre": "MORÓN Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13078",
-        "nombre": "ESCORZA Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16394",
         "nombre": "PÉREZ Marcos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13078",
+        "nombre": "ESCORZA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12706",
         "nombre": "MUR Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13182",
         "nombre": "MORÓN Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS ''B''",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 5
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

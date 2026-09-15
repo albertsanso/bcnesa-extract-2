@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SALLENT",
+      "nombre": "SURIS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "SURIS CALELLA",
+      "nombre": "CTT SALLENT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "479",
-        "nombre": "UBEDA Xavier"
-      },
-      "B": {
-        "licencia": "527",
-        "nombre": "VILA Joan"
-      },
-      "C": {
-        "licencia": "7873",
-        "nombre": "CABALLERO Pol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
@@ -55,6 +41,20 @@
         "licencia": "7264",
         "nombre": "SANCHEZ Lluc"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "479",
+        "nombre": "UBEDA Xavier"
+      },
+      "B": {
+        "licencia": "527",
+        "nombre": "VILA Joan"
+      },
+      "C": {
+        "licencia": "7873",
+        "nombre": "CABALLERO Pol"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "479",
-        "nombre": "UBEDA Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "479",
+        "nombre": "UBEDA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,14 +89,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "2030",
+        "nombre": "SANCHEZ Josep"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "527",
         "nombre": "VILA Joan"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7264",
+        "nombre": "SANCHEZ Lluc"
+      },
       "visitante": {
-        "letra": "X",
-        "licencia": "2030",
-        "nombre": "SANCHEZ Josep"
+        "letra": "C",
+        "licencia": "7873",
+        "nombre": "CABALLERO Pol"
       },
       "sets": [],
       "resultado_juegos": {
@@ -105,33 +130,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "7873",
-        "nombre": "CABALLERO Pol"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "7264",
-        "nombre": "SANCHEZ Lluc"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
+        "local": 2,
         "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "479",
-        "nombre": "UBEDA Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2030",
         "nombre": "SANCHEZ Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "479",
+        "nombre": "UBEDA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7873",
-        "nombre": "CABALLERO Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7873",
+        "nombre": "CABALLERO Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "527",
-        "nombre": "VILA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7264",
         "nombre": "SANCHEZ Lluc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "527",
+        "nombre": "VILA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SALLENT",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 11
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

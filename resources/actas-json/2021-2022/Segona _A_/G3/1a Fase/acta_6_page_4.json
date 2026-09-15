@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8619",
-        "nombre": "SANZ Aitor"
-      },
-      "B": {
-        "licencia": "7189",
-        "nombre": "GARCIA David"
-      },
-      "C": {
-        "licencia": "11377",
-        "nombre": "MUÑOZ Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6309",
         "nombre": "PEREZ Miguel"
@@ -55,6 +41,20 @@
         "licencia": "7943",
         "nombre": "KREMEN Lara"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8619",
+        "nombre": "SANZ Aitor"
+      },
+      "B": {
+        "licencia": "7189",
+        "nombre": "GARCIA David"
+      },
+      "C": {
+        "licencia": "11377",
+        "nombre": "MUÑOZ Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8619",
-        "nombre": "SANZ Aitor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6309",
         "nombre": "PEREZ Miguel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8619",
+        "nombre": "SANZ Aitor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7189",
-        "nombre": "GARCIA David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8128",
         "nombre": "PINEDA Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7189",
+        "nombre": "GARCIA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11377",
-        "nombre": "MUÑOZ Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7943",
         "nombre": "KREMEN Lara"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11377",
+        "nombre": "MUÑOZ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8619",
-        "nombre": "SANZ Aitor"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8128",
         "nombre": "PINEDA Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8619",
+        "nombre": "SANZ Aitor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11377",
-        "nombre": "MUÑOZ Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6309",
         "nombre": "PEREZ Miguel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11377",
+        "nombre": "MUÑOZ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7189",
-        "nombre": "GARCIA David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7943",
         "nombre": "KREMEN Lara"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7189",
+        "nombre": "GARCIA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT PREMIÀ DE MAR",
     "marcador_partidos": {
-      "local": 5,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

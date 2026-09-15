@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANT ANDREU",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
+      "nombre": "CC SANT ANDREU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8716",
-        "nombre": "GARCIA Maximino"
-      },
-      "B": {
-        "licencia": "3148",
-        "nombre": "DEL AMOR Pedro"
-      },
-      "C": {
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
@@ -55,6 +41,20 @@
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8716",
+        "nombre": "GARCIA Maximino"
+      },
+      "B": {
+        "licencia": "3148",
+        "nombre": "DEL AMOR Pedro"
+      },
+      "C": {
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8716",
-        "nombre": "GARCIA Maximino"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8716",
+        "nombre": "GARCIA Maximino"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "3148",
-        "nombre": "DEL AMOR Pedro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "1893",
-        "nombre": "JIMENEZ Jose Antonio"
+        "letra": "B",
+        "licencia": "3148",
+        "nombre": "DEL AMOR Pedro"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "1893",
+        "nombre": "JIMENEZ Jose Antonio"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8716",
-        "nombre": "GARCIA Maximino"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8716",
+        "nombre": "GARCIA Maximino"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3148",
-        "nombre": "DEL AMOR Pedro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3148",
+        "nombre": "DEL AMOR Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUIRZE DEL VALLÈS",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

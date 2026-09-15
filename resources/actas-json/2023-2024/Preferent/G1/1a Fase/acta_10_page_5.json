@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT LA POBLA DE LILLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT LA POBLA DE LILLET",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2365",
-        "nombre": "CONDAL Jaume"
-      },
-      "B": {
-        "licencia": "3217",
-        "nombre": "GARCIA Jose Luis"
-      },
-      "C": {
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4250",
         "nombre": "QUESADA Guillem"
@@ -55,6 +41,20 @@
         "licencia": "1371",
         "nombre": "ARTIGAS Sergi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
+      "B": {
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      },
+      "C": {
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2365",
-        "nombre": "CONDAL Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4250",
         "nombre": "QUESADA Guillem"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "3217",
-        "nombre": "GARCIA Jose Luis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5410",
         "nombre": "GALIAN Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1371",
         "nombre": "ARTIGAS Sergi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "2365",
-        "nombre": "CONDAL Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5410",
         "nombre": "GALIAN Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2365",
+        "nombre": "CONDAL Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4250",
         "nombre": "QUESADA Guillem"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3217",
-        "nombre": "GARCIA Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1371",
         "nombre": "ARTIGAS Sergi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3217",
+        "nombre": "GARCIA Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA POBLA DE LILLET",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

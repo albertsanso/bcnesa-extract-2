@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15798",
-        "nombre": "DONAIRE Bruno"
-      },
-      "B": {
-        "licencia": "17228",
-        "nombre": "AQUILUÉ David"
-      },
-      "C": {
-        "licencia": "15259",
-        "nombre": "PASTO Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15615",
         "nombre": "BRANDARIZ Victor"
@@ -55,6 +41,20 @@
         "licencia": "7242",
         "nombre": "CASADO Yeray"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15798",
+        "nombre": "DONAIRE Bruno"
+      },
+      "B": {
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
+      "C": {
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15798",
-        "nombre": "DONAIRE Bruno"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15615",
         "nombre": "BRANDARIZ Victor"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15798",
+        "nombre": "DONAIRE Bruno"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17228",
-        "nombre": "AQUILUÉ David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "234",
         "nombre": "PUBILL Jaume"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15259",
-        "nombre": "PASTO Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7242",
         "nombre": "CASADO Yeray"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15798",
-        "nombre": "DONAIRE Bruno"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "234",
         "nombre": "PUBILL Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15798",
+        "nombre": "DONAIRE Bruno"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15259",
-        "nombre": "PASTO Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15615",
         "nombre": "BRANDARIZ Victor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17228",
-        "nombre": "AQUILUÉ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7242",
         "nombre": "CASADO Yeray"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT OLESA",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 16
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

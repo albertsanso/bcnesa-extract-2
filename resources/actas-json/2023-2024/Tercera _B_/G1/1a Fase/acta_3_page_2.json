@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANTA PERPETUA ''A''",
+      "nombre": "CATT SANT CELONI ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CATT SANT CELONI ''A''",
+      "nombre": "CTT SANTA PERPETUA ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "693",
-        "nombre": "MATEO Daniel"
-      },
-      "B": {
-        "licencia": "17612",
-        "nombre": "SAEZ Kilian"
-      },
-      "C": {
-        "licencia": "17633",
-        "nombre": "MONTANERO Ismael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10609",
         "nombre": "GARRIDO Joel"
@@ -55,6 +41,20 @@
         "licencia": "15266",
         "nombre": "SUBIRANA Biel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "693",
+        "nombre": "MATEO Daniel"
+      },
+      "B": {
+        "licencia": "17612",
+        "nombre": "SAEZ Kilian"
+      },
+      "C": {
+        "licencia": "17633",
+        "nombre": "MONTANERO Ismael"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "693",
-        "nombre": "MATEO Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10609",
         "nombre": "GARRIDO Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "693",
+        "nombre": "MATEO Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17612",
-        "nombre": "SAEZ Kilian"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3424",
         "nombre": "SANAHUJA Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17612",
+        "nombre": "SAEZ Kilian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17633",
-        "nombre": "MONTANERO Ismael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15266",
         "nombre": "SUBIRANA Biel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17633",
+        "nombre": "MONTANERO Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "693",
-        "nombre": "MATEO Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3424",
         "nombre": "SANAHUJA Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "693",
+        "nombre": "MATEO Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17633",
-        "nombre": "MONTANERO Ismael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10609",
         "nombre": "GARRIDO Joel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17633",
+        "nombre": "MONTANERO Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17612",
-        "nombre": "SAEZ Kilian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15266",
         "nombre": "SUBIRANA Biel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17612",
+        "nombre": "SAEZ Kilian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CATT SANT CELONI ''A''",
     "marcador_partidos": {
-      "local": 5,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

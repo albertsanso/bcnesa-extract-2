@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT L'AVENÇ",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "CTT L'AVENÇ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4386",
-        "nombre": "SARDA Santiago"
-      },
-      "B": {
-        "licencia": "1884",
-        "nombre": "SILVA Javier"
-      },
-      "C": {
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6656",
         "nombre": "ALVAREZ Antonio"
@@ -55,20 +41,24 @@
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4386",
+        "nombre": "SARDA Santiago"
+      },
+      "B": {
+        "licencia": "1884",
+        "nombre": "SILVA Javier"
+      },
+      "C": {
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "4386",
-        "nombre": "SARDA Santiago"
-      },
-      {
-        "licencia": "1884",
-        "nombre": "SILVA Javier"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "7547",
         "nombre": "APARICIO David"
@@ -76,6 +66,16 @@
       {
         "licencia": "6656",
         "nombre": "ALVAREZ Antonio"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "4386",
+        "nombre": "SARDA Santiago"
+      },
+      {
+        "licencia": "1884",
+        "nombre": "SILVA Javier"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4386",
-        "nombre": "SARDA Santiago"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6656",
         "nombre": "ALVAREZ Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4386",
+        "nombre": "SARDA Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1884",
-        "nombre": "SILVA Javier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7547",
         "nombre": "APARICIO David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1884",
+        "nombre": "SILVA Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4386",
-        "nombre": "SARDA Santiago"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7547",
         "nombre": "APARICIO David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4386",
+        "nombre": "SARDA Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6656",
         "nombre": "ALVAREZ Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1884",
-        "nombre": "SILVA Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1884",
+        "nombre": "SILVA Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "4386",
-            "nombre": "SARDA Santiago"
-          },
-          {
-            "licencia": "1884",
-            "nombre": "SILVA Javier"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "7547",
             "nombre": "APARICIO David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "4386",
+            "nombre": "SARDA Santiago"
+          },
+          {
+            "licencia": "1884",
+            "nombre": "SILVA Javier"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT L'AVENÇ",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

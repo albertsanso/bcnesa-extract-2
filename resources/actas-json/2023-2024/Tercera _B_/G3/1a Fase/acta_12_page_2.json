@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"C\"",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "LLUÏSOS DE GRÀCIA \"C\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15079",
-        "nombre": "VALERO Marti"
-      },
-      "B": {
-        "licencia": "17974",
-        "nombre": "CANALS Antoni"
-      },
-      "C": {
-        "licencia": "16500",
-        "nombre": "FAHERTY Santiago"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2064",
         "nombre": "FONTOVA Alex"
@@ -55,6 +41,20 @@
         "licencia": "9044",
         "nombre": "VEGA Lucia"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
+      "B": {
+        "licencia": "17974",
+        "nombre": "CANALS Antoni"
+      },
+      "C": {
+        "licencia": "16500",
+        "nombre": "FAHERTY Santiago"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15079",
-        "nombre": "VALERO Marti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2064",
         "nombre": "FONTOVA Alex"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17974",
-        "nombre": "CANALS Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6303",
         "nombre": "CARREÑO Ariadna"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17974",
+        "nombre": "CANALS Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16500",
-        "nombre": "FAHERTY Santiago"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "9044",
         "nombre": "VEGA Lucia"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16500",
+        "nombre": "FAHERTY Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15079",
-        "nombre": "VALERO Marti"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6303",
         "nombre": "CARREÑO Ariadna"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15079",
+        "nombre": "VALERO Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16500",
-        "nombre": "FAHERTY Santiago"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2064",
         "nombre": "FONTOVA Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16500",
+        "nombre": "FAHERTY Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17974",
-        "nombre": "CANALS Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "9044",
         "nombre": "VEGA Lucia"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17974",
+        "nombre": "CANALS Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 17
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

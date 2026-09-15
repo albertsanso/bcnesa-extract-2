@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "LLUÏSOS DE GRÀCIA ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA ''B''",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "B": {
-        "licencia": "10258",
-        "nombre": "SALGADO Adrián"
-      },
-      "C": {
-        "licencia": "2399",
-        "nombre": "CALBET Oriol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16812",
         "nombre": "RIU Miquel"
@@ -55,6 +41,20 @@
         "licencia": "10296",
         "nombre": "FRAGO Teo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
+      "B": {
+        "licencia": "10258",
+        "nombre": "SALGADO Adrián"
+      },
+      "C": {
+        "licencia": "2399",
+        "nombre": "CALBET Oriol"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16812",
         "nombre": "RIU Miquel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,64 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "15078",
+        "nombre": "BOLOIX Cesc"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "10258",
         "nombre": "SALGADO Adrián"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15078",
-        "nombre": "BOLOIX Cesc"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "2399",
-        "nombre": "CALBET Oriol"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "10296",
-        "nombre": "FRAGO Teo"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15078",
-        "nombre": "BOLOIX Cesc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +104,56 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "10296",
+        "nombre": "FRAGO Teo"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2399",
+        "nombre": "CALBET Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15078",
+        "nombre": "BOLOIX Cesc"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2399",
-        "nombre": "CALBET Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16812",
         "nombre": "RIU Miquel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2399",
+        "nombre": "CALBET Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10258",
-        "nombre": "SALGADO Adrián"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10296",
         "nombre": "FRAGO Teo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10258",
+        "nombre": "SALGADO Adrián"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT CASTELLAR",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

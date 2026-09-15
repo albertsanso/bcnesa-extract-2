@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT L'AVENÇ",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CTT L'AVENÇ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "506",
-        "nombre": "MARTIN Francisco"
-      },
-      "B": {
-        "licencia": "424",
-        "nombre": "DIAZ Mateo"
-      },
-      "C": {
-        "licencia": "11267",
-        "nombre": "BORREGUERO Rafael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10859",
         "nombre": "GARCÍA Albert"
@@ -55,6 +41,20 @@
         "licencia": "10853",
         "nombre": "MAMPEL Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "506",
+        "nombre": "MARTIN Francisco"
+      },
+      "B": {
+        "licencia": "424",
+        "nombre": "DIAZ Mateo"
+      },
+      "C": {
+        "licencia": "11267",
+        "nombre": "BORREGUERO Rafael"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "506",
-        "nombre": "MARTIN Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10859",
         "nombre": "GARCÍA Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "506",
+        "nombre": "MARTIN Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "424",
-        "nombre": "DIAZ Mateo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14179",
         "nombre": "CARACUEL Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "424",
+        "nombre": "DIAZ Mateo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11267",
-        "nombre": "BORREGUERO Rafael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10853",
         "nombre": "MAMPEL Ramon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11267",
+        "nombre": "BORREGUERO Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "506",
-        "nombre": "MARTIN Francisco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14179",
         "nombre": "CARACUEL Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "506",
+        "nombre": "MARTIN Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11267",
-        "nombre": "BORREGUERO Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10859",
         "nombre": "GARCÍA Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11267",
+        "nombre": "BORREGUERO Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "424",
-        "nombre": "DIAZ Mateo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10853",
         "nombre": "MAMPEL Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "424",
+        "nombre": "DIAZ Mateo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 17
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

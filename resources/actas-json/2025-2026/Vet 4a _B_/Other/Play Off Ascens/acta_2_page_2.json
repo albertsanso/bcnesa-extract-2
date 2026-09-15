@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALÉS",
+      "nombre": "CTT COLÒNIA GÜELL 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT COLÒNIA GÜELL 'A'",
+      "nombre": "CTT JOSEP M. PALÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4979",
-        "nombre": "RIBERA Victor"
-      },
-      "B": {
-        "licencia": "4994",
-        "nombre": "AMOUROUX Patrice M. Xavier"
-      },
-      "C": {
-        "licencia": "4517",
-        "nombre": "CAMPRECIOS Nuria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4846",
         "nombre": "FERRER Joel"
@@ -55,6 +41,20 @@
         "licencia": "16353",
         "nombre": "NAVAS Miguel Ángel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4979",
+        "nombre": "RIBERA Victor"
+      },
+      "B": {
+        "licencia": "4994",
+        "nombre": "AMOUROUX Patrice M. Xavier"
+      },
+      "C": {
+        "licencia": "4517",
+        "nombre": "CAMPRECIOS Nuria"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4979",
-        "nombre": "RIBERA Victor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4846",
         "nombre": "FERRER Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4979",
+        "nombre": "RIBERA Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4994",
-        "nombre": "AMOUROUX Patrice M. Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18944",
         "nombre": "QUIÑONERO Montserrat"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4994",
+        "nombre": "AMOUROUX Patrice M. Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4517",
-        "nombre": "CAMPRECIOS Nuria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16353",
         "nombre": "NAVAS Miguel Ángel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4517",
+        "nombre": "CAMPRECIOS Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4979",
-        "nombre": "RIBERA Victor"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18944",
         "nombre": "QUIÑONERO Montserrat"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4979",
+        "nombre": "RIBERA Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4517",
-        "nombre": "CAMPRECIOS Nuria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4846",
         "nombre": "FERRER Joel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4517",
+        "nombre": "CAMPRECIOS Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4994",
-        "nombre": "AMOUROUX Patrice M. Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16353",
         "nombre": "NAVAS Miguel Ángel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4994",
+        "nombre": "AMOUROUX Patrice M. Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT COLÒNIA GÜELL 'A'",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

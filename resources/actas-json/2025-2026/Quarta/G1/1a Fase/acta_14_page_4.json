@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "CETT SANT ANDREU DE LA BARCA 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CETT SANT ANDREU DE LA BARCA 'A'",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "20075",
-        "nombre": "GIRONA Marti"
-      },
-      "B": {
-        "licencia": "20794",
-        "nombre": "GIL Balbino"
-      },
-      "C": {
-        "licencia": "17883",
-        "nombre": "MARTOS Xavi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19188",
         "nombre": "LLOBET Lluis"
@@ -55,6 +41,20 @@
         "licencia": "13273",
         "nombre": "VIÑAS Joaquín"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "20075",
+        "nombre": "GIRONA Marti"
+      },
+      "B": {
+        "licencia": "20794",
+        "nombre": "GIL Balbino"
+      },
+      "C": {
+        "licencia": "17883",
+        "nombre": "MARTOS Xavi"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "20075",
-        "nombre": "GIRONA Marti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19188",
         "nombre": "LLOBET Lluis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "20794",
-        "nombre": "GIL Balbino"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19189",
-        "nombre": "LLOBET Albert"
+        "letra": "A",
+        "licencia": "20075",
+        "nombre": "GIRONA Marti"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "19189",
+        "nombre": "LLOBET Albert"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20794",
+        "nombre": "GIL Balbino"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17883",
-        "nombre": "MARTOS Xavi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13273",
         "nombre": "VIÑAS Joaquín"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17883",
+        "nombre": "MARTOS Xavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "20075",
-        "nombre": "GIRONA Marti"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19189",
         "nombre": "LLOBET Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20075",
+        "nombre": "GIRONA Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17883",
-        "nombre": "MARTOS Xavi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19188",
         "nombre": "LLOBET Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17883",
+        "nombre": "MARTOS Xavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "20794",
-        "nombre": "GIL Balbino"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13273",
         "nombre": "VIÑAS Joaquín"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20794",
+        "nombre": "GIL Balbino"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CETT SANT ANDREU DE LA BARCA 'A'",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

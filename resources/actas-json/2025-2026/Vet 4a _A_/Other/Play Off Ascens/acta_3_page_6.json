@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CC SANT ANDREU13è3aB",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANT ANDREU13è3aB",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13226",
-        "nombre": "RIVERA Juanjo"
-      },
-      "B": {
-        "licencia": "18933",
-        "nombre": "GARCIA Jose Manuel"
-      },
-      "C": {
-        "licencia": "7342",
-        "nombre": "MAROTO Eduardo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5660",
         "nombre": "GARCIA Carlos"
@@ -55,6 +41,20 @@
         "licencia": "6218",
         "nombre": "GARCIA Jorge"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13226",
+        "nombre": "RIVERA Juanjo"
+      },
+      "B": {
+        "licencia": "18933",
+        "nombre": "GARCIA Jose Manuel"
+      },
+      "C": {
+        "licencia": "7342",
+        "nombre": "MAROTO Eduardo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13226",
-        "nombre": "RIVERA Juanjo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5660",
         "nombre": "GARCIA Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13226",
+        "nombre": "RIVERA Juanjo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18933",
-        "nombre": "GARCIA Jose Manuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3266",
         "nombre": "GASSOL Gabriel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18933",
+        "nombre": "GARCIA Jose Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7342",
-        "nombre": "MAROTO Eduardo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6218",
         "nombre": "GARCIA Jorge"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7342",
+        "nombre": "MAROTO Eduardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,39 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13226",
-        "nombre": "RIVERA Juanjo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3266",
         "nombre": "GASSOL Gabriel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "7342",
-        "nombre": "MAROTO Eduardo"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
+        "letra": "A",
+        "licencia": "13226",
+        "nombre": "RIVERA Juanjo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +155,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7342",
+        "nombre": "MAROTO Eduardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18933",
-        "nombre": "GARCIA Jose Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6218",
         "nombre": "GARCIA Jorge"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18933",
+        "nombre": "GARCIA Jose Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANT ANDREU13è3aB",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

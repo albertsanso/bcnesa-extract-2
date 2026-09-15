@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Sen A",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Sen A",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11373",
-        "nombre": "BUISAN Marti"
-      },
-      "B": {
-        "licencia": "6394",
-        "nombre": "ADALID Carlos"
-      },
-      "C": {
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4114",
         "nombre": "OTERO Sergio"
@@ -55,6 +41,20 @@
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
+      "B": {
+        "licencia": "6394",
+        "nombre": "ADALID Carlos"
+      },
+      "C": {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11373",
-        "nombre": "BUISAN Marti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4114",
         "nombre": "OTERO Sergio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6394",
-        "nombre": "ADALID Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6394",
+        "nombre": "ADALID Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11373",
-        "nombre": "BUISAN Marti"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11373",
+        "nombre": "BUISAN Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4114",
         "nombre": "OTERO Sergio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6394",
-        "nombre": "ADALID Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6394",
+        "nombre": "ADALID Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

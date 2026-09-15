@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT JOSEP MARIA PALES",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "CTT JOSEP MARIA PALES",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13677",
-        "nombre": "FRANTZ Alex Noah"
-      },
-      "B": {
-        "licencia": "4516",
-        "nombre": "GARCIA Jordi"
-      },
-      "C": {
-        "licencia": "12593",
-        "nombre": "BOADA Marti"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12403",
         "nombre": "ALTAS Pau"
@@ -55,6 +41,20 @@
         "licencia": "11775",
         "nombre": "CUTILLAS Octavi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13677",
+        "nombre": "FRANTZ Alex Noah"
+      },
+      "B": {
+        "licencia": "4516",
+        "nombre": "GARCIA Jordi"
+      },
+      "C": {
+        "licencia": "12593",
+        "nombre": "BOADA Marti"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13677",
-        "nombre": "FRANTZ Alex Noah"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12403",
         "nombre": "ALTAS Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13677",
+        "nombre": "FRANTZ Alex Noah"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4516",
-        "nombre": "GARCIA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11774",
         "nombre": "GARCÍA Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4516",
+        "nombre": "GARCIA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12593",
-        "nombre": "BOADA Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11775",
         "nombre": "CUTILLAS Octavi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12593",
+        "nombre": "BOADA Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13677",
-        "nombre": "FRANTZ Alex Noah"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11774",
         "nombre": "GARCÍA Alex"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13677",
+        "nombre": "FRANTZ Alex Noah"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12593",
-        "nombre": "BOADA Marti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12403",
         "nombre": "ALTAS Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12593",
+        "nombre": "BOADA Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,21 +189,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4516",
-        "nombre": "GARCIA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11775",
         "nombre": "CUTILLAS Octavi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4516",
+        "nombre": "GARCIA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -211,12 +211,15 @@
     }
   ],
   "resultado_final": {
-    "ganador": "CTT JOSEP MARIA PALES",
+    "ganador": null,
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 11
+      "local": 3,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

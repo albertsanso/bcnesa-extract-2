@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "WBTRAVEL CTT RIPOLLET",
+      "nombre": "MASQUEFA TTC",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MASQUEFA TTC",
+      "nombre": "WBTRAVEL CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12403",
-        "nombre": "ALTAS Pau"
-      },
-      "B": {
-        "licencia": "11775",
-        "nombre": "CUTILLAS Octavi"
-      },
-      "C": {
-        "licencia": "11774",
-        "nombre": "GARCÍA Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4527",
         "nombre": "BONASTRE Ferran"
@@ -55,6 +41,20 @@
         "licencia": "12288",
         "nombre": "VIDAL Gerard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12403",
+        "nombre": "ALTAS Pau"
+      },
+      "B": {
+        "licencia": "11775",
+        "nombre": "CUTILLAS Octavi"
+      },
+      "C": {
+        "licencia": "11774",
+        "nombre": "GARCÍA Alex"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12403",
-        "nombre": "ALTAS Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4527",
         "nombre": "BONASTRE Ferran"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11775",
-        "nombre": "CUTILLAS Octavi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12214",
-        "nombre": "VIDAL Raul"
+        "letra": "A",
+        "licencia": "12403",
+        "nombre": "ALTAS Pau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12214",
+        "nombre": "VIDAL Raul"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11775",
+        "nombre": "CUTILLAS Octavi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11774",
-        "nombre": "GARCÍA Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12288",
         "nombre": "VIDAL Gerard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11774",
+        "nombre": "GARCÍA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12403",
-        "nombre": "ALTAS Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12214",
         "nombre": "VIDAL Raul"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12403",
+        "nombre": "ALTAS Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11774",
-        "nombre": "GARCÍA Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4527",
         "nombre": "BONASTRE Ferran"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11774",
+        "nombre": "GARCÍA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11775",
-        "nombre": "CUTILLAS Octavi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12288",
         "nombre": "VIDAL Gerard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11775",
+        "nombre": "CUTILLAS Octavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "WBTRAVEL CTT RIPOLLET",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

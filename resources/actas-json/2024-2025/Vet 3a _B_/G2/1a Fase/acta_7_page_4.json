@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5897",
-        "nombre": "INFANTE Enric"
-      },
-      "B": {
-        "licencia": "267",
-        "nombre": "INFANTE Isidro"
-      },
-      "C": {
-        "licencia": "10582",
-        "nombre": "PARDELL Ernest"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
@@ -55,20 +41,24 @@
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5897",
+        "nombre": "INFANTE Enric"
+      },
+      "B": {
+        "licencia": "267",
+        "nombre": "INFANTE Isidro"
+      },
+      "C": {
+        "licencia": "10582",
+        "nombre": "PARDELL Ernest"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "267",
-        "nombre": "INFANTE Isidro"
-      },
-      {
-        "licencia": "10582",
-        "nombre": "PARDELL Ernest"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
@@ -76,6 +66,16 @@
       {
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "267",
+        "nombre": "INFANTE Isidro"
+      },
+      {
+        "licencia": "10582",
+        "nombre": "PARDELL Ernest"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5897",
-        "nombre": "INFANTE Enric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "267",
-        "nombre": "INFANTE Isidro"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6924",
-        "nombre": "ROMERA Enric"
+        "letra": "A",
+        "licencia": "5897",
+        "nombre": "INFANTE Enric"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "267",
+        "nombre": "INFANTE Isidro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10582",
-        "nombre": "PARDELL Ernest"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "5897",
-        "nombre": "INFANTE Enric"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6924",
-        "nombre": "ROMERA Enric"
+        "letra": "C",
+        "licencia": "10582",
+        "nombre": "PARDELL Ernest"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5897",
+        "nombre": "INFANTE Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10582",
-        "nombre": "PARDELL Ernest"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10582",
+        "nombre": "PARDELL Ernest"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "267",
-        "nombre": "INFANTE Isidro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "267",
+        "nombre": "INFANTE Isidro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "267",
-            "nombre": "INFANTE Isidro"
-          },
-          {
-            "licencia": "10582",
-            "nombre": "PARDELL Ernest"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12579",
             "nombre": "MUÑOZ Joan"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "267",
+            "nombre": "INFANTE Isidro"
+          },
+          {
+            "licencia": "10582",
+            "nombre": "PARDELL Ernest"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

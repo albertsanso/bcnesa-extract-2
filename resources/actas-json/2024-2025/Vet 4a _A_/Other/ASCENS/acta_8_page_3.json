@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "B": {
-        "licencia": "18307",
-        "nombre": "AGUILERA Cristina"
-      },
-      "C": {
-        "licencia": "12347",
-        "nombre": "FRANQUET Juan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7670",
         "nombre": "VALLBONA Xavier"
@@ -55,6 +41,20 @@
         "licencia": "11651",
         "nombre": "GUINART Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
+      "B": {
+        "licencia": "18307",
+        "nombre": "AGUILERA Cristina"
+      },
+      "C": {
+        "licencia": "12347",
+        "nombre": "FRANQUET Juan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7670",
         "nombre": "VALLBONA Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18307",
-        "nombre": "AGUILERA Cristina"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7667",
         "nombre": "VERA Edgardo Oliver"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18307",
+        "nombre": "AGUILERA Cristina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12347",
-        "nombre": "FRANQUET Juan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11651",
         "nombre": "GUINART Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12347",
+        "nombre": "FRANQUET Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7667",
         "nombre": "VERA Edgardo Oliver"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12347",
-        "nombre": "FRANQUET Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7670",
         "nombre": "VALLBONA Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12347",
+        "nombre": "FRANQUET Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18307",
-        "nombre": "AGUILERA Cristina"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11651",
         "nombre": "GUINART Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18307",
+        "nombre": "AGUILERA Cristina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

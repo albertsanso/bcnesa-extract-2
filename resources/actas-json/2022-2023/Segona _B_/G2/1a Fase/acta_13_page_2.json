@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FOMENT MARTINENC",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "FOMENT MARTINENC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "B": {
-        "licencia": "8517",
-        "nombre": "RIBAS Jose"
-      },
-      "C": {
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16472",
         "nombre": "SARAIVA Hugo"
@@ -55,20 +41,24 @@
         "licencia": "15976",
         "nombre": "TORNAY Alex"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
+      "B": {
+        "licencia": "8517",
+        "nombre": "RIBAS Jose"
+      },
+      "C": {
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      {
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16472",
         "nombre": "SARAIVA Hugo"
@@ -76,6 +66,16 @@
       {
         "licencia": "13968",
         "nombre": "DOMENECH Ferran"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
+      {
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16472",
         "nombre": "SARAIVA Hugo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8517",
-        "nombre": "RIBAS Jose"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13968",
         "nombre": "DOMENECH Ferran"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8517",
+        "nombre": "RIBAS Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15976",
         "nombre": "TORNAY Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13968",
         "nombre": "DOMENECH Ferran"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16472",
         "nombre": "SARAIVA Hugo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8517",
-        "nombre": "RIBAS Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15976",
         "nombre": "TORNAY Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8517",
+        "nombre": "RIBAS Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14151",
-            "nombre": "DEL BOSQUE Fermin"
-          },
-          {
-            "licencia": "13119",
-            "nombre": "CARO Pablo"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16472",
             "nombre": "SARAIVA Hugo"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14151",
+            "nombre": "DEL BOSQUE Fermin"
+          },
+          {
+            "licencia": "13119",
+            "nombre": "CARO Pablo"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": "ATT CASTELLAR",
+    "ganador": "FOMENT MARTINENC",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

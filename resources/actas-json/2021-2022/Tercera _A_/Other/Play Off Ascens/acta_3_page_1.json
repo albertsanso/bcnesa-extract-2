@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6187",
-        "nombre": "PEÑA Ana Maria"
-      },
-      "B": {
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "C": {
-        "licencia": "7743",
-        "nombre": "MARCA Ramon"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
@@ -55,20 +41,24 @@
         "licencia": "13968",
         "nombre": "DOMENECH Ferran"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6187",
+        "nombre": "PEÑA Ana Maria"
+      },
+      "B": {
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
+      "C": {
+        "licencia": "7743",
+        "nombre": "MARCA Ramon"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6187",
-        "nombre": "PEÑA Ana Maria"
-      },
-      {
-        "licencia": "7743",
-        "nombre": "MARCA Ramon"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
@@ -76,6 +66,16 @@
       {
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6187",
+        "nombre": "PEÑA Ana Maria"
+      },
+      {
+        "licencia": "7743",
+        "nombre": "MARCA Ramon"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6187",
-        "nombre": "PEÑA Ana Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6187",
+        "nombre": "PEÑA Ana Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,39 +110,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "7743",
-        "nombre": "MARCA Ramon"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "13968",
-        "nombre": "DOMENECH Ferran"
+        "letra": "B",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
       },
       "sets": [],
       "resultado_juegos": {
@@ -151,23 +126,23 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "A",
-        "licencia": "6187",
-        "nombre": "PEÑA Ana Maria"
+        "letra": "Z",
+        "licencia": "13968",
+        "nombre": "DOMENECH Ferran"
       },
       "visitante": {
-        "letra": "X",
-        "licencia": "12056",
-        "nombre": "ALFONSO Marc"
+        "letra": "C",
+        "licencia": "7743",
+        "nombre": "MARCA Ramon"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,8 +151,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12056",
+        "nombre": "ALFONSO Marc"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6187",
+        "nombre": "PEÑA Ana Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7743",
-        "nombre": "MARCA Ramon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7743",
+        "nombre": "MARCA Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13968",
         "nombre": "DOMENECH Ferran"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6187",
-            "nombre": "PEÑA Ana Maria"
-          },
-          {
-            "licencia": "7743",
-            "nombre": "MARCA Ramon"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12057",
             "nombre": "MONTALBAN Xavi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6187",
+            "nombre": "PEÑA Ana Maria"
+          },
+          {
+            "licencia": "7743",
+            "nombre": "MARCA Ramon"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "ATT CASTELLAR",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

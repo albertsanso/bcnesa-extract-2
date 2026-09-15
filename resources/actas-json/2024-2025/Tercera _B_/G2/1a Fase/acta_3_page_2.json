@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CATT SANT CELONI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CATT SANT CELONI",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "B": {
-        "licencia": "14180",
-        "nombre": "AGUILAR Antoni"
-      },
-      "C": {
-        "licencia": "7284",
-        "nombre": "SANROMA Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17667",
         "nombre": "PUENTE Oriol"
@@ -55,20 +41,24 @@
         "licencia": "4661",
         "nombre": "CORBACHO Alejandro"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "B": {
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
+      },
+      "C": {
+        "licencia": "7284",
+        "nombre": "SANROMA Jordi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14180",
-        "nombre": "AGUILAR Antoni"
-      },
-      {
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "4661",
         "nombre": "CORBACHO Alejandro"
@@ -76,6 +66,16 @@
       {
         "licencia": "17667",
         "nombre": "PUENTE Oriol"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
+      },
+      {
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17667",
         "nombre": "PUENTE Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,39 +110,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14180",
-        "nombre": "AGUILAR Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17666",
         "nombre": "SALA Roger"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "7284",
-        "nombre": "SANROMA Jordi"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "4661",
-        "nombre": "CORBACHO Alejandro"
+        "letra": "B",
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
       },
       "sets": [],
       "resultado_juegos": {
@@ -151,23 +126,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 0,
+        "visitante": 2
       }
     },
     {
-      "numero": 4,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "A",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
+        "letra": "Z",
+        "licencia": "4661",
+        "nombre": "CORBACHO Alejandro"
       },
       "visitante": {
-        "letra": "X",
-        "licencia": "17666",
-        "nombre": "SALA Roger"
+        "letra": "C",
+        "licencia": "7284",
+        "nombre": "SANROMA Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,8 +151,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17666",
+        "nombre": "SALA Roger"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7284",
-        "nombre": "SANROMA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17667",
         "nombre": "PUENTE Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7284",
+        "nombre": "SANROMA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14180",
-        "nombre": "AGUILAR Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4661",
         "nombre": "CORBACHO Alejandro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14180",
+        "nombre": "AGUILAR Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14180",
-            "nombre": "AGUILAR Antoni"
-          },
-          {
-            "licencia": "8920",
-            "nombre": "GARCIA Jose"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "4661",
             "nombre": "CORBACHO Alejandro"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14180",
+            "nombre": "AGUILAR Antoni"
+          },
+          {
+            "licencia": "8920",
+            "nombre": "GARCIA Jose"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

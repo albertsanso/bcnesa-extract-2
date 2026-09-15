@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "108",
-        "nombre": "ALEMANY Antonio"
-      },
-      "B": {
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "C": {
-        "licencia": "1928",
-        "nombre": "MALDONADO Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5427",
         "nombre": "BERNAL Martin"
@@ -55,6 +41,20 @@
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "108",
+        "nombre": "ALEMANY Antonio"
+      },
+      "B": {
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
+      "C": {
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "108",
-        "nombre": "ALEMANY Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5427",
         "nombre": "BERNAL Martin"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12168",
-        "nombre": "CASTILLO Isaac"
+        "letra": "A",
+        "licencia": "108",
+        "nombre": "ALEMANY Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12168",
+        "nombre": "CASTILLO Isaac"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1928",
-        "nombre": "MALDONADO Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "108",
-        "nombre": "ALEMANY Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12168",
         "nombre": "CASTILLO Isaac"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "108",
+        "nombre": "ALEMANY Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1928",
-        "nombre": "MALDONADO Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5427",
         "nombre": "BERNAL Martin"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1928",
+        "nombre": "MALDONADO Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

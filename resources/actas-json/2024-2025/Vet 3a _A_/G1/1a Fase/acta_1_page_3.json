@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CANET DE MAR",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT CANET DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
-      },
-      "B": {
-        "licencia": "4055",
-        "nombre": "NOGUERES Joan"
-      },
-      "C": {
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "108",
         "nombre": "ALEMANY Antonio"
@@ -55,6 +41,20 @@
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "B": {
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
+      "C": {
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "108",
         "nombre": "ALEMANY Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4055",
-        "nombre": "NOGUERES Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16445",
         "nombre": "ZHAO Yun"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16445",
         "nombre": "ZHAO Yun"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "108",
         "nombre": "ALEMANY Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4055",
-        "nombre": "NOGUERES Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FOMENT MARTINENC",
+      "nombre": "CRUXENT EDELMA CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CRUXENT EDELMA CALELLA",
+      "nombre": "FOMENT MARTINENC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "B": {
-        "licencia": "11138",
-        "nombre": "GARCÍA Alfred"
-      },
-      "C": {
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
@@ -55,6 +41,20 @@
         "licencia": "93",
         "nombre": "PUIG Jaume"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
+      "B": {
+        "licencia": "11138",
+        "nombre": "GARCÍA Alfred"
+      },
+      "C": {
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11138",
-        "nombre": "GARCÍA Alfred"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15723",
         "nombre": "SEVILLA Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11138",
+        "nombre": "GARCÍA Alfred"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "93",
         "nombre": "PUIG Jaume"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15723",
         "nombre": "SEVILLA Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11138",
-        "nombre": "GARCÍA Alfred"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "93",
         "nombre": "PUIG Jaume"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11138",
+        "nombre": "GARCÍA Alfred"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CRUXENT EDELMA CALELLA",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

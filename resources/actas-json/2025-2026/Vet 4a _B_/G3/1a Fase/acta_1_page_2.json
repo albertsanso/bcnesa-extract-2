@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      },
-      "B": {
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "C": {
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5759",
         "nombre": "BADIA Albert"
@@ -55,6 +41,20 @@
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
+      "B": {
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "C": {
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5759",
         "nombre": "BADIA Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16556",
         "nombre": "SANCHEZ-RICO Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16556",
         "nombre": "SANCHEZ-RICO Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5759",
         "nombre": "BADIA Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 2
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 2,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

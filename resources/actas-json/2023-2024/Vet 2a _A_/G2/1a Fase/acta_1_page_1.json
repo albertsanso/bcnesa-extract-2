@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALES",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet A",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet A",
+      "nombre": "CTT JOSEP M. PALES",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "421",
-        "nombre": "LI Yanlan"
-      },
-      "B": {
-        "licencia": "4518",
-        "nombre": "FONOLLA Ramon"
-      },
-      "C": {
-        "licencia": "3495",
-        "nombre": "AGUERRI Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1014",
         "nombre": "MINGUELL Roger"
@@ -55,6 +41,20 @@
         "licencia": "3484",
         "nombre": "FERRERA Carlos Augusto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "421",
+        "nombre": "LI Yanlan"
+      },
+      "B": {
+        "licencia": "4518",
+        "nombre": "FONOLLA Ramon"
+      },
+      "C": {
+        "licencia": "3495",
+        "nombre": "AGUERRI Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "421",
-        "nombre": "LI Yanlan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1014",
         "nombre": "MINGUELL Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "421",
+        "nombre": "LI Yanlan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4518",
-        "nombre": "FONOLLA Ramon"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14565",
         "nombre": "MATTSSON Tony Michael"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4518",
+        "nombre": "FONOLLA Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3495",
-        "nombre": "AGUERRI Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3484",
         "nombre": "FERRERA Carlos Augusto"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "421",
-        "nombre": "LI Yanlan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14565",
-        "nombre": "MATTSSON Tony Michael"
+        "letra": "C",
+        "licencia": "3495",
+        "nombre": "AGUERRI Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14565",
+        "nombre": "MATTSSON Tony Michael"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "421",
+        "nombre": "LI Yanlan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3495",
-        "nombre": "AGUERRI Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1014",
         "nombre": "MINGUELL Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3495",
+        "nombre": "AGUERRI Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4518",
-        "nombre": "FONOLLA Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3484",
         "nombre": "FERRERA Carlos Augusto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4518",
+        "nombre": "FONOLLA Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ST QUIRZE DEL VALLÈS - Vet A",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT 'A'",
+      "nombre": "CTT VILASSAR L'OBRERA 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR L'OBRERA 'B'",
+      "nombre": "LLUÏSOS D'HORTA TT 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
-      },
-      "B": {
-        "licencia": "19456",
-        "nombre": "ALDRICH Xavier"
-      },
-      "C": {
-        "licencia": "15135",
-        "nombre": "DUTTO Alberto"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5926",
         "nombre": "RECODER Carles"
@@ -55,20 +41,24 @@
         "licencia": "19297",
         "nombre": "SANTOS Edgar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "B": {
+        "licencia": "19456",
+        "nombre": "ALDRICH Xavier"
+      },
+      "C": {
+        "licencia": "15135",
+        "nombre": "DUTTO Alberto"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
-      },
-      {
-        "licencia": "15135",
-        "nombre": "DUTTO Alberto"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "5926",
         "nombre": "RECODER Carles"
@@ -76,6 +66,16 @@
       {
         "licencia": "19297",
         "nombre": "SANTOS Edgar"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      {
+        "licencia": "15135",
+        "nombre": "DUTTO Alberto"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5926",
         "nombre": "RECODER Carles"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "19456",
-        "nombre": "ALDRICH Xavier"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17708",
-        "nombre": "ESCORSA Rosa Maria"
+        "letra": "A",
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17708",
+        "nombre": "ESCORSA Rosa Maria"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19456",
+        "nombre": "ALDRICH Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15135",
-        "nombre": "DUTTO Alberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19297",
         "nombre": "SANTOS Edgar"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17708",
-        "nombre": "ESCORSA Rosa Maria"
+        "letra": "C",
+        "licencia": "15135",
+        "nombre": "DUTTO Alberto"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17708",
+        "nombre": "ESCORSA Rosa Maria"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15135",
-        "nombre": "DUTTO Alberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5926",
         "nombre": "RECODER Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15135",
+        "nombre": "DUTTO Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19456",
-        "nombre": "ALDRICH Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19297",
         "nombre": "SANTOS Edgar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19456",
+        "nombre": "ALDRICH Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15810",
-            "nombre": "MUÑOZ Jose Manuel"
-          },
-          {
-            "licencia": "15135",
-            "nombre": "DUTTO Alberto"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "5926",
             "nombre": "RECODER Carles"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15810",
+            "nombre": "MUÑOZ Jose Manuel"
+          },
+          {
+            "licencia": "15135",
+            "nombre": "DUTTO Alberto"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT VILASSAR L'OBRERA 'B'",
+    "ganador": "LLUÏSOS D'HORTA TT 'A'",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

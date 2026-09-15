@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT COLLBATO \"LA CASSOLA\"",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "CTT COLLBATO \"LA CASSOLA\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8331",
-        "nombre": "PIFERRER David"
-      },
-      "B": {
-        "licencia": "5044",
-        "nombre": "SANTOS Victoriano"
-      },
-      "C": {
-        "licencia": "4349",
-        "nombre": "MORRAL Ramon"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18307",
         "nombre": "AGUILERA Cristina"
@@ -55,6 +41,20 @@
         "licencia": "6191",
         "nombre": "JUNI Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8331",
+        "nombre": "PIFERRER David"
+      },
+      "B": {
+        "licencia": "5044",
+        "nombre": "SANTOS Victoriano"
+      },
+      "C": {
+        "licencia": "4349",
+        "nombre": "MORRAL Ramon"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8331",
-        "nombre": "PIFERRER David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18307",
         "nombre": "AGUILERA Cristina"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8331",
+        "nombre": "PIFERRER David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5044",
-        "nombre": "SANTOS Victoriano"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4227",
         "nombre": "PARRA Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5044",
+        "nombre": "SANTOS Victoriano"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4349",
-        "nombre": "MORRAL Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6191",
         "nombre": "JUNI Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4349",
+        "nombre": "MORRAL Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8331",
-        "nombre": "PIFERRER David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4227",
         "nombre": "PARRA Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8331",
+        "nombre": "PIFERRER David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4349",
-        "nombre": "MORRAL Ramon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18307",
         "nombre": "AGUILERA Cristina"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4349",
+        "nombre": "MORRAL Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5044",
-        "nombre": "SANTOS Victoriano"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6191",
         "nombre": "JUNI Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5044",
+        "nombre": "SANTOS Victoriano"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT COLLBATO \"LA CASSOLA\"",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 3
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

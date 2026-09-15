@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "TT ELS JOVES DE CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT ELS JOVES DE CASTELLDEFELS",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15001",
-        "nombre": "MALVAR Juan Andres"
-      },
-      "B": {
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
-      "C": {
-        "licencia": "12688",
-        "nombre": "PALAO Julia"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "9145",
         "nombre": "OBIOLS Pol"
@@ -55,6 +41,20 @@
         "licencia": "14526",
         "nombre": "COMAS Jan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
+      "B": {
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
+      "C": {
+        "licencia": "12688",
+        "nombre": "PALAO Julia"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15001",
-        "nombre": "MALVAR Juan Andres"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "9145",
         "nombre": "OBIOLS Pol"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12036",
-        "nombre": "ROMO Pol"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12688",
-        "nombre": "PALAO Julia"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "14526",
-        "nombre": "COMAS Jan"
+        "letra": "A",
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12036",
+        "nombre": "ROMO Pol"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "14526",
+        "nombre": "COMAS Jan"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12688",
+        "nombre": "PALAO Julia"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15001",
-        "nombre": "MALVAR Juan Andres"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12036",
         "nombre": "ROMO Pol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12688",
-        "nombre": "PALAO Julia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "9145",
         "nombre": "OBIOLS Pol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12688",
+        "nombre": "PALAO Julia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14526",
         "nombre": "COMAS Jan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT ELS JOVES DE CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "108",
-        "nombre": "ALEMANY Antonio"
-      },
-      "B": {
-        "licencia": "13078",
-        "nombre": "ESCORZA Daniel"
-      },
-      "C": {
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
@@ -55,20 +41,24 @@
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "108",
+        "nombre": "ALEMANY Antonio"
+      },
+      "B": {
+        "licencia": "13078",
+        "nombre": "ESCORZA Daniel"
+      },
+      "C": {
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      {
-        "licencia": "108",
-        "nombre": "ALEMANY Antonio"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
@@ -76,6 +66,16 @@
       {
         "licencia": "417",
         "nombre": "KRAWCZYK Guido"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
+      {
+        "licencia": "108",
+        "nombre": "ALEMANY Antonio"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "108",
-        "nombre": "ALEMANY Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "108",
+        "nombre": "ALEMANY Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13078",
-        "nombre": "ESCORZA Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "417",
         "nombre": "KRAWCZYK Guido"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13078",
+        "nombre": "ESCORZA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "108",
-        "nombre": "ALEMANY Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "417",
         "nombre": "KRAWCZYK Guido"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "108",
+        "nombre": "ALEMANY Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13078",
-        "nombre": "ESCORZA Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13078",
+        "nombre": "ESCORZA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "13098",
-            "nombre": "CARDONA Eduard"
-          },
-          {
-            "licencia": "108",
-            "nombre": "ALEMANY Antonio"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "10101",
             "nombre": "LLADÓ Albert"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13098",
+            "nombre": "CARDONA Eduard"
+          },
+          {
+            "licencia": "108",
+            "nombre": "ALEMANY Antonio"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "AGRUPACIÓ CONGRÉS ''B''",
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "DECATHLON BADALONA",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "DECATHLON BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6947",
-        "nombre": "FORES Jaume"
-      },
-      "B": {
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "C": {
-        "licencia": "7780",
-        "nombre": "AMANTIA David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19325",
         "nombre": "MORA O. Jose Miguel"
@@ -55,20 +41,24 @@
         "licencia": "17947",
         "nombre": "ZHOVBA Adrian"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6947",
+        "nombre": "FORES Jaume"
+      },
+      "B": {
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
+      "C": {
+        "licencia": "7780",
+        "nombre": "AMANTIA David"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      {
-        "licencia": "6947",
-        "nombre": "FORES Jaume"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "19325",
         "nombre": "MORA O. Jose Miguel"
@@ -76,6 +66,16 @@
       {
         "licencia": "18203",
         "nombre": "MIRO Sergi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
+      {
+        "licencia": "6947",
+        "nombre": "FORES Jaume"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6947",
-        "nombre": "FORES Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19325",
         "nombre": "MORA O. Jose Miguel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18203",
-        "nombre": "MIRO Sergi"
+        "letra": "A",
+        "licencia": "6947",
+        "nombre": "FORES Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18203",
+        "nombre": "MIRO Sergi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7780",
-        "nombre": "AMANTIA David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17947",
         "nombre": "ZHOVBA Adrian"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7780",
+        "nombre": "AMANTIA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6947",
-        "nombre": "FORES Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18203",
         "nombre": "MIRO Sergi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6947",
+        "nombre": "FORES Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7780",
-        "nombre": "AMANTIA David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19325",
         "nombre": "MORA O. Jose Miguel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7780",
+        "nombre": "AMANTIA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17947",
         "nombre": "ZHOVBA Adrian"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14129",
-            "nombre": "NAVARRO Laia"
-          },
-          {
-            "licencia": "6947",
-            "nombre": "FORES Jaume"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "19325",
             "nombre": "MORA O. Jose Miguel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14129",
+            "nombre": "NAVARRO Laia"
+          },
+          {
+            "licencia": "6947",
+            "nombre": "FORES Jaume"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": "TARINAS CALELLA",
+    "ganador": "DECATHLON BADALONA",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

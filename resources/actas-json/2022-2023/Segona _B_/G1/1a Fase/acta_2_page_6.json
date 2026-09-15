@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10912",
-        "nombre": "SILVA Adrian"
-      },
-      "B": {
-        "licencia": "8668",
-        "nombre": "BARCELO Manuel"
-      },
-      "C": {
-        "licencia": "6783",
-        "nombre": "VILARDELL Alfredo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6001",
         "nombre": "NAVARRETE Cristobal"
@@ -55,6 +41,20 @@
         "licencia": "89",
         "nombre": "GARCIA Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10912",
+        "nombre": "SILVA Adrian"
+      },
+      "B": {
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "C": {
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10912",
-        "nombre": "SILVA Adrian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6001",
         "nombre": "NAVARRETE Cristobal"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10912",
+        "nombre": "SILVA Adrian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8668",
-        "nombre": "BARCELO Manuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11259",
         "nombre": "BAREA Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6783",
-        "nombre": "VILARDELL Alfredo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "89",
         "nombre": "GARCIA Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10912",
-        "nombre": "SILVA Adrian"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11259",
         "nombre": "BAREA Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10912",
+        "nombre": "SILVA Adrian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6783",
-        "nombre": "VILARDELL Alfredo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6001",
         "nombre": "NAVARRETE Cristobal"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8668",
-        "nombre": "BARCELO Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "89",
         "nombre": "GARCIA Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT C. JEMA",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

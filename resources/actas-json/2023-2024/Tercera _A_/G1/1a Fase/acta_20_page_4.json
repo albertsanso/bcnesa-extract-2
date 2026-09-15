@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA ''A''",
+      "nombre": "CN MATARÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN MATARÓ",
+      "nombre": "CTT BARCELONA ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15842",
-        "nombre": "GRAU Antoni"
-      },
-      "B": {
-        "licencia": "15248",
-        "nombre": "VALLES Pau"
-      },
-      "C": {
-        "licencia": "10423",
-        "nombre": "GARMENDIA Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15599",
         "nombre": "SÁNCHEZ Pau"
@@ -55,6 +41,20 @@
         "licencia": "10451",
         "nombre": "DE SAN ANTONIO Eunice"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15842",
+        "nombre": "GRAU Antoni"
+      },
+      "B": {
+        "licencia": "15248",
+        "nombre": "VALLES Pau"
+      },
+      "C": {
+        "licencia": "10423",
+        "nombre": "GARMENDIA Miquel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15842",
-        "nombre": "GRAU Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15599",
         "nombre": "SÁNCHEZ Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15842",
+        "nombre": "GRAU Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15248",
-        "nombre": "VALLES Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10482",
         "nombre": "PALOMO Berta"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15248",
+        "nombre": "VALLES Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10423",
-        "nombre": "GARMENDIA Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10451",
         "nombre": "DE SAN ANTONIO Eunice"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10423",
+        "nombre": "GARMENDIA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15842",
-        "nombre": "GRAU Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10482",
         "nombre": "PALOMO Berta"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15842",
+        "nombre": "GRAU Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10423",
-        "nombre": "GARMENDIA Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15599",
         "nombre": "SÁNCHEZ Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10423",
+        "nombre": "GARMENDIA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15248",
-        "nombre": "VALLES Pau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10451",
         "nombre": "DE SAN ANTONIO Eunice"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15248",
+        "nombre": "VALLES Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CN MATARÓ",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 16
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

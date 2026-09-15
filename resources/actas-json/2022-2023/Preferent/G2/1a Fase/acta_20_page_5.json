@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "CLUB NATACIO SABADELL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11746",
-        "nombre": "YANG Owen"
-      },
-      "B": {
-        "licencia": "7099",
-        "nombre": "PONZ Antonio"
-      },
-      "C": {
-        "licencia": "11167",
-        "nombre": "RUIZ Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "686",
         "nombre": "CEPERO Jordi"
@@ -55,6 +41,20 @@
         "licencia": "1751",
         "nombre": "BLANCO Pere"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11746",
+        "nombre": "YANG Owen"
+      },
+      "B": {
+        "licencia": "7099",
+        "nombre": "PONZ Antonio"
+      },
+      "C": {
+        "licencia": "11167",
+        "nombre": "RUIZ Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11746",
-        "nombre": "YANG Owen"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "686",
         "nombre": "CEPERO Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7099",
-        "nombre": "PONZ Antonio"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7570",
-        "nombre": "BATALLA Ezequiel"
+        "letra": "A",
+        "licencia": "11746",
+        "nombre": "YANG Owen"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7570",
+        "nombre": "BATALLA Ezequiel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7099",
+        "nombre": "PONZ Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11167",
-        "nombre": "RUIZ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1751",
         "nombre": "BLANCO Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11167",
+        "nombre": "RUIZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11746",
-        "nombre": "YANG Owen"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7570",
         "nombre": "BATALLA Ezequiel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11746",
+        "nombre": "YANG Owen"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11167",
-        "nombre": "RUIZ Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "686",
         "nombre": "CEPERO Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11167",
+        "nombre": "RUIZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7099",
-        "nombre": "PONZ Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1751",
         "nombre": "BLANCO Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7099",
+        "nombre": "PONZ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB NATACIO SABADELL",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 10
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

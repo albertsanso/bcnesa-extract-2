@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN MATARÓ",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "CN MATARÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11537",
-        "nombre": "MATARÓ Isaac"
-      },
-      "B": {
-        "licencia": "10451",
-        "nombre": "DE SAN ANTONIO Eunice"
-      },
-      "C": {
-        "licencia": "15395",
-        "nombre": "PIJUAN Eudald"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8702",
         "nombre": "TAPIA Andres"
@@ -55,6 +41,20 @@
         "licencia": "17806",
         "nombre": "BAREA David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11537",
+        "nombre": "MATARÓ Isaac"
+      },
+      "B": {
+        "licencia": "10451",
+        "nombre": "DE SAN ANTONIO Eunice"
+      },
+      "C": {
+        "licencia": "15395",
+        "nombre": "PIJUAN Eudald"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11537",
-        "nombre": "MATARÓ Isaac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8702",
         "nombre": "TAPIA Andres"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11537",
+        "nombre": "MATARÓ Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10451",
-        "nombre": "DE SAN ANTONIO Eunice"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8327",
         "nombre": "MORATA Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10451",
+        "nombre": "DE SAN ANTONIO Eunice"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15395",
-        "nombre": "PIJUAN Eudald"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17806",
         "nombre": "BAREA David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15395",
+        "nombre": "PIJUAN Eudald"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11537",
-        "nombre": "MATARÓ Isaac"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8327",
         "nombre": "MORATA Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11537",
+        "nombre": "MATARÓ Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15395",
-        "nombre": "PIJUAN Eudald"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8702",
         "nombre": "TAPIA Andres"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15395",
+        "nombre": "PIJUAN Eudald"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10451",
-        "nombre": "DE SAN ANTONIO Eunice"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17806",
         "nombre": "BAREA David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10451",
+        "nombre": "DE SAN ANTONIO Eunice"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN MATARÓ",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 2
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 2,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

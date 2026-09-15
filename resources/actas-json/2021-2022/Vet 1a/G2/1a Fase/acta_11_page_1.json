@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO ''C''",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "EL CIERVO ''C''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2303",
-        "nombre": "ALMENDROS Joan Antoni"
-      },
-      "B": {
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
-      },
-      "C": {
-        "licencia": "6223",
-        "nombre": "VILA Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4052",
         "nombre": "BOVER Carles"
@@ -55,6 +41,20 @@
         "licencia": "2080",
         "nombre": "AUSIO Pere"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
+      "B": {
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      },
+      "C": {
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2303",
-        "nombre": "ALMENDROS Joan Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4052",
         "nombre": "BOVER Carles"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6223",
-        "nombre": "VILA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2080",
         "nombre": "AUSIO Pere"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "2303",
-        "nombre": "ALMENDROS Joan Antoni"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
+        "letra": "C",
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,23 +130,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "6223",
-        "nombre": "VILA Jordi"
+        "letra": "X",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "4052",
-        "nombre": "BOVER Carles"
+        "letra": "A",
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +155,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "4052",
+        "nombre": "BOVER Carles"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2080",
         "nombre": "AUSIO Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

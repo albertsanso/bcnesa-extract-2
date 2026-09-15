@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ICELAND TT ELS 8 LA GARRIGA",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "ICELAND TT ELS 8 LA GARRIGA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      "B": {
-        "licencia": "338",
-        "nombre": "GAVIN Antoni"
-      },
-      "C": {
-        "licencia": "10760",
-        "nombre": "BLANCAFORT Anna"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5390",
         "nombre": "RUIZ-SARMIENTO Manuel"
@@ -55,6 +41,20 @@
         "licencia": "8288",
         "nombre": "MARIO Nicola"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
+      "B": {
+        "licencia": "338",
+        "nombre": "GAVIN Antoni"
+      },
+      "C": {
+        "licencia": "10760",
+        "nombre": "BLANCAFORT Anna"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5390",
         "nombre": "RUIZ-SARMIENTO Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "338",
-        "nombre": "GAVIN Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12200",
         "nombre": "DE LA CRUZ Juan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "338",
+        "nombre": "GAVIN Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10760",
-        "nombre": "BLANCAFORT Anna"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8288",
         "nombre": "MARIO Nicola"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10760",
+        "nombre": "BLANCAFORT Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12200",
         "nombre": "DE LA CRUZ Juan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10760",
-        "nombre": "BLANCAFORT Anna"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5390",
         "nombre": "RUIZ-SARMIENTO Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10760",
+        "nombre": "BLANCAFORT Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "338",
-        "nombre": "GAVIN Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8288",
         "nombre": "MARIO Nicola"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "338",
+        "nombre": "GAVIN Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "ICELAND TT ELS 8 LA GARRIGA",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 3
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

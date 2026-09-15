@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "ESCOLETA VIA TRAJANA \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ESCOLETA VIA TRAJANA \"B\"",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16317",
-        "nombre": "MUNTADAS-PRIM Alex"
-      },
-      "B": {
-        "licencia": "16316",
-        "nombre": "RODRIGUEZ Jan"
-      },
-      "C": {
-        "licencia": "12852",
-        "nombre": "LIÑAN Jan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16456",
         "nombre": "RIVERO Juan Francisco"
@@ -55,20 +41,24 @@
         "licencia": "16448",
         "nombre": "RUIZ Julio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
+      "B": {
+        "licencia": "16316",
+        "nombre": "RODRIGUEZ Jan"
+      },
+      "C": {
+        "licencia": "12852",
+        "nombre": "LIÑAN Jan"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16317",
-        "nombre": "MUNTADAS-PRIM Alex"
-      },
-      {
-        "licencia": "16316",
-        "nombre": "RODRIGUEZ Jan"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16447",
         "nombre": "MORENO Enrique"
@@ -76,6 +66,16 @@
       {
         "licencia": "16448",
         "nombre": "RUIZ Julio"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
+      {
+        "licencia": "16316",
+        "nombre": "RODRIGUEZ Jan"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16317",
-        "nombre": "MUNTADAS-PRIM Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16456",
         "nombre": "RIVERO Juan Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16316",
-        "nombre": "RODRIGUEZ Jan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16447",
         "nombre": "MORENO Enrique"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16316",
+        "nombre": "RODRIGUEZ Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12852",
-        "nombre": "LIÑAN Jan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16448",
         "nombre": "RUIZ Julio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16317",
-        "nombre": "MUNTADAS-PRIM Alex"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16447",
-        "nombre": "MORENO Enrique"
+        "letra": "C",
+        "licencia": "12852",
+        "nombre": "LIÑAN Jan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16447",
+        "nombre": "MORENO Enrique"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12852",
-        "nombre": "LIÑAN Jan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16456",
         "nombre": "RIVERO Juan Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12852",
+        "nombre": "LIÑAN Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16316",
-        "nombre": "RODRIGUEZ Jan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16448",
         "nombre": "RUIZ Julio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16316",
+        "nombre": "RODRIGUEZ Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16317",
-            "nombre": "MUNTADAS-PRIM Alex"
-          },
-          {
-            "licencia": "16316",
-            "nombre": "RODRIGUEZ Jan"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16447",
             "nombre": "MORENO Enrique"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16317",
+            "nombre": "MUNTADAS-PRIM Alex"
+          },
+          {
+            "licencia": "16316",
+            "nombre": "RODRIGUEZ Jan"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CT BARCINO",
+    "ganador": "ESCOLETA VIA TRAJANA \"B\"",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

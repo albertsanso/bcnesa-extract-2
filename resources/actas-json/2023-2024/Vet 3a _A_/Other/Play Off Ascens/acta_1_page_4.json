@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANTS 2n3aB",
+      "nombre": "EL CERCLE TT GRÀCIA 13è2aB",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA 13è2aB",
+      "nombre": "CC SANTS 2n3aB",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3592",
-        "nombre": "MARTI Lluis"
-      },
-      "B": {
-        "licencia": "15056",
-        "nombre": "JIN Shan"
-      },
-      "C": {
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "9114",
         "nombre": "VINYALS Oriol"
@@ -55,20 +41,24 @@
         "licencia": "11229",
         "nombre": "NERIN Carles"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3592",
+        "nombre": "MARTI Lluis"
+      },
+      "B": {
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      "C": {
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "3592",
-        "nombre": "MARTI Lluis"
-      },
-      {
-        "licencia": "15056",
-        "nombre": "JIN Shan"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "418",
         "nombre": "COMELLAS Isidre"
@@ -76,6 +66,16 @@
       {
         "licencia": "9114",
         "nombre": "VINYALS Oriol"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "3592",
+        "nombre": "MARTI Lluis"
+      },
+      {
+        "licencia": "15056",
+        "nombre": "JIN Shan"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3592",
-        "nombre": "MARTI Lluis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "9114",
         "nombre": "VINYALS Oriol"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15056",
-        "nombre": "JIN Shan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "418",
-        "nombre": "COMELLAS Isidre"
+        "letra": "A",
+        "licencia": "3592",
+        "nombre": "MARTI Lluis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "418",
+        "nombre": "COMELLAS Isidre"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11229",
         "nombre": "NERIN Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3592",
-        "nombre": "MARTI Lluis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "418",
         "nombre": "COMELLAS Isidre"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3592",
+        "nombre": "MARTI Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "9114",
         "nombre": "VINYALS Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15056",
-        "nombre": "JIN Shan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11229",
         "nombre": "NERIN Carles"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "3592",
-            "nombre": "MARTI Lluis"
-          },
-          {
-            "licencia": "15056",
-            "nombre": "JIN Shan"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "418",
             "nombre": "COMELLAS Isidre"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "3592",
+            "nombre": "MARTI Lluis"
+          },
+          {
+            "licencia": "15056",
+            "nombre": "JIN Shan"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "EL CERCLE TT GRÀCIA 13è2aB",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 14,
       "visitante": 14
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

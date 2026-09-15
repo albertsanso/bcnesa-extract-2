@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "CTT ATENEU 1882 ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882 ''A''",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "36",
-        "nombre": "POU Joan"
-      },
-      "B": {
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      },
-      "C": {
-        "licencia": "14670",
-        "nombre": "SÁNCHEZ Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17157",
         "nombre": "PÉREZ Francesc"
@@ -55,20 +41,24 @@
         "licencia": "5501",
         "nombre": "HURTADO Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "36",
+        "nombre": "POU Joan"
+      },
+      "B": {
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "C": {
+        "licencia": "14670",
+        "nombre": "SÁNCHEZ Jordi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14670",
-        "nombre": "SÁNCHEZ Jordi"
-      },
-      {
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "5501",
         "nombre": "HURTADO Jordi"
@@ -76,6 +66,16 @@
       {
         "licencia": "17157",
         "nombre": "PÉREZ Francesc"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14670",
+        "nombre": "SÁNCHEZ Jordi"
+      },
+      {
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "36",
-        "nombre": "POU Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17157",
         "nombre": "PÉREZ Francesc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "36",
+        "nombre": "POU Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4523",
         "nombre": "OSORIO David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14670",
-        "nombre": "SÁNCHEZ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5501",
         "nombre": "HURTADO Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14670",
+        "nombre": "SÁNCHEZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "36",
-        "nombre": "POU Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4523",
         "nombre": "OSORIO David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "36",
+        "nombre": "POU Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14670",
-        "nombre": "SÁNCHEZ Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17157",
         "nombre": "PÉREZ Francesc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14670",
+        "nombre": "SÁNCHEZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5501",
         "nombre": "HURTADO Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14670",
-            "nombre": "SÁNCHEZ Jordi"
-          },
-          {
-            "licencia": "5427",
-            "nombre": "BERNAL Martin"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "5501",
             "nombre": "HURTADO Jordi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14670",
+            "nombre": "SÁNCHEZ Jordi"
+          },
+          {
+            "licencia": "5427",
+            "nombre": "BERNAL Martin"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

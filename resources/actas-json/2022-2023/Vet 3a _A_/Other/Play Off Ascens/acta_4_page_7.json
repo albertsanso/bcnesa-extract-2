@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN ST. ANDREU",
+      "nombre": "LLUÏSOS DE GRÀCIA \"B\" 13è2aB",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"B\" 13è2aB",
+      "nombre": "CN ST. ANDREU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13059",
-        "nombre": "MEDINA Edwin"
-      },
-      "B": {
-        "licencia": "101",
-        "nombre": "LOPEZ Jesus"
-      },
-      "C": {
-        "licencia": "12211",
-        "nombre": "JULIA Javier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "77",
         "nombre": "ESTRUCH Fausti"
@@ -55,6 +41,20 @@
         "licencia": "16416",
         "nombre": "ZAIN Ivan Fernando"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      },
+      "B": {
+        "licencia": "101",
+        "nombre": "LOPEZ Jesus"
+      },
+      "C": {
+        "licencia": "12211",
+        "nombre": "JULIA Javier"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13059",
-        "nombre": "MEDINA Edwin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "77",
         "nombre": "ESTRUCH Fausti"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "101",
-        "nombre": "LOPEZ Jesus"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15072",
         "nombre": "FERREIRO Ricardo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "101",
+        "nombre": "LOPEZ Jesus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12211",
-        "nombre": "JULIA Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16416",
         "nombre": "ZAIN Ivan Fernando"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12211",
+        "nombre": "JULIA Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13059",
-        "nombre": "MEDINA Edwin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15072",
         "nombre": "FERREIRO Ricardo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12211",
-        "nombre": "JULIA Javier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "77",
         "nombre": "ESTRUCH Fausti"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12211",
+        "nombre": "JULIA Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "101",
-        "nombre": "LOPEZ Jesus"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16416",
         "nombre": "ZAIN Ivan Fernando"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "101",
+        "nombre": "LOPEZ Jesus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA \"B\" 13è2aB",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "RIPOLLET MULTI ESPAI",
+      "nombre": "CN MATARÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN MATARÓ",
+      "nombre": "RIPOLLET MULTI ESPAI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14724",
-        "nombre": "PARDO Lucas"
-      },
-      "B": {
-        "licencia": "11640",
-        "nombre": "ROS Guillem"
-      },
-      "C": {
-        "licencia": "15431",
-        "nombre": "CODOLÀ Biel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15395",
         "nombre": "PIJUAN Eudald"
@@ -55,6 +41,20 @@
         "licencia": "11537",
         "nombre": "MATARÓ Isaac"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14724",
+        "nombre": "PARDO Lucas"
+      },
+      "B": {
+        "licencia": "11640",
+        "nombre": "ROS Guillem"
+      },
+      "C": {
+        "licencia": "15431",
+        "nombre": "CODOLÀ Biel"
+      }
     }
   },
   "dobles": null,
@@ -64,139 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14724",
-        "nombre": "PARDO Lucas"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15395",
         "nombre": "PIJUAN Eudald"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11640",
-        "nombre": "ROS Guillem"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17672",
-        "nombre": "CABRERA Manel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "15431",
-        "nombre": "CODOLÀ Biel"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "11537",
-        "nombre": "MATARÓ Isaac"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "14724",
         "nombre": "PARDO Lucas"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "17672",
-        "nombre": "CABRERA Manel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "15431",
-        "nombre": "CODOLÀ Biel"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "15395",
-        "nombre": "PIJUAN Eudald"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "11640",
-        "nombre": "ROS Guillem"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "11537",
-        "nombre": "MATARÓ Isaac"
       },
       "sets": [],
       "resultado_juegos": {
@@ -206,17 +81,145 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 5
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17672",
+        "nombre": "CABRERA Manel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11640",
+        "nombre": "ROS Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "11537",
+        "nombre": "MATARÓ Isaac"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15431",
+        "nombre": "CODOLÀ Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17672",
+        "nombre": "CABRERA Manel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14724",
+        "nombre": "PARDO Lucas"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "15395",
+        "nombre": "PIJUAN Eudald"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15431",
+        "nombre": "CODOLÀ Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "11537",
+        "nombre": "MATARÓ Isaac"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11640",
+        "nombre": "ROS Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN MATARÓ",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

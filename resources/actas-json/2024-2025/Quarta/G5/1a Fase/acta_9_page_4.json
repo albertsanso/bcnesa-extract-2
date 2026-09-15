@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CANET DE MAR",
+      "nombre": "EUROCLIMA BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EUROCLIMA BADALONA",
+      "nombre": "CTT CANET DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19810",
-        "nombre": "VILCHEZ Joan-enric"
-      },
-      "B": {
-        "licencia": "19859",
-        "nombre": "NARDI Ot"
-      },
-      "C": {
-        "licencia": "18509",
-        "nombre": "FONT Dana"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16159",
         "nombre": "PALLEJA Marc"
@@ -55,6 +41,20 @@
         "licencia": "18018",
         "nombre": "TARRÉS Sasha"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19810",
+        "nombre": "VILCHEZ Joan-enric"
+      },
+      "B": {
+        "licencia": "19859",
+        "nombre": "NARDI Ot"
+      },
+      "C": {
+        "licencia": "18509",
+        "nombre": "FONT Dana"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19810",
-        "nombre": "VILCHEZ Joan-enric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16159",
         "nombre": "PALLEJA Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19810",
+        "nombre": "VILCHEZ Joan-enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19859",
-        "nombre": "NARDI Ot"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19478",
         "nombre": "DOMÈNECH Pol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19859",
+        "nombre": "NARDI Ot"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18509",
-        "nombre": "FONT Dana"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18018",
         "nombre": "TARRÉS Sasha"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18509",
+        "nombre": "FONT Dana"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19810",
-        "nombre": "VILCHEZ Joan-enric"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19478",
         "nombre": "DOMÈNECH Pol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19810",
+        "nombre": "VILCHEZ Joan-enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18509",
-        "nombre": "FONT Dana"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16159",
         "nombre": "PALLEJA Marc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18509",
+        "nombre": "FONT Dana"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19859",
-        "nombre": "NARDI Ot"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18018",
         "nombre": "TARRÉS Sasha"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19859",
+        "nombre": "NARDI Ot"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "EUROCLIMA BADALONA",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

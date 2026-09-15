@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      },
-      "B": {
-        "licencia": "1105",
-        "nombre": "ROSELLÓ Jordi"
-      },
-      "C": {
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "196",
         "nombre": "GUZMÁN Josep Maria"
@@ -55,20 +41,24 @@
         "licencia": "4595",
         "nombre": "PORTET Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      },
+      "B": {
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "C": {
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "1105",
-        "nombre": "ROSELLÓ Jordi"
-      },
-      {
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "196",
         "nombre": "GUZMÁN Josep Maria"
@@ -76,6 +66,16 @@
       {
         "licencia": "227",
         "nombre": "CREIXELL Josep"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      {
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "196",
         "nombre": "GUZMÁN Josep Maria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1105",
-        "nombre": "ROSELLÓ Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "227",
         "nombre": "CREIXELL Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4595",
         "nombre": "PORTET Joan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
+        "letra": "C",
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "196",
         "nombre": "GUZMÁN Josep Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1105",
-        "nombre": "ROSELLÓ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4595",
         "nombre": "PORTET Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "1105",
-            "nombre": "ROSELLÓ Jordi"
-          },
-          {
-            "licencia": "1231",
-            "nombre": "MARTINEZ Dani"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "196",
             "nombre": "GUZMÁN Josep Maria"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "1105",
+            "nombre": "ROSELLÓ Jordi"
+          },
+          {
+            "licencia": "1231",
+            "nombre": "MARTINEZ Dani"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT PREMIÀ DE MAR",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

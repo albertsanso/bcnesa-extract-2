@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      },
-      "B": {
-        "licencia": "19034",
-        "nombre": "DA Renato Filipe"
-      },
-      "C": {
-        "licencia": "21031",
-        "nombre": "MELCHIZEDECK Pascual"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "615",
         "nombre": "VICENTE Marcos"
@@ -55,6 +41,20 @@
         "licencia": "622",
         "nombre": "OTERO Fernando"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      "B": {
+        "licencia": "19034",
+        "nombre": "DA Renato Filipe"
+      },
+      "C": {
+        "licencia": "21031",
+        "nombre": "MELCHIZEDECK Pascual"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "615",
         "nombre": "VICENTE Marcos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19034",
-        "nombre": "DA Renato Filipe"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6190",
         "nombre": "SANCHEZ Jose Miguel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19034",
+        "nombre": "DA Renato Filipe"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "21031",
-        "nombre": "MELCHIZEDECK Pascual"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "622",
         "nombre": "OTERO Fernando"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "21031",
+        "nombre": "MELCHIZEDECK Pascual"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6190",
         "nombre": "SANCHEZ Jose Miguel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "21031",
-        "nombre": "MELCHIZEDECK Pascual"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "615",
         "nombre": "VICENTE Marcos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "21031",
+        "nombre": "MELCHIZEDECK Pascual"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19034",
-        "nombre": "DA Renato Filipe"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "622",
         "nombre": "OTERO Fernando"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19034",
+        "nombre": "DA Renato Filipe"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

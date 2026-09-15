@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA BISBAL DEL PENEDÈS 'A'",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT LA BISBAL DEL PENEDÈS 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
-      },
-      "B": {
-        "licencia": "6796",
-        "nombre": "PORTA Pere"
-      },
-      "C": {
-        "licencia": "321",
-        "nombre": "JUAN Alfredo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19433",
         "nombre": "GOLZARRI Aaron"
@@ -55,6 +41,20 @@
         "licencia": "16909",
         "nombre": "BUITRAGO David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "B": {
+        "licencia": "6796",
+        "nombre": "PORTA Pere"
+      },
+      "C": {
+        "licencia": "321",
+        "nombre": "JUAN Alfredo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19433",
         "nombre": "GOLZARRI Aaron"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6796",
-        "nombre": "PORTA Pere"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19062",
         "nombre": "CALVENTE Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6796",
+        "nombre": "PORTA Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "321",
-        "nombre": "JUAN Alfredo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16909",
         "nombre": "BUITRAGO David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "321",
+        "nombre": "JUAN Alfredo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19062",
         "nombre": "CALVENTE Angel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "20771",
-        "nombre": "PALLARES Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19433",
         "nombre": "GOLZARRI Aaron"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20771",
+        "nombre": "PALLARES Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6796",
-        "nombre": "PORTA Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16909",
         "nombre": "BUITRAGO David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6796",
+        "nombre": "PORTA Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA BISBAL DEL PENEDÈS 'A'",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 2
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 2,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

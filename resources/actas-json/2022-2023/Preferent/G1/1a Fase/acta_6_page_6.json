@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT SENTMENAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SENTMENAT",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8089",
-        "nombre": "VILALLONGA Nurjan"
-      },
-      "B": {
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "C": {
-        "licencia": "6200",
-        "nombre": "MORALES Manuel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6231",
         "nombre": "MATIAS Jordi"
@@ -55,6 +41,20 @@
         "licencia": "7931",
         "nombre": "TORAL Alex"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "B": {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "C": {
+        "licencia": "6200",
+        "nombre": "MORALES Manuel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8089",
-        "nombre": "VILALLONGA Nurjan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6231",
         "nombre": "MATIAS Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "530",
-        "nombre": "ORTEGA Juan Antonio"
+        "letra": "A",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "530",
+        "nombre": "ORTEGA Juan Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6200",
-        "nombre": "MORALES Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7931",
         "nombre": "TORAL Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6200",
+        "nombre": "MORALES Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8089",
-        "nombre": "VILALLONGA Nurjan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "530",
         "nombre": "ORTEGA Juan Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6200",
-        "nombre": "MORALES Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6231",
         "nombre": "MATIAS Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6200",
+        "nombre": "MORALES Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7931",
         "nombre": "TORAL Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SENTMENAT",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

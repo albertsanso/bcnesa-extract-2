@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17045",
-        "nombre": "DE LA CALLE Albert"
-      },
-      "B": {
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "C": {
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6184",
         "nombre": "GRAU Xavier"
@@ -55,6 +41,20 @@
         "licencia": "809",
         "nombre": "RIVERA Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "B": {
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "C": {
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17045",
-        "nombre": "DE LA CALLE Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6184",
         "nombre": "GRAU Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,64 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "7813",
         "nombre": "DECOUD Marcelo"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "809",
-        "nombre": "RIVERA Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "17045",
-        "nombre": "DE LA CALLE Albert"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +104,56 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "809",
+        "nombre": "RIVERA Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6184",
         "nombre": "GRAU Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "809",
         "nombre": "RIVERA Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

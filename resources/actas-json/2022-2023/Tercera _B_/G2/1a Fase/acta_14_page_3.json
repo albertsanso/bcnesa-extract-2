@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16316",
-        "nombre": "RODRIGUEZ Jan"
-      },
-      "B": {
-        "licencia": "16317",
-        "nombre": "MUNTADAS-PRIM Alex"
-      },
-      "C": {
-        "licencia": "12852",
-        "nombre": "LIÑAN Jan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15585",
         "nombre": "BEL Iker"
@@ -55,20 +41,24 @@
         "licencia": "15077",
         "nombre": "AIGNER Max"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16316",
+        "nombre": "RODRIGUEZ Jan"
+      },
+      "B": {
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
+      "C": {
+        "licencia": "12852",
+        "nombre": "LIÑAN Jan"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16316",
-        "nombre": "RODRIGUEZ Jan"
-      },
-      {
-        "licencia": "16317",
-        "nombre": "MUNTADAS-PRIM Alex"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15585",
         "nombre": "BEL Iker"
@@ -76,6 +66,16 @@
       {
         "licencia": "15077",
         "nombre": "AIGNER Max"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16316",
+        "nombre": "RODRIGUEZ Jan"
+      },
+      {
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "15585",
+        "nombre": "BEL Iker"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "16316",
         "nombre": "RODRIGUEZ Jan"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15081",
+        "nombre": "AGULLÓ Bruna"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "15585",
-        "nombre": "BEL Iker"
+        "letra": "B",
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "15077",
+        "nombre": "AIGNER Max"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12852",
+        "nombre": "LIÑAN Jan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -102,57 +152,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16317",
-        "nombre": "MUNTADAS-PRIM Alex"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15081",
-        "nombre": "AGULLÓ Bruna"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12852",
-        "nombre": "LIÑAN Jan"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "15077",
-        "nombre": "AIGNER Max"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "visitante": 2
       }
     },
     {
@@ -160,39 +160,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16316",
-        "nombre": "RODRIGUEZ Jan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15081",
         "nombre": "AGULLÓ Bruna"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "12852",
-        "nombre": "LIÑAN Jan"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "15585",
-        "nombre": "BEL Iker"
+        "letra": "A",
+        "licencia": "16316",
+        "nombre": "RODRIGUEZ Jan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +176,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "15585",
+        "nombre": "BEL Iker"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12852",
+        "nombre": "LIÑAN Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 3,
-        "visitante": 2
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16317",
-        "nombre": "MUNTADAS-PRIM Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15077",
         "nombre": "AIGNER Max"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16317",
+        "nombre": "MUNTADAS-PRIM Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16316",
-            "nombre": "RODRIGUEZ Jan"
-          },
-          {
-            "licencia": "16317",
-            "nombre": "MUNTADAS-PRIM Alex"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15585",
             "nombre": "BEL Iker"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16316",
+            "nombre": "RODRIGUEZ Jan"
+          },
+          {
+            "licencia": "16317",
+            "nombre": "MUNTADAS-PRIM Alex"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "LLUÏSOS DE GRÀCIA \"A\"",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

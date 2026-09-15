@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN ST. ANDREU",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet C",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet C",
+      "nombre": "CN ST. ANDREU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16616",
-        "nombre": "NUÑEZ Francisco"
-      },
-      "B": {
-        "licencia": "3148",
-        "nombre": "DEL AMOR Pedro"
-      },
-      "C": {
-        "licencia": "13059",
-        "nombre": "MEDINA Edwin"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
@@ -55,6 +41,20 @@
         "licencia": "12124",
         "nombre": "ALASTUEY Hugo Alberto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16616",
+        "nombre": "NUÑEZ Francisco"
+      },
+      "B": {
+        "licencia": "3148",
+        "nombre": "DEL AMOR Pedro"
+      },
+      "C": {
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16616",
-        "nombre": "NUÑEZ Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "3148",
-        "nombre": "DEL AMOR Pedro"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "946",
-        "nombre": "PEIRIS Enrique"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "13059",
-        "nombre": "MEDINA Edwin"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
+        "letra": "A",
+        "licencia": "16616",
+        "nombre": "NUÑEZ Francisco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3148",
+        "nombre": "DEL AMOR Pedro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16616",
-        "nombre": "NUÑEZ Francisco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "946",
         "nombre": "PEIRIS Enrique"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16616",
+        "nombre": "NUÑEZ Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13059",
-        "nombre": "MEDINA Edwin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13059",
+        "nombre": "MEDINA Edwin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3148",
-        "nombre": "DEL AMOR Pedro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12124",
         "nombre": "ALASTUEY Hugo Alberto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3148",
+        "nombre": "DEL AMOR Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ST QUIRZE DEL VALLÈS - Vet C",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

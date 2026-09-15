@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MASQUEFA TTC ''B''",
+      "nombre": "CTT COLLBATO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT COLLBATO",
+      "nombre": "MASQUEFA TTC ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14192",
-        "nombre": "LÓPEZ Leire"
-      },
-      "B": {
-        "licencia": "17658",
-        "nombre": "MUÑOZ Marc"
-      },
-      "C": {
-        "licencia": "4522",
-        "nombre": "GARCIA Jose"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16615",
         "nombre": "JIMÉNEZ Cesc"
@@ -55,6 +41,20 @@
         "licencia": "16614",
         "nombre": "JIMÉNEZ Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      },
+      "B": {
+        "licencia": "17658",
+        "nombre": "MUÑOZ Marc"
+      },
+      "C": {
+        "licencia": "4522",
+        "nombre": "GARCIA Jose"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14192",
-        "nombre": "LÓPEZ Leire"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16615",
         "nombre": "JIMÉNEZ Cesc"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17658",
-        "nombre": "MUÑOZ Marc"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17346",
-        "nombre": "JURADO Jose M."
+        "letra": "A",
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17346",
+        "nombre": "JURADO Jose M."
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17658",
+        "nombre": "MUÑOZ Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4522",
-        "nombre": "GARCIA Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16614",
         "nombre": "JIMÉNEZ Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4522",
+        "nombre": "GARCIA Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14192",
-        "nombre": "LÓPEZ Leire"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17346",
         "nombre": "JURADO Jose M."
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4522",
-        "nombre": "GARCIA Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16615",
         "nombre": "JIMÉNEZ Cesc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4522",
+        "nombre": "GARCIA Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17658",
-        "nombre": "MUÑOZ Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16614",
         "nombre": "JIMÉNEZ Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17658",
+        "nombre": "MUÑOZ Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CTT COLLBATO",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 15
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "BELLVITGE ALHEÑA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BELLVITGE ALHEÑA",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16275",
-        "nombre": "ALDEA Manel"
-      },
-      "B": {
-        "licencia": "16279",
-        "nombre": "VALLES Mario"
-      },
-      "C": {
-        "licencia": "6269",
-        "nombre": "RAMOS Antoni"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13181",
         "nombre": "MORÓN Manuel"
@@ -55,6 +41,20 @@
         "licencia": "12706",
         "nombre": "MUR Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
+      "B": {
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
+      "C": {
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16275",
-        "nombre": "ALDEA Manel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13181",
         "nombre": "MORÓN Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16279",
-        "nombre": "VALLES Mario"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "21380",
         "nombre": "BORRÀS David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6269",
-        "nombre": "RAMOS Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12706",
         "nombre": "MUR Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16275",
-        "nombre": "ALDEA Manel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "21380",
         "nombre": "BORRÀS David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6269",
-        "nombre": "RAMOS Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13181",
         "nombre": "MORÓN Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16279",
-        "nombre": "VALLES Mario"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12706",
         "nombre": "MUR Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 4
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

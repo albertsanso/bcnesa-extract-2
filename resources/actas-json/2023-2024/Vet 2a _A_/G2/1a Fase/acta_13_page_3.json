@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11156",
-        "nombre": "RUIZ Jordi"
-      },
-      "B": {
-        "licencia": "242",
-        "nombre": "AZCON Joaquin"
-      },
-      "C": {
-        "licencia": "12245",
-        "nombre": "PRADES Alba"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "734",
         "nombre": "GIBERT Francesc"
@@ -55,6 +41,20 @@
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11156",
+        "nombre": "RUIZ Jordi"
+      },
+      "B": {
+        "licencia": "242",
+        "nombre": "AZCON Joaquin"
+      },
+      "C": {
+        "licencia": "12245",
+        "nombre": "PRADES Alba"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11156",
-        "nombre": "RUIZ Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "734",
         "nombre": "GIBERT Francesc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11156",
+        "nombre": "RUIZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "242",
-        "nombre": "AZCON Joaquin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "935",
         "nombre": "ANTON Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "242",
+        "nombre": "AZCON Joaquin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12245",
-        "nombre": "PRADES Alba"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12245",
+        "nombre": "PRADES Alba"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11156",
-        "nombre": "RUIZ Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "935",
         "nombre": "ANTON Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11156",
+        "nombre": "RUIZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12245",
-        "nombre": "PRADES Alba"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "734",
         "nombre": "GIBERT Francesc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12245",
+        "nombre": "PRADES Alba"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "242",
-        "nombre": "AZCON Joaquin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "242",
+        "nombre": "AZCON Joaquin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "UE SANT CUGAT",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "B": {
-        "licencia": "5929",
-        "nombre": "GARCIA DE SORIA Mar Africa"
-      },
-      "C": {
-        "licencia": "8680",
-        "nombre": "CRISPI David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17614",
         "nombre": "CAMBRA Jhonnatan Aleja"
@@ -55,6 +41,20 @@
         "licencia": "15561",
         "nombre": "SARMIENTO Joel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
+      "B": {
+        "licencia": "5929",
+        "nombre": "GARCIA DE SORIA Mar Africa"
+      },
+      "C": {
+        "licencia": "8680",
+        "nombre": "CRISPI David"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17614",
         "nombre": "CAMBRA Jhonnatan Aleja"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5929",
-        "nombre": "GARCIA DE SORIA Mar Africa"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18268",
         "nombre": "CAMBRA Raul Alejandro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5929",
+        "nombre": "GARCIA DE SORIA Mar Africa"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8680",
-        "nombre": "CRISPI David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15561",
         "nombre": "SARMIENTO Joel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8680",
+        "nombre": "CRISPI David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18268",
         "nombre": "CAMBRA Raul Alejandro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8680",
-        "nombre": "CRISPI David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17614",
         "nombre": "CAMBRA Jhonnatan Aleja"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8680",
+        "nombre": "CRISPI David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5929",
-        "nombre": "GARCIA DE SORIA Mar Africa"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15561",
         "nombre": "SARMIENTO Joel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5929",
+        "nombre": "GARCIA DE SORIA Mar Africa"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 5,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "TT LLORENÇÀ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT LLORENÇÀ",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15248",
-        "nombre": "VALLES Pau"
-      },
-      "B": {
-        "licencia": "14115",
-        "nombre": "SALES Jan"
-      },
-      "C": {
-        "licencia": "14810",
-        "nombre": "GONZALEZ David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "21092",
         "nombre": "ROZAS Xavier"
@@ -55,6 +41,20 @@
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15248",
+        "nombre": "VALLES Pau"
+      },
+      "B": {
+        "licencia": "14115",
+        "nombre": "SALES Jan"
+      },
+      "C": {
+        "licencia": "14810",
+        "nombre": "GONZALEZ David"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15248",
-        "nombre": "VALLES Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "21092",
         "nombre": "ROZAS Xavier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14115",
-        "nombre": "SALES Jan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12057",
-        "nombre": "MONTALBAN Xavi"
+        "letra": "A",
+        "licencia": "15248",
+        "nombre": "VALLES Pau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14115",
+        "nombre": "SALES Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14810",
-        "nombre": "GONZALEZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "15248",
-        "nombre": "VALLES Pau"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12057",
-        "nombre": "MONTALBAN Xavi"
+        "letra": "C",
+        "licencia": "14810",
+        "nombre": "GONZALEZ David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15248",
+        "nombre": "VALLES Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14810",
-        "nombre": "GONZALEZ David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "21092",
         "nombre": "ROZAS Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14810",
+        "nombre": "GONZALEZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14115",
-        "nombre": "SALES Jan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14115",
+        "nombre": "SALES Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT BARCELONA",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

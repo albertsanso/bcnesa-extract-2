@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "21840",
-        "nombre": "MOLINERO Eric"
-      },
-      "B": {
-        "licencia": "21094",
-        "nombre": "MARTIN Hector"
-      },
-      "C": {
-        "licencia": "18208",
-        "nombre": "SEVILLANO Fidel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "654",
         "nombre": "OSUNA Fco. Jose"
@@ -55,6 +41,20 @@
         "licencia": "6144",
         "nombre": "PEREZ Pablo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "21840",
+        "nombre": "MOLINERO Eric"
+      },
+      "B": {
+        "licencia": "21094",
+        "nombre": "MARTIN Hector"
+      },
+      "C": {
+        "licencia": "18208",
+        "nombre": "SEVILLANO Fidel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "21840",
-        "nombre": "MOLINERO Eric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "654",
         "nombre": "OSUNA Fco. Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "21840",
+        "nombre": "MOLINERO Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "21094",
-        "nombre": "MARTIN Hector"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3413",
         "nombre": "VEGA Alberto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21094",
+        "nombre": "MARTIN Hector"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18208",
-        "nombre": "SEVILLANO Fidel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6144",
         "nombre": "PEREZ Pablo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18208",
+        "nombre": "SEVILLANO Fidel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "21840",
-        "nombre": "MOLINERO Eric"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3413",
         "nombre": "VEGA Alberto"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "21840",
+        "nombre": "MOLINERO Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18208",
-        "nombre": "SEVILLANO Fidel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "654",
         "nombre": "OSUNA Fco. Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18208",
+        "nombre": "SEVILLANO Fidel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "21094",
-        "nombre": "MARTIN Hector"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6144",
         "nombre": "PEREZ Pablo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21094",
+        "nombre": "MARTIN Hector"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

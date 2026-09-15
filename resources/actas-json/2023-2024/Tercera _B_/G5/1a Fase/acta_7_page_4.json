@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17707",
-        "nombre": "GARGALLO Robert"
-      },
-      "B": {
-        "licencia": "16013",
-        "nombre": "VALLESPI Guillem"
-      },
-      "C": {
-        "licencia": "16461",
-        "nombre": "UHLIG Theres C. Wayra"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17862",
         "nombre": "AYATS Gerard"
@@ -55,6 +41,20 @@
         "licencia": "16299",
         "nombre": "JIANG Min Yi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17707",
+        "nombre": "GARGALLO Robert"
+      },
+      "B": {
+        "licencia": "16013",
+        "nombre": "VALLESPI Guillem"
+      },
+      "C": {
+        "licencia": "16461",
+        "nombre": "UHLIG Theres C. Wayra"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17707",
-        "nombre": "GARGALLO Robert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17862",
         "nombre": "AYATS Gerard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17707",
+        "nombre": "GARGALLO Robert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16013",
-        "nombre": "VALLESPI Guillem"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17339",
         "nombre": "PARERA Pol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16013",
+        "nombre": "VALLESPI Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16461",
-        "nombre": "UHLIG Theres C. Wayra"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16299",
         "nombre": "JIANG Min Yi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "17707",
-        "nombre": "GARGALLO Robert"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17339",
-        "nombre": "PARERA Pol"
+        "letra": "C",
+        "licencia": "16461",
+        "nombre": "UHLIG Theres C. Wayra"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17339",
+        "nombre": "PARERA Pol"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17707",
+        "nombre": "GARGALLO Robert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16461",
-        "nombre": "UHLIG Theres C. Wayra"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17862",
         "nombre": "AYATS Gerard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16461",
+        "nombre": "UHLIG Theres C. Wayra"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16013",
-        "nombre": "VALLESPI Guillem"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16299",
         "nombre": "JIANG Min Yi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16013",
+        "nombre": "VALLESPI Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

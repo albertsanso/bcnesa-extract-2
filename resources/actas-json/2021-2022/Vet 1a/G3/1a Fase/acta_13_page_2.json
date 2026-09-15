@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL ''B''",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "CLUB NATACIO SABADELL ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
-      "B": {
-        "licencia": "280",
-        "nombre": "VILA Joan"
-      },
-      "C": {
-        "licencia": "8967",
-        "nombre": "WEISZ Montserrat"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
@@ -55,6 +41,20 @@
         "licencia": "6129",
         "nombre": "ALCALA Olegario Basilio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
+      "B": {
+        "licencia": "280",
+        "nombre": "VILA Joan"
+      },
+      "C": {
+        "licencia": "8967",
+        "nombre": "WEISZ Montserrat"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,64 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "12114",
+        "nombre": "MASSARD Franck"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "280",
         "nombre": "VILA Joan"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "12114",
-        "nombre": "MASSARD Franck"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "8967",
-        "nombre": "WEISZ Montserrat"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6129",
-        "nombre": "ALCALA Olegario Basilio"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "12114",
-        "nombre": "MASSARD Franck"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +104,56 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8967",
+        "nombre": "WEISZ Montserrat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12114",
+        "nombre": "MASSARD Franck"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8967",
-        "nombre": "WEISZ Montserrat"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8967",
+        "nombre": "WEISZ Montserrat"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "280",
-        "nombre": "VILA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6129",
         "nombre": "ALCALA Olegario Basilio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "280",
+        "nombre": "VILA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILAFRANCA",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

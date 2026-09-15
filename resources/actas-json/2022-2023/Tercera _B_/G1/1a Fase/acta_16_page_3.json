@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ ''B''",
+      "nombre": "TT.ELS JOVES CASTELLDEFELS ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT.ELS JOVES CASTELLDEFELS ''A''",
+      "nombre": "CTT CASTELLGALÍ ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2981",
-        "nombre": "BRU Manuel"
-      },
-      "B": {
-        "licencia": "11074",
-        "nombre": "GARRIDO Josep"
-      },
-      "C": {
-        "licencia": "13080",
-        "nombre": "VAZQUEZ Gabriel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12395",
         "nombre": "MARTÍN Aleix"
@@ -55,6 +41,20 @@
         "licencia": "11790",
         "nombre": "LOPEZ Eric"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2981",
+        "nombre": "BRU Manuel"
+      },
+      "B": {
+        "licencia": "11074",
+        "nombre": "GARRIDO Josep"
+      },
+      "C": {
+        "licencia": "13080",
+        "nombre": "VAZQUEZ Gabriel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2981",
-        "nombre": "BRU Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12395",
         "nombre": "MARTÍN Aleix"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11074",
-        "nombre": "GARRIDO Josep"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12623",
-        "nombre": "LARREGOLA Nil"
+        "letra": "A",
+        "licencia": "2981",
+        "nombre": "BRU Manuel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12623",
+        "nombre": "LARREGOLA Nil"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11074",
+        "nombre": "GARRIDO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13080",
-        "nombre": "VAZQUEZ Gabriel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11790",
         "nombre": "LOPEZ Eric"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13080",
+        "nombre": "VAZQUEZ Gabriel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,64 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "2981",
-        "nombre": "BRU Manuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12623",
         "nombre": "LARREGOLA Nil"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "13080",
-        "nombre": "VAZQUEZ Gabriel"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "12395",
-        "nombre": "MARTÍN Aleix"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "11074",
-        "nombre": "GARRIDO Josep"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "11790",
-        "nombre": "LOPEZ Eric"
+        "letra": "A",
+        "licencia": "2981",
+        "nombre": "BRU Manuel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "12395",
+        "nombre": "MARTÍN Aleix"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13080",
+        "nombre": "VAZQUEZ Gabriel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "11790",
+        "nombre": "LOPEZ Eric"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11074",
+        "nombre": "GARRIDO Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT.ELS JOVES CASTELLDEFELS ''A''",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

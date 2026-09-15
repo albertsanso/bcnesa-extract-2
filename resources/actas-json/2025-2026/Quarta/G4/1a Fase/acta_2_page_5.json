@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "LLUÏSOS D'HORTA TT 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT 'A'",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "406",
-        "nombre": "GIL Juan Manuel"
-      },
-      "B": {
-        "licencia": "84",
-        "nombre": "RINS Jordi"
-      },
-      "C": {
-        "licencia": "12095",
-        "nombre": "GARCÍA Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18177",
         "nombre": "MARTINEZ Jaume"
@@ -55,20 +41,24 @@
         "licencia": "20807",
         "nombre": "GIBERT Alejandro"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
+      "B": {
+        "licencia": "84",
+        "nombre": "RINS Jordi"
+      },
+      "C": {
+        "licencia": "12095",
+        "nombre": "GARCÍA Joan"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "406",
-        "nombre": "GIL Juan Manuel"
-      },
-      {
-        "licencia": "12095",
-        "nombre": "GARCÍA Joan"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15810",
         "nombre": "MUÑOZ Jose Manuel"
@@ -76,6 +66,16 @@
       {
         "licencia": "18177",
         "nombre": "MARTINEZ Jaume"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
+      {
+        "licencia": "12095",
+        "nombre": "GARCÍA Joan"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "406",
-        "nombre": "GIL Juan Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18177",
         "nombre": "MARTINEZ Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "84",
-        "nombre": "RINS Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15810",
         "nombre": "MUÑOZ Jose Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "84",
+        "nombre": "RINS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12095",
-        "nombre": "GARCÍA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20807",
         "nombre": "GIBERT Alejandro"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "406",
-        "nombre": "GIL Juan Manuel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
+        "letra": "C",
+        "licencia": "12095",
+        "nombre": "GARCÍA Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12095",
-        "nombre": "GARCÍA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18177",
         "nombre": "MARTINEZ Jaume"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12095",
+        "nombre": "GARCÍA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "84",
-        "nombre": "RINS Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20807",
         "nombre": "GIBERT Alejandro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "84",
+        "nombre": "RINS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "406",
-            "nombre": "GIL Juan Manuel"
-          },
-          {
-            "licencia": "12095",
-            "nombre": "GARCÍA Joan"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15810",
             "nombre": "MUÑOZ Jose Manuel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "406",
+            "nombre": "GIL Juan Manuel"
+          },
+          {
+            "licencia": "12095",
+            "nombre": "GARCÍA Joan"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS D'HORTA TT 'A'",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

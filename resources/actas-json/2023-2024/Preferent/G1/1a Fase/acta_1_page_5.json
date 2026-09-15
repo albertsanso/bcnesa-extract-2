@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FORN BERTRAN BADALONA",
+      "nombre": "ELS 8 DE LA GARRIGA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ELS 8 DE LA GARRIGA",
+      "nombre": "FORN BERTRAN BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11283",
-        "nombre": "RAVENTÓS Arnau"
-      },
-      "B": {
-        "licencia": "7683",
-        "nombre": "XIA Wen Long"
-      },
-      "C": {
-        "licencia": "17889",
-        "nombre": "LU Ming Pu"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12296",
         "nombre": "COROMINAS Albert"
@@ -55,20 +41,24 @@
         "licencia": "338",
         "nombre": "GAVIN Antoni"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
+      },
+      "B": {
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      },
+      "C": {
+        "licencia": "17889",
+        "nombre": "LU Ming Pu"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11283",
-        "nombre": "RAVENTÓS Arnau"
-      },
-      {
-        "licencia": "7683",
-        "nombre": "XIA Wen Long"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12296",
         "nombre": "COROMINAS Albert"
@@ -76,6 +66,16 @@
       {
         "licencia": "10672",
         "nombre": "CASTELLS Iris"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
+      },
+      {
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11283",
-        "nombre": "RAVENTÓS Arnau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12296",
         "nombre": "COROMINAS Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7683",
-        "nombre": "XIA Wen Long"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10672",
         "nombre": "CASTELLS Iris"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17889",
-        "nombre": "LU Ming Pu"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "338",
         "nombre": "GAVIN Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17889",
+        "nombre": "LU Ming Pu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11283",
-        "nombre": "RAVENTÓS Arnau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10672",
         "nombre": "CASTELLS Iris"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17889",
-        "nombre": "LU Ming Pu"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12296",
         "nombre": "COROMINAS Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17889",
+        "nombre": "LU Ming Pu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7683",
-        "nombre": "XIA Wen Long"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "338",
         "nombre": "GAVIN Antoni"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11283",
-            "nombre": "RAVENTÓS Arnau"
-          },
-          {
-            "licencia": "7683",
-            "nombre": "XIA Wen Long"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12296",
             "nombre": "COROMINAS Albert"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11283",
+            "nombre": "RAVENTÓS Arnau"
+          },
+          {
+            "licencia": "7683",
+            "nombre": "XIA Wen Long"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FORN BERTRAN BADALONA",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

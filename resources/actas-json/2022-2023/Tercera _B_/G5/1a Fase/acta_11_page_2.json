@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CLUB NATACIO SABADELL ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL ''B''",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11650",
-        "nombre": "FERNANDEZ Alex"
-      },
-      "B": {
-        "licencia": "15771",
-        "nombre": "LORCA Javier"
-      },
-      "C": {
-        "licencia": "16300",
-        "nombre": "MORA Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15554",
         "nombre": "ALCARAZ Eloi"
@@ -55,6 +41,20 @@
         "licencia": "14358",
         "nombre": "SILVESTRE Alex"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11650",
+        "nombre": "FERNANDEZ Alex"
+      },
+      "B": {
+        "licencia": "15771",
+        "nombre": "LORCA Javier"
+      },
+      "C": {
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "15554",
+        "nombre": "ALCARAZ Eloi"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "11650",
         "nombre": "FERNANDEZ Alex"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17125",
+        "nombre": "PELAEZ Vanesa"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "15554",
-        "nombre": "ALCARAZ Eloi"
+        "letra": "B",
+        "licencia": "15771",
+        "nombre": "LORCA Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "14358",
+        "nombre": "SILVESTRE Alex"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -81,57 +131,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15771",
-        "nombre": "LORCA Javier"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "17125",
-        "nombre": "PELAEZ Vanesa"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "16300",
-        "nombre": "MORA Daniel"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "14358",
-        "nombre": "SILVESTRE Alex"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11650",
-        "nombre": "FERNANDEZ Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17125",
         "nombre": "PELAEZ Vanesa"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11650",
+        "nombre": "FERNANDEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16300",
-        "nombre": "MORA Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15554",
         "nombre": "ALCARAZ Eloi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15771",
-        "nombre": "LORCA Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14358",
         "nombre": "SILVESTRE Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15771",
+        "nombre": "LORCA Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

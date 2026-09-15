@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB ARIEL A",
+      "nombre": "TT L'HOSPITALET 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET 'B'",
+      "nombre": "CLUB ARIEL A",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6687",
-        "nombre": "COLL David"
-      },
-      "B": {
-        "licencia": "21392",
-        "nombre": "AKKERMANS Estéban"
-      },
-      "C": {
-        "licencia": "10059",
-        "nombre": "SIBEAUX Florent"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8057",
         "nombre": "ORTEGA Alejandro"
@@ -55,20 +41,24 @@
         "licencia": "8708",
         "nombre": "ROMERO Mauricio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6687",
+        "nombre": "COLL David"
+      },
+      "B": {
+        "licencia": "21392",
+        "nombre": "AKKERMANS Estéban"
+      },
+      "C": {
+        "licencia": "10059",
+        "nombre": "SIBEAUX Florent"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "21392",
-        "nombre": "AKKERMANS Estéban"
-      },
-      {
-        "licencia": "10059",
-        "nombre": "SIBEAUX Florent"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8057",
         "nombre": "ORTEGA Alejandro"
@@ -76,6 +66,16 @@
       {
         "licencia": "8708",
         "nombre": "ROMERO Mauricio"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "21392",
+        "nombre": "AKKERMANS Estéban"
+      },
+      {
+        "licencia": "10059",
+        "nombre": "SIBEAUX Florent"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6687",
-        "nombre": "COLL David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8057",
         "nombre": "ORTEGA Alejandro"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "21392",
-        "nombre": "AKKERMANS Estéban"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16756",
-        "nombre": "RUBIO Gerard"
+        "letra": "A",
+        "licencia": "6687",
+        "nombre": "COLL David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16756",
+        "nombre": "RUBIO Gerard"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21392",
+        "nombre": "AKKERMANS Estéban"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10059",
-        "nombre": "SIBEAUX Florent"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8708",
         "nombre": "ROMERO Mauricio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10059",
+        "nombre": "SIBEAUX Florent"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6687",
-        "nombre": "COLL David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16756",
         "nombre": "RUBIO Gerard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6687",
+        "nombre": "COLL David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10059",
-        "nombre": "SIBEAUX Florent"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8057",
         "nombre": "ORTEGA Alejandro"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "21392",
-        "nombre": "AKKERMANS Estéban"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "8708",
-        "nombre": "ROMERO Mauricio"
+        "letra": "C",
+        "licencia": "10059",
+        "nombre": "SIBEAUX Florent"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "8708",
+        "nombre": "ROMERO Mauricio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21392",
+        "nombre": "AKKERMANS Estéban"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "21392",
-            "nombre": "AKKERMANS Estéban"
-          },
-          {
-            "licencia": "10059",
-            "nombre": "SIBEAUX Florent"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8057",
             "nombre": "ORTEGA Alejandro"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "21392",
+            "nombre": "AKKERMANS Estéban"
+          },
+          {
+            "licencia": "10059",
+            "nombre": "SIBEAUX Florent"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "TT L'HOSPITALET 'B'",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

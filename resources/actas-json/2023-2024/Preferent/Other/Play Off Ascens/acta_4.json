@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FORN BERTRAN BADALONA",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "FORN BERTRAN BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14223",
-        "nombre": "GRANADOS Joan"
-      },
-      "B": {
-        "licencia": "11280",
-        "nombre": "MARTÍNEZ Carlos"
-      },
-      "C": {
-        "licencia": "17889",
-        "nombre": "LU Ming Pu"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6661",
         "nombre": "LEONE Mateo"
@@ -55,6 +41,20 @@
         "licencia": "8654",
         "nombre": "LEONE Tomás"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14223",
+        "nombre": "GRANADOS Joan"
+      },
+      "B": {
+        "licencia": "11280",
+        "nombre": "MARTÍNEZ Carlos"
+      },
+      "C": {
+        "licencia": "17889",
+        "nombre": "LU Ming Pu"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14223",
-        "nombre": "GRANADOS Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6661",
         "nombre": "LEONE Mateo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14223",
+        "nombre": "GRANADOS Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,14 +89,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "11280",
         "nombre": "MARTÍNEZ Carlos"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "8654",
+        "nombre": "LEONE Tomás"
+      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
+        "letra": "C",
+        "licencia": "17889",
+        "nombre": "LU Ming Pu"
       },
       "sets": [],
       "resultado_juegos": {
@@ -105,33 +130,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "17889",
-        "nombre": "LU Ming Pu"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "8654",
-        "nombre": "LEONE Tomás"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14223",
-        "nombre": "GRANADOS Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12195",
         "nombre": "SAÑA Orlando"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14223",
+        "nombre": "GRANADOS Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17889",
-        "nombre": "LU Ming Pu"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6661",
         "nombre": "LEONE Mateo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17889",
+        "nombre": "LU Ming Pu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11280",
-        "nombre": "MARTÍNEZ Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8654",
         "nombre": "LEONE Tomás"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11280",
+        "nombre": "MARTÍNEZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

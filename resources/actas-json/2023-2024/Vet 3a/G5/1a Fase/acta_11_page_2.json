@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT MOIANES - JR PIZZES",
+      "nombre": "CC SANT ANDREU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANT ANDREU",
+      "nombre": "CTT MOIANES - JR PIZZES",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17647",
-        "nombre": "JORBA Antonio"
-      },
-      "B": {
-        "licencia": "14160",
-        "nombre": "COMAS Jaime"
-      },
-      "C": {
-        "licencia": "10167",
-        "nombre": "BADO Josep"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "132",
         "nombre": "LLACER Juan"
@@ -55,6 +41,20 @@
         "licencia": "5431",
         "nombre": "EXPOSITO José"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17647",
+        "nombre": "JORBA Antonio"
+      },
+      "B": {
+        "licencia": "14160",
+        "nombre": "COMAS Jaime"
+      },
+      "C": {
+        "licencia": "10167",
+        "nombre": "BADO Josep"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17647",
-        "nombre": "JORBA Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "132",
         "nombre": "LLACER Juan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17647",
+        "nombre": "JORBA Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14160",
-        "nombre": "COMAS Jaime"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "57",
         "nombre": "BURLO Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14160",
+        "nombre": "COMAS Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10167",
-        "nombre": "BADO Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5431",
         "nombre": "EXPOSITO José"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10167",
+        "nombre": "BADO Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17647",
-        "nombre": "JORBA Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "57",
         "nombre": "BURLO Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17647",
+        "nombre": "JORBA Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10167",
-        "nombre": "BADO Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "132",
         "nombre": "LLACER Juan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10167",
+        "nombre": "BADO Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14160",
-        "nombre": "COMAS Jaime"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5431",
         "nombre": "EXPOSITO José"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14160",
+        "nombre": "COMAS Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANT ANDREU",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

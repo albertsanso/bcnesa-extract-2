@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
-      "B": {
-        "licencia": "867",
-        "nombre": "TORRADES Domenec"
-      },
-      "C": {
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4016",
         "nombre": "OLAYA Joaquin"
@@ -55,6 +41,20 @@
         "licencia": "4595",
         "nombre": "PORTET Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
+      },
+      "B": {
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
+      "C": {
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4016",
         "nombre": "OLAYA Joaquin"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "867",
-        "nombre": "TORRADES Domenec"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13144",
         "nombre": "NANA Isaac"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4595",
         "nombre": "PORTET Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,39 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13144",
         "nombre": "NANA Isaac"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "4016",
-        "nombre": "OLAYA Joaquin"
+        "letra": "A",
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +155,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "867",
-        "nombre": "TORRADES Domenec"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4595",
         "nombre": "PORTET Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VALLS DE TORROELLA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

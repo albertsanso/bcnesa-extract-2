@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "FOMENT MARTINENC",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FOMENT MARTINENC",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      },
-      "B": {
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "C": {
-        "licencia": "6394",
-        "nombre": "ADALID Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14902",
         "nombre": "WANG Jing"
@@ -55,20 +41,24 @@
         "licencia": "326",
         "nombre": "FORNES Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      "B": {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "C": {
+        "licencia": "6394",
+        "nombre": "ADALID Carlos"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      },
-      {
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13124",
         "nombre": "PLANES Arnau"
@@ -76,6 +66,16 @@
       {
         "licencia": "326",
         "nombre": "FORNES Lluis"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14902",
         "nombre": "WANG Jing"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13124",
         "nombre": "PLANES Arnau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6394",
-        "nombre": "ADALID Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "326",
         "nombre": "FORNES Lluis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13124",
-        "nombre": "PLANES Arnau"
+        "letra": "C",
+        "licencia": "6394",
+        "nombre": "ADALID Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6394",
-        "nombre": "ADALID Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14902",
         "nombre": "WANG Jing"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "326",
-        "nombre": "FORNES Lluis"
+        "letra": "C",
+        "licencia": "6394",
+        "nombre": "ADALID Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "326",
+        "nombre": "FORNES Lluis"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "7647",
-            "nombre": "BALMES Oriol"
-          },
-          {
-            "licencia": "7713",
-            "nombre": "FARELL Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13124",
             "nombre": "PLANES Arnau"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7647",
+            "nombre": "BALMES Oriol"
+          },
+          {
+            "licencia": "7713",
+            "nombre": "FARELL Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT COLONIA GÜELL - SANT LLUIS",
+      "nombre": "CTT SENTMENAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SENTMENAT",
+      "nombre": "CTT COLONIA GÜELL - SANT LLUIS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14904",
-        "nombre": "VIADER Pere"
-      },
-      "B": {
-        "licencia": "6872",
-        "nombre": "TORELL Enrique"
-      },
-      "C": {
-        "licencia": "16353",
-        "nombre": "NAVAS Miguel Ángel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13065",
         "nombre": "MARTINEZ Luis"
@@ -55,20 +41,24 @@
         "licencia": "12159",
         "nombre": "BAULENAS Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14904",
+        "nombre": "VIADER Pere"
+      },
+      "B": {
+        "licencia": "6872",
+        "nombre": "TORELL Enrique"
+      },
+      "C": {
+        "licencia": "16353",
+        "nombre": "NAVAS Miguel Ángel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14904",
-        "nombre": "VIADER Pere"
-      },
-      {
-        "licencia": "16353",
-        "nombre": "NAVAS Miguel Ángel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "14509",
         "nombre": "PARULL Xavier"
@@ -76,6 +66,16 @@
       {
         "licencia": "12159",
         "nombre": "BAULENAS Lluis"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14904",
+        "nombre": "VIADER Pere"
+      },
+      {
+        "licencia": "16353",
+        "nombre": "NAVAS Miguel Ángel"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14904",
-        "nombre": "VIADER Pere"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13065",
         "nombre": "MARTINEZ Luis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14904",
+        "nombre": "VIADER Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6872",
-        "nombre": "TORELL Enrique"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14509",
         "nombre": "PARULL Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6872",
+        "nombre": "TORELL Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16353",
-        "nombre": "NAVAS Miguel Ángel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12159",
         "nombre": "BAULENAS Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16353",
+        "nombre": "NAVAS Miguel Ángel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14904",
-        "nombre": "VIADER Pere"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14509",
         "nombre": "PARULL Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14904",
+        "nombre": "VIADER Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16353",
-        "nombre": "NAVAS Miguel Ángel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13065",
         "nombre": "MARTINEZ Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16353",
+        "nombre": "NAVAS Miguel Ángel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6872",
-        "nombre": "TORELL Enrique"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12159",
         "nombre": "BAULENAS Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6872",
+        "nombre": "TORELL Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14904",
-            "nombre": "VIADER Pere"
-          },
-          {
-            "licencia": "16353",
-            "nombre": "NAVAS Miguel Ángel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "14509",
             "nombre": "PARULL Xavier"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14904",
+            "nombre": "VIADER Pere"
+          },
+          {
+            "licencia": "16353",
+            "nombre": "NAVAS Miguel Ángel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT COLONIA GÜELL - SANT LLUIS",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

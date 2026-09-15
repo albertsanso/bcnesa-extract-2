@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MASQUEFA TTC",
+      "nombre": "FORN BERTRAN BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FORN BERTRAN BADALONA",
+      "nombre": "MASQUEFA TTC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4525",
-        "nombre": "CID Miquel"
-      },
-      "B": {
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "C": {
-        "licencia": "12288",
-        "nombre": "VIDAL Gerard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12059",
         "nombre": "REQUENA Saúl"
@@ -55,6 +41,20 @@
         "licencia": "7438",
         "nombre": "NOVELL Ferran"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4525",
+        "nombre": "CID Miquel"
+      },
+      "B": {
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
+      "C": {
+        "licencia": "12288",
+        "nombre": "VIDAL Gerard"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4525",
-        "nombre": "CID Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12059",
         "nombre": "REQUENA Saúl"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4525",
+        "nombre": "CID Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14077",
         "nombre": "NÚÑEZ Pol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12288",
-        "nombre": "VIDAL Gerard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7438",
         "nombre": "NOVELL Ferran"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12288",
+        "nombre": "VIDAL Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4525",
-        "nombre": "CID Miquel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14077",
         "nombre": "NÚÑEZ Pol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4525",
+        "nombre": "CID Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12288",
-        "nombre": "VIDAL Gerard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12059",
         "nombre": "REQUENA Saúl"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12288",
+        "nombre": "VIDAL Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7438",
         "nombre": "NOVELL Ferran"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "FORN BERTRAN BADALONA",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

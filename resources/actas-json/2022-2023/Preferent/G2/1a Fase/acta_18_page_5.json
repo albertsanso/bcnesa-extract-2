@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Sènior",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Sènior",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1014",
-        "nombre": "MINGUELL Roger"
-      },
-      "B": {
-        "licencia": "6167",
-        "nombre": "ESTRADA Jordi"
-      },
-      "C": {
-        "licencia": "2524",
-        "nombre": "SALA Carles"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
@@ -55,6 +41,20 @@
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
+      "B": {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "C": {
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1014",
-        "nombre": "MINGUELL Roger"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6167",
-        "nombre": "ESTRADA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14565",
         "nombre": "MATTSSON Tony Michael"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "2524",
-        "nombre": "SALA Carles"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
+        "letra": "B",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1014",
-        "nombre": "MINGUELL Roger"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14565",
         "nombre": "MATTSSON Tony Michael"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2524",
-        "nombre": "SALA Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2524",
+        "nombre": "SALA Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6167",
-        "nombre": "ESTRADA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUIRZE DEL VALLÈS - Sènior",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

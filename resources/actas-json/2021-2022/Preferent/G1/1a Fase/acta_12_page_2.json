@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MASQUEFA TTC",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "MASQUEFA TTC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12214",
-        "nombre": "VIDAL Raul"
-      },
-      "B": {
-        "licencia": "4525",
-        "nombre": "CID Miquel"
-      },
-      "C": {
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "982",
         "nombre": "MONZÓ Rafael"
@@ -55,20 +41,24 @@
         "licencia": "7570",
         "nombre": "BATALLA Ezequiel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12214",
+        "nombre": "VIDAL Raul"
+      },
+      "B": {
+        "licencia": "4525",
+        "nombre": "CID Miquel"
+      },
+      "C": {
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      },
-      {
-        "licencia": "4525",
-        "nombre": "CID Miquel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "982",
         "nombre": "MONZÓ Rafael"
@@ -76,6 +66,16 @@
       {
         "licencia": "1751",
         "nombre": "BLANCO Pere"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
+      {
+        "licencia": "4525",
+        "nombre": "CID Miquel"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12214",
-        "nombre": "VIDAL Raul"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "982",
         "nombre": "MONZÓ Rafael"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12214",
+        "nombre": "VIDAL Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4525",
-        "nombre": "CID Miquel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1751",
         "nombre": "BLANCO Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4525",
+        "nombre": "CID Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7570",
         "nombre": "BATALLA Ezequiel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12214",
-        "nombre": "VIDAL Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1751",
         "nombre": "BLANCO Pere"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12214",
+        "nombre": "VIDAL Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "982",
         "nombre": "MONZÓ Rafael"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4525",
-        "nombre": "CID Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7570",
         "nombre": "BATALLA Ezequiel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4525",
+        "nombre": "CID Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6500",
-            "nombre": "SANCHEZ Didac"
-          },
-          {
-            "licencia": "4525",
-            "nombre": "CID Miquel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "982",
             "nombre": "MONZÓ Rafael"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6500",
+            "nombre": "SANCHEZ Didac"
+          },
+          {
+            "licencia": "4525",
+            "nombre": "CID Miquel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILANOVA I LA GELTRU",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

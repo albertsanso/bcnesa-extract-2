@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CANET DE MAR",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CTT CANET DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "571",
-        "nombre": "JODAR Mariano"
-      },
-      "B": {
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
-      "C": {
-        "licencia": "738",
-        "nombre": "FONFRIA Carles"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3484",
         "nombre": "FERRERA Carlos Augusto"
@@ -55,6 +41,20 @@
         "licencia": "851",
         "nombre": "SERRES Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "571",
+        "nombre": "JODAR Mariano"
+      },
+      "B": {
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
+      "C": {
+        "licencia": "738",
+        "nombre": "FONFRIA Carles"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "571",
-        "nombre": "JODAR Mariano"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3484",
         "nombre": "FERRERA Carlos Augusto"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18003",
-        "nombre": "CHEN Yong"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "738",
-        "nombre": "FONFRIA Carles"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
+        "letra": "A",
+        "licencia": "571",
+        "nombre": "JODAR Mariano"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "738",
+        "nombre": "FONFRIA Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "571",
-        "nombre": "JODAR Mariano"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18003",
         "nombre": "CHEN Yong"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "571",
+        "nombre": "JODAR Mariano"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "738",
-        "nombre": "FONFRIA Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3484",
         "nombre": "FERRERA Carlos Augusto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "738",
+        "nombre": "FONFRIA Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "851",
         "nombre": "SERRES Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 16
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

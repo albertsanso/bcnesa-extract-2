@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FOMENT MARTINENC-BARNY",
+      "nombre": "CTT LA UNIÓ ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT LA UNIÓ ''A''",
+      "nombre": "FOMENT MARTINENC-BARNY",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16785",
-        "nombre": "LUO Xiu Zhong"
-      },
-      "B": {
-        "licencia": "4009",
-        "nombre": "PELLEJA Enrique"
-      },
-      "C": {
-        "licencia": "326",
-        "nombre": "FORNES Lluis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13813",
         "nombre": "MIRAS Pedro"
@@ -55,6 +41,20 @@
         "licencia": "7854",
         "nombre": "VILALTA Jaime"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16785",
+        "nombre": "LUO Xiu Zhong"
+      },
+      "B": {
+        "licencia": "4009",
+        "nombre": "PELLEJA Enrique"
+      },
+      "C": {
+        "licencia": "326",
+        "nombre": "FORNES Lluis"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "13813",
+        "nombre": "MIRAS Pedro"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "16785",
         "nombre": "LUO Xiu Zhong"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14991",
+        "nombre": "CASAJUANA Sebastia"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "13813",
-        "nombre": "MIRAS Pedro"
+        "letra": "B",
+        "licencia": "4009",
+        "nombre": "PELLEJA Enrique"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "326",
+        "nombre": "FORNES Lluis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -81,47 +131,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 2
       }
     },
     {
-      "numero": 2,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs X",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4009",
-        "nombre": "PELLEJA Enrique"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14991",
         "nombre": "CASAJUANA Sebastia"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "326",
-        "nombre": "FORNES Lluis"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
+        "letra": "A",
+        "licencia": "16785",
+        "nombre": "LUO Xiu Zhong"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16785",
-        "nombre": "LUO Xiu Zhong"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "14991",
-        "nombre": "CASAJUANA Sebastia"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "326",
-        "nombre": "FORNES Lluis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13813",
         "nombre": "MIRAS Pedro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "326",
+        "nombre": "FORNES Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4009",
-        "nombre": "PELLEJA Enrique"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7854",
         "nombre": "VILALTA Jaime"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4009",
+        "nombre": "PELLEJA Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "FOMENT MARTINENC-BARNY",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 3
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

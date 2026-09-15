@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8332",
-        "nombre": "MORA Isaac"
-      },
-      "B": {
-        "licencia": "8603",
-        "nombre": "PONS Roger"
-      },
-      "C": {
-        "licencia": "6144",
-        "nombre": "PEREZ Pablo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2983",
         "nombre": "ESCOLA Francisco Javier"
@@ -55,6 +41,20 @@
         "licencia": "11942",
         "nombre": "CUMPLIDO Guadalupe"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8332",
+        "nombre": "MORA Isaac"
+      },
+      "B": {
+        "licencia": "8603",
+        "nombre": "PONS Roger"
+      },
+      "C": {
+        "licencia": "6144",
+        "nombre": "PEREZ Pablo"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8332",
-        "nombre": "MORA Isaac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2983",
         "nombre": "ESCOLA Francisco Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8603",
-        "nombre": "PONS Roger"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "612",
-        "nombre": "BALLESTA Lluis Carles"
+        "letra": "A",
+        "licencia": "8332",
+        "nombre": "MORA Isaac"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8603",
+        "nombre": "PONS Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6144",
-        "nombre": "PEREZ Pablo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11942",
         "nombre": "CUMPLIDO Guadalupe"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6144",
+        "nombre": "PEREZ Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8332",
-        "nombre": "MORA Isaac"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "612",
         "nombre": "BALLESTA Lluis Carles"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8332",
+        "nombre": "MORA Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6144",
-        "nombre": "PEREZ Pablo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2983",
         "nombre": "ESCOLA Francisco Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6144",
+        "nombre": "PEREZ Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8603",
-        "nombre": "PONS Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11942",
         "nombre": "CUMPLIDO Guadalupe"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8603",
+        "nombre": "PONS Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT PREMIÀ DE MAR",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

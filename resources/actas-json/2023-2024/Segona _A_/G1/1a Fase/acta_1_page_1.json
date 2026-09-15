@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "TT PRAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PRAT",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13635",
-        "nombre": "BOUCHNAFA Yassir"
-      },
-      "B": {
-        "licencia": "12817",
-        "nombre": "HERNÁNDEZ Adrià"
-      },
-      "C": {
-        "licencia": "11059",
-        "nombre": "BLESA Pau"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1738",
         "nombre": "MARTINEZ Eduard"
@@ -55,20 +41,24 @@
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13635",
+        "nombre": "BOUCHNAFA Yassir"
+      },
+      "B": {
+        "licencia": "12817",
+        "nombre": "HERNÁNDEZ Adrià"
+      },
+      "C": {
+        "licencia": "11059",
+        "nombre": "BLESA Pau"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "13635",
-        "nombre": "BOUCHNAFA Yassir"
-      },
-      {
-        "licencia": "12817",
-        "nombre": "HERNÁNDEZ Adrià"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "1738",
         "nombre": "MARTINEZ Eduard"
@@ -76,6 +66,16 @@
       {
         "licencia": "11233",
         "nombre": "VARABIEV Adrian"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13635",
+        "nombre": "BOUCHNAFA Yassir"
+      },
+      {
+        "licencia": "12817",
+        "nombre": "HERNÁNDEZ Adrià"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13635",
-        "nombre": "BOUCHNAFA Yassir"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1738",
         "nombre": "MARTINEZ Eduard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13635",
+        "nombre": "BOUCHNAFA Yassir"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12817",
-        "nombre": "HERNÁNDEZ Adrià"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11233",
         "nombre": "VARABIEV Adrian"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12817",
+        "nombre": "HERNÁNDEZ Adrià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11059",
-        "nombre": "BLESA Pau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11059",
+        "nombre": "BLESA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13635",
-        "nombre": "BOUCHNAFA Yassir"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11233",
         "nombre": "VARABIEV Adrian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13635",
+        "nombre": "BOUCHNAFA Yassir"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11059",
-        "nombre": "BLESA Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1738",
         "nombre": "MARTINEZ Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11059",
+        "nombre": "BLESA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12817",
-        "nombre": "HERNÁNDEZ Adrià"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12817",
+        "nombre": "HERNÁNDEZ Adrià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "13635",
-            "nombre": "BOUCHNAFA Yassir"
-          },
-          {
-            "licencia": "12817",
-            "nombre": "HERNÁNDEZ Adrià"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "1738",
             "nombre": "MARTINEZ Eduard"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13635",
+            "nombre": "BOUCHNAFA Yassir"
+          },
+          {
+            "licencia": "12817",
+            "nombre": "HERNÁNDEZ Adrià"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RIPOLLET",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

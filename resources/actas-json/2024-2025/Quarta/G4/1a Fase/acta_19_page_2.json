@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen D",
+      "nombre": "CN SABADELL \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN SABADELL \"A\"",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen D",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17469",
-        "nombre": "CARNEVALI Davide"
-      },
-      "B": {
-        "licencia": "16835",
-        "nombre": "CANADELL Santiago"
-      },
-      "C": {
-        "licencia": "1770",
-        "nombre": "MILLERA Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18452",
         "nombre": "LEDESMA Aina"
@@ -55,6 +41,20 @@
         "licencia": "17309",
         "nombre": "JURADO Laia"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17469",
+        "nombre": "CARNEVALI Davide"
+      },
+      "B": {
+        "licencia": "16835",
+        "nombre": "CANADELL Santiago"
+      },
+      "C": {
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17469",
-        "nombre": "CARNEVALI Davide"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18452",
         "nombre": "LEDESMA Aina"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17469",
+        "nombre": "CARNEVALI Davide"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16835",
-        "nombre": "CANADELL Santiago"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18076",
         "nombre": "SILVESTRE Marta"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16835",
+        "nombre": "CANADELL Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1770",
-        "nombre": "MILLERA Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17309",
         "nombre": "JURADO Laia"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17469",
-        "nombre": "CARNEVALI Davide"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18076",
         "nombre": "SILVESTRE Marta"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17469",
+        "nombre": "CARNEVALI Davide"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1770",
-        "nombre": "MILLERA Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18452",
         "nombre": "LEDESMA Aina"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1770",
+        "nombre": "MILLERA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16835",
-        "nombre": "CANADELL Santiago"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17309",
         "nombre": "JURADO Laia"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16835",
+        "nombre": "CANADELL Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ST QUIRZE DEL VALLÈS - Sen D",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 2
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 2,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

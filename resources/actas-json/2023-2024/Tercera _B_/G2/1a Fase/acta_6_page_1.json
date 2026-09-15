@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB ARIEL",
+      "nombre": "CTT POBLENOU ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT POBLENOU ''A''",
+      "nombre": "CLUB ARIEL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16267",
-        "nombre": "GÓMEZ Sergio"
-      },
-      "B": {
-        "licencia": "17722",
-        "nombre": "COMELLES Albert"
-      },
-      "C": {
-        "licencia": "14980",
-        "nombre": "ALVAREZ Borja"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17754",
         "nombre": "WERNER Ernest"
@@ -55,6 +41,20 @@
         "licencia": "17986",
         "nombre": "BULCOURT Nadia"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16267",
+        "nombre": "GÓMEZ Sergio"
+      },
+      "B": {
+        "licencia": "17722",
+        "nombre": "COMELLES Albert"
+      },
+      "C": {
+        "licencia": "14980",
+        "nombre": "ALVAREZ Borja"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "17754",
+        "nombre": "WERNER Ernest"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "16267",
         "nombre": "GÓMEZ Sergio"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13989",
+        "nombre": "BARGALLO Ferran"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "17754",
-        "nombre": "WERNER Ernest"
+        "letra": "B",
+        "licencia": "17722",
+        "nombre": "COMELLES Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "17986",
+        "nombre": "BULCOURT Nadia"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14980",
+        "nombre": "ALVAREZ Borja"
       },
       "sets": [],
       "resultado_juegos": {
@@ -81,57 +131,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17722",
-        "nombre": "COMELLES Albert"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "13989",
-        "nombre": "BARGALLO Ferran"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "14980",
-        "nombre": "ALVAREZ Borja"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "17986",
-        "nombre": "BULCOURT Nadia"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16267",
-        "nombre": "GÓMEZ Sergio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13989",
         "nombre": "BARGALLO Ferran"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16267",
+        "nombre": "GÓMEZ Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14980",
-        "nombre": "ALVAREZ Borja"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17754",
         "nombre": "WERNER Ernest"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14980",
+        "nombre": "ALVAREZ Borja"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17722",
-        "nombre": "COMELLES Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17986",
         "nombre": "BULCOURT Nadia"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17722",
+        "nombre": "COMELLES Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB ARIEL",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 13
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

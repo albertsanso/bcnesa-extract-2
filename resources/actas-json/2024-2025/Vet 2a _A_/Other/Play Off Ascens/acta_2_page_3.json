@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "GIRBAU VIC TT 13è1a",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "GIRBAU VIC TT 13è1a",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "208",
-        "nombre": "COCHRAN Jordi"
-      },
-      "B": {
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
-      "C": {
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2080",
         "nombre": "AUSIO Pere"
@@ -55,20 +41,24 @@
         "licencia": "857",
         "nombre": "TOR Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "208",
+        "nombre": "COCHRAN Jordi"
+      },
+      "B": {
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "C": {
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
-      {
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
@@ -76,6 +66,16 @@
       {
         "licencia": "2080",
         "nombre": "AUSIO Pere"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      {
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "208",
-        "nombre": "COCHRAN Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2080",
         "nombre": "AUSIO Pere"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
+        "letra": "A",
+        "licencia": "208",
+        "nombre": "COCHRAN Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "857",
         "nombre": "TOR Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "208",
-        "nombre": "COCHRAN Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "208",
+        "nombre": "COCHRAN Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2080",
         "nombre": "AUSIO Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "857",
         "nombre": "TOR Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "27",
-            "nombre": "MADURELL Josep"
-          },
-          {
-            "licencia": "2159",
-            "nombre": "GARCIA Daniel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "536",
             "nombre": "PLADEVALL Jordi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "27",
+            "nombre": "MADURELL Josep"
+          },
+          {
+            "licencia": "2159",
+            "nombre": "GARCIA Daniel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT 13è1a",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 13
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

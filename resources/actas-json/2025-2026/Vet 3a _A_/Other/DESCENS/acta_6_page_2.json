@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CANET DE MAR",
+      "nombre": "CTT VILASSAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR",
+      "nombre": "CTT CANET DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11158",
-        "nombre": "MERCADER Luis"
-      },
-      "B": {
-        "licencia": "4055",
-        "nombre": "NOGUERES Joan"
-      },
-      "C": {
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "21666",
         "nombre": "KRÜGER Frank"
@@ -55,6 +41,20 @@
         "licencia": "2236",
         "nombre": "FOLCH Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11158",
+        "nombre": "MERCADER Luis"
+      },
+      "B": {
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
+      "C": {
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11158",
-        "nombre": "MERCADER Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "21666",
         "nombre": "KRÜGER Frank"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "4055",
-        "nombre": "NOGUERES Joan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11245",
-        "nombre": "LOPEZ David"
+        "letra": "A",
+        "licencia": "11158",
+        "nombre": "MERCADER Luis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11245",
+        "nombre": "LOPEZ David"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2236",
         "nombre": "FOLCH Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11158",
-        "nombre": "MERCADER Luis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11245",
         "nombre": "LOPEZ David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11158",
+        "nombre": "MERCADER Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "21666",
         "nombre": "KRÜGER Frank"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4055",
-        "nombre": "NOGUERES Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2236",
         "nombre": "FOLCH Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4055",
+        "nombre": "NOGUERES Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILASSAR",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

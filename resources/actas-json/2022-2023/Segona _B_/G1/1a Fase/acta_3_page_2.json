@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10095",
-        "nombre": "MILIA Gaspar"
-      },
-      "B": {
-        "licencia": "89",
-        "nombre": "GARCIA Angel"
-      },
-      "C": {
-        "licencia": "11259",
-        "nombre": "BAREA Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7587",
         "nombre": "VIADE Antonio"
@@ -55,6 +41,20 @@
         "licencia": "8895",
         "nombre": "AIXA Josep Mª"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
+      },
+      "B": {
+        "licencia": "89",
+        "nombre": "GARCIA Angel"
+      },
+      "C": {
+        "licencia": "11259",
+        "nombre": "BAREA Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10095",
-        "nombre": "MILIA Gaspar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7587",
         "nombre": "VIADE Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "89",
-        "nombre": "GARCIA Angel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15561",
         "nombre": "SARMIENTO Joel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "89",
+        "nombre": "GARCIA Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "8895",
+        "nombre": "AIXA Josep Mª"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "11259",
         "nombre": "BAREA Jordi"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "8895",
-        "nombre": "AIXA Josep Mª"
+        "letra": "A",
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "10095",
-        "nombre": "MILIA Gaspar"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11259",
-        "nombre": "BAREA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7587",
         "nombre": "VIADE Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11259",
+        "nombre": "BAREA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "89",
-        "nombre": "GARCIA Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8895",
         "nombre": "AIXA Josep Mª"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "89",
+        "nombre": "GARCIA Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "EL CENTRE",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 16
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

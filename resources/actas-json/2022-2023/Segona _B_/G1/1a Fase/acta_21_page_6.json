@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "TT L'HOSPITALET ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''A''",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "B": {
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      },
-      "C": {
-        "licencia": "11209",
-        "nombre": "VELEZ Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
@@ -55,20 +41,24 @@
         "licencia": "16008",
         "nombre": "GOMEZ Omar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "B": {
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
+      "C": {
+        "licencia": "11209",
+        "nombre": "VELEZ Alex"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      {
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
@@ -76,6 +66,16 @@
       {
         "licencia": "16008",
         "nombre": "GOMEZ Omar"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      {
+        "licencia": "15815",
+        "nombre": "GAO Shang"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8444",
         "nombre": "PANADES Enrique"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11209",
-        "nombre": "VELEZ Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16008",
         "nombre": "GOMEZ Omar"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8444",
-        "nombre": "PANADES Enrique"
+        "letra": "C",
+        "licencia": "11209",
+        "nombre": "VELEZ Alex"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8444",
+        "nombre": "PANADES Enrique"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11209",
-        "nombre": "VELEZ Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11209",
+        "nombre": "VELEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15815",
-        "nombre": "GAO Shang"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16008",
         "nombre": "GOMEZ Omar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15815",
+        "nombre": "GAO Shang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "2064",
-            "nombre": "FONTOVA Alex"
-          },
-          {
-            "licencia": "15815",
-            "nombre": "GAO Shang"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8813",
             "nombre": "MURILLO Fernando"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "2064",
+            "nombre": "FONTOVA Alex"
+          },
+          {
+            "licencia": "15815",
+            "nombre": "GAO Shang"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT ATENEU 1882",
+    "ganador": "TT L'HOSPITALET ''A''",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 13
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

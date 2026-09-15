@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet B",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet B",
+      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
-      "B": {
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
-      },
-      "C": {
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
@@ -55,20 +41,24 @@
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
+      "B": {
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
+      },
+      "C": {
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
-      {
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
@@ -76,6 +66,16 @@
       {
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
+      {
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "3332",
-            "nombre": "CARBO Jose Mª"
-          },
-          {
-            "licencia": "5171",
-            "nombre": "RAMOS Carlos"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "125",
             "nombre": "MUÑOZ Josep Lluis"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "3332",
+            "nombre": "CARBO Jose Mª"
+          },
+          {
+            "licencia": "5171",
+            "nombre": "RAMOS Carlos"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA \"A\"",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

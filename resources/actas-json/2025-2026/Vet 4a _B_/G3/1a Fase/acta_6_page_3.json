@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AP LA CAIXA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "AP LA CAIXA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19001",
-        "nombre": "AGUSTÍ Josep"
-      },
-      "B": {
-        "licencia": "18984",
-        "nombre": "MARÍ Alexandre"
-      },
-      "C": {
-        "licencia": "18983",
-        "nombre": "OLIVERES Josep Ignasi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "20996",
         "nombre": "ORTEGA Ricardo"
@@ -55,20 +41,24 @@
         "licencia": "5759",
         "nombre": "BADIA Albert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19001",
+        "nombre": "AGUSTÍ Josep"
+      },
+      "B": {
+        "licencia": "18984",
+        "nombre": "MARÍ Alexandre"
+      },
+      "C": {
+        "licencia": "18983",
+        "nombre": "OLIVERES Josep Ignasi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "18983",
-        "nombre": "OLIVERES Josep Ignasi"
-      },
-      {
-        "licencia": "19001",
-        "nombre": "AGUSTÍ Josep"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "20996",
         "nombre": "ORTEGA Ricardo"
@@ -76,6 +66,16 @@
       {
         "licencia": "5759",
         "nombre": "BADIA Albert"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "18983",
+        "nombre": "OLIVERES Josep Ignasi"
+      },
+      {
+        "licencia": "19001",
+        "nombre": "AGUSTÍ Josep"
       }
     ]
   },
@@ -85,89 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19001",
-        "nombre": "AGUSTÍ Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20996",
         "nombre": "ORTEGA Ricardo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "18984",
-        "nombre": "MARÍ Alexandre"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17713",
-        "nombre": "LÓPEZ Maria Jesús"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "18983",
-        "nombre": "OLIVERES Josep Ignasi"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "5759",
-        "nombre": "BADIA Albert"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "19001",
         "nombre": "AGUSTÍ Josep"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "17713",
-        "nombre": "LÓPEZ Maria Jesús"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +100,81 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17713",
+        "nombre": "LÓPEZ Maria Jesús"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18984",
+        "nombre": "MARÍ Alexandre"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "5759",
+        "nombre": "BADIA Albert"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18983",
+        "nombre": "OLIVERES Josep Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17713",
+        "nombre": "LÓPEZ Maria Jesús"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19001",
+        "nombre": "AGUSTÍ Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18983",
-        "nombre": "OLIVERES Josep Ignasi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20996",
         "nombre": "ORTEGA Ricardo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18983",
+        "nombre": "OLIVERES Josep Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18984",
-        "nombre": "MARÍ Alexandre"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5759",
         "nombre": "BADIA Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18984",
+        "nombre": "MARÍ Alexandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "18983",
-            "nombre": "OLIVERES Josep Ignasi"
-          },
-          {
-            "licencia": "19001",
-            "nombre": "AGUSTÍ Josep"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "20996",
             "nombre": "ORTEGA Ricardo"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18983",
+            "nombre": "OLIVERES Josep Ignasi"
+          },
+          {
+            "licencia": "19001",
+            "nombre": "AGUSTÍ Josep"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "AP LA CAIXA",
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

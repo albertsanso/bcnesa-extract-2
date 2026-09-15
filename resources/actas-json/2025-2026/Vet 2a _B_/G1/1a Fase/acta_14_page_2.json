@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet B",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet B",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
-      "B": {
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      },
-      "C": {
-        "licencia": "1893",
-        "nombre": "JIMENEZ Jose Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15723",
         "nombre": "SEVILLA Javier"
@@ -55,6 +41,20 @@
         "licencia": "11244",
         "nombre": "VILALTA Agusti"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
+      "B": {
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
+      },
+      "C": {
+        "licencia": "1893",
+        "nombre": "JIMENEZ Jose Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15723",
         "nombre": "SEVILLA Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1082",
         "nombre": "GRÀCIA Pere Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1893",
-        "nombre": "JIMENEZ Jose Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11244",
         "nombre": "VILALTA Agusti"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1893",
+        "nombre": "JIMENEZ Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1082",
         "nombre": "GRÀCIA Pere Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1893",
-        "nombre": "JIMENEZ Jose Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15723",
         "nombre": "SEVILLA Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1893",
+        "nombre": "JIMENEZ Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11244",
         "nombre": "VILALTA Agusti"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

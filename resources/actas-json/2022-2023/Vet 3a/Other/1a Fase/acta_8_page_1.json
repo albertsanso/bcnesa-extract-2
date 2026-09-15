@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CATT SANT CELONI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CATT SANT CELONI",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16300",
-        "nombre": "MORA Daniel"
-      },
-      "B": {
-        "licencia": "15044",
-        "nombre": "TEIXIDÓ Salvador"
-      },
-      "C": {
-        "licencia": "16122",
-        "nombre": "CLAVERA Jaume"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4661",
         "nombre": "CORBACHO Alejandro"
@@ -55,6 +41,20 @@
         "licencia": "16613",
         "nombre": "PUJAL Diego"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
+      "B": {
+        "licencia": "15044",
+        "nombre": "TEIXIDÓ Salvador"
+      },
+      "C": {
+        "licencia": "16122",
+        "nombre": "CLAVERA Jaume"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16300",
-        "nombre": "MORA Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4661",
         "nombre": "CORBACHO Alejandro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15044",
-        "nombre": "TEIXIDÓ Salvador"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2347",
         "nombre": "PUIGDEFABREGAS Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15044",
+        "nombre": "TEIXIDÓ Salvador"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16122",
-        "nombre": "CLAVERA Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16613",
         "nombre": "PUJAL Diego"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16300",
-        "nombre": "MORA Daniel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "2347",
-        "nombre": "PUIGDEFABREGAS Josep"
+        "letra": "C",
+        "licencia": "16122",
+        "nombre": "CLAVERA Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2347",
+        "nombre": "PUIGDEFABREGAS Josep"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16300",
+        "nombre": "MORA Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16122",
-        "nombre": "CLAVERA Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4661",
         "nombre": "CORBACHO Alejandro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16122",
+        "nombre": "CLAVERA Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15044",
-        "nombre": "TEIXIDÓ Salvador"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16613",
         "nombre": "PUJAL Diego"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15044",
+        "nombre": "TEIXIDÓ Salvador"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CATT SANT CELONI",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 17
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

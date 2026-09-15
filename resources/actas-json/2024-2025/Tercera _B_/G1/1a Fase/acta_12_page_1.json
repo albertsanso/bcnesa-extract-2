@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ESC. PING PONG VIA TRAJANA ''B''",
+      "nombre": "FOMENT MARTINENC-BARNY",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FOMENT MARTINENC-BARNY",
+      "nombre": "ESC. PING PONG VIA TRAJANA ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      "B": {
-        "licencia": "8054",
-        "nombre": "DESCARREGA Oscar"
-      },
-      "C": {
-        "licencia": "16448",
-        "nombre": "RUIZ Julio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18676",
         "nombre": "VEIGA Jose Manuel"
@@ -55,20 +41,24 @@
         "licencia": "18931",
         "nombre": "SOSPEDRA Jose Miguel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
+      },
+      "B": {
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      },
+      "C": {
+        "licencia": "16448",
+        "nombre": "RUIZ Julio"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      {
-        "licencia": "8054",
-        "nombre": "DESCARREGA Oscar"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "326",
         "nombre": "FORNES Lluis"
@@ -76,6 +66,16 @@
       {
         "licencia": "18931",
         "nombre": "SOSPEDRA Jose Miguel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
+      },
+      {
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18676",
         "nombre": "VEIGA Jose Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8054",
-        "nombre": "DESCARREGA Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "326",
         "nombre": "FORNES Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16448",
-        "nombre": "RUIZ Julio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18931",
         "nombre": "SOSPEDRA Jose Miguel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16448",
+        "nombre": "RUIZ Julio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "326",
         "nombre": "FORNES Lluis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16448",
-        "nombre": "RUIZ Julio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18676",
         "nombre": "VEIGA Jose Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16448",
+        "nombre": "RUIZ Julio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8054",
-        "nombre": "DESCARREGA Oscar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18931",
         "nombre": "SOSPEDRA Jose Miguel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "13474",
-            "nombre": "DESCARREGA Pau"
-          },
-          {
-            "licencia": "8054",
-            "nombre": "DESCARREGA Oscar"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "326",
             "nombre": "FORNES Lluis"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13474",
+            "nombre": "DESCARREGA Pau"
+          },
+          {
+            "licencia": "8054",
+            "nombre": "DESCARREGA Oscar"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "FOMENT MARTINENC-BARNY",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

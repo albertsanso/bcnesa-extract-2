@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANTA PERPETUA",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "CTT SANTA PERPETUA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      },
-      "B": {
-        "licencia": "17604",
-        "nombre": "CANILLAS Jose Antonio"
-      },
-      "C": {
-        "licencia": "12890",
-        "nombre": "PRUNES Alfred"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8075",
         "nombre": "GIL Antonio"
@@ -55,6 +41,20 @@
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
+      "B": {
+        "licencia": "17604",
+        "nombre": "CANILLAS Jose Antonio"
+      },
+      "C": {
+        "licencia": "12890",
+        "nombre": "PRUNES Alfred"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8075",
         "nombre": "GIL Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1720",
+        "nombre": "MATEO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17604",
-        "nombre": "CANILLAS Jose Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17604",
+        "nombre": "CANILLAS Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12890",
-        "nombre": "PRUNES Alfred"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12890",
+        "nombre": "PRUNES Alfred"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,64 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1720",
-        "nombre": "MATEO David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "12890",
-        "nombre": "PRUNES Alfred"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "8075",
-        "nombre": "GIL Antonio"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "17604",
-        "nombre": "CANILLAS Jose Antonio"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "2299",
-        "nombre": "IBAÑEZ Jordi"
+        "letra": "A",
+        "licencia": "1720",
+        "nombre": "MATEO David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12890",
+        "nombre": "PRUNES Alfred"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "2299",
+        "nombre": "IBAÑEZ Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17604",
+        "nombre": "CANILLAS Jose Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

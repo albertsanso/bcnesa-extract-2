@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "MOLLET 2002 TT ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT ''A''",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13382",
-        "nombre": "AGUILERA Alejandro"
-      },
-      "B": {
-        "licencia": "12785",
-        "nombre": "AGUILERA Marta"
-      },
-      "C": {
-        "licencia": "13120",
-        "nombre": "AGUILERA David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4812",
         "nombre": "ALVAREZ Carles"
@@ -55,6 +41,20 @@
         "licencia": "17773",
         "nombre": "PÉREZ Oscar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13382",
+        "nombre": "AGUILERA Alejandro"
+      },
+      "B": {
+        "licencia": "12785",
+        "nombre": "AGUILERA Marta"
+      },
+      "C": {
+        "licencia": "13120",
+        "nombre": "AGUILERA David"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13382",
-        "nombre": "AGUILERA Alejandro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4812",
         "nombre": "ALVAREZ Carles"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13382",
+        "nombre": "AGUILERA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12785",
-        "nombre": "AGUILERA Marta"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4026",
         "nombre": "SANTOS David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12785",
+        "nombre": "AGUILERA Marta"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13120",
-        "nombre": "AGUILERA David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17773",
         "nombre": "PÉREZ Oscar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13120",
+        "nombre": "AGUILERA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13382",
-        "nombre": "AGUILERA Alejandro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4026",
         "nombre": "SANTOS David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13382",
+        "nombre": "AGUILERA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13120",
-        "nombre": "AGUILERA David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4812",
         "nombre": "ALVAREZ Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13120",
+        "nombre": "AGUILERA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12785",
-        "nombre": "AGUILERA Marta"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17773",
         "nombre": "PÉREZ Oscar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12785",
+        "nombre": "AGUILERA Marta"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT ''A''",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

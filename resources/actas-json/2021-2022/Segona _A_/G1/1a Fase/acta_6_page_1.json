@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4348",
-        "nombre": "LLONGUERAS Valenti"
-      },
-      "B": {
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "C": {
-        "licencia": "8690",
-        "nombre": "HARO Gerard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8294",
         "nombre": "ALTELARREA Erik"
@@ -55,20 +41,24 @@
         "licencia": "12036",
         "nombre": "ROMO Pol"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4348",
+        "nombre": "LLONGUERAS Valenti"
+      },
+      "B": {
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
+      "C": {
+        "licencia": "8690",
+        "nombre": "HARO Gerard"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8690",
-        "nombre": "HARO Gerard"
-      },
-      {
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12036",
         "nombre": "ROMO Pol"
@@ -76,6 +66,16 @@
       {
         "licencia": "8294",
         "nombre": "ALTELARREA Erik"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8690",
+        "nombre": "HARO Gerard"
+      },
+      {
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4348",
-        "nombre": "LLONGUERAS Valenti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8294",
         "nombre": "ALTELARREA Erik"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4348",
+        "nombre": "LLONGUERAS Valenti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5008",
         "nombre": "FERNANDEZ Sergio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,14 +135,64 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "12036",
+        "nombre": "ROMO Pol"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "8690",
         "nombre": "HARO Gerard"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "12036",
-        "nombre": "ROMO Pol"
+        "letra": "A",
+        "licencia": "4348",
+        "nombre": "LLONGUERAS Valenti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "8294",
+        "nombre": "ALTELARREA Erik"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8690",
+        "nombre": "HARO Gerard"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,57 +202,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "4348",
-        "nombre": "LLONGUERAS Valenti"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "8690",
-        "nombre": "HARO Gerard"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "8294",
-        "nombre": "ALTELARREA Erik"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
         "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12036",
         "nombre": "ROMO Pol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8690",
-            "nombre": "HARO Gerard"
-          },
-          {
-            "licencia": "7589",
-            "nombre": "BUENO Poul Ignasi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12036",
             "nombre": "ROMO Pol"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8690",
+            "nombre": "HARO Gerard"
+          },
+          {
+            "licencia": "7589",
+            "nombre": "BUENO Poul Ignasi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

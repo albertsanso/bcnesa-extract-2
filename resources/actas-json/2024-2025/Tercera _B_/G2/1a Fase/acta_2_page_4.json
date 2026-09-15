@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18203",
-        "nombre": "MIRO Sergi"
-      },
-      "B": {
-        "licencia": "17231",
-        "nombre": "PODADERA Roger"
-      },
-      "C": {
-        "licencia": "16958",
-        "nombre": "CAPPI Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17806",
         "nombre": "BAREA David"
@@ -55,6 +41,20 @@
         "licencia": "17054",
         "nombre": "MARI Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18203",
+        "nombre": "MIRO Sergi"
+      },
+      "B": {
+        "licencia": "17231",
+        "nombre": "PODADERA Roger"
+      },
+      "C": {
+        "licencia": "16958",
+        "nombre": "CAPPI Xavier"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18203",
-        "nombre": "MIRO Sergi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17806",
         "nombre": "BAREA David"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17231",
-        "nombre": "PODADERA Roger"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18959",
-        "nombre": "RUIZ Jorge"
+        "letra": "A",
+        "licencia": "18203",
+        "nombre": "MIRO Sergi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18959",
+        "nombre": "RUIZ Jorge"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17231",
+        "nombre": "PODADERA Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16958",
-        "nombre": "CAPPI Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17054",
         "nombre": "MARI Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16958",
+        "nombre": "CAPPI Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18203",
-        "nombre": "MIRO Sergi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18959",
         "nombre": "RUIZ Jorge"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18203",
+        "nombre": "MIRO Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16958",
-        "nombre": "CAPPI Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17806",
         "nombre": "BAREA David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16958",
+        "nombre": "CAPPI Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17231",
-        "nombre": "PODADERA Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17054",
         "nombre": "MARI Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17231",
+        "nombre": "PODADERA Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 3
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

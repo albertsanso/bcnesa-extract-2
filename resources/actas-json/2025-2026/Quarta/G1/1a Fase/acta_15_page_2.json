@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18034",
-        "nombre": "ROFES Sergi"
-      },
-      "B": {
-        "licencia": "19808",
-        "nombre": "GLANZ Alexander"
-      },
-      "C": {
-        "licencia": "17608",
-        "nombre": "ARMENTEROS Ciro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "322",
         "nombre": "GUARDIA Pedro"
@@ -55,6 +41,20 @@
         "licencia": "19062",
         "nombre": "CALVENTE Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18034",
+        "nombre": "ROFES Sergi"
+      },
+      "B": {
+        "licencia": "19808",
+        "nombre": "GLANZ Alexander"
+      },
+      "C": {
+        "licencia": "17608",
+        "nombre": "ARMENTEROS Ciro"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18034",
-        "nombre": "ROFES Sergi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "322",
         "nombre": "GUARDIA Pedro"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "19808",
-        "nombre": "GLANZ Alexander"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16909",
-        "nombre": "BUITRAGO David"
+        "letra": "A",
+        "licencia": "18034",
+        "nombre": "ROFES Sergi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16909",
+        "nombre": "BUITRAGO David"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19808",
+        "nombre": "GLANZ Alexander"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17608",
-        "nombre": "ARMENTEROS Ciro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19062",
         "nombre": "CALVENTE Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17608",
+        "nombre": "ARMENTEROS Ciro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18034",
-        "nombre": "ROFES Sergi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16909",
         "nombre": "BUITRAGO David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18034",
+        "nombre": "ROFES Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17608",
-        "nombre": "ARMENTEROS Ciro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "322",
         "nombre": "GUARDIA Pedro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17608",
+        "nombre": "ARMENTEROS Ciro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19808",
-        "nombre": "GLANZ Alexander"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19062",
         "nombre": "CALVENTE Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19808",
+        "nombre": "GLANZ Alexander"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

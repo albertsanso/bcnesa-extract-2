@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN MATARÓ",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "CN MATARÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10862",
-        "nombre": "SANS Martina"
-      },
-      "B": {
-        "licencia": "12922",
-        "nombre": "RODRIGUEZ Alba"
-      },
-      "C": {
-        "licencia": "12566",
-        "nombre": "NUÑEZ Roc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15587",
         "nombre": "GUINART Moslih"
@@ -55,6 +41,20 @@
         "licencia": "14441",
         "nombre": "MASIP Alex"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10862",
+        "nombre": "SANS Martina"
+      },
+      "B": {
+        "licencia": "12922",
+        "nombre": "RODRIGUEZ Alba"
+      },
+      "C": {
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10862",
-        "nombre": "SANS Martina"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15587",
         "nombre": "GUINART Moslih"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10862",
+        "nombre": "SANS Martina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12922",
-        "nombre": "RODRIGUEZ Alba"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15075",
         "nombre": "LLORENS Teo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12922",
+        "nombre": "RODRIGUEZ Alba"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12566",
-        "nombre": "NUÑEZ Roc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14441",
         "nombre": "MASIP Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10862",
-        "nombre": "SANS Martina"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15075",
         "nombre": "LLORENS Teo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10862",
+        "nombre": "SANS Martina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12566",
-        "nombre": "NUÑEZ Roc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15587",
         "nombre": "GUINART Moslih"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12566",
+        "nombre": "NUÑEZ Roc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12922",
-        "nombre": "RODRIGUEZ Alba"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14441",
         "nombre": "MASIP Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12922",
+        "nombre": "RODRIGUEZ Alba"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN MATARÓ",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 1
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 1,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

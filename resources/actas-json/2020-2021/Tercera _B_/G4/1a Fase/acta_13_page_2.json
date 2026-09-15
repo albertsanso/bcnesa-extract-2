@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CTT VALLS DE TORRUELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VALLS DE TORRUELLA",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
-      },
-      "B": {
-        "licencia": "11949",
-        "nombre": "DACHS Gil"
-      },
-      "C": {
-        "licencia": "12868",
-        "nombre": "TORRENTS Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13164",
         "nombre": "MENDEZ Gil"
@@ -55,6 +41,20 @@
         "licencia": "13964",
         "nombre": "XANDRI Oriol"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
+      "B": {
+        "licencia": "11949",
+        "nombre": "DACHS Gil"
+      },
+      "C": {
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13164",
         "nombre": "MENDEZ Gil"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11949",
-        "nombre": "DACHS Gil"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13165",
         "nombre": "FLORES Axel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11949",
+        "nombre": "DACHS Gil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12868",
-        "nombre": "TORRENTS Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13964",
         "nombre": "XANDRI Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13165",
         "nombre": "FLORES Axel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12868",
-        "nombre": "TORRENTS Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13164",
         "nombre": "MENDEZ Gil"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12868",
+        "nombre": "TORRENTS Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11949",
-        "nombre": "DACHS Gil"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13964",
         "nombre": "XANDRI Oriol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11949",
+        "nombre": "DACHS Gil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 8
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

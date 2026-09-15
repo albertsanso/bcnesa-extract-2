@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA ''B''",
+      "nombre": "MOLLET 2002 TT ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT ''A''",
+      "nombre": "LLUÏSOS DE GRÀCIA ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18759",
-        "nombre": "MANSO Oscar"
-      },
-      "B": {
-        "licencia": "19691",
-        "nombre": "KHAN Muhammad Rameez"
-      },
-      "C": {
-        "licencia": "19171",
-        "nombre": "ALBERTÍ Pau"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16800",
         "nombre": "PICAZO Aaron"
@@ -55,6 +41,20 @@
         "licencia": "12906",
         "nombre": "CRESPO Diego"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18759",
+        "nombre": "MANSO Oscar"
+      },
+      "B": {
+        "licencia": "19691",
+        "nombre": "KHAN Muhammad Rameez"
+      },
+      "C": {
+        "licencia": "19171",
+        "nombre": "ALBERTÍ Pau"
+      }
     }
   },
   "dobles": null,
@@ -64,114 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18759",
-        "nombre": "MANSO Oscar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16800",
         "nombre": "PICAZO Aaron"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "19691",
-        "nombre": "KHAN Muhammad Rameez"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4812",
-        "nombre": "ALVAREZ Carles"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "19171",
-        "nombre": "ALBERTÍ Pau"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "12906",
-        "nombre": "CRESPO Diego"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "18759",
         "nombre": "MANSO Oscar"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "4812",
-        "nombre": "ALVAREZ Carles"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "19171",
-        "nombre": "ALBERTÍ Pau"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "16800",
-        "nombre": "PICAZO Aaron"
       },
       "sets": [],
       "resultado_juegos": {
@@ -181,22 +81,97 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 4
+        "visitante": 0
       }
     },
     {
-      "numero": 6,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "4812",
+        "nombre": "ALVAREZ Carles"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "19691",
         "nombre": "KHAN Muhammad Rameez"
       },
-      "visitante": {
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
         "letra": "Z",
-        "licencia": "17773",
-        "nombre": "PÉREZ Oscar"
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19171",
+        "nombre": "ALBERTÍ Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4812",
+        "nombre": "ALVAREZ Carles"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18759",
+        "nombre": "MANSO Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "16800",
+        "nombre": "PICAZO Aaron"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19171",
+        "nombre": "ALBERTÍ Pau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "17773",
+        "nombre": "PÉREZ Oscar"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19691",
+        "nombre": "KHAN Muhammad Rameez"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT ''A''",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

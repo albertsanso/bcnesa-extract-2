@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "B": {
-        "licencia": "15565",
-        "nombre": "TONCA Nicolae"
-      },
-      "C": {
-        "licencia": "19023",
-        "nombre": "HUERTAS Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "20434",
         "nombre": "SANTANA Martí"
@@ -55,20 +41,24 @@
         "licencia": "10351",
         "nombre": "GARRIGA Sergi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "B": {
+        "licencia": "15565",
+        "nombre": "TONCA Nicolae"
+      },
+      "C": {
+        "licencia": "19023",
+        "nombre": "HUERTAS Miquel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      {
-        "licencia": "19023",
-        "nombre": "HUERTAS Miquel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "20434",
         "nombre": "SANTANA Martí"
@@ -76,6 +66,16 @@
       {
         "licencia": "13064",
         "nombre": "REQUENA Oscar"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      {
+        "licencia": "19023",
+        "nombre": "HUERTAS Miquel"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20434",
         "nombre": "SANTANA Martí"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15565",
-        "nombre": "TONCA Nicolae"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13064",
-        "nombre": "REQUENA Oscar"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "19023",
-        "nombre": "HUERTAS Miquel"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "10351",
-        "nombre": "GARRIGA Sergi"
+        "letra": "A",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,22 +102,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13064",
         "nombre": "REQUENA Oscar"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15565",
+        "nombre": "TONCA Nicolae"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +125,56 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19023",
+        "nombre": "HUERTAS Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13064",
+        "nombre": "REQUENA Oscar"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19023",
-        "nombre": "HUERTAS Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20434",
         "nombre": "SANTANA Martí"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19023",
+        "nombre": "HUERTAS Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15565",
-        "nombre": "TONCA Nicolae"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10351",
         "nombre": "GARRIGA Sergi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15565",
+        "nombre": "TONCA Nicolae"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8021",
-            "nombre": "CASOLIVA Juan Jose"
-          },
-          {
-            "licencia": "19023",
-            "nombre": "HUERTAS Miquel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "20434",
             "nombre": "SANTANA Martí"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8021",
+            "nombre": "CASOLIVA Juan Jose"
+          },
+          {
+            "licencia": "19023",
+            "nombre": "HUERTAS Miquel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "TITUS BADALONA",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

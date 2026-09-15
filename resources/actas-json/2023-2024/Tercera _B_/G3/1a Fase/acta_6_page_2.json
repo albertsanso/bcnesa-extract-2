@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "DECATHLON BADALONA",
+      "nombre": "CTT CASTELLDEFELS \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS \"A\"",
+      "nombre": "DECATHLON BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11708",
-        "nombre": "RAVENTOS Octavi"
-      },
-      "B": {
-        "licencia": "13064",
-        "nombre": "REQUENA Oscar"
-      },
-      "C": {
-        "licencia": "6238",
-        "nombre": "BASSAS Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8021",
         "nombre": "CASOLIVA Juan Jose"
@@ -55,20 +41,24 @@
         "licencia": "12362",
         "nombre": "HONDARZA Cesar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11708",
+        "nombre": "RAVENTOS Octavi"
+      },
+      "B": {
+        "licencia": "13064",
+        "nombre": "REQUENA Oscar"
+      },
+      "C": {
+        "licencia": "6238",
+        "nombre": "BASSAS Albert"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11708",
-        "nombre": "RAVENTOS Octavi"
-      },
-      {
-        "licencia": "6238",
-        "nombre": "BASSAS Albert"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8558",
         "nombre": "MORILLA Daniel"
@@ -76,6 +66,16 @@
       {
         "licencia": "8021",
         "nombre": "CASOLIVA Juan Jose"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11708",
+        "nombre": "RAVENTOS Octavi"
+      },
+      {
+        "licencia": "6238",
+        "nombre": "BASSAS Albert"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11708",
-        "nombre": "RAVENTOS Octavi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8021",
         "nombre": "CASOLIVA Juan Jose"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13064",
-        "nombre": "REQUENA Oscar"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8558",
-        "nombre": "MORILLA Daniel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "6238",
-        "nombre": "BASSAS Albert"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "12362",
-        "nombre": "HONDARZA Cesar"
+        "letra": "A",
+        "licencia": "11708",
+        "nombre": "RAVENTOS Octavi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,22 +102,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11708",
-        "nombre": "RAVENTOS Octavi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8558",
         "nombre": "MORILLA Daniel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13064",
+        "nombre": "REQUENA Oscar"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +125,56 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "12362",
+        "nombre": "HONDARZA Cesar"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6238",
+        "nombre": "BASSAS Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8558",
+        "nombre": "MORILLA Daniel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11708",
+        "nombre": "RAVENTOS Octavi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6238",
-        "nombre": "BASSAS Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8021",
         "nombre": "CASOLIVA Juan Jose"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "13064",
-        "nombre": "REQUENA Oscar"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "12362",
-        "nombre": "HONDARZA Cesar"
+        "letra": "C",
+        "licencia": "6238",
+        "nombre": "BASSAS Albert"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "12362",
+        "nombre": "HONDARZA Cesar"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13064",
+        "nombre": "REQUENA Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11708",
-            "nombre": "RAVENTOS Octavi"
-          },
-          {
-            "licencia": "6238",
-            "nombre": "BASSAS Albert"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8558",
             "nombre": "MORILLA Daniel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11708",
+            "nombre": "RAVENTOS Octavi"
+          },
+          {
+            "licencia": "6238",
+            "nombre": "BASSAS Albert"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS \"A\"",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

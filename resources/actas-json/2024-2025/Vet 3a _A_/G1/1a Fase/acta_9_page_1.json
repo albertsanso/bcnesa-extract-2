@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANT ANDREU",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "CC SANT ANDREU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      },
-      "B": {
-        "licencia": "8716",
-        "nombre": "GARCIA Maximino"
-      },
-      "C": {
-        "licencia": "68",
-        "nombre": "MARTINEZ Felipe"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
@@ -55,6 +41,20 @@
         "licencia": "6922",
         "nombre": "MALDONADO Esteban"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
+      },
+      "B": {
+        "licencia": "8716",
+        "nombre": "GARCIA Maximino"
+      },
+      "C": {
+        "licencia": "68",
+        "nombre": "MARTINEZ Felipe"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8716",
-        "nombre": "GARCIA Maximino"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "1106",
-        "nombre": "MORALES Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "68",
-        "nombre": "MARTINEZ Felipe"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6922",
-        "nombre": "MALDONADO Esteban"
+        "letra": "A",
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,22 +81,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1106",
         "nombre": "MORALES Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8716",
+        "nombre": "GARCIA Maximino"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6922",
+        "nombre": "MALDONADO Esteban"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "68",
+        "nombre": "MARTINEZ Felipe"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1106",
+        "nombre": "MORALES Jordi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "68",
-        "nombre": "MARTINEZ Felipe"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "68",
+        "nombre": "MARTINEZ Felipe"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8716",
-        "nombre": "GARCIA Maximino"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6922",
         "nombre": "MALDONADO Esteban"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8716",
+        "nombre": "GARCIA Maximino"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CETT ESPARREGUERA",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

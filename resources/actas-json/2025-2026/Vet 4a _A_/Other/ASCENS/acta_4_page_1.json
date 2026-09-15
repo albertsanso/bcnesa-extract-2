@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      },
-      "B": {
-        "licencia": "3995",
-        "nombre": "IGLESIAS Carlos"
-      },
-      "C": {
-        "licencia": "16462",
-        "nombre": "KOKKO Essa"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17701",
         "nombre": "RUIZ Santiago"
@@ -55,6 +41,20 @@
         "licencia": "4227",
         "nombre": "PARRA Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
+      },
+      "B": {
+        "licencia": "3995",
+        "nombre": "IGLESIAS Carlos"
+      },
+      "C": {
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17701",
         "nombre": "RUIZ Santiago"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "3995",
-        "nombre": "IGLESIAS Carlos"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12347",
-        "nombre": "FRANQUET Juan"
+        "letra": "A",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12347",
+        "nombre": "FRANQUET Juan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3995",
+        "nombre": "IGLESIAS Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16462",
-        "nombre": "KOKKO Essa"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4227",
         "nombre": "PARRA Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,64 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "233",
-        "nombre": "PASCUAL Rafael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12347",
         "nombre": "FRANQUET Juan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "16462",
-        "nombre": "KOKKO Essa"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "17701",
-        "nombre": "RUIZ Santiago"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "3995",
-        "nombre": "IGLESIAS Carlos"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "4227",
-        "nombre": "PARRA Antonio"
+        "letra": "A",
+        "licencia": "233",
+        "nombre": "PASCUAL Rafael"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "17701",
+        "nombre": "RUIZ Santiago"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "4227",
+        "nombre": "PARRA Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3995",
+        "nombre": "IGLESIAS Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANTS",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

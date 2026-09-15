@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TOT MOTOR RIPOLLET",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "TOT MOTOR RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      },
-      "B": {
-        "licencia": "16516",
-        "nombre": "CODOLÀ Pep"
-      },
-      "C": {
-        "licencia": "14750",
-        "nombre": "SEVILLA Marc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17883",
         "nombre": "MARTOS Xavi"
@@ -55,6 +41,20 @@
         "licencia": "123",
         "nombre": "LOPEZ Santiago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
+      },
+      "B": {
+        "licencia": "16516",
+        "nombre": "CODOLÀ Pep"
+      },
+      "C": {
+        "licencia": "14750",
+        "nombre": "SEVILLA Marc"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17883",
         "nombre": "MARTOS Xavi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16516",
-        "nombre": "CODOLÀ Pep"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11715",
-        "nombre": "GIMENO Bernat"
+        "letra": "A",
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11715",
+        "nombre": "GIMENO Bernat"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16516",
+        "nombre": "CODOLÀ Pep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,64 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14750",
-        "nombre": "SEVILLA Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "123",
         "nombre": "LOPEZ Santiago"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11715",
-        "nombre": "GIMENO Bernat"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
         "letra": "C",
         "licencia": "14750",
         "nombre": "SEVILLA Marc"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "17883",
-        "nombre": "MARTOS Xavi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -181,22 +131,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 3
+        "visitante": 1
       }
     },
     {
-      "numero": 6,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16516",
-        "nombre": "CODOLÀ Pep"
+        "letra": "X",
+        "licencia": "11715",
+        "nombre": "GIMENO Bernat"
       },
       "visitante": {
-        "letra": "Z",
-        "licencia": "123",
-        "nombre": "LOPEZ Santiago"
+        "letra": "A",
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "17883",
+        "nombre": "MARTOS Xavi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14750",
+        "nombre": "SEVILLA Marc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "123",
+        "nombre": "LOPEZ Santiago"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16516",
+        "nombre": "CODOLÀ Pep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILANOVA I LA GELTRU",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

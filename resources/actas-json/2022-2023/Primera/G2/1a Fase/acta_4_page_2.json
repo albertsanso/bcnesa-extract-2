@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      },
-      "B": {
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      "C": {
-        "licencia": "13455",
-        "nombre": "VILASECA Roc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8679",
         "nombre": "CERVANTES Joel"
@@ -55,6 +41,20 @@
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
+      "B": {
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
+      "C": {
+        "licencia": "13455",
+        "nombre": "VILASECA Roc"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8679",
         "nombre": "CERVANTES Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8654",
         "nombre": "LEONE Tomás"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "11254",
+        "nombre": "RUSCALLEDA Antoni"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "13455",
         "nombre": "VILASECA Roc"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8654",
+        "nombre": "LEONE Tomás"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "11254",
-        "nombre": "RUSCALLEDA Antoni"
+        "letra": "A",
+        "licencia": "7647",
+        "nombre": "BALMES Oriol"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "7647",
-        "nombre": "BALMES Oriol"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "8654",
-        "nombre": "LEONE Tomás"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13455",
-        "nombre": "VILASECA Roc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8679",
         "nombre": "CERVANTES Joel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13455",
+        "nombre": "VILASECA Roc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

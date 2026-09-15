@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL 'B'",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CLUB NATACIO SABADELL 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "B": {
-        "licencia": "975",
-        "nombre": "HUGUET Ferran"
-      },
-      "C": {
-        "licencia": "1014",
-        "nombre": "MINGUELL Roger"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
@@ -55,6 +41,20 @@
         "licencia": "857",
         "nombre": "TOR Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "B": {
+        "licencia": "975",
+        "nombre": "HUGUET Ferran"
+      },
+      "C": {
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "975",
-        "nombre": "HUGUET Ferran"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2080",
         "nombre": "AUSIO Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "975",
+        "nombre": "HUGUET Ferran"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1014",
-        "nombre": "MINGUELL Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "857",
         "nombre": "TOR Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2080",
         "nombre": "AUSIO Pere"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1014",
-        "nombre": "MINGUELL Roger"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "975",
-        "nombre": "HUGUET Ferran"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "857",
         "nombre": "TOR Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "975",
+        "nombre": "HUGUET Ferran"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 16
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

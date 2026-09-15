@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "CTT L'HOSPITALET GRUPO PREVING \"B",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT L'HOSPITALET GRUPO PREVING \"B",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11814",
-        "nombre": "FUSTER Diego"
-      },
-      "B": {
-        "licencia": "12495",
-        "nombre": "CHEN Xujiaen"
-      },
-      "C": {
-        "licencia": "11111",
-        "nombre": "OLIVARES Jon"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
@@ -55,6 +41,20 @@
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11814",
+        "nombre": "FUSTER Diego"
+      },
+      "B": {
+        "licencia": "12495",
+        "nombre": "CHEN Xujiaen"
+      },
+      "C": {
+        "licencia": "11111",
+        "nombre": "OLIVARES Jon"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11814",
-        "nombre": "FUSTER Diego"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11814",
+        "nombre": "FUSTER Diego"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12495",
-        "nombre": "CHEN Xujiaen"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6027",
         "nombre": "HERRERO Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12495",
+        "nombre": "CHEN Xujiaen"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11111",
-        "nombre": "OLIVARES Jon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11111",
+        "nombre": "OLIVARES Jon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11814",
-        "nombre": "FUSTER Diego"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6027",
         "nombre": "HERRERO Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11814",
+        "nombre": "FUSTER Diego"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11111",
-        "nombre": "OLIVARES Jon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11111",
+        "nombre": "OLIVARES Jon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12495",
-        "nombre": "CHEN Xujiaen"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12495",
+        "nombre": "CHEN Xujiaen"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT BARCELONA",
     "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

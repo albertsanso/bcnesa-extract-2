@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TITUS BADALONA 14è2aB",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "TITUS BADALONA 14è2aB",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18765",
-        "nombre": "JI Michael Xiao Zhuang"
-      },
-      "B": {
-        "licencia": "15982",
-        "nombre": "GUERRERO Jose Antonio"
-      },
-      "C": {
-        "licencia": "12974",
-        "nombre": "FORMENTÍ Marc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "687",
         "nombre": "BARCOJO Antonio"
@@ -55,6 +41,20 @@
         "licencia": "322",
         "nombre": "GUARDIA Pedro"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      "B": {
+        "licencia": "15982",
+        "nombre": "GUERRERO Jose Antonio"
+      },
+      "C": {
+        "licencia": "12974",
+        "nombre": "FORMENTÍ Marc"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18765",
-        "nombre": "JI Michael Xiao Zhuang"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "687",
         "nombre": "BARCOJO Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,14 +89,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "772",
+        "nombre": "SANCHEZ Antonio"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "15982",
         "nombre": "GUERRERO Jose Antonio"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "322",
+        "nombre": "GUARDIA Pedro"
+      },
       "visitante": {
-        "letra": "X",
-        "licencia": "772",
-        "nombre": "SANCHEZ Antonio"
+        "letra": "C",
+        "licencia": "12974",
+        "nombre": "FORMENTÍ Marc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -105,33 +130,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12974",
-        "nombre": "FORMENTÍ Marc"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "322",
-        "nombre": "GUARDIA Pedro"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18765",
-        "nombre": "JI Michael Xiao Zhuang"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "772",
         "nombre": "SANCHEZ Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12974",
-        "nombre": "FORMENTÍ Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "687",
         "nombre": "BARCOJO Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12974",
+        "nombre": "FORMENTÍ Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15982",
-        "nombre": "GUERRERO Jose Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "322",
         "nombre": "GUARDIA Pedro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15982",
+        "nombre": "GUERRERO Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

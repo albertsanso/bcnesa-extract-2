@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "MEXCLAT BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MEXCLAT BADALONA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "B": {
-        "licencia": "406",
-        "nombre": "GIL Juan Manuel"
-      },
-      "C": {
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12491",
         "nombre": "NAVARRO Arnau"
@@ -55,20 +41,24 @@
         "licencia": "4142",
         "nombre": "SALGUERO Albert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "B": {
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
+      "C": {
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      {
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12059",
         "nombre": "REQUENA Saúl"
@@ -76,6 +66,16 @@
       {
         "licencia": "4142",
         "nombre": "SALGUERO Albert"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
+      {
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12491",
         "nombre": "NAVARRO Arnau"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "406",
-        "nombre": "GIL Juan Manuel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12059",
-        "nombre": "REQUENA Saúl"
+        "letra": "A",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4142",
         "nombre": "SALGUERO Albert"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12059",
-        "nombre": "REQUENA Saúl"
+        "letra": "C",
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12491",
         "nombre": "NAVARRO Arnau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "406",
-        "nombre": "GIL Juan Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4142",
         "nombre": "SALGUERO Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "406",
+        "nombre": "GIL Juan Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "7587",
-            "nombre": "VIADE Antonio"
-          },
-          {
-            "licencia": "606",
-            "nombre": "FRANCH Jaume"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12059",
             "nombre": "REQUENA Saúl"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7587",
+            "nombre": "VIADE Antonio"
+          },
+          {
+            "licencia": "606",
+            "nombre": "FRANCH Jaume"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "MEXCLAT BADALONA",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

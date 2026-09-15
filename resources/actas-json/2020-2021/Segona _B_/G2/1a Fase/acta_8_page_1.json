@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CTT L'AVENÇ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT L'AVENÇ",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13126",
-        "nombre": "GRACIA Jordi"
-      },
-      "B": {
-        "licencia": "7597",
-        "nombre": "SOLE Xavier"
-      },
-      "C": {
-        "licencia": "10201",
-        "nombre": "MARI Roger"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8409",
         "nombre": "AMÉZQUITA Camilo"
@@ -55,6 +41,20 @@
         "licencia": "12175",
         "nombre": "AMEZQUITA Fabian Matías"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13126",
+        "nombre": "GRACIA Jordi"
+      },
+      "B": {
+        "licencia": "7597",
+        "nombre": "SOLE Xavier"
+      },
+      "C": {
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13126",
-        "nombre": "GRACIA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8409",
         "nombre": "AMÉZQUITA Camilo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7597",
-        "nombre": "SOLE Xavier"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "10201",
-        "nombre": "MARI Roger"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "12175",
-        "nombre": "AMEZQUITA Fabian Matías"
+        "letra": "A",
+        "licencia": "13126",
+        "nombre": "GRACIA Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,22 +81,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13126",
-        "nombre": "GRACIA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8405",
         "nombre": "BARCELO Marcos"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7597",
+        "nombre": "SOLE Xavier"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +104,56 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "12175",
+        "nombre": "AMEZQUITA Fabian Matías"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13126",
+        "nombre": "GRACIA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10201",
-        "nombre": "MARI Roger"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8409",
         "nombre": "AMÉZQUITA Camilo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7597",
-        "nombre": "SOLE Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12175",
         "nombre": "AMEZQUITA Fabian Matías"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7597",
+        "nombre": "SOLE Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS D'HORTA TT",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

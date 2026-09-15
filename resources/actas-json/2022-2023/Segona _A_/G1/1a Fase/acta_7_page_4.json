@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RODA DE TER",
+      "nombre": "CTT CASTELLGALÍ ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ ''A''",
+      "nombre": "CTT RODA DE TER",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "B": {
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
-      "C": {
-        "licencia": "12122",
-        "nombre": "LLASTANÓS Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1447",
         "nombre": "MARTIN Jose Antonio"
@@ -55,6 +41,20 @@
         "licencia": "11665",
         "nombre": "MARTINEZ Roger"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
+      "B": {
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
+      "C": {
+        "licencia": "12122",
+        "nombre": "LLASTANÓS Alex"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1447",
         "nombre": "MARTIN Jose Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6313",
-        "nombre": "MONTANER Josep"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12122",
-        "nombre": "LLASTANÓS Alex"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "11665",
-        "nombre": "MARTINEZ Roger"
+        "letra": "A",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,47 +81,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8127",
-        "nombre": "MONTENEGRO Rafael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6313",
         "nombre": "MONTANER Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 0
       }
     },
     {
-      "numero": 5,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "11665",
+        "nombre": "MARTINEZ Roger"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "12122",
         "nombre": "LLASTANÓS Alex"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "1447",
-        "nombre": "MARTIN Jose Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +130,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8127",
+        "nombre": "MONTENEGRO Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "1447",
+        "nombre": "MARTIN Jose Antonio"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12122",
+        "nombre": "LLASTANÓS Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11665",
         "nombre": "MARTINEZ Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLGALÍ ''A''",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

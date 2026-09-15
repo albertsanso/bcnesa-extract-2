@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "LLUÏSOS DE GRÀCIA \"C\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"C\"",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14647",
-        "nombre": "WALLS Juan Manuel"
-      },
-      "B": {
-        "licencia": "14938",
-        "nombre": "MURGA Roger"
-      },
-      "C": {
-        "licencia": "14917",
-        "nombre": "PINZANO Ignasi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15080",
         "nombre": "CASTILLO Pol"
@@ -55,6 +41,20 @@
         "licencia": "16494",
         "nombre": "ULLOA Adrià"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14647",
+        "nombre": "WALLS Juan Manuel"
+      },
+      "B": {
+        "licencia": "14938",
+        "nombre": "MURGA Roger"
+      },
+      "C": {
+        "licencia": "14917",
+        "nombre": "PINZANO Ignasi"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14647",
-        "nombre": "WALLS Juan Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15080",
         "nombre": "CASTILLO Pol"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14938",
-        "nombre": "MURGA Roger"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17738",
-        "nombre": "PONS Gina"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "14917",
-        "nombre": "PINZANO Ignasi"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16494",
-        "nombre": "ULLOA Adrià"
+        "letra": "A",
+        "licencia": "14647",
+        "nombre": "WALLS Juan Manuel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +80,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17738",
+        "nombre": "PONS Gina"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14938",
+        "nombre": "MURGA Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16494",
+        "nombre": "ULLOA Adrià"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14917",
+        "nombre": "PINZANO Ignasi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14647",
-        "nombre": "WALLS Juan Manuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17738",
         "nombre": "PONS Gina"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14647",
+        "nombre": "WALLS Juan Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14917",
-        "nombre": "PINZANO Ignasi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15080",
         "nombre": "CASTILLO Pol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14917",
+        "nombre": "PINZANO Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14938",
-        "nombre": "MURGA Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16494",
         "nombre": "ULLOA Adrià"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14938",
+        "nombre": "MURGA Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 10
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

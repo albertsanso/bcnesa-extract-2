@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SENTMENAT - ACTIVIJOC",
+      "nombre": "CN ST. ANDREU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN ST. ANDREU",
+      "nombre": "CTT SENTMENAT - ACTIVIJOC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13065",
-        "nombre": "MARTINEZ Luis"
-      },
-      "B": {
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      },
-      "C": {
-        "licencia": "12157",
-        "nombre": "CORTADA Francesc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "614",
         "nombre": "MARTINEZ Francisco"
@@ -55,6 +41,20 @@
         "licencia": "14126",
         "nombre": "ALLUE Vicens"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
+      },
+      "B": {
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "C": {
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13065",
-        "nombre": "MARTINEZ Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "614",
         "nombre": "MARTINEZ Francisco"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8327",
-        "nombre": "MORATA Manuel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12157",
-        "nombre": "CORTADA Francesc"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "14126",
-        "nombre": "ALLUE Vicens"
+        "letra": "A",
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8327",
+        "nombre": "MORATA Manuel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "14126",
+        "nombre": "ALLUE Vicens"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13065",
-        "nombre": "MARTINEZ Luis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8327",
         "nombre": "MORATA Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12157",
-        "nombre": "CORTADA Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "614",
         "nombre": "MARTINEZ Francisco"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "14126",
-        "nombre": "ALLUE Vicens"
+        "letra": "C",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "14126",
+        "nombre": "ALLUE Vicens"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN ST. ANDREU",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

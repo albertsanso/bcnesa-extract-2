@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13314",
-        "nombre": "MANZANO Francisco"
-      },
-      "B": {
-        "licencia": "16463",
-        "nombre": "OLLERO Angel"
-      },
-      "C": {
-        "licencia": "12596",
-        "nombre": "JIMÉNEZ Francisco"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17680",
         "nombre": "PASCUALENA Jose Antonio"
@@ -55,6 +41,20 @@
         "licencia": "6399",
         "nombre": "JOSA Pere"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13314",
+        "nombre": "MANZANO Francisco"
+      },
+      "B": {
+        "licencia": "16463",
+        "nombre": "OLLERO Angel"
+      },
+      "C": {
+        "licencia": "12596",
+        "nombre": "JIMÉNEZ Francisco"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13314",
-        "nombre": "MANZANO Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17680",
         "nombre": "PASCUALENA Jose Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16463",
-        "nombre": "OLLERO Angel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11744",
-        "nombre": "ADELANTADO Manel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12596",
-        "nombre": "JIMÉNEZ Francisco"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6399",
-        "nombre": "JOSA Pere"
+        "letra": "A",
+        "licencia": "13314",
+        "nombre": "MANZANO Francisco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11744",
+        "nombre": "ADELANTADO Manel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16463",
+        "nombre": "OLLERO Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6399",
+        "nombre": "JOSA Pere"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12596",
+        "nombre": "JIMÉNEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13314",
-        "nombre": "MANZANO Francisco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11744",
         "nombre": "ADELANTADO Manel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13314",
+        "nombre": "MANZANO Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12596",
-        "nombre": "JIMÉNEZ Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17680",
         "nombre": "PASCUALENA Jose Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12596",
+        "nombre": "JIMÉNEZ Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16463",
-        "nombre": "OLLERO Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6399",
         "nombre": "JOSA Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16463",
+        "nombre": "OLLERO Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS D'HORTA TT",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

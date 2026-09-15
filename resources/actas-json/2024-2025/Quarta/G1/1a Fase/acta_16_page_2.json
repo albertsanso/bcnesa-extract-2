@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT \"A\"",
+      "nombre": "CTT CASTELLDEFELS \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS \"B\"",
+      "nombre": "GIRBAU VIC TT \"A\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "20106",
-        "nombre": "GUANCHENG Zhou"
-      },
-      "B": {
-        "licencia": "12576",
-        "nombre": "LLOVERA Eloi"
-      },
-      "C": {
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19164",
         "nombre": "GOMEZ Josep Maria"
@@ -55,6 +41,20 @@
         "licencia": "17841",
         "nombre": "ESPALLARGAS Eduard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "20106",
+        "nombre": "GUANCHENG Zhou"
+      },
+      "B": {
+        "licencia": "12576",
+        "nombre": "LLOVERA Eloi"
+      },
+      "C": {
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "20106",
-        "nombre": "GUANCHENG Zhou"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19164",
         "nombre": "GOMEZ Josep Maria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20106",
+        "nombre": "GUANCHENG Zhou"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12576",
-        "nombre": "LLOVERA Eloi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12362",
         "nombre": "HONDARZA Cesar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12576",
+        "nombre": "LLOVERA Eloi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17841",
         "nombre": "ESPALLARGAS Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "20106",
-        "nombre": "GUANCHENG Zhou"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12362",
         "nombre": "HONDARZA Cesar"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20106",
+        "nombre": "GUANCHENG Zhou"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19164",
         "nombre": "GOMEZ Josep Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12576",
-        "nombre": "LLOVERA Eloi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17841",
         "nombre": "ESPALLARGAS Eduard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12576",
+        "nombre": "LLOVERA Eloi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT \"A\"",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 3
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

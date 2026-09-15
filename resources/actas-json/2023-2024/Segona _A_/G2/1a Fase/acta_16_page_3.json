@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RODA DE TER",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT RODA DE TER",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
-      "B": {
-        "licencia": "12000",
-        "nombre": "ARUMI Gil"
-      },
-      "C": {
-        "licencia": "5286",
-        "nombre": "OLIVA Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8895",
         "nombre": "AIXA Josep Mª"
@@ -55,6 +41,20 @@
         "licencia": "5607",
         "nombre": "GUAL Carles"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
+      "B": {
+        "licencia": "12000",
+        "nombre": "ARUMI Gil"
+      },
+      "C": {
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8895",
         "nombre": "AIXA Josep Mª"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,64 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "12000",
         "nombre": "ARUMI Gil"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "5286",
-        "nombre": "OLIVA Albert"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +104,56 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5286",
-        "nombre": "OLIVA Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8895",
         "nombre": "AIXA Josep Mª"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5286",
+        "nombre": "OLIVA Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12000",
-        "nombre": "ARUMI Gil"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12000",
+        "nombre": "ARUMI Gil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RODA DE TER",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

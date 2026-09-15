@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      },
-      "B": {
-        "licencia": "2983",
-        "nombre": "ESCOLA Francisco Javier"
-      },
-      "C": {
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6811",
         "nombre": "MESTRES Arnau"
@@ -55,20 +41,24 @@
         "licencia": "13760",
         "nombre": "MIHALKO Jozsef"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      },
+      "B": {
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      "C": {
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "2983",
-        "nombre": "ESCOLA Francisco Javier"
-      },
-      {
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "1752",
         "nombre": "CONDE F. Xavier"
@@ -76,6 +66,16 @@
       {
         "licencia": "13760",
         "nombre": "MIHALKO Jozsef"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      {
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "6811",
+        "nombre": "MESTRES Arnau"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "1231",
         "nombre": "MARTINEZ Dani"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1752",
+        "nombre": "CONDE F. Xavier"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "6811",
-        "nombre": "MESTRES Arnau"
+        "letra": "B",
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13760",
+        "nombre": "MIHALKO Jozsef"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
       },
       "sets": [],
       "resultado_juegos": {
@@ -102,57 +152,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2983",
-        "nombre": "ESCOLA Francisco Javier"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "1752",
-        "nombre": "CONDE F. Xavier"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "13760",
-        "nombre": "MIHALKO Jozsef"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1231",
-        "nombre": "MARTINEZ Dani"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1752",
         "nombre": "CONDE F. Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1231",
+        "nombre": "MARTINEZ Dani"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "69",
-        "nombre": "VILARO Joan Mª"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6811",
         "nombre": "MESTRES Arnau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "69",
+        "nombre": "VILARO Joan Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2983",
-        "nombre": "ESCOLA Francisco Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13760",
         "nombre": "MIHALKO Jozsef"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2983",
+        "nombre": "ESCOLA Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "2983",
-            "nombre": "ESCOLA Francisco Javier"
-          },
-          {
-            "licencia": "1231",
-            "nombre": "MARTINEZ Dani"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "1752",
             "nombre": "CONDE F. Xavier"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "2983",
+            "nombre": "ESCOLA Francisco Javier"
+          },
+          {
+            "licencia": "1231",
+            "nombre": "MARTINEZ Dani"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT PREMIÀ DE MAR",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

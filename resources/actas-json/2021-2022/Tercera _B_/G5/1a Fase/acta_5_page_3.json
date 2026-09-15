@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL ''A''",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "CLUB NATACIO SABADELL ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12136",
-        "nombre": "PLAZA Pau"
-      },
-      "B": {
-        "licencia": "14387",
-        "nombre": "RECHE Alex"
-      },
-      "C": {
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13635",
         "nombre": "BOUCHNAFA Yassir"
@@ -55,6 +41,20 @@
         "licencia": "13338",
         "nombre": "PEÑARANDO Xavier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
+      "B": {
+        "licencia": "14387",
+        "nombre": "RECHE Alex"
+      },
+      "C": {
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12136",
-        "nombre": "PLAZA Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13635",
         "nombre": "BOUCHNAFA Yassir"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14387",
-        "nombre": "RECHE Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14290",
         "nombre": "BUITRAGO Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14387",
+        "nombre": "RECHE Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13338",
         "nombre": "PEÑARANDO Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12136",
-        "nombre": "PLAZA Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14290",
         "nombre": "BUITRAGO Alex"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13635",
         "nombre": "BOUCHNAFA Yassir"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14387",
-        "nombre": "RECHE Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13338",
         "nombre": "PEÑARANDO Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14387",
+        "nombre": "RECHE Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB NATACIO SABADELL ''A''",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 2
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 2,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

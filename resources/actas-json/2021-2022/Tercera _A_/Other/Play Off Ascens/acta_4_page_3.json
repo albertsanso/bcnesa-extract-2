@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SALLENT",
+      "nombre": "CLUB ARIEL",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB ARIEL",
+      "nombre": "CTT SALLENT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13241",
-        "nombre": "TEMPORAL Ricardo"
-      },
-      "B": {
-        "licencia": "12138",
-        "nombre": "RODOREDA Miquel"
-      },
-      "C": {
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14979",
         "nombre": "RUIZ Jordi"
@@ -55,6 +41,20 @@
         "licencia": "14977",
         "nombre": "MUCI Gianluca"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
+      "B": {
+        "licencia": "12138",
+        "nombre": "RODOREDA Miquel"
+      },
+      "C": {
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13241",
-        "nombre": "TEMPORAL Ricardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14979",
         "nombre": "RUIZ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12138",
-        "nombre": "RODOREDA Miquel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14984",
         "nombre": "GONZALEZ Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12138",
+        "nombre": "RODOREDA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14977",
         "nombre": "MUCI Gianluca"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "13241",
-        "nombre": "TEMPORAL Ricardo"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
+        "letra": "C",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,23 +130,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
+        "letra": "X",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "14979",
-        "nombre": "RUIZ Jordi"
+        "letra": "A",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +155,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "14979",
+        "nombre": "RUIZ Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12138",
-        "nombre": "RODOREDA Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14977",
         "nombre": "MUCI Gianluca"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12138",
+        "nombre": "RODOREDA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB ARIEL",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
-      },
-      "B": {
-        "licencia": "234",
-        "nombre": "PUBILL Jaume"
-      },
-      "C": {
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "27",
         "nombre": "MADURELL Josep"
@@ -55,6 +41,20 @@
         "licencia": "208",
         "nombre": "COCHRAN Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "B": {
+        "licencia": "234",
+        "nombre": "PUBILL Jaume"
+      },
+      "C": {
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "27",
         "nombre": "MADURELL Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "234",
-        "nombre": "PUBILL Jaume"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
+        "letra": "A",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "234",
+        "nombre": "PUBILL Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "208",
         "nombre": "COCHRAN Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2159",
         "nombre": "GARCIA Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "27",
         "nombre": "MADURELL Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "234",
-        "nombre": "PUBILL Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "208",
         "nombre": "COCHRAN Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "234",
+        "nombre": "PUBILL Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

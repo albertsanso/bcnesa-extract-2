@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10123",
-        "nombre": "FERRER Bernat"
-      },
-      "B": {
-        "licencia": "2045",
-        "nombre": "RINCON Jose Luis"
-      },
-      "C": {
-        "licencia": "8912",
-        "nombre": "PAREDES Marco"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3165",
         "nombre": "BRETONES Xavier"
@@ -55,6 +41,20 @@
         "licencia": "4829",
         "nombre": "LAROCCA Gustavo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10123",
+        "nombre": "FERRER Bernat"
+      },
+      "B": {
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
+      },
+      "C": {
+        "licencia": "8912",
+        "nombre": "PAREDES Marco"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10123",
-        "nombre": "FERRER Bernat"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3165",
         "nombre": "BRETONES Xavier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2045",
-        "nombre": "RINCON Jose Luis"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7087",
-        "nombre": "CRUELLS Ruben"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "8912",
-        "nombre": "PAREDES Marco"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "4829",
-        "nombre": "LAROCCA Gustavo"
+        "letra": "A",
+        "licencia": "10123",
+        "nombre": "FERRER Bernat"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7087",
+        "nombre": "CRUELLS Ruben"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "4829",
+        "nombre": "LAROCCA Gustavo"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8912",
+        "nombre": "PAREDES Marco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10123",
-        "nombre": "FERRER Bernat"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7087",
         "nombre": "CRUELLS Ruben"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10123",
+        "nombre": "FERRER Bernat"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8912",
-        "nombre": "PAREDES Marco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3165",
         "nombre": "BRETONES Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8912",
+        "nombre": "PAREDES Marco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2045",
-        "nombre": "RINCON Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4829",
         "nombre": "LAROCCA Gustavo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2045",
+        "nombre": "RINCON Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT CASTELLAR",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CLUB NATACIO SABADELL ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL ''B''",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "546",
-        "nombre": "SAIZ David"
-      },
-      "B": {
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "C": {
-        "licencia": "645",
-        "nombre": "SUÑE Manel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8967",
         "nombre": "WEISZ Montserrat"
@@ -55,20 +41,24 @@
         "licencia": "1774",
         "nombre": "CANO Andres"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
+      "B": {
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "C": {
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "546",
-        "nombre": "SAIZ David"
-      },
-      {
-        "licencia": "645",
-        "nombre": "SUÑE Manel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "1774",
         "nombre": "CANO Andres"
@@ -76,6 +66,16 @@
       {
         "licencia": "3637",
         "nombre": "BARBERA Joan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
+      {
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "546",
-        "nombre": "SAIZ David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8967",
         "nombre": "WEISZ Montserrat"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "3637",
-        "nombre": "BARBERA Joan"
+        "letra": "A",
+        "licencia": "546",
+        "nombre": "SAIZ David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "645",
-        "nombre": "SUÑE Manel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1774",
         "nombre": "CANO Andres"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "546",
-        "nombre": "SAIZ David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3637",
         "nombre": "BARBERA Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "645",
-        "nombre": "SUÑE Manel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8967",
         "nombre": "WEISZ Montserrat"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1774",
         "nombre": "CANO Andres"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "546",
-            "nombre": "SAIZ David"
-          },
-          {
-            "licencia": "645",
-            "nombre": "SUÑE Manel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "1774",
             "nombre": "CANO Andres"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "546",
+            "nombre": "SAIZ David"
+          },
+          {
+            "licencia": "645",
+            "nombre": "SUÑE Manel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT OLESA",
+    "ganador": "CLUB NATACIO SABADELL ''B''",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 12
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

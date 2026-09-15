@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Sènior",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Sènior",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "675",
-        "nombre": "MILA Salvador"
-      },
-      "B": {
-        "licencia": "13760",
-        "nombre": "MIHALKO Jozsef"
-      },
-      "C": {
-        "licencia": "1751",
-        "nombre": "BLANCO Pere"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
@@ -55,6 +41,20 @@
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "675",
+        "nombre": "MILA Salvador"
+      },
+      "B": {
+        "licencia": "13760",
+        "nombre": "MIHALKO Jozsef"
+      },
+      "C": {
+        "licencia": "1751",
+        "nombre": "BLANCO Pere"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "675",
-        "nombre": "MILA Salvador"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "675",
+        "nombre": "MILA Salvador"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13760",
-        "nombre": "MIHALKO Jozsef"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14565",
         "nombre": "MATTSSON Tony Michael"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13760",
+        "nombre": "MIHALKO Jozsef"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1751",
-        "nombre": "BLANCO Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1751",
+        "nombre": "BLANCO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "675",
-        "nombre": "MILA Salvador"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14565",
         "nombre": "MATTSSON Tony Michael"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "675",
+        "nombre": "MILA Salvador"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1751",
-        "nombre": "BLANCO Pere"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1751",
+        "nombre": "BLANCO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13760",
-        "nombre": "MIHALKO Jozsef"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "317",
         "nombre": "LALINDE Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13760",
+        "nombre": "MIHALKO Jozsef"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUIRZE DEL VALLÈS - Sènior",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

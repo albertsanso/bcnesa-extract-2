@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "CATT SANT CELONI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CATT SANT CELONI",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13506",
-        "nombre": "HERNANDO Marc"
-      },
-      "B": {
-        "licencia": "15993",
-        "nombre": "BERTOLIN Alberto"
-      },
-      "C": {
-        "licencia": "16756",
-        "nombre": "RUBIO Gerard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7689",
         "nombre": "ANTEQUERA Enric"
@@ -55,6 +41,20 @@
         "licencia": "17667",
         "nombre": "PUENTE Oriol"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13506",
+        "nombre": "HERNANDO Marc"
+      },
+      "B": {
+        "licencia": "15993",
+        "nombre": "BERTOLIN Alberto"
+      },
+      "C": {
+        "licencia": "16756",
+        "nombre": "RUBIO Gerard"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13506",
-        "nombre": "HERNANDO Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7689",
         "nombre": "ANTEQUERA Enric"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13506",
+        "nombre": "HERNANDO Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15993",
-        "nombre": "BERTOLIN Alberto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17666",
         "nombre": "SALA Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15993",
+        "nombre": "BERTOLIN Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16756",
-        "nombre": "RUBIO Gerard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17667",
         "nombre": "PUENTE Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16756",
+        "nombre": "RUBIO Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13506",
-        "nombre": "HERNANDO Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17666",
         "nombre": "SALA Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13506",
+        "nombre": "HERNANDO Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16756",
-        "nombre": "RUBIO Gerard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7689",
         "nombre": "ANTEQUERA Enric"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16756",
+        "nombre": "RUBIO Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15993",
-        "nombre": "BERTOLIN Alberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17667",
         "nombre": "PUENTE Oriol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15993",
+        "nombre": "BERTOLIN Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

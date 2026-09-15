@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6937",
-        "nombre": "FONT Lluis"
-      },
-      "B": {
-        "licencia": "3165",
-        "nombre": "BRETONES Xavier"
-      },
-      "C": {
-        "licencia": "7087",
-        "nombre": "CRUELLS Ruben"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8429",
         "nombre": "MARTINEZ Eva"
@@ -55,20 +41,24 @@
         "licencia": "6200",
         "nombre": "MORALES Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6937",
+        "nombre": "FONT Lluis"
+      },
+      "B": {
+        "licencia": "3165",
+        "nombre": "BRETONES Xavier"
+      },
+      "C": {
+        "licencia": "7087",
+        "nombre": "CRUELLS Ruben"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "7087",
-        "nombre": "CRUELLS Ruben"
-      },
-      {
-        "licencia": "3165",
-        "nombre": "BRETONES Xavier"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8294",
         "nombre": "ALTELARREA Erik"
@@ -76,6 +66,16 @@
       {
         "licencia": "6200",
         "nombre": "MORALES Manuel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7087",
+        "nombre": "CRUELLS Ruben"
+      },
+      {
+        "licencia": "3165",
+        "nombre": "BRETONES Xavier"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6937",
-        "nombre": "FONT Lluis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8429",
         "nombre": "MARTINEZ Eva"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6937",
+        "nombre": "FONT Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "3165",
-        "nombre": "BRETONES Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8294",
         "nombre": "ALTELARREA Erik"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3165",
+        "nombre": "BRETONES Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7087",
-        "nombre": "CRUELLS Ruben"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6200",
         "nombre": "MORALES Manuel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "6937",
-        "nombre": "FONT Lluis"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8294",
-        "nombre": "ALTELARREA Erik"
+        "letra": "C",
+        "licencia": "7087",
+        "nombre": "CRUELLS Ruben"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8294",
+        "nombre": "ALTELARREA Erik"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6937",
+        "nombre": "FONT Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7087",
-        "nombre": "CRUELLS Ruben"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8429",
         "nombre": "MARTINEZ Eva"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7087",
+        "nombre": "CRUELLS Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3165",
-        "nombre": "BRETONES Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6200",
         "nombre": "MORALES Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3165",
+        "nombre": "BRETONES Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "7087",
-            "nombre": "CRUELLS Ruben"
-          },
-          {
-            "licencia": "3165",
-            "nombre": "BRETONES Xavier"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8294",
             "nombre": "ALTELARREA Erik"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7087",
+            "nombre": "CRUELLS Ruben"
+          },
+          {
+            "licencia": "3165",
+            "nombre": "BRETONES Xavier"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet A",
+      "nombre": "TT PRAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PRAT",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet A",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "B": {
-        "licencia": "946",
-        "nombre": "PEIRIS Enrique"
-      },
-      "C": {
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
@@ -55,6 +41,20 @@
         "licencia": "744",
         "nombre": "ARDILA Juan Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
+      "B": {
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
+      "C": {
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "946",
-        "nombre": "PEIRIS Enrique"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5144",
-        "nombre": "TOST Daniel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "744",
-        "nombre": "ARDILA Juan Carlos"
+        "letra": "A",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5144",
+        "nombre": "TOST Daniel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "744",
+        "nombre": "ARDILA Juan Carlos"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5144",
         "nombre": "TOST Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "946",
-        "nombre": "PEIRIS Enrique"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "744",
         "nombre": "ARDILA Juan Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "946",
+        "nombre": "PEIRIS Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PRAT",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

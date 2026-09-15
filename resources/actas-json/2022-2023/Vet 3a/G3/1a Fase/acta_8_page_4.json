@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA UNIÓ",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT LA UNIÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14990",
-        "nombre": "ACERO Gregorio"
-      },
-      "B": {
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "C": {
-        "licencia": "15786",
-        "nombre": "VILLARONGA Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "162",
         "nombre": "TIRADO Andrés"
@@ -55,6 +41,20 @@
         "licencia": "7652",
         "nombre": "SANCHEZ Fernando"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14990",
+        "nombre": "ACERO Gregorio"
+      },
+      "B": {
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
+      "C": {
+        "licencia": "15786",
+        "nombre": "VILLARONGA Miquel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14990",
-        "nombre": "ACERO Gregorio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "162",
         "nombre": "TIRADO Andrés"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14990",
+        "nombre": "ACERO Gregorio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12200",
         "nombre": "DE LA CRUZ Juan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15786",
-        "nombre": "VILLARONGA Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7652",
         "nombre": "SANCHEZ Fernando"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15786",
+        "nombre": "VILLARONGA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14990",
-        "nombre": "ACERO Gregorio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12200",
         "nombre": "DE LA CRUZ Juan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14990",
+        "nombre": "ACERO Gregorio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15786",
-        "nombre": "VILLARONGA Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "162",
         "nombre": "TIRADO Andrés"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15786",
+        "nombre": "VILLARONGA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7652",
         "nombre": "SANCHEZ Fernando"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

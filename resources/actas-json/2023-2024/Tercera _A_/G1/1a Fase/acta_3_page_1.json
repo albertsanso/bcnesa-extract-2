@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "JUMA CTT RIPOLLET ''A''",
+      "nombre": "CN MATARÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN MATARÓ",
+      "nombre": "JUMA CTT RIPOLLET ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11064",
-        "nombre": "SENDROS Josep"
-      },
-      "B": {
-        "licencia": "7347",
-        "nombre": "TORRAS Isidro"
-      },
-      "C": {
-        "licencia": "11780",
-        "nombre": "LLORENS Vicente"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12922",
         "nombre": "RODRIGUEZ Alba"
@@ -55,6 +41,20 @@
         "licencia": "17672",
         "nombre": "CABRERA Manel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11064",
+        "nombre": "SENDROS Josep"
+      },
+      "B": {
+        "licencia": "7347",
+        "nombre": "TORRAS Isidro"
+      },
+      "C": {
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11064",
-        "nombre": "SENDROS Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12922",
         "nombre": "RODRIGUEZ Alba"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11064",
+        "nombre": "SENDROS Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7347",
-        "nombre": "TORRAS Isidro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10862",
         "nombre": "SANS Martina"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7347",
+        "nombre": "TORRAS Isidro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11780",
-        "nombre": "LLORENS Vicente"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17672",
         "nombre": "CABRERA Manel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11064",
-        "nombre": "SENDROS Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10862",
         "nombre": "SANS Martina"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11064",
+        "nombre": "SENDROS Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11780",
-        "nombre": "LLORENS Vicente"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12922",
         "nombre": "RODRIGUEZ Alba"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7347",
-        "nombre": "TORRAS Isidro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17672",
         "nombre": "CABRERA Manel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7347",
+        "nombre": "TORRAS Isidro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN MATARÓ",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

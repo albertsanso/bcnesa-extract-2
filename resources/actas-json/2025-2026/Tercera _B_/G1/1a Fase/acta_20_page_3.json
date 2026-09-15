@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17893",
-        "nombre": "PARIS Josep"
-      },
-      "B": {
-        "licencia": "13161",
-        "nombre": "PUIG Josep"
-      },
-      "C": {
-        "licencia": "13166",
-        "nombre": "CARO David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19711",
         "nombre": "MOHAMMADI Artin"
@@ -55,20 +41,24 @@
         "licencia": "18089",
         "nombre": "CANALS Roger"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17893",
+        "nombre": "PARIS Josep"
+      },
+      "B": {
+        "licencia": "13161",
+        "nombre": "PUIG Josep"
+      },
+      "C": {
+        "licencia": "13166",
+        "nombre": "CARO David"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "13166",
-        "nombre": "CARO David"
-      },
-      {
-        "licencia": "13161",
-        "nombre": "PUIG Josep"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "19711",
         "nombre": "MOHAMMADI Artin"
@@ -76,6 +66,16 @@
       {
         "licencia": "19686",
         "nombre": "ESCALES Xavier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13166",
+        "nombre": "CARO David"
+      },
+      {
+        "licencia": "13161",
+        "nombre": "PUIG Josep"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17893",
-        "nombre": "PARIS Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19711",
         "nombre": "MOHAMMADI Artin"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13161",
-        "nombre": "PUIG Josep"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19686",
-        "nombre": "ESCALES Xavier"
+        "letra": "A",
+        "licencia": "17893",
+        "nombre": "PARIS Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "19686",
+        "nombre": "ESCALES Xavier"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13161",
+        "nombre": "PUIG Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13166",
-        "nombre": "CARO David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18089",
         "nombre": "CANALS Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13166",
+        "nombre": "CARO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17893",
-        "nombre": "PARIS Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19686",
         "nombre": "ESCALES Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17893",
+        "nombre": "PARIS Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13166",
-        "nombre": "CARO David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19711",
         "nombre": "MOHAMMADI Artin"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13166",
+        "nombre": "CARO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13161",
-        "nombre": "PUIG Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18089",
         "nombre": "CANALS Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13161",
+        "nombre": "PUIG Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "13166",
-            "nombre": "CARO David"
-          },
-          {
-            "licencia": "13161",
-            "nombre": "PUIG Josep"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "19711",
             "nombre": "MOHAMMADI Artin"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13166",
+            "nombre": "CARO David"
+          },
+          {
+            "licencia": "13161",
+            "nombre": "PUIG Josep"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VALLS DE TORROELLA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

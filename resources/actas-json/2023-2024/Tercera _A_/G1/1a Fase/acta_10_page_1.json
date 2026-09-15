@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FOMENT MARTINENC-BARNY",
+      "nombre": "JUMA CTT RIPOLLET ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "JUMA CTT RIPOLLET ''A''",
+      "nombre": "FOMENT MARTINENC-BARNY",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "B": {
-        "licencia": "505",
-        "nombre": "FIGUEROA Alberto"
-      },
-      "C": {
-        "licencia": "12051",
-        "nombre": "ALQUEZAR Jose"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11065",
         "nombre": "LANCHAZO Manuel"
@@ -55,6 +41,20 @@
         "licencia": "1699",
         "nombre": "PORTA Jose Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
+      "B": {
+        "licencia": "505",
+        "nombre": "FIGUEROA Alberto"
+      },
+      "C": {
+        "licencia": "12051",
+        "nombre": "ALQUEZAR Jose"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11065",
         "nombre": "LANCHAZO Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "505",
-        "nombre": "FIGUEROA Alberto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "505",
+        "nombre": "FIGUEROA Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12051",
-        "nombre": "ALQUEZAR Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1699",
         "nombre": "PORTA Jose Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12051",
+        "nombre": "ALQUEZAR Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12051",
-        "nombre": "ALQUEZAR Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11065",
         "nombre": "LANCHAZO Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12051",
+        "nombre": "ALQUEZAR Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "505",
-        "nombre": "FIGUEROA Alberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1699",
         "nombre": "PORTA Jose Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "505",
+        "nombre": "FIGUEROA Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "JUMA CTT RIPOLLET ''A''",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

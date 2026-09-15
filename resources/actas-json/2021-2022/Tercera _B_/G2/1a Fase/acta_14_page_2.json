@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13244",
-        "nombre": "HORMIGON Aniol"
-      },
-      "B": {
-        "licencia": "6169",
-        "nombre": "ZAHRI Jad"
-      },
-      "C": {
-        "licencia": "13106",
-        "nombre": "PIQUER Lidia"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14336",
         "nombre": "BORAU Joan"
@@ -55,6 +41,20 @@
         "licencia": "14562",
         "nombre": "ALVAREZ Iker"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13244",
+        "nombre": "HORMIGON Aniol"
+      },
+      "B": {
+        "licencia": "6169",
+        "nombre": "ZAHRI Jad"
+      },
+      "C": {
+        "licencia": "13106",
+        "nombre": "PIQUER Lidia"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13244",
-        "nombre": "HORMIGON Aniol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14336",
         "nombre": "BORAU Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13244",
+        "nombre": "HORMIGON Aniol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6169",
-        "nombre": "ZAHRI Jad"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14301",
         "nombre": "RENAU Sara"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "13106",
-        "nombre": "PIQUER Lidia"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "14562",
-        "nombre": "ALVAREZ Iker"
+        "letra": "B",
+        "licencia": "6169",
+        "nombre": "ZAHRI Jad"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,23 +105,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 0,
+        "visitante": 2
       }
     },
     {
-      "numero": 4,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "A",
-        "licencia": "13244",
-        "nombre": "HORMIGON Aniol"
+        "letra": "Z",
+        "licencia": "14562",
+        "nombre": "ALVAREZ Iker"
       },
       "visitante": {
-        "letra": "X",
-        "licencia": "14301",
-        "nombre": "RENAU Sara"
+        "letra": "C",
+        "licencia": "13106",
+        "nombre": "PIQUER Lidia"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14301",
+        "nombre": "RENAU Sara"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13244",
+        "nombre": "HORMIGON Aniol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13106",
-        "nombre": "PIQUER Lidia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14336",
         "nombre": "BORAU Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13106",
+        "nombre": "PIQUER Lidia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6169",
-        "nombre": "ZAHRI Jad"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14562",
         "nombre": "ALVAREZ Iker"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6169",
+        "nombre": "ZAHRI Jad"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT TORELLÓ",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

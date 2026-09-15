@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "EL CIERVO 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO 'B'",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8845",
-        "nombre": "GUARCH Roger"
-      },
-      "B": {
-        "licencia": "14195",
-        "nombre": "PETRAGUE Alain"
-      },
-      "C": {
-        "licencia": "651",
-        "nombre": "CARBONELL Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8321",
         "nombre": "BOADA Isidro"
@@ -55,6 +41,20 @@
         "licencia": "5522",
         "nombre": "GUINOVART Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8845",
+        "nombre": "GUARCH Roger"
+      },
+      "B": {
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "C": {
+        "licencia": "651",
+        "nombre": "CARBONELL Daniel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8845",
-        "nombre": "GUARCH Roger"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8321",
         "nombre": "BOADA Isidro"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14195",
-        "nombre": "PETRAGUE Alain"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
+        "letra": "A",
+        "licencia": "8845",
+        "nombre": "GUARCH Roger"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "651",
-        "nombre": "CARBONELL Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5522",
         "nombre": "GUINOVART Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "8845",
-        "nombre": "GUARCH Roger"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
+        "letra": "C",
+        "licencia": "651",
+        "nombre": "CARBONELL Daniel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8845",
+        "nombre": "GUARCH Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "651",
-        "nombre": "CARBONELL Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8321",
         "nombre": "BOADA Isidro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "651",
+        "nombre": "CARBONELL Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14195",
-        "nombre": "PETRAGUE Alain"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5522",
         "nombre": "GUINOVART Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14195",
+        "nombre": "PETRAGUE Alain"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

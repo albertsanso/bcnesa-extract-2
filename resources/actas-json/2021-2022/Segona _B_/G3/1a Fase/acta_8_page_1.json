@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''A''",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "TT L'HOSPITALET ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6027",
-        "nombre": "HERRERO Josep"
-      },
-      "B": {
-        "licencia": "13503",
-        "nombre": "MOTA Alex"
-      },
-      "C": {
-        "licencia": "12792",
-        "nombre": "QUINTERO Bethany Lyn"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
@@ -55,20 +41,24 @@
         "licencia": "12476",
         "nombre": "ASTORT Eduard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
+      },
+      "B": {
+        "licencia": "13503",
+        "nombre": "MOTA Alex"
+      },
+      "C": {
+        "licencia": "12792",
+        "nombre": "QUINTERO Bethany Lyn"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "13503",
-        "nombre": "MOTA Alex"
-      },
-      {
-        "licencia": "6027",
-        "nombre": "HERRERO Josep"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12168",
         "nombre": "CASTILLO Isaac"
@@ -76,6 +66,16 @@
       {
         "licencia": "12476",
         "nombre": "ASTORT Eduard"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13503",
+        "nombre": "MOTA Alex"
+      },
+      {
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6027",
-        "nombre": "HERRERO Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13503",
-        "nombre": "MOTA Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12168",
         "nombre": "CASTILLO Isaac"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13503",
+        "nombre": "MOTA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12792",
-        "nombre": "QUINTERO Bethany Lyn"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12476",
         "nombre": "ASTORT Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12792",
+        "nombre": "QUINTERO Bethany Lyn"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6027",
-        "nombre": "HERRERO Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12168",
         "nombre": "CASTILLO Isaac"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6027",
+        "nombre": "HERRERO Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12792",
-        "nombre": "QUINTERO Bethany Lyn"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12792",
+        "nombre": "QUINTERO Bethany Lyn"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13503",
-        "nombre": "MOTA Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12476",
         "nombre": "ASTORT Eduard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13503",
+        "nombre": "MOTA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "13503",
-            "nombre": "MOTA Alex"
-          },
-          {
-            "licencia": "6027",
-            "nombre": "HERRERO Josep"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12168",
             "nombre": "CASTILLO Isaac"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13503",
+            "nombre": "MOTA Alex"
+          },
+          {
+            "licencia": "6027",
+            "nombre": "HERRERO Josep"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET ''A''",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILASSAR ''C''",
+      "nombre": "EUROCLIMA BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EUROCLIMA BADALONA",
+      "nombre": "CTT VILASSAR ''C''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6309",
-        "nombre": "PEREZ Miguel"
-      },
-      "B": {
-        "licencia": "350",
-        "nombre": "LLOVERAS Pere"
-      },
-      "C": {
-        "licencia": "612",
-        "nombre": "BALLESTA Lluis Carles"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18018",
         "nombre": "TARRÉS Sasha"
@@ -55,6 +41,20 @@
         "licencia": "15213",
         "nombre": "RANGEL Unai"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6309",
+        "nombre": "PEREZ Miguel"
+      },
+      "B": {
+        "licencia": "350",
+        "nombre": "LLOVERAS Pere"
+      },
+      "C": {
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6309",
-        "nombre": "PEREZ Miguel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18018",
         "nombre": "TARRÉS Sasha"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6309",
+        "nombre": "PEREZ Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "350",
-        "nombre": "LLOVERAS Pere"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15858",
         "nombre": "LÓPEZ Martí"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "350",
+        "nombre": "LLOVERAS Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "612",
-        "nombre": "BALLESTA Lluis Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15213",
         "nombre": "RANGEL Unai"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6309",
-        "nombre": "PEREZ Miguel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15858",
         "nombre": "LÓPEZ Martí"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6309",
+        "nombre": "PEREZ Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "612",
-        "nombre": "BALLESTA Lluis Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18018",
         "nombre": "TARRÉS Sasha"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18598",
-        "nombre": "SARABIA Aitor"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15213",
         "nombre": "RANGEL Unai"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18598",
+        "nombre": "SARABIA Aitor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 5,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILASSAR ''C''",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 3
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

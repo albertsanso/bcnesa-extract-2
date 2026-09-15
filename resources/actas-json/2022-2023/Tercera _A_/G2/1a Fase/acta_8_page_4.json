@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "JUMA CTT RIPOLLET \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "JUMA CTT RIPOLLET \"A\"",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15001",
-        "nombre": "MALVAR Juan Andres"
-      },
-      "B": {
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
-      "C": {
-        "licencia": "16342",
-        "nombre": "CERVELLO Lluis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
@@ -55,20 +41,24 @@
         "licencia": "12500",
         "nombre": "ALBARILLA Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
+      "B": {
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
+      "C": {
+        "licencia": "16342",
+        "nombre": "CERVELLO Lluis"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16342",
-        "nombre": "CERVELLO Lluis"
-      },
-      {
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13635",
         "nombre": "BOUCHNAFA Yassir"
@@ -76,6 +66,16 @@
       {
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16342",
+        "nombre": "CERVELLO Lluis"
+      },
+      {
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15001",
-        "nombre": "MALVAR Juan Andres"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13635",
         "nombre": "BOUCHNAFA Yassir"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16342",
-        "nombre": "CERVELLO Lluis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12500",
         "nombre": "ALBARILLA Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16342",
+        "nombre": "CERVELLO Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15001",
-        "nombre": "MALVAR Juan Andres"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13635",
         "nombre": "BOUCHNAFA Yassir"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15001",
+        "nombre": "MALVAR Juan Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16342",
-        "nombre": "CERVELLO Lluis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16342",
+        "nombre": "CERVELLO Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12500",
         "nombre": "ALBARILLA Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16342",
-            "nombre": "CERVELLO Lluis"
-          },
-          {
-            "licencia": "2432",
-            "nombre": "RUIZ Carlos"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13635",
             "nombre": "BOUCHNAFA Yassir"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16342",
+            "nombre": "CERVELLO Lluis"
+          },
+          {
+            "licencia": "2432",
+            "nombre": "RUIZ Carlos"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILANOVA I LA GELTRU",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 14
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

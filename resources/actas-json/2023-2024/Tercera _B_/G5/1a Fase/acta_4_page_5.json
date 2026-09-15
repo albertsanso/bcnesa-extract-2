@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CATT SANT CELONI ''B''",
+      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
+      "nombre": "CATT SANT CELONI ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16881",
-        "nombre": "CAO Martí"
-      },
-      "B": {
-        "licencia": "17666",
-        "nombre": "SALA Roger"
-      },
-      "C": {
-        "licencia": "17667",
-        "nombre": "PUENTE Oriol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17138",
         "nombre": "VAZQUEZ Gerard"
@@ -55,6 +41,20 @@
         "licencia": "17707",
         "nombre": "GARGALLO Robert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16881",
+        "nombre": "CAO Martí"
+      },
+      "B": {
+        "licencia": "17666",
+        "nombre": "SALA Roger"
+      },
+      "C": {
+        "licencia": "17667",
+        "nombre": "PUENTE Oriol"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16881",
-        "nombre": "CAO Martí"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17138",
         "nombre": "VAZQUEZ Gerard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16881",
+        "nombre": "CAO Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17666",
-        "nombre": "SALA Roger"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13542",
         "nombre": "SAÑUDO Joel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17666",
+        "nombre": "SALA Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17667",
-        "nombre": "PUENTE Oriol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17707",
         "nombre": "GARGALLO Robert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17667",
+        "nombre": "PUENTE Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16881",
-        "nombre": "CAO Martí"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13542",
         "nombre": "SAÑUDO Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16881",
+        "nombre": "CAO Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17667",
-        "nombre": "PUENTE Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17138",
         "nombre": "VAZQUEZ Gerard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17667",
+        "nombre": "PUENTE Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17666",
-        "nombre": "SALA Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17707",
         "nombre": "GARGALLO Robert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17666",
+        "nombre": "SALA Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILASSAR DE MAR L'OBRERA",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

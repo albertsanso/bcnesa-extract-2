@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT MOIANES",
+      "nombre": "CTT L'AVENÇ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT L'AVENÇ",
+      "nombre": "CTT MOIANES",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14160",
-        "nombre": "COMAS Jaime"
-      },
-      "B": {
-        "licencia": "13918",
-        "nombre": "ALDEA Pol"
-      },
-      "C": {
-        "licencia": "14158",
-        "nombre": "MARTIN Izan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12175",
         "nombre": "AMEZQUITA Fabian Matías"
@@ -55,6 +41,20 @@
         "licencia": "16398",
         "nombre": "PEREZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14160",
+        "nombre": "COMAS Jaime"
+      },
+      "B": {
+        "licencia": "13918",
+        "nombre": "ALDEA Pol"
+      },
+      "C": {
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14160",
-        "nombre": "COMAS Jaime"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12175",
         "nombre": "AMEZQUITA Fabian Matías"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13918",
-        "nombre": "ALDEA Pol"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
+        "letra": "A",
+        "licencia": "14160",
+        "nombre": "COMAS Jaime"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13918",
+        "nombre": "ALDEA Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14158",
-        "nombre": "MARTIN Izan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16398",
         "nombre": "PEREZ Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14160",
-        "nombre": "COMAS Jaime"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
+        "letra": "C",
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14160",
+        "nombre": "COMAS Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14158",
-        "nombre": "MARTIN Izan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12175",
         "nombre": "AMEZQUITA Fabian Matías"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13918",
-        "nombre": "ALDEA Pol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16398",
         "nombre": "PEREZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13918",
+        "nombre": "ALDEA Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT L'AVENÇ",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

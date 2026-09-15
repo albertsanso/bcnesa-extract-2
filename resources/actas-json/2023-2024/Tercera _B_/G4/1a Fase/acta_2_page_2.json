@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17727",
-        "nombre": "POOLE Miquel Norman"
-      },
-      "B": {
-        "licencia": "17669",
-        "nombre": "SUNYER Marti"
-      },
-      "C": {
-        "licencia": "15016",
-        "nombre": "SALA Damià"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15850",
         "nombre": "VIDAL Ferran"
@@ -55,6 +41,20 @@
         "licencia": "3953",
         "nombre": "PORTET Joaquim"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17727",
+        "nombre": "POOLE Miquel Norman"
+      },
+      "B": {
+        "licencia": "17669",
+        "nombre": "SUNYER Marti"
+      },
+      "C": {
+        "licencia": "15016",
+        "nombre": "SALA Damià"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17727",
-        "nombre": "POOLE Miquel Norman"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15850",
         "nombre": "VIDAL Ferran"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17727",
+        "nombre": "POOLE Miquel Norman"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17669",
-        "nombre": "SUNYER Marti"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12576",
         "nombre": "LLOVERA Eloi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "15016",
-        "nombre": "SALA Damià"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
+        "letra": "B",
+        "licencia": "17669",
+        "nombre": "SUNYER Marti"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15016",
+        "nombre": "SALA Damià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17727",
-        "nombre": "POOLE Miquel Norman"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12576",
         "nombre": "LLOVERA Eloi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17727",
+        "nombre": "POOLE Miquel Norman"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15016",
-        "nombre": "SALA Damià"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15850",
         "nombre": "VIDAL Ferran"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15016",
+        "nombre": "SALA Damià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17669",
-        "nombre": "SUNYER Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17337",
         "nombre": "TOR Oriol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17669",
+        "nombre": "SUNYER Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT TORELLÓ",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

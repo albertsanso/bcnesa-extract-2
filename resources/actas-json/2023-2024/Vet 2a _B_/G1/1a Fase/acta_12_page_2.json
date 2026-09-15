@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SENTMENAT",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "CTT SENTMENAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "286",
-        "nombre": "CARMONA Manuel"
-      },
-      "B": {
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      },
-      "C": {
-        "licencia": "6231",
-        "nombre": "MATIAS Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
@@ -55,6 +41,20 @@
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "286",
+        "nombre": "CARMONA Manuel"
+      },
+      "B": {
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      },
+      "C": {
+        "licencia": "6231",
+        "nombre": "MATIAS Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "286",
-        "nombre": "CARMONA Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4378",
-        "nombre": "CLAVER Antonio"
+        "letra": "A",
+        "licencia": "286",
+        "nombre": "CARMONA Manuel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4378",
+        "nombre": "CLAVER Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6231",
-        "nombre": "MATIAS Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6231",
+        "nombre": "MATIAS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "286",
-        "nombre": "CARMONA Manuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4378",
         "nombre": "CLAVER Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "286",
+        "nombre": "CARMONA Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6231",
-        "nombre": "MATIAS Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6231",
+        "nombre": "MATIAS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SENTMENAT",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 9
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

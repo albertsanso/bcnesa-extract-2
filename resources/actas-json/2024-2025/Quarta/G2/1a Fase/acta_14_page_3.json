@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PRAT",
+      "nombre": "TT SANT ANDREU \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT SANT ANDREU \"B\"",
+      "nombre": "TT PRAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "732",
-        "nombre": "MARTIN Armando"
-      },
-      "B": {
-        "licencia": "222",
-        "nombre": "AGUADO Aniano"
-      },
-      "C": {
-        "licencia": "193",
-        "nombre": "MONTAGUT Ramon"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16336",
         "nombre": "PERELLÓ Sergi"
@@ -55,6 +41,20 @@
         "licencia": "13112",
         "nombre": "VILLAR Eduardo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "732",
+        "nombre": "MARTIN Armando"
+      },
+      "B": {
+        "licencia": "222",
+        "nombre": "AGUADO Aniano"
+      },
+      "C": {
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "732",
-        "nombre": "MARTIN Armando"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16336",
         "nombre": "PERELLÓ Sergi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "222",
-        "nombre": "AGUADO Aniano"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
+        "letra": "A",
+        "licencia": "732",
+        "nombre": "MARTIN Armando"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "222",
+        "nombre": "AGUADO Aniano"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,14 +114,89 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "13112",
+        "nombre": "VILLAR Eduardo"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
       "visitante": {
+        "letra": "A",
+        "licencia": "732",
+        "nombre": "MARTIN Armando"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "16336",
+        "nombre": "PERELLÓ Sergi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
         "letra": "Z",
         "licencia": "13112",
         "nombre": "VILLAR Eduardo"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "207",
+        "nombre": "VARGAS Federico"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,92 +206,20 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "732",
-        "nombre": "MARTIN Armando"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "193",
-        "nombre": "MONTAGUT Ramon"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "16336",
-        "nombre": "PERELLÓ Sergi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "207",
-        "nombre": "VARGAS Federico"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "13112",
-        "nombre": "VILLAR Eduardo"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PRAT",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

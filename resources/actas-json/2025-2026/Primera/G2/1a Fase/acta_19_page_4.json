@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CTT CARDEDEU EIG 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG 'B'",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "724",
-        "nombre": "BORRULL Jordi"
-      },
-      "B": {
-        "licencia": "10724",
-        "nombre": "CASASSAS Àlex"
-      },
-      "C": {
-        "licencia": "20106",
-        "nombre": "GUANCHENG Zhou"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16122",
         "nombre": "CLAVERA Jaume"
@@ -55,6 +41,20 @@
         "licencia": "18133",
         "nombre": "QUERAL Biel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
+      "B": {
+        "licencia": "10724",
+        "nombre": "CASASSAS Àlex"
+      },
+      "C": {
+        "licencia": "20106",
+        "nombre": "GUANCHENG Zhou"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "724",
-        "nombre": "BORRULL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16122",
         "nombre": "CLAVERA Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10724",
-        "nombre": "CASASSAS Àlex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11651",
         "nombre": "GUINART Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10724",
+        "nombre": "CASASSAS Àlex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "20106",
-        "nombre": "GUANCHENG Zhou"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18133",
         "nombre": "QUERAL Biel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20106",
+        "nombre": "GUANCHENG Zhou"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "724",
-        "nombre": "BORRULL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11651",
         "nombre": "GUINART Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "20106",
-        "nombre": "GUANCHENG Zhou"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16122",
         "nombre": "CLAVERA Jaume"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20106",
+        "nombre": "GUANCHENG Zhou"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10724",
-        "nombre": "CASASSAS Àlex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18133",
         "nombre": "QUERAL Biel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10724",
+        "nombre": "CASASSAS Àlex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 3
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

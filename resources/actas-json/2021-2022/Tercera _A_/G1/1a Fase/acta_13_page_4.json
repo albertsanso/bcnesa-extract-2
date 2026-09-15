@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10730",
-        "nombre": "MONTAVEZ Alex"
-      },
-      "B": {
-        "licencia": "10725",
-        "nombre": "MORENO Raul"
-      },
-      "C": {
-        "licencia": "12487",
-        "nombre": "VICIEN Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
@@ -55,20 +41,24 @@
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10730",
+        "nombre": "MONTAVEZ Alex"
+      },
+      "B": {
+        "licencia": "10725",
+        "nombre": "MORENO Raul"
+      },
+      "C": {
+        "licencia": "12487",
+        "nombre": "VICIEN Carlos"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "10730",
-        "nombre": "MONTAVEZ Alex"
-      },
-      {
-        "licencia": "10725",
-        "nombre": "MORENO Raul"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
@@ -76,6 +66,16 @@
       {
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "10730",
+        "nombre": "MONTAVEZ Alex"
+      },
+      {
+        "licencia": "10725",
+        "nombre": "MORENO Raul"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10730",
-        "nombre": "MONTAVEZ Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10730",
+        "nombre": "MONTAVEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10725",
-        "nombre": "MORENO Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8286",
         "nombre": "GONZALEZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10725",
+        "nombre": "MORENO Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12487",
-        "nombre": "VICIEN Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12487",
+        "nombre": "VICIEN Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10730",
-        "nombre": "MONTAVEZ Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8286",
         "nombre": "GONZALEZ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10730",
+        "nombre": "MONTAVEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12487",
-        "nombre": "VICIEN Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "10725",
-        "nombre": "MORENO Raul"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "12057",
-        "nombre": "MONTALBAN Xavi"
+        "letra": "C",
+        "licencia": "12487",
+        "nombre": "VICIEN Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10725",
+        "nombre": "MORENO Raul"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "10730",
-            "nombre": "MONTAVEZ Alex"
-          },
-          {
-            "licencia": "10725",
-            "nombre": "MORENO Raul"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12056",
             "nombre": "ALFONSO Marc"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "10730",
+            "nombre": "MONTAVEZ Alex"
+          },
+          {
+            "licencia": "10725",
+            "nombre": "MORENO Raul"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT POBLENOU",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

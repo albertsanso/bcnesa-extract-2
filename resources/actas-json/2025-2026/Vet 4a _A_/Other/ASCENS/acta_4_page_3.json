@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CATT SANT CELONI",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CATT SANT CELONI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2345",
-        "nombre": "IGLESIAS Valenti"
-      },
-      "B": {
-        "licencia": "4661",
-        "nombre": "CORBACHO Alejandro"
-      },
-      "C": {
-        "licencia": "466",
-        "nombre": "PUGET Jorge"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17990",
         "nombre": "CANU Arnaud"
@@ -55,6 +41,20 @@
         "licencia": "887",
         "nombre": "COLLDEFORN Jaume"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2345",
+        "nombre": "IGLESIAS Valenti"
+      },
+      "B": {
+        "licencia": "4661",
+        "nombre": "CORBACHO Alejandro"
+      },
+      "C": {
+        "licencia": "466",
+        "nombre": "PUGET Jorge"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2345",
-        "nombre": "IGLESIAS Valenti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17990",
         "nombre": "CANU Arnaud"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2345",
+        "nombre": "IGLESIAS Valenti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4661",
-        "nombre": "CORBACHO Alejandro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "323",
         "nombre": "SOSPEDRA Fco.javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4661",
+        "nombre": "CORBACHO Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "466",
-        "nombre": "PUGET Jorge"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "887",
         "nombre": "COLLDEFORN Jaume"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "2345",
-        "nombre": "IGLESIAS Valenti"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "323",
-        "nombre": "SOSPEDRA Fco.javier"
+        "letra": "C",
+        "licencia": "466",
+        "nombre": "PUGET Jorge"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "323",
+        "nombre": "SOSPEDRA Fco.javier"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2345",
+        "nombre": "IGLESIAS Valenti"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "466",
-        "nombre": "PUGET Jorge"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17990",
         "nombre": "CANU Arnaud"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "466",
+        "nombre": "PUGET Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4661",
-        "nombre": "CORBACHO Alejandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "219",
         "nombre": "FIGUERAS Antoni"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4661",
+        "nombre": "CORBACHO Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT PREMIÀ DE MAR",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT LLORENÇÀ",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "TT LLORENÇÀ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19893",
-        "nombre": "CALVET Jan"
-      },
-      "B": {
-        "licencia": "12057",
-        "nombre": "MONTALBAN Xavi"
-      },
-      "C": {
-        "licencia": "5632",
-        "nombre": "TRILLAS Oscar"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18940",
         "nombre": "GELMI Milo"
@@ -55,6 +41,20 @@
         "licencia": "16646",
         "nombre": "CHECA Roberto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19893",
+        "nombre": "CALVET Jan"
+      },
+      "B": {
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
+      "C": {
+        "licencia": "5632",
+        "nombre": "TRILLAS Oscar"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19893",
-        "nombre": "CALVET Jan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18940",
         "nombre": "GELMI Milo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12057",
-        "nombre": "MONTALBAN Xavi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "20816",
-        "nombre": "MASSAGUER Christian"
+        "letra": "A",
+        "licencia": "19893",
+        "nombre": "CALVET Jan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "20816",
+        "nombre": "MASSAGUER Christian"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5632",
-        "nombre": "TRILLAS Oscar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16646",
         "nombre": "CHECA Roberto"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "19893",
-        "nombre": "CALVET Jan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "20816",
-        "nombre": "MASSAGUER Christian"
+        "letra": "C",
+        "licencia": "5632",
+        "nombre": "TRILLAS Oscar"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "20816",
+        "nombre": "MASSAGUER Christian"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19893",
+        "nombre": "CALVET Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5632",
-        "nombre": "TRILLAS Oscar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18940",
         "nombre": "GELMI Milo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5632",
+        "nombre": "TRILLAS Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12057",
-        "nombre": "MONTALBAN Xavi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16646",
         "nombre": "CHECA Roberto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT LLORENÇÀ",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

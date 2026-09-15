@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "PROTEC BADALONA",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "PROTEC BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7304",
-        "nombre": "MACIA Nuria"
-      },
-      "B": {
-        "licencia": "8722",
-        "nombre": "BACHS Mariona"
-      },
-      "C": {
-        "licencia": "7744",
-        "nombre": "GARCIA Eduard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "307",
         "nombre": "MORENO Juan M."
@@ -55,6 +41,20 @@
         "licencia": "12250",
         "nombre": "RUIZ Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7304",
+        "nombre": "MACIA Nuria"
+      },
+      "B": {
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      },
+      "C": {
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7304",
-        "nombre": "MACIA Nuria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "307",
         "nombre": "MORENO Juan M."
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7304",
+        "nombre": "MACIA Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8722",
-        "nombre": "BACHS Mariona"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "483",
         "nombre": "CASTILLO Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7744",
-        "nombre": "GARCIA Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12250",
         "nombre": "RUIZ Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7304",
-        "nombre": "MACIA Nuria"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "483",
         "nombre": "CASTILLO Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7304",
+        "nombre": "MACIA Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7744",
-        "nombre": "GARCIA Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "307",
         "nombre": "MORENO Juan M."
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8722",
-        "nombre": "BACHS Mariona"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12250",
         "nombre": "RUIZ Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "PROTEC BADALONA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

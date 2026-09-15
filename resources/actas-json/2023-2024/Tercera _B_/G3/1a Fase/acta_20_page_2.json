@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ÀNECBLAU - TT ELS JOVES",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "ÀNECBLAU - TT ELS JOVES",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14283",
-        "nombre": "FERNANDEZ Victor"
-      },
-      "B": {
-        "licencia": "16698",
-        "nombre": "ESCOBAR Francisco Jose"
-      },
-      "C": {
-        "licencia": "14219",
-        "nombre": "COMPANY Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15579",
         "nombre": "DÍAZ Héctor"
@@ -55,6 +41,20 @@
         "licencia": "16909",
         "nombre": "BUITRAGO David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14283",
+        "nombre": "FERNANDEZ Victor"
+      },
+      "B": {
+        "licencia": "16698",
+        "nombre": "ESCOBAR Francisco Jose"
+      },
+      "C": {
+        "licencia": "14219",
+        "nombre": "COMPANY Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14283",
-        "nombre": "FERNANDEZ Victor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15579",
         "nombre": "DÍAZ Héctor"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14283",
+        "nombre": "FERNANDEZ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,14 +89,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "17662",
+        "nombre": "CARMONA Ramon"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "16698",
         "nombre": "ESCOBAR Francisco Jose"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16909",
+        "nombre": "BUITRAGO David"
+      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17662",
-        "nombre": "CARMONA Ramon"
+        "letra": "C",
+        "licencia": "14219",
+        "nombre": "COMPANY Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -105,33 +130,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "14219",
-        "nombre": "COMPANY Antonio"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16909",
-        "nombre": "BUITRAGO David"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14283",
-        "nombre": "FERNANDEZ Victor"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17662",
         "nombre": "CARMONA Ramon"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14283",
+        "nombre": "FERNANDEZ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14219",
-        "nombre": "COMPANY Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15579",
         "nombre": "DÍAZ Héctor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14219",
+        "nombre": "COMPANY Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16698",
-        "nombre": "ESCOBAR Francisco Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16909",
         "nombre": "BUITRAGO David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16698",
+        "nombre": "ESCOBAR Francisco Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

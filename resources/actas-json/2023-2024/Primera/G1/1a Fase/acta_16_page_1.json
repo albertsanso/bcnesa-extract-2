@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3970",
-        "nombre": "GUTIERREZ Sergio"
-      },
-      "B": {
-        "licencia": "4483",
-        "nombre": "CAMPOS Alberto"
-      },
-      "C": {
-        "licencia": "17045",
-        "nombre": "DE LA CALLE Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4717",
         "nombre": "MOGAS Aina"
@@ -55,20 +41,24 @@
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3970",
+        "nombre": "GUTIERREZ Sergio"
+      },
+      "B": {
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      "C": {
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "17045",
-        "nombre": "DE LA CALLE Albert"
-      },
-      {
-        "licencia": "4483",
-        "nombre": "CAMPOS Alberto"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "4717",
         "nombre": "MOGAS Aina"
@@ -76,6 +66,16 @@
       {
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      {
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3970",
-        "nombre": "GUTIERREZ Sergio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4717",
         "nombre": "MOGAS Aina"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3970",
+        "nombre": "GUTIERREZ Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4483",
-        "nombre": "CAMPOS Alberto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6482",
         "nombre": "OLTENAS Viorel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17045",
-        "nombre": "DE LA CALLE Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,39 +160,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3970",
-        "nombre": "GUTIERREZ Sergio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6482",
         "nombre": "OLTENAS Viorel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "17045",
-        "nombre": "DE LA CALLE Albert"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "4717",
-        "nombre": "MOGAS Aina"
+        "letra": "A",
+        "licencia": "3970",
+        "nombre": "GUTIERREZ Sergio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +176,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "4717",
+        "nombre": "MOGAS Aina"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4483",
-        "nombre": "CAMPOS Alberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "17045",
-            "nombre": "DE LA CALLE Albert"
-          },
-          {
-            "licencia": "4483",
-            "nombre": "CAMPOS Alberto"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "4717",
             "nombre": "MOGAS Aina"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17045",
+            "nombre": "DE LA CALLE Albert"
+          },
+          {
+            "licencia": "4483",
+            "nombre": "CAMPOS Alberto"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RIPOLLET",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

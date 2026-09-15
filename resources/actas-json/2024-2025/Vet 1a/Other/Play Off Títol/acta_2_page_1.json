@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "645",
-        "nombre": "SUÑE Manel"
-      },
-      "B": {
-        "licencia": "2290",
-        "nombre": "MOSCOSO Renato Victor"
-      },
-      "C": {
-        "licencia": "1663",
-        "nombre": "JOFRE Jaume"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "963",
         "nombre": "NOLIS Pau"
@@ -55,6 +41,20 @@
         "licencia": "10639",
         "nombre": "CRESPO Pere"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
+      "B": {
+        "licencia": "2290",
+        "nombre": "MOSCOSO Renato Victor"
+      },
+      "C": {
+        "licencia": "1663",
+        "nombre": "JOFRE Jaume"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "645",
-        "nombre": "SUÑE Manel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "963",
         "nombre": "NOLIS Pau"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2290",
-        "nombre": "MOSCOSO Renato Victor"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "635",
-        "nombre": "MARTÍNEZ Antonio"
+        "letra": "A",
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "635",
+        "nombre": "MARTÍNEZ Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2290",
+        "nombre": "MOSCOSO Renato Victor"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1663",
-        "nombre": "JOFRE Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10639",
         "nombre": "CRESPO Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1663",
+        "nombre": "JOFRE Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "645",
-        "nombre": "SUÑE Manel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1663",
-        "nombre": "JOFRE Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "963",
         "nombre": "NOLIS Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1663",
+        "nombre": "JOFRE Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2290",
-        "nombre": "MOSCOSO Renato Victor"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10639",
         "nombre": "CRESPO Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2290",
+        "nombre": "MOSCOSO Renato Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TITUS BADALONA",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

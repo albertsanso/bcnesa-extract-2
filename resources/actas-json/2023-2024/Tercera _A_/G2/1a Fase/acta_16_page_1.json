@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "TOT MOTOR CTT RIPOLLET ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TOT MOTOR CTT RIPOLLET ''B''",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8075",
-        "nombre": "GIL Antonio"
-      },
-      "B": {
-        "licencia": "2299",
-        "nombre": "IBAÑEZ Jordi"
-      },
-      "C": {
-        "licencia": "167",
-        "nombre": "IBÁÑEZ José Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15431",
         "nombre": "CODOLÀ Biel"
@@ -55,6 +41,20 @@
         "licencia": "15441",
         "nombre": "PIMENTEL Luis Guillermo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
+      },
+      "B": {
+        "licencia": "2299",
+        "nombre": "IBAÑEZ Jordi"
+      },
+      "C": {
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8075",
-        "nombre": "GIL Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15431",
         "nombre": "CODOLÀ Biel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "2299",
-        "nombre": "IBAÑEZ Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11640",
         "nombre": "ROS Guillem"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2299",
+        "nombre": "IBAÑEZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,64 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "167",
-        "nombre": "IBÁÑEZ José Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15441",
         "nombre": "PIMENTEL Luis Guillermo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "8075",
-        "nombre": "GIL Antonio"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11640",
-        "nombre": "ROS Guillem"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
         "letra": "C",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "15431",
-        "nombre": "CODOLÀ Biel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,23 +130,23 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 3,
+        "visitante": 0
       }
     },
     {
-      "numero": 6,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "2299",
-        "nombre": "IBAÑEZ Jordi"
+        "letra": "X",
+        "licencia": "11640",
+        "nombre": "ROS Guillem"
       },
       "visitante": {
-        "letra": "Z",
-        "licencia": "15441",
-        "nombre": "PIMENTEL Luis Guillermo"
+        "letra": "A",
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "15431",
+        "nombre": "CODOLÀ Biel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "15441",
+        "nombre": "PIMENTEL Luis Guillermo"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2299",
+        "nombre": "IBAÑEZ Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TOT MOTOR CTT RIPOLLET ''B''",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

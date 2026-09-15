@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "CN ST. ANDREU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN ST. ANDREU",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12906",
-        "nombre": "CRESPO Diego"
-      },
-      "B": {
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "C": {
-        "licencia": "11242",
-        "nombre": "SANCHEZ Ismael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16616",
         "nombre": "NUÑEZ Francisco"
@@ -55,6 +41,20 @@
         "licencia": "14495",
         "nombre": "ABUIN Roger"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "B": {
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "C": {
+        "licencia": "11242",
+        "nombre": "SANCHEZ Ismael"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12906",
-        "nombre": "CRESPO Diego"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16616",
         "nombre": "NUÑEZ Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "101",
         "nombre": "LOPEZ Jesus"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11242",
-        "nombre": "SANCHEZ Ismael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14495",
         "nombre": "ABUIN Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11242",
+        "nombre": "SANCHEZ Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12906",
-        "nombre": "CRESPO Diego"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "101",
         "nombre": "LOPEZ Jesus"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11242",
-        "nombre": "SANCHEZ Ismael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16616",
         "nombre": "NUÑEZ Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11242",
+        "nombre": "SANCHEZ Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14495",
         "nombre": "ABUIN Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 4
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "B": {
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "C": {
-        "licencia": "3317",
-        "nombre": "LARRIBA Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10192",
         "nombre": "SERRANO Emmanuel"
@@ -55,20 +41,24 @@
         "licencia": "13072",
         "nombre": "LIMACHE Elias"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "B": {
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
+      "C": {
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "3317",
-        "nombre": "LARRIBA Luis"
-      },
-      {
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13072",
         "nombre": "LIMACHE Elias"
@@ -76,6 +66,16 @@
       {
         "licencia": "10148",
         "nombre": "PLAZA Santi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
+      {
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10192",
         "nombre": "SERRANO Emmanuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10148",
         "nombre": "PLAZA Santi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3317",
-        "nombre": "LARRIBA Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13072",
         "nombre": "LIMACHE Elias"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10148",
         "nombre": "PLAZA Santi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3317",
-        "nombre": "LARRIBA Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10192",
         "nombre": "SERRANO Emmanuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13072",
         "nombre": "LIMACHE Elias"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "3317",
-            "nombre": "LARRIBA Luis"
-          },
-          {
-            "licencia": "7587",
-            "nombre": "VIADE Antonio"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13072",
             "nombre": "LIMACHE Elias"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "3317",
+            "nombre": "LARRIBA Luis"
+          },
+          {
+            "licencia": "7587",
+            "nombre": "VIADE Antonio"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

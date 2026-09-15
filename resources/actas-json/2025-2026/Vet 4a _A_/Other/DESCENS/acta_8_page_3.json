@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "21165",
-        "nombre": "GOLDBERG Oleksandr"
-      },
-      "B": {
-        "licencia": "13989",
-        "nombre": "BARGALLO Ferran"
-      },
-      "C": {
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8668",
         "nombre": "BARCELO Manuel"
@@ -55,6 +41,20 @@
         "licencia": "7662",
         "nombre": "RICO Calixto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "21165",
+        "nombre": "GOLDBERG Oleksandr"
+      },
+      "B": {
+        "licencia": "13989",
+        "nombre": "BARGALLO Ferran"
+      },
+      "C": {
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "21165",
-        "nombre": "GOLDBERG Oleksandr"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8668",
         "nombre": "BARCELO Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "21165",
+        "nombre": "GOLDBERG Oleksandr"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13989",
-        "nombre": "BARGALLO Ferran"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6783",
         "nombre": "VILARDELL Alfredo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13989",
+        "nombre": "BARGALLO Ferran"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7662",
         "nombre": "RICO Calixto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "21165",
-        "nombre": "GOLDBERG Oleksandr"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6783",
         "nombre": "VILARDELL Alfredo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "21165",
+        "nombre": "GOLDBERG Oleksandr"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8668",
         "nombre": "BARCELO Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13989",
-        "nombre": "BARGALLO Ferran"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7662",
         "nombre": "RICO Calixto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13989",
+        "nombre": "BARGALLO Ferran"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CTT RIPOLLET",
     "marcador_partidos": {
       "local": 6,
-      "visitante": 18
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

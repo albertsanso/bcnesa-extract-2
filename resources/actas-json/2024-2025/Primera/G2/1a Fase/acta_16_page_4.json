@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA ''B''",
+      "nombre": "CTT SALLENT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SALLENT",
+      "nombre": "CTT BARCELONA ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11821",
-        "nombre": "MESTRE Lluc"
-      },
-      "B": {
-        "licencia": "17171",
-        "nombre": "CASTAÑEDA Victor Jesus"
-      },
-      "C": {
-        "licencia": "11487",
-        "nombre": "DONALDSON Mike"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1773",
         "nombre": "CASAMITJANA Leandro"
@@ -55,6 +41,20 @@
         "licencia": "527",
         "nombre": "VILA Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
+      "B": {
+        "licencia": "17171",
+        "nombre": "CASTAÑEDA Victor Jesus"
+      },
+      "C": {
+        "licencia": "11487",
+        "nombre": "DONALDSON Mike"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11821",
-        "nombre": "MESTRE Lluc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1773",
         "nombre": "CASAMITJANA Leandro"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17171",
-        "nombre": "CASTAÑEDA Victor Jesus"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16395",
-        "nombre": "CHENG Zhongyong"
+        "letra": "A",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16395",
+        "nombre": "CHENG Zhongyong"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17171",
+        "nombre": "CASTAÑEDA Victor Jesus"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11487",
-        "nombre": "DONALDSON Mike"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "527",
         "nombre": "VILA Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11487",
+        "nombre": "DONALDSON Mike"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11821",
-        "nombre": "MESTRE Lluc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16395",
         "nombre": "CHENG Zhongyong"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11487",
-        "nombre": "DONALDSON Mike"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1773",
         "nombre": "CASAMITJANA Leandro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11487",
+        "nombre": "DONALDSON Mike"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17171",
-        "nombre": "CASTAÑEDA Victor Jesus"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "527",
         "nombre": "VILA Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17171",
+        "nombre": "CASTAÑEDA Victor Jesus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SALLENT",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

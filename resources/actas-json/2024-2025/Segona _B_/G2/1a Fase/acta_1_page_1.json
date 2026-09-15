@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen B",
+      "nombre": "CTT VILANOVA DEL CAMI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA DEL CAMI",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen B",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3484",
-        "nombre": "FERRERA Carlos Augusto"
-      },
-      "B": {
-        "licencia": "12904",
-        "nombre": "JIMENEZ Marti"
-      },
-      "C": {
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "459",
         "nombre": "LOPEZ Bernat"
@@ -55,6 +41,20 @@
         "licencia": "297",
         "nombre": "SUERO Manolo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      },
+      "B": {
+        "licencia": "12904",
+        "nombre": "JIMENEZ Marti"
+      },
+      "C": {
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3484",
-        "nombre": "FERRERA Carlos Augusto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "459",
         "nombre": "LOPEZ Bernat"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12904",
-        "nombre": "JIMENEZ Marti"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "3914",
-        "nombre": "SANCHEZ Adrian"
+        "letra": "A",
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "3914",
+        "nombre": "SANCHEZ Adrian"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12904",
+        "nombre": "JIMENEZ Marti"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "297",
         "nombre": "SUERO Manolo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3484",
-        "nombre": "FERRERA Carlos Augusto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3914",
         "nombre": "SANCHEZ Adrian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "459",
         "nombre": "LOPEZ Bernat"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12904",
-        "nombre": "JIMENEZ Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "297",
         "nombre": "SUERO Manolo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12904",
+        "nombre": "JIMENEZ Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ST QUIRZE DEL VALLÈS - Sen B",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 4
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

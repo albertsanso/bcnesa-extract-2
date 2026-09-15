@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT SANT ANDREU -B-",
+      "nombre": "CTT SANTA P. FECOSAUTO 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANTA P. FECOSAUTO 'A'",
+      "nombre": "TT SANT ANDREU -B-",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11204",
-        "nombre": "ORTÍ Francesc"
-      },
-      "B": {
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "C": {
-        "licencia": "12955",
-        "nombre": "TO Pere"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19003",
         "nombre": "LOPEZ Miguel Angel"
@@ -55,6 +41,20 @@
         "licencia": "17604",
         "nombre": "CANILLAS Jose Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11204",
+        "nombre": "ORTÍ Francesc"
+      },
+      "B": {
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
+      "C": {
+        "licencia": "12955",
+        "nombre": "TO Pere"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11204",
-        "nombre": "ORTÍ Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19003",
         "nombre": "LOPEZ Miguel Angel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11204",
+        "nombre": "ORTÍ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17204",
         "nombre": "CAÑADAS Antonio Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12955",
-        "nombre": "TO Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17604",
         "nombre": "CANILLAS Jose Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12955",
+        "nombre": "TO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11204",
-        "nombre": "ORTÍ Francesc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17204",
         "nombre": "CAÑADAS Antonio Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11204",
+        "nombre": "ORTÍ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12955",
-        "nombre": "TO Pere"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19003",
         "nombre": "LOPEZ Miguel Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12955",
+        "nombre": "TO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14151",
-        "nombre": "DEL BOSQUE Fermin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17604",
         "nombre": "CANILLAS Jose Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14151",
+        "nombre": "DEL BOSQUE Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANTA P. FECOSAUTO 'A'",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 16
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

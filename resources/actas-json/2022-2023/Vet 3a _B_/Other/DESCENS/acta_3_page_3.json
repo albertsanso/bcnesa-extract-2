@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "508",
-        "nombre": "GARCIA-ROJAS Ramon Juan"
-      },
-      "B": {
-        "licencia": "12579",
-        "nombre": "MUÑOZ Joan"
-      },
-      "C": {
-        "licencia": "6924",
-        "nombre": "ROMERA Enric"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13098",
         "nombre": "CARDONA Eduard"
@@ -55,6 +41,20 @@
         "licencia": "92",
         "nombre": "RIPOLLES Jaime"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
+      "B": {
+        "licencia": "12579",
+        "nombre": "MUÑOZ Joan"
+      },
+      "C": {
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "508",
-        "nombre": "GARCIA-ROJAS Ramon Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13098",
         "nombre": "CARDONA Eduard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12579",
-        "nombre": "MUÑOZ Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7328",
         "nombre": "PIQUER Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12579",
+        "nombre": "MUÑOZ Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6924",
-        "nombre": "ROMERA Enric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "92",
         "nombre": "RIPOLLES Jaime"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "508",
-        "nombre": "GARCIA-ROJAS Ramon Juan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7328",
         "nombre": "PIQUER Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6924",
-        "nombre": "ROMERA Enric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13098",
         "nombre": "CARDONA Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12579",
-        "nombre": "MUÑOZ Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "92",
         "nombre": "RIPOLLES Jaime"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12579",
+        "nombre": "MUÑOZ Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 17
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

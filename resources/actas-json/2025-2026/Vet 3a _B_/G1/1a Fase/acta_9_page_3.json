@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANT ANDREU",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "CC SANT ANDREU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5431",
-        "nombre": "EXPOSITO José"
-      },
-      "B": {
-        "licencia": "6218",
-        "nombre": "GARCIA Jorge"
-      },
-      "C": {
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6165",
         "nombre": "SALCEDO Raul"
@@ -55,20 +41,24 @@
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5431",
+        "nombre": "EXPOSITO José"
+      },
+      "B": {
+        "licencia": "6218",
+        "nombre": "GARCIA Jorge"
+      },
+      "C": {
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6218",
-        "nombre": "GARCIA Jorge"
-      },
-      {
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
@@ -76,6 +66,16 @@
       {
         "licencia": "6924",
         "nombre": "ROMERA Enric"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6218",
+        "nombre": "GARCIA Jorge"
+      },
+      {
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5431",
-        "nombre": "EXPOSITO José"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6165",
         "nombre": "SALCEDO Raul"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5431",
+        "nombre": "EXPOSITO José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6218",
-        "nombre": "GARCIA Jorge"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6924",
         "nombre": "ROMERA Enric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6218",
+        "nombre": "GARCIA Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5431",
-        "nombre": "EXPOSITO José"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6924",
         "nombre": "ROMERA Enric"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5431",
+        "nombre": "EXPOSITO José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5660",
-        "nombre": "GARCIA Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6165",
         "nombre": "SALCEDO Raul"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5660",
+        "nombre": "GARCIA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6218",
-        "nombre": "GARCIA Jorge"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6218",
+        "nombre": "GARCIA Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6218",
-            "nombre": "GARCIA Jorge"
-          },
-          {
-            "licencia": "5660",
-            "nombre": "GARCIA Carlos"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "10101",
             "nombre": "LLADÓ Albert"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6218",
+            "nombre": "GARCIA Jorge"
+          },
+          {
+            "licencia": "5660",
+            "nombre": "GARCIA Carlos"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANT ANDREU",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

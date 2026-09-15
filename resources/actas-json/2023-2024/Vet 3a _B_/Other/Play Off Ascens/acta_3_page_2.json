@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CANET DE MAR 13è3aA",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CTT CANET DE MAR 13è3aA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "738",
-        "nombre": "FONFRIA Carles"
-      },
-      "B": {
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
-      "C": {
-        "licencia": "11158",
-        "nombre": "MERCADER Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6902",
         "nombre": "ARIAS Jordi"
@@ -55,6 +41,20 @@
         "licencia": "8459",
         "nombre": "ROGER Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "738",
+        "nombre": "FONFRIA Carles"
+      },
+      "B": {
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
+      "C": {
+        "licencia": "11158",
+        "nombre": "MERCADER Luis"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "738",
-        "nombre": "FONFRIA Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6902",
         "nombre": "ARIAS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "738",
+        "nombre": "FONFRIA Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8841",
         "nombre": "PEREZ Raul"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11158",
-        "nombre": "MERCADER Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8459",
         "nombre": "ROGER Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11158",
+        "nombre": "MERCADER Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "738",
-        "nombre": "FONFRIA Carles"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8841",
         "nombre": "PEREZ Raul"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "738",
+        "nombre": "FONFRIA Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11158",
-        "nombre": "MERCADER Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6902",
         "nombre": "ARIAS Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11158",
+        "nombre": "MERCADER Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8459",
         "nombre": "ROGER Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CANET DE MAR 13è3aA",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

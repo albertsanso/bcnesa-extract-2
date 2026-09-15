@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "TERMOTUR CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TERMOTUR CALELLA",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3573",
-        "nombre": "PEREZ Marta"
-      },
-      "B": {
-        "licencia": "6255",
-        "nombre": "TRIFOL David"
-      },
-      "C": {
-        "licencia": "8007",
-        "nombre": "VARGAS Pedro Juan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
@@ -55,6 +41,20 @@
         "licencia": "2030",
         "nombre": "SANCHEZ Josep"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3573",
+        "nombre": "PEREZ Marta"
+      },
+      "B": {
+        "licencia": "6255",
+        "nombre": "TRIFOL David"
+      },
+      "C": {
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3573",
-        "nombre": "PEREZ Marta"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3573",
+        "nombre": "PEREZ Marta"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6255",
-        "nombre": "TRIFOL David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11244",
         "nombre": "VILALTA Agusti"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6255",
+        "nombre": "TRIFOL David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8007",
-        "nombre": "VARGAS Pedro Juan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2030",
         "nombre": "SANCHEZ Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3573",
-        "nombre": "PEREZ Marta"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11244",
         "nombre": "VILALTA Agusti"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3573",
+        "nombre": "PEREZ Marta"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8007",
-        "nombre": "VARGAS Pedro Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6255",
-        "nombre": "TRIFOL David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2030",
         "nombre": "SANCHEZ Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6255",
+        "nombre": "TRIFOL David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TERMOTUR CALELLA",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

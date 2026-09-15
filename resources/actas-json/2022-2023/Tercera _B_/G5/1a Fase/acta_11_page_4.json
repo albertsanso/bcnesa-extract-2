@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS ''A''",
+      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
+      "nombre": "TT PARETS ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15827",
-        "nombre": "CAPON Marc"
-      },
-      "B": {
-        "licencia": "11885",
-        "nombre": "FERNANDEZ Daniel"
-      },
-      "C": {
-        "licencia": "4367",
-        "nombre": "SANCHEZ Andreu"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12325",
         "nombre": "PIÑOL Nuria"
@@ -55,6 +41,20 @@
         "licencia": "14506",
         "nombre": "BADIA Anna"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15827",
+        "nombre": "CAPON Marc"
+      },
+      "B": {
+        "licencia": "11885",
+        "nombre": "FERNANDEZ Daniel"
+      },
+      "C": {
+        "licencia": "4367",
+        "nombre": "SANCHEZ Andreu"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15827",
-        "nombre": "CAPON Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12325",
         "nombre": "PIÑOL Nuria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15827",
+        "nombre": "CAPON Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11885",
-        "nombre": "FERNANDEZ Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16461",
         "nombre": "UHLIG Theres C. Wayra"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11885",
+        "nombre": "FERNANDEZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4367",
-        "nombre": "SANCHEZ Andreu"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14506",
         "nombre": "BADIA Anna"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4367",
+        "nombre": "SANCHEZ Andreu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15827",
-        "nombre": "CAPON Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16461",
         "nombre": "UHLIG Theres C. Wayra"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15827",
+        "nombre": "CAPON Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4367",
-        "nombre": "SANCHEZ Andreu"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12325",
         "nombre": "PIÑOL Nuria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4367",
+        "nombre": "SANCHEZ Andreu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11885",
-        "nombre": "FERNANDEZ Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14506",
         "nombre": "BADIA Anna"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11885",
+        "nombre": "FERNANDEZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS ''A''",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 3
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "B": {
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "C": {
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8075",
         "nombre": "GIL Antonio"
@@ -55,6 +41,20 @@
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "B": {
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "C": {
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8075",
         "nombre": "GIL Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "167",
-        "nombre": "IBÁÑEZ José Luis"
+        "letra": "A",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "167",
-        "nombre": "IBÁÑEZ José Luis"
+        "letra": "C",
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8075",
         "nombre": "GIL Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

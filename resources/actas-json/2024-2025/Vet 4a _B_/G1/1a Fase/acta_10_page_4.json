@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "CTT GRANOLLERS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT GRANOLLERS",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12123",
-        "nombre": "ANDREU Salvador"
-      },
-      "B": {
-        "licencia": "12801",
-        "nombre": "CAMPS Jordi"
-      },
-      "C": {
-        "licencia": "11220",
-        "nombre": "BOSCH Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19080",
         "nombre": "HIERRO Damian Manuel"
@@ -55,6 +41,20 @@
         "licencia": "18635",
         "nombre": "JUNQUERAS Josep Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
+      },
+      "B": {
+        "licencia": "12801",
+        "nombre": "CAMPS Jordi"
+      },
+      "C": {
+        "licencia": "11220",
+        "nombre": "BOSCH Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "19080",
+        "nombre": "HIERRO Damian Manuel"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "12123",
         "nombre": "ANDREU Salvador"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18626",
+        "nombre": "SÁNCHEZ Quim"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "19080",
-        "nombre": "HIERRO Damian Manuel"
+        "letra": "B",
+        "licencia": "12801",
+        "nombre": "CAMPS Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "18635",
+        "nombre": "JUNQUERAS Josep Maria"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11220",
+        "nombre": "BOSCH Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -81,47 +131,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 2
       }
     },
     {
-      "numero": 2,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs X",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12801",
-        "nombre": "CAMPS Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18626",
         "nombre": "SÁNCHEZ Quim"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "11220",
-        "nombre": "BOSCH Joan"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "18635",
-        "nombre": "JUNQUERAS Josep Maria"
+        "letra": "A",
+        "licencia": "12123",
+        "nombre": "ANDREU Salvador"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "12123",
-        "nombre": "ANDREU Salvador"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "18626",
-        "nombre": "SÁNCHEZ Quim"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11220",
-        "nombre": "BOSCH Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19080",
         "nombre": "HIERRO Damian Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11220",
+        "nombre": "BOSCH Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12801",
-        "nombre": "CAMPS Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18635",
         "nombre": "JUNQUERAS Josep Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12801",
+        "nombre": "CAMPS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 4
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT ''B''",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "UE SANT CUGAT ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16750",
-        "nombre": "BOTTO Samuel"
-      },
-      "B": {
-        "licencia": "19122",
-        "nombre": "MARSÀ Pau"
-      },
-      "C": {
-        "licencia": "15485",
-        "nombre": "LOBERA Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "267",
         "nombre": "INFANTE Isidro"
@@ -55,6 +41,20 @@
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16750",
+        "nombre": "BOTTO Samuel"
+      },
+      "B": {
+        "licencia": "19122",
+        "nombre": "MARSÀ Pau"
+      },
+      "C": {
+        "licencia": "15485",
+        "nombre": "LOBERA Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16750",
-        "nombre": "BOTTO Samuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "267",
         "nombre": "INFANTE Isidro"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "19122",
-        "nombre": "MARSÀ Pau"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5897",
-        "nombre": "INFANTE Enric"
+        "letra": "A",
+        "licencia": "16750",
+        "nombre": "BOTTO Samuel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5897",
+        "nombre": "INFANTE Enric"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19122",
+        "nombre": "MARSÀ Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15485",
-        "nombre": "LOBERA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16750",
-        "nombre": "BOTTO Samuel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5897",
-        "nombre": "INFANTE Enric"
+        "letra": "C",
+        "licencia": "15485",
+        "nombre": "LOBERA Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5897",
+        "nombre": "INFANTE Enric"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16750",
+        "nombre": "BOTTO Samuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15485",
-        "nombre": "LOBERA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "267",
         "nombre": "INFANTE Isidro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15485",
+        "nombre": "LOBERA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19122",
-        "nombre": "MARSÀ Pau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19122",
+        "nombre": "MARSÀ Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18896",
-        "nombre": "PINZANO Antoni"
-      },
-      "B": {
-        "licencia": "14917",
-        "nombre": "PINZANO Ignasi"
-      },
-      "C": {
-        "licencia": "11209",
-        "nombre": "VELEZ Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13743",
         "nombre": "COLOMINAS Ivet"
@@ -55,6 +41,20 @@
         "licencia": "10220",
         "nombre": "PLAZA Francisco José"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18896",
+        "nombre": "PINZANO Antoni"
+      },
+      "B": {
+        "licencia": "14917",
+        "nombre": "PINZANO Ignasi"
+      },
+      "C": {
+        "licencia": "11209",
+        "nombre": "VELEZ Alex"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18896",
-        "nombre": "PINZANO Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13743",
         "nombre": "COLOMINAS Ivet"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18896",
+        "nombre": "PINZANO Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14917",
-        "nombre": "PINZANO Ignasi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10228",
         "nombre": "MARTÍNEZ Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14917",
+        "nombre": "PINZANO Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11209",
-        "nombre": "VELEZ Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10220",
         "nombre": "PLAZA Francisco José"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11209",
+        "nombre": "VELEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18896",
-        "nombre": "PINZANO Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10228",
         "nombre": "MARTÍNEZ Maria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18896",
+        "nombre": "PINZANO Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11209",
-        "nombre": "VELEZ Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13743",
         "nombre": "COLOMINAS Ivet"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11209",
+        "nombre": "VELEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14917",
-        "nombre": "PINZANO Ignasi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10220",
         "nombre": "PLAZA Francisco José"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14917",
+        "nombre": "PINZANO Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EUROCLIMA BADALONA ''A''",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "EUROCLIMA BADALONA ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15180",
-        "nombre": "SORIANO Mario"
-      },
-      "B": {
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "C": {
-        "licencia": "17226",
-        "nombre": "CARLO Enzo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8702",
         "nombre": "TAPIA Andres"
@@ -55,20 +41,24 @@
         "licencia": "17806",
         "nombre": "BAREA David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15180",
+        "nombre": "SORIANO Mario"
+      },
+      "B": {
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
+      "C": {
+        "licencia": "17226",
+        "nombre": "CARLO Enzo"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15180",
-        "nombre": "SORIANO Mario"
-      },
-      {
-        "licencia": "14733",
-        "nombre": "LAVADO Dídac"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8702",
         "nombre": "TAPIA Andres"
@@ -76,6 +66,16 @@
       {
         "licencia": "89",
         "nombre": "GARCIA Angel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15180",
+        "nombre": "SORIANO Mario"
+      },
+      {
+        "licencia": "14733",
+        "nombre": "LAVADO Dídac"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15180",
-        "nombre": "SORIANO Mario"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8702",
         "nombre": "TAPIA Andres"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15180",
+        "nombre": "SORIANO Mario"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,14 +110,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "8327",
+        "nombre": "MORATA Manuel"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "14129",
         "nombre": "NAVARRO Laia"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "17806",
+        "nombre": "BAREA David"
+      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8327",
-        "nombre": "MORATA Manuel"
+        "letra": "C",
+        "licencia": "17226",
+        "nombre": "CARLO Enzo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -126,33 +151,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "17226",
-        "nombre": "CARLO Enzo"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "17806",
-        "nombre": "BAREA David"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15180",
-        "nombre": "SORIANO Mario"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8327",
         "nombre": "MORATA Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15180",
+        "nombre": "SORIANO Mario"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17226",
-        "nombre": "CARLO Enzo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8702",
         "nombre": "TAPIA Andres"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17226",
+        "nombre": "CARLO Enzo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17806",
         "nombre": "BAREA David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15180",
-            "nombre": "SORIANO Mario"
-          },
-          {
-            "licencia": "14733",
-            "nombre": "LAVADO Dídac"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8702",
             "nombre": "TAPIA Andres"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15180",
+            "nombre": "SORIANO Mario"
+          },
+          {
+            "licencia": "14733",
+            "nombre": "LAVADO Dídac"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "EUROCLIMA BADALONA ''A''",
+    "ganador": "TT C. JEMA",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 12
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

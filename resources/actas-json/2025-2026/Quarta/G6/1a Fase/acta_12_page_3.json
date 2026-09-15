@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ PROMESES 'C'",
+      "nombre": "MOLLET 2002 TT 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT 'B'",
+      "nombre": "CTT CASTELLGALÍ PROMESES 'C'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "20669",
-        "nombre": "SIMON Bruc"
-      },
-      "B": {
-        "licencia": "20631",
-        "nombre": "LOZANO Cristian"
-      },
-      "C": {
-        "licencia": "19319",
-        "nombre": "CALVET Oriol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16953",
         "nombre": "GARCIA Raul"
@@ -55,6 +41,20 @@
         "licencia": "16801",
         "nombre": "CARRETERO Carla"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "20669",
+        "nombre": "SIMON Bruc"
+      },
+      "B": {
+        "licencia": "20631",
+        "nombre": "LOZANO Cristian"
+      },
+      "C": {
+        "licencia": "19319",
+        "nombre": "CALVET Oriol"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "20669",
-        "nombre": "SIMON Bruc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16953",
         "nombre": "GARCIA Raul"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "20631",
-        "nombre": "LOZANO Cristian"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16802",
-        "nombre": "CARRETERO Joel"
+        "letra": "A",
+        "licencia": "20669",
+        "nombre": "SIMON Bruc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16802",
+        "nombre": "CARRETERO Joel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20631",
+        "nombre": "LOZANO Cristian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,14 +114,64 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "16801",
+        "nombre": "CARRETERO Carla"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "19319",
         "nombre": "CALVET Oriol"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16802",
+        "nombre": "CARRETERO Joel"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "16801",
-        "nombre": "CARRETERO Carla"
+        "letra": "A",
+        "licencia": "20669",
+        "nombre": "SIMON Bruc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19319",
+        "nombre": "CALVET Oriol"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,47 +181,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
       }
     },
     {
-      "numero": 4,
+      "numero": 6,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs Z",
       "local": {
-        "letra": "A",
-        "licencia": "20669",
-        "nombre": "SIMON Bruc"
+        "letra": "Z",
+        "licencia": "16801",
+        "nombre": "CARRETERO Carla"
       },
       "visitante": {
-        "letra": "X",
-        "licencia": "16802",
-        "nombre": "CARRETERO Joel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "19319",
-        "nombre": "CALVET Oriol"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
+        "letra": "B",
+        "licencia": "20631",
+        "nombre": "LOZANO Cristian"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,43 +205,21 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "20631",
-        "nombre": "LOZANO Cristian"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16801",
-        "nombre": "CARRETERO Carla"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLGALÍ PROMESES 'C'",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

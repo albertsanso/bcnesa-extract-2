@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ ''B''",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Sènior",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Sènior",
+      "nombre": "CTT CASTELLGALÍ ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11235",
-        "nombre": "FRINCU Danut Marian"
-      },
-      "B": {
-        "licencia": "11189",
-        "nombre": "ORTEGA Antonio"
-      },
-      "C": {
-        "licencia": "15058",
-        "nombre": "GUERRERO Eduard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
@@ -55,6 +41,20 @@
         "licencia": "946",
         "nombre": "PEIRIS Enrique"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11235",
+        "nombre": "FRINCU Danut Marian"
+      },
+      "B": {
+        "licencia": "11189",
+        "nombre": "ORTEGA Antonio"
+      },
+      "C": {
+        "licencia": "15058",
+        "nombre": "GUERRERO Eduard"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11235",
-        "nombre": "FRINCU Danut Marian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11235",
+        "nombre": "FRINCU Danut Marian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11189",
-        "nombre": "ORTEGA Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11189",
+        "nombre": "ORTEGA Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15058",
-        "nombre": "GUERRERO Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "946",
         "nombre": "PEIRIS Enrique"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "11235",
-        "nombre": "FRINCU Danut Marian"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "2441",
-        "nombre": "ALVAREZ Jose Maria"
+        "letra": "C",
+        "licencia": "15058",
+        "nombre": "GUERRERO Eduard"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2441",
+        "nombre": "ALVAREZ Jose Maria"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11235",
+        "nombre": "FRINCU Danut Marian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15058",
-        "nombre": "GUERRERO Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15058",
+        "nombre": "GUERRERO Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11189",
-        "nombre": "ORTEGA Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "946",
         "nombre": "PEIRIS Enrique"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11189",
+        "nombre": "ORTEGA Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUIRZE DEL VALLÈS - Sènior",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

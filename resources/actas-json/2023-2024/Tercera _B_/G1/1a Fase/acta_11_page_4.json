@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA \"C\"",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "CTT ELS AMICS TERRASSA \"C\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17207",
-        "nombre": "ALBA Francesc Marc"
-      },
-      "B": {
-        "licencia": "16769",
-        "nombre": "VAZQUEZ Alvaro"
-      },
-      "C": {
-        "licencia": "15030",
-        "nombre": "CRUZ Geroni"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18307",
         "nombre": "AGUILERA Cristina"
@@ -55,6 +41,20 @@
         "licencia": "17700",
         "nombre": "ARXER Maria Del Mar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
+      },
+      "B": {
+        "licencia": "16769",
+        "nombre": "VAZQUEZ Alvaro"
+      },
+      "C": {
+        "licencia": "15030",
+        "nombre": "CRUZ Geroni"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17207",
-        "nombre": "ALBA Francesc Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18307",
         "nombre": "AGUILERA Cristina"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16769",
-        "nombre": "VAZQUEZ Alvaro"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4492",
-        "nombre": "PRAT Jaume"
+        "letra": "A",
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4492",
+        "nombre": "PRAT Jaume"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16769",
+        "nombre": "VAZQUEZ Alvaro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15030",
-        "nombre": "CRUZ Geroni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17700",
         "nombre": "ARXER Maria Del Mar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15030",
+        "nombre": "CRUZ Geroni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17207",
-        "nombre": "ALBA Francesc Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4492",
         "nombre": "PRAT Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15030",
-        "nombre": "CRUZ Geroni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18307",
         "nombre": "AGUILERA Cristina"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15030",
+        "nombre": "CRUZ Geroni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16769",
-        "nombre": "VAZQUEZ Alvaro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17700",
         "nombre": "ARXER Maria Del Mar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16769",
+        "nombre": "VAZQUEZ Alvaro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT RUBI",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

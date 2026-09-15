@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16552",
-        "nombre": "PUIGJANER Ferran"
-      },
-      "B": {
-        "licencia": "622",
-        "nombre": "OTERO Fernando"
-      },
-      "C": {
-        "licencia": "7328",
-        "nombre": "PIQUER Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8075",
         "nombre": "GIL Antonio"
@@ -55,20 +41,24 @@
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      },
+      "B": {
+        "licencia": "622",
+        "nombre": "OTERO Fernando"
+      },
+      "C": {
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "622",
-        "nombre": "OTERO Fernando"
-      },
-      {
-        "licencia": "7328",
-        "nombre": "PIQUER Carlos"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
@@ -76,6 +66,16 @@
       {
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "622",
+        "nombre": "OTERO Fernando"
+      },
+      {
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16552",
-        "nombre": "PUIGJANER Ferran"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8075",
         "nombre": "GIL Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "622",
-        "nombre": "OTERO Fernando"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "622",
+        "nombre": "OTERO Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7328",
-        "nombre": "PIQUER Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16552",
-        "nombre": "PUIGJANER Ferran"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7328",
-        "nombre": "PIQUER Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8075",
         "nombre": "GIL Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "622",
-        "nombre": "OTERO Fernando"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "622",
+        "nombre": "OTERO Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "622",
-            "nombre": "OTERO Fernando"
-          },
-          {
-            "licencia": "7328",
-            "nombre": "PIQUER Carlos"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "2299",
             "nombre": "IBAÑEZ Jordi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "622",
+            "nombre": "OTERO Fernando"
+          },
+          {
+            "licencia": "7328",
+            "nombre": "PIQUER Carlos"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

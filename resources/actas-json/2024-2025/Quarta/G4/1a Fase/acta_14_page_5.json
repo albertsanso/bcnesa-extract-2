@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANTA PERPETUA",
+      "nombre": "CN SABADELL \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN SABADELL \"A\"",
+      "nombre": "CTT SANTA PERPETUA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "B": {
-        "licencia": "18936",
-        "nombre": "MARTINEZ Joaquim"
-      },
-      "C": {
-        "licencia": "19004",
-        "nombre": "LOPEZ Iker"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18029",
         "nombre": "POYATOS Pau"
@@ -55,6 +41,20 @@
         "licencia": "18076",
         "nombre": "SILVESTRE Marta"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
+      "B": {
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      },
+      "C": {
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18029",
         "nombre": "POYATOS Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18936",
-        "nombre": "MARTINEZ Joaquim"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15556",
         "nombre": "LLONCH Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,14 +114,64 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "18076",
+        "nombre": "SILVESTRE Marta"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "19004",
         "nombre": "LOPEZ Iker"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15556",
+        "nombre": "LLONCH Roger"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "18076",
-        "nombre": "SILVESTRE Marta"
+        "letra": "A",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "18029",
+        "nombre": "POYATOS Pau"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,57 +181,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15556",
-        "nombre": "LLONCH Roger"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "19004",
-        "nombre": "LOPEZ Iker"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "18029",
-        "nombre": "POYATOS Pau"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
         "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18936",
-        "nombre": "MARTINEZ Joaquim"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18076",
         "nombre": "SILVESTRE Marta"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANTA PERPETUA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

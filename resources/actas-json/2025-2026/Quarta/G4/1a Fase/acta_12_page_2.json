@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "CTT SANTA P. FECOSAUTO 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANTA P. FECOSAUTO 'A'",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17395",
-        "nombre": "CACHADIÑA Pau"
-      },
-      "B": {
-        "licencia": "18169",
-        "nombre": "FERRER Amador Demba"
-      },
-      "C": {
-        "licencia": "17571",
-        "nombre": "MARANGI Valentina"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17204",
         "nombre": "CAÑADAS Antonio Javier"
@@ -55,6 +41,20 @@
         "licencia": "19003",
         "nombre": "LOPEZ Miguel Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17395",
+        "nombre": "CACHADIÑA Pau"
+      },
+      "B": {
+        "licencia": "18169",
+        "nombre": "FERRER Amador Demba"
+      },
+      "C": {
+        "licencia": "17571",
+        "nombre": "MARANGI Valentina"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17395",
-        "nombre": "CACHADIÑA Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17204",
         "nombre": "CAÑADAS Antonio Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17395",
+        "nombre": "CACHADIÑA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18169",
-        "nombre": "FERRER Amador Demba"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17604",
         "nombre": "CANILLAS Jose Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18169",
+        "nombre": "FERRER Amador Demba"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17571",
-        "nombre": "MARANGI Valentina"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19003",
         "nombre": "LOPEZ Miguel Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17571",
+        "nombre": "MARANGI Valentina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17395",
-        "nombre": "CACHADIÑA Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17604",
         "nombre": "CANILLAS Jose Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17395",
+        "nombre": "CACHADIÑA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17571",
-        "nombre": "MARANGI Valentina"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17204",
         "nombre": "CAÑADAS Antonio Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17571",
+        "nombre": "MARANGI Valentina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18169",
-        "nombre": "FERRER Amador Demba"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18936",
         "nombre": "MARTINEZ Joaquim"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18169",
+        "nombre": "FERRER Amador Demba"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANTA P. FECOSAUTO 'A'",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

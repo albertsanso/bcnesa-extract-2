@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA 'B'",
+      "nombre": "ALIANÇA LLIÇÀ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ALIANÇA LLIÇÀ",
+      "nombre": "LLUÏSOS DE GRÀCIA 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19170",
-        "nombre": "MACARULLA Blai"
-      },
-      "B": {
-        "licencia": "21171",
-        "nombre": "VICENTE Pablo"
-      },
-      "C": {
-        "licencia": "6165",
-        "nombre": "SALCEDO Raul"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "20153",
         "nombre": "ARGEMÍ Ferran"
@@ -55,6 +41,20 @@
         "licencia": "7634",
         "nombre": "CANADELL Eloi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19170",
+        "nombre": "MACARULLA Blai"
+      },
+      "B": {
+        "licencia": "21171",
+        "nombre": "VICENTE Pablo"
+      },
+      "C": {
+        "licencia": "6165",
+        "nombre": "SALCEDO Raul"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19170",
-        "nombre": "MACARULLA Blai"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20153",
         "nombre": "ARGEMÍ Ferran"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19170",
+        "nombre": "MACARULLA Blai"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "21171",
-        "nombre": "VICENTE Pablo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "21260",
         "nombre": "TENDERO Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21171",
+        "nombre": "VICENTE Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6165",
-        "nombre": "SALCEDO Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7634",
         "nombre": "CANADELL Eloi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6165",
+        "nombre": "SALCEDO Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19170",
-        "nombre": "MACARULLA Blai"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "21260",
         "nombre": "TENDERO Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19170",
+        "nombre": "MACARULLA Blai"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6165",
-        "nombre": "SALCEDO Raul"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20153",
         "nombre": "ARGEMÍ Ferran"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6165",
+        "nombre": "SALCEDO Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "21171",
-        "nombre": "VICENTE Pablo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7634",
         "nombre": "CANADELL Eloi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21171",
+        "nombre": "VICENTE Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "ALIANÇA LLIÇÀ",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

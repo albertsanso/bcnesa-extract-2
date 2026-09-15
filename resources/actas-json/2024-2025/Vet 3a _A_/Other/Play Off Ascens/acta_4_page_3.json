@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
-      "B": {
-        "licencia": "16445",
-        "nombre": "ZHAO Yun"
-      },
-      "C": {
-        "licencia": "5454",
-        "nombre": "POYATOS Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6858",
         "nombre": "GUTIERREZ Juan Carlos"
@@ -55,20 +41,24 @@
         "licencia": "6184",
         "nombre": "GRAU Xavier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
+      "B": {
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
+      },
+      "C": {
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "5454",
-        "nombre": "POYATOS Xavier"
-      },
-      {
-        "licencia": "16445",
-        "nombre": "ZHAO Yun"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6858",
         "nombre": "GUTIERREZ Juan Carlos"
@@ -76,6 +66,16 @@
       {
         "licencia": "6110",
         "nombre": "JUAREZ Eduardo"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      {
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6858",
         "nombre": "GUTIERREZ Juan Carlos"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16445",
-        "nombre": "ZHAO Yun"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
+        "letra": "A",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5454",
-        "nombre": "POYATOS Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6184",
         "nombre": "GRAU Xavier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
+        "letra": "C",
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5454",
-        "nombre": "POYATOS Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6858",
         "nombre": "GUTIERREZ Juan Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16445",
-        "nombre": "ZHAO Yun"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6184",
         "nombre": "GRAU Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16445",
+        "nombre": "ZHAO Yun"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "5454",
-            "nombre": "POYATOS Xavier"
-          },
-          {
-            "licencia": "16445",
-            "nombre": "ZHAO Yun"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6858",
             "nombre": "GUTIERREZ Juan Carlos"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5454",
+            "nombre": "POYATOS Xavier"
+          },
+          {
+            "licencia": "16445",
+            "nombre": "ZHAO Yun"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "TT PARETS",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 15,
       "visitante": 15
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

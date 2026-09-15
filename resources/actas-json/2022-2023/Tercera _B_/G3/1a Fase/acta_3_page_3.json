@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT ELS JOVES CASTELLDEFELS ''B''",
+      "nombre": "ESCOLA CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ESCOLA CTT CASTELLDEFELS",
+      "nombre": "TT ELS JOVES CASTELLDEFELS ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14219",
-        "nombre": "COMPANY Antonio"
-      },
-      "B": {
-        "licencia": "15289",
-        "nombre": "GARCÍA Arnau"
-      },
-      "C": {
-        "licencia": "15287",
-        "nombre": "ORDÓÑEZ Joel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14928",
         "nombre": "SÁNCHEZ Leo"
@@ -55,20 +41,24 @@
         "licencia": "13638",
         "nombre": "GUTIÉRREZ Marc"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14219",
+        "nombre": "COMPANY Antonio"
+      },
+      "B": {
+        "licencia": "15289",
+        "nombre": "GARCÍA Arnau"
+      },
+      "C": {
+        "licencia": "15287",
+        "nombre": "ORDÓÑEZ Joel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15287",
-        "nombre": "ORDÓÑEZ Joel"
-      },
-      {
-        "licencia": "15289",
-        "nombre": "GARCÍA Arnau"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "14883",
         "nombre": "GONZÁLEZ Jan"
@@ -76,6 +66,16 @@
       {
         "licencia": "13638",
         "nombre": "GUTIÉRREZ Marc"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15287",
+        "nombre": "ORDÓÑEZ Joel"
+      },
+      {
+        "licencia": "15289",
+        "nombre": "GARCÍA Arnau"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14219",
-        "nombre": "COMPANY Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14928",
         "nombre": "SÁNCHEZ Leo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14219",
+        "nombre": "COMPANY Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15289",
-        "nombre": "GARCÍA Arnau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14883",
         "nombre": "GONZÁLEZ Jan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15289",
+        "nombre": "GARCÍA Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15287",
-        "nombre": "ORDÓÑEZ Joel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13638",
         "nombre": "GUTIÉRREZ Marc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15287",
+        "nombre": "ORDÓÑEZ Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14219",
-        "nombre": "COMPANY Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14883",
         "nombre": "GONZÁLEZ Jan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14219",
+        "nombre": "COMPANY Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15287",
-        "nombre": "ORDÓÑEZ Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14928",
         "nombre": "SÁNCHEZ Leo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15287",
+        "nombre": "ORDÓÑEZ Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15289",
-        "nombre": "GARCÍA Arnau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13638",
         "nombre": "GUTIÉRREZ Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15289",
+        "nombre": "GARCÍA Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15287",
-            "nombre": "ORDÓÑEZ Joel"
-          },
-          {
-            "licencia": "15289",
-            "nombre": "GARCÍA Arnau"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "14883",
             "nombre": "GONZÁLEZ Jan"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15287",
+            "nombre": "ORDÓÑEZ Joel"
+          },
+          {
+            "licencia": "15289",
+            "nombre": "GARCÍA Arnau"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "ESCOLA CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "ELS 8 DE LA GARRIGA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ELS 8 DE LA GARRIGA",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19122",
-        "nombre": "MARSÀ Pau"
-      },
-      "B": {
-        "licencia": "15485",
-        "nombre": "LOBERA Jordi"
-      },
-      "C": {
-        "licencia": "16833",
-        "nombre": "PALMER Jan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16536",
         "nombre": "CASASSAS Pau"
@@ -55,20 +41,24 @@
         "licencia": "10498",
         "nombre": "MONTAGUT Carles"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19122",
+        "nombre": "MARSÀ Pau"
+      },
+      "B": {
+        "licencia": "15485",
+        "nombre": "LOBERA Jordi"
+      },
+      "C": {
+        "licencia": "16833",
+        "nombre": "PALMER Jan"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "19122",
-        "nombre": "MARSÀ Pau"
-      },
-      {
-        "licencia": "15485",
-        "nombre": "LOBERA Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "338",
         "nombre": "GAVIN Antoni"
@@ -76,6 +66,16 @@
       {
         "licencia": "16536",
         "nombre": "CASASSAS Pau"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "19122",
+        "nombre": "MARSÀ Pau"
+      },
+      {
+        "licencia": "15485",
+        "nombre": "LOBERA Jordi"
       }
     ]
   },
@@ -85,89 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19122",
-        "nombre": "MARSÀ Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16536",
         "nombre": "CASASSAS Pau"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15485",
-        "nombre": "LOBERA Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16506",
-        "nombre": "SOLDEVILA Jan"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "16833",
-        "nombre": "PALMER Jan"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "10498",
-        "nombre": "MONTAGUT Carles"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "19122",
         "nombre": "MARSÀ Pau"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "16506",
-        "nombre": "SOLDEVILA Jan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +100,81 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16506",
+        "nombre": "SOLDEVILA Jan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15485",
+        "nombre": "LOBERA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "10498",
+        "nombre": "MONTAGUT Carles"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16833",
+        "nombre": "PALMER Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16506",
+        "nombre": "SOLDEVILA Jan"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19122",
+        "nombre": "MARSÀ Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16833",
-        "nombre": "PALMER Jan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16536",
         "nombre": "CASASSAS Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16833",
+        "nombre": "PALMER Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15485",
-        "nombre": "LOBERA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10498",
         "nombre": "MONTAGUT Carles"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15485",
+        "nombre": "LOBERA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "19122",
-            "nombre": "MARSÀ Pau"
-          },
-          {
-            "licencia": "15485",
-            "nombre": "LOBERA Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "338",
             "nombre": "GAVIN Antoni"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "19122",
+            "nombre": "MARSÀ Pau"
+          },
+          {
+            "licencia": "15485",
+            "nombre": "LOBERA Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "UE SANT CUGAT",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

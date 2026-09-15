@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANT ANDREU",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CC SANT ANDREU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "605",
-        "nombre": "GRIFOLL Xavier"
-      },
-      "B": {
-        "licencia": "217",
-        "nombre": "ROVELLO Antonio"
-      },
-      "C": {
-        "licencia": "2000",
-        "nombre": "ESCOLA Antoni"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8330",
         "nombre": "MARIMON Francisco Javie"
@@ -55,20 +41,24 @@
         "licencia": "8328",
         "nombre": "GIMENEZ Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "605",
+        "nombre": "GRIFOLL Xavier"
+      },
+      "B": {
+        "licencia": "217",
+        "nombre": "ROVELLO Antonio"
+      },
+      "C": {
+        "licencia": "2000",
+        "nombre": "ESCOLA Antoni"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "605",
-        "nombre": "GRIFOLL Xavier"
-      },
-      {
-        "licencia": "217",
-        "nombre": "ROVELLO Antonio"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8330",
         "nombre": "MARIMON Francisco Javie"
@@ -76,6 +66,16 @@
       {
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "605",
+        "nombre": "GRIFOLL Xavier"
+      },
+      {
+        "licencia": "217",
+        "nombre": "ROVELLO Antonio"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "605",
-        "nombre": "GRIFOLL Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8330",
         "nombre": "MARIMON Francisco Javie"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "217",
-        "nombre": "ROVELLO Antonio"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "149",
-        "nombre": "NOLIS Josep Mª"
+        "letra": "A",
+        "licencia": "605",
+        "nombre": "GRIFOLL Xavier"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "149",
+        "nombre": "NOLIS Josep Mª"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "217",
+        "nombre": "ROVELLO Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2000",
-        "nombre": "ESCOLA Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8328",
         "nombre": "GIMENEZ Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2000",
+        "nombre": "ESCOLA Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "605",
-        "nombre": "GRIFOLL Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "605",
+        "nombre": "GRIFOLL Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2000",
-        "nombre": "ESCOLA Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8330",
         "nombre": "MARIMON Francisco Javie"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2000",
+        "nombre": "ESCOLA Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "217",
-        "nombre": "ROVELLO Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8328",
         "nombre": "GIMENEZ Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "217",
+        "nombre": "ROVELLO Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "605",
-            "nombre": "GRIFOLL Xavier"
-          },
-          {
-            "licencia": "217",
-            "nombre": "ROVELLO Antonio"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8330",
             "nombre": "MARIMON Francisco Javie"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "605",
+            "nombre": "GRIFOLL Xavier"
+          },
+          {
+            "licencia": "217",
+            "nombre": "ROVELLO Antonio"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CC SANT ANDREU",
+    "ganador": "TITUS BADALONA",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

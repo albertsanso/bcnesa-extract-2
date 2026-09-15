@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TURRIS BADALONA",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "TURRIS BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14077",
-        "nombre": "NÚÑEZ Pol"
-      },
-      "B": {
-        "licencia": "16118",
-        "nombre": "LI Fa Quan"
-      },
-      "C": {
-        "licencia": "149",
-        "nombre": "NOLIS Josep Mª"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13105",
         "nombre": "VILA Guillem"
@@ -55,6 +41,20 @@
         "licencia": "12767",
         "nombre": "BENHARI Mohamed"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14077",
+        "nombre": "NÚÑEZ Pol"
+      },
+      "B": {
+        "licencia": "16118",
+        "nombre": "LI Fa Quan"
+      },
+      "C": {
+        "licencia": "149",
+        "nombre": "NOLIS Josep Mª"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14077",
-        "nombre": "NÚÑEZ Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13105",
         "nombre": "VILA Guillem"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14077",
+        "nombre": "NÚÑEZ Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16118",
-        "nombre": "LI Fa Quan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12081",
         "nombre": "GUTIERREZ Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16118",
+        "nombre": "LI Fa Quan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12081",
+        "nombre": "GUTIERREZ Angel"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "12767",
-        "nombre": "BENHARI Mohamed"
+        "letra": "A",
+        "licencia": "14077",
+        "nombre": "NÚÑEZ Pol"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14077",
-        "nombre": "NÚÑEZ Pol"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "12081",
-        "nombre": "GUTIERREZ Angel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "149",
-        "nombre": "NOLIS Josep Mª"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13105",
         "nombre": "VILA Guillem"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "149",
+        "nombre": "NOLIS Josep Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16118",
-        "nombre": "LI Fa Quan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12767",
         "nombre": "BENHARI Mohamed"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16118",
+        "nombre": "LI Fa Quan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "TURRIS BADALONA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 9
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

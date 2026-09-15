@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7896",
-        "nombre": "ALVAREZ Raul Gervasio"
-      },
-      "B": {
-        "licencia": "11170",
-        "nombre": "TOMAS David Jose"
-      },
-      "C": {
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "696",
         "nombre": "BARTOLÍ David"
@@ -55,20 +41,24 @@
         "licencia": "7597",
         "nombre": "SOLE Xavier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7896",
+        "nombre": "ALVAREZ Raul Gervasio"
+      },
+      "B": {
+        "licencia": "11170",
+        "nombre": "TOMAS David Jose"
+      },
+      "C": {
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "7896",
-        "nombre": "ALVAREZ Raul Gervasio"
-      },
-      {
-        "licencia": "11170",
-        "nombre": "TOMAS David Jose"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "696",
         "nombre": "BARTOLÍ David"
@@ -76,6 +66,16 @@
       {
         "licencia": "7597",
         "nombre": "SOLE Xavier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7896",
+        "nombre": "ALVAREZ Raul Gervasio"
+      },
+      {
+        "licencia": "11170",
+        "nombre": "TOMAS David Jose"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7896",
-        "nombre": "ALVAREZ Raul Gervasio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "696",
         "nombre": "BARTOLÍ David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7896",
+        "nombre": "ALVAREZ Raul Gervasio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11170",
-        "nombre": "TOMAS David Jose"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10201",
         "nombre": "MARI Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11170",
+        "nombre": "TOMAS David Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7597",
         "nombre": "SOLE Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7896",
-        "nombre": "ALVAREZ Raul Gervasio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10201",
         "nombre": "MARI Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7896",
+        "nombre": "ALVAREZ Raul Gervasio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6190",
-        "nombre": "SANCHEZ Jose Miguel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "696",
         "nombre": "BARTOLÍ David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6190",
+        "nombre": "SANCHEZ Jose Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11170",
-        "nombre": "TOMAS David Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7597",
         "nombre": "SOLE Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11170",
+        "nombre": "TOMAS David Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "7896",
-            "nombre": "ALVAREZ Raul Gervasio"
-          },
-          {
-            "licencia": "11170",
-            "nombre": "TOMAS David Jose"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "696",
             "nombre": "BARTOLÍ David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7896",
+            "nombre": "ALVAREZ Raul Gervasio"
+          },
+          {
+            "licencia": "11170",
+            "nombre": "TOMAS David Jose"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 16,
       "visitante": 16
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

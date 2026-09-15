@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "CTT L'AVENÇ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT L'AVENÇ",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15248",
-        "nombre": "VALLES Pau"
-      },
-      "B": {
-        "licencia": "14115",
-        "nombre": "SALES Jan"
-      },
-      "C": {
-        "licencia": "14828",
-        "nombre": "CUENCA Nicholas Manuel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "20714",
         "nombre": "VIGO Joan"
@@ -55,6 +41,20 @@
         "licencia": "11267",
         "nombre": "BORREGUERO Rafael"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15248",
+        "nombre": "VALLES Pau"
+      },
+      "B": {
+        "licencia": "14115",
+        "nombre": "SALES Jan"
+      },
+      "C": {
+        "licencia": "14828",
+        "nombre": "CUENCA Nicholas Manuel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15248",
-        "nombre": "VALLES Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20714",
         "nombre": "VIGO Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15248",
+        "nombre": "VALLES Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14115",
-        "nombre": "SALES Jan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8405",
         "nombre": "BARCELO Marcos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14115",
+        "nombre": "SALES Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14828",
-        "nombre": "CUENCA Nicholas Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11267",
         "nombre": "BORREGUERO Rafael"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14828",
+        "nombre": "CUENCA Nicholas Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15248",
-        "nombre": "VALLES Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8405",
         "nombre": "BARCELO Marcos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15248",
+        "nombre": "VALLES Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14828",
-        "nombre": "CUENCA Nicholas Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20714",
         "nombre": "VIGO Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14828",
+        "nombre": "CUENCA Nicholas Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14115",
-        "nombre": "SALES Jan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11267",
         "nombre": "BORREGUERO Rafael"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14115",
+        "nombre": "SALES Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT BARCELONA",
+    "ganador": "CTT L'AVENÇ",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

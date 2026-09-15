@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7837",
-        "nombre": "VAN BERGEN Patrik Joan"
-      },
-      "B": {
-        "licencia": "16315",
-        "nombre": "RODRIGUEZ Carla Zouyin"
-      },
-      "C": {
-        "licencia": "12852",
-        "nombre": "LIÑAN Jan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12768",
         "nombre": "BENHARI Ayoub"
@@ -55,6 +41,20 @@
         "licencia": "13625",
         "nombre": "GHOULA Said"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7837",
+        "nombre": "VAN BERGEN Patrik Joan"
+      },
+      "B": {
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      },
+      "C": {
+        "licencia": "12852",
+        "nombre": "LIÑAN Jan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7837",
-        "nombre": "VAN BERGEN Patrik Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12768",
         "nombre": "BENHARI Ayoub"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7837",
+        "nombre": "VAN BERGEN Patrik Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16315",
-        "nombre": "RODRIGUEZ Carla Zouyin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16459",
         "nombre": "MIESHCHERIAKOV Yarosla"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12852",
-        "nombre": "LIÑAN Jan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13625",
         "nombre": "GHOULA Said"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12852",
+        "nombre": "LIÑAN Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7837",
-        "nombre": "VAN BERGEN Patrik Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16459",
         "nombre": "MIESHCHERIAKOV Yarosla"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7837",
+        "nombre": "VAN BERGEN Patrik Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12852",
-        "nombre": "LIÑAN Jan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12768",
         "nombre": "BENHARI Ayoub"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12852",
+        "nombre": "LIÑAN Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16315",
-        "nombre": "RODRIGUEZ Carla Zouyin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13625",
         "nombre": "GHOULA Said"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT TORELLÓ",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

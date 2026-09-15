@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
-      },
-      "B": {
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
-      "C": {
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "114",
         "nombre": "NAVARRO Juan"
@@ -55,6 +41,20 @@
         "licencia": "612",
         "nombre": "BALLESTA Lluis Carles"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
+      },
+      "B": {
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
+      "C": {
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "114",
         "nombre": "NAVARRO Juan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "69",
         "nombre": "VILARO Joan Mª"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "612",
         "nombre": "BALLESTA Lluis Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "69",
         "nombre": "VILARO Joan Mª"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "114",
         "nombre": "NAVARRO Juan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "612",
-        "nombre": "BALLESTA Lluis Carles"
+        "letra": "C",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "612",
+        "nombre": "BALLESTA Lluis Carles"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

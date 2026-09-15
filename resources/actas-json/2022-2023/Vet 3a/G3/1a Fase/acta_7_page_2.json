@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      "B": {
-        "licencia": "5620",
-        "nombre": "MENDOZA Alejandro"
-      },
-      "C": {
-        "licencia": "14937",
-        "nombre": "MARTINEZ Susana"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3205",
         "nombre": "RODRIGUEZ Mª Jose"
@@ -55,20 +41,24 @@
         "licencia": "7652",
         "nombre": "SANCHEZ Fernando"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      },
+      "B": {
+        "licencia": "5620",
+        "nombre": "MENDOZA Alejandro"
+      },
+      "C": {
+        "licencia": "14937",
+        "nombre": "MARTINEZ Susana"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      {
-        "licencia": "5620",
-        "nombre": "MENDOZA Alejandro"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "2485",
         "nombre": "BRETONES Francisco"
@@ -76,6 +66,16 @@
       {
         "licencia": "7652",
         "nombre": "SANCHEZ Fernando"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      },
+      {
+        "licencia": "5620",
+        "nombre": "MENDOZA Alejandro"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "3205",
+        "nombre": "RODRIGUEZ Mª Jose"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "16872",
         "nombre": "BELIZÓN Gonzalo"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2485",
+        "nombre": "BRETONES Francisco"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "3205",
-        "nombre": "RODRIGUEZ Mª Jose"
+        "letra": "B",
+        "licencia": "5620",
+        "nombre": "MENDOZA Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7652",
+        "nombre": "SANCHEZ Fernando"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14937",
+        "nombre": "MARTINEZ Susana"
       },
       "sets": [],
       "resultado_juegos": {
@@ -102,47 +152,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 2
       }
     },
     {
-      "numero": 2,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs X",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5620",
-        "nombre": "MENDOZA Alejandro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2485",
         "nombre": "BRETONES Francisco"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "14937",
-        "nombre": "MARTINEZ Susana"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "7652",
-        "nombre": "SANCHEZ Fernando"
+        "letra": "A",
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -151,33 +176,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "2485",
-        "nombre": "BRETONES Francisco"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14937",
-        "nombre": "MARTINEZ Susana"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3205",
         "nombre": "RODRIGUEZ Mª Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14937",
+        "nombre": "MARTINEZ Susana"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5620",
-        "nombre": "MENDOZA Alejandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7652",
         "nombre": "SANCHEZ Fernando"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5620",
+        "nombre": "MENDOZA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16872",
-            "nombre": "BELIZÓN Gonzalo"
-          },
-          {
-            "licencia": "5620",
-            "nombre": "MENDOZA Alejandro"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "2485",
             "nombre": "BRETONES Francisco"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16872",
+            "nombre": "BELIZÓN Gonzalo"
+          },
+          {
+            "licencia": "5620",
+            "nombre": "MENDOZA Alejandro"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

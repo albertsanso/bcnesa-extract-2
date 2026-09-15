@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12258",
-        "nombre": "ARCOS Candela"
-      },
-      "B": {
-        "licencia": "13743",
-        "nombre": "COLOMINAS Ivet"
-      },
-      "C": {
-        "licencia": "10220",
-        "nombre": "PLAZA Francisco José"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13506",
         "nombre": "HERNANDO Marc"
@@ -55,20 +41,24 @@
         "licencia": "16756",
         "nombre": "RUBIO Gerard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12258",
+        "nombre": "ARCOS Candela"
+      },
+      "B": {
+        "licencia": "13743",
+        "nombre": "COLOMINAS Ivet"
+      },
+      "C": {
+        "licencia": "10220",
+        "nombre": "PLAZA Francisco José"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "12258",
-        "nombre": "ARCOS Candela"
-      },
-      {
-        "licencia": "13743",
-        "nombre": "COLOMINAS Ivet"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13506",
         "nombre": "HERNANDO Marc"
@@ -76,6 +66,16 @@
       {
         "licencia": "16756",
         "nombre": "RUBIO Gerard"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12258",
+        "nombre": "ARCOS Candela"
+      },
+      {
+        "licencia": "13743",
+        "nombre": "COLOMINAS Ivet"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12258",
-        "nombre": "ARCOS Candela"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13506",
         "nombre": "HERNANDO Marc"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13743",
-        "nombre": "COLOMINAS Ivet"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18139",
-        "nombre": "FREITAS Humbert"
+        "letra": "A",
+        "licencia": "12258",
+        "nombre": "ARCOS Candela"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18139",
+        "nombre": "FREITAS Humbert"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13743",
+        "nombre": "COLOMINAS Ivet"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10220",
-        "nombre": "PLAZA Francisco José"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16756",
         "nombre": "RUBIO Gerard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10220",
+        "nombre": "PLAZA Francisco José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12258",
-        "nombre": "ARCOS Candela"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18139",
         "nombre": "FREITAS Humbert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12258",
+        "nombre": "ARCOS Candela"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10220",
-        "nombre": "PLAZA Francisco José"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13506",
         "nombre": "HERNANDO Marc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10220",
+        "nombre": "PLAZA Francisco José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13743",
-        "nombre": "COLOMINAS Ivet"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16756",
         "nombre": "RUBIO Gerard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13743",
+        "nombre": "COLOMINAS Ivet"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "12258",
-            "nombre": "ARCOS Candela"
-          },
-          {
-            "licencia": "13743",
-            "nombre": "COLOMINAS Ivet"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13506",
             "nombre": "HERNANDO Marc"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12258",
+            "nombre": "ARCOS Candela"
+          },
+          {
+            "licencia": "13743",
+            "nombre": "COLOMINAS Ivet"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

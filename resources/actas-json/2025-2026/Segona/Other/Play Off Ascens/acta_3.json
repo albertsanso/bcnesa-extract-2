@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "B": {
-        "licencia": "19470",
-        "nombre": "SALA Gerard"
-      },
-      "C": {
-        "licencia": "8286",
-        "nombre": "GONZALEZ Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14810",
         "nombre": "GONZALEZ David"
@@ -55,6 +41,20 @@
         "licencia": "7095",
         "nombre": "PICAS Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
+      "B": {
+        "licencia": "19470",
+        "nombre": "SALA Gerard"
+      },
+      "C": {
+        "licencia": "8286",
+        "nombre": "GONZALEZ Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14810",
         "nombre": "GONZALEZ David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19470",
-        "nombre": "SALA Gerard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17553",
         "nombre": "CANALS Abel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19470",
+        "nombre": "SALA Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8286",
-        "nombre": "GONZALEZ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7095",
         "nombre": "PICAS Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8286",
+        "nombre": "GONZALEZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17553",
         "nombre": "CANALS Abel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8286",
-        "nombre": "GONZALEZ Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14810",
         "nombre": "GONZALEZ David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8286",
+        "nombre": "GONZALEZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19470",
-        "nombre": "SALA Gerard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7095",
         "nombre": "PICAS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19470",
+        "nombre": "SALA Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT BARCELONA",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

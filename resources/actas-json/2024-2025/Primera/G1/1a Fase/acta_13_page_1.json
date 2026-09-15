@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT COLLBATO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT COLLBATO",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16281",
-        "nombre": "ZHAO Ángel"
-      },
-      "B": {
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      },
-      "C": {
-        "licencia": "14883",
-        "nombre": "GONZÁLEZ Jan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13214",
         "nombre": "CASCANTE Josep Maria"
@@ -55,20 +41,24 @@
         "licencia": "509",
         "nombre": "GOTSENS Enric"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      },
+      "B": {
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
+      "C": {
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16281",
-        "nombre": "ZHAO Ángel"
-      },
-      {
-        "licencia": "14883",
-        "nombre": "GONZÁLEZ Jan"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13214",
         "nombre": "CASCANTE Josep Maria"
@@ -76,6 +66,16 @@
       {
         "licencia": "16294",
         "nombre": "CUADROS Roberto"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      },
+      {
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16281",
-        "nombre": "ZHAO Ángel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13214",
         "nombre": "CASCANTE Josep Maria"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16294",
-        "nombre": "CUADROS Roberto"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "14883",
-        "nombre": "GONZÁLEZ Jan"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "509",
-        "nombre": "GOTSENS Enric"
+        "letra": "A",
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,22 +102,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16281",
-        "nombre": "ZHAO Ángel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16294",
         "nombre": "CUADROS Roberto"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +125,56 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "509",
+        "nombre": "GOTSENS Enric"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16294",
+        "nombre": "CUADROS Roberto"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14883",
-        "nombre": "GONZÁLEZ Jan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13214",
         "nombre": "CASCANTE Josep Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14883",
+        "nombre": "GONZÁLEZ Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "918",
-        "nombre": "RECHES Ivan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "509",
         "nombre": "GOTSENS Enric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "918",
+        "nombre": "RECHES Ivan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16281",
-            "nombre": "ZHAO Ángel"
-          },
-          {
-            "licencia": "14883",
-            "nombre": "GONZÁLEZ Jan"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13214",
             "nombre": "CASCANTE Josep Maria"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16281",
+            "nombre": "ZHAO Ángel"
+          },
+          {
+            "licencia": "14883",
+            "nombre": "GONZÁLEZ Jan"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT COLLBATO",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

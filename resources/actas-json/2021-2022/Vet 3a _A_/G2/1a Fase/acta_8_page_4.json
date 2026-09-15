@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT JOSEP M. PALES",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALES",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "B": {
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      },
-      "C": {
-        "licencia": "4594",
-        "nombre": "PORTET Josep Mª"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7192",
         "nombre": "TASCON Armando"
@@ -55,6 +41,20 @@
         "licencia": "6518",
         "nombre": "SJOBERG Olov"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "B": {
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      },
+      "C": {
+        "licencia": "4594",
+        "nombre": "PORTET Josep Mª"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7192",
         "nombre": "TASCON Armando"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4979",
         "nombre": "RIBERA Victor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4594",
-        "nombre": "PORTET Josep Mª"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6518",
         "nombre": "SJOBERG Olov"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4979",
-        "nombre": "RIBERA Victor"
+        "letra": "C",
+        "licencia": "4594",
+        "nombre": "PORTET Josep Mª"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4979",
+        "nombre": "RIBERA Victor"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4594",
-        "nombre": "PORTET Josep Mª"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7192",
         "nombre": "TASCON Armando"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4594",
+        "nombre": "PORTET Josep Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6518",
         "nombre": "SJOBERG Olov"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

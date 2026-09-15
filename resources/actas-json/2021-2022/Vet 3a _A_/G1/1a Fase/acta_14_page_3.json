@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "508",
-        "nombre": "GARCIA-ROJAS Ramon Juan"
-      },
-      "B": {
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
-      "C": {
-        "licencia": "591",
-        "nombre": "GUILLEN Joan Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
@@ -55,6 +41,20 @@
         "licencia": "2351",
         "nombre": "EVANO Pascal"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
+      "B": {
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
+      "C": {
+        "licencia": "591",
+        "nombre": "GUILLEN Joan Miquel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "508",
-        "nombre": "GARCIA-ROJAS Ramon Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "624",
-        "nombre": "GIRBAU David"
+        "letra": "A",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "624",
+        "nombre": "GIRBAU David"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "591",
-        "nombre": "GUILLEN Joan Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2351",
         "nombre": "EVANO Pascal"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "591",
+        "nombre": "GUILLEN Joan Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "508",
-        "nombre": "GARCIA-ROJAS Ramon Juan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "624",
         "nombre": "GIRBAU David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "508",
+        "nombre": "GARCIA-ROJAS Ramon Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "591",
-        "nombre": "GUILLEN Joan Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "591",
+        "nombre": "GUILLEN Joan Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2351",
         "nombre": "EVANO Pascal"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CERCLE TT GRÀCIA",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

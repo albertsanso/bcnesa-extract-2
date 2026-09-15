@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13758",
-        "nombre": "CALLEJON Christian"
-      },
-      "B": {
-        "licencia": "11286",
-        "nombre": "ZHANG Zhiquan"
-      },
-      "C": {
-        "licencia": "13765",
-        "nombre": "ARAUJO Ismael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2409",
         "nombre": "BUXEDA Joan"
@@ -55,6 +41,20 @@
         "licencia": "6041",
         "nombre": "AGUILA Iago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13758",
+        "nombre": "CALLEJON Christian"
+      },
+      "B": {
+        "licencia": "11286",
+        "nombre": "ZHANG Zhiquan"
+      },
+      "C": {
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13758",
-        "nombre": "CALLEJON Christian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2409",
         "nombre": "BUXEDA Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13758",
+        "nombre": "CALLEJON Christian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11286",
-        "nombre": "ZHANG Zhiquan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7242",
         "nombre": "CASADO Yeray"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11286",
+        "nombre": "ZHANG Zhiquan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "6041",
+        "nombre": "AGUILA Iago"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "13765",
         "nombre": "ARAUJO Ismael"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7242",
+        "nombre": "CASADO Yeray"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "6041",
-        "nombre": "AGUILA Iago"
+        "letra": "A",
+        "licencia": "13758",
+        "nombre": "CALLEJON Christian"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "13758",
-        "nombre": "CALLEJON Christian"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "7242",
-        "nombre": "CASADO Yeray"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13765",
-        "nombre": "ARAUJO Ismael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2409",
         "nombre": "BUXEDA Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11286",
-        "nombre": "ZHANG Zhiquan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6041",
         "nombre": "AGUILA Iago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11286",
+        "nombre": "ZHANG Zhiquan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "UE SANT CUGAT",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 8
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

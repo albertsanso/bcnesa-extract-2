@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT COLLBATO",
+      "nombre": "TT PRAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PRAT",
+      "nombre": "CTT COLLBATO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13214",
-        "nombre": "CASCANTE Josep Maria"
-      },
-      "B": {
-        "licencia": "818",
-        "nombre": "FERNÁNDEZ Sergi"
-      },
-      "C": {
-        "licencia": "16294",
-        "nombre": "CUADROS Roberto"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "842",
         "nombre": "RUIZ Amador"
@@ -55,6 +41,20 @@
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13214",
+        "nombre": "CASCANTE Josep Maria"
+      },
+      "B": {
+        "licencia": "818",
+        "nombre": "FERNÁNDEZ Sergi"
+      },
+      "C": {
+        "licencia": "16294",
+        "nombre": "CUADROS Roberto"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13214",
-        "nombre": "CASCANTE Josep Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "842",
         "nombre": "RUIZ Amador"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13214",
+        "nombre": "CASCANTE Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "818",
-        "nombre": "FERNÁNDEZ Sergi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5638",
         "nombre": "RABADAN Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "818",
+        "nombre": "FERNÁNDEZ Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16294",
-        "nombre": "CUADROS Roberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16294",
+        "nombre": "CUADROS Roberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13214",
-        "nombre": "CASCANTE Josep Maria"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5638",
         "nombre": "RABADAN Luis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13214",
+        "nombre": "CASCANTE Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16294",
-        "nombre": "CUADROS Roberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "842",
         "nombre": "RUIZ Amador"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16294",
+        "nombre": "CUADROS Roberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "818",
-        "nombre": "FERNÁNDEZ Sergi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "818",
+        "nombre": "FERNÁNDEZ Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PRAT",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

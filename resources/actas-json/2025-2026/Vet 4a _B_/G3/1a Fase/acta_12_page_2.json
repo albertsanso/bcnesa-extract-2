@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANTA P. FECOSAUTO",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT SANTA P. FECOSAUTO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "B": {
-        "licencia": "14565",
-        "nombre": "MATTSSON Tony Michael"
-      },
-      "C": {
-        "licencia": "18936",
-        "nombre": "MARTINEZ Joaquim"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
@@ -55,6 +41,20 @@
         "licencia": "20996",
         "nombre": "ORTEGA Ricardo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
+      "B": {
+        "licencia": "14565",
+        "nombre": "MATTSSON Tony Michael"
+      },
+      "C": {
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14565",
-        "nombre": "MATTSSON Tony Michael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16556",
         "nombre": "SANCHEZ-RICO Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14565",
+        "nombre": "MATTSSON Tony Michael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18936",
-        "nombre": "MARTINEZ Joaquim"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20996",
         "nombre": "ORTEGA Ricardo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16556",
         "nombre": "SANCHEZ-RICO Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18936",
-        "nombre": "MARTINEZ Joaquim"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14565",
-        "nombre": "MATTSSON Tony Michael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20996",
         "nombre": "ORTEGA Ricardo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14565",
+        "nombre": "MATTSSON Tony Michael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANTA P. FECOSAUTO",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 3
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

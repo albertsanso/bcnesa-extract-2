@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14578",
-        "nombre": "GARCIA Santiago"
-      },
-      "B": {
-        "licencia": "809",
-        "nombre": "RIVERA Jordi"
-      },
-      "C": {
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3332",
         "nombre": "CARBO Jose Mª"
@@ -55,6 +41,20 @@
         "licencia": "750",
         "nombre": "PEREZ Fabio Rodrigo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
+      "B": {
+        "licencia": "809",
+        "nombre": "RIVERA Jordi"
+      },
+      "C": {
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14578",
-        "nombre": "GARCIA Santiago"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3332",
         "nombre": "CARBO Jose Mª"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "809",
-        "nombre": "RIVERA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "809",
+        "nombre": "RIVERA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "750",
         "nombre": "PEREZ Fabio Rodrigo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14578",
-        "nombre": "GARCIA Santiago"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3332",
         "nombre": "CARBO Jose Mª"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "809",
-        "nombre": "RIVERA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "750",
         "nombre": "PEREZ Fabio Rodrigo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "809",
+        "nombre": "RIVERA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 11
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

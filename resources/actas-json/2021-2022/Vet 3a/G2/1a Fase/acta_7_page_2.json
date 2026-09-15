@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7132",
-        "nombre": "GRACIA Rafael"
-      },
-      "B": {
-        "licencia": "8337",
-        "nombre": "BLANCO Alfons"
-      },
-      "C": {
-        "licencia": "6880",
-        "nombre": "COLET Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12801",
         "nombre": "CAMPS Jordi"
@@ -55,6 +41,20 @@
         "licencia": "12123",
         "nombre": "ANDREU Salvador"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7132",
+        "nombre": "GRACIA Rafael"
+      },
+      "B": {
+        "licencia": "8337",
+        "nombre": "BLANCO Alfons"
+      },
+      "C": {
+        "licencia": "6880",
+        "nombre": "COLET Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7132",
-        "nombre": "GRACIA Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12801",
         "nombre": "CAMPS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7132",
+        "nombre": "GRACIA Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8337",
-        "nombre": "BLANCO Alfons"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8390",
         "nombre": "LLOBET Oriol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8337",
+        "nombre": "BLANCO Alfons"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6880",
-        "nombre": "COLET Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12123",
         "nombre": "ANDREU Salvador"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6880",
+        "nombre": "COLET Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7132",
-        "nombre": "GRACIA Rafael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8390",
         "nombre": "LLOBET Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7132",
+        "nombre": "GRACIA Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6880",
-        "nombre": "COLET Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12801",
         "nombre": "CAMPS Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6880",
+        "nombre": "COLET Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8337",
-        "nombre": "BLANCO Alfons"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12123",
         "nombre": "ANDREU Salvador"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8337",
+        "nombre": "BLANCO Alfons"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

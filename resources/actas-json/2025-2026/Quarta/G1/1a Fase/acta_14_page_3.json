@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CPP IGUALADA 'B'",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CPP IGUALADA 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "21086",
-        "nombre": "BAÑOS Josep Maria"
-      },
-      "B": {
-        "licencia": "21085",
-        "nombre": "PUIG Ramon"
-      },
-      "C": {
-        "licencia": "21090",
-        "nombre": "GONZALEZ Jaime"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19808",
         "nombre": "GLANZ Alexander"
@@ -55,20 +41,24 @@
         "licencia": "18034",
         "nombre": "ROFES Sergi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "21086",
+        "nombre": "BAÑOS Josep Maria"
+      },
+      "B": {
+        "licencia": "21085",
+        "nombre": "PUIG Ramon"
+      },
+      "C": {
+        "licencia": "21090",
+        "nombre": "GONZALEZ Jaime"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "21090",
-        "nombre": "GONZALEZ Jaime"
-      },
-      {
-        "licencia": "21086",
-        "nombre": "BAÑOS Josep Maria"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "18034",
         "nombre": "ROFES Sergi"
@@ -76,6 +66,16 @@
       {
         "licencia": "19808",
         "nombre": "GLANZ Alexander"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "21090",
+        "nombre": "GONZALEZ Jaime"
+      },
+      {
+        "licencia": "21086",
+        "nombre": "BAÑOS Josep Maria"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "21086",
-        "nombre": "BAÑOS Josep Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19808",
         "nombre": "GLANZ Alexander"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "21085",
-        "nombre": "PUIG Ramon"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "20493",
-        "nombre": "FERNÁNDEZ Arnau"
+        "letra": "A",
+        "licencia": "21086",
+        "nombre": "BAÑOS Josep Maria"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "20493",
+        "nombre": "FERNÁNDEZ Arnau"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21085",
+        "nombre": "PUIG Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "21090",
-        "nombre": "GONZALEZ Jaime"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18034",
         "nombre": "ROFES Sergi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "21086",
-        "nombre": "BAÑOS Josep Maria"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "20493",
-        "nombre": "FERNÁNDEZ Arnau"
+        "letra": "C",
+        "licencia": "21090",
+        "nombre": "GONZALEZ Jaime"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "20493",
+        "nombre": "FERNÁNDEZ Arnau"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "21086",
+        "nombre": "BAÑOS Josep Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "21090",
-        "nombre": "GONZALEZ Jaime"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19808",
         "nombre": "GLANZ Alexander"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "21090",
+        "nombre": "GONZALEZ Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "21085",
-        "nombre": "PUIG Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18034",
         "nombre": "ROFES Sergi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21085",
+        "nombre": "PUIG Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "21090",
-            "nombre": "GONZALEZ Jaime"
-          },
-          {
-            "licencia": "21086",
-            "nombre": "BAÑOS Josep Maria"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "18034",
             "nombre": "ROFES Sergi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "21090",
+            "nombre": "GONZALEZ Jaime"
+          },
+          {
+            "licencia": "21086",
+            "nombre": "BAÑOS Josep Maria"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

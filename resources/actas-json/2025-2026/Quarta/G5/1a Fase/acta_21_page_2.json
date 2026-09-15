@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "FALCONS SABADELL A.E. 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FALCONS SABADELL A.E. 'B'",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19943",
-        "nombre": "BLANCO Jose Luís"
-      },
-      "B": {
-        "licencia": "20361",
-        "nombre": "VERDEGUER Domingo"
-      },
-      "C": {
-        "licencia": "17849",
-        "nombre": "ELVIRA Joel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19294",
         "nombre": "CUYAS Xavi"
@@ -55,6 +41,20 @@
         "licencia": "14307",
         "nombre": "TRALLERO Ona"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19943",
+        "nombre": "BLANCO Jose Luís"
+      },
+      "B": {
+        "licencia": "20361",
+        "nombre": "VERDEGUER Domingo"
+      },
+      "C": {
+        "licencia": "17849",
+        "nombre": "ELVIRA Joel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19943",
-        "nombre": "BLANCO Jose Luís"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19294",
         "nombre": "CUYAS Xavi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19943",
+        "nombre": "BLANCO Jose Luís"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "20361",
-        "nombre": "VERDEGUER Domingo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14384",
         "nombre": "CAYELLAS Carla"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20361",
+        "nombre": "VERDEGUER Domingo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17849",
-        "nombre": "ELVIRA Joel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14307",
         "nombre": "TRALLERO Ona"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17849",
+        "nombre": "ELVIRA Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19943",
-        "nombre": "BLANCO Jose Luís"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14384",
         "nombre": "CAYELLAS Carla"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19943",
+        "nombre": "BLANCO Jose Luís"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17849",
-        "nombre": "ELVIRA Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19294",
         "nombre": "CUYAS Xavi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17849",
+        "nombre": "ELVIRA Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "20361",
-        "nombre": "VERDEGUER Domingo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14307",
         "nombre": "TRALLERO Ona"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20361",
+        "nombre": "VERDEGUER Domingo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS SABADELL A.E. 'B'",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

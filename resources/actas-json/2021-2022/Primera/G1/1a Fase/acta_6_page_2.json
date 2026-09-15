@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA POBLA DE LILLET",
+      "nombre": "SURIS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "SURIS CALELLA",
+      "nombre": "CTT LA POBLA DE LILLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4492",
-        "nombre": "PRAT Jaume"
-      },
-      "B": {
-        "licencia": "5410",
-        "nombre": "GALIAN Roger"
-      },
-      "C": {
-        "licencia": "1680",
-        "nombre": "PONS Lluis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7264",
         "nombre": "SANCHEZ Lluc"
@@ -55,6 +41,20 @@
         "licencia": "2030",
         "nombre": "SANCHEZ Josep"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4492",
+        "nombre": "PRAT Jaume"
+      },
+      "B": {
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
+      "C": {
+        "licencia": "1680",
+        "nombre": "PONS Lluis"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4492",
-        "nombre": "PRAT Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7264",
         "nombre": "SANCHEZ Lluc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4492",
+        "nombre": "PRAT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5410",
-        "nombre": "GALIAN Roger"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1680",
-        "nombre": "PONS Lluis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2030",
         "nombre": "SANCHEZ Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1680",
+        "nombre": "PONS Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4492",
-        "nombre": "PRAT Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14195",
         "nombre": "PETRAGUE Alain"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4492",
+        "nombre": "PRAT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1680",
-        "nombre": "PONS Lluis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7264",
         "nombre": "SANCHEZ Lluc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1680",
+        "nombre": "PONS Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5410",
-        "nombre": "GALIAN Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2030",
         "nombre": "SANCHEZ Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "SURIS CALELLA",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

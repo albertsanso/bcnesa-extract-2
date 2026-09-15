@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MOLLET 2002 TT 'B'",
+      "nombre": "CTT ELS AMICS TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA",
+      "nombre": "MOLLET 2002 TT 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6961",
-        "nombre": "MUÑOZ Jose"
-      },
-      "B": {
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "C": {
-        "licencia": "16801",
-        "nombre": "CARRETERO Carla"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16429",
         "nombre": "ARIS Marti"
@@ -55,20 +41,24 @@
         "licencia": "16389",
         "nombre": "CARRERA Adrià"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6961",
+        "nombre": "MUÑOZ Jose"
+      },
+      "B": {
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "C": {
+        "licencia": "16801",
+        "nombre": "CARRETERO Carla"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6961",
-        "nombre": "MUÑOZ Jose"
-      },
-      {
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16627",
         "nombre": "FERNANDEZ Abel"
@@ -76,6 +66,16 @@
       {
         "licencia": "16389",
         "nombre": "CARRERA Adrià"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6961",
+        "nombre": "MUÑOZ Jose"
+      },
+      {
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6961",
-        "nombre": "MUÑOZ Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16429",
         "nombre": "ARIS Marti"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16627",
-        "nombre": "FERNANDEZ Abel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "16801",
-        "nombre": "CARRETERO Carla"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16389",
-        "nombre": "CARRERA Adrià"
+        "letra": "A",
+        "licencia": "6961",
+        "nombre": "MUÑOZ Jose"
       },
       "sets": [],
       "resultado_juegos": {
@@ -151,23 +101,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6961",
-        "nombre": "MUÑOZ Jose"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16627",
         "nombre": "FERNANDEZ Abel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +125,56 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16389",
+        "nombre": "CARRERA Adrià"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16801",
+        "nombre": "CARRETERO Carla"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16627",
+        "nombre": "FERNANDEZ Abel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6961",
+        "nombre": "MUÑOZ Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16801",
-        "nombre": "CARRETERO Carla"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16429",
         "nombre": "ARIS Marti"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16801",
+        "nombre": "CARRETERO Carla"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16389",
         "nombre": "CARRERA Adrià"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6961",
-            "nombre": "MUÑOZ Jose"
-          },
-          {
-            "licencia": "16953",
-            "nombre": "GARCIA Raul"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16627",
             "nombre": "FERNANDEZ Abel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6961",
+            "nombre": "MUÑOZ Jose"
+          },
+          {
+            "licencia": "16953",
+            "nombre": "GARCIA Raul"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT 'B'",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

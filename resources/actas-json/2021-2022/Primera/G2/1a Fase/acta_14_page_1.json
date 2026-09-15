@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RODA DE TER",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "CTT RODA DE TER",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12122",
-        "nombre": "LLASTANÓS Alex"
-      },
-      "B": {
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
-      "C": {
-        "licencia": "7639",
-        "nombre": "OLIVA Alberto"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
@@ -55,20 +41,24 @@
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12122",
+        "nombre": "LLASTANÓS Alex"
+      },
+      "B": {
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
+      "C": {
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "12122",
-        "nombre": "LLASTANÓS Alex"
-      },
-      {
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "7545",
         "nombre": "SIMON Andreu"
@@ -76,6 +66,16 @@
       {
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12122",
+        "nombre": "LLASTANÓS Alex"
+      },
+      {
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12122",
-        "nombre": "LLASTANÓS Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7545",
-        "nombre": "SIMON Andreu"
+        "letra": "A",
+        "licencia": "12122",
+        "nombre": "LLASTANÓS Alex"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7545",
+        "nombre": "SIMON Andreu"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7639",
-        "nombre": "OLIVA Alberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12122",
-        "nombre": "LLASTANÓS Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7545",
         "nombre": "SIMON Andreu"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12122",
+        "nombre": "LLASTANÓS Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7639",
-        "nombre": "OLIVA Alberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7639",
+        "nombre": "OLIVA Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5029",
         "nombre": "GIRALT Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "12122",
-            "nombre": "LLASTANÓS Alex"
-          },
-          {
-            "licencia": "8584",
-            "nombre": "BLANCAFORT Jaume"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "7545",
             "nombre": "SIMON Andreu"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12122",
+            "nombre": "LLASTANÓS Alex"
+          },
+          {
+            "licencia": "8584",
+            "nombre": "BLANCAFORT Jaume"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RODA DE TER",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 14
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

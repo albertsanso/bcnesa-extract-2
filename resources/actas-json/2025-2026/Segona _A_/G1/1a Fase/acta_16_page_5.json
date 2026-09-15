@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "696",
-        "nombre": "BARTOLÍ David"
-      },
-      "B": {
-        "licencia": "4532",
-        "nombre": "SANCHEZ Guillem"
-      },
-      "C": {
-        "licencia": "10201",
-        "nombre": "MARI Roger"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1114",
         "nombre": "MARTÍNEZ Àlex"
@@ -55,6 +41,20 @@
         "licencia": "7852",
         "nombre": "RUIZ Juan Jesus"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "696",
+        "nombre": "BARTOLÍ David"
+      },
+      "B": {
+        "licencia": "4532",
+        "nombre": "SANCHEZ Guillem"
+      },
+      "C": {
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "696",
-        "nombre": "BARTOLÍ David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1114",
         "nombre": "MARTÍNEZ Àlex"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "4532",
-        "nombre": "SANCHEZ Guillem"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17719",
-        "nombre": "GUZMAN Christian"
+        "letra": "A",
+        "licencia": "696",
+        "nombre": "BARTOLÍ David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17719",
+        "nombre": "GUZMAN Christian"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4532",
+        "nombre": "SANCHEZ Guillem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10201",
-        "nombre": "MARI Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7852",
         "nombre": "RUIZ Juan Jesus"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "696",
-        "nombre": "BARTOLÍ David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17719",
         "nombre": "GUZMAN Christian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "696",
+        "nombre": "BARTOLÍ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10201",
-        "nombre": "MARI Roger"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1114",
         "nombre": "MARTÍNEZ Àlex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4532",
-        "nombre": "SANCHEZ Guillem"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7852",
         "nombre": "RUIZ Juan Jesus"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4532",
+        "nombre": "SANCHEZ Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANTS",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

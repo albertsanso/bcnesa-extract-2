@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "SURIS CALELLA",
+      "nombre": "CN MATARÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN MATARÓ",
+      "nombre": "SURIS CALELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13743",
-        "nombre": "COLOMINAS Ivet"
-      },
-      "B": {
-        "licencia": "12258",
-        "nombre": "ARCOS Candela"
-      },
-      "C": {
-        "licencia": "12259",
-        "nombre": "ARCOS Lola"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13641",
         "nombre": "ARCOS Adrià"
@@ -55,6 +41,20 @@
         "licencia": "11537",
         "nombre": "MATARÓ Isaac"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13743",
+        "nombre": "COLOMINAS Ivet"
+      },
+      "B": {
+        "licencia": "12258",
+        "nombre": "ARCOS Candela"
+      },
+      "C": {
+        "licencia": "12259",
+        "nombre": "ARCOS Lola"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13743",
-        "nombre": "COLOMINAS Ivet"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13641",
         "nombre": "ARCOS Adrià"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13743",
+        "nombre": "COLOMINAS Ivet"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12258",
-        "nombre": "ARCOS Candela"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13071",
         "nombre": "RESPALDO Ruben"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12258",
+        "nombre": "ARCOS Candela"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12259",
-        "nombre": "ARCOS Lola"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11537",
         "nombre": "MATARÓ Isaac"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12259",
+        "nombre": "ARCOS Lola"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13743",
-        "nombre": "COLOMINAS Ivet"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13071",
         "nombre": "RESPALDO Ruben"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13743",
+        "nombre": "COLOMINAS Ivet"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12259",
-        "nombre": "ARCOS Lola"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13641",
         "nombre": "ARCOS Adrià"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12259",
+        "nombre": "ARCOS Lola"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12258",
-        "nombre": "ARCOS Candela"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11537",
         "nombre": "MATARÓ Isaac"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12258",
+        "nombre": "ARCOS Candela"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN MATARÓ",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

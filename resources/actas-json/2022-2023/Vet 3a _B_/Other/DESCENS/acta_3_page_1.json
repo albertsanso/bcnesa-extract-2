@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet C",
+      "nombre": "CTT JOSEP M. PALES",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALES",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet C",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      },
-      "B": {
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
-      "C": {
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4994",
         "nombre": "AMOUROUX Patrice M. Xa"
@@ -55,6 +41,20 @@
         "licencia": "6518",
         "nombre": "SJOBERG Olov"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
+      "B": {
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      "C": {
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4994",
         "nombre": "AMOUROUX Patrice M. Xa"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7192",
         "nombre": "TASCON Armando"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6518",
         "nombre": "SJOBERG Olov"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7192",
-        "nombre": "TASCON Armando"
+        "letra": "C",
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,48 +130,23 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "11340",
-        "nombre": "ROMERO Gabriel"
+        "letra": "X",
+        "licencia": "7192",
+        "nombre": "TASCON Armando"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "4994",
-        "nombre": "AMOUROUX Patrice M. Xa"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6518",
-        "nombre": "SJOBERG Olov"
+        "letra": "A",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "4994",
+        "nombre": "AMOUROUX Patrice M. Xa"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11340",
+        "nombre": "ROMERO Gabriel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6518",
+        "nombre": "SJOBERG Olov"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT JOSEP M. PALES",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

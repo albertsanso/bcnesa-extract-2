@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CPP IGUALADA ''A''",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "CPP IGUALADA ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14197",
-        "nombre": "PIÑAR Ricard"
-      },
-      "B": {
-        "licencia": "11298",
-        "nombre": "LUCO Guillem"
-      },
-      "C": {
-        "licencia": "582",
-        "nombre": "BERTRAN Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13179",
         "nombre": "GRAS Joan"
@@ -55,6 +41,20 @@
         "licencia": "13166",
         "nombre": "CARO David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
+      "B": {
+        "licencia": "11298",
+        "nombre": "LUCO Guillem"
+      },
+      "C": {
+        "licencia": "582",
+        "nombre": "BERTRAN Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14197",
-        "nombre": "PIÑAR Ricard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13179",
         "nombre": "GRAS Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11298",
-        "nombre": "LUCO Guillem"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13162",
         "nombre": "RUSCA Domingo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11298",
+        "nombre": "LUCO Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "582",
-        "nombre": "BERTRAN Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13166",
         "nombre": "CARO David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "582",
+        "nombre": "BERTRAN Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14197",
-        "nombre": "PIÑAR Ricard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13162",
         "nombre": "RUSCA Domingo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14197",
+        "nombre": "PIÑAR Ricard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "582",
-        "nombre": "BERTRAN Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13179",
         "nombre": "GRAS Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "582",
+        "nombre": "BERTRAN Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11298",
-        "nombre": "LUCO Guillem"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13166",
         "nombre": "CARO David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11298",
+        "nombre": "LUCO Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CPP IGUALADA ''A''",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

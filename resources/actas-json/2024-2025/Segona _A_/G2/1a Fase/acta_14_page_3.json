@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "93",
-        "nombre": "PUIG Jaume"
-      },
-      "B": {
-        "licencia": "14422",
-        "nombre": "TORROJA Jordi"
-      },
-      "C": {
-        "licencia": "11244",
-        "nombre": "VILALTA Agusti"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1161",
         "nombre": "CORTES Jonathan"
@@ -55,20 +41,24 @@
         "licencia": "674",
         "nombre": "LOPEZ Manolo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "93",
+        "nombre": "PUIG Jaume"
+      },
+      "B": {
+        "licencia": "14422",
+        "nombre": "TORROJA Jordi"
+      },
+      "C": {
+        "licencia": "11244",
+        "nombre": "VILALTA Agusti"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "93",
-        "nombre": "PUIG Jaume"
-      },
-      {
-        "licencia": "11244",
-        "nombre": "VILALTA Agusti"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "210",
         "nombre": "CAPARROS Agustín"
@@ -76,6 +66,16 @@
       {
         "licencia": "1161",
         "nombre": "CORTES Jonathan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "93",
+        "nombre": "PUIG Jaume"
+      },
+      {
+        "licencia": "11244",
+        "nombre": "VILALTA Agusti"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "93",
-        "nombre": "PUIG Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1161",
         "nombre": "CORTES Jonathan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14422",
-        "nombre": "TORROJA Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "210",
-        "nombre": "CAPARROS Agustín"
+        "letra": "A",
+        "licencia": "93",
+        "nombre": "PUIG Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "210",
+        "nombre": "CAPARROS Agustín"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14422",
+        "nombre": "TORROJA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11244",
-        "nombre": "VILALTA Agusti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "674",
         "nombre": "LOPEZ Manolo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11244",
+        "nombre": "VILALTA Agusti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "93",
-        "nombre": "PUIG Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "210",
         "nombre": "CAPARROS Agustín"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "93",
+        "nombre": "PUIG Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11244",
-        "nombre": "VILALTA Agusti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1161",
         "nombre": "CORTES Jonathan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11244",
+        "nombre": "VILALTA Agusti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14422",
-        "nombre": "TORROJA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "674",
         "nombre": "LOPEZ Manolo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14422",
+        "nombre": "TORROJA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "93",
-            "nombre": "PUIG Jaume"
-          },
-          {
-            "licencia": "11244",
-            "nombre": "VILALTA Agusti"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "210",
             "nombre": "CAPARROS Agustín"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "93",
+            "nombre": "PUIG Jaume"
+          },
+          {
+            "licencia": "11244",
+            "nombre": "VILALTA Agusti"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''A''",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "TT L'HOSPITALET ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12483",
-        "nombre": "DOMINGUEZ Pablo"
-      },
-      "B": {
-        "licencia": "17511",
-        "nombre": "ROMANIUK Anatolii"
-      },
-      "C": {
-        "licencia": "6017",
-        "nombre": "SOLSONA Eduard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
@@ -55,6 +41,20 @@
         "licencia": "857",
         "nombre": "TOR Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12483",
+        "nombre": "DOMINGUEZ Pablo"
+      },
+      "B": {
+        "licencia": "17511",
+        "nombre": "ROMANIUK Anatolii"
+      },
+      "C": {
+        "licencia": "6017",
+        "nombre": "SOLSONA Eduard"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12483",
-        "nombre": "DOMINGUEZ Pablo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17511",
-        "nombre": "ROMANIUK Anatolii"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
+        "letra": "A",
+        "licencia": "12483",
+        "nombre": "DOMINGUEZ Pablo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17511",
+        "nombre": "ROMANIUK Anatolii"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,14 +114,89 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "857",
+        "nombre": "TOR Jordi"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "6017",
         "nombre": "SOLSONA Eduard"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
       "visitante": {
+        "letra": "A",
+        "licencia": "12483",
+        "nombre": "DOMINGUEZ Pablo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6017",
+        "nombre": "SOLSONA Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
         "letra": "Z",
         "licencia": "857",
         "nombre": "TOR Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17511",
+        "nombre": "ROMANIUK Anatolii"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,92 +206,20 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "12483",
-        "nombre": "DOMINGUEZ Pablo"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "6017",
-        "nombre": "SOLSONA Eduard"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "17511",
-        "nombre": "ROMANIUK Anatolii"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "857",
-        "nombre": "TOR Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET ''A''",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 12
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

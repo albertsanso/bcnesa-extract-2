@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10065",
-        "nombre": "JIMENEZ Ricardo"
-      },
-      "B": {
-        "licencia": "998",
-        "nombre": "QUESADA Ruben"
-      },
-      "C": {
-        "licencia": "17698",
-        "nombre": "ESCOFET Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19311",
         "nombre": "RAMIREZ Oscar"
@@ -55,20 +41,24 @@
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10065",
+        "nombre": "JIMENEZ Ricardo"
+      },
+      "B": {
+        "licencia": "998",
+        "nombre": "QUESADA Ruben"
+      },
+      "C": {
+        "licencia": "17698",
+        "nombre": "ESCOFET Jordi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "998",
-        "nombre": "QUESADA Ruben"
-      },
-      {
-        "licencia": "10065",
-        "nombre": "JIMENEZ Ricardo"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16664",
         "nombre": "SOLER Marcel"
@@ -76,6 +66,16 @@
       {
         "licencia": "19311",
         "nombre": "RAMIREZ Oscar"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "998",
+        "nombre": "QUESADA Ruben"
+      },
+      {
+        "licencia": "10065",
+        "nombre": "JIMENEZ Ricardo"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10065",
-        "nombre": "JIMENEZ Ricardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19311",
         "nombre": "RAMIREZ Oscar"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "998",
-        "nombre": "QUESADA Ruben"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16664",
-        "nombre": "SOLER Marcel"
+        "letra": "A",
+        "licencia": "10065",
+        "nombre": "JIMENEZ Ricardo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16664",
+        "nombre": "SOLER Marcel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "998",
+        "nombre": "QUESADA Ruben"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17698",
-        "nombre": "ESCOFET Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17698",
+        "nombre": "ESCOFET Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10065",
-        "nombre": "JIMENEZ Ricardo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16664",
         "nombre": "SOLER Marcel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10065",
+        "nombre": "JIMENEZ Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17698",
-        "nombre": "ESCOFET Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19311",
         "nombre": "RAMIREZ Oscar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17698",
+        "nombre": "ESCOFET Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "998",
-        "nombre": "QUESADA Ruben"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "998",
+        "nombre": "QUESADA Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "998",
-            "nombre": "QUESADA Ruben"
-          },
-          {
-            "licencia": "10065",
-            "nombre": "JIMENEZ Ricardo"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16664",
             "nombre": "SOLER Marcel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "998",
+            "nombre": "QUESADA Ruben"
+          },
+          {
+            "licencia": "10065",
+            "nombre": "JIMENEZ Ricardo"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RUBI",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

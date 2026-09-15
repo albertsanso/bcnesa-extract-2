@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO ''A''",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "EL CIERVO ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "557",
-        "nombre": "VILLORO Xavier"
-      },
-      "B": {
-        "licencia": "7559",
-        "nombre": "GUASCH Josep"
-      },
-      "C": {
-        "licencia": "199",
-        "nombre": "CASTELLS Francesc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "856",
         "nombre": "MARTINEZ Ignasi"
@@ -55,6 +41,20 @@
         "licencia": "692",
         "nombre": "CAMPOS Oscar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "B": {
+        "licencia": "7559",
+        "nombre": "GUASCH Josep"
+      },
+      "C": {
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "557",
-        "nombre": "VILLORO Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "856",
         "nombre": "MARTINEZ Ignasi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7559",
-        "nombre": "GUASCH Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "734",
         "nombre": "GIBERT Francesc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7559",
+        "nombre": "GUASCH Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "199",
-        "nombre": "CASTELLS Francesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "692",
         "nombre": "CAMPOS Oscar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "557",
-        "nombre": "VILLORO Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "734",
         "nombre": "GIBERT Francesc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "199",
-        "nombre": "CASTELLS Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "856",
         "nombre": "MARTINEZ Ignasi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7559",
-        "nombre": "GUASCH Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "692",
         "nombre": "CAMPOS Oscar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7559",
+        "nombre": "GUASCH Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

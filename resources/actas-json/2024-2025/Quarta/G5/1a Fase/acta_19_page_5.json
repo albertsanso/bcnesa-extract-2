@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN MATARÓ",
+      "nombre": "MOLLET 2002 TT ''C''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT ''C''",
+      "nombre": "CN MATARÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16791",
-        "nombre": "SÁEZ Hiram"
-      },
-      "B": {
-        "licencia": "15599",
-        "nombre": "SÁNCHEZ Pau"
-      },
-      "C": {
-        "licencia": "15596",
-        "nombre": "NEYRA Gorka"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
@@ -55,6 +41,20 @@
         "licencia": "16953",
         "nombre": "GARCIA Raul"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16791",
+        "nombre": "SÁEZ Hiram"
+      },
+      "B": {
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      },
+      "C": {
+        "licencia": "15596",
+        "nombre": "NEYRA Gorka"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16791",
-        "nombre": "SÁEZ Hiram"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16791",
+        "nombre": "SÁEZ Hiram"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15599",
-        "nombre": "SÁNCHEZ Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5427",
         "nombre": "BERNAL Martin"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15596",
-        "nombre": "NEYRA Gorka"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16953",
         "nombre": "GARCIA Raul"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15596",
+        "nombre": "NEYRA Gorka"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16791",
-        "nombre": "SÁEZ Hiram"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5427",
         "nombre": "BERNAL Martin"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16791",
+        "nombre": "SÁEZ Hiram"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15596",
-        "nombre": "NEYRA Gorka"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15596",
+        "nombre": "NEYRA Gorka"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15599",
-        "nombre": "SÁNCHEZ Pau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16953",
         "nombre": "GARCIA Raul"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15599",
+        "nombre": "SÁNCHEZ Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN MATARÓ",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 0
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 0,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

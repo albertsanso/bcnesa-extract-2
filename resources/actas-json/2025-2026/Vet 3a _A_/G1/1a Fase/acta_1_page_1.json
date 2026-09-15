@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "B": {
-        "licencia": "8330",
-        "nombre": "MARIMON Francisco Javier"
-      },
-      "C": {
-        "licencia": "6224",
-        "nombre": "PONS Ramon"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6269",
         "nombre": "RAMOS Antoni"
@@ -55,20 +41,24 @@
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "B": {
+        "licencia": "8330",
+        "nombre": "MARIMON Francisco Javier"
+      },
+      "C": {
+        "licencia": "6224",
+        "nombre": "PONS Ramon"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      {
-        "licencia": "8330",
-        "nombre": "MARIMON Francisco Javier"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6269",
         "nombre": "RAMOS Antoni"
@@ -76,6 +66,16 @@
       {
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      {
+        "licencia": "8330",
+        "nombre": "MARIMON Francisco Javier"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6269",
         "nombre": "RAMOS Antoni"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8330",
-        "nombre": "MARIMON Francisco Javier"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "10582",
-        "nombre": "PARDELL Ernest"
+        "letra": "A",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "10582",
+        "nombre": "PARDELL Ernest"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8330",
+        "nombre": "MARIMON Francisco Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6224",
-        "nombre": "PONS Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6224",
+        "nombre": "PONS Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10582",
         "nombre": "PARDELL Ernest"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6224",
-        "nombre": "PONS Ramon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6269",
         "nombre": "RAMOS Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6224",
+        "nombre": "PONS Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8330",
-        "nombre": "MARIMON Francisco Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8330",
+        "nombre": "MARIMON Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8328",
-            "nombre": "GIMENEZ Angel"
-          },
-          {
-            "licencia": "8330",
-            "nombre": "MARIMON Francisco Javier"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6269",
             "nombre": "RAMOS Antoni"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8328",
+            "nombre": "GIMENEZ Angel"
+          },
+          {
+            "licencia": "8330",
+            "nombre": "MARIMON Francisco Javier"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANT FELIU DE CODINES",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet C",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS - Vet C",
+      "nombre": "CTT SANT FELIU DE CODINES",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "554",
-        "nombre": "ROCA Jordi"
-      },
-      "B": {
-        "licencia": "2314",
-        "nombre": "BARRERA Julia"
-      },
-      "C": {
-        "licencia": "616",
-        "nombre": "BACHS David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10109",
         "nombre": "ROYO Jordi"
@@ -55,6 +41,20 @@
         "licencia": "3003",
         "nombre": "ADELL Eduard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "554",
+        "nombre": "ROCA Jordi"
+      },
+      "B": {
+        "licencia": "2314",
+        "nombre": "BARRERA Julia"
+      },
+      "C": {
+        "licencia": "616",
+        "nombre": "BACHS David"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "554",
-        "nombre": "ROCA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10109",
         "nombre": "ROYO Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "554",
+        "nombre": "ROCA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "2314",
-        "nombre": "BARRERA Julia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1770",
         "nombre": "MILLERA Carlos"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "616",
-        "nombre": "BACHS David"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "3003",
-        "nombre": "ADELL Eduard"
+        "letra": "B",
+        "licencia": "2314",
+        "nombre": "BARRERA Julia"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "3003",
+        "nombre": "ADELL Eduard"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "616",
+        "nombre": "BACHS David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "554",
-        "nombre": "ROCA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1770",
         "nombre": "MILLERA Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "554",
+        "nombre": "ROCA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "616",
-        "nombre": "BACHS David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10109",
         "nombre": "ROYO Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "616",
+        "nombre": "BACHS David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2314",
-        "nombre": "BARRERA Julia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3003",
         "nombre": "ADELL Eduard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2314",
+        "nombre": "BARRERA Julia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT FELIU DE CODINES",
     "marcador_partidos": {
-      "local": 16,
+      "local": 1,
       "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

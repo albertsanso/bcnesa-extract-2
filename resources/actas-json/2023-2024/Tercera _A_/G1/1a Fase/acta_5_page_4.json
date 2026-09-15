@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FOMENT MARTINENC-BARNY",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "FOMENT MARTINENC-BARNY",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "B": {
-        "licencia": "11204",
-        "nombre": "ORTÍ Francesc"
-      },
-      "C": {
-        "licencia": "12108",
-        "nombre": "SUBIRATS Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17751",
         "nombre": "VARELA Hugo"
@@ -55,6 +41,20 @@
         "licencia": "11389",
         "nombre": "MORENO Raúl"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
+      "B": {
+        "licencia": "11204",
+        "nombre": "ORTÍ Francesc"
+      },
+      "C": {
+        "licencia": "12108",
+        "nombre": "SUBIRATS Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "17751",
+        "nombre": "VARELA Hugo"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "13119",
         "nombre": "CARO Pablo"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17749",
+        "nombre": "MARTINEZ Roger"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "17751",
-        "nombre": "VARELA Hugo"
+        "letra": "B",
+        "licencia": "11204",
+        "nombre": "ORTÍ Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "11389",
+        "nombre": "MORENO Raúl"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12108",
+        "nombre": "SUBIRATS Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -81,47 +131,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 2
       }
     },
     {
-      "numero": 2,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs X",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11204",
-        "nombre": "ORTÍ Francesc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17749",
         "nombre": "MARTINEZ Roger"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12108",
-        "nombre": "SUBIRATS Jordi"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "11389",
-        "nombre": "MORENO Raúl"
+        "letra": "A",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "17749",
-        "nombre": "MARTINEZ Roger"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12108",
-        "nombre": "SUBIRATS Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17751",
         "nombre": "VARELA Hugo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12108",
+        "nombre": "SUBIRATS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11204",
-        "nombre": "ORTÍ Francesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11389",
         "nombre": "MORENO Raúl"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11204",
+        "nombre": "ORTÍ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FOMENT MARTINENC-BARNY",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      },
-      "B": {
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "C": {
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "142",
         "nombre": "PLAYÀ Josep Mª"
@@ -55,20 +41,24 @@
         "licencia": "1070",
         "nombre": "HUERTAS Ruben"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
+      },
+      "B": {
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
+      "C": {
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      {
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "1070",
         "nombre": "HUERTAS Ruben"
@@ -76,6 +66,16 @@
       {
         "licencia": "14259",
         "nombre": "BLANCO Alonso"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
+      {
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "142",
         "nombre": "PLAYÀ Josep Mª"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14259",
         "nombre": "BLANCO Alonso"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1070",
         "nombre": "HUERTAS Ruben"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14259",
         "nombre": "BLANCO Alonso"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "142",
         "nombre": "PLAYÀ Josep Mª"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1070",
         "nombre": "HUERTAS Ruben"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "13098",
-            "nombre": "CARDONA Eduard"
-          },
-          {
-            "licencia": "615",
-            "nombre": "VICENTE Marcos"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "1070",
             "nombre": "HUERTAS Ruben"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13098",
+            "nombre": "CARDONA Eduard"
+          },
+          {
+            "licencia": "615",
+            "nombre": "VICENTE Marcos"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 14,
       "visitante": 14
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

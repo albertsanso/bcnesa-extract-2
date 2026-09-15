@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "B": {
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      "C": {
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "418",
         "nombre": "COMELLAS Isidre"
@@ -55,6 +41,20 @@
         "licencia": "7119",
         "nombre": "ALONSO Juan Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "B": {
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
+      "C": {
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "418",
         "nombre": "COMELLAS Isidre"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6949",
         "nombre": "TARABAL Jaume"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7119",
         "nombre": "ALONSO Juan Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6949",
         "nombre": "TARABAL Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "418",
         "nombre": "COMELLAS Isidre"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7119",
         "nombre": "ALONSO Juan Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "TT PARETS",
     "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

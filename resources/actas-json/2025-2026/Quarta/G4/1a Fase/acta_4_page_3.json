@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ASS.E. DE PING PONG VIA TRAJANA",
+      "nombre": "CTT SANTA P. FECOSAUTO 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANTA P. FECOSAUTO 'A'",
+      "nombre": "ASS.E. DE PING PONG VIA TRAJANA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      "B": {
-        "licencia": "16454",
-        "nombre": "ARANDA Miguel Ángel"
-      },
-      "C": {
-        "licencia": "19073",
-        "nombre": "ARGÜELLES Cristian"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17204",
         "nombre": "CAÑADAS Antonio Javier"
@@ -55,6 +41,20 @@
         "licencia": "17604",
         "nombre": "CANILLAS Jose Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
+      },
+      "B": {
+        "licencia": "16454",
+        "nombre": "ARANDA Miguel Ángel"
+      },
+      "C": {
+        "licencia": "19073",
+        "nombre": "ARGÜELLES Cristian"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17204",
         "nombre": "CAÑADAS Antonio Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,14 +89,114 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "20606",
+        "nombre": "OLEA Antonio"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "16454",
         "nombre": "ARANDA Miguel Ángel"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "17604",
+        "nombre": "CANILLAS Jose Antonio"
+      },
       "visitante": {
+        "letra": "C",
+        "licencia": "19073",
+        "nombre": "ARGÜELLES Cristian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
         "letra": "X",
         "licencia": "20606",
         "nombre": "OLEA Antonio"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "17204",
+        "nombre": "CAÑADAS Antonio Javier"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19073",
+        "nombre": "ARGÜELLES Cristian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "17604",
+        "nombre": "CANILLAS Jose Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16454",
+        "nombre": "ARANDA Miguel Ángel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -106,117 +206,20 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "19073",
-        "nombre": "ARGÜELLES Cristian"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "17604",
-        "nombre": "CANILLAS Jose Antonio"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "20606",
-        "nombre": "OLEA Antonio"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "19073",
-        "nombre": "ARGÜELLES Cristian"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "17204",
-        "nombre": "CAÑADAS Antonio Javier"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "16454",
-        "nombre": "ARANDA Miguel Ángel"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "17604",
-        "nombre": "CANILLAS Jose Antonio"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ASS.E. DE PING PONG VIA TRAJANA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

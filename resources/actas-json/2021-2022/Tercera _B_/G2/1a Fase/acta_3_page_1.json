@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT GRANOLLERS ''B''",
+      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
+      "nombre": "CTT GRANOLLERS ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14913",
-        "nombre": "GARCIA Julio"
-      },
-      "B": {
-        "licencia": "14909",
-        "nombre": "ADELL Benjamí"
-      },
-      "C": {
-        "licencia": "14912",
-        "nombre": "CORNET Ramon"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15086",
         "nombre": "BAHUAUD Jean-francois"
@@ -55,6 +41,20 @@
         "licencia": "11248",
         "nombre": "GARCIA Victor"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14913",
+        "nombre": "GARCIA Julio"
+      },
+      "B": {
+        "licencia": "14909",
+        "nombre": "ADELL Benjamí"
+      },
+      "C": {
+        "licencia": "14912",
+        "nombre": "CORNET Ramon"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14913",
-        "nombre": "GARCIA Julio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15086",
         "nombre": "BAHUAUD Jean-francois"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14909",
-        "nombre": "ADELL Benjamí"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13542",
-        "nombre": "SAÑUDO Joel"
+        "letra": "A",
+        "licencia": "14913",
+        "nombre": "GARCIA Julio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13542",
+        "nombre": "SAÑUDO Joel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14909",
+        "nombre": "ADELL Benjamí"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14912",
-        "nombre": "CORNET Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11248",
         "nombre": "GARCIA Victor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14912",
+        "nombre": "CORNET Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14913",
-        "nombre": "GARCIA Julio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13542",
         "nombre": "SAÑUDO Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14913",
+        "nombre": "GARCIA Julio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14912",
-        "nombre": "CORNET Ramon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15086",
         "nombre": "BAHUAUD Jean-francois"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14912",
+        "nombre": "CORNET Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14909",
-        "nombre": "ADELL Benjamí"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11248",
         "nombre": "GARCIA Victor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14909",
+        "nombre": "ADELL Benjamí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILASSAR DE MAR L'OBRERA",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

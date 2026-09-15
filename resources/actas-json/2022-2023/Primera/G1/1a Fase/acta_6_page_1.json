@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ICELAND TT ELS 8 LA GARRIGA",
+      "nombre": "CTT VILANOVA DEL CAMI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA DEL CAMI",
+      "nombre": "ICELAND TT ELS 8 LA GARRIGA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      "B": {
-        "licencia": "8301",
-        "nombre": "CHICU Radu"
-      },
-      "C": {
-        "licencia": "338",
-        "nombre": "GAVIN Antoni"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5393",
         "nombre": "SALA David"
@@ -55,20 +41,24 @@
         "licencia": "3914",
         "nombre": "SANCHEZ Adrian"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
+      "B": {
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
+      },
+      "C": {
+        "licencia": "338",
+        "nombre": "GAVIN Antoni"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      {
-        "licencia": "8301",
-        "nombre": "CHICU Radu"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "5393",
         "nombre": "SALA David"
@@ -76,6 +66,16 @@
       {
         "licencia": "8346",
         "nombre": "PEREZ Javier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
+      {
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5393",
         "nombre": "SALA David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8301",
-        "nombre": "CHICU Radu"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8346",
         "nombre": "PEREZ Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "338",
-        "nombre": "GAVIN Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3914",
         "nombre": "SANCHEZ Adrian"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "338",
+        "nombre": "GAVIN Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7618",
-        "nombre": "GUINART Joel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8346",
         "nombre": "PEREZ Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7618",
+        "nombre": "GUINART Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "338",
-        "nombre": "GAVIN Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5393",
         "nombre": "SALA David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "338",
+        "nombre": "GAVIN Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8301",
-        "nombre": "CHICU Radu"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3914",
         "nombre": "SANCHEZ Adrian"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8301",
+        "nombre": "CHICU Radu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "7618",
-            "nombre": "GUINART Joel"
-          },
-          {
-            "licencia": "8301",
-            "nombre": "CHICU Radu"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "5393",
             "nombre": "SALA David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7618",
+            "nombre": "GUINART Joel"
+          },
+          {
+            "licencia": "8301",
+            "nombre": "CHICU Radu"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ICELAND TT ELS 8 LA GARRIGA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

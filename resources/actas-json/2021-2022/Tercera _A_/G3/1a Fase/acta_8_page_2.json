@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CTT ELS AMICS DE TERRASSA ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA ''A''",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8615",
-        "nombre": "PORTET Joaquim"
-      },
-      "B": {
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
-      },
-      "C": {
-        "licencia": "14061",
-        "nombre": "GONZÁLEZ Martina"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11391",
         "nombre": "CORDERO Martin"
@@ -55,20 +41,24 @@
         "licencia": "13340",
         "nombre": "SERRES Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
+      "B": {
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
+      "C": {
+        "licencia": "14061",
+        "nombre": "GONZÁLEZ Martina"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
-      },
-      {
-        "licencia": "8615",
-        "nombre": "PORTET Joaquim"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "9121",
         "nombre": "MIGUEL Jorge"
@@ -76,6 +66,16 @@
       {
         "licencia": "13340",
         "nombre": "SERRES Ramon"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
+      {
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8615",
-        "nombre": "PORTET Joaquim"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11391",
         "nombre": "CORDERO Martin"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "3953",
+      "visitante": {
+        "letra": "A",
+        "licencia": "8615",
         "nombre": "PORTET Joaquim"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "9121",
-        "nombre": "MIGUEL Jorge"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "14061",
-        "nombre": "GONZÁLEZ Martina"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
       },
       "sets": [],
       "resultado_juegos": {
@@ -151,8 +101,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "9121",
+        "nombre": "MIGUEL Jorge"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14061",
+        "nombre": "GONZÁLEZ Martina"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8615",
-        "nombre": "PORTET Joaquim"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "9121",
         "nombre": "MIGUEL Jorge"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8615",
+        "nombre": "PORTET Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14061",
-        "nombre": "GONZÁLEZ Martina"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11391",
         "nombre": "CORDERO Martin"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14061",
+        "nombre": "GONZÁLEZ Martina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3953",
-        "nombre": "PORTET Joaquim"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13340",
         "nombre": "SERRES Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3953",
+        "nombre": "PORTET Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "3953",
-            "nombre": "PORTET Joaquim"
-          },
-          {
-            "licencia": "8615",
-            "nombre": "PORTET Joaquim"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "9121",
             "nombre": "MIGUEL Jorge"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "3953",
+            "nombre": "PORTET Joaquim"
+          },
+          {
+            "licencia": "8615",
+            "nombre": "PORTET Joaquim"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA ''A''",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

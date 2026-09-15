@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''B''",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "TT L'HOSPITALET ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15482",
-        "nombre": "LIPARTELIANI Luka"
-      },
-      "B": {
-        "licencia": "4544",
-        "nombre": "ALVAREZ David"
-      },
-      "C": {
-        "licencia": "18783",
-        "nombre": "CRAMER David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13105",
         "nombre": "VILA Guillem"
@@ -55,20 +41,24 @@
         "licencia": "6277",
         "nombre": "OLIVA Santiago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15482",
+        "nombre": "LIPARTELIANI Luka"
+      },
+      "B": {
+        "licencia": "4544",
+        "nombre": "ALVAREZ David"
+      },
+      "C": {
+        "licencia": "18783",
+        "nombre": "CRAMER David"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "4544",
-        "nombre": "ALVAREZ David"
-      },
-      {
-        "licencia": "18783",
-        "nombre": "CRAMER David"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13105",
         "nombre": "VILA Guillem"
@@ -76,6 +66,16 @@
       {
         "licencia": "12768",
         "nombre": "BENHARI Ayoub"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "4544",
+        "nombre": "ALVAREZ David"
+      },
+      {
+        "licencia": "18783",
+        "nombre": "CRAMER David"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15482",
-        "nombre": "LIPARTELIANI Luka"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13105",
         "nombre": "VILA Guillem"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "4544",
-        "nombre": "ALVAREZ David"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12768",
-        "nombre": "BENHARI Ayoub"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "18783",
-        "nombre": "CRAMER David"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6277",
-        "nombre": "OLIVA Santiago"
+        "letra": "A",
+        "licencia": "15482",
+        "nombre": "LIPARTELIANI Luka"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,22 +102,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15482",
-        "nombre": "LIPARTELIANI Luka"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12768",
         "nombre": "BENHARI Ayoub"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4544",
+        "nombre": "ALVAREZ David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6277",
+        "nombre": "OLIVA Santiago"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18783",
+        "nombre": "CRAMER David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,8 +151,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12768",
+        "nombre": "BENHARI Ayoub"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15482",
+        "nombre": "LIPARTELIANI Luka"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18783",
-        "nombre": "CRAMER David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13105",
         "nombre": "VILA Guillem"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18783",
+        "nombre": "CRAMER David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4544",
-        "nombre": "ALVAREZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6277",
         "nombre": "OLIVA Santiago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4544",
+        "nombre": "ALVAREZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "4544",
-            "nombre": "ALVAREZ David"
-          },
-          {
-            "licencia": "18783",
-            "nombre": "CRAMER David"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13105",
             "nombre": "VILA Guillem"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "4544",
+            "nombre": "ALVAREZ David"
+          },
+          {
+            "licencia": "18783",
+            "nombre": "CRAMER David"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT TORELLÓ",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

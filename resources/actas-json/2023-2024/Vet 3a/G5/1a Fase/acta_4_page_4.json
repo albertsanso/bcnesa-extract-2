@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7153",
-        "nombre": "MARTINEZ DE MORENTIN Josep Ra"
-      },
-      "B": {
-        "licencia": "16903",
-        "nombre": "RAMENTOL David"
-      },
-      "C": {
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4650",
         "nombre": "MUÑOZ Andreu"
@@ -55,6 +41,20 @@
         "licencia": "13217",
         "nombre": "MARTINEZ Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7153",
+        "nombre": "MARTINEZ DE MORENTIN Josep Ra"
+      },
+      "B": {
+        "licencia": "16903",
+        "nombre": "RAMENTOL David"
+      },
+      "C": {
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "7153",
         "nombre": "MARTINEZ DE MORENTIN Josep Ra"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17157",
+        "nombre": "PÉREZ Francesc"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
+        "letra": "B",
+        "licencia": "16903",
+        "nombre": "RAMENTOL David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13217",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -81,47 +131,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 2
       }
     },
     {
-      "numero": 2,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs X",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16903",
-        "nombre": "RAMENTOL David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17157",
         "nombre": "PÉREZ Francesc"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "13217",
-        "nombre": "MARTINEZ Francisco"
+        "letra": "A",
+        "licencia": "7153",
+        "nombre": "MARTINEZ DE MORENTIN Josep Ra"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "7153",
-        "nombre": "MARTINEZ DE MORENTIN Josep Ra"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "17157",
-        "nombre": "PÉREZ Francesc"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4650",
         "nombre": "MUÑOZ Andreu"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16903",
-        "nombre": "RAMENTOL David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13217",
         "nombre": "MARTINEZ Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16903",
+        "nombre": "RAMENTOL David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT BARCELONA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

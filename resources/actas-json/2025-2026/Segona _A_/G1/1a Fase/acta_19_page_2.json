@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      },
-      "B": {
-        "licencia": "9121",
-        "nombre": "MIGUEL Jorge"
-      },
-      "C": {
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1886",
         "nombre": "RABASA Antoni"
@@ -55,20 +41,24 @@
         "licencia": "6190",
         "nombre": "SANCHEZ Jose Miguel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
+      },
+      "B": {
+        "licencia": "9121",
+        "nombre": "MIGUEL Jorge"
+      },
+      "C": {
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      },
-      {
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "7328",
         "nombre": "PIQUER Carlos"
@@ -76,6 +66,16 @@
       {
         "licencia": "1886",
         "nombre": "RABASA Antoni"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
+      },
+      {
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1886",
         "nombre": "RABASA Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "9121",
-        "nombre": "MIGUEL Jorge"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7328",
         "nombre": "PIQUER Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "9121",
+        "nombre": "MIGUEL Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6190",
         "nombre": "SANCHEZ Jose Miguel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7328",
         "nombre": "PIQUER Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1886",
         "nombre": "RABASA Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "9121",
-        "nombre": "MIGUEL Jorge"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6190",
         "nombre": "SANCHEZ Jose Miguel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "9121",
+        "nombre": "MIGUEL Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "3163",
-            "nombre": "CODINA Joan Carles"
-          },
-          {
-            "licencia": "440",
-            "nombre": "SAPES Nuria"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "7328",
             "nombre": "PIQUER Carlos"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "3163",
+            "nombre": "CODINA Joan Carles"
+          },
+          {
+            "licencia": "440",
+            "nombre": "SAPES Nuria"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

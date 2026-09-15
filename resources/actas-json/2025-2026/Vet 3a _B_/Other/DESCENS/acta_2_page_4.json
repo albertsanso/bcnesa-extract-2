@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "77",
-        "nombre": "ESTRUCH Fausti"
-      },
-      "B": {
-        "licencia": "10101",
-        "nombre": "LLADÓ Albert"
-      },
-      "C": {
-        "licencia": "6924",
-        "nombre": "ROMERA Enric"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10582",
         "nombre": "PARDELL Ernest"
@@ -55,6 +41,20 @@
         "licencia": "370",
         "nombre": "PLA Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "77",
+        "nombre": "ESTRUCH Fausti"
+      },
+      "B": {
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      },
+      "C": {
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "77",
-        "nombre": "ESTRUCH Fausti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10582",
         "nombre": "PARDELL Ernest"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "77",
+        "nombre": "ESTRUCH Fausti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10101",
-        "nombre": "LLADÓ Albert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "267",
         "nombre": "INFANTE Isidro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6924",
-        "nombre": "ROMERA Enric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "370",
         "nombre": "PLA Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "77",
-        "nombre": "ESTRUCH Fausti"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "267",
         "nombre": "INFANTE Isidro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "77",
+        "nombre": "ESTRUCH Fausti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6924",
-        "nombre": "ROMERA Enric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10582",
         "nombre": "PARDELL Ernest"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10101",
-        "nombre": "LLADÓ Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "370",
         "nombre": "PLA Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10101",
+        "nombre": "LLADÓ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

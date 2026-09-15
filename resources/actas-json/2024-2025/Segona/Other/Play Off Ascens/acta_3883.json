@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen B",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen B",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3484",
-        "nombre": "FERRERA Carlos Augusto"
-      },
-      "B": {
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      },
-      "C": {
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6698",
         "nombre": "MARSAL Josep"
@@ -55,6 +41,20 @@
         "licencia": "123",
         "nombre": "LOPEZ Santiago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      },
+      "B": {
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
+      "C": {
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3484",
-        "nombre": "FERRERA Carlos Augusto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6698",
         "nombre": "MARSAL Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10777",
         "nombre": "CERVELLÓ Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "123",
         "nombre": "LOPEZ Santiago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3484",
-        "nombre": "FERRERA Carlos Augusto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10777",
         "nombre": "CERVELLÓ Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,14 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6698",
         "nombre": "MARSAL Josep"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +180,8 @@
       },
       "ganador": null,
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -189,14 +189,14 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "123",
         "nombre": "LOPEZ Santiago"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +205,21 @@
       },
       "ganador": null,
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ST QUIRZE DEL VALLÈS - Sen B",
     "marcador_partidos": {
-      "local": 12,
+      "local": 0,
       "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

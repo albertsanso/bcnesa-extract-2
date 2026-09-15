@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT ELS JOVES DE CASTELLDEFELS",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "TT ELS JOVES DE CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12036",
-        "nombre": "ROMO Pol"
-      },
-      "B": {
-        "licencia": "9145",
-        "nombre": "OBIOLS Pol"
-      },
-      "C": {
-        "licencia": "13535",
-        "nombre": "BENAVENT Nil"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16275",
         "nombre": "ALDEA Manel"
@@ -55,6 +41,20 @@
         "licencia": "947",
         "nombre": "GIMENEZ Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12036",
+        "nombre": "ROMO Pol"
+      },
+      "B": {
+        "licencia": "9145",
+        "nombre": "OBIOLS Pol"
+      },
+      "C": {
+        "licencia": "13535",
+        "nombre": "BENAVENT Nil"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12036",
-        "nombre": "ROMO Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16275",
         "nombre": "ALDEA Manel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12036",
+        "nombre": "ROMO Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "9145",
-        "nombre": "OBIOLS Pol"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10478",
         "nombre": "MESA Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "9145",
+        "nombre": "OBIOLS Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13535",
-        "nombre": "BENAVENT Nil"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "947",
         "nombre": "GIMENEZ Angel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "12036",
-        "nombre": "ROMO Pol"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "10478",
-        "nombre": "MESA Josep"
+        "letra": "C",
+        "licencia": "13535",
+        "nombre": "BENAVENT Nil"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "10478",
+        "nombre": "MESA Josep"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12036",
+        "nombre": "ROMO Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13535",
-        "nombre": "BENAVENT Nil"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16275",
         "nombre": "ALDEA Manel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13535",
+        "nombre": "BENAVENT Nil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "9145",
-        "nombre": "OBIOLS Pol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "947",
         "nombre": "GIMENEZ Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "9145",
+        "nombre": "OBIOLS Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

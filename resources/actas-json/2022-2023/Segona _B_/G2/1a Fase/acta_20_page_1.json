@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT L'AVENÇ",
+      "nombre": "TT L'HOSPITALET ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''B''",
+      "nombre": "CTT L'AVENÇ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
-      },
-      "B": {
-        "licencia": "13430",
-        "nombre": "RUBIO David"
-      },
-      "C": {
-        "licencia": "16398",
-        "nombre": "PEREZ Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
@@ -55,20 +41,24 @@
         "licencia": "10975",
         "nombre": "MUNIESA Victor"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      "B": {
+        "licencia": "13430",
+        "nombre": "RUBIO David"
+      },
+      "C": {
+        "licencia": "16398",
+        "nombre": "PEREZ Jordi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
-      },
-      {
-        "licencia": "16398",
-        "nombre": "PEREZ Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6637",
         "nombre": "JIMENEZ Francisco Manuel"
@@ -76,6 +66,16 @@
       {
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
+      {
+        "licencia": "16398",
+        "nombre": "PEREZ Jordi"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13430",
-        "nombre": "RUBIO David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6637",
         "nombre": "JIMENEZ Francisco Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13430",
+        "nombre": "RUBIO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16398",
-        "nombre": "PEREZ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10975",
         "nombre": "MUNIESA Victor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16398",
+        "nombre": "PEREZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8405",
-        "nombre": "BARCELO Marcos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6637",
         "nombre": "JIMENEZ Francisco Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8405",
+        "nombre": "BARCELO Marcos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16398",
-        "nombre": "PEREZ Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16398",
+        "nombre": "PEREZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13430",
-        "nombre": "RUBIO David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10975",
         "nombre": "MUNIESA Victor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13430",
+        "nombre": "RUBIO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8405",
-            "nombre": "BARCELO Marcos"
-          },
-          {
-            "licencia": "16398",
-            "nombre": "PEREZ Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6637",
             "nombre": "JIMENEZ Francisco Manuel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8405",
+            "nombre": "BARCELO Marcos"
+          },
+          {
+            "licencia": "16398",
+            "nombre": "PEREZ Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET ''B''",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

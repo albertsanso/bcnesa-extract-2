@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "FORN BERTRAN BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FORN BERTRAN BADALONA",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
-      "B": {
-        "licencia": "867",
-        "nombre": "TORRADES Domenec"
-      },
-      "C": {
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7744",
         "nombre": "GARCIA Eduard"
@@ -55,6 +41,20 @@
         "licencia": "8722",
         "nombre": "BACHS Mariona"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
+      },
+      "B": {
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
+      "C": {
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7744",
         "nombre": "GARCIA Eduard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "867",
-        "nombre": "TORRADES Domenec"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7683",
         "nombre": "XIA Wen Long"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8722",
         "nombre": "BACHS Mariona"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7683",
         "nombre": "XIA Wen Long"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,14 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7744",
         "nombre": "GARCIA Eduard"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +180,8 @@
       },
       "ganador": null,
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -189,14 +189,14 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "867",
-        "nombre": "TORRADES Domenec"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8722",
         "nombre": "BACHS Mariona"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +205,21 @@
       },
       "ganador": null,
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VALLS DE TORROELLA",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 2
+      "local": 0,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 2,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

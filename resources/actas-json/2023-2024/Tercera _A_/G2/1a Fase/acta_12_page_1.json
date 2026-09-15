@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SALLENT",
+      "nombre": "TOT MOTOR CTT RIPOLLET ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TOT MOTOR CTT RIPOLLET ''B''",
+      "nombre": "CTT SALLENT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14593",
-        "nombre": "HARO Josep"
-      },
-      "B": {
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      },
-      "C": {
-        "licencia": "13241",
-        "nombre": "TEMPORAL Ricardo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15429",
         "nombre": "MUJICA Sergio"
@@ -55,20 +41,24 @@
         "licencia": "15441",
         "nombre": "PIMENTEL Luis Guillermo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14593",
+        "nombre": "HARO Josep"
+      },
+      "B": {
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
+      "C": {
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14593",
-        "nombre": "HARO Josep"
-      },
-      {
-        "licencia": "13241",
-        "nombre": "TEMPORAL Ricardo"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "14724",
         "nombre": "PARDO Lucas"
@@ -76,6 +66,16 @@
       {
         "licencia": "15429",
         "nombre": "MUJICA Sergio"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14593",
+        "nombre": "HARO Josep"
+      },
+      {
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14593",
-        "nombre": "HARO Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15429",
         "nombre": "MUJICA Sergio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14593",
+        "nombre": "HARO Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14724",
         "nombre": "PARDO Lucas"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13241",
-        "nombre": "TEMPORAL Ricardo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15441",
         "nombre": "PIMENTEL Luis Guillermo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14593",
-        "nombre": "HARO Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14724",
         "nombre": "PARDO Lucas"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14593",
+        "nombre": "HARO Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13241",
-        "nombre": "TEMPORAL Ricardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15429",
         "nombre": "MUJICA Sergio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13241",
+        "nombre": "TEMPORAL Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15441",
         "nombre": "PIMENTEL Luis Guillermo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14593",
-            "nombre": "HARO Josep"
-          },
-          {
-            "licencia": "13241",
-            "nombre": "TEMPORAL Ricardo"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "14724",
             "nombre": "PARDO Lucas"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14593",
+            "nombre": "HARO Josep"
+          },
+          {
+            "licencia": "13241",
+            "nombre": "TEMPORAL Ricardo"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SALLENT",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

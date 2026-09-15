@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA ''C''",
+      "nombre": "TT SANT ANDREU \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT SANT ANDREU \"B\"",
+      "nombre": "CTT BARCELONA ''C''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13606",
-        "nombre": "RODRIGUEZ Leo"
-      },
-      "B": {
-        "licencia": "10658",
-        "nombre": "MARTIN Max"
-      },
-      "C": {
-        "licencia": "13403",
-        "nombre": "MURIEL Pau"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13987",
         "nombre": "CASTAÑO Cristina"
@@ -55,6 +41,20 @@
         "licencia": "13986",
         "nombre": "CASTILLA Hugo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13606",
+        "nombre": "RODRIGUEZ Leo"
+      },
+      "B": {
+        "licencia": "10658",
+        "nombre": "MARTIN Max"
+      },
+      "C": {
+        "licencia": "13403",
+        "nombre": "MURIEL Pau"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13606",
-        "nombre": "RODRIGUEZ Leo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13987",
         "nombre": "CASTAÑO Cristina"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13606",
+        "nombre": "RODRIGUEZ Leo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10658",
-        "nombre": "MARTIN Max"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13988",
         "nombre": "GUILLÉN Lucía"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10658",
+        "nombre": "MARTIN Max"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13403",
-        "nombre": "MURIEL Pau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13986",
         "nombre": "CASTILLA Hugo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13403",
+        "nombre": "MURIEL Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13606",
-        "nombre": "RODRIGUEZ Leo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13988",
         "nombre": "GUILLÉN Lucía"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13606",
+        "nombre": "RODRIGUEZ Leo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13403",
-        "nombre": "MURIEL Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13987",
         "nombre": "CASTAÑO Cristina"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13403",
+        "nombre": "MURIEL Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10658",
-        "nombre": "MARTIN Max"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13986",
         "nombre": "CASTILLA Hugo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10658",
+        "nombre": "MARTIN Max"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT BARCELONA ''C''",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 4
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

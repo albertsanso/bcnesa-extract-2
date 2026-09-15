@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "BADAGRES BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BADAGRES BADALONA",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1050",
-        "nombre": "CARRETERO Carlos"
-      },
-      "B": {
-        "licencia": "5029",
-        "nombre": "GIRALT Daniel"
-      },
-      "C": {
-        "licencia": "7545",
-        "nombre": "SIMON Andreu"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
@@ -55,6 +41,20 @@
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      "B": {
+        "licencia": "5029",
+        "nombre": "GIRALT Daniel"
+      },
+      "C": {
+        "licencia": "7545",
+        "nombre": "SIMON Andreu"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1050",
-        "nombre": "CARRETERO Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5029",
-        "nombre": "GIRALT Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11280",
         "nombre": "MARTÍNEZ Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5029",
+        "nombre": "GIRALT Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7545",
-        "nombre": "SIMON Andreu"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7545",
+        "nombre": "SIMON Andreu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1050",
-        "nombre": "CARRETERO Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11280",
         "nombre": "MARTÍNEZ Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7545",
-        "nombre": "SIMON Andreu"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7545",
+        "nombre": "SIMON Andreu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5029",
-        "nombre": "GIRALT Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5029",
+        "nombre": "GIRALT Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 11
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

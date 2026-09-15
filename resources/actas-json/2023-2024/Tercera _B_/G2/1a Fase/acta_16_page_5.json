@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11146",
-        "nombre": "GODES Ana Maria"
-      },
-      "B": {
-        "licencia": "7837",
-        "nombre": "VAN BERGEN Patrik Joan"
-      },
-      "C": {
-        "licencia": "16315",
-        "nombre": "RODRIGUEZ Carla Zouyin"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16443",
         "nombre": "MONFORT Roman"
@@ -55,6 +41,20 @@
         "licencia": "73",
         "nombre": "MORA Jose"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11146",
+        "nombre": "GODES Ana Maria"
+      },
+      "B": {
+        "licencia": "7837",
+        "nombre": "VAN BERGEN Patrik Joan"
+      },
+      "C": {
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11146",
-        "nombre": "GODES Ana Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16443",
         "nombre": "MONFORT Roman"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7837",
-        "nombre": "VAN BERGEN Patrik Joan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17448",
-        "nombre": "TUDOR Florin Dumitru"
+        "letra": "A",
+        "licencia": "11146",
+        "nombre": "GODES Ana Maria"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17448",
+        "nombre": "TUDOR Florin Dumitru"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7837",
+        "nombre": "VAN BERGEN Patrik Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16315",
-        "nombre": "RODRIGUEZ Carla Zouyin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "73",
         "nombre": "MORA Jose"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "11146",
-        "nombre": "GODES Ana Maria"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17448",
-        "nombre": "TUDOR Florin Dumitru"
+        "letra": "C",
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17448",
+        "nombre": "TUDOR Florin Dumitru"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11146",
+        "nombre": "GODES Ana Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16315",
-        "nombre": "RODRIGUEZ Carla Zouyin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16443",
         "nombre": "MONFORT Roman"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7837",
-        "nombre": "VAN BERGEN Patrik Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "73",
         "nombre": "MORA Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7837",
+        "nombre": "VAN BERGEN Patrik Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS D'HORTA TT",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

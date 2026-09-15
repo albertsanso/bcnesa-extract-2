@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA ''B''",
+      "nombre": "FORN BERTRAN BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FORN BERTRAN BADALONA",
+      "nombre": "CTT BARCELONA ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13124",
-        "nombre": "PLANES Arnau"
-      },
-      "B": {
-        "licencia": "17171",
-        "nombre": "CASTAÑEDA Victor Jesus"
-      },
-      "C": {
-        "licencia": "11821",
-        "nombre": "MESTRE Lluc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7744",
         "nombre": "GARCIA Eduard"
@@ -55,6 +41,20 @@
         "licencia": "14077",
         "nombre": "NÚÑEZ Pol"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
+      "B": {
+        "licencia": "17171",
+        "nombre": "CASTAÑEDA Victor Jesus"
+      },
+      "C": {
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13124",
-        "nombre": "PLANES Arnau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7744",
         "nombre": "GARCIA Eduard"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17171",
-        "nombre": "CASTAÑEDA Victor Jesus"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12059",
-        "nombre": "REQUENA Saúl"
+        "letra": "A",
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17171",
+        "nombre": "CASTAÑEDA Victor Jesus"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11821",
-        "nombre": "MESTRE Lluc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14077",
         "nombre": "NÚÑEZ Pol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13124",
-        "nombre": "PLANES Arnau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12059",
         "nombre": "REQUENA Saúl"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11821",
-        "nombre": "MESTRE Lluc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7744",
         "nombre": "GARCIA Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11821",
+        "nombre": "MESTRE Lluc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17171",
-        "nombre": "CASTAÑEDA Victor Jesus"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14077",
         "nombre": "NÚÑEZ Pol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17171",
+        "nombre": "CASTAÑEDA Victor Jesus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "FORN BERTRAN BADALONA",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 15
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

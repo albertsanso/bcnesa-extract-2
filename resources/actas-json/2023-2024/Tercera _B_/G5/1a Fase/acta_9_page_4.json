@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"B\"",
+      "nombre": "CN MATARÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN MATARÓ",
+      "nombre": "LLUÏSOS DE GRÀCIA \"B\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17965",
-        "nombre": "GABAÑACH Marçal"
-      },
-      "B": {
-        "licencia": "16495",
-        "nombre": "GAVALDÀ Jordi"
-      },
-      "C": {
-        "licencia": "16819",
-        "nombre": "KAM Isaac"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10451",
         "nombre": "DE SAN ANTONIO Eunice"
@@ -55,6 +41,20 @@
         "licencia": "15395",
         "nombre": "PIJUAN Eudald"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17965",
+        "nombre": "GABAÑACH Marçal"
+      },
+      "B": {
+        "licencia": "16495",
+        "nombre": "GAVALDÀ Jordi"
+      },
+      "C": {
+        "licencia": "16819",
+        "nombre": "KAM Isaac"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17965",
-        "nombre": "GABAÑACH Marçal"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10451",
         "nombre": "DE SAN ANTONIO Eunice"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17965",
+        "nombre": "GABAÑACH Marçal"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16495",
-        "nombre": "GAVALDÀ Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10482",
         "nombre": "PALOMO Berta"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16495",
+        "nombre": "GAVALDÀ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16819",
-        "nombre": "KAM Isaac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15395",
         "nombre": "PIJUAN Eudald"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16819",
+        "nombre": "KAM Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17965",
-        "nombre": "GABAÑACH Marçal"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10482",
         "nombre": "PALOMO Berta"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17965",
+        "nombre": "GABAÑACH Marçal"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16819",
-        "nombre": "KAM Isaac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10451",
         "nombre": "DE SAN ANTONIO Eunice"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16819",
+        "nombre": "KAM Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16495",
-        "nombre": "GAVALDÀ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15395",
         "nombre": "PIJUAN Eudald"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16495",
+        "nombre": "GAVALDÀ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN MATARÓ",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

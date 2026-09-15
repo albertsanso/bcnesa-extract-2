@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CTT COLLBATO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT COLLBATO",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13226",
-        "nombre": "RIVERA Juanjo"
-      },
-      "B": {
-        "licencia": "2301",
-        "nombre": "DELGADO Francisco"
-      },
-      "C": {
-        "licencia": "18933",
-        "nombre": "GARCIA Jose Manuel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6920",
         "nombre": "GARCIA Jose Luis"
@@ -55,20 +41,24 @@
         "licencia": "11152",
         "nombre": "LOPEZ Antonio Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13226",
+        "nombre": "RIVERA Juanjo"
+      },
+      "B": {
+        "licencia": "2301",
+        "nombre": "DELGADO Francisco"
+      },
+      "C": {
+        "licencia": "18933",
+        "nombre": "GARCIA Jose Manuel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "2301",
-        "nombre": "DELGADO Francisco"
-      },
-      {
-        "licencia": "13226",
-        "nombre": "RIVERA Juanjo"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "10058",
         "nombre": "FRANCH Juan Jose"
@@ -76,6 +66,16 @@
       {
         "licencia": "11152",
         "nombre": "LOPEZ Antonio Manuel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "2301",
+        "nombre": "DELGADO Francisco"
+      },
+      {
+        "licencia": "13226",
+        "nombre": "RIVERA Juanjo"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13226",
-        "nombre": "RIVERA Juanjo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6920",
         "nombre": "GARCIA Jose Luis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13226",
+        "nombre": "RIVERA Juanjo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "2301",
-        "nombre": "DELGADO Francisco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10058",
         "nombre": "FRANCH Juan Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2301",
+        "nombre": "DELGADO Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18933",
-        "nombre": "GARCIA Jose Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11152",
         "nombre": "LOPEZ Antonio Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18933",
+        "nombre": "GARCIA Jose Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13226",
-        "nombre": "RIVERA Juanjo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10058",
         "nombre": "FRANCH Juan Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13226",
+        "nombre": "RIVERA Juanjo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18933",
-        "nombre": "GARCIA Jose Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6920",
         "nombre": "GARCIA Jose Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18933",
+        "nombre": "GARCIA Jose Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2301",
-        "nombre": "DELGADO Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11152",
         "nombre": "LOPEZ Antonio Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2301",
+        "nombre": "DELGADO Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "2301",
-            "nombre": "DELGADO Francisco"
-          },
-          {
-            "licencia": "13226",
-            "nombre": "RIVERA Juanjo"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "10058",
             "nombre": "FRANCH Juan Jose"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "2301",
+            "nombre": "DELGADO Francisco"
+          },
+          {
+            "licencia": "13226",
+            "nombre": "RIVERA Juanjo"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT OLESA",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

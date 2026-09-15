@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "PROTEC BADALONA",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "PROTEC BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12059",
-        "nombre": "REQUENA Saúl"
-      },
-      "B": {
-        "licencia": "8640",
-        "nombre": "BUENO Marina"
-      },
-      "C": {
-        "licencia": "8722",
-        "nombre": "BACHS Mariona"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7852",
         "nombre": "RUIZ Juan Jesus"
@@ -55,6 +41,20 @@
         "licencia": "3592",
         "nombre": "MARTI Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "B": {
+        "licencia": "8640",
+        "nombre": "BUENO Marina"
+      },
+      "C": {
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12059",
-        "nombre": "REQUENA Saúl"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7852",
         "nombre": "RUIZ Juan Jesus"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8640",
-        "nombre": "BUENO Marina"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15977",
-        "nombre": "LAURI Vili"
+        "letra": "A",
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15977",
+        "nombre": "LAURI Vili"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8640",
+        "nombre": "BUENO Marina"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8722",
-        "nombre": "BACHS Mariona"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3592",
         "nombre": "MARTI Lluis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "12059",
-        "nombre": "REQUENA Saúl"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15977",
-        "nombre": "LAURI Vili"
+        "letra": "C",
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15977",
+        "nombre": "LAURI Vili"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8722",
-        "nombre": "BACHS Mariona"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7852",
         "nombre": "RUIZ Juan Jesus"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8640",
-        "nombre": "BUENO Marina"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3592",
         "nombre": "MARTI Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8640",
+        "nombre": "BUENO Marina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "PROTEC BADALONA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

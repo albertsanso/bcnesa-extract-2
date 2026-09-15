@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI 'B'",
+      "nombre": "CTT VILAFRANCA 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA 'B'",
+      "nombre": "CTT ATC MOLINS DE REI 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4832",
-        "nombre": "ALSINA Jorge"
-      },
-      "B": {
-        "licencia": "17315",
-        "nombre": "BAEZ Ruben Fermin"
-      },
-      "C": {
-        "licencia": "18700",
-        "nombre": "SALVANY Marc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17248",
         "nombre": "MORENO Marcel"
@@ -55,6 +41,20 @@
         "licencia": "19137",
         "nombre": "BARROSO Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4832",
+        "nombre": "ALSINA Jorge"
+      },
+      "B": {
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
+      "C": {
+        "licencia": "18700",
+        "nombre": "SALVANY Marc"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4832",
-        "nombre": "ALSINA Jorge"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17248",
         "nombre": "MORENO Marcel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4832",
+        "nombre": "ALSINA Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17315",
-        "nombre": "BAEZ Ruben Fermin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19132",
         "nombre": "NAVARRO Anna"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18700",
-        "nombre": "SALVANY Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19137",
         "nombre": "BARROSO Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18700",
+        "nombre": "SALVANY Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4832",
-        "nombre": "ALSINA Jorge"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19132",
         "nombre": "NAVARRO Anna"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4832",
+        "nombre": "ALSINA Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18700",
-        "nombre": "SALVANY Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17248",
         "nombre": "MORENO Marcel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18700",
+        "nombre": "SALVANY Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17315",
-        "nombre": "BAEZ Ruben Fermin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19137",
         "nombre": "BARROSO Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17315",
+        "nombre": "BAEZ Ruben Fermin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATC MOLINS DE REI 'B'",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 9
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

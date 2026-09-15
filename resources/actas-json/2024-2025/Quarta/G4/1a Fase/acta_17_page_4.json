@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA \"B\"",
+      "nombre": "CTT SANTA PERPETUA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANTA PERPETUA",
+      "nombre": "CTT ELS AMICS TERRASSA \"B\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17207",
-        "nombre": "ALBA Francesc Marc"
-      },
-      "B": {
-        "licencia": "16389",
-        "nombre": "CARRERA Adrià"
-      },
-      "C": {
-        "licencia": "16769",
-        "nombre": "VAZQUEZ Alvaro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18936",
         "nombre": "MARTINEZ Joaquim"
@@ -55,6 +41,20 @@
         "licencia": "20095",
         "nombre": "LOPEZ Marti"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
+      },
+      "B": {
+        "licencia": "16389",
+        "nombre": "CARRERA Adrià"
+      },
+      "C": {
+        "licencia": "16769",
+        "nombre": "VAZQUEZ Alvaro"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17207",
-        "nombre": "ALBA Francesc Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18936",
         "nombre": "MARTINEZ Joaquim"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16389",
-        "nombre": "CARRERA Adrià"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19004",
-        "nombre": "LOPEZ Iker"
+        "letra": "A",
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16389",
+        "nombre": "CARRERA Adrià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16769",
-        "nombre": "VAZQUEZ Alvaro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20095",
         "nombre": "LOPEZ Marti"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16769",
+        "nombre": "VAZQUEZ Alvaro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,39 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17207",
-        "nombre": "ALBA Francesc Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19004",
         "nombre": "LOPEZ Iker"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "16769",
-        "nombre": "VAZQUEZ Alvaro"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "18936",
-        "nombre": "MARTINEZ Joaquim"
+        "letra": "A",
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +155,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "18936",
+        "nombre": "MARTINEZ Joaquim"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16769",
+        "nombre": "VAZQUEZ Alvaro"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16389",
-        "nombre": "CARRERA Adrià"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20095",
         "nombre": "LOPEZ Marti"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16389",
+        "nombre": "CARRERA Adrià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS TERRASSA \"B\"",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

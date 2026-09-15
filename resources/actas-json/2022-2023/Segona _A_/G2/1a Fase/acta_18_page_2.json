@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "CTT SENTMENAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SENTMENAT",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12173",
-        "nombre": "SERENA Pere Gustav"
-      },
-      "B": {
-        "licencia": "13595",
-        "nombre": "MARTINO Matias"
-      },
-      "C": {
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "884",
         "nombre": "GARCIA Richard"
@@ -55,6 +41,20 @@
         "licencia": "7931",
         "nombre": "TORAL Alex"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12173",
+        "nombre": "SERENA Pere Gustav"
+      },
+      "B": {
+        "licencia": "13595",
+        "nombre": "MARTINO Matias"
+      },
+      "C": {
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12173",
-        "nombre": "SERENA Pere Gustav"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "884",
         "nombre": "GARCIA Richard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12173",
+        "nombre": "SERENA Pere Gustav"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13595",
-        "nombre": "MARTINO Matias"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1425",
         "nombre": "ALAEZ Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13595",
+        "nombre": "MARTINO Matias"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7931",
         "nombre": "TORAL Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12173",
-        "nombre": "SERENA Pere Gustav"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1425",
         "nombre": "ALAEZ Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12173",
+        "nombre": "SERENA Pere Gustav"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "884",
         "nombre": "GARCIA Richard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13595",
-        "nombre": "MARTINO Matias"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7931",
         "nombre": "TORAL Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13595",
+        "nombre": "MARTINO Matias"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SENTMENAT",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

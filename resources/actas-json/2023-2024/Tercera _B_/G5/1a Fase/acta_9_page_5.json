@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
+      "nombre": "CTT GRANOLLERS ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT GRANOLLERS ''A''",
+      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17706",
-        "nombre": "POVEDA Francisco Javier"
-      },
-      "B": {
-        "licencia": "14506",
-        "nombre": "BADIA Anna"
-      },
-      "C": {
-        "licencia": "12325",
-        "nombre": "PIÑOL Nuria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14790",
         "nombre": "YETOR Jordi"
@@ -55,6 +41,20 @@
         "licencia": "17705",
         "nombre": "PALAUDARIAS Ferran"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17706",
+        "nombre": "POVEDA Francisco Javier"
+      },
+      "B": {
+        "licencia": "14506",
+        "nombre": "BADIA Anna"
+      },
+      "C": {
+        "licencia": "12325",
+        "nombre": "PIÑOL Nuria"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17706",
-        "nombre": "POVEDA Francisco Javier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14790",
         "nombre": "YETOR Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17706",
+        "nombre": "POVEDA Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14506",
-        "nombre": "BADIA Anna"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12657",
         "nombre": "COROMINAS Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14506",
+        "nombre": "BADIA Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12325",
-        "nombre": "PIÑOL Nuria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17705",
         "nombre": "PALAUDARIAS Ferran"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12325",
+        "nombre": "PIÑOL Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17706",
-        "nombre": "POVEDA Francisco Javier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12657",
         "nombre": "COROMINAS Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17706",
+        "nombre": "POVEDA Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12325",
-        "nombre": "PIÑOL Nuria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14790",
         "nombre": "YETOR Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12325",
+        "nombre": "PIÑOL Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14506",
-        "nombre": "BADIA Anna"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17705",
         "nombre": "PALAUDARIAS Ferran"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14506",
+        "nombre": "BADIA Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT GRANOLLERS ''A''",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

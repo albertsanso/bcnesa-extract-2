@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB ARIEL B",
+      "nombre": "TT PRAT LISANT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PRAT LISANT",
+      "nombre": "CLUB ARIEL B",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      },
-      "B": {
-        "licencia": "18645",
-        "nombre": "PHILIPPET Laurent"
-      },
-      "C": {
-        "licencia": "18923",
-        "nombre": "MELNYKOV Oleh"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14127",
         "nombre": "PARRAS Jose"
@@ -55,20 +41,24 @@
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
+      "B": {
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
+      },
+      "C": {
+        "licencia": "18923",
+        "nombre": "MELNYKOV Oleh"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      },
-      {
-        "licencia": "18645",
-        "nombre": "PHILIPPET Laurent"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "732",
         "nombre": "MARTIN Armando"
@@ -76,6 +66,16 @@
       {
         "licencia": "14127",
         "nombre": "PARRAS Jose"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
+      {
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14127",
         "nombre": "PARRAS Jose"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "18645",
-        "nombre": "PHILIPPET Laurent"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "732",
-        "nombre": "MARTIN Armando"
+        "letra": "A",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "732",
+        "nombre": "MARTIN Armando"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18923",
-        "nombre": "MELNYKOV Oleh"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "732",
-        "nombre": "MARTIN Armando"
+        "letra": "C",
+        "licencia": "18923",
+        "nombre": "MELNYKOV Oleh"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "732",
+        "nombre": "MARTIN Armando"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18923",
-        "nombre": "MELNYKOV Oleh"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14127",
         "nombre": "PARRAS Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18923",
+        "nombre": "MELNYKOV Oleh"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18645",
-        "nombre": "PHILIPPET Laurent"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18645",
+        "nombre": "PHILIPPET Laurent"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14984",
-            "nombre": "GONZALEZ Francisco"
-          },
-          {
-            "licencia": "18645",
-            "nombre": "PHILIPPET Laurent"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "732",
             "nombre": "MARTIN Armando"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14984",
+            "nombre": "GONZALEZ Francisco"
+          },
+          {
+            "licencia": "18645",
+            "nombre": "PHILIPPET Laurent"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CLUB ARIEL B",
+    "ganador": "TT PRAT LISANT",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 12
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

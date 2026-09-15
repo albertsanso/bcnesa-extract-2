@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"C\"",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "LLUÏSOS DE GRÀCIA \"C\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17974",
-        "nombre": "CANALS Antoni"
-      },
-      "B": {
-        "licencia": "15586",
-        "nombre": "BARDAJÍ Teo"
-      },
-      "C": {
-        "licencia": "15078",
-        "nombre": "BOLOIX Cesc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17662",
         "nombre": "CARMONA Ramon"
@@ -55,6 +41,20 @@
         "licencia": "16888",
         "nombre": "NOYA Bernat"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17974",
+        "nombre": "CANALS Antoni"
+      },
+      "B": {
+        "licencia": "15586",
+        "nombre": "BARDAJÍ Teo"
+      },
+      "C": {
+        "licencia": "15078",
+        "nombre": "BOLOIX Cesc"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17974",
-        "nombre": "CANALS Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17662",
         "nombre": "CARMONA Ramon"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15586",
-        "nombre": "BARDAJÍ Teo"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16909",
-        "nombre": "BUITRAGO David"
+        "letra": "A",
+        "licencia": "17974",
+        "nombre": "CANALS Antoni"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16909",
+        "nombre": "BUITRAGO David"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15586",
+        "nombre": "BARDAJÍ Teo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15078",
-        "nombre": "BOLOIX Cesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16888",
         "nombre": "NOYA Bernat"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15078",
+        "nombre": "BOLOIX Cesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17974",
-        "nombre": "CANALS Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16909",
         "nombre": "BUITRAGO David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17974",
+        "nombre": "CANALS Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15078",
-        "nombre": "BOLOIX Cesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17662",
         "nombre": "CARMONA Ramon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15078",
+        "nombre": "BOLOIX Cesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15586",
-        "nombre": "BARDAJÍ Teo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16888",
         "nombre": "NOYA Bernat"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15586",
+        "nombre": "BARDAJÍ Teo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA \"C\"",
     "marcador_partidos": {
-      "local": 15,
+      "local": 1,
       "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

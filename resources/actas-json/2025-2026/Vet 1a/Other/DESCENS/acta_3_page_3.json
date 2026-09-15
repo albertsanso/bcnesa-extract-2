@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL 'B'",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CLUB NATACIO SABADELL 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "534",
-        "nombre": "MENENDEZ Alex"
-      },
-      "B": {
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "C": {
-        "licencia": "7099",
-        "nombre": "PONZ Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "740",
         "nombre": "SERRANO Fabià"
@@ -55,6 +41,20 @@
         "licencia": "8466",
         "nombre": "MORI Dorian Joseph"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "534",
+        "nombre": "MENENDEZ Alex"
+      },
+      "B": {
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
+      "C": {
+        "licencia": "7099",
+        "nombre": "PONZ Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "534",
-        "nombre": "MENENDEZ Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "740",
         "nombre": "SERRANO Fabià"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "534",
+        "nombre": "MENENDEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5544",
         "nombre": "PRADES Aixeus"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7099",
-        "nombre": "PONZ Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8466",
         "nombre": "MORI Dorian Joseph"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7099",
+        "nombre": "PONZ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "534",
-        "nombre": "MENENDEZ Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5544",
         "nombre": "PRADES Aixeus"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "534",
+        "nombre": "MENENDEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7099",
-        "nombre": "PONZ Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "740",
         "nombre": "SERRANO Fabià"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7099",
+        "nombre": "PONZ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8466",
         "nombre": "MORI Dorian Joseph"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

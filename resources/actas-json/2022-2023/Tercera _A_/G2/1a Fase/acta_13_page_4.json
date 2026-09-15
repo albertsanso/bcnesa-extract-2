@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT ELS JOVES DE CASTELLDEFELS",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "TT ELS JOVES DE CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15289",
-        "nombre": "GARCÍA Arnau"
-      },
-      "B": {
-        "licencia": "11304",
-        "nombre": "FERNANDEZ David"
-      },
-      "C": {
-        "licencia": "10934",
-        "nombre": "PRIEGO Hristo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15565",
         "nombre": "TONCA Nicolae"
@@ -55,6 +41,20 @@
         "licencia": "11187",
         "nombre": "FARNÓS Luis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15289",
+        "nombre": "GARCÍA Arnau"
+      },
+      "B": {
+        "licencia": "11304",
+        "nombre": "FERNANDEZ David"
+      },
+      "C": {
+        "licencia": "10934",
+        "nombre": "PRIEGO Hristo"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15289",
-        "nombre": "GARCÍA Arnau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15565",
         "nombre": "TONCA Nicolae"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11304",
-        "nombre": "FERNANDEZ David"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14224",
-        "nombre": "DE AMORES Rafael"
+        "letra": "A",
+        "licencia": "15289",
+        "nombre": "GARCÍA Arnau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14224",
+        "nombre": "DE AMORES Rafael"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11304",
+        "nombre": "FERNANDEZ David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10934",
-        "nombre": "PRIEGO Hristo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11187",
         "nombre": "FARNÓS Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10934",
+        "nombre": "PRIEGO Hristo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15289",
-        "nombre": "GARCÍA Arnau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14224",
         "nombre": "DE AMORES Rafael"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15289",
+        "nombre": "GARCÍA Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10934",
-        "nombre": "PRIEGO Hristo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15565",
         "nombre": "TONCA Nicolae"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10934",
+        "nombre": "PRIEGO Hristo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11304",
-        "nombre": "FERNANDEZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11187",
         "nombre": "FARNÓS Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11304",
+        "nombre": "FERNANDEZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT ELS JOVES DE CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

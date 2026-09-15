@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      },
-      "B": {
-        "licencia": "2486",
-        "nombre": "BLASCO Vicenç"
-      },
-      "C": {
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "257",
         "nombre": "PEÑA Clemente"
@@ -55,6 +41,20 @@
         "licencia": "303",
         "nombre": "CAUDET Roman"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
+      },
+      "B": {
+        "licencia": "2486",
+        "nombre": "BLASCO Vicenç"
+      },
+      "C": {
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "257",
         "nombre": "PEÑA Clemente"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2486",
-        "nombre": "BLASCO Vicenç"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6639",
-        "nombre": "FELIU Jose"
+        "letra": "A",
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6639",
+        "nombre": "FELIU Jose"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2486",
+        "nombre": "BLASCO Vicenç"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "303",
         "nombre": "CAUDET Roman"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6639",
         "nombre": "FELIU Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "257",
         "nombre": "PEÑA Clemente"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2486",
-        "nombre": "BLASCO Vicenç"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "303",
         "nombre": "CAUDET Roman"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2486",
+        "nombre": "BLASCO Vicenç"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CT BARCINO",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

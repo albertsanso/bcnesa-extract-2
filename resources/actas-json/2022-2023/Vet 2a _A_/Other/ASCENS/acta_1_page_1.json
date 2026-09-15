@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      },
-      "B": {
-        "licencia": "208",
-        "nombre": "COCHRAN Jordi"
-      },
-      "C": {
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
@@ -55,6 +41,20 @@
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
+      },
+      "B": {
+        "licencia": "208",
+        "nombre": "COCHRAN Jordi"
+      },
+      "C": {
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "208",
-        "nombre": "COCHRAN Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12114",
         "nombre": "MASSARD Franck"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "208",
+        "nombre": "COCHRAN Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "615",
-        "nombre": "VICENTE Marcos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12114",
         "nombre": "MASSARD Franck"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "615",
+        "nombre": "VICENTE Marcos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "208",
-        "nombre": "COCHRAN Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "208",
+        "nombre": "COCHRAN Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILAFRANCA",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

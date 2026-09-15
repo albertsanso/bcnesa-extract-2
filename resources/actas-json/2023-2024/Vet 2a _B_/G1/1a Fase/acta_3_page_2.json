@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CTT COLLBATO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT COLLBATO",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16118",
-        "nombre": "LI Fa Quan"
-      },
-      "B": {
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "C": {
-        "licencia": "15982",
-        "nombre": "GUERRERO Jose Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13214",
         "nombre": "CASCANTE Josep Maria"
@@ -55,6 +41,20 @@
         "licencia": "16294",
         "nombre": "CUADROS Roberto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16118",
+        "nombre": "LI Fa Quan"
+      },
+      "B": {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "C": {
+        "licencia": "15982",
+        "nombre": "GUERRERO Jose Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16118",
-        "nombre": "LI Fa Quan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13214",
         "nombre": "CASCANTE Josep Maria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16118",
+        "nombre": "LI Fa Quan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "509",
         "nombre": "GOTSENS Enric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15982",
-        "nombre": "GUERRERO Jose Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16294",
         "nombre": "CUADROS Roberto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15982",
+        "nombre": "GUERRERO Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16118",
-        "nombre": "LI Fa Quan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "509",
         "nombre": "GOTSENS Enric"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16118",
+        "nombre": "LI Fa Quan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15982",
-        "nombre": "GUERRERO Jose Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13214",
         "nombre": "CASCANTE Josep Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15982",
+        "nombre": "GUERRERO Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16294",
         "nombre": "CUADROS Roberto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CTT COLLBATO",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 17
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

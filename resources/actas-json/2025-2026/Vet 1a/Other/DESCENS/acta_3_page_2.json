@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "TT PRAT LISANT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PRAT LISANT",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "857",
-        "nombre": "TOR Jordi"
-      },
-      "B": {
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "C": {
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5638",
         "nombre": "RABADAN Luis"
@@ -55,6 +41,20 @@
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "857",
+        "nombre": "TOR Jordi"
+      },
+      "B": {
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "C": {
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "857",
-        "nombre": "TOR Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5638",
         "nombre": "RABADAN Luis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "857",
+        "nombre": "TOR Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "842",
         "nombre": "RUIZ Amador"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "857",
-        "nombre": "TOR Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "842",
-        "nombre": "RUIZ Amador"
+        "letra": "C",
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,48 +130,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 0,
+        "visitante": 3
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
+        "letra": "X",
+        "licencia": "842",
+        "nombre": "RUIZ Amador"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "5638",
-        "nombre": "RABADAN Luis"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "850",
-        "nombre": "DURAN Roberto Carlos"
+        "letra": "A",
+        "licencia": "857",
+        "nombre": "TOR Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "850",
+        "nombre": "DURAN Roberto Carlos"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 8
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

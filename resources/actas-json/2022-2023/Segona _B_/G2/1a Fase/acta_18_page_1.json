@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT ''A''",
+      "nombre": "TT L'HOSPITALET ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''B''",
+      "nombre": "UE SANT CUGAT ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8113",
-        "nombre": "GUARCH Alexia"
-      },
-      "B": {
-        "licencia": "11381",
-        "nombre": "AMAGO Carla"
-      },
-      "C": {
-        "licencia": "14914",
-        "nombre": "GONZALEZ Mar"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6637",
         "nombre": "JIMENEZ Francisco Manuel"
@@ -55,6 +41,20 @@
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8113",
+        "nombre": "GUARCH Alexia"
+      },
+      "B": {
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
+      "C": {
+        "licencia": "14914",
+        "nombre": "GONZALEZ Mar"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8113",
-        "nombre": "GUARCH Alexia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6637",
         "nombre": "JIMENEZ Francisco Manuel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11381",
-        "nombre": "AMAGO Carla"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16807",
-        "nombre": "MOLINA Maria Janny"
+        "letra": "A",
+        "licencia": "8113",
+        "nombre": "GUARCH Alexia"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16807",
+        "nombre": "MOLINA Maria Janny"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14914",
-        "nombre": "GONZALEZ Mar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14914",
+        "nombre": "GONZALEZ Mar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8113",
-        "nombre": "GUARCH Alexia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16807",
         "nombre": "MOLINA Maria Janny"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8113",
+        "nombre": "GUARCH Alexia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14914",
-        "nombre": "GONZALEZ Mar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6637",
         "nombre": "JIMENEZ Francisco Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14914",
+        "nombre": "GONZALEZ Mar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11381",
-        "nombre": "AMAGO Carla"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12792",
         "nombre": "QUINTERO Bethany Lyn"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "TT L'HOSPITALET ''B''",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 15
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

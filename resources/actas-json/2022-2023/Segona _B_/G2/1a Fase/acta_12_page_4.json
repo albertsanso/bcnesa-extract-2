@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT ''A''",
+      "nombre": "CRUXENT EDELMA CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CRUXENT EDELMA CALELLA",
+      "nombre": "UE SANT CUGAT ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13765",
-        "nombre": "ARAUJO Ismael"
-      },
-      "B": {
-        "licencia": "12336",
-        "nombre": "ROSSELL Ernest"
-      },
-      "C": {
-        "licencia": "11381",
-        "nombre": "AMAGO Carla"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
@@ -55,6 +41,20 @@
         "licencia": "93",
         "nombre": "PUIG Jaume"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      },
+      "B": {
+        "licencia": "12336",
+        "nombre": "ROSSELL Ernest"
+      },
+      "C": {
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      }
     }
   },
   "dobles": null,
@@ -64,89 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13765",
-        "nombre": "ARAUJO Ismael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12336",
-        "nombre": "ROSSELL Ernest"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11244",
-        "nombre": "VILALTA Agusti"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "11381",
-        "nombre": "AMAGO Carla"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "93",
-        "nombre": "PUIG Jaume"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "13765",
         "nombre": "ARAUJO Ismael"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "11244",
-        "nombre": "VILALTA Agusti"
       },
       "sets": [],
       "resultado_juegos": {
@@ -156,7 +81,82 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11244",
+        "nombre": "VILALTA Agusti"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12336",
+        "nombre": "ROSSELL Ernest"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "93",
+        "nombre": "PUIG Jaume"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11244",
+        "nombre": "VILALTA Agusti"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13765",
+        "nombre": "ARAUJO Ismael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11381",
-        "nombre": "AMAGO Carla"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12336",
-        "nombre": "ROSSELL Ernest"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "93",
         "nombre": "PUIG Jaume"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12336",
+        "nombre": "ROSSELL Ernest"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CRUXENT EDELMA CALELLA",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

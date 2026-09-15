@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL ''B''",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "CLUB NATACIO SABADELL ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
-      "B": {
-        "licencia": "534",
-        "nombre": "MENENDEZ Alex"
-      },
-      "C": {
-        "licencia": "3637",
-        "nombre": "BARBERA Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "972",
         "nombre": "CASTILLO Francesc"
@@ -55,6 +41,20 @@
         "licencia": "4036",
         "nombre": "CHAPALAIN Laurent"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
+      "B": {
+        "licencia": "534",
+        "nombre": "MENENDEZ Alex"
+      },
+      "C": {
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "972",
         "nombre": "CASTILLO Francesc"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "534",
-        "nombre": "MENENDEZ Alex"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "169",
-        "nombre": "PAREJA Joan"
+        "letra": "A",
+        "licencia": "1774",
+        "nombre": "CANO Andres"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "169",
+        "nombre": "PAREJA Joan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "534",
+        "nombre": "MENENDEZ Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3637",
-        "nombre": "BARBERA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4036",
         "nombre": "CHAPALAIN Laurent"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1774",
-        "nombre": "CANO Andres"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "169",
         "nombre": "PAREJA Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1774",
+        "nombre": "CANO Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3637",
-        "nombre": "BARBERA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "972",
         "nombre": "CASTILLO Francesc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3637",
+        "nombre": "BARBERA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "534",
-        "nombre": "MENENDEZ Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4036",
         "nombre": "CHAPALAIN Laurent"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "534",
+        "nombre": "MENENDEZ Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB NATACIO SABADELL ''B''",
     "marcador_partidos": {
-      "local": 16,
+      "local": 1,
       "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

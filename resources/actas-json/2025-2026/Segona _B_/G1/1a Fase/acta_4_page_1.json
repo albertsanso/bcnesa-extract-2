@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5454",
-        "nombre": "POYATOS Xavier"
-      },
-      "B": {
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "C": {
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10853",
         "nombre": "MAMPEL Ramon"
@@ -55,20 +41,24 @@
         "licencia": "10854",
         "nombre": "NAVACERRADA Estel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      "B": {
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "C": {
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "5454",
-        "nombre": "POYATOS Xavier"
-      },
-      {
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "10853",
         "nombre": "MAMPEL Ramon"
@@ -76,6 +66,16 @@
       {
         "licencia": "16403",
         "nombre": "MAMPEL Marc"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      {
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5454",
-        "nombre": "POYATOS Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10853",
         "nombre": "MAMPEL Ramon"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16403",
         "nombre": "MAMPEL Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,89 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10854",
         "nombre": "NAVACERRADA Estel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "5454",
-        "nombre": "POYATOS Xavier"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16403",
-        "nombre": "MAMPEL Marc"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
         "letra": "C",
         "licencia": "5607",
         "nombre": "GUAL Carles"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "10853",
-        "nombre": "MAMPEL Ramon"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "606",
-        "nombre": "FRANCH Jaume"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "10854",
-        "nombre": "NAVACERRADA Estel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +150,81 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16403",
+        "nombre": "MAMPEL Marc"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5454",
+        "nombre": "POYATOS Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "10853",
+        "nombre": "MAMPEL Ramon"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "10854",
+        "nombre": "NAVACERRADA Estel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "606",
+        "nombre": "FRANCH Jaume"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "5454",
-            "nombre": "POYATOS Xavier"
-          },
-          {
-            "licencia": "5607",
-            "nombre": "GUAL Carles"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "10853",
             "nombre": "MAMPEL Ramon"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5454",
+            "nombre": "POYATOS Xavier"
+          },
+          {
+            "licencia": "5607",
+            "nombre": "GUAL Carles"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "EL CENTRE",
+    "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 13
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

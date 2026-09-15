@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8619",
-        "nombre": "SANZ Aitor"
-      },
-      "B": {
-        "licencia": "12785",
-        "nombre": "AGUILERA Marta"
-      },
-      "C": {
-        "licencia": "13382",
-        "nombre": "AGUILERA Alejandro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11278",
         "nombre": "GUASCH Josep"
@@ -55,6 +41,20 @@
         "licencia": "5456",
         "nombre": "REY Jose Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8619",
+        "nombre": "SANZ Aitor"
+      },
+      "B": {
+        "licencia": "12785",
+        "nombre": "AGUILERA Marta"
+      },
+      "C": {
+        "licencia": "13382",
+        "nombre": "AGUILERA Alejandro"
+      }
     }
   },
   "dobles": null,
@@ -64,89 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8619",
-        "nombre": "SANZ Aitor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11278",
         "nombre": "GUASCH Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12785",
-        "nombre": "AGUILERA Marta"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6167",
-        "nombre": "ESTRADA Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "13382",
-        "nombre": "AGUILERA Alejandro"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "5456",
-        "nombre": "REY Jose Antonio"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "8619",
         "nombre": "SANZ Aitor"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "6167",
-        "nombre": "ESTRADA Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -156,7 +81,82 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12785",
+        "nombre": "AGUILERA Marta"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "5456",
+        "nombre": "REY Jose Antonio"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13382",
+        "nombre": "AGUILERA Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8619",
+        "nombre": "SANZ Aitor"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13382",
-        "nombre": "AGUILERA Alejandro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11278",
         "nombre": "GUASCH Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13382",
+        "nombre": "AGUILERA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12785",
-        "nombre": "AGUILERA Marta"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5456",
         "nombre": "REY Jose Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12785",
+        "nombre": "AGUILERA Marta"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATC MOLINS DE REI",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

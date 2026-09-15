@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15056",
-        "nombre": "JIN Shan"
-      },
-      "B": {
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "C": {
-        "licencia": "619",
-        "nombre": "WEN Yang"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12906",
         "nombre": "CRESPO Diego"
@@ -55,20 +41,24 @@
         "licencia": "3012",
         "nombre": "RIFA Josep"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      "B": {
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
+      "C": {
+        "licencia": "619",
+        "nombre": "WEN Yang"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15056",
-        "nombre": "JIN Shan"
-      },
-      {
-        "licencia": "619",
-        "nombre": "WEN Yang"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12906",
         "nombre": "CRESPO Diego"
@@ -76,6 +66,16 @@
       {
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
+      {
+        "licencia": "619",
+        "nombre": "WEN Yang"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15056",
-        "nombre": "JIN Shan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12906",
         "nombre": "CRESPO Diego"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "1050",
-        "nombre": "CARRETERO Carlos"
+        "letra": "A",
+        "licencia": "15056",
+        "nombre": "JIN Shan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "619",
-        "nombre": "WEN Yang"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3012",
         "nombre": "RIFA Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "619",
+        "nombre": "WEN Yang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15056",
-        "nombre": "JIN Shan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15056",
+        "nombre": "JIN Shan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "619",
-        "nombre": "WEN Yang"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12906",
         "nombre": "CRESPO Diego"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "619",
+        "nombre": "WEN Yang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7587",
-        "nombre": "VIADE Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3012",
         "nombre": "RIFA Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7587",
+        "nombre": "VIADE Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15056",
-            "nombre": "JIN Shan"
-          },
-          {
-            "licencia": "619",
-            "nombre": "WEN Yang"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12906",
             "nombre": "CRESPO Diego"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15056",
+            "nombre": "JIN Shan"
+          },
+          {
+            "licencia": "619",
+            "nombre": "WEN Yang"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CC SANTS",
+    "ganador": "MOLLET 2002 TT",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

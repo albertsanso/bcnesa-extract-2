@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANT ANDREU",
+      "nombre": "MOLLET 2002 TT ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT ''B''",
+      "nombre": "CC SANT ANDREU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5431",
-        "nombre": "EXPOSITO José"
-      },
-      "B": {
-        "licencia": "46",
-        "nombre": "SAYOL Antoni"
-      },
-      "C": {
-        "licencia": "132",
-        "nombre": "LLACER Juan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
@@ -55,20 +41,24 @@
         "licencia": "6961",
         "nombre": "MUÑOZ Jose"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5431",
+        "nombre": "EXPOSITO José"
+      },
+      "B": {
+        "licencia": "46",
+        "nombre": "SAYOL Antoni"
+      },
+      "C": {
+        "licencia": "132",
+        "nombre": "LLACER Juan"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "132",
-        "nombre": "LLACER Juan"
-      },
-      {
-        "licencia": "5431",
-        "nombre": "EXPOSITO José"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6961",
         "nombre": "MUÑOZ Jose"
@@ -76,6 +66,16 @@
       {
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "132",
+        "nombre": "LLACER Juan"
+      },
+      {
+        "licencia": "5431",
+        "nombre": "EXPOSITO José"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5431",
-        "nombre": "EXPOSITO José"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5431",
+        "nombre": "EXPOSITO José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,14 +110,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "36",
+        "nombre": "POU Joan"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "46",
         "nombre": "SAYOL Antoni"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6961",
+        "nombre": "MUÑOZ Jose"
+      },
       "visitante": {
-        "letra": "X",
-        "licencia": "36",
-        "nombre": "POU Joan"
+        "letra": "C",
+        "licencia": "132",
+        "nombre": "LLACER Juan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -126,33 +151,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "132",
-        "nombre": "LLACER Juan"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6961",
-        "nombre": "MUÑOZ Jose"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5431",
-        "nombre": "EXPOSITO José"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "36",
         "nombre": "POU Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5431",
+        "nombre": "EXPOSITO José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "132",
-        "nombre": "LLACER Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "132",
+        "nombre": "LLACER Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "46",
-        "nombre": "SAYOL Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6961",
         "nombre": "MUÑOZ Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "46",
+        "nombre": "SAYOL Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "132",
-            "nombre": "LLACER Juan"
-          },
-          {
-            "licencia": "5431",
-            "nombre": "EXPOSITO José"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6961",
             "nombre": "MUÑOZ Jose"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "132",
+            "nombre": "LLACER Juan"
+          },
+          {
+            "licencia": "5431",
+            "nombre": "EXPOSITO José"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CC SANT ANDREU",
+    "ganador": "MOLLET 2002 TT ''B''",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 12
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

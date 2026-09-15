@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EUROCLIMA BADALONA ''A''",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "EUROCLIMA BADALONA ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "B": {
-        "licencia": "15124",
-        "nombre": "FERNÀNDEZ Hugo"
-      },
-      "C": {
-        "licencia": "14733",
-        "nombre": "LAVADO Dídac"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16715",
         "nombre": "BOIX Roc"
@@ -55,20 +41,24 @@
         "licencia": "12344",
         "nombre": "VALERO Roc"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
+      "B": {
+        "licencia": "15124",
+        "nombre": "FERNÀNDEZ Hugo"
+      },
+      "C": {
+        "licencia": "14733",
+        "nombre": "LAVADO Dídac"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15124",
-        "nombre": "FERNÀNDEZ Hugo"
-      },
-      {
-        "licencia": "14733",
-        "nombre": "LAVADO Dídac"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16715",
         "nombre": "BOIX Roc"
@@ -76,6 +66,16 @@
       {
         "licencia": "17862",
         "nombre": "AYATS Gerard"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15124",
+        "nombre": "FERNÀNDEZ Hugo"
+      },
+      {
+        "licencia": "14733",
+        "nombre": "LAVADO Dídac"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16715",
         "nombre": "BOIX Roc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15124",
-        "nombre": "FERNÀNDEZ Hugo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17862",
         "nombre": "AYATS Gerard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15124",
+        "nombre": "FERNÀNDEZ Hugo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14733",
-        "nombre": "LAVADO Dídac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12344",
         "nombre": "VALERO Roc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14733",
+        "nombre": "LAVADO Dídac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17862",
         "nombre": "AYATS Gerard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14733",
-        "nombre": "LAVADO Dídac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16715",
         "nombre": "BOIX Roc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14733",
+        "nombre": "LAVADO Dídac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15124",
-        "nombre": "FERNÀNDEZ Hugo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12344",
         "nombre": "VALERO Roc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15124",
+        "nombre": "FERNÀNDEZ Hugo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15124",
-            "nombre": "FERNÀNDEZ Hugo"
-          },
-          {
-            "licencia": "14733",
-            "nombre": "LAVADO Dídac"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16715",
             "nombre": "BOIX Roc"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15124",
+            "nombre": "FERNÀNDEZ Hugo"
+          },
+          {
+            "licencia": "14733",
+            "nombre": "LAVADO Dídac"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

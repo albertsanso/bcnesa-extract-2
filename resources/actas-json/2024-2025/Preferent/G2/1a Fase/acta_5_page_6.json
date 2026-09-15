@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13097",
-        "nombre": "CARDONA Biel"
-      },
-      "B": {
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
-      "C": {
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
@@ -55,6 +41,20 @@
         "licencia": "13635",
         "nombre": "BOUCHNAFA Yassir"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13097",
+        "nombre": "CARDONA Biel"
+      },
+      "B": {
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "C": {
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13097",
-        "nombre": "CARDONA Biel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "10912",
-        "nombre": "SILVA Adrian"
+        "letra": "A",
+        "licencia": "13097",
+        "nombre": "CARDONA Biel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "10912",
+        "nombre": "SILVA Adrian"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13635",
         "nombre": "BOUCHNAFA Yassir"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13097",
-        "nombre": "CARDONA Biel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10912",
         "nombre": "SILVA Adrian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13097",
+        "nombre": "CARDONA Biel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2159",
-        "nombre": "GARCIA Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2159",
+        "nombre": "GARCIA Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "27",
-        "nombre": "MADURELL Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13635",
         "nombre": "BOUCHNAFA Yassir"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "27",
+        "nombre": "MADURELL Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 8
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

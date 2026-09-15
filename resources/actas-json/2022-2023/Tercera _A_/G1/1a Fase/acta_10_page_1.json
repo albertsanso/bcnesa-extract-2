@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA UNIÓ",
+      "nombre": "BELLVITGE ALHEÑA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BELLVITGE ALHEÑA",
+      "nombre": "CTT LA UNIÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6875",
-        "nombre": "AGUADO Francisco Javier"
-      },
-      "B": {
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "C": {
-        "licencia": "13813",
-        "nombre": "MIRAS Pedro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15139",
         "nombre": "TERMENS Oriol"
@@ -55,20 +41,24 @@
         "licencia": "13183",
         "nombre": "AMIGO Juan Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6875",
+        "nombre": "AGUADO Francisco Javier"
+      },
+      "B": {
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
+      "C": {
+        "licencia": "13813",
+        "nombre": "MIRAS Pedro"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6875",
-        "nombre": "AGUADO Francisco Javier"
-      },
-      {
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16394",
         "nombre": "PÉREZ Marcos"
@@ -76,6 +66,16 @@
       {
         "licencia": "13183",
         "nombre": "AMIGO Juan Carlos"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6875",
+        "nombre": "AGUADO Francisco Javier"
+      },
+      {
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "15139",
+        "nombre": "TERMENS Oriol"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "6875",
         "nombre": "AGUADO Francisco Javier"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16394",
+        "nombre": "PÉREZ Marcos"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "15139",
-        "nombre": "TERMENS Oriol"
+        "letra": "B",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13183",
+        "nombre": "AMIGO Juan Carlos"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13813",
+        "nombre": "MIRAS Pedro"
       },
       "sets": [],
       "resultado_juegos": {
@@ -102,57 +152,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "16394",
-        "nombre": "PÉREZ Marcos"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "13813",
-        "nombre": "MIRAS Pedro"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "13183",
-        "nombre": "AMIGO Juan Carlos"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "visitante": 2
       }
     },
     {
@@ -160,14 +160,39 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
+        "letra": "X",
+        "licencia": "16394",
+        "nombre": "PÉREZ Marcos"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "6875",
         "nombre": "AGUADO Francisco Javier"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "15139",
+        "nombre": "TERMENS Oriol"
+      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16394",
-        "nombre": "PÉREZ Marcos"
+        "letra": "C",
+        "licencia": "13813",
+        "nombre": "MIRAS Pedro"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,33 +201,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "13813",
-        "nombre": "MIRAS Pedro"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "15139",
-        "nombre": "TERMENS Oriol"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
+        "local": 2,
         "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13183",
         "nombre": "AMIGO Juan Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6875",
-            "nombre": "AGUADO Francisco Javier"
-          },
-          {
-            "licencia": "7854",
-            "nombre": "VILALTA Jaime"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16394",
             "nombre": "PÉREZ Marcos"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6875",
+            "nombre": "AGUADO Francisco Javier"
+          },
+          {
+            "licencia": "7854",
+            "nombre": "VILALTA Jaime"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA UNIÓ",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

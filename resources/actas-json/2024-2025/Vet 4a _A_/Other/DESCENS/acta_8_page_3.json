@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12887",
-        "nombre": "ALBIAC Miquel"
-      },
-      "B": {
-        "licencia": "15995",
-        "nombre": "VIDAL Xavier"
-      },
-      "C": {
-        "licencia": "15998",
-        "nombre": "CABANAS Alejandro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8075",
         "nombre": "GIL Antonio"
@@ -55,6 +41,20 @@
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12887",
+        "nombre": "ALBIAC Miquel"
+      },
+      "B": {
+        "licencia": "15995",
+        "nombre": "VIDAL Xavier"
+      },
+      "C": {
+        "licencia": "15998",
+        "nombre": "CABANAS Alejandro"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12887",
-        "nombre": "ALBIAC Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8075",
         "nombre": "GIL Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12887",
+        "nombre": "ALBIAC Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15995",
-        "nombre": "VIDAL Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15995",
+        "nombre": "VIDAL Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15998",
-        "nombre": "CABANAS Alejandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15998",
+        "nombre": "CABANAS Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12887",
-        "nombre": "ALBIAC Miquel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12887",
+        "nombre": "ALBIAC Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15998",
-        "nombre": "CABANAS Alejandro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8075",
         "nombre": "GIL Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15998",
+        "nombre": "CABANAS Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15995",
-        "nombre": "VIDAL Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15995",
+        "nombre": "VIDAL Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

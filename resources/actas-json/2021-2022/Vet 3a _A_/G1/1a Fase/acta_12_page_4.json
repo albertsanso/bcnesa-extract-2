@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
-      "B": {
-        "licencia": "5569",
-        "nombre": "MOLES Roman Luis"
-      },
-      "C": {
-        "licencia": "77",
-        "nombre": "ESTRUCH Fausti"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "238",
         "nombre": "GARRIDO Antoni"
@@ -55,6 +41,20 @@
         "licencia": "33",
         "nombre": "CULLA Jose Luis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
+      "B": {
+        "licencia": "5569",
+        "nombre": "MOLES Roman Luis"
+      },
+      "C": {
+        "licencia": "77",
+        "nombre": "ESTRUCH Fausti"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "238",
         "nombre": "GARRIDO Antoni"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "5569",
-        "nombre": "MOLES Roman Luis"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "257",
-        "nombre": "PEÑA Clemente"
+        "letra": "A",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "257",
+        "nombre": "PEÑA Clemente"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5569",
+        "nombre": "MOLES Roman Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "77",
-        "nombre": "ESTRUCH Fausti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "33",
         "nombre": "CULLA Jose Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "77",
+        "nombre": "ESTRUCH Fausti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "952",
-        "nombre": "LLOPIS Isaac"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "257",
         "nombre": "PEÑA Clemente"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "952",
+        "nombre": "LLOPIS Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "77",
-        "nombre": "ESTRUCH Fausti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "238",
         "nombre": "GARRIDO Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "77",
+        "nombre": "ESTRUCH Fausti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5569",
-        "nombre": "MOLES Roman Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "33",
         "nombre": "CULLA Jose Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5569",
+        "nombre": "MOLES Roman Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

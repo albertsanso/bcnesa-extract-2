@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "CTT ELS AMICS TERRASSA 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA 'B'",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17576",
-        "nombre": "MASSANAS Tomas"
-      },
-      "B": {
-        "licencia": "14817",
-        "nombre": "MARTIN Arnau"
-      },
-      "C": {
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18002",
         "nombre": "XU Fuwei"
@@ -55,6 +41,20 @@
         "licencia": "8459",
         "nombre": "ROGER Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17576",
+        "nombre": "MASSANAS Tomas"
+      },
+      "B": {
+        "licencia": "14817",
+        "nombre": "MARTIN Arnau"
+      },
+      "C": {
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17576",
-        "nombre": "MASSANAS Tomas"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18002",
         "nombre": "XU Fuwei"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14817",
-        "nombre": "MARTIN Arnau"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8680",
-        "nombre": "CRISPI David"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "8459",
-        "nombre": "ROGER Jordi"
+        "letra": "A",
+        "licencia": "17576",
+        "nombre": "MASSANAS Tomas"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,23 +80,48 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17576",
-        "nombre": "MASSANAS Tomas"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8680",
         "nombre": "CRISPI David"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14817",
+        "nombre": "MARTIN Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "8459",
+        "nombre": "ROGER Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8680",
+        "nombre": "CRISPI David"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17576",
+        "nombre": "MASSANAS Tomas"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "9119",
-        "nombre": "LLORENTE Jose Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18002",
         "nombre": "XU Fuwei"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "14817",
-        "nombre": "MARTIN Arnau"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "8459",
-        "nombre": "ROGER Jordi"
+        "letra": "C",
+        "licencia": "9119",
+        "nombre": "LLORENTE Jose Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "8459",
+        "nombre": "ROGER Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14817",
+        "nombre": "MARTIN Arnau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT BARCELONA",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

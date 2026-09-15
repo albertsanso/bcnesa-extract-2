@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT SANT ANDREU",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "TT SANT ANDREU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13315",
-        "nombre": "PLATON Carlos"
-      },
-      "B": {
-        "licencia": "14153",
-        "nombre": "CASTAGNA Agustin F."
-      },
-      "C": {
-        "licencia": "13986",
-        "nombre": "CASTILLA Hugo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14935",
         "nombre": "PALACIOS Ernesto Armand"
@@ -55,6 +41,20 @@
         "licencia": "14937",
         "nombre": "MARTINEZ Susana"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
+      "B": {
+        "licencia": "14153",
+        "nombre": "CASTAGNA Agustin F."
+      },
+      "C": {
+        "licencia": "13986",
+        "nombre": "CASTILLA Hugo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13315",
-        "nombre": "PLATON Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14935",
         "nombre": "PALACIOS Ernesto Armand"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14153",
-        "nombre": "CASTAGNA Agustin F."
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5759",
         "nombre": "BADIA Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14153",
+        "nombre": "CASTAGNA Agustin F."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13986",
-        "nombre": "CASTILLA Hugo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14937",
         "nombre": "MARTINEZ Susana"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13986",
+        "nombre": "CASTILLA Hugo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13315",
-        "nombre": "PLATON Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5759",
         "nombre": "BADIA Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13315",
+        "nombre": "PLATON Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13986",
-        "nombre": "CASTILLA Hugo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14935",
         "nombre": "PALACIOS Ernesto Armand"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13986",
+        "nombre": "CASTILLA Hugo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14153",
-        "nombre": "CASTAGNA Agustin F."
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14937",
         "nombre": "MARTINEZ Susana"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14153",
+        "nombre": "CASTAGNA Agustin F."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

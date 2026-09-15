@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT ''B''",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "LLUÏSOS D'HORTA TT ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16443",
-        "nombre": "MONFORT Roman"
-      },
-      "B": {
-        "licencia": "16685",
-        "nombre": "MAYOL Jordi"
-      },
-      "C": {
-        "licencia": "18177",
-        "nombre": "MARTINEZ Jaume"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18263",
         "nombre": "SCHIAVON Johanna"
@@ -55,20 +41,24 @@
         "licencia": "11146",
         "nombre": "GODES Ana Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16443",
+        "nombre": "MONFORT Roman"
+      },
+      "B": {
+        "licencia": "16685",
+        "nombre": "MAYOL Jordi"
+      },
+      "C": {
+        "licencia": "18177",
+        "nombre": "MARTINEZ Jaume"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16443",
-        "nombre": "MONFORT Roman"
-      },
-      {
-        "licencia": "18177",
-        "nombre": "MARTINEZ Jaume"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "17038",
         "nombre": "CARARACH Tomàs"
@@ -76,6 +66,16 @@
       {
         "licencia": "11146",
         "nombre": "GODES Ana Maria"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16443",
+        "nombre": "MONFORT Roman"
+      },
+      {
+        "licencia": "18177",
+        "nombre": "MARTINEZ Jaume"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16443",
-        "nombre": "MONFORT Roman"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18263",
         "nombre": "SCHIAVON Johanna"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16443",
+        "nombre": "MONFORT Roman"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16685",
-        "nombre": "MAYOL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17038",
         "nombre": "CARARACH Tomàs"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16685",
+        "nombre": "MAYOL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18177",
-        "nombre": "MARTINEZ Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11146",
         "nombre": "GODES Ana Maria"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16443",
-        "nombre": "MONFORT Roman"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17038",
-        "nombre": "CARARACH Tomàs"
+        "letra": "C",
+        "licencia": "18177",
+        "nombre": "MARTINEZ Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17038",
+        "nombre": "CARARACH Tomàs"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16443",
+        "nombre": "MONFORT Roman"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18177",
-        "nombre": "MARTINEZ Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18263",
         "nombre": "SCHIAVON Johanna"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "16685",
-        "nombre": "MAYOL Jordi"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "11146",
-        "nombre": "GODES Ana Maria"
+        "letra": "C",
+        "licencia": "18177",
+        "nombre": "MARTINEZ Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "11146",
+        "nombre": "GODES Ana Maria"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16685",
+        "nombre": "MAYOL Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16443",
-            "nombre": "MONFORT Roman"
-          },
-          {
-            "licencia": "18177",
-            "nombre": "MARTINEZ Jaume"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "17038",
             "nombre": "CARARACH Tomàs"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16443",
+            "nombre": "MONFORT Roman"
+          },
+          {
+            "licencia": "18177",
+            "nombre": "MARTINEZ Jaume"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CT BARCINO",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 12
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

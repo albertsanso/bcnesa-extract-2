@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13075",
-        "nombre": "OLIVÉ Oriol"
-      },
-      "B": {
-        "licencia": "14617",
-        "nombre": "CAMPO Daniel"
-      },
-      "C": {
-        "licencia": "13076",
-        "nombre": "OLIVÉ Naim"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6773",
         "nombre": "LAROCCA Tiziano"
@@ -55,6 +41,20 @@
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13075",
+        "nombre": "OLIVÉ Oriol"
+      },
+      "B": {
+        "licencia": "14617",
+        "nombre": "CAMPO Daniel"
+      },
+      "C": {
+        "licencia": "13076",
+        "nombre": "OLIVÉ Naim"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13075",
-        "nombre": "OLIVÉ Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6773",
         "nombre": "LAROCCA Tiziano"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13075",
+        "nombre": "OLIVÉ Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14617",
-        "nombre": "CAMPO Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14617",
+        "nombre": "CAMPO Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13076",
-        "nombre": "OLIVÉ Naim"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13076",
+        "nombre": "OLIVÉ Naim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13075",
-        "nombre": "OLIVÉ Oriol"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12056",
         "nombre": "ALFONSO Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13075",
+        "nombre": "OLIVÉ Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13076",
-        "nombre": "OLIVÉ Naim"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6773",
         "nombre": "LAROCCA Tiziano"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13076",
+        "nombre": "OLIVÉ Naim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14617",
-        "nombre": "CAMPO Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12057",
         "nombre": "MONTALBAN Xavi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14617",
+        "nombre": "CAMPO Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT CASTELLAR",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

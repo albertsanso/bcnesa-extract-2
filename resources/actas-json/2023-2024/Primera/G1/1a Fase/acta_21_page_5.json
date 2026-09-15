@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "MASQUEFA TTC",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MASQUEFA TTC",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
-      },
-      "B": {
-        "licencia": "6129",
-        "nombre": "ALCALA Olegario Basilio"
-      },
-      "C": {
-        "licencia": "302",
-        "nombre": "ESCUDERO Josep Maria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10114",
         "nombre": "MAYEUX Frederic"
@@ -55,6 +41,20 @@
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "B": {
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
+      "C": {
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10114",
         "nombre": "MAYEUX Frederic"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6129",
-        "nombre": "ALCALA Olegario Basilio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6204",
         "nombre": "FLORES Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "302",
-        "nombre": "ESCUDERO Josep Maria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6204",
         "nombre": "FLORES Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "302",
-        "nombre": "ESCUDERO Josep Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10114",
         "nombre": "MAYEUX Frederic"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "302",
+        "nombre": "ESCUDERO Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6129",
-        "nombre": "ALCALA Olegario Basilio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6129",
+        "nombre": "ALCALA Olegario Basilio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "MASQUEFA TTC",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 17
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

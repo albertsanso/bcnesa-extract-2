@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"D\"",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "LLUÏSOS DE GRÀCIA \"D\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17966",
-        "nombre": "CASTELLÓ Joaquim"
-      },
-      "B": {
-        "licencia": "17968",
-        "nombre": "GARCIA Ander"
-      },
-      "C": {
-        "licencia": "16482",
-        "nombre": "CORTÉS Alfred"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17675",
         "nombre": "TORRENS Francisco"
@@ -55,6 +41,20 @@
         "licencia": "16443",
         "nombre": "MONFORT Roman"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17966",
+        "nombre": "CASTELLÓ Joaquim"
+      },
+      "B": {
+        "licencia": "17968",
+        "nombre": "GARCIA Ander"
+      },
+      "C": {
+        "licencia": "16482",
+        "nombre": "CORTÉS Alfred"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17966",
-        "nombre": "CASTELLÓ Joaquim"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17675",
         "nombre": "TORRENS Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17966",
+        "nombre": "CASTELLÓ Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17968",
-        "nombre": "GARCIA Ander"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17448",
         "nombre": "TUDOR Florin Dumitru"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17968",
+        "nombre": "GARCIA Ander"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16482",
-        "nombre": "CORTÉS Alfred"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16443",
         "nombre": "MONFORT Roman"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16482",
+        "nombre": "CORTÉS Alfred"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17966",
-        "nombre": "CASTELLÓ Joaquim"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17448",
         "nombre": "TUDOR Florin Dumitru"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17966",
+        "nombre": "CASTELLÓ Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16482",
-        "nombre": "CORTÉS Alfred"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17675",
         "nombre": "TORRENS Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16482",
+        "nombre": "CORTÉS Alfred"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17968",
-        "nombre": "GARCIA Ander"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16443",
         "nombre": "MONFORT Roman"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17968",
+        "nombre": "GARCIA Ander"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "LLUÏSOS D'HORTA TT",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 16
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

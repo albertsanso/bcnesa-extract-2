@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "B": {
-        "licencia": "6902",
-        "nombre": "ARIAS Jordi"
-      },
-      "C": {
-        "licencia": "8138",
-        "nombre": "RICO Jaume"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8288",
         "nombre": "MARIO Nicola"
@@ -55,6 +41,20 @@
         "licencia": "196",
         "nombre": "GUZMÁN Josep Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
+      "B": {
+        "licencia": "6902",
+        "nombre": "ARIAS Jordi"
+      },
+      "C": {
+        "licencia": "8138",
+        "nombre": "RICO Jaume"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8288",
         "nombre": "MARIO Nicola"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "6902",
-        "nombre": "ARIAS Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8289",
-        "nombre": "HERNANDEZ Francisco Javi"
+        "letra": "A",
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8289",
+        "nombre": "HERNANDEZ Francisco Javi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6902",
+        "nombre": "ARIAS Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8138",
-        "nombre": "RICO Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "196",
         "nombre": "GUZMÁN Josep Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8138",
+        "nombre": "RICO Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8289",
         "nombre": "HERNANDEZ Francisco Javi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8138",
-        "nombre": "RICO Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8288",
         "nombre": "MARIO Nicola"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8138",
+        "nombre": "RICO Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6902",
-        "nombre": "ARIAS Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "196",
         "nombre": "GUZMÁN Josep Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6902",
+        "nombre": "ARIAS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

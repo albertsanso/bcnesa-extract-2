@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
+      "nombre": "BELLVITGE ALHEÑA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BELLVITGE ALHEÑA",
+      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16462",
-        "nombre": "KOKKO Essa"
-      },
-      "B": {
-        "licencia": "12981",
-        "nombre": "CARBONELL Tura"
-      },
-      "C": {
-        "licencia": "11248",
-        "nombre": "GARCIA Victor"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13181",
         "nombre": "MORÓN Manuel"
@@ -55,6 +41,20 @@
         "licencia": "13182",
         "nombre": "MORÓN Daniel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
+      },
+      "B": {
+        "licencia": "12981",
+        "nombre": "CARBONELL Tura"
+      },
+      "C": {
+        "licencia": "11248",
+        "nombre": "GARCIA Victor"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16462",
-        "nombre": "KOKKO Essa"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13181",
         "nombre": "MORÓN Manuel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12981",
-        "nombre": "CARBONELL Tura"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16394",
-        "nombre": "PÉREZ Marcos"
+        "letra": "A",
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16394",
+        "nombre": "PÉREZ Marcos"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12981",
+        "nombre": "CARBONELL Tura"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11248",
-        "nombre": "GARCIA Victor"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13182",
         "nombre": "MORÓN Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11248",
+        "nombre": "GARCIA Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16462",
-        "nombre": "KOKKO Essa"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16394",
         "nombre": "PÉREZ Marcos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11248",
-        "nombre": "GARCIA Victor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13181",
         "nombre": "MORÓN Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11248",
+        "nombre": "GARCIA Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12981",
-        "nombre": "CARBONELL Tura"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13182",
         "nombre": "MORÓN Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12981",
+        "nombre": "CARBONELL Tura"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "BELLVITGE ALHEÑA",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13123",
-        "nombre": "ROSELLÓ Lluís"
-      },
-      "B": {
-        "licencia": "15565",
-        "nombre": "TONCA Nicolae"
-      },
-      "C": {
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
@@ -55,6 +41,20 @@
         "licencia": "591",
         "nombre": "GUILLEN Joan Miquel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
+      "B": {
+        "licencia": "15565",
+        "nombre": "TONCA Nicolae"
+      },
+      "C": {
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13123",
-        "nombre": "ROSELLÓ Lluís"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15565",
-        "nombre": "TONCA Nicolae"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6924",
-        "nombre": "ROMERA Enric"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "591",
-        "nombre": "GUILLEN Joan Miquel"
+        "letra": "A",
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,22 +81,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13123",
-        "nombre": "ROSELLÓ Lluís"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6924",
         "nombre": "ROMERA Enric"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15565",
+        "nombre": "TONCA Nicolae"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "591",
+        "nombre": "GUILLEN Joan Miquel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,8 +130,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6924",
+        "nombre": "ROMERA Enric"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15565",
-        "nombre": "TONCA Nicolae"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "591",
         "nombre": "GUILLEN Joan Miquel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15565",
+        "nombre": "TONCA Nicolae"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

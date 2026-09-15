@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "El CENTRE NYX 'A'",
+      "nombre": "CTT CASTELLGALÍ 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ 'B'",
+      "nombre": "El CENTRE NYX 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18151",
-        "nombre": "BADER Lauren"
-      },
-      "B": {
-        "licencia": "21206",
-        "nombre": "LOPEZ-DORIGA Inmaculada"
-      },
-      "C": {
-        "licencia": "13736",
-        "nombre": "UBALDE Natalia"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19952",
         "nombre": "ABARCA Josue Miguel"
@@ -55,6 +41,20 @@
         "licencia": "17615",
         "nombre": "LAFOZ Robert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18151",
+        "nombre": "BADER Lauren"
+      },
+      "B": {
+        "licencia": "21206",
+        "nombre": "LOPEZ-DORIGA Inmaculada"
+      },
+      "C": {
+        "licencia": "13736",
+        "nombre": "UBALDE Natalia"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18151",
-        "nombre": "BADER Lauren"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19952",
         "nombre": "ABARCA Josue Miguel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18151",
+        "nombre": "BADER Lauren"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "21206",
-        "nombre": "LOPEZ-DORIGA Inmaculada"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2981",
         "nombre": "BRU Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21206",
+        "nombre": "LOPEZ-DORIGA Inmaculada"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13736",
-        "nombre": "UBALDE Natalia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17615",
         "nombre": "LAFOZ Robert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13736",
+        "nombre": "UBALDE Natalia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18151",
-        "nombre": "BADER Lauren"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2981",
         "nombre": "BRU Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18151",
+        "nombre": "BADER Lauren"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13736",
-        "nombre": "UBALDE Natalia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19952",
         "nombre": "ABARCA Josue Miguel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13736",
+        "nombre": "UBALDE Natalia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "21206",
-        "nombre": "LOPEZ-DORIGA Inmaculada"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17615",
         "nombre": "LAFOZ Robert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21206",
+        "nombre": "LOPEZ-DORIGA Inmaculada"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLGALÍ 'B'",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

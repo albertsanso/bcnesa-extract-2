@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT VILANOVA DEL CAMI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILANOVA DEL CAMI",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "B": {
-        "licencia": "10195",
-        "nombre": "NAVARRO Marc"
-      },
-      "C": {
-        "licencia": "20786",
-        "nombre": "VAILO Vladyslav"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5404",
         "nombre": "ORTIZ Juan Carlos"
@@ -55,6 +41,20 @@
         "licencia": "8346",
         "nombre": "PEREZ Javier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "B": {
+        "licencia": "10195",
+        "nombre": "NAVARRO Marc"
+      },
+      "C": {
+        "licencia": "20786",
+        "nombre": "VAILO Vladyslav"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5404",
         "nombre": "ORTIZ Juan Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10195",
-        "nombre": "NAVARRO Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5393",
         "nombre": "SALA David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10195",
+        "nombre": "NAVARRO Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "20786",
-        "nombre": "VAILO Vladyslav"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8346",
         "nombre": "PEREZ Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20786",
+        "nombre": "VAILO Vladyslav"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5393",
         "nombre": "SALA David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "20786",
-        "nombre": "VAILO Vladyslav"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5404",
         "nombre": "ORTIZ Juan Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20786",
+        "nombre": "VAILO Vladyslav"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10195",
-        "nombre": "NAVARRO Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8346",
         "nombre": "PEREZ Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10195",
+        "nombre": "NAVARRO Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILANOVA DEL CAMI",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

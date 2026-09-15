@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT COLLBATO",
+      "nombre": "AP LA CAIXA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AP LA CAIXA",
+      "nombre": "CTT COLLBATO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16294",
-        "nombre": "CUADROS Roberto"
-      },
-      "B": {
-        "licencia": "509",
-        "nombre": "GOTSENS Enric"
-      },
-      "C": {
-        "licencia": "13214",
-        "nombre": "CASCANTE Josep Maria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "318",
         "nombre": "PUIG Fermi"
@@ -55,20 +41,24 @@
         "licencia": "11765",
         "nombre": "DOMINGO Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16294",
+        "nombre": "CUADROS Roberto"
+      },
+      "B": {
+        "licencia": "509",
+        "nombre": "GOTSENS Enric"
+      },
+      "C": {
+        "licencia": "13214",
+        "nombre": "CASCANTE Josep Maria"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16294",
-        "nombre": "CUADROS Roberto"
-      },
-      {
-        "licencia": "13214",
-        "nombre": "CASCANTE Josep Maria"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "175",
         "nombre": "FERRAN Josep"
@@ -76,6 +66,16 @@
       {
         "licencia": "11765",
         "nombre": "DOMINGO Joan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16294",
+        "nombre": "CUADROS Roberto"
+      },
+      {
+        "licencia": "13214",
+        "nombre": "CASCANTE Josep Maria"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16294",
-        "nombre": "CUADROS Roberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "318",
         "nombre": "PUIG Fermi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "509",
-        "nombre": "GOTSENS Enric"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "175",
-        "nombre": "FERRAN Josep"
+        "letra": "A",
+        "licencia": "16294",
+        "nombre": "CUADROS Roberto"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "175",
+        "nombre": "FERRAN Josep"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "509",
+        "nombre": "GOTSENS Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13214",
-        "nombre": "CASCANTE Josep Maria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11765",
         "nombre": "DOMINGO Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13214",
+        "nombre": "CASCANTE Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16294",
-        "nombre": "CUADROS Roberto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "175",
         "nombre": "FERRAN Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16294",
+        "nombre": "CUADROS Roberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13214",
-        "nombre": "CASCANTE Josep Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "318",
         "nombre": "PUIG Fermi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13214",
+        "nombre": "CASCANTE Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "509",
-        "nombre": "GOTSENS Enric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11765",
         "nombre": "DOMINGO Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "509",
+        "nombre": "GOTSENS Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16294",
-            "nombre": "CUADROS Roberto"
-          },
-          {
-            "licencia": "13214",
-            "nombre": "CASCANTE Josep Maria"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "175",
             "nombre": "FERRAN Josep"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16294",
+            "nombre": "CUADROS Roberto"
+          },
+          {
+            "licencia": "13214",
+            "nombre": "CASCANTE Josep Maria"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "AP LA CAIXA",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 13
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

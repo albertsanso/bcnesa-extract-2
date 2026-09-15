@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "LLUÏSOS DE GRÀCIA ''C''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA ''C''",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14764",
-        "nombre": "HURTADO Eric"
-      },
-      "B": {
-        "licencia": "14918",
-        "nombre": "RODRIGUEZ Oscar"
-      },
-      "C": {
-        "licencia": "15311",
-        "nombre": "DÍAZ Èric"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16167",
         "nombre": "FABIAN Iker Jaime"
@@ -55,6 +41,20 @@
         "licencia": "19155",
         "nombre": "FABIAN Javier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14764",
+        "nombre": "HURTADO Eric"
+      },
+      "B": {
+        "licencia": "14918",
+        "nombre": "RODRIGUEZ Oscar"
+      },
+      "C": {
+        "licencia": "15311",
+        "nombre": "DÍAZ Èric"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14764",
-        "nombre": "HURTADO Eric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16167",
         "nombre": "FABIAN Iker Jaime"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14764",
+        "nombre": "HURTADO Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14918",
-        "nombre": "RODRIGUEZ Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10299",
         "nombre": "OLIVERAS Albert-sobash"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14918",
+        "nombre": "RODRIGUEZ Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15311",
-        "nombre": "DÍAZ Èric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19155",
         "nombre": "FABIAN Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15311",
+        "nombre": "DÍAZ Èric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14764",
-        "nombre": "HURTADO Eric"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10299",
         "nombre": "OLIVERAS Albert-sobash"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14764",
+        "nombre": "HURTADO Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15311",
-        "nombre": "DÍAZ Èric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16167",
         "nombre": "FABIAN Iker Jaime"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15311",
+        "nombre": "DÍAZ Èric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14918",
-        "nombre": "RODRIGUEZ Oscar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19155",
         "nombre": "FABIAN Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14918",
+        "nombre": "RODRIGUEZ Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 17,
+      "local": 1,
       "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

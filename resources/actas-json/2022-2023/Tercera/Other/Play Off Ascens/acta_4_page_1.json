@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT ''A''",
+      "nombre": "CPP IGUALADA ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CPP IGUALADA ''B''",
+      "nombre": "LLUÏSOS D'HORTA TT ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16685",
-        "nombre": "MAYOL Jordi"
-      },
-      "B": {
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
-      },
-      "C": {
-        "licencia": "73",
-        "nombre": "MORA Jose"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16243",
         "nombre": "VALLS Kevin"
@@ -55,6 +41,20 @@
         "licencia": "16427",
         "nombre": "MORA Raul"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16685",
+        "nombre": "MAYOL Jordi"
+      },
+      "B": {
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "C": {
+        "licencia": "73",
+        "nombre": "MORA Jose"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16685",
-        "nombre": "MAYOL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16243",
         "nombre": "VALLS Kevin"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13483",
-        "nombre": "ESQUIUS Roc"
+        "letra": "A",
+        "licencia": "16685",
+        "nombre": "MAYOL Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13483",
+        "nombre": "ESQUIUS Roc"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "73",
-        "nombre": "MORA Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16427",
         "nombre": "MORA Raul"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "73",
+        "nombre": "MORA Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16685",
-        "nombre": "MAYOL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13483",
         "nombre": "ESQUIUS Roc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16685",
+        "nombre": "MAYOL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "73",
-        "nombre": "MORA Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16243",
         "nombre": "VALLS Kevin"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "73",
+        "nombre": "MORA Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15810",
-        "nombre": "MUÑOZ Jose Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16427",
         "nombre": "MORA Raul"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15810",
+        "nombre": "MUÑOZ Jose Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CPP IGUALADA ''B''",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

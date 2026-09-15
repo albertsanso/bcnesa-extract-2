@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
+      "nombre": "TT L'HOSPITALET 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET 'A'",
+      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10934",
-        "nombre": "PRIEGO Hristo"
-      },
-      "B": {
-        "licencia": "12395",
-        "nombre": "MARTÍN Aleix"
-      },
-      "C": {
-        "licencia": "11790",
-        "nombre": "LOPEZ Eric"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6017",
         "nombre": "SOLSONA Eduard"
@@ -55,20 +41,24 @@
         "licencia": "1295",
         "nombre": "RODRIGUEZ Xavier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10934",
+        "nombre": "PRIEGO Hristo"
+      },
+      "B": {
+        "licencia": "12395",
+        "nombre": "MARTÍN Aleix"
+      },
+      "C": {
+        "licencia": "11790",
+        "nombre": "LOPEZ Eric"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "10934",
-        "nombre": "PRIEGO Hristo"
-      },
-      {
-        "licencia": "12395",
-        "nombre": "MARTÍN Aleix"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6017",
         "nombre": "SOLSONA Eduard"
@@ -76,6 +66,16 @@
       {
         "licencia": "20588",
         "nombre": "VILLE Julin"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "10934",
+        "nombre": "PRIEGO Hristo"
+      },
+      {
+        "licencia": "12395",
+        "nombre": "MARTÍN Aleix"
       }
     ]
   },
@@ -85,89 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10934",
-        "nombre": "PRIEGO Hristo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6017",
         "nombre": "SOLSONA Eduard"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12395",
-        "nombre": "MARTÍN Aleix"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "20588",
-        "nombre": "VILLE Julin"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "11790",
-        "nombre": "LOPEZ Eric"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "1295",
-        "nombre": "RODRIGUEZ Xavier"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "10934",
         "nombre": "PRIEGO Hristo"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "20588",
-        "nombre": "VILLE Julin"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +100,81 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "20588",
+        "nombre": "VILLE Julin"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12395",
+        "nombre": "MARTÍN Aleix"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "1295",
+        "nombre": "RODRIGUEZ Xavier"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11790",
+        "nombre": "LOPEZ Eric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "20588",
+        "nombre": "VILLE Julin"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10934",
+        "nombre": "PRIEGO Hristo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11790",
-        "nombre": "LOPEZ Eric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6017",
         "nombre": "SOLSONA Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11790",
+        "nombre": "LOPEZ Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12395",
-        "nombre": "MARTÍN Aleix"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1295",
         "nombre": "RODRIGUEZ Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12395",
+        "nombre": "MARTÍN Aleix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "10934",
-            "nombre": "PRIEGO Hristo"
-          },
-          {
-            "licencia": "12395",
-            "nombre": "MARTÍN Aleix"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6017",
             "nombre": "SOLSONA Eduard"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "10934",
+            "nombre": "PRIEGO Hristo"
+          },
+          {
+            "licencia": "12395",
+            "nombre": "MARTÍN Aleix"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ÀNECBLAU - TT JOVES CTDFELS",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

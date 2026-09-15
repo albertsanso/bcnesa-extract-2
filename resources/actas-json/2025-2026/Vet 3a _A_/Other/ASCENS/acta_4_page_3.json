@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14259",
-        "nombre": "BLANCO Alonso"
-      },
-      "B": {
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
-      "C": {
-        "licencia": "1070",
-        "nombre": "HUERTAS Ruben"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7328",
         "nombre": "PIQUER Carlos"
@@ -55,20 +41,24 @@
         "licencia": "16445",
         "nombre": "ZHAO Yun"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14259",
+        "nombre": "BLANCO Alonso"
+      },
+      "B": {
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "C": {
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
-      {
-        "licencia": "1070",
-        "nombre": "HUERTAS Ruben"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
@@ -76,6 +66,16 @@
       {
         "licencia": "16445",
         "nombre": "ZHAO Yun"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      {
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14259",
-        "nombre": "BLANCO Alonso"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7328",
         "nombre": "PIQUER Carlos"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8007",
-        "nombre": "VARGAS Pedro Juan"
+        "letra": "A",
+        "licencia": "14259",
+        "nombre": "BLANCO Alonso"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8007",
+        "nombre": "VARGAS Pedro Juan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1070",
-        "nombre": "HUERTAS Ruben"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16445",
         "nombre": "ZHAO Yun"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14259",
-        "nombre": "BLANCO Alonso"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8007",
         "nombre": "VARGAS Pedro Juan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14259",
+        "nombre": "BLANCO Alonso"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1070",
-        "nombre": "HUERTAS Ruben"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7328",
         "nombre": "PIQUER Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16445",
         "nombre": "ZHAO Yun"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "631",
-            "nombre": "RUIZ Cristobal"
-          },
-          {
-            "licencia": "1070",
-            "nombre": "HUERTAS Ruben"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8007",
             "nombre": "VARGAS Pedro Juan"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "631",
+            "nombre": "RUIZ Cristobal"
+          },
+          {
+            "licencia": "1070",
+            "nombre": "HUERTAS Ruben"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

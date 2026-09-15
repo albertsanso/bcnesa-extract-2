@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MASQUEFA TTC",
+      "nombre": "LLUÏSOS DE GRÀCIA 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA 'A'",
+      "nombre": "MASQUEFA TTC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5678",
-        "nombre": "PARRA Renato Adriano"
-      },
-      "B": {
-        "licencia": "13193",
-        "nombre": "GINER Sergio"
-      },
-      "C": {
-        "licencia": "14975",
-        "nombre": "ANDRÉS Emilio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18639",
         "nombre": "LÓPEZ Genís"
@@ -55,20 +41,24 @@
         "licencia": "16494",
         "nombre": "ULLOA Adrià"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5678",
+        "nombre": "PARRA Renato Adriano"
+      },
+      "B": {
+        "licencia": "13193",
+        "nombre": "GINER Sergio"
+      },
+      "C": {
+        "licencia": "14975",
+        "nombre": "ANDRÉS Emilio"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "5678",
-        "nombre": "PARRA Renato Adriano"
-      },
-      {
-        "licencia": "13193",
-        "nombre": "GINER Sergio"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16494",
         "nombre": "ULLOA Adrià"
@@ -76,6 +66,16 @@
       {
         "licencia": "18639",
         "nombre": "LÓPEZ Genís"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "5678",
+        "nombre": "PARRA Renato Adriano"
+      },
+      {
+        "licencia": "13193",
+        "nombre": "GINER Sergio"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5678",
-        "nombre": "PARRA Renato Adriano"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18639",
         "nombre": "LÓPEZ Genís"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5678",
+        "nombre": "PARRA Renato Adriano"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13193",
-        "nombre": "GINER Sergio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19499",
         "nombre": "VALLES Luka"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13193",
+        "nombre": "GINER Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14975",
-        "nombre": "ANDRÉS Emilio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16494",
         "nombre": "ULLOA Adrià"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "5678",
-        "nombre": "PARRA Renato Adriano"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19499",
-        "nombre": "VALLES Luka"
+        "letra": "C",
+        "licencia": "14975",
+        "nombre": "ANDRÉS Emilio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "19499",
+        "nombre": "VALLES Luka"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5678",
+        "nombre": "PARRA Renato Adriano"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14975",
-        "nombre": "ANDRÉS Emilio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18639",
         "nombre": "LÓPEZ Genís"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14975",
+        "nombre": "ANDRÉS Emilio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13193",
-        "nombre": "GINER Sergio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16494",
         "nombre": "ULLOA Adrià"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13193",
+        "nombre": "GINER Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "5678",
-            "nombre": "PARRA Renato Adriano"
-          },
-          {
-            "licencia": "13193",
-            "nombre": "GINER Sergio"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16494",
             "nombre": "ULLOA Adrià"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5678",
+            "nombre": "PARRA Renato Adriano"
+          },
+          {
+            "licencia": "13193",
+            "nombre": "GINER Sergio"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA 'A'",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "PROTEC BADALONA",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "PROTEC BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7744",
-        "nombre": "GARCIA Eduard"
-      },
-      "B": {
-        "licencia": "7683",
-        "nombre": "XIA Wen Long"
-      },
-      "C": {
-        "licencia": "8722",
-        "nombre": "BACHS Mariona"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7813",
         "nombre": "DECOUD Marcelo"
@@ -55,6 +41,20 @@
         "licencia": "14221",
         "nombre": "GÓMEZ Carles"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      },
+      "B": {
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      },
+      "C": {
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7744",
-        "nombre": "GARCIA Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7813",
         "nombre": "DECOUD Marcelo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7683",
-        "nombre": "XIA Wen Long"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8021",
         "nombre": "CASOLIVA Juan Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8722",
-        "nombre": "BACHS Mariona"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14221",
         "nombre": "GÓMEZ Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7744",
-        "nombre": "GARCIA Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8021",
         "nombre": "CASOLIVA Juan Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7744",
+        "nombre": "GARCIA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8722",
-        "nombre": "BACHS Mariona"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7813",
         "nombre": "DECOUD Marcelo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8722",
+        "nombre": "BACHS Mariona"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7683",
-        "nombre": "XIA Wen Long"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3458",
         "nombre": "RODRIGUEZ Miguel Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7683",
+        "nombre": "XIA Wen Long"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "PROTEC BADALONA",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 4
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

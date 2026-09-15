@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "BLANXART XALOC OLESA",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "BLANXART XALOC OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
-      "B": {
-        "licencia": "1070",
-        "nombre": "HUERTAS Ruben"
-      },
-      "C": {
-        "licencia": "6041",
-        "nombre": "AGUILA Iago"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12251",
         "nombre": "ALONSO Joan"
@@ -55,6 +41,20 @@
         "licencia": "10197",
         "nombre": "MEREGALLI Joel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
+      "B": {
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
+      },
+      "C": {
+        "licencia": "6041",
+        "nombre": "AGUILA Iago"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12251",
         "nombre": "ALONSO Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1070",
-        "nombre": "HUERTAS Ruben"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11388",
         "nombre": "VENDRELL Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1070",
+        "nombre": "HUERTAS Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6041",
-        "nombre": "AGUILA Iago"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10197",
         "nombre": "MEREGALLI Joel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6041",
+        "nombre": "AGUILA Iago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11388",
         "nombre": "VENDRELL Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6041",
-        "nombre": "AGUILA Iago"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12251",
         "nombre": "ALONSO Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6041",
+        "nombre": "AGUILA Iago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13124",
-        "nombre": "PLANES Arnau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10197",
         "nombre": "MEREGALLI Joel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13124",
+        "nombre": "PLANES Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "BLANXART XALOC OLESA",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 3
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

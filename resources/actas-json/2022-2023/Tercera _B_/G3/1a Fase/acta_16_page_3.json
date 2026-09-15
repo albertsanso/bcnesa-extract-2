@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ESCOLA CTT CASTELLDEFELS",
+      "nombre": "CTT ELS AMICS DE TERRASSA ''C''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA ''C''",
+      "nombre": "ESCOLA CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16281",
-        "nombre": "ZHAO Ángel"
-      },
-      "B": {
-        "licencia": "14884",
-        "nombre": "GONZÁLEZ Martina"
-      },
-      "C": {
-        "licencia": "14927",
-        "nombre": "MARTÍNEZ Udai"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12087",
         "nombre": "SANSO Albert"
@@ -55,20 +41,24 @@
         "licencia": "15023",
         "nombre": "ONANDIA Marta"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      },
+      "B": {
+        "licencia": "14884",
+        "nombre": "GONZÁLEZ Martina"
+      },
+      "C": {
+        "licencia": "14927",
+        "nombre": "MARTÍNEZ Udai"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16281",
-        "nombre": "ZHAO Ángel"
-      },
-      {
-        "licencia": "14927",
-        "nombre": "MARTÍNEZ Udai"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "7598",
         "nombre": "PAZOS Javier Amalio"
@@ -76,6 +66,16 @@
       {
         "licencia": "12087",
         "nombre": "SANSO Albert"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      },
+      {
+        "licencia": "14927",
+        "nombre": "MARTÍNEZ Udai"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16281",
-        "nombre": "ZHAO Ángel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12087",
         "nombre": "SANSO Albert"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14884",
-        "nombre": "GONZÁLEZ Martina"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7598",
-        "nombre": "PAZOS Javier Amalio"
+        "letra": "A",
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7598",
+        "nombre": "PAZOS Javier Amalio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14884",
+        "nombre": "GONZÁLEZ Martina"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14927",
-        "nombre": "MARTÍNEZ Udai"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15023",
         "nombre": "ONANDIA Marta"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14927",
+        "nombre": "MARTÍNEZ Udai"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16281",
-        "nombre": "ZHAO Ángel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7598",
         "nombre": "PAZOS Javier Amalio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16281",
+        "nombre": "ZHAO Ángel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14927",
-        "nombre": "MARTÍNEZ Udai"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12087",
         "nombre": "SANSO Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14927",
+        "nombre": "MARTÍNEZ Udai"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14884",
-        "nombre": "GONZÁLEZ Martina"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15023",
         "nombre": "ONANDIA Marta"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14884",
+        "nombre": "GONZÁLEZ Martina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16281",
-            "nombre": "ZHAO Ángel"
-          },
-          {
-            "licencia": "14927",
-            "nombre": "MARTÍNEZ Udai"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "7598",
             "nombre": "PAZOS Javier Amalio"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16281",
+            "nombre": "ZHAO Ángel"
+          },
+          {
+            "licencia": "14927",
+            "nombre": "MARTÍNEZ Udai"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ESCOLA CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 9
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

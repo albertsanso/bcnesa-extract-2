@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT GRANOLLERS",
+      "nombre": "LLUÏSOS DE GRÀCIA ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA ''A''",
+      "nombre": "CTT GRANOLLERS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17704",
-        "nombre": "PUIG Sergi"
-      },
-      "B": {
-        "licencia": "17007",
-        "nombre": "SÁNCHEZ Hugo"
-      },
-      "C": {
-        "licencia": "19813",
-        "nombre": "CARRERA Gabriel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19175",
         "nombre": "YE Tony Mingrui"
@@ -55,6 +41,20 @@
         "licencia": "15661",
         "nombre": "MASIP Aria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17704",
+        "nombre": "PUIG Sergi"
+      },
+      "B": {
+        "licencia": "17007",
+        "nombre": "SÁNCHEZ Hugo"
+      },
+      "C": {
+        "licencia": "19813",
+        "nombre": "CARRERA Gabriel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17704",
-        "nombre": "PUIG Sergi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19175",
         "nombre": "YE Tony Mingrui"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17704",
+        "nombre": "PUIG Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17007",
-        "nombre": "SÁNCHEZ Hugo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16815",
         "nombre": "ZAFRA Bruno"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17007",
+        "nombre": "SÁNCHEZ Hugo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19813",
-        "nombre": "CARRERA Gabriel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15661",
         "nombre": "MASIP Aria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19813",
+        "nombre": "CARRERA Gabriel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17704",
-        "nombre": "PUIG Sergi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16815",
         "nombre": "ZAFRA Bruno"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17704",
+        "nombre": "PUIG Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19813",
-        "nombre": "CARRERA Gabriel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19175",
         "nombre": "YE Tony Mingrui"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19813",
+        "nombre": "CARRERA Gabriel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17007",
-        "nombre": "SÁNCHEZ Hugo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15661",
         "nombre": "MASIP Aria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17007",
+        "nombre": "SÁNCHEZ Hugo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA ''A''",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

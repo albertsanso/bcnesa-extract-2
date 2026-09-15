@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CATT SANT CELONI ''B''",
+      "nombre": "EUROCLIMA BADALONA ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EUROCLIMA BADALONA ''A''",
+      "nombre": "CATT SANT CELONI ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7689",
-        "nombre": "ANTEQUERA Enric"
-      },
-      "B": {
-        "licencia": "15570",
-        "nombre": "GARRIGA Pol"
-      },
-      "C": {
-        "licencia": "16881",
-        "nombre": "CAO Martí"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14129",
         "nombre": "NAVARRO Laia"
@@ -55,6 +41,20 @@
         "licencia": "15124",
         "nombre": "FERNÀNDEZ Hugo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7689",
+        "nombre": "ANTEQUERA Enric"
+      },
+      "B": {
+        "licencia": "15570",
+        "nombre": "GARRIGA Pol"
+      },
+      "C": {
+        "licencia": "16881",
+        "nombre": "CAO Martí"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7689",
-        "nombre": "ANTEQUERA Enric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14129",
         "nombre": "NAVARRO Laia"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7689",
+        "nombre": "ANTEQUERA Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15570",
-        "nombre": "GARRIGA Pol"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15180",
         "nombre": "SORIANO Mario"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15570",
+        "nombre": "GARRIGA Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16881",
-        "nombre": "CAO Martí"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15124",
         "nombre": "FERNÀNDEZ Hugo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16881",
+        "nombre": "CAO Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7689",
-        "nombre": "ANTEQUERA Enric"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15180",
         "nombre": "SORIANO Mario"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7689",
+        "nombre": "ANTEQUERA Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16881",
-        "nombre": "CAO Martí"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14129",
         "nombre": "NAVARRO Laia"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16881",
+        "nombre": "CAO Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15570",
-        "nombre": "GARRIGA Pol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15124",
         "nombre": "FERNÀNDEZ Hugo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15570",
+        "nombre": "GARRIGA Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "EUROCLIMA BADALONA ''A''",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

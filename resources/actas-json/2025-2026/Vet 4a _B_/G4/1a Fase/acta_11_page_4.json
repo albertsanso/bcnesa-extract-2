@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILASSAR",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "CTT VILASSAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19297",
-        "nombre": "SANTOS Edgar"
-      },
-      "B": {
-        "licencia": "19293",
-        "nombre": "ESTEBAN Alex"
-      },
-      "C": {
-        "licencia": "15086",
-        "nombre": "BAHUAUD Jean-francois"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "238",
         "nombre": "GARRIDO Antoni"
@@ -55,6 +41,20 @@
         "licencia": "4795",
         "nombre": "FRANCO Jose"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19297",
+        "nombre": "SANTOS Edgar"
+      },
+      "B": {
+        "licencia": "19293",
+        "nombre": "ESTEBAN Alex"
+      },
+      "C": {
+        "licencia": "15086",
+        "nombre": "BAHUAUD Jean-francois"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19297",
-        "nombre": "SANTOS Edgar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "238",
         "nombre": "GARRIDO Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19297",
+        "nombre": "SANTOS Edgar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19293",
-        "nombre": "ESTEBAN Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11148",
         "nombre": "MAZORRA Enric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19293",
+        "nombre": "ESTEBAN Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15086",
-        "nombre": "BAHUAUD Jean-francois"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4795",
         "nombre": "FRANCO Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15086",
+        "nombre": "BAHUAUD Jean-francois"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19297",
-        "nombre": "SANTOS Edgar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11148",
         "nombre": "MAZORRA Enric"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19297",
+        "nombre": "SANTOS Edgar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15086",
-        "nombre": "BAHUAUD Jean-francois"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "238",
         "nombre": "GARRIDO Antoni"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "19293",
-        "nombre": "ESTEBAN Alex"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "4795",
-        "nombre": "FRANCO Jose"
+        "letra": "C",
+        "licencia": "15086",
+        "nombre": "BAHUAUD Jean-francois"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "4795",
+        "nombre": "FRANCO Jose"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19293",
+        "nombre": "ESTEBAN Alex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CT BARCINO",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

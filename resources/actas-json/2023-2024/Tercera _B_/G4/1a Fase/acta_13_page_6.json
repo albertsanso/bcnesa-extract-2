@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MASQUEFA TTC ''B''",
+      "nombre": "CTT ELS AMICS TERRASSA \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA \"B\"",
+      "nombre": "MASQUEFA TTC ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14192",
-        "nombre": "LÓPEZ Leire"
-      },
-      "B": {
-        "licencia": "17651",
-        "nombre": "LOPEZ Victor"
-      },
-      "C": {
-        "licencia": "18191",
-        "nombre": "SALAS Jose Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12084",
         "nombre": "FERNANDEZ Jordi"
@@ -55,6 +41,20 @@
         "licencia": "6182",
         "nombre": "MARTINEZ Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      },
+      "B": {
+        "licencia": "17651",
+        "nombre": "LOPEZ Victor"
+      },
+      "C": {
+        "licencia": "18191",
+        "nombre": "SALAS Jose Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14192",
-        "nombre": "LÓPEZ Leire"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12084",
         "nombre": "FERNANDEZ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17651",
-        "nombre": "LOPEZ Victor"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15633",
         "nombre": "LEE Sangman"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17651",
+        "nombre": "LOPEZ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18191",
-        "nombre": "SALAS Jose Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6182",
         "nombre": "MARTINEZ Ramon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18191",
+        "nombre": "SALAS Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14192",
-        "nombre": "LÓPEZ Leire"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15633",
         "nombre": "LEE Sangman"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18191",
-        "nombre": "SALAS Jose Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12084",
         "nombre": "FERNANDEZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18191",
+        "nombre": "SALAS Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17651",
-        "nombre": "LOPEZ Victor"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6182",
         "nombre": "MARTINEZ Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17651",
+        "nombre": "LOPEZ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS TERRASSA \"B\"",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

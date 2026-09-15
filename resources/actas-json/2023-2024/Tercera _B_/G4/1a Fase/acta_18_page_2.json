@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ ''A''",
+      "nombre": "CTT CASTELLDEFELS \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS \"B\"",
+      "nombre": "CTT CASTELLGALÍ ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16331",
-        "nombre": "GARCIA Sergio"
-      },
-      "B": {
-        "licencia": "15091",
-        "nombre": "EJARQUE Eduard"
-      },
-      "C": {
-        "licencia": "13218",
-        "nombre": "GOMEZ Àlex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16155",
         "nombre": "BRUN Gustav"
@@ -55,6 +41,20 @@
         "licencia": "16157",
         "nombre": "GONZALEZ Sonia"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16331",
+        "nombre": "GARCIA Sergio"
+      },
+      "B": {
+        "licencia": "15091",
+        "nombre": "EJARQUE Eduard"
+      },
+      "C": {
+        "licencia": "13218",
+        "nombre": "GOMEZ Àlex"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,89 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "16155",
+        "nombre": "BRUN Gustav"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "16331",
         "nombre": "GARCIA Sergio"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14882",
+        "nombre": "MARTÍN Hector"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "16155",
-        "nombre": "BRUN Gustav"
+        "letra": "B",
+        "licencia": "15091",
+        "nombre": "EJARQUE Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16157",
+        "nombre": "GONZALEZ Sonia"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13218",
+        "nombre": "GOMEZ Àlex"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14882",
+        "nombre": "MARTÍN Hector"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16331",
+        "nombre": "GARCIA Sergio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -81,72 +156,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
       }
     },
     {
-      "numero": 2,
+      "numero": 5,
       "tipo": "individual",
-      "cruce": "B vs X",
+      "cruce": "C vs Y",
       "local": {
-        "letra": "B",
-        "licencia": "15091",
-        "nombre": "EJARQUE Eduard"
+        "letra": "Y",
+        "licencia": "16155",
+        "nombre": "BRUN Gustav"
       },
       "visitante": {
-        "letra": "X",
-        "licencia": "14882",
-        "nombre": "MARTÍN Hector"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
         "letra": "C",
         "licencia": "13218",
         "nombre": "GOMEZ Àlex"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16157",
-        "nombre": "GONZALEZ Sonia"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16331",
-        "nombre": "GARCIA Sergio"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "14882",
-        "nombre": "MARTÍN Hector"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,33 +180,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "13218",
-        "nombre": "GOMEZ Àlex"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "16155",
-        "nombre": "BRUN Gustav"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15091",
-        "nombre": "EJARQUE Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16157",
         "nombre": "GONZALEZ Sonia"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15091",
+        "nombre": "EJARQUE Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLGALÍ ''A''",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

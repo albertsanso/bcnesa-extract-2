@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA BISBAL DEL PENEDÈS 'B'",
+      "nombre": "CTT COLÒNIA GÜELL 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT COLÒNIA GÜELL 'A'",
+      "nombre": "CTT LA BISBAL DEL PENEDÈS 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "20287",
-        "nombre": "DOBLAS Francesc Xavier"
-      },
-      "B": {
-        "licencia": "20143",
-        "nombre": "MIRÓ Albert"
-      },
-      "C": {
-        "licencia": "20184",
-        "nombre": "CORNELLÀ Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14904",
         "nombre": "VIADER Pere"
@@ -55,6 +41,20 @@
         "licencia": "18946",
         "nombre": "MARTINEZ Anna"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "20287",
+        "nombre": "DOBLAS Francesc Xavier"
+      },
+      "B": {
+        "licencia": "20143",
+        "nombre": "MIRÓ Albert"
+      },
+      "C": {
+        "licencia": "20184",
+        "nombre": "CORNELLÀ Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "20287",
-        "nombre": "DOBLAS Francesc Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14904",
         "nombre": "VIADER Pere"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20287",
+        "nombre": "DOBLAS Francesc Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "20143",
-        "nombre": "MIRÓ Albert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4846",
         "nombre": "FERRER Joel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20143",
+        "nombre": "MIRÓ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "20184",
-        "nombre": "CORNELLÀ Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18946",
         "nombre": "MARTINEZ Anna"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20184",
+        "nombre": "CORNELLÀ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "20287",
-        "nombre": "DOBLAS Francesc Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4846",
         "nombre": "FERRER Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20287",
+        "nombre": "DOBLAS Francesc Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "20184",
-        "nombre": "CORNELLÀ Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14904",
         "nombre": "VIADER Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20184",
+        "nombre": "CORNELLÀ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "20143",
-        "nombre": "MIRÓ Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18946",
         "nombre": "MARTINEZ Anna"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20143",
+        "nombre": "MIRÓ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT COLÒNIA GÜELL 'A'",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

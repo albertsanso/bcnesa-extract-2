@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16557",
-        "nombre": "TORRECILLA Xavier"
-      },
-      "B": {
-        "licencia": "16492",
-        "nombre": "HÄRING Arthur"
-      },
-      "C": {
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11780",
         "nombre": "LLORENS Vicente"
@@ -55,20 +41,24 @@
         "licencia": "7662",
         "nombre": "RICO Calixto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16557",
+        "nombre": "TORRECILLA Xavier"
+      },
+      "B": {
+        "licencia": "16492",
+        "nombre": "HÄRING Arthur"
+      },
+      "C": {
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16557",
-        "nombre": "TORRECILLA Xavier"
-      },
-      {
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "11780",
         "nombre": "LLORENS Vicente"
@@ -76,6 +66,16 @@
       {
         "licencia": "8668",
         "nombre": "BARCELO Manuel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16557",
+        "nombre": "TORRECILLA Xavier"
+      },
+      {
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16557",
-        "nombre": "TORRECILLA Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11780",
         "nombre": "LLORENS Vicente"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16557",
+        "nombre": "TORRECILLA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,89 +110,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "16492",
         "nombre": "HÄRING Arthur"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "8668",
-        "nombre": "BARCELO Manuel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "7662",
-        "nombre": "RICO Calixto"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16557",
-        "nombre": "TORRECILLA Xavier"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "8668",
-        "nombre": "BARCELO Manuel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "11780",
-        "nombre": "LLORENS Vicente"
       },
       "sets": [],
       "resultado_juegos": {
@@ -202,22 +127,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 3
+        "visitante": 0
       }
     },
     {
-      "numero": 6,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16492",
-        "nombre": "HÄRING Arthur"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7662",
         "nombre": "RICO Calixto"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16557",
+        "nombre": "TORRECILLA Xavier"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +175,56 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "11780",
+        "nombre": "LLORENS Vicente"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7662",
+        "nombre": "RICO Calixto"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16492",
+        "nombre": "HÄRING Arthur"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16557",
-            "nombre": "TORRECILLA Xavier"
-          },
-          {
-            "licencia": "16872",
-            "nombre": "BELIZÓN Gonzalo"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "11780",
             "nombre": "LLORENS Vicente"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16557",
+            "nombre": "TORRECILLA Xavier"
+          },
+          {
+            "licencia": "16872",
+            "nombre": "BELIZÓN Gonzalo"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT RIPOLLET",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

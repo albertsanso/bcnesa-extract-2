@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14353",
-        "nombre": "ROSELLO Antonio"
-      },
-      "B": {
-        "licencia": "7667",
-        "nombre": "VERA Edgardo Oliver"
-      },
-      "C": {
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16731",
         "nombre": "ROVIRA Juan Carlos"
@@ -55,20 +41,24 @@
         "licencia": "114",
         "nombre": "NAVARRO Juan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14353",
+        "nombre": "ROSELLO Antonio"
+      },
+      "B": {
+        "licencia": "7667",
+        "nombre": "VERA Edgardo Oliver"
+      },
+      "C": {
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14353",
-        "nombre": "ROSELLO Antonio"
-      },
-      {
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "887",
         "nombre": "COLLDEFORN Jaume"
@@ -76,6 +66,16 @@
       {
         "licencia": "114",
         "nombre": "NAVARRO Juan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14353",
+        "nombre": "ROSELLO Antonio"
+      },
+      {
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14353",
-        "nombre": "ROSELLO Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16731",
         "nombre": "ROVIRA Juan Carlos"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7667",
-        "nombre": "VERA Edgardo Oliver"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
+        "letra": "A",
+        "licencia": "14353",
+        "nombre": "ROSELLO Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7667",
+        "nombre": "VERA Edgardo Oliver"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "114",
         "nombre": "NAVARRO Juan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14353",
-        "nombre": "ROSELLO Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "887",
         "nombre": "COLLDEFORN Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14353",
+        "nombre": "ROSELLO Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16731",
         "nombre": "ROVIRA Juan Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7667",
-        "nombre": "VERA Edgardo Oliver"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "114",
         "nombre": "NAVARRO Juan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7667",
+        "nombre": "VERA Edgardo Oliver"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14353",
-            "nombre": "ROSELLO Antonio"
-          },
-          {
-            "licencia": "7670",
-            "nombre": "VALLBONA Xavier"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "887",
             "nombre": "COLLDEFORN Jaume"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14353",
+            "nombre": "ROSELLO Antonio"
+          },
+          {
+            "licencia": "7670",
+            "nombre": "VALLBONA Xavier"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "ATT PREMIÀ DE MAR",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

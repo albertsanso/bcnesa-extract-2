@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16403",
-        "nombre": "MAMPEL Marc"
-      },
-      "B": {
-        "licencia": "17207",
-        "nombre": "ALBA Francesc Marc"
-      },
-      "C": {
-        "licencia": "10854",
-        "nombre": "NAVACERRADA Estel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19059",
         "nombre": "BENHARI Mohamed"
@@ -55,6 +41,20 @@
         "licencia": "6277",
         "nombre": "OLIVA Santiago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16403",
+        "nombre": "MAMPEL Marc"
+      },
+      "B": {
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
+      },
+      "C": {
+        "licencia": "10854",
+        "nombre": "NAVACERRADA Estel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16403",
-        "nombre": "MAMPEL Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19059",
         "nombre": "BENHARI Mohamed"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16403",
+        "nombre": "MAMPEL Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17207",
-        "nombre": "ALBA Francesc Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5870",
         "nombre": "BAU Adria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10854",
-        "nombre": "NAVACERRADA Estel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6277",
         "nombre": "OLIVA Santiago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10854",
+        "nombre": "NAVACERRADA Estel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16403",
-        "nombre": "MAMPEL Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5870",
         "nombre": "BAU Adria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16403",
+        "nombre": "MAMPEL Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10854",
-        "nombre": "NAVACERRADA Estel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19059",
         "nombre": "BENHARI Mohamed"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10854",
+        "nombre": "NAVACERRADA Estel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17207",
-        "nombre": "ALBA Francesc Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6277",
         "nombre": "OLIVA Santiago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17207",
+        "nombre": "ALBA Francesc Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "TT TORELLÓ",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": {
       "local": 12,
       "visitante": 12
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

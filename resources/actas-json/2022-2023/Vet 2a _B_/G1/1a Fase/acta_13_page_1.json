@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CTT JOSEP M. PALES",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALES",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "234",
-        "nombre": "PUBILL Jaume"
-      },
-      "B": {
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "C": {
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "421",
         "nombre": "LI Yanlan"
@@ -55,20 +41,24 @@
         "licencia": "4518",
         "nombre": "FONOLLA Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "234",
+        "nombre": "PUBILL Jaume"
+      },
+      "B": {
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
+      "C": {
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "234",
-        "nombre": "PUBILL Jaume"
-      },
-      {
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "421",
         "nombre": "LI Yanlan"
@@ -76,6 +66,16 @@
       {
         "licencia": "3495",
         "nombre": "AGUERRI Jordi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "234",
+        "nombre": "PUBILL Jaume"
+      },
+      {
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "234",
-        "nombre": "PUBILL Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "421",
         "nombre": "LI Yanlan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "234",
+        "nombre": "PUBILL Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3495",
         "nombre": "AGUERRI Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4518",
         "nombre": "FONOLLA Ramon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "234",
-        "nombre": "PUBILL Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3495",
         "nombre": "AGUERRI Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "234",
+        "nombre": "PUBILL Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "631",
-        "nombre": "RUIZ Cristobal"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "421",
         "nombre": "LI Yanlan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "631",
+        "nombre": "RUIZ Cristobal"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "308",
-        "nombre": "GARCIA Benito"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4518",
         "nombre": "FONOLLA Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "308",
+        "nombre": "GARCIA Benito"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "234",
-            "nombre": "PUBILL Jaume"
-          },
-          {
-            "licencia": "631",
-            "nombre": "RUIZ Cristobal"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "421",
             "nombre": "LI Yanlan"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "234",
+            "nombre": "PUBILL Jaume"
+          },
+          {
+            "licencia": "631",
+            "nombre": "RUIZ Cristobal"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT JOSEP M. PALES",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

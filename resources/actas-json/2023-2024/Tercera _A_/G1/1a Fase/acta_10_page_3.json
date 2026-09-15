@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "CN MATARÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN MATARÓ",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16756",
-        "nombre": "RUBIO Gerard"
-      },
-      "B": {
-        "licencia": "14026",
-        "nombre": "MORTE Arnau"
-      },
-      "C": {
-        "licencia": "14028",
-        "nombre": "RAMIREZ Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12566",
         "nombre": "NUÑEZ Roc"
@@ -55,6 +41,20 @@
         "licencia": "11537",
         "nombre": "MATARÓ Isaac"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16756",
+        "nombre": "RUBIO Gerard"
+      },
+      "B": {
+        "licencia": "14026",
+        "nombre": "MORTE Arnau"
+      },
+      "C": {
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16756",
-        "nombre": "RUBIO Gerard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12566",
         "nombre": "NUÑEZ Roc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16756",
+        "nombre": "RUBIO Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14026",
-        "nombre": "MORTE Arnau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13641",
         "nombre": "ARCOS Adrià"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14026",
+        "nombre": "MORTE Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14028",
-        "nombre": "RAMIREZ Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11537",
         "nombre": "MATARÓ Isaac"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16756",
-        "nombre": "RUBIO Gerard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13641",
         "nombre": "ARCOS Adrià"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16756",
+        "nombre": "RUBIO Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14028",
-        "nombre": "RAMIREZ Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12566",
         "nombre": "NUÑEZ Roc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14026",
-        "nombre": "MORTE Arnau"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11537",
         "nombre": "MATARÓ Isaac"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14026",
+        "nombre": "MORTE Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN MATARÓ",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

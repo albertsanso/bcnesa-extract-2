@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SALLENT",
+      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR DE MAR L'OBRERA",
+      "nombre": "CTT SALLENT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6312",
-        "nombre": "OBRADORS Arnau"
-      },
-      "B": {
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      },
-      "C": {
-        "licencia": "12139",
-        "nombre": "SIBILA Joel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16462",
         "nombre": "KOKKO Essa"
@@ -55,20 +41,24 @@
         "licencia": "15977",
         "nombre": "LAURI Vili"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
+      },
+      "B": {
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
+      "C": {
+        "licencia": "12139",
+        "nombre": "SIBILA Joel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6312",
-        "nombre": "OBRADORS Arnau"
-      },
-      {
-        "licencia": "12139",
-        "nombre": "SIBILA Joel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16462",
         "nombre": "KOKKO Essa"
@@ -76,6 +66,16 @@
       {
         "licencia": "15977",
         "nombre": "LAURI Vili"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
+      },
+      {
+        "licencia": "12139",
+        "nombre": "SIBILA Joel"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6312",
-        "nombre": "OBRADORS Arnau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16462",
         "nombre": "KOKKO Essa"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12981",
         "nombre": "CARBONELL Tura"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12139",
-        "nombre": "SIBILA Joel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15977",
         "nombre": "LAURI Vili"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "6312",
-        "nombre": "OBRADORS Arnau"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12981",
-        "nombre": "CARBONELL Tura"
+        "letra": "C",
+        "licencia": "12139",
+        "nombre": "SIBILA Joel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,48 +151,23 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "12139",
-        "nombre": "SIBILA Joel"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "16462",
-        "nombre": "KOKKO Essa"
-      },
-      "sets": [],
-      "resultado_juegos": {
         "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
         "visitante": 2
       }
     },
     {
-      "numero": 6,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
+        "letra": "X",
+        "licencia": "12981",
+        "nombre": "CARBONELL Tura"
       },
       "visitante": {
-        "letra": "Z",
-        "licencia": "15977",
-        "nombre": "LAURI Vili"
+        "letra": "A",
+        "licencia": "6312",
+        "nombre": "OBRADORS Arnau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +175,56 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "16462",
+        "nombre": "KOKKO Essa"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12139",
+        "nombre": "SIBILA Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "15977",
+        "nombre": "LAURI Vili"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6312",
-            "nombre": "OBRADORS Arnau"
-          },
-          {
-            "licencia": "12139",
-            "nombre": "SIBILA Joel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16462",
             "nombre": "KOKKO Essa"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6312",
+            "nombre": "OBRADORS Arnau"
+          },
+          {
+            "licencia": "12139",
+            "nombre": "SIBILA Joel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SALLENT",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

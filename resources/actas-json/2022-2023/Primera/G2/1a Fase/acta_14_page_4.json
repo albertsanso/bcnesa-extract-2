@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "FORN BERTRAN BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FORN BERTRAN BADALONA",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14411",
-        "nombre": "RIBA Marc"
-      },
-      "B": {
-        "licencia": "13082",
-        "nombre": "GUEVARA Carlos"
-      },
-      "C": {
-        "licencia": "15072",
-        "nombre": "FERREIRO Ricardo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7744",
         "nombre": "GARCIA Eduard"
@@ -55,6 +41,20 @@
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
+      "B": {
+        "licencia": "13082",
+        "nombre": "GUEVARA Carlos"
+      },
+      "C": {
+        "licencia": "15072",
+        "nombre": "FERREIRO Ricardo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14411",
-        "nombre": "RIBA Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7744",
         "nombre": "GARCIA Eduard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13082",
-        "nombre": "GUEVARA Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7683",
         "nombre": "XIA Wen Long"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13082",
+        "nombre": "GUEVARA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15072",
-        "nombre": "FERREIRO Ricardo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15072",
+        "nombre": "FERREIRO Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14411",
-        "nombre": "RIBA Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7683",
         "nombre": "XIA Wen Long"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14411",
+        "nombre": "RIBA Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15072",
-        "nombre": "FERREIRO Ricardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7744",
         "nombre": "GARCIA Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15072",
+        "nombre": "FERREIRO Ricardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13082",
-        "nombre": "GUEVARA Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "149",
         "nombre": "NOLIS Josep Mª"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13082",
+        "nombre": "GUEVARA Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "FORN BERTRAN BADALONA",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

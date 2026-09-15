@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CLUB NATACIO SABADELL ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL ''B''",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1046",
-        "nombre": "SATORRAS Jordi"
-      },
-      "B": {
-        "licencia": "692",
-        "nombre": "CAMPOS Oscar"
-      },
-      "C": {
-        "licencia": "11007",
-        "nombre": "REGINCÓS Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8967",
         "nombre": "WEISZ Montserrat"
@@ -55,6 +41,20 @@
         "licencia": "1774",
         "nombre": "CANO Andres"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1046",
+        "nombre": "SATORRAS Jordi"
+      },
+      "B": {
+        "licencia": "692",
+        "nombre": "CAMPOS Oscar"
+      },
+      "C": {
+        "licencia": "11007",
+        "nombre": "REGINCÓS Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1046",
-        "nombre": "SATORRAS Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8967",
         "nombre": "WEISZ Montserrat"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1046",
+        "nombre": "SATORRAS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "692",
-        "nombre": "CAMPOS Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3637",
         "nombre": "BARBERA Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "692",
+        "nombre": "CAMPOS Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11007",
-        "nombre": "REGINCÓS Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1774",
         "nombre": "CANO Andres"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11007",
+        "nombre": "REGINCÓS Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1046",
-        "nombre": "SATORRAS Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3637",
         "nombre": "BARBERA Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1046",
+        "nombre": "SATORRAS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11007",
-        "nombre": "REGINCÓS Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8967",
         "nombre": "WEISZ Montserrat"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11007",
+        "nombre": "REGINCÓS Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "692",
-        "nombre": "CAMPOS Oscar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1774",
         "nombre": "CANO Andres"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "692",
+        "nombre": "CAMPOS Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

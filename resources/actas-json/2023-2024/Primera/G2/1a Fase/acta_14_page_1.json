@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6937",
-        "nombre": "FONT Lluis"
-      },
-      "B": {
-        "licencia": "12057",
-        "nombre": "MONTALBAN Xavi"
-      },
-      "C": {
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15977",
         "nombre": "LAURI Vili"
@@ -55,6 +41,20 @@
         "licencia": "319",
         "nombre": "PEDRÓ Santiago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6937",
+        "nombre": "FONT Lluis"
+      },
+      "B": {
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
+      "C": {
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6937",
-        "nombre": "FONT Lluis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15977",
         "nombre": "LAURI Vili"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6937",
+        "nombre": "FONT Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12057",
-        "nombre": "MONTALBAN Xavi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17719",
         "nombre": "GUZMAN Christian"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "319",
         "nombre": "PEDRÓ Santiago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6937",
-        "nombre": "FONT Lluis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17719",
         "nombre": "GUZMAN Christian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6937",
+        "nombre": "FONT Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15977",
         "nombre": "LAURI Vili"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12057",
-        "nombre": "MONTALBAN Xavi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "319",
         "nombre": "PEDRÓ Santiago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12057",
+        "nombre": "MONTALBAN Xavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CC SANTS",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 16
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

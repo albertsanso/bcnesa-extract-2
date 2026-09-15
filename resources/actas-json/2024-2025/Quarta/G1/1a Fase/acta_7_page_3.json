@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS \"B\"",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "CTT CASTELLDEFELS \"B\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17841",
-        "nombre": "ESPALLARGAS Eduard"
-      },
-      "B": {
-        "licencia": "15874",
-        "nombre": "LOPEZ Maria Elena"
-      },
-      "C": {
-        "licencia": "15819",
-        "nombre": "BELLMUNT Josep"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17818",
         "nombre": "FONT Gerard"
@@ -55,6 +41,20 @@
         "licencia": "19135",
         "nombre": "CLEMENTE Marc"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17841",
+        "nombre": "ESPALLARGAS Eduard"
+      },
+      "B": {
+        "licencia": "15874",
+        "nombre": "LOPEZ Maria Elena"
+      },
+      "C": {
+        "licencia": "15819",
+        "nombre": "BELLMUNT Josep"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17841",
-        "nombre": "ESPALLARGAS Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17818",
         "nombre": "FONT Gerard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17841",
+        "nombre": "ESPALLARGAS Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15874",
-        "nombre": "LOPEZ Maria Elena"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17819",
         "nombre": "FONT Martí"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15874",
+        "nombre": "LOPEZ Maria Elena"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15819",
-        "nombre": "BELLMUNT Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19135",
         "nombre": "CLEMENTE Marc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15819",
+        "nombre": "BELLMUNT Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,64 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17841",
-        "nombre": "ESPALLARGAS Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17819",
         "nombre": "FONT Martí"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "15819",
-        "nombre": "BELLMUNT Josep"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "17818",
-        "nombre": "FONT Gerard"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "15874",
-        "nombre": "LOPEZ Maria Elena"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "19135",
-        "nombre": "CLEMENTE Marc"
+        "letra": "A",
+        "licencia": "17841",
+        "nombre": "ESPALLARGAS Eduard"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "17818",
+        "nombre": "FONT Gerard"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15819",
+        "nombre": "BELLMUNT Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "19135",
+        "nombre": "CLEMENTE Marc"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15874",
+        "nombre": "LOPEZ Maria Elena"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 1,
-        "visitante": 5
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILAFRANCA",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

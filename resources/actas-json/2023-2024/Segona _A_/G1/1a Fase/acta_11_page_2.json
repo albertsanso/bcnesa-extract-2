@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "B": {
-        "licencia": "8289",
-        "nombre": "HERNANDEZ Francisco Javier"
-      },
-      "C": {
-        "licencia": "8288",
-        "nombre": "MARIO Nicola"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11650",
         "nombre": "FERNANDEZ Alex"
@@ -55,6 +41,20 @@
         "licencia": "16300",
         "nombre": "MORA Daniel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
+      "B": {
+        "licencia": "8289",
+        "nombre": "HERNANDEZ Francisco Javier"
+      },
+      "C": {
+        "licencia": "8288",
+        "nombre": "MARIO Nicola"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11650",
         "nombre": "FERNANDEZ Alex"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8289",
-        "nombre": "HERNANDEZ Francisco Javier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16299",
         "nombre": "JIANG Min Yi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8289",
+        "nombre": "HERNANDEZ Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8288",
-        "nombre": "MARIO Nicola"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16300",
         "nombre": "MORA Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8288",
+        "nombre": "MARIO Nicola"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16299",
         "nombre": "JIANG Min Yi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8288",
-        "nombre": "MARIO Nicola"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11650",
         "nombre": "FERNANDEZ Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8288",
+        "nombre": "MARIO Nicola"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8289",
-        "nombre": "HERNANDEZ Francisco Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16300",
         "nombre": "MORA Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8289",
+        "nombre": "HERNANDEZ Francisco Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 4
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

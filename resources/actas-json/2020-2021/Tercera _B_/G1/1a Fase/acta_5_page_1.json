@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA \"A\"",
+      "nombre": "CTT BARCELONA ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA ''A''",
+      "nombre": "CTT ELS AMICS TERRASSA \"A\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14200",
-        "nombre": "WOLLMER Sebastian"
-      },
-      "B": {
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
-      },
-      "C": {
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11487",
         "nombre": "DONALDSON Mike"
@@ -55,6 +41,20 @@
         "licencia": "8150",
         "nombre": "LANDAJO Eric"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14200",
+        "nombre": "WOLLMER Sebastian"
+      },
+      "B": {
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
+      "C": {
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14200",
-        "nombre": "WOLLMER Sebastian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11487",
         "nombre": "DONALDSON Mike"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14200",
+        "nombre": "WOLLMER Sebastian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "9245",
         "nombre": "LLOYD-WILLIAMS Dylan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8150",
         "nombre": "LANDAJO Eric"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14200",
-        "nombre": "WOLLMER Sebastian"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "9245",
-        "nombre": "LLOYD-WILLIAMS Dylan"
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "9245",
+        "nombre": "LLOYD-WILLIAMS Dylan"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14200",
+        "nombre": "WOLLMER Sebastian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11487",
         "nombre": "DONALDSON Mike"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,21 +189,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13340",
-        "nombre": "SERRES Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8150",
         "nombre": "LANDAJO Eric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13340",
+        "nombre": "SERRES Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -213,10 +213,13 @@
   "resultado_final": {
     "ganador": null,
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 11,
       "visitante": 11
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

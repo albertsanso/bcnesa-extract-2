@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIÓ SABADELL \"B\"",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "CLUB NATACIÓ SABADELL \"B\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13520",
-        "nombre": "VILA Josep"
-      },
-      "B": {
-        "licencia": "14710",
-        "nombre": "MATA Ona"
-      },
-      "C": {
-        "licencia": "14387",
-        "nombre": "RECHE Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
@@ -55,6 +41,20 @@
         "licencia": "10909",
         "nombre": "MORENO Quim"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13520",
+        "nombre": "VILA Josep"
+      },
+      "B": {
+        "licencia": "14710",
+        "nombre": "MATA Ona"
+      },
+      "C": {
+        "licencia": "14387",
+        "nombre": "RECHE Alex"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13520",
-        "nombre": "VILA Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13520",
+        "nombre": "VILA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14710",
-        "nombre": "MATA Ona"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11775",
         "nombre": "CUTILLAS Octavi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14710",
+        "nombre": "MATA Ona"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14387",
-        "nombre": "RECHE Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10909",
         "nombre": "MORENO Quim"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14387",
+        "nombre": "RECHE Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13520",
-        "nombre": "VILA Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11775",
         "nombre": "CUTILLAS Octavi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13520",
+        "nombre": "VILA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14387",
-        "nombre": "RECHE Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12817",
         "nombre": "HERNÁNDEZ Adrià"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14387",
+        "nombre": "RECHE Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14710",
-        "nombre": "MATA Ona"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10909",
         "nombre": "MORENO Quim"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14710",
+        "nombre": "MATA Ona"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RIPOLLET",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8668",
-        "nombre": "BARCELO Manuel"
-      },
-      "B": {
-        "licencia": "1699",
-        "nombre": "PORTA Jose Antonio"
-      },
-      "C": {
-        "licencia": "6783",
-        "nombre": "VILARDELL Alfredo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "696",
         "nombre": "BARTOLÍ David"
@@ -55,20 +41,24 @@
         "licencia": "7600",
         "nombre": "EBRI Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "B": {
+        "licencia": "1699",
+        "nombre": "PORTA Jose Antonio"
+      },
+      "C": {
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8668",
-        "nombre": "BARCELO Manuel"
-      },
-      {
-        "licencia": "6783",
-        "nombre": "VILARDELL Alfredo"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "696",
         "nombre": "BARTOLÍ David"
@@ -76,6 +66,16 @@
       {
         "licencia": "10201",
         "nombre": "MARI Roger"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      {
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8668",
-        "nombre": "BARCELO Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "696",
         "nombre": "BARTOLÍ David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,64 +110,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "1699",
         "nombre": "PORTA Jose Antonio"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "10201",
-        "nombre": "MARI Roger"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "6783",
-        "nombre": "VILARDELL Alfredo"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "7600",
-        "nombre": "EBRI Manuel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "8668",
-        "nombre": "BARCELO Manuel"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "10201",
-        "nombre": "MARI Roger"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +125,56 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7600",
+        "nombre": "EBRI Manuel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "10201",
+        "nombre": "MARI Roger"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8668",
+        "nombre": "BARCELO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6783",
-        "nombre": "VILARDELL Alfredo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "696",
         "nombre": "BARTOLÍ David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6783",
+        "nombre": "VILARDELL Alfredo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1699",
-        "nombre": "PORTA Jose Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7600",
         "nombre": "EBRI Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1699",
+        "nombre": "PORTA Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8668",
-            "nombre": "BARCELO Manuel"
-          },
-          {
-            "licencia": "6783",
-            "nombre": "VILARDELL Alfredo"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "696",
             "nombre": "BARTOLÍ David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8668",
+            "nombre": "BARCELO Manuel"
+          },
+          {
+            "licencia": "6783",
+            "nombre": "VILARDELL Alfredo"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS D'HORTA TT",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

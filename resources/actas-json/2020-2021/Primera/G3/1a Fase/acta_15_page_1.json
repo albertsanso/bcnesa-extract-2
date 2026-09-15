@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA UNIÓ",
+      "nombre": "BLANXART XALOC OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BLANXART XALOC OLESA",
+      "nombre": "CTT LA UNIÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13500",
-        "nombre": "SANCHEZ Hector"
-      },
-      "B": {
-        "licencia": "1161",
-        "nombre": "CORTES Jonathan"
-      },
-      "C": {
-        "licencia": "7388",
-        "nombre": "FERNANDEZ Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11250",
         "nombre": "GARCIA Ivan"
@@ -55,6 +41,20 @@
         "licencia": "6416",
         "nombre": "MOYA Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13500",
+        "nombre": "SANCHEZ Hector"
+      },
+      "B": {
+        "licencia": "1161",
+        "nombre": "CORTES Jonathan"
+      },
+      "C": {
+        "licencia": "7388",
+        "nombre": "FERNANDEZ Carlos"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13500",
-        "nombre": "SANCHEZ Hector"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11250",
         "nombre": "GARCIA Ivan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "1161",
-        "nombre": "CORTES Jonathan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11251",
-        "nombre": "GARCIA Rafael"
+        "letra": "A",
+        "licencia": "13500",
+        "nombre": "SANCHEZ Hector"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11251",
+        "nombre": "GARCIA Rafael"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1161",
+        "nombre": "CORTES Jonathan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7388",
-        "nombre": "FERNANDEZ Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6416",
         "nombre": "MOYA Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7388",
+        "nombre": "FERNANDEZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13500",
-        "nombre": "SANCHEZ Hector"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11251",
         "nombre": "GARCIA Rafael"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13500",
+        "nombre": "SANCHEZ Hector"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7388",
-        "nombre": "FERNANDEZ Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11250",
         "nombre": "GARCIA Ivan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7388",
+        "nombre": "FERNANDEZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1161",
-        "nombre": "CORTES Jonathan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6416",
         "nombre": "MOYA Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1161",
+        "nombre": "CORTES Jonathan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA UNIÓ",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CTT JOSEP M. PALES",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALES",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6194",
-        "nombre": "RIUS Eusebi"
-      },
-      "B": {
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "C": {
-        "licencia": "17388",
-        "nombre": "BALAGUER Joaquim"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4994",
         "nombre": "AMOUROUX Patrice M. Xa"
@@ -55,6 +41,20 @@
         "licencia": "4979",
         "nombre": "RIBERA Victor"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6194",
+        "nombre": "RIUS Eusebi"
+      },
+      "B": {
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
+      "C": {
+        "licencia": "17388",
+        "nombre": "BALAGUER Joaquim"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6194",
-        "nombre": "RIUS Eusebi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4994",
         "nombre": "AMOUROUX Patrice M. Xa"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6194",
+        "nombre": "RIUS Eusebi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18962",
         "nombre": "BALCELLS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17388",
-        "nombre": "BALAGUER Joaquim"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4979",
         "nombre": "RIBERA Victor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17388",
+        "nombre": "BALAGUER Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6194",
-        "nombre": "RIUS Eusebi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18962",
         "nombre": "BALCELLS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6194",
+        "nombre": "RIUS Eusebi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17388",
-        "nombre": "BALAGUER Joaquim"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4994",
         "nombre": "AMOUROUX Patrice M. Xa"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17388",
+        "nombre": "BALAGUER Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7670",
-        "nombre": "VALLBONA Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4979",
         "nombre": "RIBERA Victor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7670",
+        "nombre": "VALLBONA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT JOSEP M. PALES",
+    "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

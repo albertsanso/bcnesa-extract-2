@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
+      "nombre": "CTT LA BISBAL DEL PENEDÈS 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT LA BISBAL DEL PENEDÈS 'A'",
+      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3983",
-        "nombre": "PLA Joaquim"
-      },
-      "B": {
-        "licencia": "19390",
-        "nombre": "MANZANO Dídac"
-      },
-      "C": {
-        "licencia": "16704",
-        "nombre": "SALVADOR Miguel Angel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
@@ -55,20 +41,24 @@
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
+      "B": {
+        "licencia": "19390",
+        "nombre": "MANZANO Dídac"
+      },
+      "C": {
+        "licencia": "16704",
+        "nombre": "SALVADOR Miguel Angel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "3983",
-        "nombre": "PLA Joaquim"
-      },
-      {
-        "licencia": "16704",
-        "nombre": "SALVADOR Miguel Angel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
@@ -76,6 +66,16 @@
       {
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
+      {
+        "licencia": "16704",
+        "nombre": "SALVADOR Miguel Angel"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3983",
-        "nombre": "PLA Joaquim"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19390",
-        "nombre": "MANZANO Dídac"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19390",
+        "nombre": "MANZANO Dídac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16704",
-        "nombre": "SALVADOR Miguel Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "3983",
-        "nombre": "PLA Joaquim"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "241",
-        "nombre": "MARTINEZ Josep"
+        "letra": "C",
+        "licencia": "16704",
+        "nombre": "SALVADOR Miguel Angel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "241",
+        "nombre": "MARTINEZ Josep"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3983",
+        "nombre": "PLA Joaquim"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16704",
-        "nombre": "SALVADOR Miguel Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "302",
         "nombre": "ESCUDERO Josep Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16704",
+        "nombre": "SALVADOR Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19390",
-        "nombre": "MANZANO Dídac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19390",
+        "nombre": "MANZANO Dídac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "3983",
-            "nombre": "PLA Joaquim"
-          },
-          {
-            "licencia": "16704",
-            "nombre": "SALVADOR Miguel Angel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "302",
             "nombre": "ESCUDERO Josep Maria"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "3983",
+            "nombre": "PLA Joaquim"
+          },
+          {
+            "licencia": "16704",
+            "nombre": "SALVADOR Miguel Angel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA BISBAL DEL PENEDÈS 'A'",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

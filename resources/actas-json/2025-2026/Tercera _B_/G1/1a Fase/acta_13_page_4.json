@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16292",
-        "nombre": "RECASENS Jordi"
-      },
-      "B": {
-        "licencia": "13123",
-        "nombre": "ROSELLÓ Lluís"
-      },
-      "C": {
-        "licencia": "19023",
-        "nombre": "HUERTAS Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18957",
         "nombre": "ARÍS Joel"
@@ -55,20 +41,24 @@
         "licencia": "18190",
         "nombre": "MARCOS Ferran"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16292",
+        "nombre": "RECASENS Jordi"
+      },
+      "B": {
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
+      "C": {
+        "licencia": "19023",
+        "nombre": "HUERTAS Miquel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "16292",
-        "nombre": "RECASENS Jordi"
-      },
-      {
-        "licencia": "19023",
-        "nombre": "HUERTAS Miquel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "18140",
         "nombre": "IGLESIAS Manuel"
@@ -76,6 +66,16 @@
       {
         "licencia": "18957",
         "nombre": "ARÍS Joel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "16292",
+        "nombre": "RECASENS Jordi"
+      },
+      {
+        "licencia": "19023",
+        "nombre": "HUERTAS Miquel"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16292",
-        "nombre": "RECASENS Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18957",
         "nombre": "ARÍS Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16292",
+        "nombre": "RECASENS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13123",
-        "nombre": "ROSELLÓ Lluís"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18140",
         "nombre": "IGLESIAS Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19023",
-        "nombre": "HUERTAS Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18190",
         "nombre": "MARCOS Ferran"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16292",
-        "nombre": "RECASENS Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18140",
-        "nombre": "IGLESIAS Manuel"
+        "letra": "C",
+        "licencia": "19023",
+        "nombre": "HUERTAS Miquel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18140",
+        "nombre": "IGLESIAS Manuel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16292",
+        "nombre": "RECASENS Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19023",
-        "nombre": "HUERTAS Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18957",
         "nombre": "ARÍS Joel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19023",
+        "nombre": "HUERTAS Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13123",
-        "nombre": "ROSELLÓ Lluís"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18190",
         "nombre": "MARCOS Ferran"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13123",
+        "nombre": "ROSELLÓ Lluís"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "16292",
-            "nombre": "RECASENS Jordi"
-          },
-          {
-            "licencia": "19023",
-            "nombre": "HUERTAS Miquel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "18140",
             "nombre": "IGLESIAS Manuel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "16292",
+            "nombre": "RECASENS Jordi"
+          },
+          {
+            "licencia": "19023",
+            "nombre": "HUERTAS Miquel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANTS",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

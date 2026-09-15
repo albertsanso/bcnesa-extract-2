@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "B": {
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "C": {
-        "licencia": "4405",
-        "nombre": "CAROL Santiago"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6656",
         "nombre": "ALVAREZ Antonio"
@@ -55,6 +41,20 @@
         "licencia": "321",
         "nombre": "JUAN Alfredo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "B": {
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "C": {
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6656",
         "nombre": "ALVAREZ Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7547",
         "nombre": "APARICIO David"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "4405",
-        "nombre": "CAROL Santiago"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "321",
-        "nombre": "JUAN Alfredo"
+        "letra": "B",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,73 +105,23 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "7547",
-        "nombre": "APARICIO David"
-      },
-      "sets": [],
-      "resultado_juegos": {
         "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "visitante": 0
       }
     },
     {
-      "numero": 5,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4405",
-        "nombre": "CAROL Santiago"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "6656",
-        "nombre": "ALVAREZ Antonio"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "8920",
-        "nombre": "GARCIA Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "321",
         "nombre": "JUAN Alfredo"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +130,96 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7547",
+        "nombre": "APARICIO David"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "6656",
+        "nombre": "ALVAREZ Antonio"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "321",
+        "nombre": "JUAN Alfredo"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8920",
+        "nombre": "GARCIA Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILAFRANCA",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

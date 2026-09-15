@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14028",
-        "nombre": "RAMIREZ Daniel"
-      },
-      "B": {
-        "licencia": "16001",
-        "nombre": "PUJOL Miquel"
-      },
-      "C": {
-        "licencia": "15482",
-        "nombre": "LIPARTELIANI Luka"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
@@ -55,6 +41,20 @@
         "licencia": "10095",
         "nombre": "MILIA Gaspar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      },
+      "B": {
+        "licencia": "16001",
+        "nombre": "PUJOL Miquel"
+      },
+      "C": {
+        "licencia": "15482",
+        "nombre": "LIPARTELIANI Luka"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14028",
-        "nombre": "RAMIREZ Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16001",
-        "nombre": "PUJOL Miquel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6001",
-        "nombre": "NAVARRETE Cristobal"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "15482",
-        "nombre": "LIPARTELIANI Luka"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "10095",
-        "nombre": "MILIA Gaspar"
+        "letra": "A",
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +80,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6001",
+        "nombre": "NAVARRETE Cristobal"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16001",
+        "nombre": "PUJOL Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15482",
+        "nombre": "LIPARTELIANI Luka"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14028",
-        "nombre": "RAMIREZ Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6001",
         "nombre": "NAVARRETE Cristobal"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14028",
+        "nombre": "RAMIREZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15482",
-        "nombre": "LIPARTELIANI Luka"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11484",
         "nombre": "BLANCH Francisco Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15482",
+        "nombre": "LIPARTELIANI Luka"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16001",
-        "nombre": "PUJOL Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10095",
         "nombre": "MILIA Gaspar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16001",
+        "nombre": "PUJOL Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 9
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

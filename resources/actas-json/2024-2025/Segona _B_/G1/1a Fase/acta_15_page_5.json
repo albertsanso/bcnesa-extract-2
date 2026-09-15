@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "TT L'HOSPITALET ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''A''",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16786",
-        "nombre": "LLORENS Miguel"
-      },
-      "B": {
-        "licencia": "16789",
-        "nombre": "PERALS Vicenç"
-      },
-      "C": {
-        "licencia": "3151",
-        "nombre": "ARELLANO Juan Francisco"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
@@ -55,6 +41,20 @@
         "licencia": "15455",
         "nombre": "MOGEDANO Eric"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16786",
+        "nombre": "LLORENS Miguel"
+      },
+      "B": {
+        "licencia": "16789",
+        "nombre": "PERALS Vicenç"
+      },
+      "C": {
+        "licencia": "3151",
+        "nombre": "ARELLANO Juan Francisco"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16786",
-        "nombre": "LLORENS Miguel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16786",
+        "nombre": "LLORENS Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16789",
-        "nombre": "PERALS Vicenç"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16001",
         "nombre": "PUJOL Miquel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16789",
+        "nombre": "PERALS Vicenç"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3151",
-        "nombre": "ARELLANO Juan Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15455",
         "nombre": "MOGEDANO Eric"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3151",
+        "nombre": "ARELLANO Juan Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16786",
-        "nombre": "LLORENS Miguel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16001",
         "nombre": "PUJOL Miquel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16786",
+        "nombre": "LLORENS Miguel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3151",
-        "nombre": "ARELLANO Juan Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8813",
         "nombre": "MURILLO Fernando"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3151",
+        "nombre": "ARELLANO Juan Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16789",
-        "nombre": "PERALS Vicenç"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15455",
         "nombre": "MOGEDANO Eric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16789",
+        "nombre": "PERALS Vicenç"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET ''A''",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

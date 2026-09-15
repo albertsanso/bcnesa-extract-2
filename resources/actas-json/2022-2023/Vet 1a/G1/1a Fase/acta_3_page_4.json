@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO ''B''",
+      "nombre": "VIC TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "VIC TT",
+      "nombre": "EL CIERVO ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
-      },
-      "B": {
-        "licencia": "2486",
-        "nombre": "BLASCO Vicenç"
-      },
-      "C": {
-        "licencia": "8321",
-        "nombre": "BOADA Isidro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2080",
         "nombre": "AUSIO Pere"
@@ -55,6 +41,20 @@
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      },
+      "B": {
+        "licencia": "2486",
+        "nombre": "BLASCO Vicenç"
+      },
+      "C": {
+        "licencia": "8321",
+        "nombre": "BOADA Isidro"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2080",
         "nombre": "AUSIO Pere"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2486",
-        "nombre": "BLASCO Vicenç"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "3254",
-        "nombre": "CARCELLER Jordi"
+        "letra": "A",
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "3254",
+        "nombre": "CARCELLER Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2486",
+        "nombre": "BLASCO Vicenç"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8321",
-        "nombre": "BOADA Isidro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "4276",
-        "nombre": "GALTES Francesc X."
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "3254",
-        "nombre": "CARCELLER Jordi"
+        "letra": "C",
+        "licencia": "8321",
+        "nombre": "BOADA Isidro"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "3254",
+        "nombre": "CARCELLER Jordi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4276",
+        "nombre": "GALTES Francesc X."
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8321",
-        "nombre": "BOADA Isidro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2080",
         "nombre": "AUSIO Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8321",
+        "nombre": "BOADA Isidro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2486",
-        "nombre": "BLASCO Vicenç"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2486",
+        "nombre": "BLASCO Vicenç"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO ''B''",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

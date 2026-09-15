@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "SURIS CALELLA",
+      "nombre": "EL CIERVO ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO ''A''",
+      "nombre": "SURIS CALELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1000",
-        "nombre": "PUIG Aitor"
-      },
-      "B": {
-        "licencia": "150",
-        "nombre": "FONT Jordi"
-      },
-      "C": {
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
@@ -55,6 +41,20 @@
         "licencia": "194",
         "nombre": "AGEA Rafael"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1000",
+        "nombre": "PUIG Aitor"
+      },
+      "B": {
+        "licencia": "150",
+        "nombre": "FONT Jordi"
+      },
+      "C": {
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1000",
-        "nombre": "PUIG Aitor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1000",
+        "nombre": "PUIG Aitor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "150",
-        "nombre": "FONT Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5522",
         "nombre": "GUINOVART Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "150",
+        "nombre": "FONT Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "194",
         "nombre": "AGEA Rafael"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1000",
-        "nombre": "PUIG Aitor"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5522",
         "nombre": "GUINOVART Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1000",
+        "nombre": "PUIG Aitor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11559",
         "nombre": "ESPINOSA Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "150",
-        "nombre": "FONT Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "194",
         "nombre": "AGEA Rafael"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "150",
+        "nombre": "FONT Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "SURIS CALELLA",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

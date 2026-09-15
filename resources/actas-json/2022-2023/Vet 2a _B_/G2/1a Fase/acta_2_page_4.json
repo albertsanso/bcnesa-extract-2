@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      "B": {
-        "licencia": "14578",
-        "nombre": "GARCIA Santiago"
-      },
-      "C": {
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2064",
         "nombre": "FONTOVA Alex"
@@ -55,6 +41,20 @@
         "licencia": "6200",
         "nombre": "MORALES Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
+      "B": {
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
+      "C": {
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2064",
         "nombre": "FONTOVA Alex"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14578",
-        "nombre": "GARCIA Santiago"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "653",
         "nombre": "PONS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6200",
         "nombre": "MORALES Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "653",
         "nombre": "PONS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2064",
         "nombre": "FONTOVA Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14578",
-        "nombre": "GARCIA Santiago"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6200",
         "nombre": "MORALES Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14578",
+        "nombre": "GARCIA Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

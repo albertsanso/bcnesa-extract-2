@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CLUB ARIEL \"A\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB ARIEL \"A\"",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      "B": {
-        "licencia": "16646",
-        "nombre": "CHECA Roberto"
-      },
-      "C": {
-        "licencia": "323",
-        "nombre": "SOSPEDRA Fco.javier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6687",
         "nombre": "COLL David"
@@ -55,20 +41,24 @@
         "licencia": "14984",
         "nombre": "GONZALEZ Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
+      "B": {
+        "licencia": "16646",
+        "nombre": "CHECA Roberto"
+      },
+      "C": {
+        "licencia": "323",
+        "nombre": "SOSPEDRA Fco.javier"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      {
-        "licencia": "16646",
-        "nombre": "CHECA Roberto"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6687",
         "nombre": "COLL David"
@@ -76,6 +66,16 @@
       {
         "licencia": "18927",
         "nombre": "ESTOPÀ Joel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
+      {
+        "licencia": "16646",
+        "nombre": "CHECA Roberto"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6687",
         "nombre": "COLL David"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16646",
-        "nombre": "CHECA Roberto"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18927",
-        "nombre": "ESTOPÀ Joel"
+        "letra": "A",
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18927",
+        "nombre": "ESTOPÀ Joel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16646",
+        "nombre": "CHECA Roberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "323",
-        "nombre": "SOSPEDRA Fco.javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14984",
         "nombre": "GONZALEZ Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "323",
+        "nombre": "SOSPEDRA Fco.javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "887",
-        "nombre": "COLLDEFORN Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18927",
         "nombre": "ESTOPÀ Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "887",
+        "nombre": "COLLDEFORN Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "323",
-        "nombre": "SOSPEDRA Fco.javier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6687",
         "nombre": "COLL David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "323",
+        "nombre": "SOSPEDRA Fco.javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16646",
-        "nombre": "CHECA Roberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14984",
         "nombre": "GONZALEZ Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16646",
+        "nombre": "CHECA Roberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "887",
-            "nombre": "COLLDEFORN Jaume"
-          },
-          {
-            "licencia": "16646",
-            "nombre": "CHECA Roberto"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6687",
             "nombre": "COLL David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "887",
+            "nombre": "COLLDEFORN Jaume"
+          },
+          {
+            "licencia": "16646",
+            "nombre": "CHECA Roberto"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB ARIEL \"A\"",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 13
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA POBLA DE LILLET",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
+      "nombre": "CTT LA POBLA DE LILLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1371",
-        "nombre": "ARTIGAS Sergi"
-      },
-      "B": {
-        "licencia": "12132",
-        "nombre": "PARDINILLA Jorge"
-      },
-      "C": {
-        "licencia": "5410",
-        "nombre": "GALIAN Roger"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14565",
         "nombre": "MATTSSON Tony Michael"
@@ -55,6 +41,20 @@
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
+      "B": {
+        "licencia": "12132",
+        "nombre": "PARDINILLA Jorge"
+      },
+      "C": {
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1371",
-        "nombre": "ARTIGAS Sergi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14565",
         "nombre": "MATTSSON Tony Michael"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12132",
-        "nombre": "PARDINILLA Jorge"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12132",
+        "nombre": "PARDINILLA Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5410",
-        "nombre": "GALIAN Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1371",
-        "nombre": "ARTIGAS Sergi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5410",
-        "nombre": "GALIAN Roger"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14565",
         "nombre": "MATTSSON Tony Michael"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,21 +189,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12132",
-        "nombre": "PARDINILLA Jorge"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12132",
+        "nombre": "PARDINILLA Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -211,12 +211,15 @@
     }
   ],
   "resultado_final": {
-    "ganador": "CTT LA POBLA DE LILLET",
+    "ganador": null,
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 12
+      "local": 3,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

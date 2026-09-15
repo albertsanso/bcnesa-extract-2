@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CPP IGUALADA ''B''",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "CPP IGUALADA ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16243",
-        "nombre": "VALLS Kevin"
-      },
-      "B": {
-        "licencia": "16386",
-        "nombre": "PUIG Quim"
-      },
-      "C": {
-        "licencia": "16422",
-        "nombre": "PUIG Salvador"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11510",
         "nombre": "ROMAN Miguel"
@@ -55,6 +41,20 @@
         "licencia": "4228",
         "nombre": "MARTI Ricard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16243",
+        "nombre": "VALLS Kevin"
+      },
+      "B": {
+        "licencia": "16386",
+        "nombre": "PUIG Quim"
+      },
+      "C": {
+        "licencia": "16422",
+        "nombre": "PUIG Salvador"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16243",
-        "nombre": "VALLS Kevin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11510",
         "nombre": "ROMAN Miguel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16243",
+        "nombre": "VALLS Kevin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16386",
-        "nombre": "PUIG Quim"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13709",
         "nombre": "PONCE Lucas"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16386",
+        "nombre": "PUIG Quim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16422",
-        "nombre": "PUIG Salvador"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4228",
         "nombre": "MARTI Ricard"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16243",
-        "nombre": "VALLS Kevin"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13709",
-        "nombre": "PONCE Lucas"
+        "letra": "C",
+        "licencia": "16422",
+        "nombre": "PUIG Salvador"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13709",
+        "nombre": "PONCE Lucas"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16243",
+        "nombre": "VALLS Kevin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16422",
-        "nombre": "PUIG Salvador"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11510",
         "nombre": "ROMAN Miguel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16422",
+        "nombre": "PUIG Salvador"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16386",
-        "nombre": "PUIG Quim"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4228",
         "nombre": "MARTI Ricard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16386",
+        "nombre": "PUIG Quim"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

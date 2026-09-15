@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5544",
-        "nombre": "PRADES Aixeus"
-      },
-      "B": {
-        "licencia": "922",
-        "nombre": "BURLO David"
-      },
-      "C": {
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1105",
         "nombre": "ROSELLÓ Jordi"
@@ -55,20 +41,24 @@
         "licencia": "395",
         "nombre": "EXPOSITO Juan Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
+      "B": {
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
+      "C": {
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      },
-      {
-        "licencia": "922",
-        "nombre": "BURLO David"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "395",
         "nombre": "EXPOSITO Juan Antonio"
@@ -76,6 +66,16 @@
       {
         "licencia": "2983",
         "nombre": "ESCOLA Francisco Javier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      {
+        "licencia": "922",
+        "nombre": "BURLO David"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5544",
-        "nombre": "PRADES Aixeus"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1105",
         "nombre": "ROSELLÓ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "922",
-        "nombre": "BURLO David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "707",
         "nombre": "GARCIA Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "395",
         "nombre": "EXPOSITO Juan Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5544",
-        "nombre": "PRADES Aixeus"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "707",
         "nombre": "GARCIA Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1105",
         "nombre": "ROSELLÓ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "922",
-        "nombre": "BURLO David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "395",
         "nombre": "EXPOSITO Juan Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "922",
+        "nombre": "BURLO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "740",
-            "nombre": "SERRANO Fabià"
-          },
-          {
-            "licencia": "922",
-            "nombre": "BURLO David"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "395",
             "nombre": "EXPOSITO Juan Antonio"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "740",
+            "nombre": "SERRANO Fabià"
+          },
+          {
+            "licencia": "922",
+            "nombre": "BURLO David"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

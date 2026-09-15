@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANTA PERPETUA",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen D",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen D",
+      "nombre": "CTT SANTA PERPETUA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "20095",
-        "nombre": "LOPEZ Marti"
-      },
-      "B": {
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "C": {
-        "licencia": "19004",
-        "nombre": "LOPEZ Iker"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6299",
         "nombre": "VILLENA Javier"
@@ -55,20 +41,24 @@
         "licencia": "1770",
         "nombre": "MILLERA Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "20095",
+        "nombre": "LOPEZ Marti"
+      },
+      "B": {
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
+      "C": {
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "19004",
-        "nombre": "LOPEZ Iker"
-      },
-      {
-        "licencia": "20095",
-        "nombre": "LOPEZ Marti"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "1770",
         "nombre": "MILLERA Carlos"
@@ -76,6 +66,16 @@
       {
         "licencia": "6299",
         "nombre": "VILLENA Javier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
+      },
+      {
+        "licencia": "20095",
+        "nombre": "LOPEZ Marti"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "20095",
-        "nombre": "LOPEZ Marti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6299",
         "nombre": "VILLENA Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20095",
+        "nombre": "LOPEZ Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16835",
         "nombre": "CANADELL Santiago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19004",
-        "nombre": "LOPEZ Iker"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1770",
         "nombre": "MILLERA Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "20095",
-        "nombre": "LOPEZ Marti"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16835",
         "nombre": "CANADELL Santiago"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20095",
+        "nombre": "LOPEZ Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19004",
-        "nombre": "LOPEZ Iker"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6299",
         "nombre": "VILLENA Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19004",
+        "nombre": "LOPEZ Iker"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19003",
-        "nombre": "LOPEZ Miguel Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1770",
         "nombre": "MILLERA Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19003",
+        "nombre": "LOPEZ Miguel Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "19004",
-            "nombre": "LOPEZ Iker"
-          },
-          {
-            "licencia": "20095",
-            "nombre": "LOPEZ Marti"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "1770",
             "nombre": "MILLERA Carlos"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "19004",
+            "nombre": "LOPEZ Iker"
+          },
+          {
+            "licencia": "20095",
+            "nombre": "LOPEZ Marti"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT ST QUIRZE DEL VALLÈS - Sen D",
+    "ganador": "CTT SANTA PERPETUA",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 15
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

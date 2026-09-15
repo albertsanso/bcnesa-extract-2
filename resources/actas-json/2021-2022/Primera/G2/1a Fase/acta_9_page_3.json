@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "492",
-        "nombre": "RIERA Joan"
-      },
-      "B": {
-        "licencia": "724",
-        "nombre": "BORRULL Jordi"
-      },
-      "C": {
-        "licencia": "8612",
-        "nombre": "ROMERA Gerard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7589",
         "nombre": "BUENO Poul Ignasi"
@@ -55,6 +41,20 @@
         "licencia": "10247",
         "nombre": "BOLTÀ Ot"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      },
+      "B": {
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
+      "C": {
+        "licencia": "8612",
+        "nombre": "ROMERA Gerard"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "492",
-        "nombre": "RIERA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7589",
         "nombre": "BUENO Poul Ignasi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "724",
-        "nombre": "BORRULL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6416",
         "nombre": "MOYA Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8612",
-        "nombre": "ROMERA Gerard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10247",
         "nombre": "BOLTÀ Ot"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8612",
+        "nombre": "ROMERA Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "492",
-        "nombre": "RIERA Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6416",
         "nombre": "MOYA Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8612",
-        "nombre": "ROMERA Gerard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7589",
         "nombre": "BUENO Poul Ignasi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8612",
+        "nombre": "ROMERA Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "724",
-        "nombre": "BORRULL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10247",
         "nombre": "BOLTÀ Ot"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 7
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

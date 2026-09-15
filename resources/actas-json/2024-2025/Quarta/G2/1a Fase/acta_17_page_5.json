@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE-NYX",
+      "nombre": "TT PRAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PRAT",
+      "nombre": "EL CENTRE-NYX",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19061",
-        "nombre": "PEREZ Mercedes"
-      },
-      "B": {
-        "licencia": "19114",
-        "nombre": "RIBES Natalia"
-      },
-      "C": {
-        "licencia": "19556",
-        "nombre": "HERNANDEZ Ana Maria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
@@ -55,6 +41,20 @@
         "licencia": "16474",
         "nombre": "FLORES Jose Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19061",
+        "nombre": "PEREZ Mercedes"
+      },
+      "B": {
+        "licencia": "19114",
+        "nombre": "RIBES Natalia"
+      },
+      "C": {
+        "licencia": "19556",
+        "nombre": "HERNANDEZ Ana Maria"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19061",
-        "nombre": "PEREZ Mercedes"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19061",
+        "nombre": "PEREZ Mercedes"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19114",
-        "nombre": "RIBES Natalia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14127",
         "nombre": "PARRAS Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19114",
+        "nombre": "RIBES Natalia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19556",
-        "nombre": "HERNANDEZ Ana Maria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16474",
         "nombre": "FLORES Jose Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19556",
+        "nombre": "HERNANDEZ Ana Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19061",
-        "nombre": "PEREZ Mercedes"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14127",
         "nombre": "PARRAS Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19061",
+        "nombre": "PEREZ Mercedes"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19556",
-        "nombre": "HERNANDEZ Ana Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "193",
         "nombre": "MONTAGUT Ramon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19556",
+        "nombre": "HERNANDEZ Ana Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19114",
-        "nombre": "RIBES Natalia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16474",
         "nombre": "FLORES Jose Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19114",
+        "nombre": "RIBES Natalia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PRAT",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

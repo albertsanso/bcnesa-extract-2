@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5417",
-        "nombre": "KRZYSZTOF Slawomir"
-      },
-      "B": {
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
-      "C": {
-        "licencia": "8046",
-        "nombre": "BERENGUERAS Genis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3151",
         "nombre": "ARELLANO Juan Francisco"
@@ -55,20 +41,24 @@
         "licencia": "80",
         "nombre": "MARTÍNEZ José"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5417",
+        "nombre": "KRZYSZTOF Slawomir"
+      },
+      "B": {
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
+      "C": {
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8046",
-        "nombre": "BERENGUERAS Genis"
-      },
-      {
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13148",
         "nombre": "PACHECO Jordi"
@@ -76,6 +66,16 @@
       {
         "licencia": "3151",
         "nombre": "ARELLANO Juan Francisco"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
+      {
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5417",
-        "nombre": "KRZYSZTOF Slawomir"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3151",
         "nombre": "ARELLANO Juan Francisco"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13148",
-        "nombre": "PACHECO Jordi"
+        "letra": "A",
+        "licencia": "5417",
+        "nombre": "KRZYSZTOF Slawomir"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13148",
+        "nombre": "PACHECO Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8046",
-        "nombre": "BERENGUERAS Genis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "80",
         "nombre": "MARTÍNEZ José"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5417",
-        "nombre": "KRZYSZTOF Slawomir"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13148",
         "nombre": "PACHECO Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5417",
+        "nombre": "KRZYSZTOF Slawomir"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8046",
-        "nombre": "BERENGUERAS Genis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3151",
         "nombre": "ARELLANO Juan Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "80",
         "nombre": "MARTÍNEZ José"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8046",
-            "nombre": "BERENGUERAS Genis"
-          },
-          {
-            "licencia": "5922",
-            "nombre": "ROGER Jose Luis"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13148",
             "nombre": "PACHECO Jordi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8046",
+            "nombre": "BERENGUERAS Genis"
+          },
+          {
+            "licencia": "5922",
+            "nombre": "ROGER Jose Luis"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "TT TORELLÓ",
+    "ganador": "CTT ATC MOLINS DE REI",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 12
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

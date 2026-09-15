@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "CTT RIPOLLET ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET ''A''",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12767",
-        "nombre": "BENHARI Mohamed"
-      },
-      "B": {
-        "licencia": "8046",
-        "nombre": "BERENGUERAS Genis"
-      },
-      "C": {
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6482",
         "nombre": "OLTENAS Viorel"
@@ -55,6 +41,20 @@
         "licencia": "6281",
         "nombre": "BASCU Francesc"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
+      "B": {
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
+      "C": {
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12767",
-        "nombre": "BENHARI Mohamed"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6482",
         "nombre": "OLTENAS Viorel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8046",
-        "nombre": "BERENGUERAS Genis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8669",
         "nombre": "PARDO Vicente"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6281",
         "nombre": "BASCU Francesc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12767",
-        "nombre": "BENHARI Mohamed"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8669",
         "nombre": "PARDO Vicente"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6482",
         "nombre": "OLTENAS Viorel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8046",
-        "nombre": "BERENGUERAS Genis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6281",
         "nombre": "BASCU Francesc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8046",
+        "nombre": "BERENGUERAS Genis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RIPOLLET ''A''",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "CN ST. ANDREU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CN ST. ANDREU",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11148",
-        "nombre": "MAZORRA Enric"
-      },
-      "B": {
-        "licencia": "238",
-        "nombre": "GARRIDO Antoni"
-      },
-      "C": {
-        "licencia": "33",
-        "nombre": "CULLA Jose Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5772",
         "nombre": "BARRERA Miguel"
@@ -55,20 +41,24 @@
         "licencia": "16616",
         "nombre": "NUÑEZ Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11148",
+        "nombre": "MAZORRA Enric"
+      },
+      "B": {
+        "licencia": "238",
+        "nombre": "GARRIDO Antoni"
+      },
+      "C": {
+        "licencia": "33",
+        "nombre": "CULLA Jose Luis"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11148",
-        "nombre": "MAZORRA Enric"
-      },
-      {
-        "licencia": "33",
-        "nombre": "CULLA Jose Luis"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "17607",
         "nombre": "LOPEZ Daniel"
@@ -76,6 +66,16 @@
       {
         "licencia": "16616",
         "nombre": "NUÑEZ Francisco"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11148",
+        "nombre": "MAZORRA Enric"
+      },
+      {
+        "licencia": "33",
+        "nombre": "CULLA Jose Luis"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11148",
-        "nombre": "MAZORRA Enric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5772",
         "nombre": "BARRERA Miguel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11148",
+        "nombre": "MAZORRA Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "238",
-        "nombre": "GARRIDO Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17607",
         "nombre": "LOPEZ Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "238",
+        "nombre": "GARRIDO Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "33",
-        "nombre": "CULLA Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16616",
         "nombre": "NUÑEZ Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "33",
+        "nombre": "CULLA Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11148",
-        "nombre": "MAZORRA Enric"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17607",
         "nombre": "LOPEZ Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11148",
+        "nombre": "MAZORRA Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "33",
-        "nombre": "CULLA Jose Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5772",
         "nombre": "BARRERA Miguel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "33",
+        "nombre": "CULLA Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "238",
-        "nombre": "GARRIDO Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16616",
         "nombre": "NUÑEZ Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "238",
+        "nombre": "GARRIDO Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11148",
-            "nombre": "MAZORRA Enric"
-          },
-          {
-            "licencia": "33",
-            "nombre": "CULLA Jose Luis"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "17607",
             "nombre": "LOPEZ Daniel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11148",
+            "nombre": "MAZORRA Enric"
+          },
+          {
+            "licencia": "33",
+            "nombre": "CULLA Jose Luis"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CT BARCINO",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

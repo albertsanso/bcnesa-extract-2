@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5759",
-        "nombre": "BADIA Albert"
-      },
-      "B": {
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      "C": {
-        "licencia": "3181",
-        "nombre": "POCH Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "998",
         "nombre": "QUESADA Ruben"
@@ -55,6 +41,20 @@
         "licencia": "17701",
         "nombre": "RUIZ Santiago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5759",
+        "nombre": "BADIA Albert"
+      },
+      "B": {
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      },
+      "C": {
+        "licencia": "3181",
+        "nombre": "POCH Xavier"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5759",
-        "nombre": "BADIA Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "998",
         "nombre": "QUESADA Ruben"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5759",
+        "nombre": "BADIA Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19949",
         "nombre": "SHAO Yicheng"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3181",
-        "nombre": "POCH Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17701",
         "nombre": "RUIZ Santiago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3181",
+        "nombre": "POCH Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5759",
-        "nombre": "BADIA Albert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19949",
         "nombre": "SHAO Yicheng"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5759",
+        "nombre": "BADIA Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3181",
-        "nombre": "POCH Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "998",
         "nombre": "QUESADA Ruben"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3181",
+        "nombre": "POCH Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17701",
         "nombre": "RUIZ Santiago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RUBI",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

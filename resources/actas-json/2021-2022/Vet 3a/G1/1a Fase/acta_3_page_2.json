@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS \"Vet. C\"",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS \"Vet. C\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1893",
-        "nombre": "JIMENEZ Jose Antonio"
-      },
-      "B": {
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
-      "C": {
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "116",
         "nombre": "PUYUELO Amadeo"
@@ -55,6 +41,20 @@
         "licencia": "14495",
         "nombre": "ABUIN Roger"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1893",
+        "nombre": "JIMENEZ Jose Antonio"
+      },
+      "B": {
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
+      "C": {
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1893",
-        "nombre": "JIMENEZ Jose Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "116",
         "nombre": "PUYUELO Amadeo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1893",
+        "nombre": "JIMENEZ Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13081",
         "nombre": "GOMEZ David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14495",
         "nombre": "ABUIN Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1893",
-        "nombre": "JIMENEZ Jose Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13081",
         "nombre": "GOMEZ David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1893",
+        "nombre": "JIMENEZ Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "154",
-        "nombre": "BOTELLA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "116",
         "nombre": "PUYUELO Amadeo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "154",
+        "nombre": "BOTELLA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12124",
-        "nombre": "ALASTUEY Hugo Alberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14495",
         "nombre": "ABUIN Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12124",
+        "nombre": "ALASTUEY Hugo Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUIRZE DEL VALLÈS \"Vet. C\"",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 3
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

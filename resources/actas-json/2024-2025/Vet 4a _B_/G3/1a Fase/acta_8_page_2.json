@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AP LA CAIXA",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "AP LA CAIXA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18984",
-        "nombre": "MARÍ Alexandre"
-      },
-      "B": {
-        "licencia": "6682",
-        "nombre": "HIGON Javier"
-      },
-      "C": {
-        "licencia": "18985",
-        "nombre": "COSTA Lluís"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7342",
         "nombre": "MAROTO Eduardo"
@@ -55,6 +41,20 @@
         "licencia": "18933",
         "nombre": "GARCIA Jose Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18984",
+        "nombre": "MARÍ Alexandre"
+      },
+      "B": {
+        "licencia": "6682",
+        "nombre": "HIGON Javier"
+      },
+      "C": {
+        "licencia": "18985",
+        "nombre": "COSTA Lluís"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18984",
-        "nombre": "MARÍ Alexandre"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7342",
         "nombre": "MAROTO Eduardo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18984",
+        "nombre": "MARÍ Alexandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6682",
-        "nombre": "HIGON Javier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16629",
         "nombre": "FERRER Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6682",
+        "nombre": "HIGON Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18985",
-        "nombre": "COSTA Lluís"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18933",
         "nombre": "GARCIA Jose Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18985",
+        "nombre": "COSTA Lluís"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18984",
-        "nombre": "MARÍ Alexandre"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16629",
         "nombre": "FERRER Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18984",
+        "nombre": "MARÍ Alexandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18985",
-        "nombre": "COSTA Lluís"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7342",
         "nombre": "MAROTO Eduardo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18985",
+        "nombre": "COSTA Lluís"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6682",
-        "nombre": "HIGON Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18933",
         "nombre": "GARCIA Jose Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6682",
+        "nombre": "HIGON Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT OLESA",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

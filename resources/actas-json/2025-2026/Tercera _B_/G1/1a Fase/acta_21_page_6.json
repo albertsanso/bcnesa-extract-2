@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
+      "nombre": "CTT ELS AMICS TERRASSA 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA 'B'",
+      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15968",
-        "nombre": "ALONSO Ruben"
-      },
-      "B": {
-        "licencia": "16873",
-        "nombre": "TERRAZA David"
-      },
-      "C": {
-        "licencia": "18584",
-        "nombre": "MARTÍNEZ Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16637",
         "nombre": "ORTUÑO Enrique"
@@ -55,20 +41,24 @@
         "licencia": "15023",
         "nombre": "ONANDIA Marta"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15968",
+        "nombre": "ALONSO Ruben"
+      },
+      "B": {
+        "licencia": "16873",
+        "nombre": "TERRAZA David"
+      },
+      "C": {
+        "licencia": "18584",
+        "nombre": "MARTÍNEZ Daniel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15968",
-        "nombre": "ALONSO Ruben"
-      },
-      {
-        "licencia": "18584",
-        "nombre": "MARTÍNEZ Daniel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16637",
         "nombre": "ORTUÑO Enrique"
@@ -76,6 +66,16 @@
       {
         "licencia": "14349",
         "nombre": "DUEÑAS Adrian"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15968",
+        "nombre": "ALONSO Ruben"
+      },
+      {
+        "licencia": "18584",
+        "nombre": "MARTÍNEZ Daniel"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15968",
-        "nombre": "ALONSO Ruben"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16637",
         "nombre": "ORTUÑO Enrique"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15968",
+        "nombre": "ALONSO Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16873",
-        "nombre": "TERRAZA David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14349",
         "nombre": "DUEÑAS Adrian"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16873",
+        "nombre": "TERRAZA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18584",
-        "nombre": "MARTÍNEZ Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15023",
         "nombre": "ONANDIA Marta"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18584",
+        "nombre": "MARTÍNEZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15968",
-        "nombre": "ALONSO Ruben"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14349",
         "nombre": "DUEÑAS Adrian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15968",
+        "nombre": "ALONSO Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18584",
-        "nombre": "MARTÍNEZ Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16637",
         "nombre": "ORTUÑO Enrique"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18584",
+        "nombre": "MARTÍNEZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16873",
-        "nombre": "TERRAZA David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15023",
         "nombre": "ONANDIA Marta"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16873",
+        "nombre": "TERRAZA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15968",
-            "nombre": "ALONSO Ruben"
-          },
-          {
-            "licencia": "18584",
-            "nombre": "MARTÍNEZ Daniel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16637",
             "nombre": "ORTUÑO Enrique"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15968",
+            "nombre": "ALONSO Ruben"
+          },
+          {
+            "licencia": "18584",
+            "nombre": "MARTÍNEZ Daniel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ÀNECBLAU - TT JOVES CTDFELS",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

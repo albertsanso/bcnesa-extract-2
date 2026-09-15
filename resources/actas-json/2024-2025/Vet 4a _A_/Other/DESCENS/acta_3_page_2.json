@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "92",
-        "nombre": "RIPOLLES Jaime"
-      },
-      "B": {
-        "licencia": "7328",
-        "nombre": "PIQUER Carlos"
-      },
-      "C": {
-        "licencia": "6187",
-        "nombre": "PEÑA Ana Maria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5607",
         "nombre": "GUAL Carles"
@@ -55,20 +41,24 @@
         "licencia": "16872",
         "nombre": "BELIZÓN Gonzalo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "92",
+        "nombre": "RIPOLLES Jaime"
+      },
+      "B": {
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
+      },
+      "C": {
+        "licencia": "6187",
+        "nombre": "PEÑA Ana Maria"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "92",
-        "nombre": "RIPOLLES Jaime"
-      },
-      {
-        "licencia": "7328",
-        "nombre": "PIQUER Carlos"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16557",
         "nombre": "TORRECILLA Xavier"
@@ -76,6 +66,16 @@
       {
         "licencia": "16872",
         "nombre": "BELIZÓN Gonzalo"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "92",
+        "nombre": "RIPOLLES Jaime"
+      },
+      {
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "92",
-        "nombre": "RIPOLLES Jaime"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7328",
-        "nombre": "PIQUER Carlos"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16557",
-        "nombre": "TORRECILLA Xavier"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "6187",
-        "nombre": "PEÑA Ana Maria"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16872",
-        "nombre": "BELIZÓN Gonzalo"
+        "letra": "A",
+        "licencia": "92",
+        "nombre": "RIPOLLES Jaime"
       },
       "sets": [],
       "resultado_juegos": {
@@ -151,8 +101,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16557",
+        "nombre": "TORRECILLA Xavier"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16872",
+        "nombre": "BELIZÓN Gonzalo"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6187",
+        "nombre": "PEÑA Ana Maria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "92",
-        "nombre": "RIPOLLES Jaime"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16557",
         "nombre": "TORRECILLA Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "92",
+        "nombre": "RIPOLLES Jaime"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6187",
-        "nombre": "PEÑA Ana Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6187",
+        "nombre": "PEÑA Ana Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7328",
-        "nombre": "PIQUER Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16872",
         "nombre": "BELIZÓN Gonzalo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7328",
+        "nombre": "PIQUER Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "92",
-            "nombre": "RIPOLLES Jaime"
-          },
-          {
-            "licencia": "7328",
-            "nombre": "PIQUER Carlos"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16557",
             "nombre": "TORRECILLA Xavier"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "92",
+            "nombre": "RIPOLLES Jaime"
+          },
+          {
+            "licencia": "7328",
+            "nombre": "PIQUER Carlos"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

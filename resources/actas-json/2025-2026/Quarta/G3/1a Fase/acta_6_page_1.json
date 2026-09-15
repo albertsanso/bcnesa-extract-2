@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "El CENTRE NYX 'A'",
+      "nombre": "304 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "304 TT",
+      "nombre": "El CENTRE NYX 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19010",
-        "nombre": "CAPDEVILA Elisabet"
-      },
-      "B": {
-        "licencia": "18151",
-        "nombre": "BADER Lauren"
-      },
-      "C": {
-        "licencia": "13736",
-        "nombre": "UBALDE Natalia"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "20799",
         "nombre": "MACIAS Kilian"
@@ -55,6 +41,20 @@
         "licencia": "20800",
         "nombre": "CORBALÁN Ivan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19010",
+        "nombre": "CAPDEVILA Elisabet"
+      },
+      "B": {
+        "licencia": "18151",
+        "nombre": "BADER Lauren"
+      },
+      "C": {
+        "licencia": "13736",
+        "nombre": "UBALDE Natalia"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19010",
-        "nombre": "CAPDEVILA Elisabet"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20799",
         "nombre": "MACIAS Kilian"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "18151",
-        "nombre": "BADER Lauren"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "20797",
-        "nombre": "GARCIA Cristina"
+        "letra": "A",
+        "licencia": "19010",
+        "nombre": "CAPDEVILA Elisabet"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "20797",
+        "nombre": "GARCIA Cristina"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18151",
+        "nombre": "BADER Lauren"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13736",
-        "nombre": "UBALDE Natalia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20800",
         "nombre": "CORBALÁN Ivan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13736",
+        "nombre": "UBALDE Natalia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19010",
-        "nombre": "CAPDEVILA Elisabet"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "20797",
         "nombre": "GARCIA Cristina"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19010",
+        "nombre": "CAPDEVILA Elisabet"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13736",
-        "nombre": "UBALDE Natalia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20799",
         "nombre": "MACIAS Kilian"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13736",
+        "nombre": "UBALDE Natalia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18151",
-        "nombre": "BADER Lauren"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20800",
         "nombre": "CORBALÁN Ivan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18151",
+        "nombre": "BADER Lauren"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "El CENTRE NYX 'A'",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

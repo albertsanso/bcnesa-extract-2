@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ST ANDREU DE LA BARCA",
+      "nombre": "CTT CASTELLDEFELS \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS \"B\"",
+      "nombre": "CETT ST ANDREU DE LA BARCA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19479",
-        "nombre": "RODRIGUEZ Fernando"
-      },
-      "B": {
-        "licencia": "15394",
-        "nombre": "CASAS Ramón"
-      },
-      "C": {
-        "licencia": "13279",
-        "nombre": "DONAIRE Juan Francisco"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17840",
         "nombre": "IGLESIAS Ferran"
@@ -55,6 +41,20 @@
         "licencia": "16530",
         "nombre": "ABEIJÓN Juan Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19479",
+        "nombre": "RODRIGUEZ Fernando"
+      },
+      "B": {
+        "licencia": "15394",
+        "nombre": "CASAS Ramón"
+      },
+      "C": {
+        "licencia": "13279",
+        "nombre": "DONAIRE Juan Francisco"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19479",
-        "nombre": "RODRIGUEZ Fernando"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17840",
         "nombre": "IGLESIAS Ferran"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19479",
+        "nombre": "RODRIGUEZ Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15394",
-        "nombre": "CASAS Ramón"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19022",
         "nombre": "ABAD Joel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15394",
+        "nombre": "CASAS Ramón"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,64 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13279",
-        "nombre": "DONAIRE Juan Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16530",
         "nombre": "ABEIJÓN Juan Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "19479",
-        "nombre": "RODRIGUEZ Fernando"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19022",
-        "nombre": "ABAD Joel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
         "letra": "C",
         "licencia": "13279",
         "nombre": "DONAIRE Juan Francisco"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "17840",
-        "nombre": "IGLESIAS Ferran"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,23 +130,48 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 0,
+        "visitante": 3
       }
     },
     {
-      "numero": 6,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15394",
-        "nombre": "CASAS Ramón"
+        "letra": "X",
+        "licencia": "19022",
+        "nombre": "ABAD Joel"
       },
       "visitante": {
-        "letra": "Z",
-        "licencia": "16530",
-        "nombre": "ABEIJÓN Juan Antonio"
+        "letra": "A",
+        "licencia": "19479",
+        "nombre": "RODRIGUEZ Fernando"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "17840",
+        "nombre": "IGLESIAS Ferran"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13279",
+        "nombre": "DONAIRE Juan Francisco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16530",
+        "nombre": "ABEIJÓN Juan Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15394",
+        "nombre": "CASAS Ramón"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CETT ST ANDREU DE LA BARCA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

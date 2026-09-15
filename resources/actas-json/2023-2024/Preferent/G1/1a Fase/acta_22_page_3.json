@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FORN BERTRAN BADALONA",
+      "nombre": "CTT LA POBLA DE LILLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT LA POBLA DE LILLET",
+      "nombre": "FORN BERTRAN BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17889",
-        "nombre": "LU Ming Pu"
-      },
-      "B": {
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "C": {
-        "licencia": "11280",
-        "nombre": "MARTÍNEZ Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12132",
         "nombre": "PARDINILLA Jorge"
@@ -55,20 +41,24 @@
         "licencia": "1680",
         "nombre": "PONS Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17889",
+        "nombre": "LU Ming Pu"
+      },
+      "B": {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "C": {
+        "licencia": "11280",
+        "nombre": "MARTÍNEZ Carlos"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "11280",
-        "nombre": "MARTÍNEZ Carlos"
-      },
-      {
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12132",
         "nombre": "PARDINILLA Jorge"
@@ -76,6 +66,16 @@
       {
         "licencia": "1680",
         "nombre": "PONS Lluis"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "11280",
+        "nombre": "MARTÍNEZ Carlos"
+      },
+      {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17889",
-        "nombre": "LU Ming Pu"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12132",
         "nombre": "PARDINILLA Jorge"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "1371",
-        "nombre": "ARTIGAS Sergi"
+        "letra": "A",
+        "licencia": "17889",
+        "nombre": "LU Ming Pu"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11280",
-        "nombre": "MARTÍNEZ Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1680",
         "nombre": "PONS Lluis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "17889",
-        "nombre": "LU Ming Pu"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "1371",
-        "nombre": "ARTIGAS Sergi"
+        "letra": "C",
+        "licencia": "11280",
+        "nombre": "MARTÍNEZ Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17889",
+        "nombre": "LU Ming Pu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11280",
-        "nombre": "MARTÍNEZ Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12132",
         "nombre": "PARDINILLA Jorge"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11280",
+        "nombre": "MARTÍNEZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1680",
         "nombre": "PONS Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "11280",
-            "nombre": "MARTÍNEZ Carlos"
-          },
-          {
-            "licencia": "8328",
-            "nombre": "GIMENEZ Angel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12132",
             "nombre": "PARDINILLA Jorge"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "11280",
+            "nombre": "MARTÍNEZ Carlos"
+          },
+          {
+            "licencia": "8328",
+            "nombre": "GIMENEZ Angel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA POBLA DE LILLET",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

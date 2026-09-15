@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MASQUEFA TTC",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "MASQUEFA TTC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6204",
-        "nombre": "FLORES Marc"
-      },
-      "B": {
-        "licencia": "10114",
-        "nombre": "MAYEUX Frederic"
-      },
-      "C": {
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
@@ -55,6 +41,20 @@
         "licencia": "492",
         "nombre": "RIERA Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
+      },
+      "B": {
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
+      "C": {
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6204",
-        "nombre": "FLORES Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "10114",
-        "nombre": "MAYEUX Frederic"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "857",
-        "nombre": "TOR Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "492",
-        "nombre": "RIERA Joan"
+        "letra": "A",
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "857",
+        "nombre": "TOR Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6204",
-        "nombre": "FLORES Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "857",
         "nombre": "TOR Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6204",
+        "nombre": "FLORES Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6500",
-        "nombre": "SANCHEZ Didac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6500",
+        "nombre": "SANCHEZ Didac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10114",
-        "nombre": "MAYEUX Frederic"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "492",
         "nombre": "RIERA Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10114",
+        "nombre": "MAYEUX Frederic"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

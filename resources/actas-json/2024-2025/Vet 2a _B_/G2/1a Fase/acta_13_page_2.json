@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet B",
+      "nombre": "AP LA CAIXA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AP LA CAIXA",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet B",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "B": {
-        "licencia": "14200",
-        "nombre": "VOLLMER Sebastian"
-      },
-      "C": {
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "175",
         "nombre": "FERRAN Josep"
@@ -55,6 +41,20 @@
         "licencia": "318",
         "nombre": "PUIG Fermi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
+      "B": {
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
+      "C": {
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "175",
         "nombre": "FERRAN Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14200",
-        "nombre": "VOLLMER Sebastian"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11765",
         "nombre": "DOMINGO Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "318",
         "nombre": "PUIG Fermi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11765",
         "nombre": "DOMINGO Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "317",
-        "nombre": "LALINDE Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "175",
         "nombre": "FERRAN Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "317",
+        "nombre": "LALINDE Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14200",
-        "nombre": "VOLLMER Sebastian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18981",
         "nombre": "OTERO Josep Lluís"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14200",
+        "nombre": "VOLLMER Sebastian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 5
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "AP LA CAIXA",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 16
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

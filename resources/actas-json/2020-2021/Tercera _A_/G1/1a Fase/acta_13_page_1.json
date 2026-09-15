@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EUROCLIMA BADALONA",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "EUROCLIMA BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11284",
-        "nombre": "SANZ Marcel"
-      },
-      "B": {
-        "licencia": "10351",
-        "nombre": "GARRIGA Sergi"
-      },
-      "C": {
-        "licencia": "13070",
-        "nombre": "GONZALEZ David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11510",
         "nombre": "ROMAN Miguel"
@@ -55,6 +41,20 @@
         "licencia": "13072",
         "nombre": "LIMACHE Elias"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11284",
+        "nombre": "SANZ Marcel"
+      },
+      "B": {
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
+      "C": {
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11284",
-        "nombre": "SANZ Marcel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11510",
         "nombre": "ROMAN Miguel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11284",
+        "nombre": "SANZ Marcel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10351",
-        "nombre": "GARRIGA Sergi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13455",
         "nombre": "COSTA Roc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13070",
-        "nombre": "GONZALEZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13072",
         "nombre": "LIMACHE Elias"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11284",
-        "nombre": "SANZ Marcel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13455",
         "nombre": "COSTA Roc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11284",
+        "nombre": "SANZ Marcel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13070",
-        "nombre": "GONZALEZ David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11510",
         "nombre": "ROMAN Miguel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10351",
-        "nombre": "GARRIGA Sergi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13072",
         "nombre": "LIMACHE Elias"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10351",
+        "nombre": "GARRIGA Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

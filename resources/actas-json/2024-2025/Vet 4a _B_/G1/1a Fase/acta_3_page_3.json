@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882 ''B''",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CTT ATENEU 1882 ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1725",
-        "nombre": "BONAVILA Alejandro"
-      },
-      "B": {
-        "licencia": "13217",
-        "nombre": "MARTINEZ Francisco"
-      },
-      "C": {
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8920",
         "nombre": "GARCIA Jose"
@@ -55,6 +41,20 @@
         "licencia": "6182",
         "nombre": "MARTINEZ Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1725",
+        "nombre": "BONAVILA Alejandro"
+      },
+      "B": {
+        "licencia": "13217",
+        "nombre": "MARTINEZ Francisco"
+      },
+      "C": {
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1725",
-        "nombre": "BONAVILA Alejandro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8920",
         "nombre": "GARCIA Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1725",
+        "nombre": "BONAVILA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13217",
-        "nombre": "MARTINEZ Francisco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14180",
         "nombre": "AGUILAR Antoni"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13217",
+        "nombre": "MARTINEZ Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6182",
         "nombre": "MARTINEZ Ramon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1725",
-        "nombre": "BONAVILA Alejandro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14180",
         "nombre": "AGUILAR Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1725",
+        "nombre": "BONAVILA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8920",
         "nombre": "GARCIA Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13217",
-        "nombre": "MARTINEZ Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6182",
         "nombre": "MARTINEZ Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13217",
+        "nombre": "MARTINEZ Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882 ''B''",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 2
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 2,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

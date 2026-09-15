@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "B": {
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      "C": {
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3592",
         "nombre": "MARTI Lluis"
@@ -55,20 +41,24 @@
         "licencia": "233",
         "nombre": "PASCUAL Rafael"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "B": {
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
+      "C": {
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      {
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "3592",
         "nombre": "MARTI Lluis"
@@ -76,6 +66,16 @@
       {
         "licencia": "233",
         "nombre": "PASCUAL Rafael"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
+      {
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3592",
         "nombre": "MARTI Lluis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16462",
         "nombre": "KOKKO Essa"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "233",
         "nombre": "PASCUAL Rafael"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16462",
         "nombre": "KOKKO Essa"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3468",
-        "nombre": "MOMPART Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3592",
         "nombre": "MARTI Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3468",
+        "nombre": "MOMPART Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6184",
-        "nombre": "GRAU Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "233",
         "nombre": "PASCUAL Rafael"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6184",
+        "nombre": "GRAU Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6184",
-            "nombre": "GRAU Xavier"
-          },
-          {
-            "licencia": "3468",
-            "nombre": "MOMPART Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "3592",
             "nombre": "MARTI Lluis"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6184",
+            "nombre": "GRAU Xavier"
+          },
+          {
+            "licencia": "3468",
+            "nombre": "MOMPART Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANTS",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15087",
-        "nombre": "BOSCH Oriol"
-      },
-      "B": {
-        "licencia": "14565",
-        "nombre": "MATTSSON Tony Michael"
-      },
-      "C": {
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5870",
         "nombre": "BAU Adria"
@@ -55,6 +41,20 @@
         "licencia": "8612",
         "nombre": "ROMERA Gerard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15087",
+        "nombre": "BOSCH Oriol"
+      },
+      "B": {
+        "licencia": "14565",
+        "nombre": "MATTSSON Tony Michael"
+      },
+      "C": {
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15087",
-        "nombre": "BOSCH Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5870",
         "nombre": "BAU Adria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15087",
+        "nombre": "BOSCH Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,14 +89,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "11951",
+        "nombre": "RODRÍGUEZ Biel"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "14565",
         "nombre": "MATTSSON Tony Michael"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "8612",
+        "nombre": "ROMERA Gerard"
+      },
       "visitante": {
-        "letra": "X",
-        "licencia": "11951",
-        "nombre": "RODRÍGUEZ Biel"
+        "letra": "C",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -105,33 +130,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "8612",
-        "nombre": "ROMERA Gerard"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15087",
-        "nombre": "BOSCH Oriol"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11951",
         "nombre": "RODRÍGUEZ Biel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15087",
+        "nombre": "BOSCH Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4114",
-        "nombre": "OTERO Sergio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5870",
         "nombre": "BAU Adria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4114",
+        "nombre": "OTERO Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14565",
-        "nombre": "MATTSSON Tony Michael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8612",
         "nombre": "ROMERA Gerard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14565",
+        "nombre": "MATTSSON Tony Michael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUIRZE DEL VALLÈS",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

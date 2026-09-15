@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13974",
-        "nombre": "MANRIQUE Pol"
-      },
-      "B": {
-        "licencia": "20678",
-        "nombre": "BÉCARES Oscar"
-      },
-      "C": {
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15409",
         "nombre": "FLAMARICH Sergi"
@@ -55,6 +41,20 @@
         "licencia": "19402",
         "nombre": "ALGARTE Pau"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13974",
+        "nombre": "MANRIQUE Pol"
+      },
+      "B": {
+        "licencia": "20678",
+        "nombre": "BÉCARES Oscar"
+      },
+      "C": {
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13974",
-        "nombre": "MANRIQUE Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15409",
         "nombre": "FLAMARICH Sergi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13974",
+        "nombre": "MANRIQUE Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "20678",
-        "nombre": "BÉCARES Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17671",
         "nombre": "DE CASTRO Raul"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20678",
+        "nombre": "BÉCARES Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19402",
         "nombre": "ALGARTE Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13974",
-        "nombre": "MANRIQUE Pol"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17671",
         "nombre": "DE CASTRO Raul"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13974",
+        "nombre": "MANRIQUE Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15409",
         "nombre": "FLAMARICH Sergi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "20678",
-        "nombre": "BÉCARES Oscar"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "19402",
-        "nombre": "ALGARTE Pau"
+        "letra": "C",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "19402",
+        "nombre": "ALGARTE Pau"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20678",
+        "nombre": "BÉCARES Oscar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT TORELLÓ",
     "marcador_partidos": {
-      "local": 17,
+      "local": 1,
       "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

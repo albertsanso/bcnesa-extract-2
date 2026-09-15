@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANT QUINTÍ DE MEDIONA",
+      "nombre": "CTT LA POBLA DE LILLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT LA POBLA DE LILLET",
+      "nombre": "CTT SANT QUINTÍ DE MEDIONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6148",
-        "nombre": "NAVAS Juan"
-      },
-      "B": {
-        "licencia": "81",
-        "nombre": "RAMÍREZ Angel"
-      },
-      "C": {
-        "licencia": "3917",
-        "nombre": "ORTEGO Jose"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5410",
         "nombre": "GALIAN Roger"
@@ -55,6 +41,20 @@
         "licencia": "1680",
         "nombre": "PONS Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6148",
+        "nombre": "NAVAS Juan"
+      },
+      "B": {
+        "licencia": "81",
+        "nombre": "RAMÍREZ Angel"
+      },
+      "C": {
+        "licencia": "3917",
+        "nombre": "ORTEGO Jose"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6148",
-        "nombre": "NAVAS Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5410",
         "nombre": "GALIAN Roger"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "81",
-        "nombre": "RAMÍREZ Angel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "1371",
-        "nombre": "ARTIGAS Sergi"
+        "letra": "A",
+        "licencia": "6148",
+        "nombre": "NAVAS Juan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "81",
+        "nombre": "RAMÍREZ Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,89 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3917",
-        "nombre": "ORTEGO Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1680",
         "nombre": "PONS Lluis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "6148",
-        "nombre": "NAVAS Juan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "1371",
-        "nombre": "ARTIGAS Sergi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
         "letra": "C",
         "licencia": "3917",
         "nombre": "ORTEGO Jose"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "5410",
-        "nombre": "GALIAN Roger"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "81",
-        "nombre": "RAMÍREZ Angel"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "1680",
-        "nombre": "PONS Lluis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -206,17 +131,95 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1371",
+        "nombre": "ARTIGAS Sergi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6148",
+        "nombre": "NAVAS Juan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "5410",
+        "nombre": "GALIAN Roger"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3917",
+        "nombre": "ORTEGO Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "1680",
+        "nombre": "PONS Lluis"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "81",
+        "nombre": "RAMÍREZ Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA POBLA DE LILLET",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

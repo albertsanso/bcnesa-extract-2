@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SENTMENAT",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "CTT SENTMENAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13065",
-        "nombre": "MARTINEZ Luis"
-      },
-      "B": {
-        "licencia": "12157",
-        "nombre": "CORTADA Francesc"
-      },
-      "C": {
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "508",
         "nombre": "GARCIA-ROJAS Ramon Ju"
@@ -55,6 +41,20 @@
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
+      },
+      "B": {
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "C": {
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13065",
-        "nombre": "MARTINEZ Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "508",
         "nombre": "GARCIA-ROJAS Ramon Ju"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12157",
-        "nombre": "CORTADA Francesc"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "591",
-        "nombre": "GUILLEN Joan Miquel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "12579",
-        "nombre": "MUÑOZ Joan"
+        "letra": "A",
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +80,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "591",
+        "nombre": "GUILLEN Joan Miquel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "12579",
+        "nombre": "MUÑOZ Joan"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13065",
-        "nombre": "MARTINEZ Luis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "591",
         "nombre": "GUILLEN Joan Miquel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "508",
         "nombre": "GARCIA-ROJAS Ramon Ju"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12157",
-        "nombre": "CORTADA Francesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SENTMENAT",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

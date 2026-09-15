@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AP LA CAIXA",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "AP LA CAIXA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11765",
-        "nombre": "DOMINGO Joan"
-      },
-      "B": {
-        "licencia": "175",
-        "nombre": "FERRAN Josep"
-      },
-      "C": {
-        "licencia": "318",
-        "nombre": "PUIG Fermi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6272",
         "nombre": "MATA Javier"
@@ -55,6 +41,20 @@
         "licencia": "13637",
         "nombre": "MARTÍ Victor"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11765",
+        "nombre": "DOMINGO Joan"
+      },
+      "B": {
+        "licencia": "175",
+        "nombre": "FERRAN Josep"
+      },
+      "C": {
+        "licencia": "318",
+        "nombre": "PUIG Fermi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11765",
-        "nombre": "DOMINGO Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11765",
+        "nombre": "DOMINGO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "175",
-        "nombre": "FERRAN Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "175",
+        "nombre": "FERRAN Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "318",
-        "nombre": "PUIG Fermi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13637",
         "nombre": "MARTÍ Victor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "318",
+        "nombre": "PUIG Fermi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11765",
-        "nombre": "DOMINGO Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11765",
+        "nombre": "DOMINGO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "318",
-        "nombre": "PUIG Fermi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "318",
+        "nombre": "PUIG Fermi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "175",
-        "nombre": "FERRAN Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13637",
         "nombre": "MARTÍ Victor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "175",
+        "nombre": "FERRAN Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

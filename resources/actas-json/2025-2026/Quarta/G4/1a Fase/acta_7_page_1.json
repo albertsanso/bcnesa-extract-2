@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT GRANOLLERS",
+      "nombre": "CTT VILASSAR L'OBRERA 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR L'OBRERA 'B'",
+      "nombre": "CTT GRANOLLERS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17017",
-        "nombre": "CARBÓ Natàlia"
-      },
-      "B": {
-        "licencia": "19720",
-        "nombre": "PONSETÍ Carla"
-      },
-      "C": {
-        "licencia": "19724",
-        "nombre": "PAZ Jenny Cecilia"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19297",
         "nombre": "SANTOS Edgar"
@@ -55,6 +41,20 @@
         "licencia": "14506",
         "nombre": "BADIA Anna"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17017",
+        "nombre": "CARBÓ Natàlia"
+      },
+      "B": {
+        "licencia": "19720",
+        "nombre": "PONSETÍ Carla"
+      },
+      "C": {
+        "licencia": "19724",
+        "nombre": "PAZ Jenny Cecilia"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17017",
-        "nombre": "CARBÓ Natàlia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19297",
         "nombre": "SANTOS Edgar"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17017",
+        "nombre": "CARBÓ Natàlia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19720",
-        "nombre": "PONSETÍ Carla"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19291",
         "nombre": "ROVIROSA Elisa"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19720",
+        "nombre": "PONSETÍ Carla"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19724",
-        "nombre": "PAZ Jenny Cecilia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14506",
         "nombre": "BADIA Anna"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19724",
+        "nombre": "PAZ Jenny Cecilia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17017",
-        "nombre": "CARBÓ Natàlia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19291",
         "nombre": "ROVIROSA Elisa"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17017",
+        "nombre": "CARBÓ Natàlia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19724",
-        "nombre": "PAZ Jenny Cecilia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19297",
         "nombre": "SANTOS Edgar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19724",
+        "nombre": "PAZ Jenny Cecilia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19720",
-        "nombre": "PONSETÍ Carla"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14506",
         "nombre": "BADIA Anna"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19720",
+        "nombre": "PONSETÍ Carla"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILASSAR L'OBRERA 'B'",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANTA PERPETUA ''A''",
+      "nombre": "FALCONS SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FALCONS SABADELL A.E.",
+      "nombre": "CTT SANTA PERPETUA ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17632",
-        "nombre": "JIMENEZ Oscar"
-      },
-      "B": {
-        "licencia": "17612",
-        "nombre": "SAEZ Kilian"
-      },
-      "C": {
-        "licencia": "17296",
-        "nombre": "MONTANERO Juan Manuel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14307",
         "nombre": "TRALLERO Ona"
@@ -55,6 +41,20 @@
         "licencia": "16664",
         "nombre": "SOLER Marcel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17632",
+        "nombre": "JIMENEZ Oscar"
+      },
+      "B": {
+        "licencia": "17612",
+        "nombre": "SAEZ Kilian"
+      },
+      "C": {
+        "licencia": "17296",
+        "nombre": "MONTANERO Juan Manuel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17632",
-        "nombre": "JIMENEZ Oscar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14307",
         "nombre": "TRALLERO Ona"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17612",
-        "nombre": "SAEZ Kilian"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17507",
-        "nombre": "SOLER Albert"
+        "letra": "A",
+        "licencia": "17632",
+        "nombre": "JIMENEZ Oscar"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17507",
+        "nombre": "SOLER Albert"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17612",
+        "nombre": "SAEZ Kilian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17296",
-        "nombre": "MONTANERO Juan Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16664",
         "nombre": "SOLER Marcel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17296",
+        "nombre": "MONTANERO Juan Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17632",
-        "nombre": "JIMENEZ Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17507",
         "nombre": "SOLER Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17632",
+        "nombre": "JIMENEZ Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17296",
-        "nombre": "MONTANERO Juan Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14307",
         "nombre": "TRALLERO Ona"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17296",
+        "nombre": "MONTANERO Juan Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17612",
-        "nombre": "SAEZ Kilian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16664",
         "nombre": "SOLER Marcel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17612",
+        "nombre": "SAEZ Kilian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANTA PERPETUA ''A''",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

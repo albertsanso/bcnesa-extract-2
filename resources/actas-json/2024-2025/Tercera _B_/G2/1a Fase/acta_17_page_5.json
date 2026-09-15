@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "DECATHLON BADALONA",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "DECATHLON BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15013",
-        "nombre": "GRILLO Manel"
-      },
-      "B": {
-        "licencia": "7680",
-        "nombre": "MAQUEDA Joan"
-      },
-      "C": {
-        "licencia": "6947",
-        "nombre": "FORES Jaume"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18138",
         "nombre": "ALBERT Marcel"
@@ -55,6 +41,20 @@
         "licencia": "18139",
         "nombre": "FREITAS Humbert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15013",
+        "nombre": "GRILLO Manel"
+      },
+      "B": {
+        "licencia": "7680",
+        "nombre": "MAQUEDA Joan"
+      },
+      "C": {
+        "licencia": "6947",
+        "nombre": "FORES Jaume"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15013",
-        "nombre": "GRILLO Manel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18138",
         "nombre": "ALBERT Marcel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15013",
+        "nombre": "GRILLO Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7680",
-        "nombre": "MAQUEDA Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7680",
+        "nombre": "MAQUEDA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6947",
-        "nombre": "FORES Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18139",
         "nombre": "FREITAS Humbert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6947",
+        "nombre": "FORES Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15013",
-        "nombre": "GRILLO Manel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15013",
+        "nombre": "GRILLO Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6947",
-        "nombre": "FORES Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18138",
         "nombre": "ALBERT Marcel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6947",
+        "nombre": "FORES Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7680",
-        "nombre": "MAQUEDA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18139",
         "nombre": "FREITAS Humbert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7680",
+        "nombre": "MAQUEDA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SANT QUINTÍ DE MEDIONA",
+      "nombre": "NEW OLIVER BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "NEW OLIVER BADALONA",
+      "nombre": "CTT SANT QUINTÍ DE MEDIONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "712",
-        "nombre": "LACAMBRA Ramon"
-      },
-      "B": {
-        "licencia": "504",
-        "nombre": "RAMON Jaume"
-      },
-      "C": {
-        "licencia": "1042",
-        "nombre": "MESEGUE Carles"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1174",
         "nombre": "CARRION Angel"
@@ -55,20 +41,24 @@
         "licencia": "11280",
         "nombre": "MARTÍNEZ Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "712",
+        "nombre": "LACAMBRA Ramon"
+      },
+      "B": {
+        "licencia": "504",
+        "nombre": "RAMON Jaume"
+      },
+      "C": {
+        "licencia": "1042",
+        "nombre": "MESEGUE Carles"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "504",
-        "nombre": "RAMON Jaume"
-      },
-      {
-        "licencia": "1042",
-        "nombre": "MESEGUE Carles"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "1174",
         "nombre": "CARRION Angel"
@@ -76,6 +66,16 @@
       {
         "licencia": "11280",
         "nombre": "MARTÍNEZ Carlos"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "504",
+        "nombre": "RAMON Jaume"
+      },
+      {
+        "licencia": "1042",
+        "nombre": "MESEGUE Carles"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "712",
-        "nombre": "LACAMBRA Ramon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1174",
         "nombre": "CARRION Angel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "712",
+        "nombre": "LACAMBRA Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "504",
-        "nombre": "RAMON Jaume"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "504",
+        "nombre": "RAMON Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1042",
-        "nombre": "MESEGUE Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11280",
         "nombre": "MARTÍNEZ Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1042",
+        "nombre": "MESEGUE Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "712",
-        "nombre": "LACAMBRA Ramon"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "635",
         "nombre": "MARTÍNEZ Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "712",
+        "nombre": "LACAMBRA Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1042",
-        "nombre": "MESEGUE Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1174",
         "nombre": "CARRION Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1042",
+        "nombre": "MESEGUE Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "504",
-        "nombre": "RAMON Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11280",
         "nombre": "MARTÍNEZ Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "504",
+        "nombre": "RAMON Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "504",
-            "nombre": "RAMON Jaume"
-          },
-          {
-            "licencia": "1042",
-            "nombre": "MESEGUE Carles"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "1174",
             "nombre": "CARRION Angel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "504",
+            "nombre": "RAMON Jaume"
+          },
+          {
+            "licencia": "1042",
+            "nombre": "MESEGUE Carles"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUINTÍ DE MEDIONA",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

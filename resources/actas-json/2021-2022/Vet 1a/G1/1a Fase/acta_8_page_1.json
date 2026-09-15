@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "963",
-        "nombre": "NOLIS Pau"
-      },
-      "B": {
-        "licencia": "10639",
-        "nombre": "CRESPO Pere"
-      },
-      "C": {
-        "licencia": "6879",
-        "nombre": "HURTADO Jose Alberto"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5144",
         "nombre": "TOST Daniel"
@@ -55,6 +41,20 @@
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
+      "B": {
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
+      "C": {
+        "licencia": "6879",
+        "nombre": "HURTADO Jose Alberto"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "963",
-        "nombre": "NOLIS Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5144",
         "nombre": "TOST Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10639",
-        "nombre": "CRESPO Pere"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "654",
         "nombre": "OSUNA Fco. Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6879",
-        "nombre": "HURTADO Jose Alberto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6879",
+        "nombre": "HURTADO Jose Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "963",
-        "nombre": "NOLIS Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "654",
         "nombre": "OSUNA Fco. Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6879",
-        "nombre": "HURTADO Jose Alberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5144",
         "nombre": "TOST Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6879",
+        "nombre": "HURTADO Jose Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10639",
-        "nombre": "CRESPO Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "TITUS BADALONA",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 4
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "BLANXART XALOC OLESA",
+      "nombre": "ESCOLA TT CASTELLDEFELS ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ESCOLA TT CASTELLDEFELS ''B''",
+      "nombre": "BLANXART XALOC OLESA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8690",
-        "nombre": "HARO Gerard"
-      },
-      "B": {
-        "licencia": "142",
-        "nombre": "PLAYÀ Josep Mª"
-      },
-      "C": {
-        "licencia": "10247",
-        "nombre": "BOLTÀ Ot"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11305",
         "nombre": "ESCOBAR David"
@@ -55,6 +41,20 @@
         "licencia": "8549",
         "nombre": "SOTO Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8690",
+        "nombre": "HARO Gerard"
+      },
+      "B": {
+        "licencia": "142",
+        "nombre": "PLAYÀ Josep Mª"
+      },
+      "C": {
+        "licencia": "10247",
+        "nombre": "BOLTÀ Ot"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8690",
-        "nombre": "HARO Gerard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11305",
         "nombre": "ESCOBAR David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8690",
+        "nombre": "HARO Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "142",
-        "nombre": "PLAYÀ Josep Mª"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8520",
         "nombre": "GUZMÁN Arnau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "142",
+        "nombre": "PLAYÀ Josep Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "8549",
+        "nombre": "SOTO Antonio"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "10247",
         "nombre": "BOLTÀ Ot"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8520",
+        "nombre": "GUZMÁN Arnau"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "8549",
-        "nombre": "SOTO Antonio"
+        "letra": "A",
+        "licencia": "8690",
+        "nombre": "HARO Gerard"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "8690",
-        "nombre": "HARO Gerard"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "8520",
-        "nombre": "GUZMÁN Arnau"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10247",
-        "nombre": "BOLTÀ Ot"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11305",
         "nombre": "ESCOBAR David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10247",
+        "nombre": "BOLTÀ Ot"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,21 +189,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "142",
-        "nombre": "PLAYÀ Josep Mª"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8549",
         "nombre": "SOTO Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "142",
+        "nombre": "PLAYÀ Josep Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -211,12 +211,15 @@
     }
   ],
   "resultado_final": {
-    "ganador": "BLANXART XALOC OLESA",
+    "ganador": null,
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 12
+      "local": 3,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

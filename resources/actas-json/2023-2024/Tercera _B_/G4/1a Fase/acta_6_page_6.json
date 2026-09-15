@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
+      "nombre": "CTT CASTELLDEFELS \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS \"B\"",
+      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16498",
-        "nombre": "LÓPEZ Judit"
-      },
-      "B": {
-        "licencia": "16838",
-        "nombre": "PLANAS Joel"
-      },
-      "C": {
-        "licencia": "17964",
-        "nombre": "RODRÍGUEZ Alexandre"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15817",
         "nombre": "NAVARRO Izan"
@@ -55,6 +41,20 @@
         "licencia": "14882",
         "nombre": "MARTÍN Hector"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16498",
+        "nombre": "LÓPEZ Judit"
+      },
+      "B": {
+        "licencia": "16838",
+        "nombre": "PLANAS Joel"
+      },
+      "C": {
+        "licencia": "17964",
+        "nombre": "RODRÍGUEZ Alexandre"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16498",
-        "nombre": "LÓPEZ Judit"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15817",
         "nombre": "NAVARRO Izan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16838",
-        "nombre": "PLANAS Joel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16155",
-        "nombre": "BRUN Gustav"
+        "letra": "A",
+        "licencia": "16498",
+        "nombre": "LÓPEZ Judit"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16155",
+        "nombre": "BRUN Gustav"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16838",
+        "nombre": "PLANAS Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17964",
-        "nombre": "RODRÍGUEZ Alexandre"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14882",
         "nombre": "MARTÍN Hector"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17964",
+        "nombre": "RODRÍGUEZ Alexandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16498",
-        "nombre": "LÓPEZ Judit"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16155",
         "nombre": "BRUN Gustav"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16498",
+        "nombre": "LÓPEZ Judit"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17964",
-        "nombre": "RODRÍGUEZ Alexandre"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15817",
         "nombre": "NAVARRO Izan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17964",
+        "nombre": "RODRÍGUEZ Alexandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16838",
-        "nombre": "PLANAS Joel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14882",
         "nombre": "MARTÍN Hector"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16838",
+        "nombre": "PLANAS Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA \"A\"",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

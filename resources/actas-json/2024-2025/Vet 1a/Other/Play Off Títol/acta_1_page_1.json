@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "585",
-        "nombre": "ESCAMILLA Eduard"
-      },
-      "B": {
-        "licencia": "10639",
-        "nombre": "CRESPO Pere"
-      },
-      "C": {
-        "licencia": "963",
-        "nombre": "NOLIS Pau"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2290",
         "nombre": "MOSCOSO Renato Victor"
@@ -55,6 +41,20 @@
         "licencia": "645",
         "nombre": "SUÑE Manel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "585",
+        "nombre": "ESCAMILLA Eduard"
+      },
+      "B": {
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
+      "C": {
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "585",
-        "nombre": "ESCAMILLA Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2290",
         "nombre": "MOSCOSO Renato Victor"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "585",
+        "nombre": "ESCAMILLA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10639",
-        "nombre": "CRESPO Pere"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1663",
         "nombre": "JOFRE Jaume"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "963",
-        "nombre": "NOLIS Pau"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "645",
-        "nombre": "SUÑE Manel"
+        "letra": "B",
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "645",
+        "nombre": "SUÑE Manel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "585",
-        "nombre": "ESCAMILLA Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1663",
         "nombre": "JOFRE Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "585",
+        "nombre": "ESCAMILLA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "963",
-        "nombre": "NOLIS Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2290",
         "nombre": "MOSCOSO Renato Victor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "963",
+        "nombre": "NOLIS Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10639",
-        "nombre": "CRESPO Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "645",
         "nombre": "SUÑE Manel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10639",
+        "nombre": "CRESPO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT OLESA",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

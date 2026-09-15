@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CC SANT ANDREU \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANT ANDREU \"B\"",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "687",
-        "nombre": "BARCOJO Antonio"
-      },
-      "B": {
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "C": {
-        "licencia": "772",
-        "nombre": "SANCHEZ Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5660",
         "nombre": "GARCIA Carlos"
@@ -55,6 +41,20 @@
         "licencia": "8716",
         "nombre": "GARCIA Maximino"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
+      "B": {
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
+      "C": {
+        "licencia": "772",
+        "nombre": "SANCHEZ Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "687",
-        "nombre": "BARCOJO Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5660",
         "nombre": "GARCIA Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "68",
         "nombre": "MARTINEZ Felipe"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "772",
-        "nombre": "SANCHEZ Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8716",
         "nombre": "GARCIA Maximino"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "772",
+        "nombre": "SANCHEZ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "687",
-        "nombre": "BARCOJO Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "68",
         "nombre": "MARTINEZ Felipe"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "772",
-        "nombre": "SANCHEZ Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5660",
         "nombre": "GARCIA Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "772",
+        "nombre": "SANCHEZ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8716",
         "nombre": "GARCIA Maximino"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000 'B'",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "CTT DELS HORTS 2000 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "772",
-        "nombre": "SANCHEZ Antonio"
-      },
-      "B": {
-        "licencia": "525",
-        "nombre": "FERNÁNDEZ Jose"
-      },
-      "C": {
-        "licencia": "687",
-        "nombre": "BARCOJO Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "328",
         "nombre": "BOIX Angel Antonio"
@@ -55,6 +41,20 @@
         "licencia": "483",
         "nombre": "CASTILLO Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "772",
+        "nombre": "SANCHEZ Antonio"
+      },
+      "B": {
+        "licencia": "525",
+        "nombre": "FERNÁNDEZ Jose"
+      },
+      "C": {
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "772",
-        "nombre": "SANCHEZ Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "328",
         "nombre": "BOIX Angel Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "525",
-        "nombre": "FERNÁNDEZ Jose"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12251",
-        "nombre": "ALONSO Joan"
+        "letra": "A",
+        "licencia": "772",
+        "nombre": "SANCHEZ Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12251",
+        "nombre": "ALONSO Joan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "525",
+        "nombre": "FERNÁNDEZ Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "687",
-        "nombre": "BARCOJO Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "483",
         "nombre": "CASTILLO Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "772",
-        "nombre": "SANCHEZ Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12251",
         "nombre": "ALONSO Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "772",
+        "nombre": "SANCHEZ Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "687",
-        "nombre": "BARCOJO Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "328",
         "nombre": "BOIX Angel Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "687",
+        "nombre": "BARCOJO Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "525",
-        "nombre": "FERNÁNDEZ Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "483",
         "nombre": "CASTILLO Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "525",
+        "nombre": "FERNÁNDEZ Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000 'B'",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

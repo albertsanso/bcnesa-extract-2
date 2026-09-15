@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "CLUB ARIEL B",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB ARIEL B",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
-      },
-      "B": {
-        "licencia": "4026",
-        "nombre": "SANTOS David"
-      },
-      "C": {
-        "licencia": "17773",
-        "nombre": "PÉREZ Oscar"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18922",
         "nombre": "ROSAS Ariel Alberto"
@@ -55,6 +41,20 @@
         "licencia": "607",
         "nombre": "CASTILLO Carlos Jesús"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "B": {
+        "licencia": "4026",
+        "nombre": "SANTOS David"
+      },
+      "C": {
+        "licencia": "17773",
+        "nombre": "PÉREZ Oscar"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18922",
         "nombre": "ROSAS Ariel Alberto"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4026",
-        "nombre": "SANTOS David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18523",
         "nombre": "GOBERNA Gerard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4026",
+        "nombre": "SANTOS David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17773",
-        "nombre": "PÉREZ Oscar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "607",
         "nombre": "CASTILLO Carlos Jesús"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17773",
+        "nombre": "PÉREZ Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,39 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18523",
         "nombre": "GOBERNA Gerard"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "17773",
-        "nombre": "PÉREZ Oscar"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "18922",
-        "nombre": "ROSAS Ariel Alberto"
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,23 +155,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 1,
+        "visitante": 3
       }
     },
     {
-      "numero": 6,
+      "numero": 5,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Y",
       "local": {
-        "letra": "B",
-        "licencia": "4026",
-        "nombre": "SANTOS David"
+        "letra": "Y",
+        "licencia": "18922",
+        "nombre": "ROSAS Ariel Alberto"
       },
       "visitante": {
-        "letra": "Z",
-        "licencia": "607",
-        "nombre": "CASTILLO Carlos Jesús"
+        "letra": "C",
+        "licencia": "17773",
+        "nombre": "PÉREZ Oscar"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "607",
+        "nombre": "CASTILLO Carlos Jesús"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4026",
+        "nombre": "SANTOS David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET 'A'",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "TT L'HOSPITALET 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16210",
-        "nombre": "BELTRAN Pol"
-      },
-      "B": {
-        "licencia": "10869",
-        "nombre": "MARANTE Fernando"
-      },
-      "C": {
-        "licencia": "16762",
-        "nombre": "FERNANDEZ Adria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3317",
         "nombre": "LARRIBA Luis"
@@ -55,6 +41,20 @@
         "licencia": "17622",
         "nombre": "ROQUE Ronald"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16210",
+        "nombre": "BELTRAN Pol"
+      },
+      "B": {
+        "licencia": "10869",
+        "nombre": "MARANTE Fernando"
+      },
+      "C": {
+        "licencia": "16762",
+        "nombre": "FERNANDEZ Adria"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16210",
-        "nombre": "BELTRAN Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3317",
         "nombre": "LARRIBA Luis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "10869",
-        "nombre": "MARANTE Fernando"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "16762",
-        "nombre": "FERNANDEZ Adria"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "17622",
-        "nombre": "ROQUE Ronald"
+        "letra": "A",
+        "licencia": "16210",
+        "nombre": "BELTRAN Pol"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,48 +80,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16210",
-        "nombre": "BELTRAN Pol"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "16762",
-        "nombre": "FERNANDEZ Adria"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "3317",
-        "nombre": "LARRIBA Luis"
+        "letra": "B",
+        "licencia": "10869",
+        "nombre": "MARANTE Fernando"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,23 +105,73 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
+        "local": 0,
         "visitante": 2
       }
     },
     {
-      "numero": 6,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10869",
-        "nombre": "MARANTE Fernando"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17622",
         "nombre": "ROQUE Ronald"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16762",
+        "nombre": "FERNANDEZ Adria"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16210",
+        "nombre": "BELTRAN Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "3317",
+        "nombre": "LARRIBA Luis"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16762",
+        "nombre": "FERNANDEZ Adria"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "17622",
+        "nombre": "ROQUE Ronald"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10869",
+        "nombre": "MARANTE Fernando"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET 'A'",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA UNIÓ ''B''",
+      "nombre": "DECATHLON BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "DECATHLON BADALONA",
+      "nombre": "CTT LA UNIÓ ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      },
-      "B": {
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
-      },
-      "C": {
-        "licencia": "14750",
-        "nombre": "SEVILLA Marc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15501",
         "nombre": "CAPARRÓS Ainoa"
@@ -55,20 +41,24 @@
         "licencia": "7680",
         "nombre": "MAQUEDA Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
+      },
+      "B": {
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
+      },
+      "C": {
+        "licencia": "14750",
+        "nombre": "SEVILLA Marc"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      },
-      {
-        "licencia": "14750",
-        "nombre": "SEVILLA Marc"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15501",
         "nombre": "CAPARRÓS Ainoa"
@@ -76,6 +66,16 @@
       {
         "licencia": "14129",
         "nombre": "NAVARRO Laia"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
+      },
+      {
+        "licencia": "14750",
+        "nombre": "SEVILLA Marc"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15501",
         "nombre": "CAPARRÓS Ainoa"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14129",
         "nombre": "NAVARRO Laia"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14750",
-        "nombre": "SEVILLA Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7680",
         "nombre": "MAQUEDA Joan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14129",
-        "nombre": "NAVARRO Laia"
+        "letra": "C",
+        "licencia": "14750",
+        "nombre": "SEVILLA Marc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14129",
+        "nombre": "NAVARRO Laia"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14750",
-        "nombre": "SEVILLA Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15501",
         "nombre": "CAPARRÓS Ainoa"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14750",
+        "nombre": "SEVILLA Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7680",
         "nombre": "MAQUEDA Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14749",
-            "nombre": "GARCIA Sergi"
-          },
-          {
-            "licencia": "14750",
-            "nombre": "SEVILLA Marc"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15501",
             "nombre": "CAPARRÓS Ainoa"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14749",
+            "nombre": "GARCIA Sergi"
+          },
+          {
+            "licencia": "14750",
+            "nombre": "SEVILLA Marc"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT LA UNIÓ ''B''",
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 14,
       "visitante": 14
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

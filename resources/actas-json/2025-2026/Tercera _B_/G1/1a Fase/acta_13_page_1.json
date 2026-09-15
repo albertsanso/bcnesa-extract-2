@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RUBI",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "CTT RUBI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "21836",
-        "nombre": "ARIAS Juan Camilo"
-      },
-      "B": {
-        "licencia": "19949",
-        "nombre": "SHAO Yicheng"
-      },
-      "C": {
-        "licencia": "6191",
-        "nombre": "JUNI Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13161",
         "nombre": "PUIG Josep"
@@ -55,6 +41,20 @@
         "licencia": "17893",
         "nombre": "PARIS Josep"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "21836",
+        "nombre": "ARIAS Juan Camilo"
+      },
+      "B": {
+        "licencia": "19949",
+        "nombre": "SHAO Yicheng"
+      },
+      "C": {
+        "licencia": "6191",
+        "nombre": "JUNI Carlos"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "21836",
-        "nombre": "ARIAS Juan Camilo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13161",
         "nombre": "PUIG Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "19949",
-        "nombre": "SHAO Yicheng"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14206",
-        "nombre": "PICH Jordi"
+        "letra": "A",
+        "licencia": "21836",
+        "nombre": "ARIAS Juan Camilo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14206",
+        "nombre": "PICH Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19949",
+        "nombre": "SHAO Yicheng"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6191",
-        "nombre": "JUNI Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17893",
         "nombre": "PARIS Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "21836",
-        "nombre": "ARIAS Juan Camilo"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14206",
-        "nombre": "PICH Jordi"
+        "letra": "C",
+        "licencia": "6191",
+        "nombre": "JUNI Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14206",
+        "nombre": "PICH Jordi"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "21836",
+        "nombre": "ARIAS Juan Camilo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6191",
-        "nombre": "JUNI Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13161",
         "nombre": "PUIG Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6191",
+        "nombre": "JUNI Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19949",
-        "nombre": "SHAO Yicheng"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17893",
         "nombre": "PARIS Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19949",
+        "nombre": "SHAO Yicheng"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VALLS DE TORROELLA",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

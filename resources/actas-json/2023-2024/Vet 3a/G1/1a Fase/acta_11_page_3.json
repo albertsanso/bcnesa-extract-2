@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''B''",
+      "nombre": "CTT VILASSAR DE MAR L'OBRERA ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR DE MAR L'OBRERA ''B''",
+      "nombre": "TT L'HOSPITALET ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10985",
-        "nombre": "CUADRADO Rodolfo"
-      },
-      "B": {
-        "licencia": "15995",
-        "nombre": "VIDAL Xavier"
-      },
-      "C": {
-        "licencia": "16012",
-        "nombre": "CONTERO Jose Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17139",
         "nombre": "PARRA Llorenç August"
@@ -55,6 +41,20 @@
         "licencia": "17706",
         "nombre": "POVEDA Francisco Javier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10985",
+        "nombre": "CUADRADO Rodolfo"
+      },
+      "B": {
+        "licencia": "15995",
+        "nombre": "VIDAL Xavier"
+      },
+      "C": {
+        "licencia": "16012",
+        "nombre": "CONTERO Jose Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10985",
-        "nombre": "CUADRADO Rodolfo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17139",
         "nombre": "PARRA Llorenç August"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10985",
+        "nombre": "CUADRADO Rodolfo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15995",
-        "nombre": "VIDAL Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15086",
         "nombre": "BAHUAUD Jean-francois"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15995",
+        "nombre": "VIDAL Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16012",
-        "nombre": "CONTERO Jose Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17706",
         "nombre": "POVEDA Francisco Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16012",
+        "nombre": "CONTERO Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10985",
-        "nombre": "CUADRADO Rodolfo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15086",
         "nombre": "BAHUAUD Jean-francois"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10985",
+        "nombre": "CUADRADO Rodolfo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16012",
-        "nombre": "CONTERO Jose Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17139",
         "nombre": "PARRA Llorenç August"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16012",
+        "nombre": "CONTERO Jose Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15995",
-        "nombre": "VIDAL Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17706",
         "nombre": "POVEDA Francisco Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15995",
+        "nombre": "VIDAL Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILASSAR DE MAR L'OBRERA ''B''",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

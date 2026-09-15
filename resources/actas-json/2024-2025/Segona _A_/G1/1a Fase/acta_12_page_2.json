@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RODA DE TER",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "CTT RODA DE TER",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8340",
-        "nombre": "NOFUENTES Manuel"
-      },
-      "B": {
-        "licencia": "9100",
-        "nombre": "XIAOJIAN Wang"
-      },
-      "C": {
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "551",
         "nombre": "SACASAS Marcel"
@@ -55,6 +41,20 @@
         "licencia": "6118",
         "nombre": "CAÑETE Antonio Jose"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8340",
+        "nombre": "NOFUENTES Manuel"
+      },
+      "B": {
+        "licencia": "9100",
+        "nombre": "XIAOJIAN Wang"
+      },
+      "C": {
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8340",
-        "nombre": "NOFUENTES Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "551",
         "nombre": "SACASAS Marcel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8340",
+        "nombre": "NOFUENTES Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "9100",
-        "nombre": "XIAOJIAN Wang"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "686",
         "nombre": "CEPERO Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "9100",
+        "nombre": "XIAOJIAN Wang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6118",
         "nombre": "CAÑETE Antonio Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8340",
-        "nombre": "NOFUENTES Manuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "686",
         "nombre": "CEPERO Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8340",
+        "nombre": "NOFUENTES Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8584",
-        "nombre": "BLANCAFORT Jaume"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "551",
         "nombre": "SACASAS Marcel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8584",
+        "nombre": "BLANCAFORT Jaume"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "9100",
-        "nombre": "XIAOJIAN Wang"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6118",
         "nombre": "CAÑETE Antonio Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "9100",
+        "nombre": "XIAOJIAN Wang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

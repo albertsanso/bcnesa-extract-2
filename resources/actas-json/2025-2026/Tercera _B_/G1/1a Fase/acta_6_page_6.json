@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18140",
-        "nombre": "IGLESIAS Manuel"
-      },
-      "B": {
-        "licencia": "245",
-        "nombre": "TARRAGO Enric"
-      },
-      "C": {
-        "licencia": "18190",
-        "nombre": "MARCOS Ferran"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19686",
         "nombre": "ESCALES Xavier"
@@ -55,6 +41,20 @@
         "licencia": "17720",
         "nombre": "TARRIDA Jaume"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18140",
+        "nombre": "IGLESIAS Manuel"
+      },
+      "B": {
+        "licencia": "245",
+        "nombre": "TARRAGO Enric"
+      },
+      "C": {
+        "licencia": "18190",
+        "nombre": "MARCOS Ferran"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18140",
-        "nombre": "IGLESIAS Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19686",
         "nombre": "ESCALES Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18140",
+        "nombre": "IGLESIAS Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,114 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "245",
-        "nombre": "TARRAGO Enric"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18089",
         "nombre": "CANALS Roger"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "18190",
-        "nombre": "MARCOS Ferran"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "17720",
-        "nombre": "TARRIDA Jaume"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "18140",
-        "nombre": "IGLESIAS Manuel"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "18089",
-        "nombre": "CANALS Roger"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "18190",
-        "nombre": "MARCOS Ferran"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "19686",
-        "nombre": "ESCALES Xavier"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
         "letra": "B",
         "licencia": "245",
         "nombre": "TARRAGO Enric"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "17720",
-        "nombre": "TARRIDA Jaume"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +105,121 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "17720",
+        "nombre": "TARRIDA Jaume"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18190",
+        "nombre": "MARCOS Ferran"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18089",
+        "nombre": "CANALS Roger"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18140",
+        "nombre": "IGLESIAS Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "19686",
+        "nombre": "ESCALES Xavier"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18190",
+        "nombre": "MARCOS Ferran"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "17720",
+        "nombre": "TARRIDA Jaume"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "245",
+        "nombre": "TARRAGO Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANTS",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

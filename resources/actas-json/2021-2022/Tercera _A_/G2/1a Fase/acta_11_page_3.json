@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALES",
+      "nombre": "CTT BARCELONA ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA ''B''",
+      "nombre": "CTT JOSEP M. PALES",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4516",
-        "nombre": "GARCIA Jordi"
-      },
-      "B": {
-        "licencia": "14441",
-        "nombre": "MASIP Alex"
-      },
-      "C": {
-        "licencia": "14436",
-        "nombre": "GORINA Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15092",
         "nombre": "CAMPOS Carlos-antonio"
@@ -55,6 +41,20 @@
         "licencia": "9119",
         "nombre": "LLORENTE Jose Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4516",
+        "nombre": "GARCIA Jordi"
+      },
+      "B": {
+        "licencia": "14441",
+        "nombre": "MASIP Alex"
+      },
+      "C": {
+        "licencia": "14436",
+        "nombre": "GORINA Miquel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4516",
-        "nombre": "GARCIA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15092",
         "nombre": "CAMPOS Carlos-antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4516",
+        "nombre": "GARCIA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14441",
-        "nombre": "MASIP Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7153",
         "nombre": "MARTINEZ DE MORENTIN Jo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14441",
+        "nombre": "MASIP Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14436",
-        "nombre": "GORINA Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "9119",
         "nombre": "LLORENTE Jose Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14436",
+        "nombre": "GORINA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4516",
-        "nombre": "GARCIA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7153",
         "nombre": "MARTINEZ DE MORENTIN Jo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4516",
+        "nombre": "GARCIA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14436",
-        "nombre": "GORINA Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15092",
         "nombre": "CAMPOS Carlos-antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14436",
+        "nombre": "GORINA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14441",
-        "nombre": "MASIP Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "9119",
         "nombre": "LLORENTE Jose Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14441",
+        "nombre": "MASIP Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT BARCELONA ''B''",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

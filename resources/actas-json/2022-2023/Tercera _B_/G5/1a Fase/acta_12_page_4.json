@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "SURIS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "SURIS CALELLA",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17061",
-        "nombre": "PEREZ Biel"
-      },
-      "B": {
-        "licencia": "8568",
-        "nombre": "RODA Martí"
-      },
-      "C": {
-        "licencia": "16844",
-        "nombre": "LÓPEZ Raúl"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14230",
         "nombre": "SOLE Pau"
@@ -55,20 +41,24 @@
         "licencia": "9039",
         "nombre": "RODRIGUEZ Esteban"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17061",
+        "nombre": "PEREZ Biel"
+      },
+      "B": {
+        "licencia": "8568",
+        "nombre": "RODA Martí"
+      },
+      "C": {
+        "licencia": "16844",
+        "nombre": "LÓPEZ Raúl"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8568",
-        "nombre": "RODA Martí"
-      },
-      {
-        "licencia": "16844",
-        "nombre": "LÓPEZ Raúl"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "14230",
         "nombre": "SOLE Pau"
@@ -76,6 +66,16 @@
       {
         "licencia": "14246",
         "nombre": "KROTKOV Gleb"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8568",
+        "nombre": "RODA Martí"
+      },
+      {
+        "licencia": "16844",
+        "nombre": "LÓPEZ Raúl"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17061",
-        "nombre": "PEREZ Biel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14230",
         "nombre": "SOLE Pau"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8568",
-        "nombre": "RODA Martí"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14246",
-        "nombre": "KROTKOV Gleb"
+        "letra": "A",
+        "licencia": "17061",
+        "nombre": "PEREZ Biel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14246",
+        "nombre": "KROTKOV Gleb"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8568",
+        "nombre": "RODA Martí"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16844",
-        "nombre": "LÓPEZ Raúl"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "9039",
         "nombre": "RODRIGUEZ Esteban"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "17061",
-        "nombre": "PEREZ Biel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14246",
-        "nombre": "KROTKOV Gleb"
+        "letra": "C",
+        "licencia": "16844",
+        "nombre": "LÓPEZ Raúl"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14246",
+        "nombre": "KROTKOV Gleb"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17061",
+        "nombre": "PEREZ Biel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16844",
-        "nombre": "LÓPEZ Raúl"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14230",
         "nombre": "SOLE Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16844",
+        "nombre": "LÓPEZ Raúl"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8568",
-        "nombre": "RODA Martí"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "9039",
         "nombre": "RODRIGUEZ Esteban"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8568",
+        "nombre": "RODA Martí"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8568",
-            "nombre": "RODA Martí"
-          },
-          {
-            "licencia": "16844",
-            "nombre": "LÓPEZ Raúl"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "14230",
             "nombre": "SOLE Pau"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8568",
+            "nombre": "RODA Martí"
+          },
+          {
+            "licencia": "16844",
+            "nombre": "LÓPEZ Raúl"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "SURIS CALELLA",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

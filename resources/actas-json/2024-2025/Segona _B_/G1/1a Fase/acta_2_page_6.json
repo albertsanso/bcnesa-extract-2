@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "B": {
-        "licencia": "16552",
-        "nombre": "PUIGJANER Ferran"
-      },
-      "C": {
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6167",
         "nombre": "ESTRADA Jordi"
@@ -55,6 +41,20 @@
         "licencia": "3151",
         "nombre": "ARELLANO Juan Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
+      "B": {
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      },
+      "C": {
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6167",
         "nombre": "ESTRADA Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16552",
-        "nombre": "PUIGJANER Ferran"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "283",
         "nombre": "NICOLAS Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3151",
         "nombre": "ARELLANO Juan Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13098",
-        "nombre": "CARDONA Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "283",
         "nombre": "NICOLAS Francisco"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13098",
+        "nombre": "CARDONA Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7307",
-        "nombre": "FLORES Emma"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6167",
         "nombre": "ESTRADA Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7307",
+        "nombre": "FLORES Emma"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16552",
-        "nombre": "PUIGJANER Ferran"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3151",
         "nombre": "ARELLANO Juan Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATC MOLINS DE REI",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18323",
-        "nombre": "GÓMEZ Fernando J."
-      },
-      "B": {
-        "licencia": "6290",
-        "nombre": "RUIZ BLANC Enric"
-      },
-      "C": {
-        "licencia": "11717",
-        "nombre": "BOLDÚ Sebastià"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8825",
         "nombre": "TOMAS Jose"
@@ -55,20 +41,24 @@
         "licencia": "15730",
         "nombre": "TOBOSO Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18323",
+        "nombre": "GÓMEZ Fernando J."
+      },
+      "B": {
+        "licencia": "6290",
+        "nombre": "RUIZ BLANC Enric"
+      },
+      "C": {
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6290",
-        "nombre": "RUIZ BLANC Enric"
-      },
-      {
-        "licencia": "11717",
-        "nombre": "BOLDÚ Sebastià"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8825",
         "nombre": "TOMAS Jose"
@@ -76,6 +66,16 @@
       {
         "licencia": "18981",
         "nombre": "OTERO Josep Lluís"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6290",
+        "nombre": "RUIZ BLANC Enric"
+      },
+      {
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18323",
-        "nombre": "GÓMEZ Fernando J."
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8825",
         "nombre": "TOMAS Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18323",
+        "nombre": "GÓMEZ Fernando J."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6290",
-        "nombre": "RUIZ BLANC Enric"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18981",
         "nombre": "OTERO Josep Lluís"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6290",
+        "nombre": "RUIZ BLANC Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11717",
-        "nombre": "BOLDÚ Sebastià"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15730",
         "nombre": "TOBOSO Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18323",
-        "nombre": "GÓMEZ Fernando J."
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18981",
         "nombre": "OTERO Josep Lluís"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18323",
+        "nombre": "GÓMEZ Fernando J."
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11717",
-        "nombre": "BOLDÚ Sebastià"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8825",
         "nombre": "TOMAS Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6290",
-        "nombre": "RUIZ BLANC Enric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15730",
         "nombre": "TOBOSO Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6290",
+        "nombre": "RUIZ BLANC Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6290",
-            "nombre": "RUIZ BLANC Enric"
-          },
-          {
-            "licencia": "11717",
-            "nombre": "BOLDÚ Sebastià"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8825",
             "nombre": "TOMAS Jose"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6290",
+            "nombre": "RUIZ BLANC Enric"
+          },
+          {
+            "licencia": "11717",
+            "nombre": "BOLDÚ Sebastià"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS D'HORTA TT",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

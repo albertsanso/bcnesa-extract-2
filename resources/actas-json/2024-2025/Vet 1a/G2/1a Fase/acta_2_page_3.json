@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1723",
-        "nombre": "DIAZ Juan"
-      },
-      "B": {
-        "licencia": "546",
-        "nombre": "SAIZ David"
-      },
-      "C": {
-        "licencia": "654",
-        "nombre": "OSUNA Fco. Jose"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5395",
         "nombre": "PLANAS Josep"
@@ -55,6 +41,20 @@
         "licencia": "329",
         "nombre": "CASABONA Oscar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1723",
+        "nombre": "DIAZ Juan"
+      },
+      "B": {
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
+      "C": {
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1723",
-        "nombre": "DIAZ Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5395",
         "nombre": "PLANAS Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1723",
+        "nombre": "DIAZ Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "546",
-        "nombre": "SAIZ David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "369",
         "nombre": "MORATA Genis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "654",
-        "nombre": "OSUNA Fco. Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "329",
         "nombre": "CASABONA Oscar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1723",
-        "nombre": "DIAZ Juan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "369",
         "nombre": "MORATA Genis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1723",
+        "nombre": "DIAZ Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "654",
-        "nombre": "OSUNA Fco. Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5395",
         "nombre": "PLANAS Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "546",
-        "nombre": "SAIZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "329",
         "nombre": "CASABONA Oscar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "546",
+        "nombre": "SAIZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 18,
+      "local": 0,
       "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

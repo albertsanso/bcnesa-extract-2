@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
-      },
-      "B": {
-        "licencia": "11156",
-        "nombre": "RUIZ Jordi"
-      },
-      "C": {
-        "licencia": "12245",
-        "nombre": "PRADES Alba"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "329",
         "nombre": "CASABONA Oscar"
@@ -55,20 +41,24 @@
         "licencia": "369",
         "nombre": "MORATA Genis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
+      },
+      "B": {
+        "licencia": "11156",
+        "nombre": "RUIZ Jordi"
+      },
+      "C": {
+        "licencia": "12245",
+        "nombre": "PRADES Alba"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
-      },
-      {
-        "licencia": "12245",
-        "nombre": "PRADES Alba"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "329",
         "nombre": "CASABONA Oscar"
@@ -76,6 +66,16 @@
       {
         "licencia": "369",
         "nombre": "MORATA Genis"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
+      },
+      {
+        "licencia": "12245",
+        "nombre": "PRADES Alba"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "329",
         "nombre": "CASABONA Oscar"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11156",
-        "nombre": "RUIZ Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "361",
-        "nombre": "CASANOVA Santiago"
+        "letra": "A",
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11156",
+        "nombre": "RUIZ Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12245",
-        "nombre": "PRADES Alba"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "369",
         "nombre": "MORATA Genis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "12195",
-        "nombre": "SAÑA Orlando"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "361",
-        "nombre": "CASANOVA Santiago"
+        "letra": "C",
+        "licencia": "12245",
+        "nombre": "PRADES Alba"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "361",
+        "nombre": "CASANOVA Santiago"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12195",
+        "nombre": "SAÑA Orlando"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12245",
-        "nombre": "PRADES Alba"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "329",
         "nombre": "CASABONA Oscar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12245",
+        "nombre": "PRADES Alba"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11156",
-        "nombre": "RUIZ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "369",
         "nombre": "MORATA Genis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11156",
+        "nombre": "RUIZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "12195",
-            "nombre": "SAÑA Orlando"
-          },
-          {
-            "licencia": "12245",
-            "nombre": "PRADES Alba"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "329",
             "nombre": "CASABONA Oscar"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12195",
+            "nombre": "SAÑA Orlando"
+          },
+          {
+            "licencia": "12245",
+            "nombre": "PRADES Alba"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA 'B'",
+      "nombre": "CTT LA UNIÓ 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT LA UNIÓ 'B'",
+      "nombre": "CTT ELS AMICS TERRASSA 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14349",
-        "nombre": "DUEÑAS Adrian"
-      },
-      "B": {
-        "licencia": "16298",
-        "nombre": "RALLO Juan Pedro"
-      },
-      "C": {
-        "licencia": "15023",
-        "nombre": "ONANDIA Marta"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14991",
         "nombre": "CASAJUANA Sebastia"
@@ -55,20 +41,24 @@
         "licencia": "17812",
         "nombre": "SARIOL Eric"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      },
+      "B": {
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
+      },
+      "C": {
+        "licencia": "15023",
+        "nombre": "ONANDIA Marta"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "14349",
-        "nombre": "DUEÑAS Adrian"
-      },
-      {
-        "licencia": "16298",
-        "nombre": "RALLO Juan Pedro"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15159",
         "nombre": "MUÑOZ David"
@@ -76,6 +66,16 @@
       {
         "licencia": "17812",
         "nombre": "SARIOL Eric"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      },
+      {
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14349",
-        "nombre": "DUEÑAS Adrian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14991",
         "nombre": "CASAJUANA Sebastia"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16298",
-        "nombre": "RALLO Juan Pedro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15159",
         "nombre": "MUÑOZ David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15023",
-        "nombre": "ONANDIA Marta"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17812",
         "nombre": "SARIOL Eric"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14349",
-        "nombre": "DUEÑAS Adrian"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
+        "letra": "C",
+        "licencia": "15023",
+        "nombre": "ONANDIA Marta"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14349",
+        "nombre": "DUEÑAS Adrian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15023",
-        "nombre": "ONANDIA Marta"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14991",
         "nombre": "CASAJUANA Sebastia"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15023",
+        "nombre": "ONANDIA Marta"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16298",
-        "nombre": "RALLO Juan Pedro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17812",
         "nombre": "SARIOL Eric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16298",
+        "nombre": "RALLO Juan Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "14349",
-            "nombre": "DUEÑAS Adrian"
-          },
-          {
-            "licencia": "16298",
-            "nombre": "RALLO Juan Pedro"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15159",
             "nombre": "MUÑOZ David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "14349",
+            "nombre": "DUEÑAS Adrian"
+          },
+          {
+            "licencia": "16298",
+            "nombre": "RALLO Juan Pedro"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT ELS AMICS TERRASSA 'B'",
+    "ganador": "CTT LA UNIÓ 'B'",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

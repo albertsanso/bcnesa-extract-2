@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "EL CENTRE ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE ''B''",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3254",
-        "nombre": "CARCELLER Jordi"
-      },
-      "B": {
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "C": {
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "507",
         "nombre": "BERNABEU Ricardo"
@@ -55,6 +41,20 @@
         "licencia": "5544",
         "nombre": "PRADES Aixeus"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3254",
+        "nombre": "CARCELLER Jordi"
+      },
+      "B": {
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
+      "C": {
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3254",
-        "nombre": "CARCELLER Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "507",
         "nombre": "BERNABEU Ricardo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3254",
+        "nombre": "CARCELLER Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14941",
         "nombre": "GUISADO Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5544",
         "nombre": "PRADES Aixeus"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3254",
-        "nombre": "CARCELLER Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14941",
         "nombre": "GUISADO Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3254",
+        "nombre": "CARCELLER Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "507",
         "nombre": "BERNABEU Ricardo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5544",
         "nombre": "PRADES Aixeus"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

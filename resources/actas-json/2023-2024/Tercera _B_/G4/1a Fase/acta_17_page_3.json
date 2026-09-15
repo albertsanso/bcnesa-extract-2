@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA UNIÓ ''B''",
+      "nombre": "CPP IGUALADA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CPP IGUALADA",
+      "nombre": "CTT LA UNIÓ ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14750",
-        "nombre": "SEVILLA Marc"
-      },
-      "B": {
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
-      },
-      "C": {
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17794",
         "nombre": "SOLÉ Roger"
@@ -55,6 +41,20 @@
         "licencia": "16386",
         "nombre": "PUIG Quim"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14750",
+        "nombre": "SEVILLA Marc"
+      },
+      "B": {
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
+      },
+      "C": {
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14750",
-        "nombre": "SEVILLA Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17794",
         "nombre": "SOLÉ Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14750",
+        "nombre": "SEVILLA Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16422",
         "nombre": "PUIG Salvador"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16386",
         "nombre": "PUIG Quim"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14750",
-        "nombre": "SEVILLA Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16422",
         "nombre": "PUIG Salvador"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14750",
+        "nombre": "SEVILLA Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14749",
-        "nombre": "GARCIA Sergi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17794",
         "nombre": "SOLÉ Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14749",
+        "nombre": "GARCIA Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15159",
-        "nombre": "MUÑOZ David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16386",
         "nombre": "PUIG Quim"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15159",
+        "nombre": "MUÑOZ David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CPP IGUALADA",
+    "ganador": "CTT LA UNIÓ ''B''",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

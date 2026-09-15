@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.1r4aB",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "FALCONS DE SABADELL A.E.1r4aB",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17412",
-        "nombre": "TURU Jordi"
-      },
-      "B": {
-        "licencia": "7026",
-        "nombre": "CAMPOS Ramon"
-      },
-      "C": {
-        "licencia": "4569",
-        "nombre": "FERRER Jose Ernesto"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16872",
         "nombre": "BELIZÓN Gonzalo"
@@ -55,6 +41,20 @@
         "licencia": "21031",
         "nombre": "MELCHIZEDECK Pascual"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17412",
+        "nombre": "TURU Jordi"
+      },
+      "B": {
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
+      "C": {
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17412",
-        "nombre": "TURU Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16872",
         "nombre": "BELIZÓN Gonzalo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7026",
-        "nombre": "CAMPOS Ramon"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
+        "letra": "A",
+        "licencia": "17412",
+        "nombre": "TURU Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4569",
-        "nombre": "FERRER Jose Ernesto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "21031",
         "nombre": "MELCHIZEDECK Pascual"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17412",
-        "nombre": "TURU Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17412",
+        "nombre": "TURU Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4569",
-        "nombre": "FERRER Jose Ernesto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16872",
         "nombre": "BELIZÓN Gonzalo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4569",
+        "nombre": "FERRER Jose Ernesto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7026",
-        "nombre": "CAMPOS Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "21031",
         "nombre": "MELCHIZEDECK Pascual"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7026",
+        "nombre": "CAMPOS Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.1r4aB",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 3
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

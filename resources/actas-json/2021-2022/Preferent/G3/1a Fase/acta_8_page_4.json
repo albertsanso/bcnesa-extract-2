@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "FORN BERTRAN BADALONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FORN BERTRAN BADALONA",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5144",
-        "nombre": "TOST Daniel"
-      },
-      "B": {
-        "licencia": "4898",
-        "nombre": "SEGURA Antoni"
-      },
-      "C": {
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7304",
         "nombre": "MACIA Nuria"
@@ -55,20 +41,24 @@
         "licencia": "1843",
         "nombre": "NOGUERAS Joan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5144",
+        "nombre": "TOST Daniel"
+      },
+      "B": {
+        "licencia": "4898",
+        "nombre": "SEGURA Antoni"
+      },
+      "C": {
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "5144",
-        "nombre": "TOST Daniel"
-      },
-      {
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8722",
         "nombre": "BACHS Mariona"
@@ -76,6 +66,16 @@
       {
         "licencia": "7304",
         "nombre": "MACIA Nuria"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "5144",
+        "nombre": "TOST Daniel"
+      },
+      {
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5144",
-        "nombre": "TOST Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7304",
         "nombre": "MACIA Nuria"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5144",
+        "nombre": "TOST Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4898",
-        "nombre": "SEGURA Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8722",
         "nombre": "BACHS Mariona"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4898",
+        "nombre": "SEGURA Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1843",
         "nombre": "NOGUERAS Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5144",
-        "nombre": "TOST Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8722",
         "nombre": "BACHS Mariona"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5144",
+        "nombre": "TOST Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7304",
         "nombre": "MACIA Nuria"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "4898",
-        "nombre": "SEGURA Antoni"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "1843",
-        "nombre": "NOGUERAS Joan"
+        "letra": "C",
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "1843",
+        "nombre": "NOGUERAS Joan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4898",
+        "nombre": "SEGURA Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "5144",
-            "nombre": "TOST Daniel"
-          },
-          {
-            "licencia": "947",
-            "nombre": "GIMENEZ Angel"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8722",
             "nombre": "BACHS Mariona"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5144",
+            "nombre": "TOST Daniel"
+          },
+          {
+            "licencia": "947",
+            "nombre": "GIMENEZ Angel"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 10
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

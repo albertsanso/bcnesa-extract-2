@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "FOMENT MARTINENC-BARNY",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FOMENT MARTINENC-BARNY",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17614",
-        "nombre": "CAMBRA Jhonnatan Alejandro"
-      },
-      "B": {
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "C": {
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6464",
         "nombre": "MENINO Pau"
@@ -55,20 +41,24 @@
         "licencia": "6466",
         "nombre": "MONTAÑEZ Xavier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Alejandro"
+      },
+      "B": {
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "C": {
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "17614",
-        "nombre": "CAMBRA Jhonnatan Alejandro"
-      },
-      {
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6464",
         "nombre": "MENINO Pau"
@@ -76,6 +66,16 @@
       {
         "licencia": "6466",
         "nombre": "MONTAÑEZ Xavier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Alejandro"
+      },
+      {
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
       }
     ]
   },
@@ -85,114 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17614",
-        "nombre": "CAMBRA Jhonnatan Alejandro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6464",
         "nombre": "MENINO Pau"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "10393",
-        "nombre": "MILLAN Jan"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6466",
-        "nombre": "MONTAÑEZ Xavier"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "17614",
         "nombre": "CAMBRA Jhonnatan Alejandro"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "10393",
-        "nombre": "MILLAN Jan"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "6464",
-        "nombre": "MENINO Pau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +101,108 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "10393",
+        "nombre": "MILLAN Jan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
         "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6466",
+        "nombre": "MONTAÑEZ Xavier"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "10393",
+        "nombre": "MILLAN Jan"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "6464",
+        "nombre": "MENINO Pau"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6466",
         "nombre": "MONTAÑEZ Xavier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "17614",
-            "nombre": "CAMBRA Jhonnatan Alejandro"
-          },
-          {
-            "licencia": "18268",
-            "nombre": "CAMBRA Raul Alejandro"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6464",
             "nombre": "MENINO Pau"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17614",
+            "nombre": "CAMBRA Jhonnatan Alejandro"
+          },
+          {
+            "licencia": "18268",
+            "nombre": "CAMBRA Raul Alejandro"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

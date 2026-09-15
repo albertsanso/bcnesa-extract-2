@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT SANT QUIRZE DEL VALLÈS \"Vet. C\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUIRZE DEL VALLÈS \"Vet. C\"",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "9097",
-        "nombre": "BALAGUER Juan Enrique"
-      },
-      "B": {
-        "licencia": "171",
-        "nombre": "BENITO Emilio"
-      },
-      "C": {
-        "licencia": "10704",
-        "nombre": "CARDONA Lorenzo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
@@ -55,6 +41,20 @@
         "licencia": "12124",
         "nombre": "ALASTUEY Hugo Alberto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "9097",
+        "nombre": "BALAGUER Juan Enrique"
+      },
+      "B": {
+        "licencia": "171",
+        "nombre": "BENITO Emilio"
+      },
+      "C": {
+        "licencia": "10704",
+        "nombre": "CARDONA Lorenzo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "9097",
-        "nombre": "BALAGUER Juan Enrique"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "9097",
+        "nombre": "BALAGUER Juan Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "171",
-        "nombre": "BENITO Emilio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "154",
         "nombre": "BOTELLA Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "171",
+        "nombre": "BENITO Emilio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10704",
-        "nombre": "CARDONA Lorenzo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12124",
         "nombre": "ALASTUEY Hugo Alberto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10704",
+        "nombre": "CARDONA Lorenzo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "9097",
-        "nombre": "BALAGUER Juan Enrique"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "154",
         "nombre": "BOTELLA Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "9097",
+        "nombre": "BALAGUER Juan Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10704",
-        "nombre": "CARDONA Lorenzo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15087",
         "nombre": "BOSCH Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10704",
+        "nombre": "CARDONA Lorenzo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "171",
-        "nombre": "BENITO Emilio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12124",
         "nombre": "ALASTUEY Hugo Alberto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "171",
+        "nombre": "BENITO Emilio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUIRZE DEL VALLÈS \"Vet. C\"",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

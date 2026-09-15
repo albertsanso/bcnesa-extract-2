@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16431",
-        "nombre": "BALDEON Yoichi"
-      },
-      "B": {
-        "licencia": "18089",
-        "nombre": "CANALS Roger"
-      },
-      "C": {
-        "licencia": "19711",
-        "nombre": "MOHAMMADI Artin"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8075",
         "nombre": "GIL Antonio"
@@ -55,6 +41,20 @@
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16431",
+        "nombre": "BALDEON Yoichi"
+      },
+      "B": {
+        "licencia": "18089",
+        "nombre": "CANALS Roger"
+      },
+      "C": {
+        "licencia": "19711",
+        "nombre": "MOHAMMADI Artin"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16431",
-        "nombre": "BALDEON Yoichi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8075",
         "nombre": "GIL Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16431",
+        "nombre": "BALDEON Yoichi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18089",
-        "nombre": "CANALS Roger"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12890",
         "nombre": "PRUNES Alfred"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18089",
+        "nombre": "CANALS Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19711",
-        "nombre": "MOHAMMADI Artin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19711",
+        "nombre": "MOHAMMADI Artin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16431",
-        "nombre": "BALDEON Yoichi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12890",
         "nombre": "PRUNES Alfred"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16431",
+        "nombre": "BALDEON Yoichi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19711",
-        "nombre": "MOHAMMADI Artin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8075",
         "nombre": "GIL Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19711",
+        "nombre": "MOHAMMADI Artin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18089",
-        "nombre": "CANALS Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18089",
+        "nombre": "CANALS Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT PARETS",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA UNIÓ",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT LA UNIÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8899",
-        "nombre": "VILALTA Albert"
-      },
-      "B": {
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "C": {
-        "licencia": "15786",
-        "nombre": "VILLARONGA Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5607",
         "nombre": "GUAL Carles"
@@ -55,6 +41,20 @@
         "licencia": "5430",
         "nombre": "OLIVES Miguel Anton"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8899",
+        "nombre": "VILALTA Albert"
+      },
+      "B": {
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
+      "C": {
+        "licencia": "15786",
+        "nombre": "VILLARONGA Miquel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8899",
-        "nombre": "VILALTA Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8899",
+        "nombre": "VILALTA Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,114 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7854",
-        "nombre": "VILALTA Jaime"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "15786",
-        "nombre": "VILLARONGA Miquel"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "5430",
-        "nombre": "OLIVES Miguel Anton"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "8899",
-        "nombre": "VILALTA Albert"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "1080",
-        "nombre": "ALCAÑIZ Bernat"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "15786",
-        "nombre": "VILLARONGA Miquel"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "5607",
-        "nombre": "GUAL Carles"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
         "letra": "B",
         "licencia": "7854",
         "nombre": "VILALTA Jaime"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "5430",
-        "nombre": "OLIVES Miguel Anton"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,8 +105,108 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "5430",
+        "nombre": "OLIVES Miguel Anton"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15786",
+        "nombre": "VILLARONGA Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1080",
+        "nombre": "ALCAÑIZ Bernat"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8899",
+        "nombre": "VILALTA Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "5607",
+        "nombre": "GUAL Carles"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15786",
+        "nombre": "VILLARONGA Miquel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "5430",
+        "nombre": "OLIVES Miguel Anton"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7854",
+        "nombre": "VILALTA Jaime"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "EL CENTRE",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 15
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

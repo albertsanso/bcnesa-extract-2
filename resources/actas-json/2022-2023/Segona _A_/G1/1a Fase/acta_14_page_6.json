@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ ''A''",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "CTT CASTELLGALÍ ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6313",
-        "nombre": "MONTANER Josep"
-      },
-      "B": {
-        "licencia": "11665",
-        "nombre": "MARTINEZ Roger"
-      },
-      "C": {
-        "licencia": "1447",
-        "nombre": "MARTIN Jose Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
@@ -55,6 +41,20 @@
         "licencia": "2299",
         "nombre": "IBAÑEZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      },
+      "B": {
+        "licencia": "11665",
+        "nombre": "MARTINEZ Roger"
+      },
+      "C": {
+        "licencia": "1447",
+        "nombre": "MARTIN Jose Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,139 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "6313",
         "nombre": "MONTANER Josep"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
       "visitante": {
+        "letra": "B",
+        "licencia": "11665",
+        "nombre": "MARTINEZ Roger"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "2299",
+        "nombre": "IBAÑEZ Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1447",
+        "nombre": "MARTIN Jose Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6313",
+        "nombre": "MONTANER Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
         "letra": "Y",
         "licencia": "167",
         "nombre": "IBÁÑEZ José Luis"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1447",
+        "nombre": "MARTIN Jose Antonio"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "2299",
+        "nombre": "IBAÑEZ Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11665",
+        "nombre": "MARTINEZ Roger"
       },
       "sets": [],
       "resultado_juegos": {
@@ -81,142 +206,20 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11665",
-        "nombre": "MARTINEZ Roger"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "1447",
-        "nombre": "MARTIN Jose Antonio"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "2299",
-        "nombre": "IBAÑEZ Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "6313",
-        "nombre": "MONTANER Josep"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "1447",
-        "nombre": "MARTIN Jose Antonio"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "167",
-        "nombre": "IBÁÑEZ José Luis"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "11665",
-        "nombre": "MARTINEZ Roger"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "2299",
-        "nombre": "IBAÑEZ Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLGALÍ ''A''",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 8
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

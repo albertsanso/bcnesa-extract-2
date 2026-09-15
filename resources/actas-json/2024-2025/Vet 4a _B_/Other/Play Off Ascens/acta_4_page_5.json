@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "CTT JOSEP M. PALES 13è4aA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALES 13è4aA",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11148",
-        "nombre": "MAZORRA Enric"
-      },
-      "B": {
-        "licencia": "4795",
-        "nombre": "FRANCO Jose"
-      },
-      "C": {
-        "licencia": "33",
-        "nombre": "CULLA Jose Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4979",
         "nombre": "RIBERA Victor"
@@ -55,6 +41,20 @@
         "licencia": "7192",
         "nombre": "TASCON Armando"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11148",
+        "nombre": "MAZORRA Enric"
+      },
+      "B": {
+        "licencia": "4795",
+        "nombre": "FRANCO Jose"
+      },
+      "C": {
+        "licencia": "33",
+        "nombre": "CULLA Jose Luis"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11148",
-        "nombre": "MAZORRA Enric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4979",
         "nombre": "RIBERA Victor"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "4795",
-        "nombre": "FRANCO Jose"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4994",
-        "nombre": "AMOUROUX Patrice M. Xa"
+        "letra": "A",
+        "licencia": "11148",
+        "nombre": "MAZORRA Enric"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4994",
+        "nombre": "AMOUROUX Patrice M. Xa"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4795",
+        "nombre": "FRANCO Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "33",
-        "nombre": "CULLA Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7192",
         "nombre": "TASCON Armando"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "11148",
-        "nombre": "MAZORRA Enric"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4994",
-        "nombre": "AMOUROUX Patrice M. Xa"
+        "letra": "C",
+        "licencia": "33",
+        "nombre": "CULLA Jose Luis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4994",
+        "nombre": "AMOUROUX Patrice M. Xa"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11148",
+        "nombre": "MAZORRA Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "33",
-        "nombre": "CULLA Jose Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4979",
         "nombre": "RIBERA Victor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "33",
+        "nombre": "CULLA Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4795",
-        "nombre": "FRANCO Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7192",
         "nombre": "TASCON Armando"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4795",
+        "nombre": "FRANCO Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT JOSEP M. PALES 13è4aA",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

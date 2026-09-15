@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "CTT CASTELLDEFELS \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS \"B\"",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12977",
-        "nombre": "SORRIBES Vica"
-      },
-      "B": {
-        "licencia": "12785",
-        "nombre": "AGUILERA Marta"
-      },
-      "C": {
-        "licencia": "13382",
-        "nombre": "AGUILERA Alejandro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15260",
         "nombre": "NICKSTAT Ralph"
@@ -55,6 +41,20 @@
         "licencia": "19164",
         "nombre": "GOMEZ Josep Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12977",
+        "nombre": "SORRIBES Vica"
+      },
+      "B": {
+        "licencia": "12785",
+        "nombre": "AGUILERA Marta"
+      },
+      "C": {
+        "licencia": "13382",
+        "nombre": "AGUILERA Alejandro"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12977",
-        "nombre": "SORRIBES Vica"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15260",
         "nombre": "NICKSTAT Ralph"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12977",
+        "nombre": "SORRIBES Vica"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12785",
-        "nombre": "AGUILERA Marta"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15874",
         "nombre": "LOPEZ Maria Elena"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12785",
+        "nombre": "AGUILERA Marta"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13382",
-        "nombre": "AGUILERA Alejandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19164",
         "nombre": "GOMEZ Josep Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13382",
+        "nombre": "AGUILERA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12977",
-        "nombre": "SORRIBES Vica"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15874",
         "nombre": "LOPEZ Maria Elena"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12977",
+        "nombre": "SORRIBES Vica"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13382",
-        "nombre": "AGUILERA Alejandro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15260",
         "nombre": "NICKSTAT Ralph"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13382",
+        "nombre": "AGUILERA Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12785",
-        "nombre": "AGUILERA Marta"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19164",
         "nombre": "GOMEZ Josep Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12785",
+        "nombre": "AGUILERA Marta"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CETT ESPARREGUERA",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 0
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 0,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

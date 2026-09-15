@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT MOIANES - JR PIZZES",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "CTT MOIANES - JR PIZZES",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14158",
-        "nombre": "MARTIN Izan"
-      },
-      "B": {
-        "licencia": "14141",
-        "nombre": "FERRER Jordi"
-      },
-      "C": {
-        "licencia": "17646",
-        "nombre": "OLLER Josep"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6909",
         "nombre": "CORTES Juan Jose"
@@ -55,6 +41,20 @@
         "licencia": "2291",
         "nombre": "VELASCO David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
+      },
+      "B": {
+        "licencia": "14141",
+        "nombre": "FERRER Jordi"
+      },
+      "C": {
+        "licencia": "17646",
+        "nombre": "OLLER Josep"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14158",
-        "nombre": "MARTIN Izan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6909",
         "nombre": "CORTES Juan Jose"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14141",
-        "nombre": "FERRER Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16458",
-        "nombre": "XU Jun"
+        "letra": "A",
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16458",
+        "nombre": "XU Jun"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14141",
+        "nombre": "FERRER Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17646",
-        "nombre": "OLLER Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2291",
         "nombre": "VELASCO David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17646",
+        "nombre": "OLLER Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14158",
-        "nombre": "MARTIN Izan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16458",
         "nombre": "XU Jun"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14158",
+        "nombre": "MARTIN Izan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17646",
-        "nombre": "OLLER Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6909",
         "nombre": "CORTES Juan Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17646",
+        "nombre": "OLLER Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14141",
-        "nombre": "FERRER Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2291",
         "nombre": "VELASCO David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14141",
+        "nombre": "FERRER Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT TORELLÓ",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

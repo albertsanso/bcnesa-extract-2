@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
-      },
-      "B": {
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      },
-      "C": {
-        "licencia": "492",
-        "nombre": "RIERA Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11007",
         "nombre": "REGINCÓS Albert"
@@ -55,6 +41,20 @@
         "licencia": "692",
         "nombre": "CAMPOS Oscar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
+      },
+      "B": {
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "C": {
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11007",
         "nombre": "REGINCÓS Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1046",
         "nombre": "SATORRAS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "492",
-        "nombre": "RIERA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "692",
         "nombre": "CAMPOS Oscar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4669",
-        "nombre": "PEIX Lluis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1046",
         "nombre": "SATORRAS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4669",
+        "nombre": "PEIX Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "492",
-        "nombre": "RIERA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11007",
         "nombre": "REGINCÓS Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "492",
+        "nombre": "RIERA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "692",
         "nombre": "CAMPOS Oscar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

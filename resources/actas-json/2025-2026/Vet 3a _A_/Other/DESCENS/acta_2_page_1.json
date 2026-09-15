@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      },
-      "B": {
-        "licencia": "16279",
-        "nombre": "VALLES Mario"
-      },
-      "C": {
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "750",
         "nombre": "PEREZ Fabio Rodrigo"
@@ -55,6 +41,20 @@
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
+      "B": {
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
+      "C": {
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "750",
         "nombre": "PEREZ Fabio Rodrigo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16279",
-        "nombre": "VALLES Mario"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11266",
         "nombre": "DE JESUS Ignasi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "947",
         "nombre": "GIMENEZ Angel"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "11266",
+        "nombre": "DE JESUS Ignasi"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
+        "letra": "A",
+        "licencia": "440",
+        "nombre": "SAPES Nuria"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "440",
-        "nombre": "SAPES Nuria"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "11266",
-        "nombre": "DE JESUS Ignasi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "750",
         "nombre": "PEREZ Fabio Rodrigo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16279",
-        "nombre": "VALLES Mario"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

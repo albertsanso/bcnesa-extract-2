@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3995",
-        "nombre": "IGLESIAS Carlos"
-      },
-      "B": {
-        "licencia": "245",
-        "nombre": "TARRAGO Enric"
-      },
-      "C": {
-        "licencia": "1919",
-        "nombre": "DOMENECH Jose"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15090",
         "nombre": "PALOU Alfred"
@@ -55,6 +41,20 @@
         "licencia": "7153",
         "nombre": "MARTINEZ DE MORENTIN Jo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3995",
+        "nombre": "IGLESIAS Carlos"
+      },
+      "B": {
+        "licencia": "245",
+        "nombre": "TARRAGO Enric"
+      },
+      "C": {
+        "licencia": "1919",
+        "nombre": "DOMENECH Jose"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3995",
-        "nombre": "IGLESIAS Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15090",
         "nombre": "PALOU Alfred"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "245",
-        "nombre": "TARRAGO Enric"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16360",
-        "nombre": "BERNAT Marcos"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "1919",
-        "nombre": "DOMENECH Jose"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "7153",
-        "nombre": "MARTINEZ DE MORENTIN Jo"
+        "letra": "A",
+        "licencia": "3995",
+        "nombre": "IGLESIAS Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +80,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16360",
+        "nombre": "BERNAT Marcos"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "245",
+        "nombre": "TARRAGO Enric"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "7153",
+        "nombre": "MARTINEZ DE MORENTIN Jo"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1919",
+        "nombre": "DOMENECH Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3995",
-        "nombre": "IGLESIAS Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16360",
         "nombre": "BERNAT Marcos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3995",
+        "nombre": "IGLESIAS Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1919",
-        "nombre": "DOMENECH Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15090",
         "nombre": "PALOU Alfred"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1919",
+        "nombre": "DOMENECH Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "245",
-        "nombre": "TARRAGO Enric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7153",
         "nombre": "MARTINEZ DE MORENTIN Jo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "245",
+        "nombre": "TARRAGO Enric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANTS",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

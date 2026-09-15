@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17990",
-        "nombre": "CLEMENT Arnaud"
-      },
-      "B": {
-        "licencia": "4684",
-        "nombre": "PAZOS Robert"
-      },
-      "C": {
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16430",
         "nombre": "PORTA Joan"
@@ -55,6 +41,20 @@
         "licencia": "10220",
         "nombre": "PLAZA Francisco José"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17990",
+        "nombre": "CLEMENT Arnaud"
+      },
+      "B": {
+        "licencia": "4684",
+        "nombre": "PAZOS Robert"
+      },
+      "C": {
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17990",
-        "nombre": "CLEMENT Arnaud"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16430",
         "nombre": "PORTA Joan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "4684",
-        "nombre": "PAZOS Robert"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14636",
-        "nombre": "GÓMEZ Carlos Luis"
+        "letra": "A",
+        "licencia": "17990",
+        "nombre": "CLEMENT Arnaud"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14636",
+        "nombre": "GÓMEZ Carlos Luis"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4684",
+        "nombre": "PAZOS Robert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10220",
         "nombre": "PLAZA Francisco José"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17990",
-        "nombre": "CLEMENT Arnaud"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14636",
         "nombre": "GÓMEZ Carlos Luis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17990",
+        "nombre": "CLEMENT Arnaud"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16430",
         "nombre": "PORTA Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4684",
-        "nombre": "PAZOS Robert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10220",
         "nombre": "PLAZA Francisco José"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4684",
+        "nombre": "PAZOS Robert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT POBLENOU",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 4
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "TT PRAT LISANT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PRAT LISANT",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16664",
-        "nombre": "SOLER Marcel"
-      },
-      "B": {
-        "licencia": "19454",
-        "nombre": "FRUIT Gaël"
-      },
-      "C": {
-        "licencia": "3492",
-        "nombre": "SEÑOR Eduard"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11233",
         "nombre": "VARABIEV Adrian"
@@ -55,6 +41,20 @@
         "licencia": "6118",
         "nombre": "CAÑETE Antonio Jose"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16664",
+        "nombre": "SOLER Marcel"
+      },
+      "B": {
+        "licencia": "19454",
+        "nombre": "FRUIT Gaël"
+      },
+      "C": {
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16664",
-        "nombre": "SOLER Marcel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11233",
         "nombre": "VARABIEV Adrian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16664",
+        "nombre": "SOLER Marcel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19454",
-        "nombre": "FRUIT Gaël"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5638",
         "nombre": "RABADAN Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19454",
+        "nombre": "FRUIT Gaël"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3492",
-        "nombre": "SEÑOR Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6118",
         "nombre": "CAÑETE Antonio Jose"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16664",
-        "nombre": "SOLER Marcel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5638",
-        "nombre": "RABADAN Luis"
+        "letra": "C",
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5638",
+        "nombre": "RABADAN Luis"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16664",
+        "nombre": "SOLER Marcel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3492",
-        "nombre": "SEÑOR Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11233",
         "nombre": "VARABIEV Adrian"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19454",
-        "nombre": "FRUIT Gaël"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6118",
         "nombre": "CAÑETE Antonio Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19454",
+        "nombre": "FRUIT Gaël"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

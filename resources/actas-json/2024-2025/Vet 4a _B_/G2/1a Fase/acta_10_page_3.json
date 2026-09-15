@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ASS. ESPORTIVA SANT LLUIS",
+      "nombre": "CTT VILASSAR ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILASSAR ''B''",
+      "nombre": "ASS. ESPORTIVA SANT LLUIS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18944",
-        "nombre": "QUIÑONERO Montserrat"
-      },
-      "B": {
-        "licencia": "6872",
-        "nombre": "TORELL Enrique"
-      },
-      "C": {
-        "licencia": "18947",
-        "nombre": "ALONSO Francisco"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5926",
         "nombre": "RECODER Carles"
@@ -55,20 +41,24 @@
         "licencia": "11248",
         "nombre": "GARCIA Victor"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18944",
+        "nombre": "QUIÑONERO Montserrat"
+      },
+      "B": {
+        "licencia": "6872",
+        "nombre": "TORELL Enrique"
+      },
+      "C": {
+        "licencia": "18947",
+        "nombre": "ALONSO Francisco"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "18944",
-        "nombre": "QUIÑONERO Montserrat"
-      },
-      {
-        "licencia": "18947",
-        "nombre": "ALONSO Francisco"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "19293",
         "nombre": "ESTEBAN Alex"
@@ -76,6 +66,16 @@
       {
         "licencia": "11248",
         "nombre": "GARCIA Victor"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "18944",
+        "nombre": "QUIÑONERO Montserrat"
+      },
+      {
+        "licencia": "18947",
+        "nombre": "ALONSO Francisco"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18944",
-        "nombre": "QUIÑONERO Montserrat"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5926",
         "nombre": "RECODER Carles"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18944",
+        "nombre": "QUIÑONERO Montserrat"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6872",
-        "nombre": "TORELL Enrique"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19293",
         "nombre": "ESTEBAN Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6872",
+        "nombre": "TORELL Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18947",
-        "nombre": "ALONSO Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11248",
         "nombre": "GARCIA Victor"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "18944",
-        "nombre": "QUIÑONERO Montserrat"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19293",
-        "nombre": "ESTEBAN Alex"
+        "letra": "C",
+        "licencia": "18947",
+        "nombre": "ALONSO Francisco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "19293",
+        "nombre": "ESTEBAN Alex"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18944",
+        "nombre": "QUIÑONERO Montserrat"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18947",
-        "nombre": "ALONSO Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5926",
         "nombre": "RECODER Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18947",
+        "nombre": "ALONSO Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6872",
-        "nombre": "TORELL Enrique"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11248",
         "nombre": "GARCIA Victor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6872",
+        "nombre": "TORELL Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "18944",
-            "nombre": "QUIÑONERO Montserrat"
-          },
-          {
-            "licencia": "18947",
-            "nombre": "ALONSO Francisco"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "19293",
             "nombre": "ESTEBAN Alex"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18944",
+            "nombre": "QUIÑONERO Montserrat"
+          },
+          {
+            "licencia": "18947",
+            "nombre": "ALONSO Francisco"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ASS. ESPORTIVA SANT LLUIS",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA 'A'",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT ELS AMICS TERRASSA 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "B": {
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "C": {
-        "licencia": "4405",
-        "nombre": "CAROL Santiago"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
@@ -55,20 +41,24 @@
         "licencia": "5639",
         "nombre": "SANCHEZ Oscar"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "B": {
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
+      "C": {
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      {
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
@@ -76,6 +66,16 @@
       {
         "licencia": "5639",
         "nombre": "SANCHEZ Oscar"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      {
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8558",
         "nombre": "MORILLA Daniel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4405",
-        "nombre": "CAROL Santiago"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5639",
         "nombre": "SANCHEZ Oscar"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8558",
         "nombre": "MORILLA Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4405",
-        "nombre": "CAROL Santiago"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5639",
         "nombre": "SANCHEZ Oscar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "851",
-            "nombre": "SERRES Jordi"
-          },
-          {
-            "licencia": "8841",
-            "nombre": "PEREZ Raul"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "4483",
             "nombre": "CAMPOS Alberto"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "851",
+            "nombre": "SERRES Jordi"
+          },
+          {
+            "licencia": "8841",
+            "nombre": "PEREZ Raul"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS TERRASSA 'A'",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

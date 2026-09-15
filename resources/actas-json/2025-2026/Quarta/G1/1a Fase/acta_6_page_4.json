@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT ATC MOLINS DE REI 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI 'B'",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "322",
-        "nombre": "GUARDIA Pedro"
-      },
-      "B": {
-        "licencia": "16908",
-        "nombre": "RIVAS Raul"
-      },
-      "C": {
-        "licencia": "19062",
-        "nombre": "CALVENTE Angel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19231",
         "nombre": "OLLE Lluis"
@@ -55,6 +41,20 @@
         "licencia": "4832",
         "nombre": "ALSINA Jorge"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "322",
+        "nombre": "GUARDIA Pedro"
+      },
+      "B": {
+        "licencia": "16908",
+        "nombre": "RIVAS Raul"
+      },
+      "C": {
+        "licencia": "19062",
+        "nombre": "CALVENTE Angel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "322",
-        "nombre": "GUARDIA Pedro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19231",
         "nombre": "OLLE Lluis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16908",
-        "nombre": "RIVAS Raul"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18700",
-        "nombre": "SALVANY Marc"
+        "letra": "A",
+        "licencia": "322",
+        "nombre": "GUARDIA Pedro"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18700",
+        "nombre": "SALVANY Marc"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16908",
+        "nombre": "RIVAS Raul"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19062",
-        "nombre": "CALVENTE Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4832",
         "nombre": "ALSINA Jorge"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19062",
+        "nombre": "CALVENTE Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "322",
-        "nombre": "GUARDIA Pedro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18700",
         "nombre": "SALVANY Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "322",
+        "nombre": "GUARDIA Pedro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19062",
-        "nombre": "CALVENTE Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19231",
         "nombre": "OLLE Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19062",
+        "nombre": "CALVENTE Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16908",
-        "nombre": "RIVAS Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4832",
         "nombre": "ALSINA Jorge"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16908",
+        "nombre": "RIVAS Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATC MOLINS DE REI 'B'",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CTT CANET DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CANET DE MAR",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "724",
-        "nombre": "BORRULL Jordi"
-      },
-      "B": {
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      },
-      "C": {
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "571",
         "nombre": "JODAR Mariano"
@@ -55,6 +41,20 @@
         "licencia": "11158",
         "nombre": "MERCADER Luis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
+      "B": {
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "C": {
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "724",
-        "nombre": "BORRULL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "571",
         "nombre": "JODAR Mariano"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "583",
-        "nombre": "COTS Josep"
+        "letra": "A",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "583",
+        "nombre": "COTS Josep"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11158",
         "nombre": "MERCADER Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "724",
-        "nombre": "BORRULL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "583",
         "nombre": "COTS Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "724",
+        "nombre": "BORRULL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "536",
-        "nombre": "PLADEVALL Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "571",
         "nombre": "JODAR Mariano"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "536",
+        "nombre": "PLADEVALL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11158",
         "nombre": "MERCADER Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

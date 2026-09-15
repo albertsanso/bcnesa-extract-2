@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN SABADELL",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CN SABADELL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
-      "B": {
-        "licencia": "11167",
-        "nombre": "RUIZ Jordi"
-      },
-      "C": {
-        "licencia": "12432",
-        "nombre": "VEGA Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
@@ -55,6 +41,20 @@
         "licencia": "6041",
         "nombre": "AGUILA Iago"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "B": {
+        "licencia": "11167",
+        "nombre": "RUIZ Jordi"
+      },
+      "C": {
+        "licencia": "12432",
+        "nombre": "VEGA Alex"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11167",
-        "nombre": "RUIZ Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "308",
         "nombre": "GARCIA Benito"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11167",
+        "nombre": "RUIZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12432",
-        "nombre": "VEGA Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6041",
         "nombre": "AGUILA Iago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12432",
+        "nombre": "VEGA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "308",
         "nombre": "GARCIA Benito"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12432",
-        "nombre": "VEGA Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "241",
         "nombre": "MARTINEZ Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12432",
+        "nombre": "VEGA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11167",
-        "nombre": "RUIZ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6041",
         "nombre": "AGUILA Iago"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11167",
+        "nombre": "RUIZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT OLESA",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

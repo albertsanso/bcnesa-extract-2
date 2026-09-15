@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "B": {
-        "licencia": "18196",
-        "nombre": "SACRISTÁN Oscar"
-      },
-      "C": {
-        "licencia": "17981",
-        "nombre": "PASCUAL Leandre"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3317",
         "nombre": "LARRIBA Luis"
@@ -55,6 +41,20 @@
         "licencia": "5607",
         "nombre": "GUAL Carles"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
+      "B": {
+        "licencia": "18196",
+        "nombre": "SACRISTÁN Oscar"
+      },
+      "C": {
+        "licencia": "17981",
+        "nombre": "PASCUAL Leandre"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3317",
         "nombre": "LARRIBA Luis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18196",
-        "nombre": "SACRISTÁN Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17622",
         "nombre": "ROQUE Ronald"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18196",
+        "nombre": "SACRISTÁN Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17981",
-        "nombre": "PASCUAL Leandre"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17981",
+        "nombre": "PASCUAL Leandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "2396",
-        "nombre": "LOPEZ Antoni"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17622",
         "nombre": "ROQUE Ronald"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2396",
+        "nombre": "LOPEZ Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17981",
-        "nombre": "PASCUAL Leandre"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3317",
         "nombre": "LARRIBA Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17981",
+        "nombre": "PASCUAL Leandre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18196",
-        "nombre": "SACRISTÁN Oscar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18196",
+        "nombre": "SACRISTÁN Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

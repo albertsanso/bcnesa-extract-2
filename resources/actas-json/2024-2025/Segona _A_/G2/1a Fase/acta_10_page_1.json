@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8391",
-        "nombre": "CARDOZO Sacha Frank"
-      },
-      "B": {
-        "licencia": "674",
-        "nombre": "LOPEZ Manolo"
-      },
-      "C": {
-        "licencia": "210",
-        "nombre": "CAPARROS Agustín"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11984",
         "nombre": "GAVIRA Raphael"
@@ -55,20 +41,24 @@
         "licencia": "14817",
         "nombre": "MARTIN Arnau"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8391",
+        "nombre": "CARDOZO Sacha Frank"
+      },
+      "B": {
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
+      "C": {
+        "licencia": "210",
+        "nombre": "CAPARROS Agustín"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8391",
-        "nombre": "CARDOZO Sacha Frank"
-      },
-      {
-        "licencia": "210",
-        "nombre": "CAPARROS Agustín"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "13403",
         "nombre": "MURIEL Pau"
@@ -76,6 +66,16 @@
       {
         "licencia": "11984",
         "nombre": "GAVIRA Raphael"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8391",
+        "nombre": "CARDOZO Sacha Frank"
+      },
+      {
+        "licencia": "210",
+        "nombre": "CAPARROS Agustín"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8391",
-        "nombre": "CARDOZO Sacha Frank"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11984",
         "nombre": "GAVIRA Raphael"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8391",
+        "nombre": "CARDOZO Sacha Frank"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "674",
-        "nombre": "LOPEZ Manolo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13403",
         "nombre": "MURIEL Pau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "210",
-        "nombre": "CAPARROS Agustín"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14817",
         "nombre": "MARTIN Arnau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "210",
+        "nombre": "CAPARROS Agustín"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8391",
-        "nombre": "CARDOZO Sacha Frank"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13403",
         "nombre": "MURIEL Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8391",
+        "nombre": "CARDOZO Sacha Frank"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "210",
-        "nombre": "CAPARROS Agustín"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11984",
         "nombre": "GAVIRA Raphael"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "210",
+        "nombre": "CAPARROS Agustín"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "674",
-        "nombre": "LOPEZ Manolo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14817",
         "nombre": "MARTIN Arnau"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "674",
+        "nombre": "LOPEZ Manolo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8391",
-            "nombre": "CARDOZO Sacha Frank"
-          },
-          {
-            "licencia": "210",
-            "nombre": "CAPARROS Agustín"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "13403",
             "nombre": "MURIEL Pau"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8391",
+            "nombre": "CARDOZO Sacha Frank"
+          },
+          {
+            "licencia": "210",
+            "nombre": "CAPARROS Agustín"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "TT PARETS",
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

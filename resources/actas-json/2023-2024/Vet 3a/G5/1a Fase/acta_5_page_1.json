@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "CTT BARCELONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT BARCELONA",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16430",
-        "nombre": "PORTA Joan"
-      },
-      "B": {
-        "licencia": "16071",
-        "nombre": "SALAN Juan Jose"
-      },
-      "C": {
-        "licencia": "13293",
-        "nombre": "LOPEZ Josep Maria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "9119",
         "nombre": "LLORENTE Jose Antonio"
@@ -55,6 +41,20 @@
         "licencia": "16903",
         "nombre": "RAMENTOL David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16430",
+        "nombre": "PORTA Joan"
+      },
+      "B": {
+        "licencia": "16071",
+        "nombre": "SALAN Juan Jose"
+      },
+      "C": {
+        "licencia": "13293",
+        "nombre": "LOPEZ Josep Maria"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16430",
-        "nombre": "PORTA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "9119",
         "nombre": "LLORENTE Jose Antonio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16071",
-        "nombre": "SALAN Juan Jose"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14175",
-        "nombre": "PLANAS Javier"
+        "letra": "A",
+        "licencia": "16430",
+        "nombre": "PORTA Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14175",
+        "nombre": "PLANAS Javier"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16071",
+        "nombre": "SALAN Juan Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13293",
-        "nombre": "LOPEZ Josep Maria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16903",
         "nombre": "RAMENTOL David"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13293",
+        "nombre": "LOPEZ Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16430",
-        "nombre": "PORTA Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14175",
         "nombre": "PLANAS Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16430",
+        "nombre": "PORTA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13293",
-        "nombre": "LOPEZ Josep Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "9119",
         "nombre": "LLORENTE Jose Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13293",
+        "nombre": "LOPEZ Josep Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16071",
-        "nombre": "SALAN Juan Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16903",
         "nombre": "RAMENTOL David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16071",
+        "nombre": "SALAN Juan Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

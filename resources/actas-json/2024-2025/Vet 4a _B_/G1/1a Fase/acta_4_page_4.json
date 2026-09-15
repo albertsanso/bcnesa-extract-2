@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA \"B\"",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "EL CERCLE TT GRÀCIA \"B\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7132",
-        "nombre": "GRACIA Rafael"
-      },
-      "B": {
-        "licencia": "6880",
-        "nombre": "COLET Albert"
-      },
-      "C": {
-        "licencia": "8337",
-        "nombre": "BLANCO Alfons"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5427",
         "nombre": "BERNAL Martin"
@@ -55,20 +41,24 @@
         "licencia": "16488",
         "nombre": "ROYES Arturo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7132",
+        "nombre": "GRACIA Rafael"
+      },
+      "B": {
+        "licencia": "6880",
+        "nombre": "COLET Albert"
+      },
+      "C": {
+        "licencia": "8337",
+        "nombre": "BLANCO Alfons"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8337",
-        "nombre": "BLANCO Alfons"
-      },
-      {
-        "licencia": "7132",
-        "nombre": "GRACIA Rafael"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
@@ -76,6 +66,16 @@
       {
         "licencia": "5427",
         "nombre": "BERNAL Martin"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8337",
+        "nombre": "BLANCO Alfons"
+      },
+      {
+        "licencia": "7132",
+        "nombre": "GRACIA Rafael"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7132",
-        "nombre": "GRACIA Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5427",
         "nombre": "BERNAL Martin"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7132",
+        "nombre": "GRACIA Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6880",
-        "nombre": "COLET Albert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6880",
+        "nombre": "COLET Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8337",
-        "nombre": "BLANCO Alfons"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16488",
         "nombre": "ROYES Arturo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8337",
+        "nombre": "BLANCO Alfons"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7132",
-        "nombre": "GRACIA Rafael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7132",
+        "nombre": "GRACIA Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8337",
-        "nombre": "BLANCO Alfons"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5427",
         "nombre": "BERNAL Martin"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8337",
+        "nombre": "BLANCO Alfons"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6880",
-        "nombre": "COLET Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16488",
         "nombre": "ROYES Arturo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6880",
+        "nombre": "COLET Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8337",
-            "nombre": "BLANCO Alfons"
-          },
-          {
-            "licencia": "7132",
-            "nombre": "GRACIA Rafael"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "14670",
             "nombre": "SÁNCHEZ Jordi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8337",
+            "nombre": "BLANCO Alfons"
+          },
+          {
+            "licencia": "7132",
+            "nombre": "GRACIA Rafael"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CERCLE TT GRÀCIA \"B\"",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "CTT GRANOLLERS 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT GRANOLLERS 'B'",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16488",
-        "nombre": "ROYES Arturo"
-      },
-      "B": {
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      },
-      "C": {
-        "licencia": "14670",
-        "nombre": "SÁNCHEZ Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "20294",
         "nombre": "VENTAYOL Lluís"
@@ -55,6 +41,20 @@
         "licencia": "20740",
         "nombre": "PERMANYER Josep Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16488",
+        "nombre": "ROYES Arturo"
+      },
+      "B": {
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "C": {
+        "licencia": "14670",
+        "nombre": "SÁNCHEZ Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16488",
-        "nombre": "ROYES Arturo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20294",
         "nombre": "VENTAYOL Lluís"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16488",
+        "nombre": "ROYES Arturo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "20702",
         "nombre": "MACHUCA Victor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "20740",
+        "nombre": "PERMANYER Josep Maria"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "14670",
         "nombre": "SÁNCHEZ Jordi"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "20702",
+        "nombre": "MACHUCA Victor"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "20740",
-        "nombre": "PERMANYER Josep Maria"
+        "letra": "A",
+        "licencia": "16488",
+        "nombre": "ROYES Arturo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16488",
-        "nombre": "ROYES Arturo"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "20702",
-        "nombre": "MACHUCA Victor"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14670",
-        "nombre": "SÁNCHEZ Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "20294",
         "nombre": "VENTAYOL Lluís"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14670",
+        "nombre": "SÁNCHEZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20740",
         "nombre": "PERMANYER Josep Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT GRANOLLERS 'B'",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

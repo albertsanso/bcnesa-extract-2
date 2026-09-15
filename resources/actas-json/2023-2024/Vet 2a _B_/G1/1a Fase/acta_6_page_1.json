@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
-      "B": {
-        "licencia": "6922",
-        "nombre": "MALDONADO Esteban"
-      },
-      "C": {
-        "licencia": "17777",
-        "nombre": "ZARALLO Alex"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3548",
         "nombre": "ALVAREZ Enrique Sotero"
@@ -55,20 +41,24 @@
         "licencia": "549",
         "nombre": "VERA Juan"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
+      "B": {
+        "licencia": "6922",
+        "nombre": "MALDONADO Esteban"
+      },
+      "C": {
+        "licencia": "17777",
+        "nombre": "ZARALLO Alex"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
-      {
-        "licencia": "6922",
-        "nombre": "MALDONADO Esteban"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "650",
         "nombre": "CABESTANY Eduard"
@@ -76,6 +66,16 @@
       {
         "licencia": "3548",
         "nombre": "ALVAREZ Enrique Sotero"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
+      {
+        "licencia": "6922",
+        "nombre": "MALDONADO Esteban"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3548",
         "nombre": "ALVAREZ Enrique Sotero"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6922",
-        "nombre": "MALDONADO Esteban"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "650",
         "nombre": "CABESTANY Eduard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6922",
+        "nombre": "MALDONADO Esteban"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17777",
-        "nombre": "ZARALLO Alex"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "549",
         "nombre": "VERA Juan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "650",
-        "nombre": "CABESTANY Eduard"
+        "letra": "C",
+        "licencia": "17777",
+        "nombre": "ZARALLO Alex"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "650",
+        "nombre": "CABESTANY Eduard"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17777",
-        "nombre": "ZARALLO Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3548",
         "nombre": "ALVAREZ Enrique Sotero"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17777",
+        "nombre": "ZARALLO Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6922",
-        "nombre": "MALDONADO Esteban"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "549",
         "nombre": "VERA Juan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6922",
+        "nombre": "MALDONADO Esteban"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "439",
-            "nombre": "PONS Felix"
-          },
-          {
-            "licencia": "6922",
-            "nombre": "MALDONADO Esteban"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "650",
             "nombre": "CABESTANY Eduard"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "439",
+            "nombre": "PONS Felix"
+          },
+          {
+            "licencia": "6922",
+            "nombre": "MALDONADO Esteban"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

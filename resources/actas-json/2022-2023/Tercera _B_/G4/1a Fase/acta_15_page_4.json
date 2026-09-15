@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB ARIEL",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "CLUB ARIEL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14813",
-        "nombre": "BRENCHLEY Rusel"
-      },
-      "B": {
-        "licencia": "16266",
-        "nombre": "OBANDO Marlon"
-      },
-      "C": {
-        "licencia": "16222",
-        "nombre": "FERRANDIZ Simon"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14325",
         "nombre": "AGULLÓ Gerard"
@@ -55,6 +41,20 @@
         "licencia": "15538",
         "nombre": "CEBRIÀ Gil"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14813",
+        "nombre": "BRENCHLEY Rusel"
+      },
+      "B": {
+        "licencia": "16266",
+        "nombre": "OBANDO Marlon"
+      },
+      "C": {
+        "licencia": "16222",
+        "nombre": "FERRANDIZ Simon"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14813",
-        "nombre": "BRENCHLEY Rusel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14325",
         "nombre": "AGULLÓ Gerard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14813",
+        "nombre": "BRENCHLEY Rusel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16266",
-        "nombre": "OBANDO Marlon"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14914",
         "nombre": "GONZALEZ Mar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16266",
+        "nombre": "OBANDO Marlon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16222",
-        "nombre": "FERRANDIZ Simon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15538",
         "nombre": "CEBRIÀ Gil"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16222",
+        "nombre": "FERRANDIZ Simon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14813",
-        "nombre": "BRENCHLEY Rusel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14914",
         "nombre": "GONZALEZ Mar"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14813",
+        "nombre": "BRENCHLEY Rusel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16222",
-        "nombre": "FERRANDIZ Simon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14325",
         "nombre": "AGULLÓ Gerard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16222",
+        "nombre": "FERRANDIZ Simon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16266",
-        "nombre": "OBANDO Marlon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15538",
         "nombre": "CEBRIÀ Gil"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16266",
+        "nombre": "OBANDO Marlon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "UE SANT CUGAT",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

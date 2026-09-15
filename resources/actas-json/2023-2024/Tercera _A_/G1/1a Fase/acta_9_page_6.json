@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FOMENT MARTINENC-BARNY",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "FOMENT MARTINENC-BARNY",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16785",
-        "nombre": "LUO Xiu Zhong"
-      },
-      "B": {
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "C": {
-        "licencia": "11204",
-        "nombre": "ORTÍ Francesc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12446",
         "nombre": "MOREU Raimon"
@@ -55,20 +41,24 @@
         "licencia": "13170",
         "nombre": "ANDREU Henok"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16785",
+        "nombre": "LUO Xiu Zhong"
+      },
+      "B": {
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
+      "C": {
+        "licencia": "11204",
+        "nombre": "ORTÍ Francesc"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      {
-        "licencia": "16785",
-        "nombre": "LUO Xiu Zhong"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12446",
         "nombre": "MOREU Raimon"
@@ -76,6 +66,16 @@
       {
         "licencia": "15077",
         "nombre": "AIGNER Max"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
+      {
+        "licencia": "16785",
+        "nombre": "LUO Xiu Zhong"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16785",
-        "nombre": "LUO Xiu Zhong"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12446",
         "nombre": "MOREU Raimon"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16785",
+        "nombre": "LUO Xiu Zhong"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15077",
         "nombre": "AIGNER Max"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11204",
-        "nombre": "ORTÍ Francesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13170",
         "nombre": "ANDREU Henok"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11204",
+        "nombre": "ORTÍ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16785",
-        "nombre": "LUO Xiu Zhong"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15077",
         "nombre": "AIGNER Max"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16785",
+        "nombre": "LUO Xiu Zhong"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11204",
-        "nombre": "ORTÍ Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12446",
         "nombre": "MOREU Raimon"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "13119",
-        "nombre": "CARO Pablo"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "13170",
-        "nombre": "ANDREU Henok"
+        "letra": "C",
+        "licencia": "11204",
+        "nombre": "ORTÍ Francesc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13170",
+        "nombre": "ANDREU Henok"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13119",
+        "nombre": "CARO Pablo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "13119",
-            "nombre": "CARO Pablo"
-          },
-          {
-            "licencia": "16785",
-            "nombre": "LUO Xiu Zhong"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12446",
             "nombre": "MOREU Raimon"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "13119",
+            "nombre": "CARO Pablo"
+          },
+          {
+            "licencia": "16785",
+            "nombre": "LUO Xiu Zhong"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FOMENT MARTINENC-BARNY",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"C\"",
+      "nombre": "TT ELS JOVES CASTELLDEFELS ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT ELS JOVES CASTELLDEFELS ''B''",
+      "nombre": "LLUÏSOS DE GRÀCIA \"C\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16416",
-        "nombre": "ZAIN Ivan Fernando"
-      },
-      "B": {
-        "licencia": "16499",
-        "nombre": "VETERANI Marco"
-      },
-      "C": {
-        "licencia": "16495",
-        "nombre": "GAVALDÀ Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15285",
         "nombre": "TOBARÍAS Uriel"
@@ -55,6 +41,20 @@
         "licencia": "14278",
         "nombre": "IBAÑEZ Marcos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16416",
+        "nombre": "ZAIN Ivan Fernando"
+      },
+      "B": {
+        "licencia": "16499",
+        "nombre": "VETERANI Marco"
+      },
+      "C": {
+        "licencia": "16495",
+        "nombre": "GAVALDÀ Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16416",
-        "nombre": "ZAIN Ivan Fernando"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15285",
         "nombre": "TOBARÍAS Uriel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16416",
+        "nombre": "ZAIN Ivan Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16499",
-        "nombre": "VETERANI Marco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14531",
         "nombre": "CUCCHIETTI Gio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "16495",
-        "nombre": "GAVALDÀ Jordi"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "14278",
-        "nombre": "IBAÑEZ Marcos"
+        "letra": "B",
+        "licencia": "16499",
+        "nombre": "VETERANI Marco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "14278",
+        "nombre": "IBAÑEZ Marcos"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16495",
+        "nombre": "GAVALDÀ Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16416",
-        "nombre": "ZAIN Ivan Fernando"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14531",
         "nombre": "CUCCHIETTI Gio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16416",
+        "nombre": "ZAIN Ivan Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16495",
-        "nombre": "GAVALDÀ Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15285",
         "nombre": "TOBARÍAS Uriel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16495",
+        "nombre": "GAVALDÀ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16499",
-        "nombre": "VETERANI Marco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14278",
         "nombre": "IBAÑEZ Marcos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16499",
+        "nombre": "VETERANI Marco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA \"C\"",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

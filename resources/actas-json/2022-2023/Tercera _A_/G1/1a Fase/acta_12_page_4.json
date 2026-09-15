@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "BADAGRES BADALONA",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "BADAGRES BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10816",
-        "nombre": "LÓPEZ Carlos Alberto"
-      },
-      "B": {
-        "licencia": "11717",
-        "nombre": "BOLDÚ Sebastià"
-      },
-      "C": {
-        "licencia": "14077",
-        "nombre": "NÚÑEZ Pol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13226",
         "nombre": "RIVERA Juanjo"
@@ -55,6 +41,20 @@
         "licencia": "16963",
         "nombre": "JOU Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10816",
+        "nombre": "LÓPEZ Carlos Alberto"
+      },
+      "B": {
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
+      },
+      "C": {
+        "licencia": "14077",
+        "nombre": "NÚÑEZ Pol"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10816",
-        "nombre": "LÓPEZ Carlos Alberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13226",
         "nombre": "RIVERA Juanjo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "11717",
-        "nombre": "BOLDÚ Sebastià"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14360",
-        "nombre": "JIMENEZ Daniel"
+        "letra": "A",
+        "licencia": "10816",
+        "nombre": "LÓPEZ Carlos Alberto"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14360",
+        "nombre": "JIMENEZ Daniel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14077",
-        "nombre": "NÚÑEZ Pol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16963",
         "nombre": "JOU Ramon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14077",
+        "nombre": "NÚÑEZ Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10816",
-        "nombre": "LÓPEZ Carlos Alberto"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14360",
         "nombre": "JIMENEZ Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10816",
+        "nombre": "LÓPEZ Carlos Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14077",
-        "nombre": "NÚÑEZ Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13226",
         "nombre": "RIVERA Juanjo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14077",
+        "nombre": "NÚÑEZ Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11717",
-        "nombre": "BOLDÚ Sebastià"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16963",
         "nombre": "JOU Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11717",
+        "nombre": "BOLDÚ Sebastià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "BADAGRES BADALONA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11259",
-        "nombre": "BAREA Jordi"
-      },
-      "B": {
-        "licencia": "10095",
-        "nombre": "MILIA Gaspar"
-      },
-      "C": {
-        "licencia": "8702",
-        "nombre": "TAPIA Andres"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8708",
         "nombre": "ROMERO Mauricio"
@@ -55,6 +41,20 @@
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11259",
+        "nombre": "BAREA Jordi"
+      },
+      "B": {
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
+      },
+      "C": {
+        "licencia": "8702",
+        "nombre": "TAPIA Andres"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11259",
-        "nombre": "BAREA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8708",
         "nombre": "ROMERO Mauricio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "10095",
-        "nombre": "MILIA Gaspar"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18138",
-        "nombre": "ALBERT Marcel"
+        "letra": "A",
+        "licencia": "11259",
+        "nombre": "BAREA Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18138",
+        "nombre": "ALBERT Marcel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8702",
-        "nombre": "TAPIA Andres"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8702",
+        "nombre": "TAPIA Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11259",
-        "nombre": "BAREA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18138",
         "nombre": "ALBERT Marcel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11259",
+        "nombre": "BAREA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8702",
-        "nombre": "TAPIA Andres"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8708",
         "nombre": "ROMERO Mauricio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8702",
+        "nombre": "TAPIA Andres"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10095",
-        "nombre": "MILIA Gaspar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1080",
         "nombre": "ALCAÑIZ Bernat"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

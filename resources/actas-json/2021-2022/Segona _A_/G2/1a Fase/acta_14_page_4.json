@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "B": {
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "C": {
-        "licencia": "7840",
-        "nombre": "ESPASA Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "2106",
         "nombre": "GONZALEZ Pedro"
@@ -55,6 +41,20 @@
         "licencia": "13434",
         "nombre": "CASABONA Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
+      "B": {
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "C": {
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "2106",
+        "nombre": "GONZALEZ Pedro"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "7813",
         "nombre": "DECOUD Marcelo"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13235",
+        "nombre": "BOIANO Bruno"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "2106",
-        "nombre": "GONZALEZ Pedro"
+        "letra": "B",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13434",
+        "nombre": "CASABONA Ramon"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
       },
       "sets": [],
       "resultado_juegos": {
@@ -80,58 +130,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 0,
+        "local": 2,
         "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "13235",
-        "nombre": "BOIANO Bruno"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "7840",
-        "nombre": "ESPASA Xavier"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "13434",
-        "nombre": "CASABONA Ramon"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7813",
-        "nombre": "DECOUD Marcelo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13235",
         "nombre": "BOIANO Bruno"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7813",
+        "nombre": "DECOUD Marcelo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7840",
-        "nombre": "ESPASA Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "2106",
         "nombre": "GONZALEZ Pedro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7840",
+        "nombre": "ESPASA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8021",
-        "nombre": "CASOLIVA Juan Jose"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13434",
         "nombre": "CASABONA Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8021",
+        "nombre": "CASOLIVA Juan Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 14
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

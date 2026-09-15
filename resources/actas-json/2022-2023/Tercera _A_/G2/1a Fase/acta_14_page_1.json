@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "JUMA CTT RIPOLLET \"A\"",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "JUMA CTT RIPOLLET \"A\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12817",
-        "nombre": "HERNÁNDEZ Adrià"
-      },
-      "B": {
-        "licencia": "13635",
-        "nombre": "BOUCHNAFA Yassir"
-      },
-      "C": {
-        "licencia": "12502",
-        "nombre": "GONZALEZ Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11275",
         "nombre": "FIGUERAS Santiago"
@@ -55,6 +41,20 @@
         "licencia": "80",
         "nombre": "MARTÍNEZ José"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12817",
+        "nombre": "HERNÁNDEZ Adrià"
+      },
+      "B": {
+        "licencia": "13635",
+        "nombre": "BOUCHNAFA Yassir"
+      },
+      "C": {
+        "licencia": "12502",
+        "nombre": "GONZALEZ Daniel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12817",
-        "nombre": "HERNÁNDEZ Adrià"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11275",
         "nombre": "FIGUERAS Santiago"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12817",
+        "nombre": "HERNÁNDEZ Adrià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "13635",
-        "nombre": "BOUCHNAFA Yassir"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11276",
         "nombre": "MESTRE Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13635",
+        "nombre": "BOUCHNAFA Yassir"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12502",
-        "nombre": "GONZALEZ Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "80",
         "nombre": "MARTÍNEZ José"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12502",
+        "nombre": "GONZALEZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12817",
-        "nombre": "HERNÁNDEZ Adrià"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11276",
         "nombre": "MESTRE Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12817",
+        "nombre": "HERNÁNDEZ Adrià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12502",
-        "nombre": "GONZALEZ Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11275",
         "nombre": "FIGUERAS Santiago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12502",
+        "nombre": "GONZALEZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13635",
-        "nombre": "BOUCHNAFA Yassir"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "80",
         "nombre": "MARTÍNEZ José"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13635",
+        "nombre": "BOUCHNAFA Yassir"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "JUMA CTT RIPOLLET \"A\"",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 3
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

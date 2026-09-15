@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RODA DE TER",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CTT RODA DE TER",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16459",
-        "nombre": "MIESHCHERIAKOV Yaroslau"
-      },
-      "B": {
-        "licencia": "18818",
-        "nombre": "ORIOL Roger"
-      },
-      "C": {
-        "licencia": "8340",
-        "nombre": "NOFUENTES Manuel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
@@ -55,6 +41,20 @@
         "licencia": "6822",
         "nombre": "GUILLEN Jorge Benito"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16459",
+        "nombre": "MIESHCHERIAKOV Yaroslau"
+      },
+      "B": {
+        "licencia": "18818",
+        "nombre": "ORIOL Roger"
+      },
+      "C": {
+        "licencia": "8340",
+        "nombre": "NOFUENTES Manuel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16459",
-        "nombre": "MIESHCHERIAKOV Yaroslau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16459",
+        "nombre": "MIESHCHERIAKOV Yaroslau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18818",
-        "nombre": "ORIOL Roger"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14221",
         "nombre": "GÓMEZ Carles"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18818",
+        "nombre": "ORIOL Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "6822",
+        "nombre": "GUILLEN Jorge Benito"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "8340",
         "nombre": "NOFUENTES Manuel"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14221",
+        "nombre": "GÓMEZ Carles"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "6822",
-        "nombre": "GUILLEN Jorge Benito"
+        "letra": "A",
+        "licencia": "16459",
+        "nombre": "MIESHCHERIAKOV Yaroslau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16459",
-        "nombre": "MIESHCHERIAKOV Yaroslau"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "14221",
-        "nombre": "GÓMEZ Carles"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8340",
-        "nombre": "NOFUENTES Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4483",
         "nombre": "CAMPOS Alberto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8340",
+        "nombre": "NOFUENTES Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18818",
-        "nombre": "ORIOL Roger"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6822",
         "nombre": "GUILLEN Jorge Benito"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18818",
+        "nombre": "ORIOL Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RODA DE TER",
     "marcador_partidos": {
-      "local": 17,
-      "visitante": 9
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 17
+    }
   },
   "acta_protestada": false
 }

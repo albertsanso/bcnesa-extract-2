@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ASS.E. DE PING PONG VIA TRAJANA",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "ASS.E. DE PING PONG VIA TRAJANA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      "B": {
-        "licencia": "19073",
-        "nombre": "ARGÜELLES Cristian"
-      },
-      "C": {
-        "licencia": "8054",
-        "nombre": "DESCARREGA Oscar"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12095",
         "nombre": "GARCÍA Joan"
@@ -55,20 +41,24 @@
         "licencia": "84",
         "nombre": "RINS Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
+      },
+      "B": {
+        "licencia": "19073",
+        "nombre": "ARGÜELLES Cristian"
+      },
+      "C": {
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8054",
-        "nombre": "DESCARREGA Oscar"
-      },
-      {
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "16552",
         "nombre": "PUIGJANER Ferran"
@@ -76,6 +66,16 @@
       {
         "licencia": "12095",
         "nombre": "GARCÍA Joan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      },
+      {
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12095",
         "nombre": "GARCÍA Joan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "19073",
-        "nombre": "ARGÜELLES Cristian"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16552",
-        "nombre": "PUIGJANER Ferran"
+        "letra": "A",
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16552",
+        "nombre": "PUIGJANER Ferran"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19073",
+        "nombre": "ARGÜELLES Cristian"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8054",
-        "nombre": "DESCARREGA Oscar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "84",
         "nombre": "RINS Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "13474",
-        "nombre": "DESCARREGA Pau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16552",
         "nombre": "PUIGJANER Ferran"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "13474",
+        "nombre": "DESCARREGA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8054",
-        "nombre": "DESCARREGA Oscar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12095",
         "nombre": "GARCÍA Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8054",
+        "nombre": "DESCARREGA Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19073",
-        "nombre": "ARGÜELLES Cristian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "84",
         "nombre": "RINS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19073",
+        "nombre": "ARGÜELLES Cristian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8054",
-            "nombre": "DESCARREGA Oscar"
-          },
-          {
-            "licencia": "13474",
-            "nombre": "DESCARREGA Pau"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "16552",
             "nombre": "PUIGJANER Ferran"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8054",
+            "nombre": "DESCARREGA Oscar"
+          },
+          {
+            "licencia": "13474",
+            "nombre": "DESCARREGA Pau"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "ASS.E. DE PING PONG VIA TRAJANA",
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

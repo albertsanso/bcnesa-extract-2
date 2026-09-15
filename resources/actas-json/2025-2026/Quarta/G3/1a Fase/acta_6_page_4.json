@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILASSAR 'C'",
+      "nombre": "FOMENT MARTINENC-BARNY",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "FOMENT MARTINENC-BARNY",
+      "nombre": "CTT VILASSAR 'C'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18557",
-        "nombre": "JULIÀ Carmen"
-      },
-      "B": {
-        "licencia": "21182",
-        "nombre": "CUDUÑET Sergi"
-      },
-      "C": {
-        "licencia": "11248",
-        "nombre": "GARCIA Victor"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12051",
         "nombre": "ALQUEZAR Jose"
@@ -55,6 +41,20 @@
         "licencia": "7944",
         "nombre": "COMAS Cristina"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18557",
+        "nombre": "JULIÀ Carmen"
+      },
+      "B": {
+        "licencia": "21182",
+        "nombre": "CUDUÑET Sergi"
+      },
+      "C": {
+        "licencia": "11248",
+        "nombre": "GARCIA Victor"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18557",
-        "nombre": "JULIÀ Carmen"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12051",
         "nombre": "ALQUEZAR Jose"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "21182",
-        "nombre": "CUDUÑET Sergi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8517",
-        "nombre": "RIBAS Jose"
+        "letra": "A",
+        "licencia": "18557",
+        "nombre": "JULIÀ Carmen"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "8517",
+        "nombre": "RIBAS Jose"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21182",
+        "nombre": "CUDUÑET Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11248",
-        "nombre": "GARCIA Victor"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7944",
         "nombre": "COMAS Cristina"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11248",
+        "nombre": "GARCIA Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,39 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18557",
-        "nombre": "JULIÀ Carmen"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8517",
         "nombre": "RIBAS Jose"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "11248",
-        "nombre": "GARCIA Victor"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "12051",
-        "nombre": "ALQUEZAR Jose"
+        "letra": "A",
+        "licencia": "18557",
+        "nombre": "JULIÀ Carmen"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +155,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "12051",
+        "nombre": "ALQUEZAR Jose"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11248",
+        "nombre": "GARCIA Victor"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 3,
-        "visitante": 2
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "21182",
-        "nombre": "CUDUÑET Sergi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7944",
         "nombre": "COMAS Cristina"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21182",
+        "nombre": "CUDUÑET Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILASSAR 'C'",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 10
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

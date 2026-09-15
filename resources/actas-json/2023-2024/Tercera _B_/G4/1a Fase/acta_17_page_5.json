@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA \"B\"",
+      "nombre": "CTT CASTELLGALÍ ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ ''A''",
+      "nombre": "CTT ELS AMICS TERRASSA \"B\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      },
-      "B": {
-        "licencia": "15633",
-        "nombre": "LEE Sangman"
-      },
-      "C": {
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15091",
         "nombre": "EJARQUE Eduard"
@@ -55,6 +41,20 @@
         "licencia": "11251",
         "nombre": "GARCIA Rafael"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "B": {
+        "licencia": "15633",
+        "nombre": "LEE Sangman"
+      },
+      "C": {
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15091",
         "nombre": "EJARQUE Eduard"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15633",
-        "nombre": "LEE Sangman"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16335",
-        "nombre": "CALVET Martí"
+        "letra": "A",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16335",
+        "nombre": "CALVET Martí"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15633",
+        "nombre": "LEE Sangman"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11251",
         "nombre": "GARCIA Rafael"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16335",
         "nombre": "CALVET Martí"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16410",
-        "nombre": "SAPES Esteve"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15091",
         "nombre": "EJARQUE Eduard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16410",
+        "nombre": "SAPES Esteve"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15633",
-        "nombre": "LEE Sangman"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11251",
         "nombre": "GARCIA Rafael"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15633",
+        "nombre": "LEE Sangman"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CTT CASTELLGALÍ ''A''",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 16
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

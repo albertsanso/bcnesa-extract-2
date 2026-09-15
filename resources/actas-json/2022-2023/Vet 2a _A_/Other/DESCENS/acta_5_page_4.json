@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "CTT SANT QUINTÍ DE MEDIONA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SANT QUINTÍ DE MEDIONA",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6482",
-        "nombre": "OLTENAS Viorel"
-      },
-      "B": {
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
-      },
-      "C": {
-        "licencia": "4378",
-        "nombre": "CLAVER Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "81",
         "nombre": "RAMÍREZ Angel"
@@ -55,20 +41,24 @@
         "licencia": "14896",
         "nombre": "ESQUIROL Jose Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6482",
+        "nombre": "OLTENAS Viorel"
+      },
+      "B": {
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "C": {
+        "licencia": "4378",
+        "nombre": "CLAVER Antonio"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
-      },
-      {
-        "licencia": "4378",
-        "nombre": "CLAVER Antonio"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "504",
         "nombre": "RAMON Jaume"
@@ -76,6 +66,16 @@
       {
         "licencia": "81",
         "nombre": "RAMÍREZ Angel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      {
+        "licencia": "4378",
+        "nombre": "CLAVER Antonio"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6482",
-        "nombre": "OLTENAS Viorel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "81",
         "nombre": "RAMÍREZ Angel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "504",
-        "nombre": "RAMON Jaume"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "4378",
-        "nombre": "CLAVER Antonio"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "14896",
-        "nombre": "ESQUIROL Jose Maria"
+        "letra": "A",
+        "licencia": "6482",
+        "nombre": "OLTENAS Viorel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,22 +102,47 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6482",
-        "nombre": "OLTENAS Viorel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "504",
         "nombre": "RAMON Jaume"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "14896",
+        "nombre": "ESQUIROL Jose Maria"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4378",
+        "nombre": "CLAVER Antonio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,8 +151,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "504",
+        "nombre": "RAMON Jaume"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6482",
+        "nombre": "OLTENAS Viorel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4378",
-        "nombre": "CLAVER Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "81",
         "nombre": "RAMÍREZ Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4378",
+        "nombre": "CLAVER Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14896",
         "nombre": "ESQUIROL Jose Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "7663",
-            "nombre": "PASTRANA Juan Manuel"
-          },
-          {
-            "licencia": "4378",
-            "nombre": "CLAVER Antonio"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "504",
             "nombre": "RAMON Jaume"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7663",
+            "nombre": "PASTRANA Juan Manuel"
+          },
+          {
+            "licencia": "4378",
+            "nombre": "CLAVER Antonio"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SANT QUINTÍ DE MEDIONA",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

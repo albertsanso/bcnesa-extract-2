@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "CTT SENTMENAT \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SENTMENAT \"B\"",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
-      "B": {
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "C": {
-        "licencia": "17614",
-        "nombre": "CAMBRA Jhonnatan Alejandro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12157",
         "nombre": "CORTADA Francesc"
@@ -55,20 +41,24 @@
         "licencia": "4026",
         "nombre": "SANTOS David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      },
+      "B": {
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      "C": {
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Alejandro"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      {
-        "licencia": "17614",
-        "nombre": "CAMBRA Jhonnatan Alejandro"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "12157",
         "nombre": "CORTADA Francesc"
@@ -76,6 +66,16 @@
       {
         "licencia": "7931",
         "nombre": "TORAL Alex"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
+      {
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Alejandro"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12157",
         "nombre": "CORTADA Francesc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7931",
         "nombre": "TORAL Alex"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17614",
-        "nombre": "CAMBRA Jhonnatan Alejandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4026",
         "nombre": "SANTOS David"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7931",
-        "nombre": "TORAL Alex"
+        "letra": "C",
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Alejandro"
       },
       "sets": [],
       "resultado_juegos": {
@@ -176,23 +151,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "17614",
-        "nombre": "CAMBRA Jhonnatan Alejandro"
+        "letra": "X",
+        "licencia": "7931",
+        "nombre": "TORAL Alex"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "12157",
-        "nombre": "CORTADA Francesc"
+        "letra": "A",
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
       },
       "sets": [],
       "resultado_juegos": {
@@ -201,8 +176,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "12157",
+        "nombre": "CORTADA Francesc"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17614",
+        "nombre": "CAMBRA Jhonnatan Alejandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15561",
-        "nombre": "SARMIENTO Joel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4026",
         "nombre": "SANTOS David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15561",
+        "nombre": "SARMIENTO Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15561",
-            "nombre": "SARMIENTO Joel"
-          },
-          {
-            "licencia": "17614",
-            "nombre": "CAMBRA Jhonnatan Alejandro"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "12157",
             "nombre": "CORTADA Francesc"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15561",
+            "nombre": "SARMIENTO Joel"
+          },
+          {
+            "licencia": "17614",
+            "nombre": "CAMBRA Jhonnatan Alejandro"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 9
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

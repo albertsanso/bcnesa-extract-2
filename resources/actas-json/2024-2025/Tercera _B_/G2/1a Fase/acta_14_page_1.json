@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "DECATHLON BADALONA",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen C",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Sen C",
+      "nombre": "DECATHLON BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7680",
-        "nombre": "MAQUEDA Joan"
-      },
-      "B": {
-        "licencia": "15013",
-        "nombre": "GRILLO Manel"
-      },
-      "C": {
-        "licencia": "17226",
-        "nombre": "CARLO Enzo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
@@ -55,6 +41,20 @@
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7680",
+        "nombre": "MAQUEDA Joan"
+      },
+      "B": {
+        "licencia": "15013",
+        "nombre": "GRILLO Manel"
+      },
+      "C": {
+        "licencia": "17226",
+        "nombre": "CARLO Enzo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7680",
-        "nombre": "MAQUEDA Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1893",
         "nombre": "JIMENEZ Jose Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7680",
+        "nombre": "MAQUEDA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15013",
-        "nombre": "GRILLO Manel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15013",
+        "nombre": "GRILLO Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17226",
-        "nombre": "CARLO Enzo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "125",
         "nombre": "MUÑOZ Josep Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17226",
+        "nombre": "CARLO Enzo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,39 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7680",
-        "nombre": "MAQUEDA Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2441",
         "nombre": "ALVAREZ Jose Maria"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "17226",
-        "nombre": "CARLO Enzo"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "1893",
-        "nombre": "JIMENEZ Jose Antonio"
+        "letra": "A",
+        "licencia": "7680",
+        "nombre": "MAQUEDA Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,23 +155,23 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
-      "numero": 6,
+      "numero": 5,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Y",
       "local": {
-        "letra": "B",
-        "licencia": "15013",
-        "nombre": "GRILLO Manel"
+        "letra": "Y",
+        "licencia": "1893",
+        "nombre": "JIMENEZ Jose Antonio"
       },
       "visitante": {
-        "letra": "Z",
-        "licencia": "125",
-        "nombre": "MUÑOZ Josep Lluis"
+        "letra": "C",
+        "licencia": "17226",
+        "nombre": "CARLO Enzo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "125",
+        "nombre": "MUÑOZ Josep Lluis"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15013",
+        "nombre": "GRILLO Manel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ST QUIRZE DEL VALLÈS - Sen C",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16303",
-        "nombre": "BERNAT Lluis"
-      },
-      "B": {
-        "licencia": "5411",
-        "nombre": "CORTILLAS Isidre"
-      },
-      "C": {
-        "licencia": "5428",
-        "nombre": "FRANQUESA Ricardo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8680",
         "nombre": "CRISPI David"
@@ -55,6 +41,20 @@
         "licencia": "12087",
         "nombre": "SANSO Albert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16303",
+        "nombre": "BERNAT Lluis"
+      },
+      "B": {
+        "licencia": "5411",
+        "nombre": "CORTILLAS Isidre"
+      },
+      "C": {
+        "licencia": "5428",
+        "nombre": "FRANQUESA Ricardo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16303",
-        "nombre": "BERNAT Lluis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8680",
         "nombre": "CRISPI David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16303",
+        "nombre": "BERNAT Lluis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5411",
-        "nombre": "CORTILLAS Isidre"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8459",
         "nombre": "ROGER Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5411",
+        "nombre": "CORTILLAS Isidre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5428",
-        "nombre": "FRANQUESA Ricardo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12087",
         "nombre": "SANSO Albert"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "16303",
-        "nombre": "BERNAT Lluis"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "8459",
-        "nombre": "ROGER Jordi"
+        "letra": "C",
+        "licencia": "5428",
+        "nombre": "FRANQUESA Ricardo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -155,48 +130,23 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 2,
+        "visitante": 1
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "licencia": "5428",
-        "nombre": "FRANQUESA Ricardo"
+        "letra": "X",
+        "licencia": "8459",
+        "nombre": "ROGER Jordi"
       },
       "visitante": {
-        "letra": "Y",
-        "licencia": "8680",
-        "nombre": "CRISPI David"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "5411",
-        "nombre": "CORTILLAS Isidre"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "12087",
-        "nombre": "SANSO Albert"
+        "letra": "A",
+        "licencia": "16303",
+        "nombre": "BERNAT Lluis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "8680",
+        "nombre": "CRISPI David"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5428",
+        "nombre": "FRANQUESA Ricardo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "12087",
+        "nombre": "SANSO Albert"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5411",
+        "nombre": "CORTILLAS Isidre"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

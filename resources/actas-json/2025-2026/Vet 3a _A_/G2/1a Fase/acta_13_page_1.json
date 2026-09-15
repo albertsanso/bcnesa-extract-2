@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "TT PARETS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "B": {
-        "licencia": "8075",
-        "nombre": "GIL Antonio"
-      },
-      "C": {
-        "licencia": "167",
-        "nombre": "IBÁÑEZ José Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "417",
         "nombre": "KRAWCZYK Guido"
@@ -55,6 +41,20 @@
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
+      "B": {
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
+      },
+      "C": {
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "417",
         "nombre": "KRAWCZYK Guido"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8075",
-        "nombre": "GIL Antonio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "167",
-        "nombre": "IBÁÑEZ José Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6110",
-        "nombre": "JUAREZ Eduardo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12579",
         "nombre": "MUÑOZ Joan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6110",
+        "nombre": "JUAREZ Eduardo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "167",
-        "nombre": "IBÁÑEZ José Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "417",
         "nombre": "KRAWCZYK Guido"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "167",
+        "nombre": "IBÁÑEZ José Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8075",
-        "nombre": "GIL Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8075",
+        "nombre": "GIL Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "LLUÏSOS DE GRÀCIA",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 17
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

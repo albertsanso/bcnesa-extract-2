@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN SABADELL",
+      "nombre": "LLUÏSOS DE GRÀCIA ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA ''B''",
+      "nombre": "CN SABADELL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15069",
-        "nombre": "LLOVET Arnau"
-      },
-      "B": {
-        "licencia": "15071",
-        "nombre": "LLOVET Agnès"
-      },
-      "C": {
-        "licencia": "16852",
-        "nombre": "HUGUET Thiago"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16812",
         "nombre": "RIU Miquel"
@@ -55,6 +41,20 @@
         "licencia": "10296",
         "nombre": "FRAGO Teo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15069",
+        "nombre": "LLOVET Arnau"
+      },
+      "B": {
+        "licencia": "15071",
+        "nombre": "LLOVET Agnès"
+      },
+      "C": {
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15069",
-        "nombre": "LLOVET Arnau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16812",
         "nombre": "RIU Miquel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15069",
+        "nombre": "LLOVET Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15071",
-        "nombre": "LLOVET Agnès"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15078",
         "nombre": "BOLOIX Cesc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15071",
+        "nombre": "LLOVET Agnès"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16852",
-        "nombre": "HUGUET Thiago"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10296",
         "nombre": "FRAGO Teo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15069",
-        "nombre": "LLOVET Arnau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15078",
         "nombre": "BOLOIX Cesc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15069",
+        "nombre": "LLOVET Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16852",
-        "nombre": "HUGUET Thiago"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16812",
         "nombre": "RIU Miquel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "15071",
-        "nombre": "LLOVET Agnès"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "10296",
-        "nombre": "FRAGO Teo"
+        "letra": "C",
+        "licencia": "16852",
+        "nombre": "HUGUET Thiago"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "10296",
+        "nombre": "FRAGO Teo"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15071",
+        "nombre": "LLOVET Agnès"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA ''B''",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

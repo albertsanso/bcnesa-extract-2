@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SALLENT",
+      "nombre": "CLUB NATACIO SABADELL 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL 'A'",
+      "nombre": "CTT SALLENT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      },
-      "B": {
-        "licencia": "20724",
-        "nombre": "ESPINALT Albert"
-      },
-      "C": {
-        "licencia": "18021",
-        "nombre": "GIL Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19496",
         "nombre": "SUAREZ Gael"
@@ -55,6 +41,20 @@
         "licencia": "18029",
         "nombre": "POYATOS Pau"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
+      "B": {
+        "licencia": "20724",
+        "nombre": "ESPINALT Albert"
+      },
+      "C": {
+        "licencia": "18021",
+        "nombre": "GIL Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19496",
         "nombre": "SUAREZ Gael"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "20724",
-        "nombre": "ESPINALT Albert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15556",
         "nombre": "LLONCH Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20724",
+        "nombre": "ESPINALT Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,89 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18021",
-        "nombre": "GIL Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18029",
         "nombre": "POYATOS Pau"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "1773",
-        "nombre": "CASAMITJANA Leandro"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15556",
-        "nombre": "LLONCH Roger"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
         "letra": "C",
         "licencia": "18021",
         "nombre": "GIL Joan"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "19496",
-        "nombre": "SUAREZ Gael"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "20724",
-        "nombre": "ESPINALT Albert"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "18029",
-        "nombre": "POYATOS Pau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -206,17 +131,95 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15556",
+        "nombre": "LLONCH Roger"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1773",
+        "nombre": "CASAMITJANA Leandro"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "19496",
+        "nombre": "SUAREZ Gael"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18021",
+        "nombre": "GIL Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "18029",
+        "nombre": "POYATOS Pau"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20724",
+        "nombre": "ESPINALT Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB NATACIO SABADELL 'A'",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

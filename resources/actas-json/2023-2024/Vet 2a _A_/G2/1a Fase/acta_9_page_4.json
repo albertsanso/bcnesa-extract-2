@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet A",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CTT ST QUIRZE DEL VALLÈS - Vet A",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1014",
-        "nombre": "MINGUELL Roger"
-      },
-      "B": {
-        "licencia": "14565",
-        "nombre": "MATTSSON Tony Michael"
-      },
-      "C": {
-        "licencia": "3484",
-        "nombre": "FERRERA Carlos Augusto"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "200",
         "nombre": "LUCEA Javier"
@@ -55,6 +41,20 @@
         "licencia": "11156",
         "nombre": "RUIZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
+      "B": {
+        "licencia": "14565",
+        "nombre": "MATTSSON Tony Michael"
+      },
+      "C": {
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1014",
-        "nombre": "MINGUELL Roger"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "200",
         "nombre": "LUCEA Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14565",
-        "nombre": "MATTSSON Tony Michael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12245",
         "nombre": "PRADES Alba"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14565",
+        "nombre": "MATTSSON Tony Michael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3484",
-        "nombre": "FERRERA Carlos Augusto"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11156",
         "nombre": "RUIZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1014",
-        "nombre": "MINGUELL Roger"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12245",
         "nombre": "PRADES Alba"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1014",
+        "nombre": "MINGUELL Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3484",
-        "nombre": "FERRERA Carlos Augusto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "200",
         "nombre": "LUCEA Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "14565",
-        "nombre": "MATTSSON Tony Michael"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "11156",
-        "nombre": "RUIZ Jordi"
+        "letra": "C",
+        "licencia": "3484",
+        "nombre": "FERRERA Carlos Augusto"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "11156",
+        "nombre": "RUIZ Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14565",
+        "nombre": "MATTSSON Tony Michael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

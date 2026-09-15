@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6167",
-        "nombre": "ESTRADA Jordi"
-      },
-      "B": {
-        "licencia": "283",
-        "nombre": "NICOLAS Francisco"
-      },
-      "C": {
-        "licencia": "11278",
-        "nombre": "GUASCH Josep"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4405",
         "nombre": "CAROL Santiago"
@@ -55,20 +41,24 @@
         "licencia": "8459",
         "nombre": "ROGER Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      "B": {
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      },
+      "C": {
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6167",
-        "nombre": "ESTRADA Jordi"
-      },
-      {
-        "licencia": "11278",
-        "nombre": "GUASCH Josep"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "4405",
         "nombre": "CAROL Santiago"
@@ -76,6 +66,16 @@
       {
         "licencia": "8138",
         "nombre": "RICO Jaume"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
+      {
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6167",
-        "nombre": "ESTRADA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4405",
         "nombre": "CAROL Santiago"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,39 +110,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "283",
-        "nombre": "NICOLAS Francisco"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8138",
         "nombre": "RICO Jaume"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "11278",
-        "nombre": "GUASCH Josep"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "8459",
-        "nombre": "ROGER Jordi"
+        "letra": "B",
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -151,8 +126,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "8459",
+        "nombre": "ROGER Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6167",
-        "nombre": "ESTRADA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8138",
         "nombre": "RICO Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6167",
+        "nombre": "ESTRADA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11278",
-        "nombre": "GUASCH Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4405",
         "nombre": "CAROL Santiago"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "283",
-        "nombre": "NICOLAS Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8459",
         "nombre": "ROGER Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "283",
+        "nombre": "NICOLAS Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6167",
-            "nombre": "ESTRADA Jordi"
-          },
-          {
-            "licencia": "11278",
-            "nombre": "GUASCH Josep"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "4405",
             "nombre": "CAROL Santiago"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6167",
+            "nombre": "ESTRADA Jordi"
+          },
+          {
+            "licencia": "11278",
+            "nombre": "GUASCH Josep"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS DE TERRASSA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

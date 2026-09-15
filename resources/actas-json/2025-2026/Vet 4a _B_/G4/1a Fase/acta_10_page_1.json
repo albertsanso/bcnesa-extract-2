@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILASSAR",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "CTT VILASSAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17707",
-        "nombre": "GARGALLO Robert"
-      },
-      "B": {
-        "licencia": "16013",
-        "nombre": "VALLESPI Guillem"
-      },
-      "C": {
-        "licencia": "14506",
-        "nombre": "BADIA Anna"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11278",
         "nombre": "GUASCH Josep"
@@ -55,6 +41,20 @@
         "licencia": "17315",
         "nombre": "BAEZ Ruben Fermin"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17707",
+        "nombre": "GARGALLO Robert"
+      },
+      "B": {
+        "licencia": "16013",
+        "nombre": "VALLESPI Guillem"
+      },
+      "C": {
+        "licencia": "14506",
+        "nombre": "BADIA Anna"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17707",
-        "nombre": "GARGALLO Robert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11278",
         "nombre": "GUASCH Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17707",
+        "nombre": "GARGALLO Robert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16013",
-        "nombre": "VALLESPI Guillem"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6167",
         "nombre": "ESTRADA Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16013",
+        "nombre": "VALLESPI Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14506",
-        "nombre": "BADIA Anna"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17315",
         "nombre": "BAEZ Ruben Fermin"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14506",
+        "nombre": "BADIA Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17707",
-        "nombre": "GARGALLO Robert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6167",
         "nombre": "ESTRADA Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17707",
+        "nombre": "GARGALLO Robert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14506",
-        "nombre": "BADIA Anna"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11278",
         "nombre": "GUASCH Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14506",
+        "nombre": "BADIA Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16013",
-        "nombre": "VALLESPI Guillem"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17315",
         "nombre": "BAEZ Ruben Fermin"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16013",
+        "nombre": "VALLESPI Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATC MOLINS DE REI",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

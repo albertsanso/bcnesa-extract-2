@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB ARIEL",
+      "nombre": "ESCOLETA VIA TRAJANA ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ESCOLETA VIA TRAJANA ''A''",
+      "nombre": "CLUB ARIEL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17728",
-        "nombre": "ZILOTTI Gianguido"
-      },
-      "B": {
-        "licencia": "16267",
-        "nombre": "GÓMEZ Sergio"
-      },
-      "C": {
-        "licencia": "14980",
-        "nombre": "ALVAREZ Borja"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1754",
         "nombre": "HORTONEDA Conrad"
@@ -55,6 +41,20 @@
         "licencia": "16446",
         "nombre": "GONZÁLEZ Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17728",
+        "nombre": "ZILOTTI Gianguido"
+      },
+      "B": {
+        "licencia": "16267",
+        "nombre": "GÓMEZ Sergio"
+      },
+      "C": {
+        "licencia": "14980",
+        "nombre": "ALVAREZ Borja"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17728",
-        "nombre": "ZILOTTI Gianguido"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1754",
         "nombre": "HORTONEDA Conrad"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17728",
+        "nombre": "ZILOTTI Gianguido"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16267",
-        "nombre": "GÓMEZ Sergio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16452",
         "nombre": "PÉREZ Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16267",
+        "nombre": "GÓMEZ Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14980",
-        "nombre": "ALVAREZ Borja"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16446",
         "nombre": "GONZÁLEZ Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14980",
+        "nombre": "ALVAREZ Borja"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17728",
-        "nombre": "ZILOTTI Gianguido"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16452",
         "nombre": "PÉREZ Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17728",
+        "nombre": "ZILOTTI Gianguido"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14980",
-        "nombre": "ALVAREZ Borja"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1754",
         "nombre": "HORTONEDA Conrad"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14980",
+        "nombre": "ALVAREZ Borja"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16267",
-        "nombre": "GÓMEZ Sergio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16446",
         "nombre": "GONZÁLEZ Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16267",
+        "nombre": "GÓMEZ Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "ESCOLETA VIA TRAJANA ''A''",
     "marcador_partidos": {
-      "local": 0,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 0
+    }
   },
   "acta_protestada": false
 }

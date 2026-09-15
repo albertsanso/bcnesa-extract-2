@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB NATACIO SABADELL",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "CLUB NATACIO SABADELL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12136",
-        "nombre": "PLAZA Pau"
-      },
-      "B": {
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
-      "C": {
-        "licencia": "7112",
-        "nombre": "OMS Marti"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11259",
         "nombre": "BAREA Jordi"
@@ -55,6 +41,20 @@
         "licencia": "6001",
         "nombre": "NAVARRETE Cristobal"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
+      "B": {
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "C": {
+        "licencia": "7112",
+        "nombre": "OMS Marti"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12136",
-        "nombre": "PLAZA Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11259",
         "nombre": "BAREA Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10095",
         "nombre": "MILIA Gaspar"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,64 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7112",
-        "nombre": "OMS Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6001",
         "nombre": "NAVARRETE Cristobal"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "12136",
-        "nombre": "PLAZA Pau"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "10095",
-        "nombre": "MILIA Gaspar"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
         "letra": "C",
         "licencia": "7112",
         "nombre": "OMS Marti"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "11259",
-        "nombre": "BAREA Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,23 +130,48 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 0,
+        "visitante": 3
       }
     },
     {
-      "numero": 6,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14583",
-        "nombre": "LIU Ethan"
+        "letra": "X",
+        "licencia": "10095",
+        "nombre": "MILIA Gaspar"
       },
       "visitante": {
-        "letra": "Z",
-        "licencia": "6001",
-        "nombre": "NAVARRETE Cristobal"
+        "letra": "A",
+        "licencia": "12136",
+        "nombre": "PLAZA Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "11259",
+        "nombre": "BAREA Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7112",
+        "nombre": "OMS Marti"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6001",
+        "nombre": "NAVARRETE Cristobal"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14583",
+        "nombre": "LIU Ethan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CLUB NATACIO SABADELL",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

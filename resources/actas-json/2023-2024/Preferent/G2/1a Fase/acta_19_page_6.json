@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "GIRBAU VIC TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "GIRBAU VIC TT",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
-      "B": {
-        "licencia": "867",
-        "nombre": "TORRADES Domenec"
-      },
-      "C": {
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "492",
         "nombre": "RIERA Joan"
@@ -55,20 +41,24 @@
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
+      },
+      "B": {
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
+      "C": {
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
-      {
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "2080",
         "nombre": "AUSIO Pere"
@@ -76,6 +66,16 @@
       {
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
+      },
+      {
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "492",
         "nombre": "RIERA Joan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "867",
-        "nombre": "TORRADES Domenec"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
+        "letra": "A",
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "484",
-        "nombre": "CUSSÓ Joan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "2080",
-        "nombre": "AUSIO Pere"
+        "letra": "C",
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2080",
+        "nombre": "AUSIO Pere"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "484",
+        "nombre": "CUSSÓ Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13163",
-        "nombre": "PICH Guillem"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "492",
         "nombre": "RIERA Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13163",
+        "nombre": "PICH Guillem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "867",
-        "nombre": "TORRADES Domenec"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "536",
         "nombre": "PLADEVALL Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "867",
+        "nombre": "TORRADES Domenec"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "484",
-            "nombre": "CUSSÓ Joan"
-          },
-          {
-            "licencia": "13163",
-            "nombre": "PICH Guillem"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "2080",
             "nombre": "AUSIO Pere"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "484",
+            "nombre": "CUSSÓ Joan"
+          },
+          {
+            "licencia": "13163",
+            "nombre": "PICH Guillem"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "GIRBAU VIC TT",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI",
+      "nombre": "CRUXENT EDELMA CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CRUXENT EDELMA CALELLA",
+      "nombre": "CTT ATC MOLINS DE REI",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3262",
-        "nombre": "TRIAS Roger"
-      },
-      "B": {
-        "licencia": "545",
-        "nombre": "PUIGGARÍ Albert"
-      },
-      "C": {
-        "licencia": "11278",
-        "nombre": "GUASCH Josep"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
@@ -55,20 +41,24 @@
         "licencia": "6764",
         "nombre": "FONT Laia"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3262",
+        "nombre": "TRIAS Roger"
+      },
+      "B": {
+        "licencia": "545",
+        "nombre": "PUIGGARÍ Albert"
+      },
+      "C": {
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "545",
-        "nombre": "PUIGGARÍ Albert"
-      },
-      {
-        "licencia": "3262",
-        "nombre": "TRIAS Roger"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "93",
         "nombre": "PUIG Jaume"
@@ -76,6 +66,16 @@
       {
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "545",
+        "nombre": "PUIGGARÍ Albert"
+      },
+      {
+        "licencia": "3262",
+        "nombre": "TRIAS Roger"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3262",
-        "nombre": "TRIAS Roger"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3262",
+        "nombre": "TRIAS Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "545",
-        "nombre": "PUIGGARÍ Albert"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "93",
         "nombre": "PUIG Jaume"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "545",
+        "nombre": "PUIGGARÍ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11278",
-        "nombre": "GUASCH Josep"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6764",
         "nombre": "FONT Laia"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3262",
-        "nombre": "TRIAS Roger"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "93",
         "nombre": "PUIG Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3262",
+        "nombre": "TRIAS Roger"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11278",
-        "nombre": "GUASCH Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11254",
         "nombre": "RUSCALLEDA Antoni"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11278",
+        "nombre": "GUASCH Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "545",
-        "nombre": "PUIGGARÍ Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6764",
         "nombre": "FONT Laia"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "545",
+        "nombre": "PUIGGARÍ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "545",
-            "nombre": "PUIGGARÍ Albert"
-          },
-          {
-            "licencia": "3262",
-            "nombre": "TRIAS Roger"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "93",
             "nombre": "PUIG Jaume"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "545",
+            "nombre": "PUIGGARÍ Albert"
+          },
+          {
+            "licencia": "3262",
+            "nombre": "TRIAS Roger"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT ATC MOLINS DE REI",
+    "ganador": "CRUXENT EDELMA CALELLA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 13
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "BELLVITGE ALHEÑA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BELLVITGE ALHEÑA",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8089",
-        "nombre": "VILALLONGA Nurjan"
-      },
-      "B": {
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
-      },
-      "C": {
-        "licencia": "9026",
-        "nombre": "MORENO Pol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "713",
         "nombre": "GARCIA Carlos"
@@ -55,6 +41,20 @@
         "licencia": "4597",
         "nombre": "SANZ Julio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
+      "B": {
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "C": {
+        "licencia": "9026",
+        "nombre": "MORENO Pol"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8089",
-        "nombre": "VILALLONGA Nurjan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "713",
         "nombre": "GARCIA Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "918",
         "nombre": "RECHES Ivan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "9026",
-        "nombre": "MORENO Pol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4597",
         "nombre": "SANZ Julio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "9026",
+        "nombre": "MORENO Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8089",
-        "nombre": "VILALLONGA Nurjan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "918",
         "nombre": "RECHES Ivan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8089",
+        "nombre": "VILALLONGA Nurjan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "9026",
-        "nombre": "MORENO Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "713",
         "nombre": "GARCIA Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "9026",
+        "nombre": "MORENO Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4597",
         "nombre": "SANZ Julio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "BELLVITGE ALHEÑA",
     "marcador_partidos": {
-      "local": 5,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

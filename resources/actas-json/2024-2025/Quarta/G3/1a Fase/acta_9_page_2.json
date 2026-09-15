@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "GIRBAU VIC TT \"B\"",
+      "nombre": "MOLLET 2002 TT ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT ''B''",
+      "nombre": "GIRBAU VIC TT \"B\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17337",
-        "nombre": "TOR Oriol"
-      },
-      "B": {
-        "licencia": "17034",
-        "nombre": "DUDZIC David"
-      },
-      "C": {
-        "licencia": "14801",
-        "nombre": "SELVA Ot"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16798",
         "nombre": "VALERO Lucas"
@@ -55,6 +41,20 @@
         "licencia": "16488",
         "nombre": "ROYES Arturo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17337",
+        "nombre": "TOR Oriol"
+      },
+      "B": {
+        "licencia": "17034",
+        "nombre": "DUDZIC David"
+      },
+      "C": {
+        "licencia": "14801",
+        "nombre": "SELVA Ot"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17337",
-        "nombre": "TOR Oriol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16798",
         "nombre": "VALERO Lucas"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17337",
+        "nombre": "TOR Oriol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17034",
-        "nombre": "DUDZIC David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12166",
         "nombre": "ROCA Joan"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17034",
+        "nombre": "DUDZIC David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14801",
-        "nombre": "SELVA Ot"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16488",
         "nombre": "ROYES Arturo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "17337",
-        "nombre": "TOR Oriol"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12166",
-        "nombre": "ROCA Joan"
+        "letra": "C",
+        "licencia": "14801",
+        "nombre": "SELVA Ot"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12166",
+        "nombre": "ROCA Joan"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17337",
+        "nombre": "TOR Oriol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14801",
-        "nombre": "SELVA Ot"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16798",
         "nombre": "VALERO Lucas"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14801",
+        "nombre": "SELVA Ot"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17034",
-        "nombre": "DUDZIC David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16488",
         "nombre": "ROYES Arturo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17034",
+        "nombre": "DUDZIC David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT ''B''",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 16
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MASQUEFA TTC",
+      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ÀNECBLAU - TT JOVES CTDFELS",
+      "nombre": "MASQUEFA TTC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "B": {
-        "licencia": "12288",
-        "nombre": "VIDAL Gerard"
-      },
-      "C": {
-        "licencia": "14192",
-        "nombre": "LÓPEZ Leire"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15815",
         "nombre": "GAO Shang"
@@ -55,6 +41,20 @@
         "licencia": "12395",
         "nombre": "MARTÍN Aleix"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
+      "B": {
+        "licencia": "12288",
+        "nombre": "VIDAL Gerard"
+      },
+      "C": {
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15815",
         "nombre": "GAO Shang"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12288",
-        "nombre": "VIDAL Gerard"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "10934",
-        "nombre": "PRIEGO Hristo"
+        "letra": "A",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "10934",
+        "nombre": "PRIEGO Hristo"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12288",
+        "nombre": "VIDAL Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14192",
-        "nombre": "LÓPEZ Leire"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12395",
         "nombre": "MARTÍN Aleix"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7589",
-        "nombre": "BUENO Poul Ignasi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10934",
         "nombre": "PRIEGO Hristo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7589",
+        "nombre": "BUENO Poul Ignasi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14192",
-        "nombre": "LÓPEZ Leire"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15815",
         "nombre": "GAO Shang"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14192",
+        "nombre": "LÓPEZ Leire"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12288",
-        "nombre": "VIDAL Gerard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12395",
         "nombre": "MARTÍN Aleix"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12288",
+        "nombre": "VIDAL Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "ÀNECBLAU - TT JOVES CTDFELS",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

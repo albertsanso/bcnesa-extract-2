@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SENTMENAT - ACTIVIJOC",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CTT SENTMENAT - ACTIVIJOC",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "884",
-        "nombre": "GARCIA Richard"
-      },
-      "B": {
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      },
-      "C": {
-        "licencia": "6231",
-        "nombre": "MATIAS Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15125",
         "nombre": "GOMEZ Lluis"
@@ -55,20 +41,24 @@
         "licencia": "15133",
         "nombre": "ISART Pere"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "884",
+        "nombre": "GARCIA Richard"
+      },
+      "B": {
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      },
+      "C": {
+        "licencia": "6231",
+        "nombre": "MATIAS Jordi"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      },
-      {
-        "licencia": "6231",
-        "nombre": "MATIAS Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15125",
         "nombre": "GOMEZ Lluis"
@@ -76,6 +66,16 @@
       {
         "licencia": "757",
         "nombre": "LLORENTE Albert"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      },
+      {
+        "licencia": "6231",
+        "nombre": "MATIAS Jordi"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "884",
-        "nombre": "GARCIA Richard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15125",
         "nombre": "GOMEZ Lluis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "884",
+        "nombre": "GARCIA Richard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "757",
         "nombre": "LLORENTE Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6231",
-        "nombre": "MATIAS Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15133",
         "nombre": "ISART Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6231",
+        "nombre": "MATIAS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "884",
-        "nombre": "GARCIA Richard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "757",
         "nombre": "LLORENTE Albert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "884",
+        "nombre": "GARCIA Richard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6231",
-        "nombre": "MATIAS Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15125",
         "nombre": "GOMEZ Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6231",
+        "nombre": "MATIAS Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "878",
-        "nombre": "CREUS Domenec"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15133",
         "nombre": "ISART Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "878",
+        "nombre": "CREUS Domenec"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "878",
-            "nombre": "CREUS Domenec"
-          },
-          {
-            "licencia": "6231",
-            "nombre": "MATIAS Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15125",
             "nombre": "GOMEZ Lluis"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "878",
+            "nombre": "CREUS Domenec"
+          },
+          {
+            "licencia": "6231",
+            "nombre": "MATIAS Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS D'HORTA TT",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

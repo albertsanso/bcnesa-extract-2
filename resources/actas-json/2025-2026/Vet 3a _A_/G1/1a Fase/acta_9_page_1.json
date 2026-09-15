@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TITUS BADALONA",
+      "nombre": "MOLLET 2002 TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "MOLLET 2002 TT",
+      "nombre": "TITUS BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18765",
-        "nombre": "JI Michael Xiao Zhuang"
-      },
-      "B": {
-        "licencia": "6224",
-        "nombre": "PONS Ramon"
-      },
-      "C": {
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
@@ -55,20 +41,24 @@
         "licencia": "3012",
         "nombre": "RIFA Josep"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      "B": {
+        "licencia": "6224",
+        "nombre": "PONS Ramon"
+      },
+      "C": {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      {
-        "licencia": "6224",
-        "nombre": "PONS Ramon"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
@@ -76,6 +66,16 @@
       {
         "licencia": "12906",
         "nombre": "CRESPO Diego"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      {
+        "licencia": "6224",
+        "nombre": "PONS Ramon"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18765",
-        "nombre": "JI Michael Xiao Zhuang"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1050",
         "nombre": "CARRETERO Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6224",
-        "nombre": "PONS Ramon"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12906",
         "nombre": "CRESPO Diego"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6224",
+        "nombre": "PONS Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,89 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8328",
-        "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3012",
         "nombre": "RIFA Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "18765",
-        "nombre": "JI Michael Xiao Zhuang"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12906",
-        "nombre": "CRESPO Diego"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
         "letra": "C",
         "licencia": "8328",
         "nombre": "GIMENEZ Angel"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "1050",
-        "nombre": "CARRETERO Carlos"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "6224",
-        "nombre": "PONS Ramon"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +150,81 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18765",
+        "nombre": "JI Michael Xiao Zhuang"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8328",
+        "nombre": "GIMENEZ Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6224",
+        "nombre": "PONS Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8328",
-            "nombre": "GIMENEZ Angel"
-          },
-          {
-            "licencia": "6224",
-            "nombre": "PONS Ramon"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "1050",
             "nombre": "CARRETERO Carlos"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8328",
+            "nombre": "GIMENEZ Angel"
+          },
+          {
+            "licencia": "6224",
+            "nombre": "PONS Ramon"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "CTT VALLS DE TORROELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VALLS DE TORROELLA",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "6169",
-        "nombre": "ZAHRI Jad"
-      },
-      "B": {
-        "licencia": "12767",
-        "nombre": "BENHARI Mohamed"
-      },
-      "C": {
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13159",
         "nombre": "GIMENEZ Ricard"
@@ -55,20 +41,24 @@
         "licencia": "13165",
         "nombre": "FLORES Axel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "6169",
+        "nombre": "ZAHRI Jad"
+      },
+      "B": {
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
+      "C": {
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
-      {
-        "licencia": "12767",
-        "nombre": "BENHARI Mohamed"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
@@ -76,6 +66,16 @@
       {
         "licencia": "13165",
         "nombre": "FLORES Axel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
+      {
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "6169",
-        "nombre": "ZAHRI Jad"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13159",
         "nombre": "GIMENEZ Ricard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6169",
+        "nombre": "ZAHRI Jad"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "12767",
-        "nombre": "BENHARI Mohamed"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13165",
         "nombre": "FLORES Axel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "6169",
-        "nombre": "ZAHRI Jad"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3492",
         "nombre": "SEÑOR Eduard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "6169",
+        "nombre": "ZAHRI Jad"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5922",
-        "nombre": "ROGER Jose Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13159",
         "nombre": "GIMENEZ Ricard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5922",
+        "nombre": "ROGER Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12767",
-        "nombre": "BENHARI Mohamed"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13165",
         "nombre": "FLORES Axel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12767",
+        "nombre": "BENHARI Mohamed"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "5922",
-            "nombre": "ROGER Jose Luis"
-          },
-          {
-            "licencia": "12767",
-            "nombre": "BENHARI Mohamed"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "3492",
             "nombre": "SEÑOR Eduard"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "5922",
+            "nombre": "ROGER Jose Luis"
+          },
+          {
+            "licencia": "12767",
+            "nombre": "BENHARI Mohamed"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VALLS DE TORROELLA",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

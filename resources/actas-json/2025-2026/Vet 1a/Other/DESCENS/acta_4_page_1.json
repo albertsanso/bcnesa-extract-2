@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO 'A'",
+      "nombre": "TT PRAT LISANT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT PRAT LISANT",
+      "nombre": "EL CIERVO 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "557",
-        "nombre": "VILLORO Xavier"
-      },
-      "B": {
-        "licencia": "6223",
-        "nombre": "VILA Jordi"
-      },
-      "C": {
-        "licencia": "199",
-        "nombre": "CASTELLS Francesc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "842",
         "nombre": "RUIZ Amador"
@@ -55,6 +41,20 @@
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
+      "B": {
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      },
+      "C": {
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "557",
-        "nombre": "VILLORO Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "842",
         "nombre": "RUIZ Amador"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6223",
-        "nombre": "VILA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "684",
         "nombre": "JULIÀ Fèlix"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "199",
-        "nombre": "CASTELLS Francesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "557",
-        "nombre": "VILLORO Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "684",
         "nombre": "JULIÀ Fèlix"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "557",
+        "nombre": "VILLORO Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "199",
-        "nombre": "CASTELLS Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "842",
         "nombre": "RUIZ Amador"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "199",
+        "nombre": "CASTELLS Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6223",
-        "nombre": "VILA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "850",
         "nombre": "DURAN Roberto Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6223",
+        "nombre": "VILA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO 'A'",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 9
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

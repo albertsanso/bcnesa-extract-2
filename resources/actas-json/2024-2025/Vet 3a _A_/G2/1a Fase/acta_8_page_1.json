@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16279",
-        "nombre": "VALLES Mario"
-      },
-      "B": {
-        "licencia": "267",
-        "nombre": "INFANTE Isidro"
-      },
-      "C": {
-        "licencia": "6269",
-        "nombre": "RAMOS Antoni"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3592",
         "nombre": "MARTI Lluis"
@@ -55,6 +41,20 @@
         "licencia": "8182",
         "nombre": "CASAS Jaume"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
+      "B": {
+        "licencia": "267",
+        "nombre": "INFANTE Isidro"
+      },
+      "C": {
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16279",
-        "nombre": "VALLES Mario"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3592",
         "nombre": "MARTI Lluis"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "267",
-        "nombre": "INFANTE Isidro"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8381",
         "nombre": "GIL Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "267",
+        "nombre": "INFANTE Isidro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6269",
-        "nombre": "RAMOS Antoni"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8182",
         "nombre": "CASAS Jaume"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,39 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16279",
-        "nombre": "VALLES Mario"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8381",
         "nombre": "GIL Luis"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "6269",
-        "nombre": "RAMOS Antoni"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "3592",
-        "nombre": "MARTI Lluis"
+        "letra": "A",
+        "licencia": "16279",
+        "nombre": "VALLES Mario"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +155,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "3592",
+        "nombre": "MARTI Lluis"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6269",
+        "nombre": "RAMOS Antoni"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 3,
-        "visitante": 2
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "267",
-        "nombre": "INFANTE Isidro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8182",
         "nombre": "CASAS Jaume"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "267",
+        "nombre": "INFANTE Isidro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2351",
-        "nombre": "EVANO Pascal"
-      },
-      "B": {
-        "licencia": "5411",
-        "nombre": "CORTILLAS Isidre"
-      },
-      "C": {
-        "licencia": "364",
-        "nombre": "MONERA Jesus"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11286",
         "nombre": "ZHANG Zhiquan"
@@ -55,6 +41,20 @@
         "licencia": "2045",
         "nombre": "RINCON Jose Luis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
+      "B": {
+        "licencia": "5411",
+        "nombre": "CORTILLAS Isidre"
+      },
+      "C": {
+        "licencia": "364",
+        "nombre": "MONERA Jesus"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2351",
-        "nombre": "EVANO Pascal"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11286",
         "nombre": "ZHANG Zhiquan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "5411",
-        "nombre": "CORTILLAS Isidre"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2106",
         "nombre": "GONZALEZ Pedro"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5411",
+        "nombre": "CORTILLAS Isidre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "364",
-        "nombre": "MONERA Jesus"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2045",
         "nombre": "RINCON Jose Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "364",
+        "nombre": "MONERA Jesus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "2351",
-        "nombre": "EVANO Pascal"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2106",
         "nombre": "GONZALEZ Pedro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2351",
+        "nombre": "EVANO Pascal"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "364",
-        "nombre": "MONERA Jesus"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11286",
         "nombre": "ZHANG Zhiquan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "364",
+        "nombre": "MONERA Jesus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5411",
-        "nombre": "CORTILLAS Isidre"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "2045",
         "nombre": "RINCON Jose Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5411",
+        "nombre": "CORTILLAS Isidre"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "UE SANT CUGAT",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

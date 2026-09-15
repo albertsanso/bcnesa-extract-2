@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CN SABADELL",
+      "nombre": "CC SANT ANDREU \"B\"",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANT ANDREU \"B\"",
+      "nombre": "CN SABADELL",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7725",
-        "nombre": "KHIDASHELI George"
-      },
-      "B": {
-        "licencia": "15911",
-        "nombre": "HERNÁNDEZ Cristina"
-      },
-      "C": {
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8716",
         "nombre": "GARCIA Maximino"
@@ -55,6 +41,20 @@
         "licencia": "5660",
         "nombre": "GARCIA Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7725",
+        "nombre": "KHIDASHELI George"
+      },
+      "B": {
+        "licencia": "15911",
+        "nombre": "HERNÁNDEZ Cristina"
+      },
+      "C": {
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7725",
-        "nombre": "KHIDASHELI George"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8716",
         "nombre": "GARCIA Maximino"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15911",
-        "nombre": "HERNÁNDEZ Cristina"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "68",
-        "nombre": "MARTINEZ Felipe"
+        "letra": "A",
+        "licencia": "7725",
+        "nombre": "KHIDASHELI George"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "68",
+        "nombre": "MARTINEZ Felipe"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15911",
+        "nombre": "HERNÁNDEZ Cristina"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5660",
         "nombre": "GARCIA Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7725",
-        "nombre": "KHIDASHELI George"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "68",
         "nombre": "MARTINEZ Felipe"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7725",
+        "nombre": "KHIDASHELI George"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10265",
-        "nombre": "PLAYÀ Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8716",
         "nombre": "GARCIA Maximino"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10265",
+        "nombre": "PLAYÀ Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15911",
-        "nombre": "HERNÁNDEZ Cristina"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5660",
         "nombre": "GARCIA Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15911",
+        "nombre": "HERNÁNDEZ Cristina"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CN SABADELL",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

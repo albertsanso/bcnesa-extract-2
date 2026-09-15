@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4483",
-        "nombre": "CAMPOS Alberto"
-      },
-      "B": {
-        "licencia": "13637",
-        "nombre": "MARTÍ Victor"
-      },
-      "C": {
-        "licencia": "6272",
-        "nombre": "MATA Javier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16275",
         "nombre": "ALDEA Manel"
@@ -55,20 +41,24 @@
         "licencia": "10478",
         "nombre": "MESA Josep"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      "B": {
+        "licencia": "13637",
+        "nombre": "MARTÍ Victor"
+      },
+      "C": {
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "4483",
-        "nombre": "CAMPOS Alberto"
-      },
-      {
-        "licencia": "6272",
-        "nombre": "MATA Javier"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "947",
         "nombre": "GIMENEZ Angel"
@@ -76,6 +66,16 @@
       {
         "licencia": "10478",
         "nombre": "MESA Josep"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      {
+        "licencia": "6272",
+        "nombre": "MATA Javier"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4483",
-        "nombre": "CAMPOS Alberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16275",
         "nombre": "ALDEA Manel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,64 +110,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
+      },
+      "visitante": {
         "letra": "B",
         "licencia": "13637",
         "nombre": "MARTÍ Victor"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "6272",
-        "nombre": "MATA Javier"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "10478",
-        "nombre": "MESA Josep"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "4483",
-        "nombre": "CAMPOS Alberto"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "947",
-        "nombre": "GIMENEZ Angel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +125,56 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "10478",
+        "nombre": "MESA Josep"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "947",
+        "nombre": "GIMENEZ Angel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4483",
+        "nombre": "CAMPOS Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6272",
-        "nombre": "MATA Javier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16275",
         "nombre": "ALDEA Manel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6272",
+        "nombre": "MATA Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13637",
-        "nombre": "MARTÍ Victor"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10478",
         "nombre": "MESA Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13637",
+        "nombre": "MARTÍ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "4483",
-            "nombre": "CAMPOS Alberto"
-          },
-          {
-            "licencia": "6272",
-            "nombre": "MATA Javier"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "947",
             "nombre": "GIMENEZ Angel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "4483",
+            "nombre": "CAMPOS Alberto"
+          },
+          {
+            "licencia": "6272",
+            "nombre": "MATA Javier"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

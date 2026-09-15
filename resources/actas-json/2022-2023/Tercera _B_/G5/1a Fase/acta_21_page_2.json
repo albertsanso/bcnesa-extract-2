@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PARETS ''A''",
+      "nombre": "CTT GRANOLLERS ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT GRANOLLERS ''A''",
+      "nombre": "TT PARETS ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15827",
-        "nombre": "CAPON Marc"
-      },
-      "B": {
-        "licencia": "11885",
-        "nombre": "FERNANDEZ Daniel"
-      },
-      "C": {
-        "licencia": "16247",
-        "nombre": "CASADO Cristian"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12657",
         "nombre": "COROMINAS Xavier"
@@ -55,20 +41,24 @@
         "licencia": "14790",
         "nombre": "YETOR Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15827",
+        "nombre": "CAPON Marc"
+      },
+      "B": {
+        "licencia": "11885",
+        "nombre": "FERNANDEZ Daniel"
+      },
+      "C": {
+        "licencia": "16247",
+        "nombre": "CASADO Cristian"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15827",
-        "nombre": "CAPON Marc"
-      },
-      {
-        "licencia": "16247",
-        "nombre": "CASADO Cristian"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "1156",
         "nombre": "SELVA David"
@@ -76,6 +66,16 @@
       {
         "licencia": "14790",
         "nombre": "YETOR Jordi"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15827",
+        "nombre": "CAPON Marc"
+      },
+      {
+        "licencia": "16247",
+        "nombre": "CASADO Cristian"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15827",
-        "nombre": "CAPON Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12657",
         "nombre": "COROMINAS Xavier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15827",
+        "nombre": "CAPON Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "11885",
-        "nombre": "FERNANDEZ Daniel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1156",
         "nombre": "SELVA David"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11885",
+        "nombre": "FERNANDEZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16247",
-        "nombre": "CASADO Cristian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14790",
         "nombre": "YETOR Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16247",
+        "nombre": "CASADO Cristian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15827",
-        "nombre": "CAPON Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1156",
         "nombre": "SELVA David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15827",
+        "nombre": "CAPON Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16247",
-        "nombre": "CASADO Cristian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12657",
         "nombre": "COROMINAS Xavier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16247",
+        "nombre": "CASADO Cristian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "11885",
-        "nombre": "FERNANDEZ Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14790",
         "nombre": "YETOR Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "11885",
+        "nombre": "FERNANDEZ Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15827",
-            "nombre": "CAPON Marc"
-          },
-          {
-            "licencia": "16247",
-            "nombre": "CASADO Cristian"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "1156",
             "nombre": "SELVA David"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15827",
+            "nombre": "CAPON Marc"
+          },
+          {
+            "licencia": "16247",
+            "nombre": "CASADO Cristian"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT GRANOLLERS ''A''",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

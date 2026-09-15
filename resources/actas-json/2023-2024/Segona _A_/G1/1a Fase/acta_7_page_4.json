@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PRAT",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "TT PRAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17836",
-        "nombre": "FAZAKAS Ion Liviu"
-      },
-      "B": {
-        "licencia": "1738",
-        "nombre": "MARTINEZ Eduard"
-      },
-      "C": {
-        "licencia": "11233",
-        "nombre": "VARABIEV Adrian"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11650",
         "nombre": "FERNANDEZ Alex"
@@ -55,20 +41,24 @@
         "licencia": "15771",
         "nombre": "LORCA Javier"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17836",
+        "nombre": "FAZAKAS Ion Liviu"
+      },
+      "B": {
+        "licencia": "1738",
+        "nombre": "MARTINEZ Eduard"
+      },
+      "C": {
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "1738",
-        "nombre": "MARTINEZ Eduard"
-      },
-      {
-        "licencia": "11233",
-        "nombre": "VARABIEV Adrian"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "5457",
         "nombre": "REINA Carles"
@@ -76,6 +66,16 @@
       {
         "licencia": "15771",
         "nombre": "LORCA Javier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "1738",
+        "nombre": "MARTINEZ Eduard"
+      },
+      {
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17836",
-        "nombre": "FAZAKAS Ion Liviu"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11650",
         "nombre": "FERNANDEZ Alex"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "1738",
-        "nombre": "MARTINEZ Eduard"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5457",
-        "nombre": "REINA Carles"
+        "letra": "A",
+        "licencia": "17836",
+        "nombre": "FAZAKAS Ion Liviu"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5457",
+        "nombre": "REINA Carles"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1738",
+        "nombre": "MARTINEZ Eduard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11233",
-        "nombre": "VARABIEV Adrian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15771",
         "nombre": "LORCA Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "17836",
-        "nombre": "FAZAKAS Ion Liviu"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "5457",
-        "nombre": "REINA Carles"
+        "letra": "C",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "5457",
+        "nombre": "REINA Carles"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17836",
+        "nombre": "FAZAKAS Ion Liviu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11233",
-        "nombre": "VARABIEV Adrian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11650",
         "nombre": "FERNANDEZ Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1738",
-        "nombre": "MARTINEZ Eduard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15771",
         "nombre": "LORCA Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1738",
+        "nombre": "MARTINEZ Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "1738",
-            "nombre": "MARTINEZ Eduard"
-          },
-          {
-            "licencia": "11233",
-            "nombre": "VARABIEV Adrian"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "5457",
             "nombre": "REINA Carles"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "1738",
+            "nombre": "MARTINEZ Eduard"
+          },
+          {
+            "licencia": "11233",
+            "nombre": "VARABIEV Adrian"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CARDEDEU EIG",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

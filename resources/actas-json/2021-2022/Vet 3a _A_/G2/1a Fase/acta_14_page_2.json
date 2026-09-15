@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALES",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT JOSEP M. PALES",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4994",
-        "nombre": "AMOUROUX Patrice M. Xavier"
-      },
-      "B": {
-        "licencia": "7192",
-        "nombre": "TASCON Armando"
-      },
-      "C": {
-        "licencia": "4517",
-        "nombre": "CAMPRECIOS Nuria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12200",
         "nombre": "DE LA CRUZ Juan"
@@ -55,6 +41,20 @@
         "licencia": "14904",
         "nombre": "VIADER Pera"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4994",
+        "nombre": "AMOUROUX Patrice M. Xavier"
+      },
+      "B": {
+        "licencia": "7192",
+        "nombre": "TASCON Armando"
+      },
+      "C": {
+        "licencia": "4517",
+        "nombre": "CAMPRECIOS Nuria"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4994",
-        "nombre": "AMOUROUX Patrice M. Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12200",
         "nombre": "DE LA CRUZ Juan"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4994",
+        "nombre": "AMOUROUX Patrice M. Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7192",
-        "nombre": "TASCON Armando"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "162",
         "nombre": "TIRADO Andrés"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7192",
+        "nombre": "TASCON Armando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4517",
-        "nombre": "CAMPRECIOS Nuria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14904",
         "nombre": "VIADER Pera"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4517",
+        "nombre": "CAMPRECIOS Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4994",
-        "nombre": "AMOUROUX Patrice M. Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "162",
         "nombre": "TIRADO Andrés"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4994",
+        "nombre": "AMOUROUX Patrice M. Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4517",
-        "nombre": "CAMPRECIOS Nuria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12200",
         "nombre": "DE LA CRUZ Juan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4517",
+        "nombre": "CAMPRECIOS Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7192",
-        "nombre": "TASCON Armando"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "14904",
         "nombre": "VIADER Pera"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7192",
+        "nombre": "TASCON Armando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 16
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

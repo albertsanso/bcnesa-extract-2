@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT CASTELLAR",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "ATT CASTELLAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12848",
-        "nombre": "PASTOR Oscar"
-      },
-      "B": {
-        "licencia": "7087",
-        "nombre": "CRUELLS Ruben"
-      },
-      "C": {
-        "licencia": "3165",
-        "nombre": "BRETONES Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5607",
         "nombre": "GUAL Carles"
@@ -55,6 +41,20 @@
         "licencia": "4733",
         "nombre": "GUAL Enric"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12848",
+        "nombre": "PASTOR Oscar"
+      },
+      "B": {
+        "licencia": "7087",
+        "nombre": "CRUELLS Ruben"
+      },
+      "C": {
+        "licencia": "3165",
+        "nombre": "BRETONES Xavier"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12848",
-        "nombre": "PASTOR Oscar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12848",
+        "nombre": "PASTOR Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7087",
-        "nombre": "CRUELLS Ruben"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18677",
         "nombre": "TOMAS Jorge"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7087",
+        "nombre": "CRUELLS Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3165",
-        "nombre": "BRETONES Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4733",
         "nombre": "GUAL Enric"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3165",
+        "nombre": "BRETONES Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12848",
-        "nombre": "PASTOR Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18677",
         "nombre": "TOMAS Jorge"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12848",
+        "nombre": "PASTOR Oscar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3165",
-        "nombre": "BRETONES Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5607",
         "nombre": "GUAL Carles"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3165",
+        "nombre": "BRETONES Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7087",
-        "nombre": "CRUELLS Ruben"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "4733",
         "nombre": "GUAL Enric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7087",
+        "nombre": "CRUELLS Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT CASTELLAR",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 5
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15364",
-        "nombre": "ALVARADO Oscar"
-      },
-      "B": {
-        "licencia": "5878",
-        "nombre": "CLASEN Andreas Paul"
-      },
-      "C": {
-        "licencia": "6925",
-        "nombre": "FOLCH Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15154",
         "nombre": "ARIAS Lluc"
@@ -55,20 +41,24 @@
         "licencia": "15133",
         "nombre": "ISART Pere"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15364",
+        "nombre": "ALVARADO Oscar"
+      },
+      "B": {
+        "licencia": "5878",
+        "nombre": "CLASEN Andreas Paul"
+      },
+      "C": {
+        "licencia": "6925",
+        "nombre": "FOLCH Xavier"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "15364",
-        "nombre": "ALVARADO Oscar"
-      },
-      {
-        "licencia": "5878",
-        "nombre": "CLASEN Andreas Paul"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15154",
         "nombre": "ARIAS Lluc"
@@ -76,6 +66,16 @@
       {
         "licencia": "13171",
         "nombre": "SOLA Mei"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "15364",
+        "nombre": "ALVARADO Oscar"
+      },
+      {
+        "licencia": "5878",
+        "nombre": "CLASEN Andreas Paul"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "15154",
+        "nombre": "ARIAS Lluc"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "15364",
         "nombre": "ALVARADO Oscar"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13171",
+        "nombre": "SOLA Mei"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "15154",
-        "nombre": "ARIAS Lluc"
+        "letra": "B",
+        "licencia": "5878",
+        "nombre": "CLASEN Andreas Paul"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "15133",
+        "nombre": "ISART Pere"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6925",
+        "nombre": "FOLCH Xavier"
       },
       "sets": [],
       "resultado_juegos": {
@@ -102,57 +152,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "5878",
-        "nombre": "CLASEN Andreas Paul"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "13171",
-        "nombre": "SOLA Mei"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
         "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "6925",
-        "nombre": "FOLCH Xavier"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "15133",
-        "nombre": "ISART Pere"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
       }
     },
     {
@@ -160,64 +160,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15364",
-        "nombre": "ALVARADO Oscar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13171",
         "nombre": "SOLA Mei"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "6925",
-        "nombre": "FOLCH Xavier"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "15154",
-        "nombre": "ARIAS Lluc"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "5878",
-        "nombre": "CLASEN Andreas Paul"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "15133",
-        "nombre": "ISART Pere"
+        "letra": "A",
+        "licencia": "15364",
+        "nombre": "ALVARADO Oscar"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +175,56 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "15154",
+        "nombre": "ARIAS Lluc"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6925",
+        "nombre": "FOLCH Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "15133",
+        "nombre": "ISART Pere"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5878",
+        "nombre": "CLASEN Andreas Paul"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "15364",
-            "nombre": "ALVARADO Oscar"
-          },
-          {
-            "licencia": "5878",
-            "nombre": "CLASEN Andreas Paul"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15154",
             "nombre": "ARIAS Lluc"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "15364",
+            "nombre": "ALVARADO Oscar"
+          },
+          {
+            "licencia": "5878",
+            "nombre": "CLASEN Andreas Paul"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 11
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 11,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

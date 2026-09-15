@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA ''D''",
+      "nombre": "CTT CASTELLGALÍ ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ ''A''",
+      "nombre": "LLUÏSOS DE GRÀCIA ''D''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16811",
-        "nombre": "NADAL Jan"
-      },
-      "B": {
-        "licencia": "19170",
-        "nombre": "MACARULLA Blai"
-      },
-      "C": {
-        "licencia": "18331",
-        "nombre": "ITURRIA Alexander"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13080",
         "nombre": "VAZQUEZ Gabriel"
@@ -55,6 +41,20 @@
         "licencia": "13152",
         "nombre": "COBELA Antonio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16811",
+        "nombre": "NADAL Jan"
+      },
+      "B": {
+        "licencia": "19170",
+        "nombre": "MACARULLA Blai"
+      },
+      "C": {
+        "licencia": "18331",
+        "nombre": "ITURRIA Alexander"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16811",
-        "nombre": "NADAL Jan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13080",
         "nombre": "VAZQUEZ Gabriel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16811",
+        "nombre": "NADAL Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "19170",
-        "nombre": "MACARULLA Blai"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16332",
         "nombre": "CASAS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19170",
+        "nombre": "MACARULLA Blai"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18331",
-        "nombre": "ITURRIA Alexander"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13152",
         "nombre": "COBELA Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18331",
+        "nombre": "ITURRIA Alexander"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16811",
-        "nombre": "NADAL Jan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16332",
         "nombre": "CASAS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16811",
+        "nombre": "NADAL Jan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18331",
-        "nombre": "ITURRIA Alexander"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13080",
         "nombre": "VAZQUEZ Gabriel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18331",
+        "nombre": "ITURRIA Alexander"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "19170",
-        "nombre": "MACARULLA Blai"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13152",
         "nombre": "COBELA Antonio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "19170",
+        "nombre": "MACARULLA Blai"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLGALÍ ''A''",
     "marcador_partidos": {
-      "local": 2,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 2
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "LLUÏSOS DE GRÀCIA \"A\"",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "B": {
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
-      "C": {
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6272",
         "nombre": "MATA Javier"
@@ -55,6 +41,20 @@
         "licencia": "13070",
         "nombre": "GONZALEZ David"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
+      "B": {
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
+      "C": {
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "13637",
-        "nombre": "MARTÍ Victor"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "13070",
-        "nombre": "GONZALEZ David"
+        "letra": "A",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "13637",
+        "nombre": "MARTÍ Victor"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "13637",
         "nombre": "MARTÍ Victor"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,39 +164,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6272",
         "nombre": "MATA Javier"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "13070",
-        "nombre": "GONZALEZ David"
+        "letra": "C",
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +180,46 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13070",
+        "nombre": "GONZALEZ David"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

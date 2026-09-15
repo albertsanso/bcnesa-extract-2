@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CTT CASTELLGALÍ ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ ''A''",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5457",
-        "nombre": "REINA Carles"
-      },
-      "B": {
-        "licencia": "1364",
-        "nombre": "ROMERO Marc"
-      },
-      "C": {
-        "licencia": "15771",
-        "nombre": "LORCA Javier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6313",
         "nombre": "MONTANER Josep"
@@ -55,6 +41,20 @@
         "licencia": "11191",
         "nombre": "HERNANDEZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5457",
+        "nombre": "REINA Carles"
+      },
+      "B": {
+        "licencia": "1364",
+        "nombre": "ROMERO Marc"
+      },
+      "C": {
+        "licencia": "15771",
+        "nombre": "LORCA Javier"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5457",
-        "nombre": "REINA Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6313",
         "nombre": "MONTANER Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5457",
+        "nombre": "REINA Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "1364",
-        "nombre": "ROMERO Marc"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11235",
         "nombre": "FRINCU Danut Marian"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1364",
+        "nombre": "ROMERO Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15771",
-        "nombre": "LORCA Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11191",
         "nombre": "HERNANDEZ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15771",
+        "nombre": "LORCA Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "5457",
-        "nombre": "REINA Carles"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11235",
         "nombre": "FRINCU Danut Marian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5457",
+        "nombre": "REINA Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15771",
-        "nombre": "LORCA Javier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6313",
         "nombre": "MONTANER Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15771",
+        "nombre": "LORCA Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "1364",
-        "nombre": "ROMERO Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11191",
         "nombre": "HERNANDEZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "1364",
+        "nombre": "ROMERO Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLGALÍ ''A''",
     "marcador_partidos": {
-      "local": 1,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 1
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "ESC. PING PONG VIA TRAJANA ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ESC. PING PONG VIA TRAJANA ''A''",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17946",
-        "nombre": "ZHOVBA Alicia"
-      },
-      "B": {
-        "licencia": "17947",
-        "nombre": "ZHOVBA Adrian"
-      },
-      "C": {
-        "licencia": "16110",
-        "nombre": "SAN NICOLAS Isaac"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1754",
         "nombre": "HORTONEDA Conrad"
@@ -55,6 +41,20 @@
         "licencia": "16452",
         "nombre": "PÉREZ Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17946",
+        "nombre": "ZHOVBA Alicia"
+      },
+      "B": {
+        "licencia": "17947",
+        "nombre": "ZHOVBA Adrian"
+      },
+      "C": {
+        "licencia": "16110",
+        "nombre": "SAN NICOLAS Isaac"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17946",
-        "nombre": "ZHOVBA Alicia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1754",
         "nombre": "HORTONEDA Conrad"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17946",
+        "nombre": "ZHOVBA Alicia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17947",
-        "nombre": "ZHOVBA Adrian"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "430",
         "nombre": "CARREÑO Herminio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17947",
+        "nombre": "ZHOVBA Adrian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16110",
-        "nombre": "SAN NICOLAS Isaac"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16452",
         "nombre": "PÉREZ Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16110",
+        "nombre": "SAN NICOLAS Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17946",
-        "nombre": "ZHOVBA Alicia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "430",
         "nombre": "CARREÑO Herminio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17946",
+        "nombre": "ZHOVBA Alicia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16110",
-        "nombre": "SAN NICOLAS Isaac"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1754",
         "nombre": "HORTONEDA Conrad"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16110",
+        "nombre": "SAN NICOLAS Isaac"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17947",
-        "nombre": "ZHOVBA Adrian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16452",
         "nombre": "PÉREZ Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17947",
+        "nombre": "ZHOVBA Adrian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "ESC. PING PONG VIA TRAJANA ''A''",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

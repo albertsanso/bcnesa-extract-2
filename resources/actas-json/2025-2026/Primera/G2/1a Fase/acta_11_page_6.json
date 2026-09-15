@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18243",
-        "nombre": "LOPEHANDIA Gandalf"
-      },
-      "B": {
-        "licencia": "20588",
-        "nombre": "VILLE Julin"
-      },
-      "C": {
-        "licencia": "14501",
-        "nombre": "LORENZO Christian"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "9222",
         "nombre": "ULLOA Ferran"
@@ -55,6 +41,20 @@
         "licencia": "13082",
         "nombre": "GUEVARA Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18243",
+        "nombre": "LOPEHANDIA Gandalf"
+      },
+      "B": {
+        "licencia": "20588",
+        "nombre": "VILLE Julin"
+      },
+      "C": {
+        "licencia": "14501",
+        "nombre": "LORENZO Christian"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18243",
-        "nombre": "LOPEHANDIA Gandalf"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "9222",
         "nombre": "ULLOA Ferran"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18243",
+        "nombre": "LOPEHANDIA Gandalf"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "20588",
-        "nombre": "VILLE Julin"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6271",
         "nombre": "CUCCINIELLO Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20588",
+        "nombre": "VILLE Julin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14501",
-        "nombre": "LORENZO Christian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13082",
         "nombre": "GUEVARA Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14501",
+        "nombre": "LORENZO Christian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,39 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18243",
-        "nombre": "LOPEHANDIA Gandalf"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6271",
         "nombre": "CUCCINIELLO Carlos"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "14501",
-        "nombre": "LORENZO Christian"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "9222",
-        "nombre": "ULLOA Ferran"
+        "letra": "A",
+        "licencia": "18243",
+        "nombre": "LOPEHANDIA Gandalf"
       },
       "sets": [],
       "resultado_juegos": {
@@ -180,8 +155,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "9222",
+        "nombre": "ULLOA Ferran"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14501",
+        "nombre": "LORENZO Christian"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "20588",
-        "nombre": "VILLE Julin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13082",
         "nombre": "GUEVARA Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20588",
+        "nombre": "VILLE Julin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "619",
-        "nombre": "WEN Yang"
-      },
-      "B": {
-        "licencia": "15977",
-        "nombre": "LAURI Vili"
-      },
-      "C": {
-        "licencia": "618",
-        "nombre": "PANAREDA Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3022",
         "nombre": "SANTIAGO David Jose"
@@ -55,6 +41,20 @@
         "licencia": "394",
         "nombre": "SERRA Josep"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "619",
+        "nombre": "WEN Yang"
+      },
+      "B": {
+        "licencia": "15977",
+        "nombre": "LAURI Vili"
+      },
+      "C": {
+        "licencia": "618",
+        "nombre": "PANAREDA Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "619",
-        "nombre": "WEN Yang"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3022",
         "nombre": "SANTIAGO David Jose"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "619",
+        "nombre": "WEN Yang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15977",
-        "nombre": "LAURI Vili"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "69",
         "nombre": "VILARO Joan Mª"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15977",
+        "nombre": "LAURI Vili"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "618",
-        "nombre": "PANAREDA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "394",
         "nombre": "SERRA Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "618",
+        "nombre": "PANAREDA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "619",
-        "nombre": "WEN Yang"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "69",
         "nombre": "VILARO Joan Mª"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "619",
+        "nombre": "WEN Yang"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "618",
-        "nombre": "PANAREDA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3022",
         "nombre": "SANTIAGO David Jose"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "618",
+        "nombre": "PANAREDA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15977",
-        "nombre": "LAURI Vili"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "394",
         "nombre": "SERRA Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15977",
+        "nombre": "LAURI Vili"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANTS",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

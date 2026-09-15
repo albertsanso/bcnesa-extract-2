@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ESCOLETA VIA TRAJANA ''B''",
+      "nombre": "TT TORELLÓ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT TORELLÓ",
+      "nombre": "ESCOLETA VIA TRAJANA ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "430",
-        "nombre": "CARREÑO Herminio"
-      },
-      "B": {
-        "licencia": "16450",
-        "nombre": "PALACIOS Joaquin"
-      },
-      "C": {
-        "licencia": "17625",
-        "nombre": "GONZALEZ José Ramon"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17670",
         "nombre": "QUINTANILLA Hector"
@@ -55,6 +41,20 @@
         "licencia": "15016",
         "nombre": "SALA Damià"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "430",
+        "nombre": "CARREÑO Herminio"
+      },
+      "B": {
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
+      "C": {
+        "licencia": "17625",
+        "nombre": "GONZALEZ José Ramon"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "430",
-        "nombre": "CARREÑO Herminio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17670",
         "nombre": "QUINTANILLA Hector"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16450",
-        "nombre": "PALACIOS Joaquin"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16459",
-        "nombre": "MIESHCHERIAKOV Yarosla"
+        "letra": "A",
+        "licencia": "430",
+        "nombre": "CARREÑO Herminio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16459",
+        "nombre": "MIESHCHERIAKOV Yarosla"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17625",
-        "nombre": "GONZALEZ José Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "15016",
         "nombre": "SALA Damià"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17625",
+        "nombre": "GONZALEZ José Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,64 +139,14 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "430",
-        "nombre": "CARREÑO Herminio"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16459",
         "nombre": "MIESHCHERIAKOV Yarosla"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "17625",
-        "nombre": "GONZALEZ José Ramon"
-      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "17670",
-        "nombre": "QUINTANILLA Hector"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "16450",
-        "nombre": "PALACIOS Joaquin"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "15016",
-        "nombre": "SALA Damià"
+        "letra": "A",
+        "licencia": "430",
+        "nombre": "CARREÑO Herminio"
       },
       "sets": [],
       "resultado_juegos": {
@@ -205,18 +155,71 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "17670",
+        "nombre": "QUINTANILLA Hector"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17625",
+        "nombre": "GONZALEZ José Ramon"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "15016",
+        "nombre": "SALA Damià"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16450",
+        "nombre": "PALACIOS Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "ESCOLETA VIA TRAJANA ''B''",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

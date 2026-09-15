@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10527",
-        "nombre": "DÍEZ Lluna"
-      },
-      "B": {
-        "licencia": "6764",
-        "nombre": "FONT Laia"
-      },
-      "C": {
-        "licencia": "10228",
-        "nombre": "MARTÍNEZ Maria"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
@@ -55,20 +41,24 @@
         "licencia": "8668",
         "nombre": "BARCELO Manuel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10527",
+        "nombre": "DÍEZ Lluna"
+      },
+      "B": {
+        "licencia": "6764",
+        "nombre": "FONT Laia"
+      },
+      "C": {
+        "licencia": "10228",
+        "nombre": "MARTÍNEZ Maria"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "10527",
-        "nombre": "DÍEZ Lluna"
-      },
-      {
-        "licencia": "6764",
-        "nombre": "FONT Laia"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
@@ -76,6 +66,16 @@
       {
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "10527",
+        "nombre": "DÍEZ Lluna"
+      },
+      {
+        "licencia": "6764",
+        "nombre": "FONT Laia"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10527",
-        "nombre": "DÍEZ Lluna"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "6764",
-        "nombre": "FONT Laia"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
+        "letra": "A",
+        "licencia": "10527",
+        "nombre": "DÍEZ Lluna"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6764",
+        "nombre": "FONT Laia"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "10228",
-        "nombre": "MARTÍNEZ Maria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8668",
         "nombre": "BARCELO Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10228",
+        "nombre": "MARTÍNEZ Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10527",
-        "nombre": "DÍEZ Lluna"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10527",
+        "nombre": "DÍEZ Lluna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10228",
-        "nombre": "MARTÍNEZ Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10228",
+        "nombre": "MARTÍNEZ Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6764",
-        "nombre": "FONT Laia"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8668",
         "nombre": "BARCELO Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6764",
+        "nombre": "FONT Laia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "10527",
-            "nombre": "DÍEZ Lluna"
-          },
-          {
-            "licencia": "6764",
-            "nombre": "FONT Laia"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "7663",
             "nombre": "PASTRANA Juan Manuel"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "10527",
+            "nombre": "DÍEZ Lluna"
+          },
+          {
+            "licencia": "6764",
+            "nombre": "FONT Laia"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

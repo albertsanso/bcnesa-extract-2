@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11856",
-        "nombre": "NEVADO Samuel"
-      },
-      "B": {
-        "licencia": "15490",
-        "nombre": "IZQUIERDO Jose Luis"
-      },
-      "C": {
-        "licencia": "8480",
-        "nombre": "SANCHEZ Ruben"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11060",
         "nombre": "GUTIÉRREZ Santos Javier"
@@ -55,6 +41,20 @@
         "licencia": "13339",
         "nombre": "PARASCHIV Zorel-mihaita"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11856",
+        "nombre": "NEVADO Samuel"
+      },
+      "B": {
+        "licencia": "15490",
+        "nombre": "IZQUIERDO Jose Luis"
+      },
+      "C": {
+        "licencia": "8480",
+        "nombre": "SANCHEZ Ruben"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11856",
-        "nombre": "NEVADO Samuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11060",
         "nombre": "GUTIÉRREZ Santos Javier"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11856",
+        "nombre": "NEVADO Samuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15490",
-        "nombre": "IZQUIERDO Jose Luis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10909",
         "nombre": "MORENO Quim"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15490",
+        "nombre": "IZQUIERDO Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "8480",
-        "nombre": "SANCHEZ Ruben"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13339",
         "nombre": "PARASCHIV Zorel-mihaita"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8480",
+        "nombre": "SANCHEZ Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11856",
-        "nombre": "NEVADO Samuel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "10909",
         "nombre": "MORENO Quim"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11856",
+        "nombre": "NEVADO Samuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8480",
-        "nombre": "SANCHEZ Ruben"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11060",
         "nombre": "GUTIÉRREZ Santos Javier"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8480",
+        "nombre": "SANCHEZ Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15490",
-        "nombre": "IZQUIERDO Jose Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13339",
         "nombre": "PARASCHIV Zorel-mihaita"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15490",
+        "nombre": "IZQUIERDO Jose Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RIPOLLET",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

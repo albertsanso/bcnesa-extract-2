@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "CTT OLESA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT OLESA",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "B": {
-        "licencia": "4016",
-        "nombre": "OLAYA Joaquin"
-      },
-      "C": {
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "645",
         "nombre": "SUÑE Manel"
@@ -55,6 +41,20 @@
         "licencia": "10320",
         "nombre": "FERNANDEZ Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
+      "B": {
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
+      "C": {
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "645",
         "nombre": "SUÑE Manel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "4016",
-        "nombre": "OLAYA Joaquin"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "689",
-        "nombre": "MANZANO Enric"
+        "letra": "A",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "689",
+        "nombre": "MANZANO Enric"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10320",
         "nombre": "FERNANDEZ Francisco"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "227",
-        "nombre": "CREIXELL Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "689",
         "nombre": "MANZANO Enric"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "227",
+        "nombre": "CREIXELL Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11795",
-        "nombre": "BLANCA Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "645",
         "nombre": "SUÑE Manel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11795",
+        "nombre": "BLANCA Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4016",
-        "nombre": "OLAYA Joaquin"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10320",
         "nombre": "FERNANDEZ Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4016",
+        "nombre": "OLAYA Joaquin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT OLESA",
     "marcador_partidos": {
-      "local": 8,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 8
+    }
   },
   "acta_protestada": false
 }

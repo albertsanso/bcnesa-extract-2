@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MOLLET 2002 TT ''A''",
+      "nombre": "TT L'HOSPITALET ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET ''A''",
+      "nombre": "MOLLET 2002 TT ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
-      },
-      "B": {
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "C": {
-        "licencia": "1050",
-        "nombre": "CARRETERO Carlos"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6027",
         "nombre": "HERRERO Josep"
@@ -55,6 +41,20 @@
         "licencia": "287",
         "nombre": "FORTUNA Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
+      "B": {
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "C": {
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6027",
         "nombre": "HERRERO Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8444",
         "nombre": "PANADES Enrique"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "1050",
-        "nombre": "CARRETERO Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "287",
         "nombre": "FORTUNA Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3012",
-        "nombre": "RIFA Josep"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8444",
         "nombre": "PANADES Enrique"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3012",
+        "nombre": "RIFA Josep"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1050",
-        "nombre": "CARRETERO Carlos"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6027",
         "nombre": "HERRERO Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1050",
+        "nombre": "CARRETERO Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "287",
         "nombre": "FORTUNA Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET ''A''",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 12
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

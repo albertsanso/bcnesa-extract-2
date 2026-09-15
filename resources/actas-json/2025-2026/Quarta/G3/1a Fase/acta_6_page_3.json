@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA 'A'",
+      "nombre": "CTT CASTELLGALÍ 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ 'B'",
+      "nombre": "LLUÏSOS DE GRÀCIA 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19691",
-        "nombre": "KHAN Muhammad Rameez"
-      },
-      "B": {
-        "licencia": "20860",
-        "nombre": "MARTINEZ Xavier"
-      },
-      "C": {
-        "licencia": "19170",
-        "nombre": "MACARULLA Blai"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16332",
         "nombre": "CASAS Jordi"
@@ -55,6 +41,20 @@
         "licencia": "19732",
         "nombre": "CALVET Marc"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19691",
+        "nombre": "KHAN Muhammad Rameez"
+      },
+      "B": {
+        "licencia": "20860",
+        "nombre": "MARTINEZ Xavier"
+      },
+      "C": {
+        "licencia": "19170",
+        "nombre": "MACARULLA Blai"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19691",
-        "nombre": "KHAN Muhammad Rameez"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16332",
         "nombre": "CASAS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19691",
+        "nombre": "KHAN Muhammad Rameez"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "20860",
-        "nombre": "MARTINEZ Xavier"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2981",
         "nombre": "BRU Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20860",
+        "nombre": "MARTINEZ Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "19170",
-        "nombre": "MACARULLA Blai"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19732",
         "nombre": "CALVET Marc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19170",
+        "nombre": "MACARULLA Blai"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "19691",
-        "nombre": "KHAN Muhammad Rameez"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "2981",
         "nombre": "BRU Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19691",
+        "nombre": "KHAN Muhammad Rameez"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19170",
-        "nombre": "MACARULLA Blai"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16332",
         "nombre": "CASAS Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19170",
+        "nombre": "MACARULLA Blai"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "20860",
-        "nombre": "MARTINEZ Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19732",
         "nombre": "CALVET Marc"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20860",
+        "nombre": "MARTINEZ Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA 'A'",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 7
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CATT SANT CELONI ''A''",
+      "nombre": "CTT GRANOLLERS ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT GRANOLLERS ''B''",
+      "nombre": "CATT SANT CELONI ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3424",
-        "nombre": "SANAHUJA Jordi"
-      },
-      "B": {
-        "licencia": "17674",
-        "nombre": "MARIN Joan"
-      },
-      "C": {
-        "licencia": "13086",
-        "nombre": "DE FEDERICO Daniel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17018",
         "nombre": "ALCALÀ Pau"
@@ -55,6 +41,20 @@
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3424",
+        "nombre": "SANAHUJA Jordi"
+      },
+      "B": {
+        "licencia": "17674",
+        "nombre": "MARIN Joan"
+      },
+      "C": {
+        "licencia": "13086",
+        "nombre": "DE FEDERICO Daniel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3424",
-        "nombre": "SANAHUJA Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17018",
         "nombre": "ALCALÀ Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3424",
+        "nombre": "SANAHUJA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17674",
-        "nombre": "MARIN Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17007",
         "nombre": "SÁNCHEZ Hugo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17674",
+        "nombre": "MARIN Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13086",
-        "nombre": "DE FEDERICO Daniel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13086",
+        "nombre": "DE FEDERICO Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3424",
-        "nombre": "SANAHUJA Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17007",
         "nombre": "SÁNCHEZ Hugo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3424",
+        "nombre": "SANAHUJA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13086",
-        "nombre": "DE FEDERICO Daniel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17018",
         "nombre": "ALCALÀ Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13086",
+        "nombre": "DE FEDERICO Daniel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17674",
-        "nombre": "MARIN Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17712",
         "nombre": "THIEL Brigitte"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17674",
+        "nombre": "MARIN Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CATT SANT CELONI ''A''",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 1
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 1,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

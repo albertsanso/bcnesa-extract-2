@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "EL CIERVO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CIERVO",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1082",
-        "nombre": "GRÀCIA Pere Pau"
-      },
-      "B": {
-        "licencia": "14422",
-        "nombre": "TORROJA Jordi"
-      },
-      "C": {
-        "licencia": "15723",
-        "nombre": "SEVILLA Javier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "10478",
         "nombre": "MESA Josep"
@@ -55,6 +41,20 @@
         "licencia": "16275",
         "nombre": "ALDEA Manel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1082",
+        "nombre": "GRÀCIA Pere Pau"
+      },
+      "B": {
+        "licencia": "14422",
+        "nombre": "TORROJA Jordi"
+      },
+      "C": {
+        "licencia": "15723",
+        "nombre": "SEVILLA Javier"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1082",
-        "nombre": "GRÀCIA Pere Pau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10478",
         "nombre": "MESA Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14422",
-        "nombre": "TORROJA Jordi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "2303",
-        "nombre": "ALMENDROS Joan Antoni"
+        "letra": "A",
+        "licencia": "1082",
+        "nombre": "GRÀCIA Pere Pau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14422",
+        "nombre": "TORROJA Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15723",
-        "nombre": "SEVILLA Javier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16275",
         "nombre": "ALDEA Manel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "1082",
-        "nombre": "GRÀCIA Pere Pau"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "2303",
-        "nombre": "ALMENDROS Joan Antoni"
+        "letra": "C",
+        "licencia": "15723",
+        "nombre": "SEVILLA Javier"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "2303",
+        "nombre": "ALMENDROS Joan Antoni"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1082",
+        "nombre": "GRÀCIA Pere Pau"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15723",
-        "nombre": "SEVILLA Javier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "10478",
         "nombre": "MESA Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15723",
+        "nombre": "SEVILLA Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14422",
-        "nombre": "TORROJA Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16275",
         "nombre": "ALDEA Manel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14422",
+        "nombre": "TORROJA Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

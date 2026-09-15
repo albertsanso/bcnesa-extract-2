@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CENTRE",
+      "nombre": "BELLVITGE ALHEÑA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "BELLVITGE ALHEÑA",
+      "nombre": "EL CENTRE",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      },
-      "B": {
-        "licencia": "3548",
-        "nombre": "ALVAREZ Enrique Sotero"
-      },
-      "C": {
-        "licencia": "5544",
-        "nombre": "PRADES Aixeus"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "918",
         "nombre": "RECHES Ivan"
@@ -55,6 +41,20 @@
         "licencia": "494",
         "nombre": "GONZÁLEZ Ricard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
+      "B": {
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "C": {
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "918",
         "nombre": "RECHES Ivan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "3548",
-        "nombre": "ALVAREZ Enrique Sotero"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "713",
-        "nombre": "GARCIA Carlos"
+        "letra": "A",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "713",
+        "nombre": "GARCIA Carlos"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "5544",
-        "nombre": "PRADES Aixeus"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "494",
         "nombre": "GONZÁLEZ Ricard"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "740",
-        "nombre": "SERRANO Fabià"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "713",
         "nombre": "GARCIA Carlos"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "740",
+        "nombre": "SERRANO Fabià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5544",
-        "nombre": "PRADES Aixeus"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "918",
         "nombre": "RECHES Ivan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5544",
+        "nombre": "PRADES Aixeus"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "3548",
-        "nombre": "ALVAREZ Enrique Sotero"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "494",
         "nombre": "GONZÁLEZ Ricard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "3548",
+        "nombre": "ALVAREZ Enrique Sotero"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CENTRE",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

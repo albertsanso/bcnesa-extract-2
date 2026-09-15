@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "684",
-        "nombre": "JULIÀ Fèlix"
-      },
-      "B": {
-        "licencia": "6200",
-        "nombre": "MORALES Manuel"
-      },
-      "C": {
-        "licencia": "654",
-        "nombre": "OSUNA Fco. Jose"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15125",
         "nombre": "GOMEZ Lluis"
@@ -55,20 +41,24 @@
         "licencia": "757",
         "nombre": "LLORENTE Albert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "684",
+        "nombre": "JULIÀ Fèlix"
+      },
+      "B": {
+        "licencia": "6200",
+        "nombre": "MORALES Manuel"
+      },
+      "C": {
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "684",
-        "nombre": "JULIÀ Fèlix"
-      },
-      {
-        "licencia": "654",
-        "nombre": "OSUNA Fco. Jose"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15125",
         "nombre": "GOMEZ Lluis"
@@ -76,6 +66,16 @@
       {
         "licencia": "757",
         "nombre": "LLORENTE Albert"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "684",
+        "nombre": "JULIÀ Fèlix"
+      },
+      {
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
       }
     ]
   },
@@ -85,14 +85,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "15125",
+        "nombre": "GOMEZ Lluis"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "684",
         "nombre": "JULIÀ Fèlix"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15133",
+        "nombre": "ISART Pere"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "15125",
-        "nombre": "GOMEZ Lluis"
+        "letra": "B",
+        "licencia": "6200",
+        "nombre": "MORALES Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "757",
+        "nombre": "LLORENTE Albert"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
       },
       "sets": [],
       "resultado_juegos": {
@@ -101,58 +151,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 0,
+        "local": 2,
         "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "6200",
-        "nombre": "MORALES Manuel"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "15133",
-        "nombre": "ISART Pere"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "654",
-        "nombre": "OSUNA Fco. Jose"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "757",
-        "nombre": "LLORENTE Albert"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "684",
-        "nombre": "JULIÀ Fèlix"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15133",
         "nombre": "ISART Pere"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "684",
+        "nombre": "JULIÀ Fèlix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "654",
-        "nombre": "OSUNA Fco. Jose"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15125",
         "nombre": "GOMEZ Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "654",
+        "nombre": "OSUNA Fco. Jose"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6200",
-        "nombre": "MORALES Manuel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "757",
         "nombre": "LLORENTE Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6200",
+        "nombre": "MORALES Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "684",
-            "nombre": "JULIÀ Fèlix"
-          },
-          {
-            "licencia": "654",
-            "nombre": "OSUNA Fco. Jose"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15125",
             "nombre": "GOMEZ Lluis"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "684",
+            "nombre": "JULIÀ Fèlix"
+          },
+          {
+            "licencia": "654",
+            "nombre": "OSUNA Fco. Jose"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATENEU 1882",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 14
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

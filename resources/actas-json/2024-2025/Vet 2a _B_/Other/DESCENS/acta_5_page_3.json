@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA ''A''",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "LLUÏSOS DE GRÀCIA ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
-      "B": {
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "C": {
-        "licencia": "19155",
-        "nombre": "FABIAN Javier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6281",
         "nombre": "BASCU Francesc"
@@ -55,6 +41,20 @@
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
+      "B": {
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
+      "C": {
+        "licencia": "19155",
+        "nombre": "FABIAN Javier"
+      }
     }
   },
   "dobles": null,
@@ -64,14 +64,64 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "licencia": "6281",
+        "nombre": "BASCU Francesc"
+      },
+      "visitante": {
         "letra": "A",
         "licencia": "3332",
         "nombre": "CARBO Jose Mª"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7663",
+        "nombre": "PASTRANA Juan Manuel"
+      },
       "visitante": {
-        "letra": "Y",
-        "licencia": "6281",
-        "nombre": "BASCU Francesc"
+        "letra": "B",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16371",
+        "nombre": "LOPEZ Juan Francisco"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19155",
+        "nombre": "FABIAN Javier"
       },
       "sets": [],
       "resultado_juegos": {
@@ -81,57 +131,7 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "7663",
-        "nombre": "PASTRANA Juan Manuel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
         "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "19155",
-        "nombre": "FABIAN Javier"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16371",
-        "nombre": "LOPEZ Juan Francisco"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3332",
-        "nombre": "CARBO Jose Mª"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7663",
         "nombre": "PASTRANA Juan Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3332",
+        "nombre": "CARBO Jose Mª"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "19155",
-        "nombre": "FABIAN Javier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6281",
         "nombre": "BASCU Francesc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "19155",
+        "nombre": "FABIAN Javier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "5171",
-        "nombre": "RAMOS Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16371",
         "nombre": "LOPEZ Juan Francisco"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "5171",
+        "nombre": "RAMOS Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT RIPOLLET",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

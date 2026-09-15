@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "CTT CARDEDEU EIG",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CARDEDEU EIG",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "3492",
-        "nombre": "SEÑOR Eduard"
-      },
-      "B": {
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
-      "C": {
-        "licencia": "1106",
-        "nombre": "MORALES Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "758",
         "nombre": "CASTAÑE Jordi"
@@ -55,6 +41,20 @@
         "licencia": "203",
         "nombre": "GUAL Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
+      "B": {
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
+      "C": {
+        "licencia": "1106",
+        "nombre": "MORALES Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "3492",
-        "nombre": "SEÑOR Eduard"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "758",
         "nombre": "CASTAÑE Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5399",
         "nombre": "CASTRO Ismael"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "1106",
-        "nombre": "MORALES Jordi"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "203",
-        "nombre": "GUAL Jordi"
+        "letra": "B",
+        "licencia": "439",
+        "nombre": "PONS Felix"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "203",
+        "nombre": "GUAL Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1106",
+        "nombre": "MORALES Jordi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "3492",
-        "nombre": "SEÑOR Eduard"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "5399",
         "nombre": "CASTRO Ismael"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "3492",
+        "nombre": "SEÑOR Eduard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1106",
-        "nombre": "MORALES Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "758",
         "nombre": "CASTAÑE Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1106",
+        "nombre": "MORALES Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "439",
-        "nombre": "PONS Felix"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "203",
         "nombre": "GUAL Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "439",
+        "nombre": "PONS Felix"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CETT ESPARREGUERA",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 8
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

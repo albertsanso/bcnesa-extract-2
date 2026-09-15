@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT ''A''",
+      "nombre": "LLUÏSOS DE GRÀCIA ''D''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA ''D''",
+      "nombre": "UE SANT CUGAT ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17485",
-        "nombre": "TRIGO Rafael"
-      },
-      "B": {
-        "licencia": "15409",
-        "nombre": "FLAMARICH Sergi"
-      },
-      "C": {
-        "licencia": "16749",
-        "nombre": "ARMADAS Joan Ramon"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18331",
         "nombre": "ITURRIA Alexander"
@@ -55,6 +41,20 @@
         "licencia": "18004",
         "nombre": "NOGUERA Roger"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17485",
+        "nombre": "TRIGO Rafael"
+      },
+      "B": {
+        "licencia": "15409",
+        "nombre": "FLAMARICH Sergi"
+      },
+      "C": {
+        "licencia": "16749",
+        "nombre": "ARMADAS Joan Ramon"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17485",
-        "nombre": "TRIGO Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18331",
         "nombre": "ITURRIA Alexander"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15409",
-        "nombre": "FLAMARICH Sergi"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18267",
-        "nombre": "SOLÉ Marc"
+        "letra": "A",
+        "licencia": "17485",
+        "nombre": "TRIGO Rafael"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18267",
+        "nombre": "SOLÉ Marc"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15409",
+        "nombre": "FLAMARICH Sergi"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16749",
-        "nombre": "ARMADAS Joan Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18004",
         "nombre": "NOGUERA Roger"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16749",
+        "nombre": "ARMADAS Joan Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17485",
-        "nombre": "TRIGO Rafael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18267",
         "nombre": "SOLÉ Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17485",
+        "nombre": "TRIGO Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16749",
-        "nombre": "ARMADAS Joan Ramon"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18331",
         "nombre": "ITURRIA Alexander"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16749",
+        "nombre": "ARMADAS Joan Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15409",
-        "nombre": "FLAMARICH Sergi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "18004",
         "nombre": "NOGUERA Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15409",
+        "nombre": "FLAMARICH Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS DE GRÀCIA ''D''",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 15
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

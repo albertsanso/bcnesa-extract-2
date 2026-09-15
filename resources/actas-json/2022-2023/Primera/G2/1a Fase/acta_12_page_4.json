@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "8429",
-        "nombre": "MARTINEZ Eva"
-      },
-      "B": {
-        "licencia": "6144",
-        "nombre": "PEREZ Pablo"
-      },
-      "C": {
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8679",
         "nombre": "CERVANTES Joel"
@@ -55,20 +41,24 @@
         "licencia": "10527",
         "nombre": "DÍEZ Lluna"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
+      "B": {
+        "licencia": "6144",
+        "nombre": "PEREZ Pablo"
+      },
+      "C": {
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "8429",
-        "nombre": "MARTINEZ Eva"
-      },
-      {
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6661",
         "nombre": "LEONE Mateo"
@@ -76,6 +66,16 @@
       {
         "licencia": "8679",
         "nombre": "CERVANTES Joel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
+      {
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "8429",
-        "nombre": "MARTINEZ Eva"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8679",
         "nombre": "CERVANTES Joel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,39 +110,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "6144",
-        "nombre": "PEREZ Pablo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6661",
         "nombre": "LEONE Mateo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "10527",
-        "nombre": "DÍEZ Lluna"
+        "letra": "B",
+        "licencia": "6144",
+        "nombre": "PEREZ Pablo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -151,8 +126,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "10527",
+        "nombre": "DÍEZ Lluna"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      },
+      "sets": [],
+      "resultado_juegos": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "8429",
-        "nombre": "MARTINEZ Eva"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6661",
         "nombre": "LEONE Mateo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "8429",
+        "nombre": "MARTINEZ Eva"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "5008",
-        "nombre": "FERNANDEZ Sergio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8679",
         "nombre": "CERVANTES Joel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "5008",
+        "nombre": "FERNANDEZ Sergio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "6144",
-        "nombre": "PEREZ Pablo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10527",
         "nombre": "DÍEZ Lluna"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6144",
+        "nombre": "PEREZ Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "8429",
-            "nombre": "MARTINEZ Eva"
-          },
-          {
-            "licencia": "5008",
-            "nombre": "FERNANDEZ Sergio"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6661",
             "nombre": "LEONE Mateo"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "8429",
+            "nombre": "MARTINEZ Eva"
+          },
+          {
+            "licencia": "5008",
+            "nombre": "FERNANDEZ Sergio"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": null,
+    "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
       "local": 13,
       "visitante": 13
-    },
-    "marcador_juegos": null
+    }
   },
   "acta_protestada": false
 }

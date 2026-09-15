@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "CTT COLLBATO",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT COLLBATO",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "B": {
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      },
-      "C": {
-        "licencia": "12219",
-        "nombre": "ROMO Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5044",
         "nombre": "SANTOS Victoriano"
@@ -55,20 +41,24 @@
         "licencia": "1846",
         "nombre": "LOPEZ Adolfo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
+      "B": {
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
+      "C": {
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      },
-      {
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "5044",
         "nombre": "SANTOS Victoriano"
@@ -76,6 +66,16 @@
       {
         "licencia": "4349",
         "nombre": "MORRAL Ramon"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
+      {
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5044",
         "nombre": "SANTOS Victoriano"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "4349",
-        "nombre": "MORRAL Ramon"
+        "letra": "A",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "4349",
+        "nombre": "MORRAL Ramon"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12219",
-        "nombre": "ROMO Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1846",
         "nombre": "LOPEZ Adolfo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "2064",
-        "nombre": "FONTOVA Alex"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4349",
         "nombre": "MORRAL Ramon"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2064",
+        "nombre": "FONTOVA Alex"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12219",
-        "nombre": "ROMO Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5044",
         "nombre": "SANTOS Victoriano"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12219",
+        "nombre": "ROMO Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1846",
         "nombre": "LOPEZ Adolfo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "4650",
-            "nombre": "MUÑOZ Andreu"
-          },
-          {
-            "licencia": "2064",
-            "nombre": "FONTOVA Alex"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "5044",
             "nombre": "SANTOS Victoriano"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "4650",
+            "nombre": "MUÑOZ Andreu"
+          },
+          {
+            "licencia": "2064",
+            "nombre": "FONTOVA Alex"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
-    "ganador": "CTT ATENEU 1882",
+    "ganador": "CTT COLLBATO",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 13
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }

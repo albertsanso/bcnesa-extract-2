@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "CC SANTS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CC SANTS",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "20842",
-        "nombre": "GUERIN Marcelo"
-      },
-      "B": {
-        "licencia": "13595",
-        "nombre": "MARTINO Matias"
-      },
-      "C": {
-        "licencia": "16416",
-        "nombre": "ZAIN Ivan Fernando"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15056",
         "nombre": "JIN Shan"
@@ -55,6 +41,20 @@
         "licencia": "619",
         "nombre": "WEN Yang"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "20842",
+        "nombre": "GUERIN Marcelo"
+      },
+      "B": {
+        "licencia": "13595",
+        "nombre": "MARTINO Matias"
+      },
+      "C": {
+        "licencia": "16416",
+        "nombre": "ZAIN Ivan Fernando"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "20842",
-        "nombre": "GUERIN Marcelo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15056",
         "nombre": "JIN Shan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "13595",
-        "nombre": "MARTINO Matias"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "618",
-        "nombre": "PANAREDA Jordi"
+        "letra": "A",
+        "licencia": "20842",
+        "nombre": "GUERIN Marcelo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "618",
+        "nombre": "PANAREDA Jordi"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13595",
+        "nombre": "MARTINO Matias"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16416",
-        "nombre": "ZAIN Ivan Fernando"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "619",
         "nombre": "WEN Yang"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16416",
+        "nombre": "ZAIN Ivan Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "20842",
-        "nombre": "GUERIN Marcelo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "618",
         "nombre": "PANAREDA Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20842",
+        "nombre": "GUERIN Marcelo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16416",
-        "nombre": "ZAIN Ivan Fernando"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15056",
         "nombre": "JIN Shan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16416",
+        "nombre": "ZAIN Ivan Fernando"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "13595",
-        "nombre": "MARTINO Matias"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "619",
         "nombre": "WEN Yang"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "13595",
+        "nombre": "MARTINO Matias"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CC SANTS",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 16
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

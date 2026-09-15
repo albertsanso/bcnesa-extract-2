@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS DE TERRASSA",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CTT ELS AMICS DE TERRASSA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "B": {
-        "licencia": "18003",
-        "nombre": "CHEN Yong"
-      },
-      "C": {
-        "licencia": "4405",
-        "nombre": "CAROL Santiago"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "1105",
         "nombre": "ROSELLÓ Jordi"
@@ -55,20 +41,24 @@
         "licencia": "69",
         "nombre": "VILARO Joan Mª"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
+      "B": {
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      "C": {
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "18003",
-        "nombre": "CHEN Yong"
-      },
-      {
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "394",
         "nombre": "SERRA Josep"
@@ -76,6 +66,16 @@
       {
         "licencia": "69",
         "nombre": "VILARO Joan Mª"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1105",
         "nombre": "ROSELLÓ Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "18003",
-        "nombre": "CHEN Yong"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "394",
         "nombre": "SERRA Josep"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4405",
-        "nombre": "CAROL Santiago"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "69",
         "nombre": "VILARO Joan Mª"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "394",
         "nombre": "SERRA Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4405",
-        "nombre": "CAROL Santiago"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "1105",
         "nombre": "ROSELLÓ Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4405",
+        "nombre": "CAROL Santiago"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "18003",
-        "nombre": "CHEN Yong"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "69",
         "nombre": "VILARO Joan Mª"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "18003",
-            "nombre": "CHEN Yong"
-          },
-          {
-            "licencia": "851",
-            "nombre": "SERRES Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "394",
             "nombre": "SERRA Josep"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18003",
+            "nombre": "CHEN Yong"
+          },
+          {
+            "licencia": "851",
+            "nombre": "SERRES Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "ATT PREMIÀ DE MAR",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

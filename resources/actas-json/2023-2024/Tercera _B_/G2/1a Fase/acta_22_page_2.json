@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CT BARCINO",
+      "nombre": "TT SANT ANDREU -B-",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT SANT ANDREU -B-",
+      "nombre": "CT BARCINO",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11146",
-        "nombre": "GODES Ana Maria"
-      },
-      "B": {
-        "licencia": "7837",
-        "nombre": "VAN BERGEN Patrik Joan"
-      },
-      "C": {
-        "licencia": "16315",
-        "nombre": "RODRIGUEZ Carla Zouyin"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16336",
         "nombre": "PERELLÓ Sergi"
@@ -55,6 +41,20 @@
         "licencia": "13986",
         "nombre": "CASTILLA Hugo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11146",
+        "nombre": "GODES Ana Maria"
+      },
+      "B": {
+        "licencia": "7837",
+        "nombre": "VAN BERGEN Patrik Joan"
+      },
+      "C": {
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11146",
-        "nombre": "GODES Ana Maria"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16336",
         "nombre": "PERELLÓ Sergi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "7837",
-        "nombre": "VAN BERGEN Patrik Joan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "14970",
-        "nombre": "CARMONA Aarón"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "16315",
-        "nombre": "RODRIGUEZ Carla Zouyin"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "13986",
-        "nombre": "CASTILLA Hugo"
+        "letra": "A",
+        "licencia": "11146",
+        "nombre": "GODES Ana Maria"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +80,58 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "14970",
+        "nombre": "CARMONA Aarón"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7837",
+        "nombre": "VAN BERGEN Patrik Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13986",
+        "nombre": "CASTILLA Hugo"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "11146",
-        "nombre": "GODES Ana Maria"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14970",
         "nombre": "CARMONA Aarón"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11146",
+        "nombre": "GODES Ana Maria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16315",
-        "nombre": "RODRIGUEZ Carla Zouyin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16336",
         "nombre": "PERELLÓ Sergi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16315",
+        "nombre": "RODRIGUEZ Carla Zouyin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7837",
-        "nombre": "VAN BERGEN Patrik Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13986",
         "nombre": "CASTILLA Hugo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7837",
+        "nombre": "VAN BERGEN Patrik Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CT BARCINO",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

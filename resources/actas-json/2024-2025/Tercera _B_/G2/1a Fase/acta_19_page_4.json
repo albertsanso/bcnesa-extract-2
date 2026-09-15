@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "DECATHLON BADALONA",
+      "nombre": "ESC. PING PONG VIA TRAJANA ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ESC. PING PONG VIA TRAJANA ''A''",
+      "nombre": "DECATHLON BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18305",
-        "nombre": "HE Mark"
-      },
-      "B": {
-        "licencia": "7680",
-        "nombre": "MAQUEDA Joan"
-      },
-      "C": {
-        "licencia": "17226",
-        "nombre": "CARLO Enzo"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16452",
         "nombre": "PÉREZ Manuel"
@@ -55,6 +41,20 @@
         "licencia": "1754",
         "nombre": "HORTONEDA Conrad"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18305",
+        "nombre": "HE Mark"
+      },
+      "B": {
+        "licencia": "7680",
+        "nombre": "MAQUEDA Joan"
+      },
+      "C": {
+        "licencia": "17226",
+        "nombre": "CARLO Enzo"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18305",
-        "nombre": "HE Mark"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16452",
         "nombre": "PÉREZ Manuel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18305",
+        "nombre": "HE Mark"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7680",
-        "nombre": "MAQUEDA Joan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "430",
         "nombre": "CARREÑO Herminio"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "17226",
-        "nombre": "CARLO Enzo"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "1754",
-        "nombre": "HORTONEDA Conrad"
+        "letra": "B",
+        "licencia": "7680",
+        "nombre": "MAQUEDA Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "1754",
+        "nombre": "HORTONEDA Conrad"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17226",
+        "nombre": "CARLO Enzo"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18305",
-        "nombre": "HE Mark"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "430",
         "nombre": "CARREÑO Herminio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18305",
+        "nombre": "HE Mark"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17226",
-        "nombre": "CARLO Enzo"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16452",
         "nombre": "PÉREZ Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17226",
+        "nombre": "CARLO Enzo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7680",
-        "nombre": "MAQUEDA Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1754",
         "nombre": "HORTONEDA Conrad"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7680",
+        "nombre": "MAQUEDA Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "ESC. PING PONG VIA TRAJANA ''A''",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 14
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

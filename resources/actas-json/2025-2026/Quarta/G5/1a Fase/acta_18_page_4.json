@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATC MOLINS DE REI 'C'",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "CTT ATC MOLINS DE REI 'C'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "80",
-        "nombre": "MARTÍNEZ José"
-      },
-      "B": {
-        "licencia": "21427",
-        "nombre": "BARBER Anna"
-      },
-      "C": {
-        "licencia": "15576",
-        "nombre": "PALOMERAS Nestor"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7536",
         "nombre": "FORTES Marc"
@@ -55,6 +41,20 @@
         "licencia": "20617",
         "nombre": "ORTGEA Ana Maria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
+      "B": {
+        "licencia": "21427",
+        "nombre": "BARBER Anna"
+      },
+      "C": {
+        "licencia": "15576",
+        "nombre": "PALOMERAS Nestor"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "80",
-        "nombre": "MARTÍNEZ José"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7536",
         "nombre": "FORTES Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "21427",
-        "nombre": "BARBER Anna"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16534",
         "nombre": "SÁNCHEZ Carla"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21427",
+        "nombre": "BARBER Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15576",
-        "nombre": "PALOMERAS Nestor"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20617",
         "nombre": "ORTGEA Ana Maria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15576",
+        "nombre": "PALOMERAS Nestor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "80",
-        "nombre": "MARTÍNEZ José"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16534",
         "nombre": "SÁNCHEZ Carla"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "80",
+        "nombre": "MARTÍNEZ José"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15576",
-        "nombre": "PALOMERAS Nestor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7536",
         "nombre": "FORTES Marc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15576",
+        "nombre": "PALOMERAS Nestor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "21427",
-        "nombre": "BARBER Anna"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "20617",
         "nombre": "ORTGEA Ana Maria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "21427",
+        "nombre": "BARBER Anna"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ATC MOLINS DE REI 'C'",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 3
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

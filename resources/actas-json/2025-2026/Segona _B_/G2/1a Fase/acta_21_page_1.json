@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "16525",
-        "nombre": "PANOSA Arnau"
-      },
-      "B": {
-        "licencia": "17883",
-        "nombre": "MARTOS Xavi"
-      },
-      "C": {
-        "licencia": "14420",
-        "nombre": "LOPEZ Victor"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13915",
         "nombre": "ARDEVOL Ariadna"
@@ -55,20 +41,24 @@
         "licencia": "12785",
         "nombre": "AGUILERA Marta"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "16525",
+        "nombre": "PANOSA Arnau"
+      },
+      "B": {
+        "licencia": "17883",
+        "nombre": "MARTOS Xavi"
+      },
+      "C": {
+        "licencia": "14420",
+        "nombre": "LOPEZ Victor"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "17883",
-        "nombre": "MARTOS Xavi"
-      },
-      {
-        "licencia": "14420",
-        "nombre": "LOPEZ Victor"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8619",
         "nombre": "SANZ Aitor"
@@ -76,6 +66,16 @@
       {
         "licencia": "12785",
         "nombre": "AGUILERA Marta"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "17883",
+        "nombre": "MARTOS Xavi"
+      },
+      {
+        "licencia": "14420",
+        "nombre": "LOPEZ Victor"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "16525",
-        "nombre": "PANOSA Arnau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13915",
         "nombre": "ARDEVOL Ariadna"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16525",
+        "nombre": "PANOSA Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,24 +110,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17883",
-        "nombre": "MARTOS Xavi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8619",
         "nombre": "SANZ Aitor"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17883",
+        "nombre": "MARTOS Xavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14420",
-        "nombre": "LOPEZ Victor"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12785",
         "nombre": "AGUILERA Marta"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14420",
+        "nombre": "LOPEZ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,24 +160,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "16525",
-        "nombre": "PANOSA Arnau"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8619",
         "nombre": "SANZ Aitor"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "16525",
+        "nombre": "PANOSA Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14420",
-        "nombre": "LOPEZ Victor"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13915",
         "nombre": "ARDEVOL Ariadna"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14420",
+        "nombre": "LOPEZ Victor"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17883",
-        "nombre": "MARTOS Xavi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12785",
         "nombre": "AGUILERA Marta"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17883",
+        "nombre": "MARTOS Xavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "17883",
-            "nombre": "MARTOS Xavi"
-          },
-          {
-            "licencia": "14420",
-            "nombre": "LOPEZ Victor"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8619",
             "nombre": "SANZ Aitor"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17883",
+            "nombre": "MARTOS Xavi"
+          },
+          {
+            "licencia": "14420",
+            "nombre": "LOPEZ Victor"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CETT ESPARREGUERA",
     "marcador_partidos": {
-      "local": 10,
-      "visitante": 17
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 10
+    }
   },
   "acta_protestada": false
 }

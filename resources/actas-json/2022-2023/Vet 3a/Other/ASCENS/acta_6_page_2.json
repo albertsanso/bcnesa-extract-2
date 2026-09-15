@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT RIPOLLET",
+      "nombre": "TARINAS CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TARINAS CALELLA",
+      "nombre": "CTT RIPOLLET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11065",
-        "nombre": "LANCHAZO Manuel"
-      },
-      "B": {
-        "licencia": "8669",
-        "nombre": "PARDO Vicente"
-      },
-      "C": {
-        "licencia": "6281",
-        "nombre": "BASCU Francesc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "93",
         "nombre": "PUIG Jaume"
@@ -55,20 +41,24 @@
         "licencia": "11244",
         "nombre": "VILALTA Agusti"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11065",
+        "nombre": "LANCHAZO Manuel"
+      },
+      "B": {
+        "licencia": "8669",
+        "nombre": "PARDO Vicente"
+      },
+      "C": {
+        "licencia": "6281",
+        "nombre": "BASCU Francesc"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "6281",
-        "nombre": "BASCU Francesc"
-      },
-      {
-        "licencia": "8669",
-        "nombre": "PARDO Vicente"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "93",
         "nombre": "PUIG Jaume"
@@ -76,6 +66,16 @@
       {
         "licencia": "15723",
         "nombre": "SEVILLA Javier"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "6281",
+        "nombre": "BASCU Francesc"
+      },
+      {
+        "licencia": "8669",
+        "nombre": "PARDO Vicente"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11065",
-        "nombre": "LANCHAZO Manuel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "93",
         "nombre": "PUIG Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11065",
+        "nombre": "LANCHAZO Manuel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8669",
-        "nombre": "PARDO Vicente"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15723",
         "nombre": "SEVILLA Javier"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8669",
+        "nombre": "PARDO Vicente"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "6281",
-        "nombre": "BASCU Francesc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11244",
         "nombre": "VILALTA Agusti"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "11065",
-        "nombre": "LANCHAZO Manuel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15723",
-        "nombre": "SEVILLA Javier"
+        "letra": "C",
+        "licencia": "6281",
+        "nombre": "BASCU Francesc"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15723",
+        "nombre": "SEVILLA Javier"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11065",
+        "nombre": "LANCHAZO Manuel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "6281",
-        "nombre": "BASCU Francesc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "93",
         "nombre": "PUIG Jaume"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "6281",
+        "nombre": "BASCU Francesc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8669",
-        "nombre": "PARDO Vicente"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11244",
         "nombre": "VILALTA Agusti"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8669",
+        "nombre": "PARDO Vicente"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "6281",
-            "nombre": "BASCU Francesc"
-          },
-          {
-            "licencia": "8669",
-            "nombre": "PARDO Vicente"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "93",
             "nombre": "PUIG Jaume"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "6281",
+            "nombre": "BASCU Francesc"
+          },
+          {
+            "licencia": "8669",
+            "nombre": "PARDO Vicente"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "TARINAS CALELLA",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 16
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 16,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

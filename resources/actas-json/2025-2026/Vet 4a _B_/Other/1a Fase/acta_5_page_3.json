@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT LA BISBAL DEL PENEDÈS 'B'",
+      "nombre": "AGRUPACIÓ CONGRÉS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS",
+      "nombre": "CTT LA BISBAL DEL PENEDÈS 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "20840",
-        "nombre": "ALAS Juan"
-      },
-      "B": {
-        "licencia": "20287",
-        "nombre": "DOBLAS Francesc Xavier"
-      },
-      "C": {
-        "licencia": "20143",
-        "nombre": "MIRÓ Albert"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "116",
         "nombre": "PUYUELO Amadeo"
@@ -55,6 +41,20 @@
         "licencia": "12349",
         "nombre": "SALLA Gloria"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "20840",
+        "nombre": "ALAS Juan"
+      },
+      "B": {
+        "licencia": "20287",
+        "nombre": "DOBLAS Francesc Xavier"
+      },
+      "C": {
+        "licencia": "20143",
+        "nombre": "MIRÓ Albert"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "20840",
-        "nombre": "ALAS Juan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "116",
         "nombre": "PUYUELO Amadeo"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "20287",
-        "nombre": "DOBLAS Francesc Xavier"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19018",
-        "nombre": "ROMAN Cesar"
+        "letra": "A",
+        "licencia": "20840",
+        "nombre": "ALAS Juan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "19018",
+        "nombre": "ROMAN Cesar"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20287",
+        "nombre": "DOBLAS Francesc Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "20143",
-        "nombre": "MIRÓ Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12349",
         "nombre": "SALLA Gloria"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20143",
+        "nombre": "MIRÓ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "20840",
-        "nombre": "ALAS Juan"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19018",
         "nombre": "ROMAN Cesar"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "20840",
+        "nombre": "ALAS Juan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "20143",
-        "nombre": "MIRÓ Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "116",
         "nombre": "PUYUELO Amadeo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20143",
+        "nombre": "MIRÓ Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "20287",
-        "nombre": "DOBLAS Francesc Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "12349",
         "nombre": "SALLA Gloria"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "20287",
+        "nombre": "DOBLAS Francesc Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT LA BISBAL DEL PENEDÈS 'B'",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 10
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 10,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT PRAT",
+      "nombre": "CTT CASTELLGALÍ ''A''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ ''A''",
+      "nombre": "TT PRAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18011",
-        "nombre": "AGANESOV Artem"
-      },
-      "B": {
-        "licencia": "193",
-        "nombre": "MONTAGUT Ramon"
-      },
-      "C": {
-        "licencia": "11233",
-        "nombre": "VARABIEV Adrian"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6313",
         "nombre": "MONTANER Josep"
@@ -55,6 +41,20 @@
         "licencia": "11191",
         "nombre": "HERNANDEZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18011",
+        "nombre": "AGANESOV Artem"
+      },
+      "B": {
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      },
+      "C": {
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18011",
-        "nombre": "AGANESOV Artem"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6313",
         "nombre": "MONTANER Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18011",
+        "nombre": "AGANESOV Artem"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "193",
-        "nombre": "MONTAGUT Ramon"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "17615",
         "nombre": "LAFOZ Robert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "11233",
-        "nombre": "VARABIEV Adrian"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11191",
         "nombre": "HERNANDEZ Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "18011",
-        "nombre": "AGANESOV Artem"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17615",
-        "nombre": "LAFOZ Robert"
+        "letra": "C",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17615",
+        "nombre": "LAFOZ Robert"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18011",
+        "nombre": "AGANESOV Artem"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11233",
-        "nombre": "VARABIEV Adrian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6313",
         "nombre": "MONTANER Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11233",
+        "nombre": "VARABIEV Adrian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "193",
-        "nombre": "MONTAGUT Ramon"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11191",
         "nombre": "HERNANDEZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "193",
+        "nombre": "MONTAGUT Ramon"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLGALÍ ''A''",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT SANT ANDREU -A-",
+      "nombre": "CTT CASTELLGALÍ",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ",
+      "nombre": "TT SANT ANDREU -A-",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17730",
-        "nombre": "HERNÁNDEZ Luis"
-      },
-      "B": {
-        "licencia": "18526",
-        "nombre": "IGLESIAS Julián Daniel"
-      },
-      "C": {
-        "licencia": "17259",
-        "nombre": "GÓMEZ Rafael"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11074",
         "nombre": "GARRIDO Josep"
@@ -55,20 +41,24 @@
         "licencia": "16331",
         "nombre": "GARCIA Sergio"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17730",
+        "nombre": "HERNÁNDEZ Luis"
+      },
+      "B": {
+        "licencia": "18526",
+        "nombre": "IGLESIAS Julián Daniel"
+      },
+      "C": {
+        "licencia": "17259",
+        "nombre": "GÓMEZ Rafael"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "17730",
-        "nombre": "HERNÁNDEZ Luis"
-      },
-      {
-        "licencia": "17259",
-        "nombre": "GÓMEZ Rafael"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "11074",
         "nombre": "GARRIDO Josep"
@@ -76,6 +66,16 @@
       {
         "licencia": "15013",
         "nombre": "GRILLO Manel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "17730",
+        "nombre": "HERNÁNDEZ Luis"
+      },
+      {
+        "licencia": "17259",
+        "nombre": "GÓMEZ Rafael"
       }
     ]
   },
@@ -85,64 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17730",
-        "nombre": "HERNÁNDEZ Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11074",
         "nombre": "GARRIDO Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "18526",
-        "nombre": "IGLESIAS Julián Daniel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15013",
-        "nombre": "GRILLO Manel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "17259",
-        "nombre": "GÓMEZ Rafael"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "16331",
-        "nombre": "GARCIA Sergio"
+        "letra": "A",
+        "licencia": "17730",
+        "nombre": "HERNÁNDEZ Luis"
       },
       "sets": [],
       "resultado_juegos": {
@@ -152,22 +102,22 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17730",
-        "nombre": "HERNÁNDEZ Luis"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15013",
         "nombre": "GRILLO Manel"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18526",
+        "nombre": "IGLESIAS Julián Daniel"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +125,56 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16331",
+        "nombre": "GARCIA Sergio"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17259",
+        "nombre": "GÓMEZ Rafael"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15013",
+        "nombre": "GRILLO Manel"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17730",
+        "nombre": "HERNÁNDEZ Luis"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,39 +185,14 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17259",
-        "nombre": "GÓMEZ Rafael"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11074",
         "nombre": "GARRIDO Josep"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "18526",
-        "nombre": "IGLESIAS Julián Daniel"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "16331",
-        "nombre": "GARCIA Sergio"
+        "letra": "C",
+        "licencia": "17259",
+        "nombre": "GÓMEZ Rafael"
       },
       "sets": [],
       "resultado_juegos": {
@@ -225,6 +200,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "16331",
+        "nombre": "GARCIA Sergio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "18526",
+        "nombre": "IGLESIAS Julián Daniel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "17730",
-            "nombre": "HERNÁNDEZ Luis"
-          },
-          {
-            "licencia": "17259",
-            "nombre": "GÓMEZ Rafael"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "11074",
             "nombre": "GARRIDO Josep"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17730",
+            "nombre": "HERNÁNDEZ Luis"
+          },
+          {
+            "licencia": "17259",
+            "nombre": "GÓMEZ Rafael"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT SANT ANDREU -A-",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

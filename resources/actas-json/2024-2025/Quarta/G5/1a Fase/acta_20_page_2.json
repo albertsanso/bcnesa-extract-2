@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "MOLLET 2002 TT ''C''",
+      "nombre": "ATT CASTELLAR ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT CASTELLAR ''B''",
+      "nombre": "MOLLET 2002 TT ''C''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      },
-      "B": {
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "C": {
-        "licencia": "14670",
-        "nombre": "SÁNCHEZ Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "19081",
         "nombre": "GRAU Francesc"
@@ -55,6 +41,20 @@
         "licencia": "8286",
         "nombre": "GONZALEZ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "B": {
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
+      "C": {
+        "licencia": "14670",
+        "nombre": "SÁNCHEZ Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19081",
         "nombre": "GRAU Francesc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "19098",
         "nombre": "GONZALEZ Ignacio"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14670",
-        "nombre": "SÁNCHEZ Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8286",
         "nombre": "GONZALEZ Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "5427",
-        "nombre": "BERNAL Martin"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19098",
-        "nombre": "GONZALEZ Ignacio"
+        "letra": "C",
+        "licencia": "14670",
+        "nombre": "SÁNCHEZ Jordi"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 2
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "19098",
+        "nombre": "GONZALEZ Ignacio"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "5427",
+        "nombre": "BERNAL Martin"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14670",
-        "nombre": "SÁNCHEZ Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "19081",
         "nombre": "GRAU Francesc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14670",
+        "nombre": "SÁNCHEZ Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16953",
-        "nombre": "GARCIA Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "8286",
         "nombre": "GONZALEZ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16953",
+        "nombre": "GARCIA Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "MOLLET 2002 TT ''C''",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

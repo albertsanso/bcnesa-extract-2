@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "DECATHLON BADALONA",
+      "nombre": "CTT DELS HORTS 2000",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT DELS HORTS 2000",
+      "nombre": "DECATHLON BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "10049",
-        "nombre": "MAROTO Adrià"
-      },
-      "B": {
-        "licencia": "12059",
-        "nombre": "REQUENA Saúl"
-      },
-      "C": {
-        "licencia": "12392",
-        "nombre": "ALFONSO Pol"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13144",
         "nombre": "NANA Isaac"
@@ -55,6 +41,20 @@
         "licencia": "3964",
         "nombre": "PARDO Marti"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "10049",
+        "nombre": "MAROTO Adrià"
+      },
+      "B": {
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "C": {
+        "licencia": "12392",
+        "nombre": "ALFONSO Pol"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "10049",
-        "nombre": "MAROTO Adrià"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13144",
         "nombre": "NANA Isaac"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12059",
-        "nombre": "REQUENA Saúl"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7652",
-        "nombre": "SANCHEZ Fernando"
+        "letra": "A",
+        "licencia": "10049",
+        "nombre": "MAROTO Adrià"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7652",
+        "nombre": "SANCHEZ Fernando"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "12392",
-        "nombre": "ALFONSO Pol"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3964",
         "nombre": "PARDO Marti"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12392",
+        "nombre": "ALFONSO Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "10049",
-        "nombre": "MAROTO Adrià"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "7652",
         "nombre": "SANCHEZ Fernando"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "10049",
+        "nombre": "MAROTO Adrià"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "12392",
-        "nombre": "ALFONSO Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13144",
         "nombre": "NANA Isaac"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "12392",
+        "nombre": "ALFONSO Pol"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12059",
-        "nombre": "REQUENA Saúl"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3964",
         "nombre": "PARDO Marti"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12059",
+        "nombre": "REQUENA Saúl"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT DELS HORTS 2000",
     "marcador_partidos": {
-      "local": 6,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 6
+    }
   },
   "acta_protestada": false
 }

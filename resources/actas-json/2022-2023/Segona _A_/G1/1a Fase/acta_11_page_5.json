@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CETT ESPARREGUERA",
+      "nombre": "CTT CASTELLDEFELS",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CASTELLDEFELS",
+      "nombre": "CETT ESPARREGUERA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12831",
-        "nombre": "HERNÁNDEZ Pol"
-      },
-      "B": {
-        "licencia": "14208",
-        "nombre": "BERNAUS Carles"
-      },
-      "C": {
-        "licencia": "8480",
-        "nombre": "SANCHEZ Ruben"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "6463",
         "nombre": "PANTOJO Raul"
@@ -55,20 +41,24 @@
         "licencia": "3458",
         "nombre": "RODRIGUEZ Miguel Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12831",
+        "nombre": "HERNÁNDEZ Pol"
+      },
+      "B": {
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
+      },
+      "C": {
+        "licencia": "8480",
+        "nombre": "SANCHEZ Ruben"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "12831",
-        "nombre": "HERNÁNDEZ Pol"
-      },
-      {
-        "licencia": "14208",
-        "nombre": "BERNAUS Carles"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "17045",
         "nombre": "DE LA CALLE Albert"
@@ -76,6 +66,16 @@
       {
         "licencia": "3458",
         "nombre": "RODRIGUEZ Miguel Angel"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12831",
+        "nombre": "HERNÁNDEZ Pol"
+      },
+      {
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
       }
     ]
   },
@@ -85,89 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12831",
-        "nombre": "HERNÁNDEZ Pol"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6463",
         "nombre": "PANTOJO Raul"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14208",
-        "nombre": "BERNAUS Carles"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "17045",
-        "nombre": "DE LA CALLE Albert"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "8480",
-        "nombre": "SANCHEZ Ruben"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "3458",
-        "nombre": "RODRIGUEZ Miguel Angel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "12831",
         "nombre": "HERNÁNDEZ Pol"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "17045",
-        "nombre": "DE LA CALLE Albert"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +100,81 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "3458",
+        "nombre": "RODRIGUEZ Miguel Angel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8480",
+        "nombre": "SANCHEZ Ruben"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "17045",
+        "nombre": "DE LA CALLE Albert"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12831",
+        "nombre": "HERNÁNDEZ Pol"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "8480",
-        "nombre": "SANCHEZ Ruben"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "6463",
         "nombre": "PANTOJO Raul"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "8480",
+        "nombre": "SANCHEZ Ruben"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14208",
-        "nombre": "BERNAUS Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3458",
         "nombre": "RODRIGUEZ Miguel Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14208",
+        "nombre": "BERNAUS Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "12831",
-            "nombre": "HERNÁNDEZ Pol"
-          },
-          {
-            "licencia": "14208",
-            "nombre": "BERNAUS Carles"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "17045",
             "nombre": "DE LA CALLE Albert"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12831",
+            "nombre": "HERNÁNDEZ Pol"
+          },
+          {
+            "licencia": "14208",
+            "nombre": "BERNAUS Carles"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CASTELLDEFELS",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

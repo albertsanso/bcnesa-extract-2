@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT C. JEMA",
+      "nombre": "CTT POBLENOU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT POBLENOU",
+      "nombre": "TT C. JEMA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18959",
-        "nombre": "RUIZ Jorge"
-      },
-      "B": {
-        "licencia": "17054",
-        "nombre": "MARI Carlos"
-      },
-      "C": {
-        "licencia": "89",
-        "nombre": "GARCIA Angel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "11388",
         "nombre": "VENDRELL Pau"
@@ -55,6 +41,20 @@
         "licencia": "11509",
         "nombre": "VENDRELL Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18959",
+        "nombre": "RUIZ Jorge"
+      },
+      "B": {
+        "licencia": "17054",
+        "nombre": "MARI Carlos"
+      },
+      "C": {
+        "licencia": "89",
+        "nombre": "GARCIA Angel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18959",
-        "nombre": "RUIZ Jorge"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11388",
         "nombre": "VENDRELL Pau"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18959",
+        "nombre": "RUIZ Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "17054",
-        "nombre": "MARI Carlos"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4684",
         "nombre": "PAZOS Robert"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "89",
-        "nombre": "GARCIA Angel"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "11509",
-        "nombre": "VENDRELL Jordi"
+        "letra": "B",
+        "licencia": "17054",
+        "nombre": "MARI Carlos"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "11509",
+        "nombre": "VENDRELL Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "89",
+        "nombre": "GARCIA Angel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18959",
-        "nombre": "RUIZ Jorge"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "4684",
         "nombre": "PAZOS Robert"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18959",
+        "nombre": "RUIZ Jorge"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "89",
-        "nombre": "GARCIA Angel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "11388",
         "nombre": "VENDRELL Pau"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "89",
+        "nombre": "GARCIA Angel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17054",
-        "nombre": "MARI Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11509",
         "nombre": "VENDRELL Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17054",
+        "nombre": "MARI Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT POBLENOU",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

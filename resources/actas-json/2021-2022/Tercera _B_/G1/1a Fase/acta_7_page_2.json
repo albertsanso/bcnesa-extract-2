@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CASTELLGALÍ",
+      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "AGRUPACIÓ CONGRÉS ''B''",
+      "nombre": "CTT CASTELLGALÍ",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "15057",
-        "nombre": "CREUS Montserrat"
-      },
-      "B": {
-        "licencia": "15546",
-        "nombre": "CARRIQUE Enrique"
-      },
-      "C": {
-        "licencia": "13152",
-        "nombre": "COBELA Antonio"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "14617",
         "nombre": "CAMPO Daniel"
@@ -55,6 +41,20 @@
         "licencia": "13076",
         "nombre": "OLIVÉ Naim"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "15057",
+        "nombre": "CREUS Montserrat"
+      },
+      "B": {
+        "licencia": "15546",
+        "nombre": "CARRIQUE Enrique"
+      },
+      "C": {
+        "licencia": "13152",
+        "nombre": "COBELA Antonio"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "15057",
-        "nombre": "CREUS Montserrat"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14617",
         "nombre": "CAMPO Daniel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15057",
+        "nombre": "CREUS Montserrat"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "15546",
-        "nombre": "CARRIQUE Enrique"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11476",
         "nombre": "PEREZ Gerard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15546",
+        "nombre": "CARRIQUE Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13152",
-        "nombre": "COBELA Antonio"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13076",
         "nombre": "OLIVÉ Naim"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13152",
+        "nombre": "COBELA Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "15057",
-        "nombre": "CREUS Montserrat"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "11476",
         "nombre": "PEREZ Gerard"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "15057",
+        "nombre": "CREUS Montserrat"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13152",
-        "nombre": "COBELA Antonio"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "14617",
         "nombre": "CAMPO Daniel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13152",
+        "nombre": "COBELA Antonio"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15546",
-        "nombre": "CARRIQUE Enrique"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13076",
         "nombre": "OLIVÉ Naim"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15546",
+        "nombre": "CARRIQUE Enrique"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "AGRUPACIÓ CONGRÉS ''B''",
     "marcador_partidos": {
-      "local": 3,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 3
+    }
   },
   "acta_protestada": false
 }

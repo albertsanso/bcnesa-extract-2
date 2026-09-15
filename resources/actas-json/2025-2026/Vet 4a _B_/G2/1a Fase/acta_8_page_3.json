@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "CTT GRANOLLERS 'A'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT GRANOLLERS 'A'",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17852",
-        "nombre": "LOPEZ Xavi"
-      },
-      "B": {
-        "licencia": "10985",
-        "nombre": "CUADRADO Rodolfo"
-      },
-      "C": {
-        "licencia": "15995",
-        "nombre": "VIDAL Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "18618",
         "nombre": "NINOU Ramsés"
@@ -55,20 +41,24 @@
         "licencia": "19726",
         "nombre": "FA Ramon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17852",
+        "nombre": "LOPEZ Xavi"
+      },
+      "B": {
+        "licencia": "10985",
+        "nombre": "CUADRADO Rodolfo"
+      },
+      "C": {
+        "licencia": "15995",
+        "nombre": "VIDAL Xavier"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "17852",
-        "nombre": "LOPEZ Xavi"
-      },
-      {
-        "licencia": "10985",
-        "nombre": "CUADRADO Rodolfo"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "18618",
         "nombre": "NINOU Ramsés"
@@ -76,6 +66,16 @@
       {
         "licencia": "20299",
         "nombre": "FONT Pere"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "17852",
+        "nombre": "LOPEZ Xavi"
+      },
+      {
+        "licencia": "10985",
+        "nombre": "CUADRADO Rodolfo"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17852",
-        "nombre": "LOPEZ Xavi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18618",
         "nombre": "NINOU Ramsés"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17852",
+        "nombre": "LOPEZ Xavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "10985",
-        "nombre": "CUADRADO Rodolfo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "20299",
         "nombre": "FONT Pere"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10985",
+        "nombre": "CUADRADO Rodolfo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15995",
-        "nombre": "VIDAL Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19726",
         "nombre": "FA Ramon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15995",
+        "nombre": "VIDAL Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "17852",
-        "nombre": "LOPEZ Xavi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "20299",
         "nombre": "FONT Pere"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17852",
+        "nombre": "LOPEZ Xavi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15995",
-        "nombre": "VIDAL Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "18618",
         "nombre": "NINOU Ramsés"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15995",
+        "nombre": "VIDAL Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10985",
-        "nombre": "CUADRADO Rodolfo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19726",
         "nombre": "FA Ramon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10985",
+        "nombre": "CUADRADO Rodolfo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "17852",
-            "nombre": "LOPEZ Xavi"
-          },
-          {
-            "licencia": "10985",
-            "nombre": "CUADRADO Rodolfo"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "18618",
             "nombre": "NINOU Ramsés"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "17852",
+            "nombre": "LOPEZ Xavi"
+          },
+          {
+            "licencia": "10985",
+            "nombre": "CUADRADO Rodolfo"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT GRANOLLERS 'A'",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 15
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

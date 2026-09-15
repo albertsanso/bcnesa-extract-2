@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT SENTMENAT 1r3aCA2",
+      "nombre": "EL CERCLE TT GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "EL CERCLE TT GRÀCIA",
+      "nombre": "CTT SENTMENAT 1r3aCA2",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12906",
-        "nombre": "CRESPO Diego"
-      },
-      "B": {
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      },
-      "C": {
-        "licencia": "13065",
-        "nombre": "MARTINEZ Luis"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
@@ -55,20 +41,24 @@
         "licencia": "16303",
         "nombre": "BERNAT Lluis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      "B": {
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "C": {
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "12906",
-        "nombre": "CRESPO Diego"
-      },
-      {
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
@@ -76,6 +66,16 @@
       {
         "licencia": "12137",
         "nombre": "CALLEJA David"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
+      {
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12906",
-        "nombre": "CRESPO Diego"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "12137",
-        "nombre": "CALLEJA David"
+        "letra": "A",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "12137",
+        "nombre": "CALLEJA David"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "13065",
-        "nombre": "MARTINEZ Luis"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16303",
         "nombre": "BERNAT Lluis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12906",
-        "nombre": "CRESPO Diego"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "12137",
         "nombre": "CALLEJA David"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12906",
+        "nombre": "CRESPO Diego"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "13065",
-        "nombre": "MARTINEZ Luis"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "5411",
         "nombre": "CORTILLAS Isidre"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "13065",
+        "nombre": "MARTINEZ Luis"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "12154",
-        "nombre": "NOVA Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16303",
         "nombre": "BERNAT Lluis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "12154",
+        "nombre": "NOVA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "12906",
-            "nombre": "CRESPO Diego"
-          },
-          {
-            "licencia": "12154",
-            "nombre": "NOVA Xavier"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "5411",
             "nombre": "CORTILLAS Isidre"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "12906",
+            "nombre": "CRESPO Diego"
+          },
+          {
+            "licencia": "12154",
+            "nombre": "NOVA Xavier"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CERCLE TT GRÀCIA",
     "marcador_partidos": {
-      "local": 13,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 13
+    }
   },
   "acta_protestada": false
 }

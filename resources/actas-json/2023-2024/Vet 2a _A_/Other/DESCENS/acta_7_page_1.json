@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EL CIERVO ''B''",
+      "nombre": "LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS DE GRÀCIA",
+      "nombre": "EL CIERVO ''B''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "2486",
-        "nombre": "BLASCO Vicenç"
-      },
-      "B": {
-        "licencia": "16275",
-        "nombre": "ALDEA Manel"
-      },
-      "C": {
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "3332",
         "nombre": "CARBO Jose Mª"
@@ -55,6 +41,20 @@
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "2486",
+        "nombre": "BLASCO Vicenç"
+      },
+      "B": {
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
+      "C": {
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "2486",
-        "nombre": "BLASCO Vicenç"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3332",
         "nombre": "CARBO Jose Mª"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "16275",
-        "nombre": "ALDEA Manel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "417",
-        "nombre": "KRAWCZYK Guido"
+        "letra": "A",
+        "licencia": "2486",
+        "nombre": "BLASCO Vicenç"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "417",
+        "nombre": "KRAWCZYK Guido"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "2486",
-        "nombre": "BLASCO Vicenç"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "417",
         "nombre": "KRAWCZYK Guido"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "2486",
+        "nombre": "BLASCO Vicenç"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "3163",
-        "nombre": "CODINA Joan Carles"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "3332",
         "nombre": "CARBO Jose Mª"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "3163",
+        "nombre": "CODINA Joan Carles"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16275",
-        "nombre": "ALDEA Manel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "5171",
         "nombre": "RAMOS Carlos"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16275",
+        "nombre": "ALDEA Manel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "EL CIERVO ''B''",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 7
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

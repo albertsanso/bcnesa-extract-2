@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET 'B'",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "TT L'HOSPITALET 'B'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4682",
-        "nombre": "RIBERA Albert"
-      },
-      "B": {
-        "licencia": "2452",
-        "nombre": "ESPERT Nil"
-      },
-      "C": {
-        "licencia": "11592",
-        "nombre": "SANCHÍS Marc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "394",
         "nombre": "SERRA Josep"
@@ -55,6 +41,20 @@
         "licencia": "1105",
         "nombre": "ROSELLÓ Jordi"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4682",
+        "nombre": "RIBERA Albert"
+      },
+      "B": {
+        "licencia": "2452",
+        "nombre": "ESPERT Nil"
+      },
+      "C": {
+        "licencia": "11592",
+        "nombre": "SANCHÍS Marc"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4682",
-        "nombre": "RIBERA Albert"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "394",
         "nombre": "SERRA Josep"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4682",
+        "nombre": "RIBERA Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "2452",
-        "nombre": "ESPERT Nil"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "3022",
         "nombre": "SANTIAGO David Jose"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2452",
+        "nombre": "ESPERT Nil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "1105",
+        "nombre": "ROSELLÓ Jordi"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "11592",
         "nombre": "SANCHÍS Marc"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "3022",
+        "nombre": "SANTIAGO David Jose"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "1105",
-        "nombre": "ROSELLÓ Jordi"
+        "letra": "A",
+        "licencia": "4682",
+        "nombre": "RIBERA Albert"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "4682",
-        "nombre": "RIBERA Albert"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "3022",
-        "nombre": "SANTIAGO David Jose"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11592",
-        "nombre": "SANCHÍS Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "394",
         "nombre": "SERRA Josep"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11592",
+        "nombre": "SANCHÍS Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2452",
-        "nombre": "ESPERT Nil"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "1105",
         "nombre": "ROSELLÓ Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2452",
+        "nombre": "ESPERT Nil"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET 'B'",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

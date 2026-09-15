@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ELS AMICS TERRASSA 'A'",
+      "nombre": "CTT SENTMENAT - ACTIVIJOC",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SENTMENAT - ACTIVIJOC",
+      "nombre": "CTT ELS AMICS TERRASSA 'A'",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18003",
-        "nombre": "CHEN Yong"
-      },
-      "B": {
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "C": {
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12155",
         "nombre": "MASCLANS Jordi"
@@ -55,6 +41,20 @@
         "licencia": "13065",
         "nombre": "MARTINEZ Luis"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
+      "B": {
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
+      "C": {
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18003",
-        "nombre": "CHEN Yong"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12155",
         "nombre": "MASCLANS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6231",
         "nombre": "MATIAS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13065",
         "nombre": "MARTINEZ Luis"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18003",
-        "nombre": "CHEN Yong"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6231",
         "nombre": "MATIAS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18003",
+        "nombre": "CHEN Yong"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "851",
-        "nombre": "SERRES Jordi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12155",
         "nombre": "MASCLANS Jordi"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "851",
+        "nombre": "SERRES Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "8841",
-        "nombre": "PEREZ Raul"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13065",
         "nombre": "MARTINEZ Luis"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "8841",
+        "nombre": "PEREZ Raul"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT ELS AMICS TERRASSA 'A'",
     "marcador_partidos": {
-      "local": 16,
-      "visitante": 3
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 3,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

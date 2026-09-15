@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FORN BERTRAN BADALONA",
+      "nombre": "CTT SENTMENAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SENTMENAT",
+      "nombre": "FORN BERTRAN BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "11283",
-        "nombre": "RAVENTÓS Arnau"
-      },
-      "B": {
-        "licencia": "7304",
-        "nombre": "MACIA Nuria"
-      },
-      "C": {
-        "licencia": "1843",
-        "nombre": "NOGUERAS Joan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "530",
         "nombre": "ORTEGA Juan Antonio"
@@ -55,6 +41,20 @@
         "licencia": "884",
         "nombre": "GARCIA Richard"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
+      },
+      "B": {
+        "licencia": "7304",
+        "nombre": "MACIA Nuria"
+      },
+      "C": {
+        "licencia": "1843",
+        "nombre": "NOGUERAS Joan"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "11283",
-        "nombre": "RAVENTÓS Arnau"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "530",
         "nombre": "ORTEGA Juan Antonio"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7304",
-        "nombre": "MACIA Nuria"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "1410",
         "nombre": "ORTEGA Juan Manuel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7304",
+        "nombre": "MACIA Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,14 +114,39 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "licencia": "884",
+        "nombre": "GARCIA Richard"
+      },
+      "visitante": {
         "letra": "C",
         "licencia": "1843",
         "nombre": "NOGUERAS Joan"
       },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "1410",
+        "nombre": "ORTEGA Juan Manuel"
+      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "884",
-        "nombre": "GARCIA Richard"
+        "letra": "A",
+        "licencia": "11283",
+        "nombre": "RAVENTÓS Arnau"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,33 +155,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "11283",
-        "nombre": "RAVENTÓS Arnau"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "1410",
-        "nombre": "ORTEGA Juan Manuel"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "1843",
-        "nombre": "NOGUERAS Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "530",
         "nombre": "ORTEGA Juan Antonio"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "1843",
+        "nombre": "NOGUERAS Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7304",
-        "nombre": "MACIA Nuria"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "884",
         "nombre": "GARCIA Richard"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7304",
+        "nombre": "MACIA Nuria"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT SENTMENAT",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 17
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 17,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT CANET DE MAR",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "CTT CANET DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "18203",
-        "nombre": "MIRO Sergi"
-      },
-      "B": {
-        "licencia": "16961",
-        "nombre": "CABANES Edurne"
-      },
-      "C": {
-        "licencia": "16958",
-        "nombre": "CAPPI Xavier"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8568",
         "nombre": "RODA Martí"
@@ -55,20 +41,24 @@
         "licencia": "16646",
         "nombre": "CHECA Roberto"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "18203",
+        "nombre": "MIRO Sergi"
+      },
+      "B": {
+        "licencia": "16961",
+        "nombre": "CABANES Edurne"
+      },
+      "C": {
+        "licencia": "16958",
+        "nombre": "CAPPI Xavier"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "18203",
-        "nombre": "MIRO Sergi"
-      },
-      {
-        "licencia": "16958",
-        "nombre": "CAPPI Xavier"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "8568",
         "nombre": "RODA Martí"
@@ -76,6 +66,16 @@
       {
         "licencia": "16646",
         "nombre": "CHECA Roberto"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "18203",
+        "nombre": "MIRO Sergi"
+      },
+      {
+        "licencia": "16958",
+        "nombre": "CAPPI Xavier"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "18203",
-        "nombre": "MIRO Sergi"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8568",
         "nombre": "RODA Martí"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18203",
+        "nombre": "MIRO Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "16961",
-        "nombre": "CABANES Edurne"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15444",
         "nombre": "ABELLA Roger"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16961",
+        "nombre": "CABANES Edurne"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16958",
-        "nombre": "CAPPI Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16646",
         "nombre": "CHECA Roberto"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16958",
+        "nombre": "CAPPI Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "18203",
-        "nombre": "MIRO Sergi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15444",
         "nombre": "ABELLA Roger"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "18203",
+        "nombre": "MIRO Sergi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16958",
-        "nombre": "CAPPI Xavier"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8568",
         "nombre": "RODA Martí"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16958",
+        "nombre": "CAPPI Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "16961",
-        "nombre": "CABANES Edurne"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16646",
         "nombre": "CHECA Roberto"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "16961",
+        "nombre": "CABANES Edurne"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "18203",
-            "nombre": "MIRO Sergi"
-          },
-          {
-            "licencia": "16958",
-            "nombre": "CAPPI Xavier"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "8568",
             "nombre": "RODA Martí"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "18203",
+            "nombre": "MIRO Sergi"
+          },
+          {
+            "licencia": "16958",
+            "nombre": "CAPPI Xavier"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT CANET DE MAR",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 12
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 12,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "CTT SENTMENAT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT SENTMENAT",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      "B": {
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "C": {
-        "licencia": "7970",
-        "nombre": "GIBERT Marc"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "7931",
         "nombre": "TORAL Alex"
@@ -55,20 +41,24 @@
         "licencia": "7726",
         "nombre": "CAIRO Guillem"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
+      "B": {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
+      "C": {
+        "licencia": "7970",
+        "nombre": "GIBERT Marc"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      {
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "6231",
         "nombre": "MATIAS Jordi"
@@ -76,6 +66,16 @@
       {
         "licencia": "7726",
         "nombre": "CAIRO Guillem"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
+      {
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
       }
     ]
   },
@@ -85,24 +85,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7931",
         "nombre": "TORAL Alex"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -110,21 +110,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6231",
         "nombre": "MATIAS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,24 +135,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "7970",
-        "nombre": "GIBERT Marc"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7726",
         "nombre": "CAIRO Guillem"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7970",
+        "nombre": "GIBERT Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -160,21 +160,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "7971",
-        "nombre": "BOSCH Miquel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "6231",
         "nombre": "MATIAS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "7971",
+        "nombre": "BOSCH Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "7970",
-        "nombre": "GIBERT Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "7931",
         "nombre": "TORAL Alex"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "7970",
+        "nombre": "GIBERT Marc"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "7713",
-        "nombre": "FARELL Jordi"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "7726",
         "nombre": "CAIRO Guillem"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "7713",
+        "nombre": "FARELL Jordi"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "7971",
-            "nombre": "BOSCH Miquel"
-          },
-          {
-            "licencia": "7713",
-            "nombre": "FARELL Jordi"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "6231",
             "nombre": "MATIAS Jordi"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "7971",
+            "nombre": "BOSCH Miquel"
+          },
+          {
+            "licencia": "7713",
+            "nombre": "FARELL Jordi"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "FALCONS DE SABADELL A.E.",
     "marcador_partidos": {
-      "local": 14,
-      "visitante": 13
+      "local": 3,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 14
+    }
   },
   "acta_protestada": false
 }

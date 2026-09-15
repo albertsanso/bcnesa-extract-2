@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ATT PREMIÀ DE MAR",
+      "nombre": "TERMOTUR CALELLA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TERMOTUR CALELLA",
+      "nombre": "ATT PREMIÀ DE MAR",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12324",
-        "nombre": "NUÑEZ Marc"
-      },
-      "B": {
-        "licencia": "6309",
-        "nombre": "PEREZ Miguel"
-      },
-      "C": {
-        "licencia": "114",
-        "nombre": "NAVARRO Juan"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "150",
         "nombre": "FONT Jordi"
@@ -55,6 +41,20 @@
         "licencia": "6057",
         "nombre": "VILLARET Mateu"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12324",
+        "nombre": "NUÑEZ Marc"
+      },
+      "B": {
+        "licencia": "6309",
+        "nombre": "PEREZ Miguel"
+      },
+      "C": {
+        "licencia": "114",
+        "nombre": "NAVARRO Juan"
+      }
     }
   },
   "dobles": null,
@@ -64,139 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12324",
-        "nombre": "NUÑEZ Marc"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "150",
         "nombre": "FONT Jordi"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "6309",
-        "nombre": "PEREZ Miguel"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "7773",
-        "nombre": "PEREZ Claudia"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "114",
-        "nombre": "NAVARRO Juan"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6057",
-        "nombre": "VILLARET Mateu"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "licencia": "12324",
         "nombre": "NUÑEZ Marc"
-      },
-      "visitante": {
-        "letra": "X",
-        "licencia": "7773",
-        "nombre": "PEREZ Claudia"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "licencia": "114",
-        "nombre": "NAVARRO Juan"
-      },
-      "visitante": {
-        "letra": "Y",
-        "licencia": "150",
-        "nombre": "FONT Jordi"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "licencia": "6309",
-        "nombre": "PEREZ Miguel"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "6057",
-        "nombre": "VILLARET Mateu"
       },
       "sets": [],
       "resultado_juegos": {
@@ -206,17 +81,145 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 5
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7773",
+        "nombre": "PEREZ Claudia"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6309",
+        "nombre": "PEREZ Miguel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6057",
+        "nombre": "VILLARET Mateu"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "114",
+        "nombre": "NAVARRO Juan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "7773",
+        "nombre": "PEREZ Claudia"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12324",
+        "nombre": "NUÑEZ Marc"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "licencia": "150",
+        "nombre": "FONT Jordi"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "114",
+        "nombre": "NAVARRO Juan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "6057",
+        "nombre": "VILLARET Mateu"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "6309",
+        "nombre": "PEREZ Miguel"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
   "resultado_final": {
     "ganador": "TERMOTUR CALELLA",
     "marcador_partidos": {
-      "local": 7,
-      "visitante": 15
+      "local": 5,
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 7
+    }
   },
   "acta_protestada": false
 }

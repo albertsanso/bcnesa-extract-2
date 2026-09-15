@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CTT VILAFRANCA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT VILAFRANCA",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "17228",
-        "nombre": "AQUILUÉ David"
-      },
-      "B": {
-        "licencia": "15259",
-        "nombre": "PASTO Joan"
-      },
-      "C": {
-        "licencia": "15798",
-        "nombre": "DONAIRE Bruno"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "17819",
         "nombre": "FONT Martí"
@@ -55,6 +41,20 @@
         "licencia": "11860",
         "nombre": "MARTORELL Eloy"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
+      "B": {
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      },
+      "C": {
+        "licencia": "15798",
+        "nombre": "DONAIRE Bruno"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "17228",
-        "nombre": "AQUILUÉ David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17819",
         "nombre": "FONT Martí"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "15259",
-        "nombre": "PASTO Joan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6656",
-        "nombre": "ALVAREZ Antonio"
+        "letra": "A",
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6656",
+        "nombre": "ALVAREZ Antonio"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "15798",
-        "nombre": "DONAIRE Bruno"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11860",
         "nombre": "MARTORELL Eloy"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "17228",
-        "nombre": "AQUILUÉ David"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "6656",
-        "nombre": "ALVAREZ Antonio"
+        "letra": "C",
+        "licencia": "15798",
+        "nombre": "DONAIRE Bruno"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "6656",
+        "nombre": "ALVAREZ Antonio"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "17228",
+        "nombre": "AQUILUÉ David"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "15798",
-        "nombre": "DONAIRE Bruno"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "17819",
         "nombre": "FONT Martí"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "15798",
+        "nombre": "DONAIRE Bruno"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "15259",
-        "nombre": "PASTO Joan"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "11860",
         "nombre": "MARTORELL Eloy"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS D'HORTA TT",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 9
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 9,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

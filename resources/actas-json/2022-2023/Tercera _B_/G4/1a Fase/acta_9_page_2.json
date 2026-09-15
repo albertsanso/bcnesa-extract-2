@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "UE SANT CUGAT",
+      "nombre": "TT SANT ANDREU",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT SANT ANDREU",
+      "nombre": "UE SANT CUGAT",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14914",
-        "nombre": "GONZALEZ Mar"
-      },
-      "B": {
-        "licencia": "14325",
-        "nombre": "AGULLÓ Gerard"
-      },
-      "C": {
-        "licencia": "11381",
-        "nombre": "AMAGO Carla"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "12955",
         "nombre": "TO Pere"
@@ -55,6 +41,20 @@
         "licencia": "13986",
         "nombre": "CASTILLA Hugo"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14914",
+        "nombre": "GONZALEZ Mar"
+      },
+      "B": {
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
+      "C": {
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      }
     }
   },
   "dobles": null,
@@ -64,64 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14914",
-        "nombre": "GONZALEZ Mar"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12955",
         "nombre": "TO Pere"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "14325",
-        "nombre": "AGULLÓ Gerard"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "16354",
-        "nombre": "ROMERA Marc"
-      },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "11381",
-        "nombre": "AMAGO Carla"
-      },
-      "visitante": {
-        "letra": "Z",
-        "licencia": "13986",
-        "nombre": "CASTILLA Hugo"
+        "letra": "A",
+        "licencia": "14914",
+        "nombre": "GONZALEZ Mar"
       },
       "sets": [],
       "resultado_juegos": {
@@ -131,7 +81,57 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "16354",
+        "nombre": "ROMERA Marc"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "13986",
+        "nombre": "CASTILLA Hugo"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14914",
-        "nombre": "GONZALEZ Mar"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "16354",
         "nombre": "ROMERA Marc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14914",
+        "nombre": "GONZALEZ Mar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "11381",
-        "nombre": "AMAGO Carla"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "12955",
         "nombre": "TO Pere"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "11381",
+        "nombre": "AMAGO Carla"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,24 +189,24 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14325",
-        "nombre": "AGULLÓ Gerard"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13986",
         "nombre": "CASTILLA Hugo"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14325",
+        "nombre": "AGULLÓ Gerard"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],
@@ -214,9 +214,12 @@
     "ganador": "TT SANT ANDREU",
     "marcador_partidos": {
       "local": 5,
-      "visitante": 15
+      "visitante": 1
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 5
+    }
   },
   "acta_protestada": false
 }

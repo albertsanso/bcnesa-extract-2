@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "ASS. ESPORTIVA SANT LLUIS",
+      "nombre": "CTT JOSEP M. PALES",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT JOSEP M. PALES",
+      "nombre": "ASS. ESPORTIVA SANT LLUIS",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "4846",
-        "nombre": "FERRER Joel"
-      },
-      "B": {
-        "licencia": "14904",
-        "nombre": "VIADER Pere"
-      },
-      "C": {
-        "licencia": "16353",
-        "nombre": "NAVAS Miguel Ángel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "4979",
         "nombre": "RIBERA Victor"
@@ -55,6 +41,20 @@
         "licencia": "6518",
         "nombre": "SJOBERG Olov"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "4846",
+        "nombre": "FERRER Joel"
+      },
+      "B": {
+        "licencia": "14904",
+        "nombre": "VIADER Pere"
+      },
+      "C": {
+        "licencia": "16353",
+        "nombre": "NAVAS Miguel Ángel"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "4846",
-        "nombre": "FERRER Joel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4979",
         "nombre": "RIBERA Victor"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4846",
+        "nombre": "FERRER Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14904",
-        "nombre": "VIADER Pere"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18962",
         "nombre": "BALCELLS Jordi"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14904",
+        "nombre": "VIADER Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16353",
-        "nombre": "NAVAS Miguel Ángel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6518",
         "nombre": "SJOBERG Olov"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16353",
+        "nombre": "NAVAS Miguel Ángel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "4846",
-        "nombre": "FERRER Joel"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18962",
         "nombre": "BALCELLS Jordi"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "4846",
+        "nombre": "FERRER Joel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16353",
-        "nombre": "NAVAS Miguel Ángel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "4979",
         "nombre": "RIBERA Victor"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16353",
+        "nombre": "NAVAS Miguel Ángel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14904",
-        "nombre": "VIADER Pere"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "6518",
         "nombre": "SJOBERG Olov"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14904",
+        "nombre": "VIADER Pere"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],
   "resultado_final": {
     "ganador": "ASS. ESPORTIVA SANT LLUIS",
     "marcador_partidos": {
-      "local": 18,
-      "visitante": 4
+      "local": 0,
+      "visitante": 6
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 4,
+      "visitante": 18
+    }
   },
   "acta_protestada": false
 }

@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT GRANOLLERS ''A''",
+      "nombre": "CTT CANET DE MAR",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CTT CANET DE MAR",
+      "nombre": "CTT GRANOLLERS ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      },
-      "B": {
-        "licencia": "17229",
-        "nombre": "GARCÍA Xavier"
-      },
-      "C": {
-        "licencia": "17702",
-        "nombre": "ILLA Miquel"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "16960",
         "nombre": "SANS Joan"
@@ -55,6 +41,20 @@
         "licencia": "16959",
         "nombre": "CANET Zenon"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "1156",
+        "nombre": "SELVA David"
+      },
+      "B": {
+        "licencia": "17229",
+        "nombre": "GARCÍA Xavier"
+      },
+      "C": {
+        "licencia": "17702",
+        "nombre": "ILLA Miquel"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16960",
         "nombre": "SANS Joan"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17229",
-        "nombre": "GARCÍA Xavier"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "127",
-        "nombre": "MORILLAS Pere"
+        "letra": "A",
+        "licencia": "1156",
+        "nombre": "SELVA David"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "127",
+        "nombre": "MORILLAS Pere"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17229",
+        "nombre": "GARCÍA Xavier"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "17702",
-        "nombre": "ILLA Miquel"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16959",
         "nombre": "CANET Zenon"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17702",
+        "nombre": "ILLA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,21 +139,21 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "1156",
-        "nombre": "SELVA David"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "127",
         "nombre": "MORILLAS Pere"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "1156",
+        "nombre": "SELVA David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "17702",
-        "nombre": "ILLA Miquel"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "16960",
         "nombre": "SANS Joan"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "17702",
+        "nombre": "ILLA Miquel"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17229",
-        "nombre": "GARCÍA Xavier"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "16959",
         "nombre": "CANET Zenon"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17229",
+        "nombre": "GARCÍA Xavier"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT GRANOLLERS ''A''",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 7
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 7,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

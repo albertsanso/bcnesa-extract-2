@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "FALCONS DE SABADELL A.E.",
+      "nombre": "TT L'HOSPITALET 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "TT L'HOSPITALET 'B'",
+      "nombre": "FALCONS DE SABADELL A.E.",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "9044",
-        "nombre": "VEGA Lucia"
-      },
-      "B": {
-        "licencia": "14174",
-        "nombre": "RAMÍREZ Rafael"
-      },
-      "C": {
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "8057",
         "nombre": "ORTEGA Alejandro"
@@ -55,6 +41,20 @@
         "licencia": "3310",
         "nombre": "RUBIO Oriol"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "9044",
+        "nombre": "VEGA Lucia"
+      },
+      "B": {
+        "licencia": "14174",
+        "nombre": "RAMÍREZ Rafael"
+      },
+      "C": {
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "9044",
-        "nombre": "VEGA Lucia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8057",
         "nombre": "ORTEGA Alejandro"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "9044",
+        "nombre": "VEGA Lucia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,21 +89,21 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14174",
-        "nombre": "RAMÍREZ Rafael"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14501",
         "nombre": "LORENZO Christian"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14174",
+        "nombre": "RAMÍREZ Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3310",
         "nombre": "RUBIO Oriol"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "9044",
-        "nombre": "VEGA Lucia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "14501",
         "nombre": "LORENZO Christian"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "9044",
+        "nombre": "VEGA Lucia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "18268",
-        "nombre": "CAMBRA Raul Alejandro"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "8057",
         "nombre": "ORTEGA Alejandro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "18268",
+        "nombre": "CAMBRA Raul Alejandro"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14174",
-        "nombre": "RAMÍREZ Rafael"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "3310",
         "nombre": "RUBIO Oriol"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14174",
+        "nombre": "RAMÍREZ Rafael"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET 'B'",
     "marcador_partidos": {
-      "local": 9,
-      "visitante": 13
+      "local": 4,
+      "visitante": 2
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 9
+    }
   },
   "acta_protestada": false
 }

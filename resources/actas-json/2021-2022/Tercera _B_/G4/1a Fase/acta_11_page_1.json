@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CLUB ARIEL ''A''",
+      "nombre": "LLUÏSOS D'HORTA TT",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT",
+      "nombre": "CLUB ARIEL ''A''",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14982",
-        "nombre": "ALEGRE Joan"
-      },
-      "B": {
-        "licencia": "10959",
-        "nombre": "GRANADA Pilar"
-      },
-      "C": {
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15798",
         "nombre": "DONAIRE Bruno"
@@ -55,20 +41,24 @@
         "licencia": "13171",
         "nombre": "SOLA Mei"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14982",
+        "nombre": "ALEGRE Joan"
+      },
+      "B": {
+        "licencia": "10959",
+        "nombre": "GRANADA Pilar"
+      },
+      "C": {
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "licencia": "10959",
-        "nombre": "GRANADA Pilar"
-      },
-      {
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      }
-    ],
-    "visitante": [
       {
         "licencia": "15798",
         "nombre": "DONAIRE Bruno"
@@ -76,6 +66,16 @@
       {
         "licencia": "15259",
         "nombre": "PASTO Joan"
+      }
+    ],
+    "visitante": [
+      {
+        "licencia": "10959",
+        "nombre": "GRANADA Pilar"
+      },
+      {
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
       }
     ]
   },
@@ -85,39 +85,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14982",
-        "nombre": "ALEGRE Joan"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15798",
         "nombre": "DONAIRE Bruno"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "10959",
-        "nombre": "GRANADA Pilar"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15259",
-        "nombre": "PASTO Joan"
+        "letra": "A",
+        "licencia": "14982",
+        "nombre": "ALEGRE Joan"
       },
       "sets": [],
       "resultado_juegos": {
@@ -125,6 +100,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10959",
+        "nombre": "GRANADA Pilar"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -135,39 +135,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13171",
         "nombre": "SOLA Mei"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "14982",
-        "nombre": "ALEGRE Joan"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "15259",
-        "nombre": "PASTO Joan"
+        "letra": "C",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
       },
       "sets": [],
       "resultado_juegos": {
@@ -175,6 +150,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "15259",
+        "nombre": "PASTO Joan"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14982",
+        "nombre": "ALEGRE Joan"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -185,24 +185,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "14984",
-        "nombre": "GONZALEZ Francisco"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15798",
         "nombre": "DONAIRE Bruno"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "14984",
+        "nombre": "GONZALEZ Francisco"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -210,21 +210,21 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "10959",
-        "nombre": "GRANADA Pilar"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "13171",
         "nombre": "SOLA Mei"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "10959",
+        "nombre": "GRANADA Pilar"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -238,19 +238,6 @@
         "letra": "Db",
         "jugadores": [
           {
-            "licencia": "10959",
-            "nombre": "GRANADA Pilar"
-          },
-          {
-            "licencia": "14984",
-            "nombre": "GONZALEZ Francisco"
-          }
-        ]
-      },
-      "visitante": {
-        "letra": "Db",
-        "jugadores": [
-          {
             "licencia": "15798",
             "nombre": "DONAIRE Bruno"
           },
@@ -260,25 +247,41 @@
           }
         ]
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "licencia": "10959",
+            "nombre": "GRANADA Pilar"
+          },
+          {
+            "licencia": "14984",
+            "nombre": "GONZALEZ Francisco"
+          }
+        ]
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],
   "resultado_final": {
     "ganador": "LLUÏSOS D'HORTA TT",
     "marcador_partidos": {
-      "local": 11,
-      "visitante": 14
+      "local": 4,
+      "visitante": 3
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 14,
+      "visitante": 11
+    }
   },
   "acta_protestada": false
 }

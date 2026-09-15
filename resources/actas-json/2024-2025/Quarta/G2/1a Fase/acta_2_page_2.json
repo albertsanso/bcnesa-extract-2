@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "TT L'HOSPITALET",
+      "nombre": "LLUÏSOS D'HORTA TT ''B''",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "LLUÏSOS D'HORTA TT ''B''",
+      "nombre": "TT L'HOSPITALET",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "14501",
-        "nombre": "LORENZO Christian"
-      },
-      "B": {
-        "licencia": "17126",
-        "nombre": "CLUSELLAS Albert"
-      },
-      "C": {
-        "licencia": "16757",
-        "nombre": "PAGES Eric"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15810",
         "nombre": "MUÑOZ Jose Manuel"
@@ -55,6 +41,20 @@
         "licencia": "19052",
         "nombre": "PALACIOS Miguel Angel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "14501",
+        "nombre": "LORENZO Christian"
+      },
+      "B": {
+        "licencia": "17126",
+        "nombre": "CLUSELLAS Albert"
+      },
+      "C": {
+        "licencia": "16757",
+        "nombre": "PAGES Eric"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "14501",
-        "nombre": "LORENZO Christian"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15810",
         "nombre": "MUÑOZ Jose Manuel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "17126",
-        "nombre": "CLUSELLAS Albert"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "18177",
-        "nombre": "MARTINEZ Jaume"
+        "letra": "A",
+        "licencia": "14501",
+        "nombre": "LORENZO Christian"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "18177",
+        "nombre": "MARTINEZ Jaume"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17126",
+        "nombre": "CLUSELLAS Albert"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "16757",
-        "nombre": "PAGES Eric"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19052",
         "nombre": "PALACIOS Miguel Angel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16757",
+        "nombre": "PAGES Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "14501",
-        "nombre": "LORENZO Christian"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "18177",
         "nombre": "MARTINEZ Jaume"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "14501",
+        "nombre": "LORENZO Christian"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "16757",
-        "nombre": "PAGES Eric"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15810",
         "nombre": "MUÑOZ Jose Manuel"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "16757",
+        "nombre": "PAGES Eric"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "17126",
-        "nombre": "CLUSELLAS Albert"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "19052",
         "nombre": "PALACIOS Miguel Angel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "17126",
+        "nombre": "CLUSELLAS Albert"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "TT L'HOSPITALET",
     "marcador_partidos": {
-      "local": 16,
+      "local": 1,
       "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 5,
+      "visitante": 16
+    }
   },
   "acta_protestada": false
 }

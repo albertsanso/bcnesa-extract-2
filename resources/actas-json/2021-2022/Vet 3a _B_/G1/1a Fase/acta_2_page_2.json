@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT ATENEU 1882",
+      "nombre": "PauFolchFisio - LLUÏSOS DE GRÀCIA",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "PauFolchFisio - LLUÏSOS DE GRÀCIA",
+      "nombre": "CTT ATENEU 1882",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "220",
-        "nombre": "INFANTE Julia"
-      },
-      "B": {
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      },
-      "C": {
-        "licencia": "4523",
-        "nombre": "OSORIO David"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "15072",
         "nombre": "FERREIRO Ricardo"
@@ -55,6 +41,20 @@
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "220",
+        "nombre": "INFANTE Julia"
+      },
+      "B": {
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
+      "C": {
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "220",
-        "nombre": "INFANTE Julia"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15072",
         "nombre": "FERREIRO Ricardo"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "220",
+        "nombre": "INFANTE Julia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -89,24 +89,24 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8245",
         "nombre": "MESTRES Enric"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -114,24 +114,24 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "4523",
-        "nombre": "OSORIO David"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "220",
-        "nombre": "INFANTE Julia"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "8245",
         "nombre": "MESTRES Enric"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "220",
+        "nombre": "INFANTE Julia"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "4523",
-        "nombre": "OSORIO David"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "15072",
         "nombre": "FERREIRO Ricardo"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "4523",
+        "nombre": "OSORIO David"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "4650",
-        "nombre": "MUÑOZ Andreu"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10101",
         "nombre": "LLADÓ Albert"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "4650",
+        "nombre": "MUÑOZ Andreu"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],
   "resultado_final": {
     "ganador": "PauFolchFisio - LLUÏSOS DE GRÀCIA",
     "marcador_partidos": {
-      "local": 4,
-      "visitante": 18
+      "local": 6,
+      "visitante": 0
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 18,
+      "visitante": 4
+    }
   },
   "acta_protestada": false
 }

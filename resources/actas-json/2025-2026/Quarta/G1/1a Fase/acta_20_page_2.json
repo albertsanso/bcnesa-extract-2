@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "CTT VILANOVA I LA GELTRU",
+      "nombre": "CPP IGUALADA 'B'",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CPP IGUALADA 'B'",
+      "nombre": "CTT VILANOVA I LA GELTRU",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "19074",
-        "nombre": "SAUMELL Mario"
-      },
-      "B": {
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
-      "C": {
-        "licencia": "20075",
-        "nombre": "GIRONA Marti"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "21089",
         "nombre": "GEL Alejandro"
@@ -55,6 +41,20 @@
         "licencia": "17991",
         "nombre": "BRUNET Quim"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "19074",
+        "nombre": "SAUMELL Mario"
+      },
+      "B": {
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
+      "C": {
+        "licencia": "20075",
+        "nombre": "GIRONA Marti"
+      }
     }
   },
   "dobles": null,
@@ -64,39 +64,14 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "19074",
-        "nombre": "SAUMELL Mario"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "21089",
         "nombre": "GEL Alejandro"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19304",
-        "nombre": "TARRAGO Elsa"
+        "letra": "A",
+        "licencia": "19074",
+        "nombre": "SAUMELL Mario"
       },
       "sets": [],
       "resultado_juegos": {
@@ -104,6 +79,31 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "19304",
+        "nombre": "TARRAGO Elsa"
+      },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -114,39 +114,14 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "licencia": "20075",
-        "nombre": "GIRONA Marti"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17991",
         "nombre": "BRUNET Quim"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "licencia": "19074",
-        "nombre": "SAUMELL Mario"
-      },
       "visitante": {
-        "letra": "X",
-        "licencia": "19304",
-        "nombre": "TARRAGO Elsa"
+        "letra": "C",
+        "licencia": "20075",
+        "nombre": "GIRONA Marti"
       },
       "sets": [],
       "resultado_juegos": {
@@ -154,6 +129,31 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "licencia": "19304",
+        "nombre": "TARRAGO Elsa"
+      },
+      "visitante": {
+        "letra": "A",
+        "licencia": "19074",
+        "nombre": "SAUMELL Mario"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "20075",
-        "nombre": "GIRONA Marti"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "21089",
         "nombre": "GEL Alejandro"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "20075",
+        "nombre": "GIRONA Marti"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "2432",
-        "nombre": "RUIZ Carlos"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "17991",
         "nombre": "BRUNET Quim"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "2432",
+        "nombre": "RUIZ Carlos"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],
   "resultado_final": {
     "ganador": "CTT VILANOVA I LA GELTRU",
     "marcador_partidos": {
-      "local": 12,
-      "visitante": 6
+      "local": 2,
+      "visitante": 4
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 12
+    }
   },
   "acta_protestada": false
 }

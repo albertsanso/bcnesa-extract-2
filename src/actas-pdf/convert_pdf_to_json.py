@@ -8,6 +8,7 @@ import json
 import logging
 import re
 import sys
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -85,6 +86,54 @@ def player(licence: str, name: str) -> dict[str, str]:
     return {"licencia": licence, "nombre": name}
 
 
+def normalise_name(value: str) -> str:
+    return re.sub(r"[^A-Z0-9]", "", unicodedata.normalize("NFKD", value).upper())
+
+
+def common_prefix_length(left: str, right: str) -> int:
+    length = 0
+    for left_char, right_char in zip(left, right):
+        if left_char != right_char:
+            break
+        length += 1
+    return length
+
+
+def abc_is_home(header_names: str, abc_team: str, xyz_team: str, games_line: tuple[int, int] | None,
+                abc_games: int, xyz_games: int) -> bool | None:
+    """Tell whether the ABC team is the home team.
+
+    The ABC/XYZ line names the alignment sides, while the header lists home then away with no
+    delimiter (and sometimes truncated), and the line after "Jocs" holds games won as home/away.
+    The games line decides unless the match is tied; the header prefix decides otherwise.
+    """
+    if games_line and abc_games != xyz_games:
+        if games_line == (abc_games, xyz_games):
+            return True
+        if games_line == (xyz_games, abc_games):
+            return False
+    names = normalise_name(header_names)
+    abc_prefix = common_prefix_length(names, normalise_name(abc_team))
+    xyz_prefix = common_prefix_length(names, normalise_name(xyz_team))
+    if abc_prefix != xyz_prefix:
+        return abc_prefix > xyz_prefix
+    return None
+
+
+def swap_score(score: dict[str, Any] | None) -> dict[str, Any] | None:
+    return {"local": score["visitante"], "visitante": score["local"]} if score else score
+
+
+def swap_sides(game: dict[str, Any]) -> dict[str, Any]:
+    swapped = dict(game)
+    swapped["local"], swapped["visitante"] = game["visitante"], game["local"]
+    swapped["sets"] = [{"set": item["set"], **swap_score(item)} for item in game["sets"]]
+    swapped["resultado_juegos"] = swap_score(game["resultado_juegos"])
+    if game["ganador"]:
+        swapped["ganador"] = "visitante" if game["ganador"] == "local" else "local"
+    return swapped
+
+
 def parse_match(text: str, relative_path: Path) -> dict[str, Any]:
     if len(relative_path.parts) != 5:
         raise ValueError("PDF path must have season/category/group/phase/filename components")
@@ -108,9 +157,6 @@ def parse_match(text: str, relative_path: Path) -> dict[str, Any]:
     if not team_match:
         raise ValueError("team/alignment line not found")
     abc_team, xyz_team = team_match.groups()
-    # The ABC/XYZ line identifies the alignment side; the header has two team names
-    # but no delimiter, so the side names are the reliable source for this layout.
-    local_name, visitor_name = abc_team, xyz_team
     alignments: dict[str, dict[str, dict[str, str]]] = {"local": {}, "visitante": {}}
     games: list[dict[str, Any]] = []
     row_pattern = re.compile(r"([ABC])\s+(\d+)\s+(.+?)\s+([XYZ])\s+(\d+)\s+(.+?)\s+(\d+)\s+(\d+)$")
@@ -142,16 +188,41 @@ def parse_match(text: str, relative_path: Path) -> dict[str, Any]:
         doubles = {"local": double_pairs[0][0], "visitante": double_pairs[0][1]}
     if len(alignments["local"]) != 3 or len(alignments["visitante"]) != 3:
         raise ValueError("could not identify three players for each team")
-    final_line = next((line for line in reversed(lines) if re.search(r"\bJocs\s+\d+\s+\d+", line, re.I)), "")
-    final_match = re.search(r"Jocs\s+(\d+)\s+(\d+)", final_line, re.I)
-    final_games = {"local": sum(g["resultado_juegos"]["local"] == 3 for g in games if g["resultado_juegos"]), "visitante": sum(g["resultado_juegos"]["visitante"] == 3 for g in games if g["resultado_juegos"])}
-    if final_match:
-        final_games = {"local": int(final_match.group(1)), "visitante": int(final_match.group(2))}
-    winner = local_name if final_games["local"] > final_games["visitante"] else visitor_name if final_games["visitante"] > final_games["local"] else None
+
+    # "Jocs" carries set totals in ABC/XYZ order; the line after it carries games won as home/away.
+    jocs_index = next((index for index in range(len(lines) - 1, -1, -1) if re.search(r"\bJocs\s+\d+\s+\d+", lines[index], re.I)), None)
+    jocs_match = re.search(r"Jocs\s+(\d+)\s+(\d+)", lines[jocs_index], re.I) if jocs_index is not None else None
+    games_line_match = re.fullmatch(r"(\d+)\s+(\d+)", lines[jocs_index + 1]) if jocs_index is not None and jocs_index + 1 < len(lines) else None
+    games_line = (int(games_line_match.group(1)), int(games_line_match.group(2))) if games_line_match else None
+    abc_games = sum(game["ganador"] == "local" for game in games)
+    xyz_games = sum(game["ganador"] == "visitante" for game in games)
+    if jocs_match:
+        abc_sets, xyz_sets = int(jocs_match.group(1)), int(jocs_match.group(2))
+    else:
+        abc_sets = sum(game["resultado_juegos"]["local"] for game in games if game["resultado_juegos"])
+        xyz_sets = sum(game["resultado_juegos"]["visitante"] for game in games if game["resultado_juegos"])
+
+    home_is_abc = abc_is_home(header_match.group(3), abc_team, xyz_team, games_line, abc_games, xyz_games)
+    if home_is_abc is None:
+        LOGGER.warning("%s: cannot tell whether %s or %s is the home team; keeping the ABC team as home",
+                       relative_path, abc_team, xyz_team)
+        home_is_abc = True
+    if home_is_abc:
+        local_name, visitor_name = abc_team, xyz_team
+        home_games, away_games, home_sets, away_sets = abc_games, xyz_games, abc_sets, xyz_sets
+    else:
+        local_name, visitor_name = xyz_team, abc_team
+        home_games, away_games, home_sets, away_sets = xyz_games, abc_games, xyz_sets, abc_sets
+        alignments = {"local": alignments["visitante"], "visitante": alignments["local"]}
+        if doubles:
+            doubles = {"local": doubles["visitante"], "visitante": doubles["local"]}
+        games = [swap_sides(game) for game in games]
+
+    winner = local_name if home_games > away_games else visitor_name if away_games > home_games else None
     for index, game in enumerate(games, 1):
         game["numero"] = index
         game["marcador_acumulado"] = {"local": sum(g["ganador"] == "local" for g in games[:index]), "visitante": sum(g["ganador"] == "visitante" for g in games[:index])}
-    return {"federacion": "Federació Catalana de Tennis Taula", "temporada": re.sub(r"-", "/", season), "competicion": clean_text(category_line.removeprefix("Categoria").split("Grup")[0]), "fase": phase, "grupo": group, "jornada": int(re.search(r"(\d+)$", relative_path.stem).group(1)) if re.search(r"(\d+)$", relative_path.stem) else 1, "fecha": date_value, "hora": None, "lugar": None, "equipos": {"local": {"id": None, "nombre": local_name, "delegado": None, "entrenador": None}, "visitante": {"id": None, "nombre": visitor_name, "delegado": None, "entrenador": None}}, "abc_es_local": True, "arbitros": {"principal": None, "asistente": None}, "alineaciones": alignments, "dobles": doubles, "partidos": games, "resultado_final": {"ganador": winner, "marcador_partidos": final_games, "marcador_juegos": None}, "acta_protestada": False}
+    return {"federacion": "Federació Catalana de Tennis Taula", "temporada": re.sub(r"-", "/", season), "competicion": clean_text(category_line.removeprefix("Categoria").split("Grup")[0]), "fase": phase, "grupo": group, "jornada": int(re.search(r"(\d+)$", relative_path.stem).group(1)) if re.search(r"(\d+)$", relative_path.stem) else 1, "fecha": date_value, "hora": None, "lugar": None, "equipos": {"local": {"id": None, "nombre": local_name, "delegado": None, "entrenador": None}, "visitante": {"id": None, "nombre": visitor_name, "delegado": None, "entrenador": None}}, "abc_es_local": home_is_abc, "arbitros": {"principal": None, "asistente": None}, "alineaciones": alignments, "dobles": doubles, "partidos": games, "resultado_final": {"ganador": winner, "marcador_partidos": {"local": home_games, "visitante": away_games}, "marcador_juegos": {"local": home_sets, "visitante": away_sets}}, "acta_protestada": False}
 
 
 def make_game(number: int, kind: str, left_letter: str, left_name: str, left_lic: str, right_letter: str, right_name: str, right_lic: str, left_score: int | None, right_score: int | None) -> dict[str, Any]:

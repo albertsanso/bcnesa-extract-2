@@ -11,38 +11,24 @@
   "equipos": {
     "local": {
       "id": null,
-      "nombre": "EUROCLIMA BADALONA",
+      "nombre": "CATT SANT CELONI",
       "delegado": null,
       "entrenador": null
     },
     "visitante": {
       "id": null,
-      "nombre": "CATT SANT CELONI",
+      "nombre": "EUROCLIMA BADALONA",
       "delegado": null,
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "licencia": "12910",
-        "nombre": "LAGRAÑA Mariano"
-      },
-      "B": {
-        "licencia": "14988",
-        "nombre": "LUCAS Pablo"
-      },
-      "C": {
-        "licencia": "10816",
-        "nombre": "LÓPEZ Carlos Alberto"
-      }
-    },
-    "visitante": {
       "Y": {
         "licencia": "13796",
         "nombre": "CANADELL Roc"
@@ -55,6 +41,20 @@
         "licencia": "10609",
         "nombre": "GARRIDO Joel"
       }
+    },
+    "visitante": {
+      "A": {
+        "licencia": "12910",
+        "nombre": "LAGRAÑA Mariano"
+      },
+      "B": {
+        "licencia": "14988",
+        "nombre": "LUCAS Pablo"
+      },
+      "C": {
+        "licencia": "10816",
+        "nombre": "LÓPEZ Carlos Alberto"
+      }
     }
   },
   "dobles": null,
@@ -64,24 +64,24 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "licencia": "12910",
-        "nombre": "LAGRAÑA Mariano"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13796",
         "nombre": "CANADELL Roc"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12910",
+        "nombre": "LAGRAÑA Mariano"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -89,39 +89,14 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "licencia": "14988",
-        "nombre": "LUCAS Pablo"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15266",
         "nombre": "SUBIRANA Biel"
       },
-      "sets": [],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "licencia": "10816",
-        "nombre": "LÓPEZ Carlos Alberto"
-      },
       "visitante": {
-        "letra": "Z",
-        "licencia": "10609",
-        "nombre": "GARRIDO Joel"
+        "letra": "B",
+        "licencia": "14988",
+        "nombre": "LUCAS Pablo"
       },
       "sets": [],
       "resultado_juegos": {
@@ -130,8 +105,33 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "licencia": "10609",
+        "nombre": "GARRIDO Joel"
+      },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10816",
+        "nombre": "LÓPEZ Carlos Alberto"
+      },
+      "sets": [],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -139,24 +139,24 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "licencia": "12910",
-        "nombre": "LAGRAÑA Mariano"
-      },
-      "visitante": {
         "letra": "X",
         "licencia": "15266",
         "nombre": "SUBIRANA Biel"
       },
+      "visitante": {
+        "letra": "A",
+        "licencia": "12910",
+        "nombre": "LAGRAÑA Mariano"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -164,24 +164,24 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "licencia": "10816",
-        "nombre": "LÓPEZ Carlos Alberto"
-      },
-      "visitante": {
         "letra": "Y",
         "licencia": "13796",
         "nombre": "CANADELL Roc"
       },
+      "visitante": {
+        "letra": "C",
+        "licencia": "10816",
+        "nombre": "LÓPEZ Carlos Alberto"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -189,34 +189,37 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "licencia": "14988",
-        "nombre": "LUCAS Pablo"
-      },
-      "visitante": {
         "letra": "Z",
         "licencia": "10609",
         "nombre": "GARRIDO Joel"
       },
+      "visitante": {
+        "letra": "B",
+        "licencia": "14988",
+        "nombre": "LUCAS Pablo"
+      },
       "sets": [],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 1
+        "local": 1,
+        "visitante": 5
       }
     }
   ],
   "resultado_final": {
     "ganador": "EUROCLIMA BADALONA",
     "marcador_partidos": {
-      "local": 15,
-      "visitante": 6
+      "local": 1,
+      "visitante": 5
     },
-    "marcador_juegos": null
+    "marcador_juegos": {
+      "local": 6,
+      "visitante": 15
+    }
   },
   "acta_protestada": false
 }
