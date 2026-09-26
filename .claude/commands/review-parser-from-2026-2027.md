@@ -27,7 +27,7 @@ Minimum fields in the JSON output should be:
 
 # Acceptance Criteria
 - [ ] The parser script should correctly parse HTML match reports (actas) from the FCTT website and extract relevant data.
-- [ ] The parser script should output structured JSON files following the specified format in `resources/actas-json/acta-model-definition.json`.
+- [ ] The parser script should output structured JSON files following the specified format in `../../docs/acta-model-definition.json`.
 - [ ] The parser script should handle variations in HTML structure and ensure accurate data extraction.
 - [ ] The parser script should log any errors encountered during parsing and provide a summary of successful parses and errors.
 - [ ] The parser script should be modular, with separate functions for parsing, data extraction, JSON formatting, and logging.

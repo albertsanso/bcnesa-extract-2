@@ -21,7 +21,7 @@ DEFAULT_PHASE = "all"
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_ROOT = PROJECT_ROOT / "resources" / "actas-pdf"
 OUTPUT_ROOT = PROJECT_ROOT / "resources" / "actas-json"
-SCHEMA_PATH = OUTPUT_ROOT / "acta-model-definition.json"
+SCHEMA_PATH = PROJECT_ROOT / "docs" / "acta-model-definition.json"
 LOGGER = logging.getLogger("convert_pdf_to_json")
 
 
@@ -222,7 +222,7 @@ def parse_match(text: str, relative_path: Path) -> dict[str, Any]:
     for index, game in enumerate(games, 1):
         game["numero"] = index
         game["marcador_acumulado"] = {"local": sum(g["ganador"] == "local" for g in games[:index]), "visitante": sum(g["ganador"] == "visitante" for g in games[:index])}
-    return {"federacion": "Federació Catalana de Tennis Taula", "temporada": re.sub(r"-", "/", season), "competicion": clean_text(category_line.removeprefix("Categoria").split("Grup")[0]), "fase": phase, "grupo": group, "jornada": int(re.search(r"(\d+)$", relative_path.stem).group(1)) if re.search(r"(\d+)$", relative_path.stem) else 1, "fecha": date_value, "hora": None, "lugar": None, "equipos": {"local": {"id": None, "nombre": local_name, "delegado": None, "entrenador": None}, "visitante": {"id": None, "nombre": visitor_name, "delegado": None, "entrenador": None}}, "abc_es_local": home_is_abc, "arbitros": {"principal": None, "asistente": None}, "alineaciones": alignments, "dobles": doubles, "partidos": games, "resultado_final": {"ganador": winner, "marcador_partidos": {"local": home_games, "visitante": away_games}, "marcador_juegos": {"local": home_sets, "visitante": away_sets}}, "acta_protestada": False}
+    return {"acta_publicada": True, "federacion": "Federació Catalana de Tennis Taula", "temporada": re.sub(r"-", "/", season), "competicion": clean_text(category_line.removeprefix("Categoria").split("Grup")[0]), "fase": phase, "grupo": group, "jornada": int(re.search(r"(\d+)$", relative_path.stem).group(1)) if re.search(r"(\d+)$", relative_path.stem) else 1, "fecha": date_value, "hora": None, "lugar": None, "equipos": {"local": {"id": None, "nombre": local_name, "delegado": None, "entrenador": None}, "visitante": {"id": None, "nombre": visitor_name, "delegado": None, "entrenador": None}}, "abc_es_local": home_is_abc, "arbitros": {"principal": None, "asistente": None}, "alineaciones": alignments, "dobles": doubles, "partidos": games, "resultado_final": {"ganador": winner, "marcador_partidos": {"local": home_games, "visitante": away_games}, "marcador_juegos": {"local": home_sets, "visitante": away_sets}}, "acta_protestada": False}
 
 
 def make_game(number: int, kind: str, left_letter: str, left_name: str, left_lic: str, right_letter: str, right_name: str, right_lic: str, left_score: int | None, right_score: int | None) -> dict[str, Any]:

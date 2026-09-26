@@ -144,6 +144,7 @@ class ConvertPdfToJsonTests(unittest.TestCase):
         self.assertEqual(data["fase"], "1a Fase")
         self.assertEqual(data["grupo"], 1)
         self.assertEqual(data["temporada"], "2025/2026")
+        self.assertTrue(data["acta_publicada"])
 
     def test_other_group_is_null_and_keeps_special_phase(self):
         data = convert_pdf_to_json.parse_match(

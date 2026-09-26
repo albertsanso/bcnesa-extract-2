@@ -10,7 +10,7 @@ Each file holds the match's ``.match-container`` block from the FCTT league page
 the match is played, that block has a ``.match-results-table`` with one row per game
 (the same markup parsed by ``fctt-extract/src/actas-html/parse_actas.py``). This script
 turns every played match into ``resources/actas-json/{same path}.json``, following
-``resources/actas-json/acta-model-definition.json``.
+``docs/acta-model-definition.json``.
 
 Matches that are not played yet, or whose acta is not published (the downloader's
 placeholder files, which have no results table), are never skipped: they are written as
@@ -59,7 +59,7 @@ DEFAULT_PHASE = "all"
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_ROOT = PROJECT_ROOT / "resources" / "actas-html"
 OUTPUT_ROOT = PROJECT_ROOT / "resources" / "actas-json"
-SCHEMA_PATH = OUTPUT_ROOT / "acta-model-definition.json"
+SCHEMA_PATH = "/docs/acta-model-definition.json"
 FEDERATION = "Federació Catalana de Tennis Taula"
 STATUSES = ("published", "unpublished", "skipped", "errors")
 LOGGER = logging.getLogger("parse_actas_from_html_to_json")
