@@ -45,6 +45,12 @@
       "pattern": "^[0-9]{4}/[0-9]{4}$",
       "examples": ["2025/2026", null]
     },
+    "genero": {
+      "type": "string",
+      "description": "Género de la competición del acta, derivado de la carpeta male/female de origen. Solo se incluye en las fuentes que distinguen género.",
+      "enum": ["masculino", "femenino"],
+      "examples": ["masculino", "femenino"]
+    },
     "competicion": {
       "type": ["string", "null"],
       "description": "Nombre de la competición, categoría y, habitualmente, género.",

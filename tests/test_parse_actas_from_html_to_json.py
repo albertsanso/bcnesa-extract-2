@@ -1,6 +1,7 @@
 import importlib.util
 import io
 import json
+import os
 import sys
 import tempfile
 import unittest
@@ -177,9 +178,40 @@ class ParseActaTests(unittest.TestCase):
         self.assertEqual((data["fecha"], data["hora"], data["lugar"], data["grupo"]), (None, None, None, None))
         self.assertIsNone(data["arbitros"]["principal"])
 
-    def test_placeholder_is_not_played(self):
-        with self.assertRaises(parser.NotPlayedError):
-            parser.parse_acta(PLACEHOLDER, RELATIVE)
+    def test_placeholder_becomes_an_unpublished_acta(self):
+        data = parser.parse_acta(PLACEHOLDER, Path("2026-2027", "Vet 1a", "G1", "Play Off Títol", "acta_151-247_2.html"))
+
+        self.assert_valid(data)
+        self.assertFalse(data["acta_publicada"])
+        self.assertEqual(data["id_partido"], "2026-2027_Vet1a_G1_PlayOffTitol_151-247_2")
+        self.assertEqual((data["temporada"], data["competicion"], data["grupo"], data["fase"]),
+                         ("2026/2027", "Vet 1a", 1, "Play Off Títol"))
+        self.assertEqual((data["jornada"], data["fecha"], data["hora"]), (2, "2026-10-04", "11:00"))
+        self.assertEqual(data["equipos"]["local"]["nombre"], "HOME TEAM")
+        self.assertEqual(data["equipos"]["visitante"]["nombre"], "AWAY TEAM")
+        self.assertEqual(data["lugar"]["ciudad"], "CASTELLDEFELS")
+        self.assertEqual((data["partidos"], data["alineaciones"], data["abc_es_local"]),
+                         ([], {"local": {}, "visitante": {}}, None))
+        self.assertEqual(data["resultado_final"], {"ganador": None, "marcador_partidos": None, "marcador_juegos": None})
+
+    def test_score_without_results_table_is_kept(self):
+        data = parser.parse_acta(PLACEHOLDER.replace("- - -", "4 - 0"), RELATIVE)
+
+        self.assert_valid(data)
+        self.assertFalse(data["acta_publicada"])
+        self.assertEqual(data["resultado_final"]["marcador_partidos"], {"local": 4, "visitante": 0})
+        self.assertEqual(data["resultado_final"]["ganador"], "HOME TEAM")
+
+    def test_played_acta_is_published_and_strictly_validated(self):
+        data = parser.parse_acta(match_html(HOME_ABC_ROWS), RELATIVE)
+        self.assertTrue(data["acta_publicada"])
+        self.assertEqual(data["id_partido"], "2026-2027_SegonaA_G2_1aFase_151-247_3")
+
+        data["alineaciones"]["local"].pop("A")
+        self.assertTrue(list(VALIDATOR.iter_errors(data)))
+        data["partidos"] = []
+        data["alineaciones"] = {"local": {}, "visitante": {}}
+        self.assertTrue(list(VALIDATOR.iter_errors(data)))
 
     def test_page_without_match_is_an_error(self):
         with self.assertRaisesRegex(ValueError, "no match found"):
@@ -218,21 +250,49 @@ class MainTests(unittest.TestCase):
             code = parser.main(argv)
         return code, stdout.getvalue()
 
-    def test_converts_played_and_counts_placeholders(self):
+    def output(self, name):
+        return self.output_root / "2026-2027" / "Segona _A_" / "G2" / "1a Fase" / name
+
+    def test_writes_played_and_unpublished_actas(self):
         code, output = self.run_main()
 
         self.assertEqual(code, 0)
-        self.assertIn("1 converted, 0 skipped, 1 unpublished, 0 errors (2 HTML files found)", output)
-        written = self.output_root / "2026-2027" / "Segona _A_" / "G2" / "1a Fase" / "acta_151-247_3.json"
-        self.assertEqual(json.loads(written.read_text(encoding="utf-8"))["jornada"], 3)
-        self.assertFalse(written.with_name("acta_247-151_4.json").exists())
+        self.assertIn("1 published, 1 unpublished, 0 skipped, 0 errors (2 HTML files found)", output)
+        self.assertEqual(json.loads(self.output("acta_151-247_3.json").read_text(encoding="utf-8"))["jornada"], 3)
+        placeholder = json.loads(self.output("acta_247-151_4.json").read_text(encoding="utf-8"))
+        self.assertEqual((placeholder["acta_publicada"], placeholder["jornada"]), (False, 4))
 
-    def test_existing_json_is_skipped_unless_forced(self):
+    def test_up_to_date_json_is_skipped_unless_forced(self):
         self.run_main()
         _, output = self.run_main()
-        self.assertIn("0 converted, 1 skipped", output)
+        self.assertIn("0 published, 0 unpublished, 2 skipped", output)
         _, output = self.run_main("--force")
-        self.assertIn("1 converted, 0 skipped", output)
+        self.assertIn("1 published, 1 unpublished, 0 skipped", output)
+
+    def test_refreshed_placeholder_is_parsed_again(self):
+        self.run_main()
+        html = self.input_root / "2026-2027" / "Segona _A_" / "G2" / "1a Fase" / "acta_247-151_4.html"
+        json_path = self.output("acta_247-151_4.json")
+        html.write_text(PLACEHOLDER.replace("04/10/2026", "05/10/2026"), encoding="utf-8")
+        os.utime(json_path, (html.stat().st_mtime - 10, html.stat().st_mtime - 10))
+
+        _, output = self.run_main()
+
+        self.assertIn("0 published, 1 unpublished, 1 skipped", output)
+        self.assertEqual(json.loads(json_path.read_text(encoding="utf-8"))["fecha"], "2026-10-05")
+
+    def test_placeholder_does_not_replace_a_published_json(self):
+        json_path = self.output("acta_247-151_4.json")
+        json_path.parent.mkdir(parents=True)
+        json_path.write_text('{"partidos": [{"numero": 1}]}', encoding="utf-8")
+        html = self.input_root / "2026-2027" / "Segona _A_" / "G2" / "1a Fase" / "acta_247-151_4.html"
+        os.utime(json_path, (html.stat().st_mtime - 10, html.stat().st_mtime - 10))
+
+        with self.assertLogs(parser.LOGGER, level="WARNING"):
+            _, output = self.run_main()
+
+        self.assertIn("1 published, 0 unpublished, 1 skipped", output)
+        self.assertEqual(json.loads(json_path.read_text(encoding="utf-8")), {"partidos": [{"numero": 1}]})
 
     def test_broken_acta_is_logged_and_sets_exit_code(self):
         broken = self.input_root / "2026-2027" / "Segona _A_" / "G2" / "1a Fase" / "acta_1-2_5.html"

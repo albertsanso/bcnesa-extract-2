@@ -255,13 +255,26 @@ def output_path_for_page(output_path: Path, page_number: int, page_count: int) -
 
 
 def output_files_exist(pdf_path: Path, output_path: Path) -> bool:
-    """Check the complete set of outputs, including the PDF page count."""
+    """Check the complete set of outputs, including the PDF page count.
+
+    An unpublished acta written by the HTML parser for a match that was not played yet
+    does not count, so the PDF acta replaces it.
+    """
     with pdfplumber.open(pdf_path) as pdf:
         page_count = len(pdf.pages)
     return all(
-        output_path_for_page(output_path, page_number, page_count).exists()
+        is_converted_json(output_path_for_page(output_path, page_number, page_count))
         for page_number in range(1, page_count + 1)
     )
+
+
+def is_converted_json(path: Path) -> bool:
+    if not path.exists():
+        return False
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("acta_publicada", True) is not False
+    except (OSError, ValueError, AttributeError):
+        return True
 
 
 def write_json(data: dict[str, Any], output_path: Path) -> None:

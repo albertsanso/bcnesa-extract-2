@@ -1,6 +1,7 @@
 import importlib.util
 import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -163,6 +164,15 @@ class ConvertPdfToJsonTests(unittest.TestCase):
         )
 
         self.assertEqual(list(Draft202012Validator(schema).iter_errors(data)), [])
+
+    def test_unpublished_html_acta_does_not_count_as_converted(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "acta_1.json"
+            self.assertFalse(convert_pdf_to_json.is_converted_json(path))
+            path.write_text('{"acta_publicada": false, "partidos": []}', encoding="utf-8")
+            self.assertFalse(convert_pdf_to_json.is_converted_json(path))
+            path.write_text('{"partidos": [{"numero": 1}]}', encoding="utf-8")
+            self.assertTrue(convert_pdf_to_json.is_converted_json(path))
 
 
 if __name__ == "__main__":
