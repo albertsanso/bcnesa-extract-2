@@ -305,7 +305,7 @@
         "licencia": { "type": "string", "description": "Licencia del jugador individual, cuando está disponible.", "pattern": "^[0-9]+$", "examples": ["31328"] },
         "id": { "type": "string", "description": "Identificador del jugador individual, cuando está disponible.", "pattern": "^[0-9]+$", "examples": ["31328"] },
         "ranking": { "type": "number", "description": "Ranking del jugador individual, cuando está disponible.", "examples": [1777.0] },
-        "jugadores": { "$ref": "#/$defs/pareja", "description": "Integrantes de la pareja; se usa en partidos de tipo dobles." }
+        "jugadores": { "oneOf": [{ "$ref": "#/$defs/pareja" }, { "type": "array", "maxItems": 0 }], "description": "Integrantes de la pareja; se usa en partidos de tipo dobles. Lista vacía cuando el dobles no se disputa.", "examples": [[]] }
       }
     },
     "set": {
