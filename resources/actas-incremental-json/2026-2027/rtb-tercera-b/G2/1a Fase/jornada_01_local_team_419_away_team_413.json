@@ -1,0 +1,460 @@
+{
+  "acta_publicada": true,
+  "id_partido": "2026-2027_RTBTERCERAB_G2_1aFase_419-413_1",
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "competicion": "RTB TERCERA B",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2026-09-27",
+  "hora": "11:00",
+  "lugar": {
+    "ciudad": "SANT ANDREU DE LA BARCA",
+    "recinto": "C/GASPAR DE PRESES S/N (INSTAL.LACIONS ESPORT. CAN SALVI),08740 SANT ANDREU DE LA BARCA"
+  },
+  "equipos": {
+    "local": {
+      "id": "419",
+      "nombre": "CETT SANT ANDREU DE LA BARCA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "413",
+      "nombre": "CTT LA UNIÓ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "abc_es_local": true,
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "REQUENA GOMEZ, DIEGO",
+        "licencia": "13282",
+        "id": "13282"
+      },
+      "B": {
+        "nombre": "RUIZ ALARCON, JESUS",
+        "licencia": "19235",
+        "id": "19235"
+      },
+      "C": {
+        "nombre": "DONAIRE JIMENEZ, JUAN FRANCISCO",
+        "licencia": "13279",
+        "id": "13279"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "MIRAS CRUZ, PEDRO",
+        "licencia": "13813",
+        "id": "13813"
+      },
+      "X": {
+        "nombre": "VILLARONGA HUERTA, MIQUEL",
+        "licencia": "15786",
+        "id": "15786"
+      },
+      "Z": {
+        "nombre": "GARGALLO PANIELLO, ROBERT",
+        "licencia": "17707",
+        "id": "17707"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "REQUENA GOMEZ, DIEGO",
+        "licencia": "13282",
+        "id": "13282"
+      },
+      {
+        "nombre": "RUIZ ALARCON, JESUS",
+        "licencia": "19235",
+        "id": "19235"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "MIRAS CRUZ, PEDRO",
+        "licencia": "13813",
+        "id": "13813"
+      },
+      {
+        "nombre": "GARGALLO PANIELLO, ROBERT",
+        "licencia": "17707",
+        "id": "17707"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "REQUENA GOMEZ, DIEGO",
+        "licencia": "13282",
+        "id": "13282"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "MIRAS CRUZ, PEDRO",
+        "licencia": "13813",
+        "id": "13813"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "RUIZ ALARCON, JESUS",
+        "licencia": "19235",
+        "id": "19235"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "VILLARONGA HUERTA, MIQUEL",
+        "licencia": "15786",
+        "id": "15786"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "DONAIRE JIMENEZ, JUAN FRANCISCO",
+        "licencia": "13279",
+        "id": "13279"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GARGALLO PANIELLO, ROBERT",
+        "licencia": "17707",
+        "id": "17707"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 1,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "REQUENA GOMEZ, DIEGO",
+        "licencia": "13282",
+        "id": "13282"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "VILLARONGA HUERTA, MIQUEL",
+        "licencia": "15786",
+        "id": "15786"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 14,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "DONAIRE JIMENEZ, JUAN FRANCISCO",
+        "licencia": "13279",
+        "id": "13279"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "MIRAS CRUZ, PEDRO",
+        "licencia": "13813",
+        "id": "13813"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 13
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "RUIZ ALARCON, JESUS",
+        "licencia": "19235",
+        "id": "19235"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GARGALLO PANIELLO, ROBERT",
+        "licencia": "17707",
+        "id": "17707"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "REQUENA GOMEZ, DIEGO",
+            "licencia": "13282",
+            "id": "13282"
+          },
+          {
+            "nombre": "RUIZ ALARCON, JESUS",
+            "licencia": "19235",
+            "id": "19235"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "MIRAS CRUZ, PEDRO",
+            "licencia": "13813",
+            "id": "13813"
+          },
+          {
+            "nombre": "GARGALLO PANIELLO, ROBERT",
+            "licencia": "17707",
+            "id": "17707"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT LA UNIÓ",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": {
+      "local": 13,
+      "visitante": 14
+    }
+  },
+  "acta_protestada": false
+}

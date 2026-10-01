@@ -1,0 +1,354 @@
+{
+  "acta_publicada": true,
+  "id_partido": "2026-2027_RTBPREFERENT_G3_1aFase_255-253_1",
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "competicion": "RTB PREFERENT",
+  "fase": "1a Fase",
+  "grupo": 3,
+  "jornada": 1,
+  "fecha": "2026-09-27",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": "PRAT DE LLOBREGAT",
+    "recinto": "POLIESPORTIU ESTRUCH C/PARE ANDREU DE PALMA S/N,08820 PRAT DE LLOBREGAT"
+  },
+  "equipos": {
+    "local": {
+      "id": "255",
+      "nombre": "TT PRAT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "253",
+      "nombre": "CTT OLESA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "abc_es_local": false,
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "X": {
+        "nombre": "MONTERO ROCAMORA, DAVID",
+        "licencia": "1209",
+        "id": "1209"
+      },
+      "Z": {
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CASADO LOPEZ, YERAY",
+        "licencia": "7242",
+        "id": "7242"
+      },
+      "B": {
+        "nombre": "BRANDARIZ CHICA, VICTOR",
+        "licencia": "15615",
+        "id": "15615"
+      },
+      "C": {
+        "nombre": "BUXEDA CALZADO, JOAN",
+        "licencia": "2409",
+        "id": "2409"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CASADO LOPEZ, YERAY",
+        "licencia": "7242",
+        "id": "7242"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "MONTERO ROCAMORA, DAVID",
+        "licencia": "1209",
+        "id": "1209"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "BRANDARIZ CHICA, VICTOR",
+        "licencia": "15615",
+        "id": "15615"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 2,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "BUXEDA CALZADO, JOAN",
+        "licencia": "2409",
+        "id": "2409"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "MONTERO ROCAMORA, DAVID",
+        "licencia": "1209",
+        "id": "1209"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CASADO LOPEZ, YERAY",
+        "licencia": "7242",
+        "id": "7242"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 13
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "BUXEDA CALZADO, JOAN",
+        "licencia": "2409",
+        "id": "2409"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "BRANDARIZ CHICA, VICTOR",
+        "licencia": "15615",
+        "id": "15615"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT OLESA",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": {
+      "local": 8,
+      "visitante": 12
+    }
+  },
+  "acta_protestada": false
+}

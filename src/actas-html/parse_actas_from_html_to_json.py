@@ -59,7 +59,7 @@ DEFAULT_PHASE = "all"
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_ROOT = PROJECT_ROOT / "resources" / "actas-html"
 OUTPUT_ROOT = PROJECT_ROOT / "resources" / "actas-json"
-SCHEMA_PATH = "/docs/acta-model-definition.json"
+SCHEMA_PATH = PROJECT_ROOT / "docs/acta-model-definition.json"
 FEDERATION = "Federació Catalana de Tennis Taula"
 STATUSES = ("published", "unpublished", "skipped", "errors")
 LOGGER = logging.getLogger("parse_actas_from_html_to_json")
@@ -292,7 +292,9 @@ def parse_players(cell: Tag | None) -> list[dict[str, str]]:
             player["id"] = code
         players.append(player)
     if not players and node_text(cell):
-        players = [{"nombre": name, "licencia": "0"} for name in re.split(r"\s*/\s*", node_text(cell)) if name]
+        # Unlinked doubles players are separated by <br> (older pages used " / ").
+        names = re.split(r"\s*(?:\n|/)\s*", cell.get_text("\n", strip=True))
+        players = [{"nombre": clean_text(name), "licencia": "0"} for name in names if clean_text(name)]
     return players
 
 

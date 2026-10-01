@@ -1,0 +1,465 @@
+{
+  "acta_publicada": true,
+  "id_partido": "2026-2027_RTBTERCERAB_G1_1aFase_410-400_1",
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "competicion": "RTB TERCERA B",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2026-09-27",
+  "hora": "10:30",
+  "lugar": {
+    "ciudad": "SABADELL",
+    "recinto": "CENTRE CAN LLONG-PISCINES CARLES IBARS, C/BUDAPEST, 1,08206 SABADELL"
+  },
+  "equipos": {
+    "local": {
+      "id": "410",
+      "nombre": "CLUB NATACIO SABADELL 'A'",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "400",
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "abc_es_local": true,
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "ALGABA OJEDA, PAU",
+        "licencia": "19599",
+        "id": "19599"
+      },
+      "B": {
+        "nombre": "VILA GADEA, ROGER",
+        "licencia": "19169",
+        "id": "19169"
+      },
+      "C": {
+        "nombre": "ALGABA OJEDA, MARC",
+        "licencia": "19588",
+        "id": "19588"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "SOLÉ, ROGER",
+        "licencia": "17794",
+        "id": "17794"
+      },
+      "X": {
+        "nombre": "RIBA MARTÍ, LAURA",
+        "licencia": "19210",
+        "id": "19210"
+      },
+      "Z": {
+        "nombre": "PUIG VIDAL, SALVADOR",
+        "licencia": "16422",
+        "id": "16422"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "VILA GADEA, ROGER",
+        "licencia": "19169",
+        "id": "19169"
+      },
+      {
+        "nombre": "ALGABA OJEDA, MARC",
+        "licencia": "19588",
+        "id": "19588"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "RIBA MARTÍ, LAURA",
+        "licencia": "19210",
+        "id": "19210"
+      },
+      {
+        "nombre": "PUIG VIDAL, SALVADOR",
+        "licencia": "16422",
+        "id": "16422"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "ALGABA OJEDA, PAU",
+        "licencia": "19599",
+        "id": "19599"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "SOLÉ, ROGER",
+        "licencia": "17794",
+        "id": "17794"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA GADEA, ROGER",
+        "licencia": "19169",
+        "id": "19169"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "RIBA MARTÍ, LAURA",
+        "licencia": "19210",
+        "id": "19210"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "ALGABA OJEDA, MARC",
+        "licencia": "19588",
+        "id": "19588"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "PUIG VIDAL, SALVADOR",
+        "licencia": "16422",
+        "id": "16422"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 17,
+          "visitante": 15
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "ALGABA OJEDA, PAU",
+        "licencia": "19599",
+        "id": "19599"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "RIBA MARTÍ, LAURA",
+        "licencia": "19210",
+        "id": "19210"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "ALGABA OJEDA, MARC",
+        "licencia": "19588",
+        "id": "19588"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "SOLÉ, ROGER",
+        "licencia": "17794",
+        "id": "17794"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 17,
+          "visitante": 15
+        },
+        {
+          "set": 5,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA GADEA, ROGER",
+        "licencia": "19169",
+        "id": "19169"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "PUIG VIDAL, SALVADOR",
+        "licencia": "16422",
+        "id": "16422"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "VILA GADEA, ROGER",
+            "licencia": "19169",
+            "id": "19169"
+          },
+          {
+            "nombre": "ALGABA OJEDA, MARC",
+            "licencia": "19588",
+            "id": "19588"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "RIBA MARTÍ, LAURA",
+            "licencia": "19210",
+            "id": "19210"
+          },
+          {
+            "nombre": "PUIG VIDAL, SALVADOR",
+            "licencia": "16422",
+            "id": "16422"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB NATACIO SABADELL 'A'",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": {
+      "local": 15,
+      "visitante": 13
+    }
+  },
+  "acta_protestada": false
+}
